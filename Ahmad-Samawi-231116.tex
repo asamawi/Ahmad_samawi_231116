@@ -1,0 +1,145 @@
+% !TEX root = Ahmad-Samawi-231116.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+% DOCUMENT CLASS
+\documentclass[oneside,12pt]{Classes/RoboticsLaTeX}
+
+% USEFUL PACKAGES
+% Commonly-used packages are included by default.
+% Refer to section "Book - Useful packages" in the class file "Classes/RoboticsLaTeX.cls" for the complete list.
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{multirow}
+%\usepackage{colortbl}
+%\usepackage{color}
+\usepackage[table]{xcolor}
+\usepackage{epigraph}
+%\usepackage{graphicx}
+%\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage[pdftex]{graphicx}
+\usepackage{pdfpages}
+%\usepackage{tabularx}
+\usepackage{pdflscape}
+\usepackage[acronym,toc]{glossaries}
+\makeglossaries
+\usepackage{setspace}
+\setstretch{1.5}
+%\onehalfspacing
+% SPECIAL COMMANDS
+% correct bad hyphenation
+\hyphenation{op-tical net-works semi-conduc-tor}
+\hyphenation{par-ti-cu-lar mo-du-le ge-stu-re}
+% INTERLINEA 1.5
+%\renewcommand{\baselinestretch}{1.5}
+
+%% ignore slightly overfull and underfull boxes
+%\hbadness=10000
+%\hfuzz=50pt
+% declare commonly used operators
+\DeclareMathOperator*{\argmax}{argmax}
+
+% HEADER
+\ifpdf
+    \pdfinfo {/Title ()
+              /Creator (TeX)
+              /Producer (pdfTeX)
+              /Author ()
+              /CreationDate () %format D:YYYYMMDDhhmmss
+              /ModDate ()
+              /Subject (Example of Thesis)
+              /Keywords ( Thesis, Example)}
+    \pdfcatalog {/PageMode (/UseOutlines)
+                 /OpenAction (fitbh) }
+\fi
+
+\title{\Large{Secure Cloud Deployment Framework for SMEs in Developing Regions}}
+
+\ifpdf
+  \author{Ahmad Mohamad Al Samaoui}
+  \collegeordept{Faculty of Computer Studies}
+  \university{Arab Open University - Lebanon Branch}
+  \crest{\includegraphics[width=50mm]{AOU.png}}
+\else
+  \author{Ahmad Mohamad Alsamaoui}
+  \collegeordept{Faculty of Computer Studies}
+  \university{Arab Open University}
+  \crest{\includegraphics[width=50mm]{AOU.png}}
+\fi
+% nome relatore tesi 
+\supervisor{Dr. Ali}
+
+% DECLARATION
+% Use the following command to change the declaration text:
+%\renewcommand{\submittedtext}{INSERT NEW TEXT HERE}
+\degree{MSc in Computing - Information Security and Forensics Track}
+\degreedate{\today}
+% Define submitted text expected by the class
+\providecommand{\submittedtext}{Submitted in partial fulfillment of the requirements for the \degree}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\makeglossaries
+\loadglsentries{glossary}
+
+\begin{document}
+
+% A page with the abstract and running title and author etc may be
+% required to be handed in separately. If this is not so, comment
+% the following 3 lines:
+%\begin{abstractseparate}
+%\input{Abstract/abstract}
+%\end{abstractseparate}
+\begin{spacing}{1}
+\maketitle
+\end{spacing}
+
+% add an empty page after title page
+\newpage\null\thispagestyle{empty}\newpage
+
+% set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+
+\frontmatter
+\include{Acknowledgement/acknowledgement}
+\include{Dedication/dedication}
+\include{Abstract/abstract}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\printglossary[type=\acronymtype,title={List of Abbreviations and Acronyms}]
+%\printglossary[title=List of Acronyms,type=\acronymtype]
+%\printglossary  % Print the nomenclature (WAY TOO COMPLEX FOR ME NOW!)
+%\addcontentsline{toc}{chapter}{Nomenclature}
+%\startwordcount
+\mainmatter
+\include{Introduction/introduction}
+\include{Chapter1/chapter1}
+\include{Chapter2/chapter2}
+\include{Chapter3/chapter3}
+\include{Chapter4/chapter4}
+\include{Conclusions/conclusions}
+
+\appendix
+%\include{Appendix1/appendix1}
+%\include{Appendix2/appendix2}
+%\bibliographystyle{Classes/RoboticsBiblio}    % bibliography style
+%\stopwordcount 
+%\dumpwordcount
+\bibliographystyle{ieeetr}
+\renewcommand{\bibname}{References}           % change default name Bibliography to References
+\bibliography{References/references}          % References file
+\addcontentsline{toc}{chapter}{References}    % add References to contents page
+%\addcontentsline{toc}{section}{References}
+\nocite{*}
+\end{document}

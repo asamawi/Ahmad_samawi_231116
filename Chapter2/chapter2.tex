@@ -1,0 +1,58 @@
+\chapter{State of the Art}
+\label{chap:second}
+
+\ifpdf
+    \graphicspath{{Chapter2/Figures/PNG/}{Chapter2/Figures/PDF/}{Chapter2/Figures/}}
+\else
+    \graphicspath{{Chapter2/Figures/EPS/}{Chapter2/Figures/}}
+\fi
+
+\section*{Summary}
+\addcontentsline{toc}{section}{Summary}
+
+This chapter reviews the existing literature on cloud computing adoption, SME cybersecurity challenges, and security frameworks relevant to developing regions. It critically analyzes the gaps in current research and highlights how these limitations motivate the development of the Secure Cloud Deployment Framework (SCDF). The review is organized into three main sections: (1) cloud computing adoption among SMEs, (2) key cybersecurity challenges in SME environments, and (3) the state of existing cloud security frameworks and standards.
+
+% ----------------------------------------------------------
+\section{Cloud Computing Adoption among SMEs}
+\label{sec:sec21}
+
+Cloud computing has become a cornerstone of digital transformation across organizations of all sizes. For SMEs, it offers scalability, flexibility, and a reduction in upfront infrastructure costs. However, adoption patterns differ significantly between developed and developing economies. 
+
+Studies such as \citet{Sabbah2019_LebanonTOE} demonstrate that Lebanese SMEs adopt cloud solutions primarily for cost efficiency and ease of access but face major barriers related to infrastructure quality, limited security expertise, and lack of awareness of best practices. Similarly, in the broader MENA context, \citet{AlRababah2023_MENA_Barriers} identified cost sensitivity, weak regulatory enforcement, and cultural resistance to outsourcing IT operations as critical deterrents. 
+
+In Sub-Saharan Africa, \citet{SitholeRuhode2021_SA_SMME_TOE} observed that SMEs are aware of the benefits of cloud computing but struggle with unreliable connectivity, insufficient cybersecurity training, and high service costs. Collectively, these studies underscore that while SMEs in developing regions recognize the strategic value of the cloud, the practical constraints of cost, connectivity, and security awareness remain major barriers to adoption.
+
+% ----------------------------------------------------------
+\section{Cybersecurity Challenges Facing SMEs}
+\label{sec:sec22}
+
+The transition to the cloud introduces a variety of cybersecurity risks that are magnified for SMEs due to their resource limitations. According to \citet{IBM2024_CostOfBreach}, cloud misconfigurations and compromised credentials remain among the top causes of breaches worldwide. For small enterprises, these issues are often a result of inadequate technical knowledge and the absence of structured security governance. 
+
+Research from the MENA region and Sub-Saharan Africa reveals that SMEs rarely conduct risk assessments or implement formalized security policies. Instead, security tends to be reactive, addressing threats only after incidents occur. Studies such as \citet{MudzambaRenaud2022_SA_AdoptionChallenges} point out that while many SMEs adopt cloud services, few implement multi-factor authentication, network segmentation, or data backup policies effectively. 
+
+Legal frameworks such as Lebanon’s \textit{Law No.~81 (2018)} \citep{LebanonLaw81_2018_SMEX} provide a foundation for digital privacy and data protection, yet awareness and compliance remain low. In the absence of enforcement mechanisms, many SMEs underestimate their security obligations. This combination of technical and regulatory gaps contributes to a persistent vulnerability landscape in SME cloud adoption.
+
+% ----------------------------------------------------------
+\section{Existing Cloud Security Frameworks and Standards}
+\label{sec:sec23}
+
+A variety of cloud security frameworks and international standards have been proposed to mitigate the risks associated with cloud adoption. The most influential include the National Institute of Standards and Technology (NIST) Special Publication 800-144 \citep{NIST800144}, ISO/IEC 27017 for cloud security controls, and the ENISA Cloud Computing Risk Assessment Guidelines \citep{ENISA2018CloudRisk}. These frameworks collectively define policies for identity management, data protection, incident response, and risk assessment.
+
+However, most of these standards are designed for large organizations with dedicated cybersecurity resources. As highlighted by \citet{Akinyele2023HybridSME} and \citet{Kumar2022LightweightOrch}, SMEs require lightweight security orchestration solutions that can be deployed using open-source tools such as Wazuh, Suricata, and ELK. These approaches offer affordable ways to achieve monitoring and compliance without the cost of enterprise-grade solutions.
+
+Regional policy documents, such as Lebanon’s National Cybersecurity Strategy \citep{PCM2019_LebanonCyberStrategy} and OMSAR’s Cybersecurity Policy Guidelines \citep{OMSAR2015_PolicyGuidelines}, reinforce the importance of adopting risk-based security practices. Yet, these remain largely at the strategic level and have not been operationalized into actionable frameworks for SMEs. As a result, a gap persists between high-level policy guidance and practical implementation models suited to small enterprises.
+
+% ----------------------------------------------------------
+\section{Critical Assessment and Research Gap}
+\label{sec:sec24}
+
+From the reviewed literature, it is evident that while numerous studies have addressed cloud adoption and security standards, few have provided an integrated, context-aware approach tailored to the realities of SMEs in developing regions. The existing body of work tends to focus on individual challenges—such as infrastructure limitations or policy deficiencies—without offering a holistic deployment model that unifies governance, technology, and practical implementation.  
+
+This gap motivates the current research to propose a Secure Cloud Deployment Framework (SCDF) that combines adaptable controls from international standards with low-cost, open-source solutions and a governance model aligned with local regulatory contexts. By addressing both technical and organizational dimensions, the SCDF aims to bridge the gap between academic frameworks and real-world SME capabilities.
+
+% ----------------------------------------------------------
+\section*{Summary}
+\addcontentsline{toc}{section}{Summary}
+
+This chapter reviewed the state of the art related to cloud computing adoption, SME cybersecurity challenges, and existing frameworks. It identified key gaps in current research and highlighted the lack of a practical, scalable, and affordable approach to secure cloud deployment for SMEs in developing regions. The insights derived from this literature review form the foundation for the proposed Secure Cloud Deployment Framework (SCDF) discussed in the next chapter.
+

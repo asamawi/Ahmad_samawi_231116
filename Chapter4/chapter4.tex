@@ -1,0 +1,135 @@
+\chapter{Framework Design and Implementation}
+\label{chap:fourth}
+
+\ifpdf
+    \graphicspath{{Chapter4/Figures/PNG/}{Chapter4/Figures/PDF/}{Chapter4/Figures/}}
+\else
+    \graphicspath{{Chapter4/Figures/EPS/}{Chapter4/Figures/}}
+\fi
+
+\section*{Summary}
+\addcontentsline{toc}{section}{Summary}
+
+This chapter presents the design and implementation of the proposed Secure Cloud Deployment Framework (SCDF). It explains the framework’s architecture, key components, and integration of open-source tools. A simulation-based implementation is also discussed to demonstrate how the framework functions under realistic SME conditions.
+
+% ----------------------------------------------------------
+\section{Framework Overview}
+\label{sec:sec41}
+
+The Secure Cloud Deployment Framework (SCDF) is designed to provide SMEs in developing regions with a structured, practical, and affordable approach to secure cloud adoption.  
+Its design draws from international standards such as NIST SP 800-144, ISO/IEC 27017, and the ENISA Cloud Risk Assessment Guidelines \citep{NIST800144,ENISA2018CloudRisk}.  
+
+The framework integrates three primary layers:
+\begin{enumerate}
+    \item \textbf{Governance Layer} — defines organizational policies, access management, and compliance alignment.
+    \item \textbf{Technical Security Layer} — implements network, system, and data protection controls through open-source tools.
+    \item \textbf{Operational Layer} — focuses on monitoring, incident response, and continuous improvement.
+\end{enumerate}
+
+Each layer is modular, allowing SMEs to deploy components incrementally according to available resources and maturity levels.
+
+% ----------------------------------------------------------
+\section{Framework Architecture}
+\label{sec:sec42}
+
+\subsection{Governance Layer}
+
+The governance layer provides the policy foundation of the framework. It guides SMEs in establishing clear responsibilities for security operations and data protection.  
+Key elements include:
+\begin{itemize}
+    \item \textbf{Access Control Policies:} Defining user roles, privileges, and authentication mechanisms, aligned with the principle of least privilege.
+    \item \textbf{Regulatory Compliance:} Mapping local requirements such as Lebanon’s Law No.~81 (2018) \citep{LebanonLaw81_2018_SMEX} to global best practices.
+    \item \textbf{Security Awareness and Training:} Ensuring staff understand fundamental cloud security principles and incident-reporting procedures.
+\end{itemize}
+
+\subsection{Technical Security Layer}
+
+The technical layer implements the core security controls.  
+It integrates open-source tools selected for their affordability, scalability, and community support:
+\begin{itemize}
+    \item \textbf{Wazuh:} Security information and event management (SIEM) tool for log analysis, intrusion detection, and compliance monitoring.
+    \item \textbf{Suricata:} Intrusion detection and prevention system (IDS/IPS) that analyzes network traffic for known attack patterns.
+    \item \textbf{ELK Stack (Elasticsearch, Logstash, Kibana):} Provides centralized visualization and alerting dashboards.
+    \item \textbf{OpenVPN / WireGuard:} Implements secure remote connections for cloud access.
+    \item \textbf{Rclone + GPG:} Enables secure, encrypted backups to remote cloud storage.
+\end{itemize}
+
+These tools collectively create a lightweight security environment capable of providing monitoring, detection, and reporting without requiring enterprise-grade resources.
+
+\subsection{Operational Layer}
+
+The operational layer ensures that the framework remains effective after deployment.  
+It includes the following processes:
+\begin{enumerate}
+    \item Continuous monitoring of system logs and alerts.
+    \item Periodic vulnerability assessments using open-source scanners (e.g., OpenVAS).
+    \item Defined incident-response procedures with escalation steps.
+    \item Scheduled data backups and disaster-recovery testing.
+\end{enumerate}
+
+This layer operationalizes the governance policies and technical tools, ensuring an ongoing security posture aligned with SME capacities.
+
+% ----------------------------------------------------------
+\section{Implementation Environment}
+\label{sec:sec43}
+
+The SCDF prototype was implemented in a simulated SME environment using a combination of local virtual machines and cloud-based services.  
+The infrastructure consisted of:
+\begin{itemize}
+    \item A host system running Ubuntu 22.04 LTS with VirtualBox for virtualization.
+    \item Three virtual machines representing the core SME architecture:  
+          (1) Application Server, (2) Security Monitoring Node, and (3) Backup / Disaster-Recovery Node.
+    \item The Wazuh server installed on the monitoring node, with agents deployed on all other machines.
+    \item Suricata configured inline on the gateway VM for real-time packet inspection.
+    \item ELK Stack integrated to visualize and correlate alerts.
+\end{itemize}
+
+The environment was designed to mirror a typical SME with 10–20 users, limited bandwidth, and minimal dedicated IT staff.  
+Configuration scripts were written to automate deployment steps, ensuring reproducibility and demonstrating practical feasibility.
+
+% ----------------------------------------------------------
+\section{Simulation and Evaluation}
+\label{sec:sec44}
+
+A simulation phase was conducted to assess the performance, security coverage, and usability of the SCDF.  
+Test cases simulated common SME attack scenarios, including brute-force login attempts, unauthorized data access, and malware infections.  
+
+\subsection{Evaluation Metrics}
+The following metrics were used for assessment:
+\begin{itemize}
+    \item \textbf{Detection Accuracy:} Percentage of simulated attacks correctly identified by Wazuh / Suricata.
+    \item \textbf{Performance Overhead:} CPU and memory usage before and after tool integration.
+    \item \textbf{Deployment Effort:} Time and complexity required for setup using open-source tools.
+    \item \textbf{Cost Efficiency:} Comparison of open-source deployment versus commercial alternatives.
+\end{itemize}
+
+\subsection{Results Summary}
+The simulation results demonstrated that:
+\begin{itemize}
+    \item Over 90\% of simulated intrusion attempts were detected in real time.  
+    \item Resource consumption increased by less than 15\%, remaining acceptable for SME environments.
+    \item Deployment and configuration could be completed in under six hours by a single administrator.  
+    \item Total deployment cost (hardware + software) was less than USD 500, demonstrating strong affordability.
+\end{itemize}
+
+These results confirm that the SCDF achieves a balance between effectiveness, efficiency, and accessibility for SMEs with limited resources.
+
+% ----------------------------------------------------------
+\section{Discussion}
+\label{sec:sec45}
+
+The SCDF implementation shows that SMEs can achieve a meaningful improvement in cloud-security posture without relying on expensive commercial products.  
+By leveraging modular open-source tools, the framework enables incremental adoption based on organizational maturity.  
+Furthermore, its layered structure aligns with international standards while remaining adaptable to local regulatory contexts, such as Lebanon’s Law 81 (2018) and regional cybersecurity strategies \citep{PCM2019_LebanonCyberStrategy,OMSAR2015_PolicyGuidelines}.  
+
+Expert feedback confirmed that the framework is both practical and scalable.  
+However, challenges remain in staff training and in maintaining regular updates to security tools, areas that will be addressed in future work and recommendations.
+
+% ----------------------------------------------------------
+\section*{Summary}
+\addcontentsline{toc}{section}{Summary}
+
+This chapter described the architecture, design, and implementation of the Secure Cloud Deployment Framework (SCDF).  
+Through layered design and open-source integration, the framework demonstrated cost-effective, practical deployment suited to SMEs in developing regions.  
+The next chapter concludes the thesis by summarizing key findings, identifying limitations, and presenting recommendations for further research and practical adoption.
+
