@@ -16,104 +16,104 @@ This chapter presents the methodology adopted to design, develop, and validate t
 \section{Research Design}
 \label{sec:sec31}
 
-The research follows a mixed-methods design that integrates qualitative and quantitative approaches to ensure a comprehensive understanding of the problem.  
-The process is divided into four key phases:
-
-\begin{enumerate}
-    \item \textbf{Exploratory Review:} A systematic literature review was conducted to identify the current state of cloud security adoption, SME challenges, and limitations of existing frameworks.
-    \item \textbf{Framework Design:} Based on findings from the literature, a preliminary version of the Secure Cloud Deployment Framework (SCDF) was designed, combining theoretical models (such as the Technology–Organization–Environment framework) with technical security controls derived from NIST, ISO/IEC, and ENISA standards.
-    \item \textbf{Validation through Simulation:} The framework was implemented in a controlled cloud environment using open-source tools to evaluate its functionality, security coverage, and practicality for SMEs.
-    \item \textbf{Expert Evaluation:} Subject-matter experts in cybersecurity and cloud systems were invited to assess the framework’s completeness, usability, and adaptability to real-world SME scenarios.
-\end{enumerate}
-
-This design ensures that the resulting framework is not only conceptually sound but also operationally feasible in environments constrained by budget and technical capacity.
+\begin{itemize}
+    \item \textbf{Type:} Mixed-methods research (Qualitative + Quantitative).
+    \item \textbf{Phases:}
+    \begin{enumerate}
+        \item \textbf{Exploratory Review:} Literature search on SME challenges and framework gaps.
+        \item \textbf{Framework Design:} Integrating theory (TOE) with technical standards (NIST/ISO) into SCDF.
+        \item \textbf{Validation (Sim):} Implementation in controlled cloud env with open-source tools.
+        \item \textbf{Validation (Expert):} Assessment by subject-matter experts for usability/completeness.
+    \end{enumerate}
+    \item \textbf{Goal:} Ensure conceptual soundness + Operational feasibility.
+\end{itemize}
 
 % ----------------------------------------------------------
 \section{Research Approach}
 \label{sec:sec32}
 
-The study adopts a \textit{design science research} (DSR) approach, which emphasizes the creation and evaluation of artifacts that address identified problems.  
-The Secure Cloud Deployment Framework (SCDF) is treated as a design artifact that is iteratively developed and refined through evaluation.  
-
-The DSR cycle applied in this research includes:
 \begin{itemize}
-    \item \textbf{Problem Identification:} Understanding cloud adoption and security challenges among SMEs through prior studies \citep{Sabbah2019_LebanonTOE,AlRababah2023_MENA_Barriers}.
-    \item \textbf{Design and Development:} Creating a modular framework that integrates policy, governance, and technical security layers suitable for SMEs.
-    \item \textbf{Demonstration:} Deploying the framework in a simulated environment to assess implementation feasibility.
-    \item \textbf{Evaluation:} Collecting expert feedback to assess effectiveness and adaptability.
-    \item \textbf{Communication:} Documenting findings for dissemination to both academic and professional audiences.
+    \item \textbf{Methodology:} Design Science Research (DSR).
+    \item \textbf{Artifact:} Secure Cloud Deployment Framework (SCDF).
+    \item \textbf{DSR Cycle:}
+    \begin{itemize}
+        \item Problem Identification (SME constraints).
+        \item Design & Development (Modular framework).
+        \item Demonstration (Simulated deployment).
+        \item Evaluation (Expert feedback).
+        \item Communication (Thesis/Publications).
+    \end{itemize}
 \end{itemize}
-
-This approach ensures iterative refinement and alignment with both research rigor and industry relevance.
 
 % ----------------------------------------------------------
 \section{Data Collection and Sources}
 \label{sec:sec33}
 
-Data for this research were obtained from two primary sources:  
-(1) secondary data collected from peer-reviewed literature, policy documents, and standards; and  
-(2) primary data gathered through expert consultation and practical testing.  
+\begin{itemize}
+    \item \textbf{Secondary Data:} Academic papers, Technical reports (ENISA), Policy docs (Lebanon Law 81).
+    \item \textbf{Primary Data:} Expert interviews + Experimental results.
+\end{itemize}
 
 \subsection{Secondary Data}
-\label{sec:subsec331}
-Secondary data included academic papers, technical reports, and governmental cybersecurity policies from Lebanon, the MENA region, and Sub-Saharan Africa. These resources were analyzed to identify recurring patterns, adoption barriers, and existing mitigation frameworks. Key references include \citet{Sabbah2019_LebanonTOE}, \citet{MudzambaRenaud2022_SA_AdoptionChallenges}, and the \textit{ENISA Cloud Computing Risk Assessment Guidelines} \citep{ENISA2018CloudRisk}.
+
+\begin{itemize}
+    \item Analysis of regional policies (MENA/SSA) and standards.
+    \item Identification of recurring adoption barriers.
+\end{itemize}
 
 \subsection{Primary Data}
-\label{sec:subsec332}
-Primary data were collected through semi-structured expert interviews and practical experiments. Experts were selected from academia and industry, focusing on individuals with experience in SME IT management, cybersecurity consulting, and cloud infrastructure deployment. Interviews focused on identifying:
-\begin{enumerate}
-    \item Core security challenges encountered during SME cloud migrations.
-    \item Feasible open-source tools and controls suitable for low-cost deployments.
-    \item Organizational and regulatory constraints that influence framework adoption.
-\end{enumerate}
+
+\begin{itemize}
+    \item \textbf{Method:} Semi-structured interviews + Experiments.
+    \item \textbf{Focus:}
+    \begin{enumerate}
+        \item Core security challenges.
+        \item Feasible open-source tools.
+        \item Organizational/Regulatory constraints.
+    \end{enumerate}
+\end{itemize}
 
 % ----------------------------------------------------------
 \section{Framework Development Process}
 \label{sec:sec34}
 
-The Secure Cloud Deployment Framework (SCDF) was developed iteratively, integrating insights from the literature review, expert consultations, and pilot simulations. The process involved four main steps:
-
 \begin{enumerate}
-    \item \textbf{Requirement Identification:} Mapping SME security needs against existing standards (NIST~800-144, ISO~27017, ENISA~2018) and regional policy requirements such as Lebanon’s Law~81.
-    \item \textbf{Framework Architecture Design:} Structuring SCDF into layers — governance, technical, and operational — ensuring modular deployment for scalability.
-    \item \textbf{Tool Integration:} Selecting lightweight, open-source components including Wazuh (SIEM), Suricata (IDS/IPS), and ELK Stack for monitoring and visualization.
-    \item \textbf{Validation Preparation:} Defining measurable indicators such as implementation time, control coverage, and resource utilization to evaluate framework performance.
+    \item \textbf{Requirement ID:} Mapping SME needs vs. Standards (NIST, ISO) & Local Policy.
+    \item \textbf{Architecture:} Governance + Technical + Operational layers.
+    \item \textbf{Integration:} Selection of tools (Wazuh, Suricata, ELK).
+    \item \textbf{Validation Prep:} Definition of metrics (Time, Resource, Coverage).
 \end{enumerate}
-
-The iterative design enabled continuous feedback and adjustment of framework components to ensure both efficiency and accessibility for SMEs.
 
 % ----------------------------------------------------------
 \section{Validation and Evaluation}
 \label{sec:sec35}
 
-The SCDF was validated through two complementary methods: simulation testing and expert evaluation.
-
 \subsection{Simulation-Based Validation}
-\label{sec:subsec351}
-A cloud environment was created using a virtualized infrastructure (e.g., VirtualBox and VMware) to replicate typical SME conditions. Open-source security tools were configured within this environment to simulate real-world deployment scenarios. Key evaluation metrics included:
+
 \begin{itemize}
-    \item \textbf{Security Coverage:} Number of core controls implemented (identity management, network monitoring, data encryption, backup).
-    \item \textbf{Performance Overhead:} CPU, memory, and bandwidth utilization after integrating the SCDF tools.
-    \item \textbf{Ease of Deployment:} Installation and configuration time required for each component.
+    \item \textbf{Setup:} Virtualized SME environment.
+    \item \textbf{Tools:} Wazuh, Suricata, Open Source configs.
+    \item \textbf{Metrics:}
+    \begin{itemize}
+        \item Security Coverage (Identity, Network, Data).
+        \item Performance Overhead (CPU/RAM).
+        \item Ease of Deployment (Time).
+    \end{itemize}
 \end{itemize}
 
-Results from the simulation provided empirical evidence of the feasibility and efficiency of the proposed framework.
-
 \subsection{Expert Evaluation}
-\label{sec:subsec352}
-Following the simulation, the SCDF was reviewed by domain experts from academia and industry. Each expert assessed the framework based on the following criteria:
-\begin{enumerate}
-    \item \textbf{Relevance:} Alignment of the framework with SME needs and regional conditions.
-    \item \textbf{Completeness:} Inclusion of essential security and governance controls.
-    \item \textbf{Usability:} Practicality of deployment using open-source tools.
-    \item \textbf{Scalability:} Adaptability to SMEs of varying sizes and sectors.
-\end{enumerate}
 
-Feedback collected from these evaluations was incorporated into the final framework revision to ensure that it meets both technical and contextual requirements.
+\begin{itemize}
+    \item \textbf{Reviewers:} Academic/Industry experts.
+    \item \textbf{Criteria:} Relevance, Completeness, Usability, Scalability.
+\end{itemize}
 
 % ----------------------------------------------------------
 \section*{Summary}
 \addcontentsline{toc}{section}{Summary}
 
-This chapter presented the research methodology underpinning the development of the Secure Cloud Deployment Framework (SCDF). It detailed the design science approach, data collection strategies, framework development steps, and validation methods. The next chapter describes the implementation and evaluation of the SCDF, including its architecture, components, and performance results obtained from simulation and expert review.
+\begin{itemize}
+    \item Chapter details: DSR methodology, Data collection, Development steps, Validation.
+    \item Next layout: Implementation results and Framework description.
+\end{itemize}
 

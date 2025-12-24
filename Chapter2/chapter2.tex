@@ -9,150 +9,160 @@
 
 \section{Introduction}
 
-The move to the cloud has arguably become a cornerstone of digital transformation for small and medium-sized enterprises (SMEs). This seems especially true in environments where money is tight and access to high-end IT infrastructure is spotty. Cloud services promise a level of scalability and flexibility that is hard to ignore, particularly for smaller businesses looking to punch above their weight without sinking funds into heavy capital investments. It’s no surprise, then, that researchers across information systems, management, and tech innovation have spent quite a bit of time dissecting this trend.
-
-Yet, despite all this attention, the literature suggests that hopping onto the cloud isn't just a tech decision. It’s messier than that. It appears to be shaped by a mix of organizational readiness, pressure from the outside world, and—crucially—how people perceive both the benefits and the risks. In developing regions, things get even more complicated. You have to factor in structural headaches like unreliable internet, regulatory grey areas, skills shortages, and a seemingly higher exposure to cyber threats. Consequently, the decision to adopt is rarely straightforward; it’s deeply tangled with worries about data protection and keeping the lights on.
-
-This brings us to cybersecurity. It has emerged as a critical piece of the puzzle, though it's often handled unevenly. While plenty of studies flag security as a major hurdle, fewer seem to dig into how an SME with limited resources is actually supposed to fix it. We end up with a disconnect: models that scream "security is a problem!" but stop short of telling anyone what to do about it.
-
-Parallel to this, there is a wealth of literature on cloud security frameworks—both the vendor-neutral kind and the industry specifics. These guides are great for risk management and compliance on paper. But here's the rub: most seem designed for large enterprises with dedicated security teams and stable infrastructure. They tend to assume a level of maturity that simply doesn't exist for many SMEs in developing economies.
-
-The fragmentation of these research streams—adoption studies, SME cybersecurity challenges, and security frameworks—has left a gap. We have high-level theories on one side and complex standards on the other, but not much connecting them. SMEs in developing regions are often left trying to bridge this divide without a map.
-
-In response, this chapter takes a critical look at the literature across four areas. First, we examine what research says about SME cloud adoption, particularly in developing regions. Second, we look at the cybersecurity realities these businesses face. Third, we review the big-name security frameworks to see if they actually hold water in an SME context. Finally, we try to pull these threads together to identify where the cracks are—gaps that justify why a tailored Secure Cloud Deployment Framework might be necessary.
+\begin{itemize}
+    \item \textbf{Cloud Adoption:} Cornerstone of SME digital transformation (cost/scale/flexibility).
+    \item \textbf{Influencing Factors:} Organizational readiness, environmental pressure, risk perception.
+    \item \textbf{Developing Regions:} Structural constraints (internet, regulation, skills) + high threat exposure.
+    \item \textbf{Cybersecurity:} Critical but unevenly addressed. Models often identify risks without offering solutions.
+    \item \textbf{Frameworks:} Existing models (NIST, etc.) designed for large enterprises, creating a gap for SMEs.
+    \item \textbf{Chapter Goal:} Review literature on adoption, challenges, and frameworks to justify the need for SCDF.
+\end{itemize}
 
 % ----------------------------------------------------------
 \section{Cloud Computing Adoption among SMEs}
 \label{sec:sec21}
 
-Cloud computing adoption among SMEs has been dissected from almost every angle. It’s usually framed as a way to stay competitive or get agile fast. Since SMEs generally don't have deep pockets or armies of IT specialists, the cloud is pitched as a leveler—shifting costs from "buying stuff" (CapEx) to "paying as you go" (OpEx) and letting someone else worry about the hardware.
-
-The literature paints a pretty consistent picture: SMEs go to the cloud to save money and move faster. Studies from developing economies back this up, showing that cloud solutions are particularly tempting when on-premise infrastructure just isn't an option. But it’s not a uniform wave; adoption happens in fits and starts, varying wildly depending on where you look.
+\begin{itemize}
+    \item \textbf{Adoption Drivers:} Competitiveness, Agility, OpEx preference over CapEx.
+    \item \textbf{Literature Consensus:} SMEs adopt for economic/operational benefits (Cost, Scalability).
+\end{itemize}
 
 \subsection{Determinants of Cloud Adoption in SMEs}
 
-A lot of the research has focused on the "why"—the determinants of adoption. The Technology--Organization--Environment (TOE) framework is the heavyweight here, often appearing alongside the Diffusion of Innovation (DOI) or TAM models. Time and again, these studies point to the same suspects: tech factors (like complexity), organizational factors (like management support), and environmental factors (like what competitors are doing).
-
-While these models are great at predicting \emph{whether} an SME will adopt cloud computing, they’re not so good at explaining \emph{how} it happens in the real world. Adoption often gets treated as a single "yes/no" moment, rather than what it really is: a messy, ongoing process of figuring things out, configuring systems, and managing risks.
+\begin{itemize}
+    \item \textbf{Frameworks:} TOE (Technology-Organization-Environment), DOI, TAM.
+    \item \textbf{Key Factors:} Relative advantage, complexity, management support, competitive pressure.
+    \item \textbf{limitation:} Predicts *intention* (yes/no) but ignores *process* (how/securely).
+\end{itemize}
 
 \subsection{Adoption Patterns in Developing Regions}
 
-Things get even trickier in developing regions. You can’t ignore the infrastructure. If the internet cuts out every few hours or costs a fortune, the cloud loses some of its shine. On top of that, financial uncertainty makes SMEs hesitant to experiment.
-
-Evidence from the Middle East, Africa, and parts of Asia suggests a pattern of dipping toes in the water. SMEs there tend to favor SaaS (Software-as-a-Service) because it’s easier—less technical fuss. But this "easy" route creates new headaches, like dependency. Suddenly, you’re relying entirely on a vendor for your data and your uptime, which brings its own set of fears about lock-in.
+\begin{itemize}
+    \item \textbf{Constraints:} Infrastructure (Connectivity/Power), Economic uncertainty.
+    \item \textbf{Trend:} Incremental adoption (SaaS favored).
+    \item \textbf{Risk:} Dependency on providers + fear of lock-in.
+\end{itemize}
 
 \subsection{Limitations of Adoption-Centric Models}
 
-For all their popularity, adoption models have blind spots. First, they often assume that once you overcome the barriers, the benefits just flow. This ignores the headache of actually making it work—integration, training people, and keeping it secure. Second, they tend to treat security as a vague "risk perception" variable, rather than a concrete set of tasks that need to be done.
-
-Also, because so much of this research relies on surveys, it misses the nuance. It’s hard to capture things like informal business practices or the chaotic reality of relying on a friend-of-a-friend for IT support—scenarios common in developing regions—with a simple questionnaire. So, we end with models that predict intention well but offer little help on secure usage.
+\begin{itemize}
+    \item \textbf{Blind Spot 1:} Assumes benefits follow adoption automatically (ignores integration/security effort).
+    \item \textbf{Blind Spot 2:} Treats security as abstract "risk perception" variable.
+    \item \textbf{Methodology:} Survey dominance misses context-specific implementation realities (informal practices).
+\end{itemize}
 
 \subsection{Implications for Secure Cloud Deployment}
 
-So, what does this mean? The literature tells us that adoption depends on a mix of benefits and pressures. But it stops short of the practical stuff. It doesn’t really tell an SME in a developing region—facing real cyber threats with limited staff—how to stay safe once they’re in the cloud.
-
-This suggests we need to stop thinking of "adoption" as a decision and start thinking of it as a lifecycle. It requires governance and security from day one. This realization leads us naturally to the next piece of the puzzle: the specific cybersecurity challenges these businesses face.
+\begin{itemize}
+    \item Security is an operational requirement, not just an adoption barrier.
+    \item Need to view adoption as a lifecycle requiring governance.
+\end{itemize}
 
 % ----------------------------------------------------------
 \section{Cybersecurity Challenges Facing SMEs}
 \label{sec:sec22}
 
-Small and medium-sized enterprises (SMEs) are looking at a cybersecurity landscape that is fundamentally different from the one big corporations face. While they are just as dependent on digital platforms, their ability to fight back against threats is… well, limited. This mismatch—high reliance, low defense—makes them sitting ducks for cyber attacks. And in places where regulations are toothless and support is scarce, the problem is even worse.
-
-The challenges here aren’t just technical. They are a by-product of how these organizations are built. They are shaped by resource limits and local realities. In developing regions, you can add shaky infrastructure and a lack of skilled people to the list.
+\begin{itemize}
+    \item \textbf{Mismatch:} SMEs rely on digital but lack defense capacity (High exposure vs. Low defense).
+    \item \textbf{Nature of Challenge:} Detailed by organizational constraints, not just technical ones.
+\end{itemize}
 
 \subsection{Resource and Capability Constraints}
 
-If there’s one thing that defines SME security, it’s the lack of dedicated people. You rarely find a Chief Information Security Officer (CISO) in a fifty-person firm. Instead, security falls to the general "IT guy," an external vendor, or sometimes just the business owner. Without specialized expertise, security tends to be reactive—fixing things after they break—rather than planned.
-
-Money is the other big hurdle. Investing in advanced monitoring or audits is a tough sell when you’re trying to make payroll. Short-term survival often trumps long-term risk reduction. This makes it incredibly hard to adopt security frameworks that assume you have a budget for continuous improvement.
+\begin{itemize}
+    \item \textbf{Personnel:} No CISO/Security team. Reliance on general IT staff or external support.
+    \item \textbf{Practice:} Reactive security (fix it when it breaks).
+    \item \textbf{Budget:} Immediate survival > Long-term risk mitigation.
+\end{itemize}
 
 \subsection{Threat Exposure in Cloud-Enabled Environments}
 
-Moving to the cloud changes the game in ways many SME owners don't fully grasp. Sure, the cloud provider secures the data center (the "cloud"), but the customer is still responsible for what they put \emph{in} the cloud. This "shared responsibility" model is often misunderstood. We see SMEs assuming they are safe just because they are on AWS or Azure, leading to simple but deadly errors like misconfigured storage buckets or weak passwords.
-
-Common attacks like phishing and ransomware hit SMEs hard. In the cloud, a stolen credential can be a master key to everything. And without centralized logging—which most SMEs don't have time to configure—they might not even know they’ve been breached until it’s too late.
+\begin{itemize}
+    \item \textbf{Shared Responsibility:} Often misunderstood. Users fail to secure their side (data/access).
+    \item \textbf{Vectors:} Phishing, Ransomware, Credential theft.
+    \item \textbf{Visibility:} Lack of logging/monitoring = delayed breach detection.
+\end{itemize}
 
 \subsection{Organizational and Human Factors}
 
-People are arguably the biggest variable. Security awareness in SMEs is often pretty informal. Procedures are shared by word of mouth, and access is granted based on trust rather than "least privilege." This makes social engineering attacks distinctively effective.
-
-Decisions are also highly centralized. The owner decides. This allows for fast movement, but if the owner doesn't "get" security, it doesn't happen. It’s often viewed as a tech problem to be solved with a product, not a strategic issue requiring governance.
+\begin{itemize}
+    \item \textbf{Culture:} Informal procedures, trust-based access, low security awareness.
+    \item \textbf{Decision Making:} Centralized (Owner-driven). Security viewed as "Tech problem", not strategy.
+\end{itemize}
 
 \subsection{Challenges in Developing Regions}
 
-In developing regions, the environment itself is a challenge. If the internet is unreliable, security patches might fail. If there are no local security firms, who do you call? Regulatory frameworks might be incomplete or selectively enforced, meaning there’s no external stick forcing businesses to get secure.
-
-Moreover, many SMEs rely on informal networks for IT support. The quality of this support varies wildly. Without standardized guidance that makes sense locally, SMEs struggle to translate high-level security advice into something they can actually do.
+\begin{itemize}
+    \item \textbf{External Env:} Unreliable internet, incomplete regulation, lack of local security firms.
+    \item \textbf{Support:} Reliance on informal networks/low-cost vendors.
+\end{itemize}
 
 \subsection{Implications for Secure Cloud Adoption}
 
-All this suggests that security isn't just a barrier to getting into the cloud; it’s a constant operational risk once you are there. Models that treat security as a static checkbox miss the point. It requires ongoing attention.
-
-The takeaway? We need security approaches that fit the SME reality. We need clarity on who does what, and a focus on the few controls that matter most. Handing an SME a 300-page enterprise security manual is not the answer. They need structured, scalable guidance that holds their hand through the process.
+\begin{itemize}
+    \item Security is a persistent operational risk.
+    \item Need: Scalable, simplified guidance focusing on "must-dos" rather than "nice-to-haves".
+\end{itemize}
 % ----------------------------------------------------------
 \section{Existing Cloud Security Frameworks and Standards}
 \label{sec:sec23}
-There is certainly no shortage of cloud security frameworks. These standards are supposed to be the "playbooks" for managing risk and ensuring compliance. Typically vendor-neutral, they aim to provide a repeatable way to secure digital assets. And while they are comprehensive, their usefulness to a small business in a developing region is… debatable.
-
-Most of these frameworks were born in the world of large enterprises. They seem to assume you have a mature governance structure, a team of security pros, and a steady budget. When you apply those assumptions to an SME that’s struggling just to keep its IT running, the math doesn't stir up.
+\begin{itemize}
+    \item \textbf{General:} Frameworks exist (Risk management, Compliance, Protection).
+    \item \textbf{Issue:} Built for Enterprise -> Misaligned with SME capacity.
+\end{itemize}
 
 \subsection{Overview of Major Cloud Security Frameworks}
 
-Take the NIST Cybersecurity Framework, for instance. It’s a gold standard, organized around core functions like Identify, Protect, and Recover. Ideally, it’s adaptable. But to really make it work, you need asset inventories and formal risk assessments—things many SMEs simply don’t have.
-
-Then there’s ISO/IEC 27001. It promotes a systematic approach to security management (ISMS). It’s rigorous and widely respected. But the administrative burden of getting certified is huge. For a small company, the paperwork alone can be overwhelming.
-
-The Cloud Security Alliance (CSA) has its Cloud Controls Matrix (CCM), which is excellent for mapping controls across domains. But again, its sheer depth can be paralyzing for an SME that doesn't have a specialist to interpret it.
+\begin{itemize}
+    \item \textbf{NIST Cybersecurity Framework:} Identify, Protect, Detect, Respond, Recover. (Requires formal risk assessment).
+    \item \textbf{ISO/IEC 27001:} Formal ISMS. (High admin/cost burden for certification).
+    \item \textbf{CSA CCM:} Cloud Controls Matrix. (Granularity overwhelms non-experts).
+\end{itemize}
 
 \subsection{Framework Assumptions and SME Misalignment}
 
-The problem isn't that these frameworks are bad; it’s that they are misaligned. They rely on assumptions that don't hold up in the SME world—like the existence of "segregation of duties" or continuous auditing. FAQs: SMEs often operate on informal processes. Everyone does a bit of everything.
-
-Also, these frameworks often fail to prioritize. They present hundreds of controls as equally important. For an SME, this leads to "implementation paralysis." If you can't do everything (and you can't), you might end up doing nothing.
-
-In developing regions, this is compounded by a lack of access to certified auditors. SMEs end up adopting fragments—maybe a password policy here, a backup routine there—without any coherent strategy.
+\begin{itemize}
+    \item \textbf{Assumptions:} Dedicated team, formal documentation, segregation of duties.
+    \item \textbf{SME Reality:} Informal processes, multitasking staff.
+    \item \textbf{Result:} "Implementation Paralysis" or fragmented adoption.
+\end{itemize}
 
 \subsection{Cloud Shared Responsibility and Framework Gaps}
 
-Another sticky point is the "Shared Responsibility Model." Cloud providers secure the infrastructure, but the user is responsible for the data. Many general frameworks don't make this distinction clear enough for non-experts. They don't explicitly say, "Hey, AWS does this part, but YOU must do X, Y, and Z."
-
-This ambiguity leaves SMEs in the dark, often assuming they are more protected than they actually are. Frameworks that don't translate these principles into concrete, role-specific tasks risk giving a false sense of security.
+\begin{itemize}
+    \item \textbf{Gap:} Frameworks don't always operationalize the shared responsibility model.
+    \item \textbf{Risks:} SMEs assume "inherited security" and miss their obligations (e.g., config, access rights).
+\end{itemize}
 
 \subsection{Towards Context-Aware Security Guidance}
 
-Existing frameworks give us the "what"—the foundational concepts of risk and defense. But the "how" needs a rethink for SMEs. We can't just copy-paste enterprise standards.
-
-Effective guidance needs to be reinterpreted. It suggests we should prioritize the absolute essentials and align them with what an SME can actually execute. The lack of such practical, adapted guidance is a glaring gap in the literature. It sets the stage for the critical assessment that follows.
+\begin{itemize}
+    \item Enterprise standards must be reinterpreted, not just replicated.
+    \item Requirement: Prioritize essential controls + Align with SME reality (Simple, Actionable).
+\end{itemize}
 % ----------------------------------------------------------
 \section{Critical Assessment and Research Gap}
 \label{sec:sec24}
 
-We’ve walked through the literature on cloud adoption, the security headaches SMEs face, and the frameworks meant to solve them. Taken together, there is a lot of good work out there. We know *why* SMEs move to the cloud, and we know what threatens them. But a critical look reveals some structural gaps that make this literature hard to use for a small business in a developing region.
-
-First, the research is heavy on "intention." The dominant models (like TOE) are great at spotting the triggers for adoption, but they don't say much about what happens *after* the contract is signed. Security is often treated as a spooky ghost—a risk factor that scares people off—rather than a daily operational reality. So, we know *whether* they adopt, but not *how* they do it securely.
-
-Second, the cybersecurity studies tend to paint SMEs as victims—"security-poor" organizations with no hope. While it is true they lack resources, simply listing their vulnerabilities isn't helpful. There is a lack of feasible, context-aware advice. SMEs are left with problem descriptions, not solutions.
-
-Third, the big security frameworks are just too heavy. They assume a level of maturity that doesn't exist here. While SMEs might grab a control here or there, they lack a coherent strategy. Most frameworks also fail to align clearly with the stages of cloud deployment or explain the shared responsibility model in plain English.
-
-The result? Fragmentation. Adoption studies stop at the decision. Security studies diagnose the illness but don't prescribe the cure. And frameworks offer a cure that the patient can't afford. There is a clear gap between theory and practice.
-
-Also, there’s a bias in *how* we research this. Too many surveys, not enough deep dives. We need more qualitative work that actually looks at the messy reality of implementation in developing regions.
-
-Consequently, a research gap stares us in the face. We lack an integrated, security-focused cloud deployment framework. One that connects adoption theory with the gritty reality of SME constraints. We need something empirical, context-aware, and actually usable.
-
-Addressing this means moving beyond "intention to adopt." We need a structured Secure Cloud Deployment Framework—one that guides an SME through the process, step by step, prioritizing what matters. That is what the rest of this thesis aims to build.
+\begin{itemize}
+    \item \textbf{Review Summary:} Progress in understanding "Why Adopt" (Intent), but gap in "How to Secure" (Operation).
+    \item \textbf{Gap 1 (Adoption):} Focus on intention/determinants. Security viewed as "barrier" not "process".
+    \item \textbf{Gap 2 (Cyber):} Focus on describing vulnerabilities. Lacks actionable solutions/guidance.
+    \item \textbf{Gap 3 (Frameworks):} Enterprise-centric. Too heavy/expensive/complex for SMEs.
+    \item \textbf{Methodology Gap:} Dominance of quant surveys -> lacks deep contextual insight.
+    \item \textbf{Identified Gap:} Absence of integrated, security-focused cloud deployment framework bridging theory and SME constraints.
+    \item \textbf{Research Focus:} Develop SCDF to guide SMEs through secure adoption (prioritized, feasible steps).
+\end{itemize}
 
 % ----------------------------------------------------------
 \section*{Summary}
 \addcontentsline{toc}{section}{Summary}
 
-This chapter reviewed the landscape of cloud adoption, SME cybersecurity, and existing frameworks. We found that while there is plenty of research on *why* SMEs adopt the cloud, there is far less on the practicalities of doing it securely—especially in developing regions.
-
-The analysis highlighted that SMEs face distinctive challenges: tight budgets, limited skills, and a threat landscape they are often ill-equipped to handle. In developing regions, infrastructure issues only make this harder. Despite knowing security is critical, the literature doesn't give SMEs a clear roadmap for managing it.
-
-We also saw that standard security frameworks, while robust, are often a mismatch for SME realities. They assume too much. This leads to fragmented, ineffective security practices.
-
-Reviewing these areas revealed a clear gap: the need for a tailored, integrated framework that bridges the divide between high-level theory and on-the-ground reality. This gap sets the stage for the work to come.
+\begin{itemize}
+    \item Chapter reviewed literature: SME Cloud Adoption, Cyber Challenges, Frameworks.
+    \item Finding: Research explains *adoption* well, but lacks practical *security deployment* guidance.
+    \item Challenge: SMEs face resource/skill constraints + high threat.
+    \item Current Solutions: Frameworks are mismatched (too complex).
+    \item Conclusion: Clear research gap -> Need for SCDF tailored to SME reality in developing regions.
+\end{itemize}
 
