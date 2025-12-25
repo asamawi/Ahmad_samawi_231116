@@ -10,6 +10,18 @@
 *.blg
 *.pdf
 *.dvi
+*.lof
+*.lot
+
+# Glossaries and Acronyms
+*.acr
+*.alg
+*.brf
+*.glg
+*.gls
+*.acn
+*.glo
+*.ist
 
 # VS Code
 .vscode/
