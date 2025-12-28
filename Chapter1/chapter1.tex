@@ -3,58 +3,70 @@
 
 \section{Introduction}
 
-\begin{itemize}
-    \item \textbf{Core Trend:} SME digital transformation in developing regions -> Cloud adoption.
-    \item \textbf{Drivers:} Cost efficiency, flexibility, lack of on-prem infrastructure.
-    \item \textbf{New Risk:} Cyber exposure (Data breaches, service interruption).
-    \item \textbf{Root Cause:} Poor configuration, weak governance, lack of expertise.
-    \item \textbf{Chapter Focus:} Background, Motivation, Context, Study Objectives.
-\end{itemize}
+Digital transformation has become an increasingly important requirement for small and medium enterprises (SMEs) seeking to remain competitive in digitalized and globalized markets. Prior research shows that SMEs adopt digital technologies primarily to improve flexibility, efficiency, and access to advanced capabilities that are otherwise difficult to achieve through traditional on-premises infrastructure \cite{Shetty2021overview, Yuwono2024Information}. In developing regions, this transformation is often driven by structural constraints such as limited capital investment, high infrastructure costs, and restricted access to skilled technical personnel rather than by long-term digital strategy \cite{Diaz2024Navigating}.
+
+Cloud computing has emerged as a prominent enabler of this transformation by offering on-demand access to computing resources and scalable services. Empirical studies across developing economies indicate growing SME interest in cloud-based solutions for business operations, analytics, and digital platforms \cite{Narwane2020Mediating, Owusu2020Determinants}. However, cloud adoption also introduces new forms of risk, particularly related to data security, service availability, and loss of operational control \cite{Holler2025Factors}.
+
+These risks are amplified in SME environments, where security responsibilities are often shared between cloud service providers and customers under complex operational models. Several studies report that SMEs lack the governance structures and internal controls necessary to manage this shared responsibility effectively, increasing exposure to cyber incidents such as data breaches and service disruptions \cite{Skafi2020Factors, Tselios2022Improving}. Evidence from developing regions further suggests that security incidents frequently stem from misconfigurations, weak access controls, and inadequate monitoring rather than from sophisticated attack techniques \cite{Pruzan2015Monitoring, JamesBalancing}.
+
+Contextual constraints play a critical role in shaping cloud-related risk in developing regions. Limited technical expertise, insufficient regulatory guidance, and budgetary pressures often result in cloud environments being deployed with insecure default settings and minimal security oversight \cite{Wilson2015Enablers, Al2018Factors}. Studies from the Middle East, Asia, and Africa consistently highlight that SMEs prioritize functionality and cost savings over security investment, reinforcing a cycle of elevated cyber risk \cite{Milhem2025integrated, Sayginer2021Multi}.
+
+This chapter establishes the background and context for the study by outlining the drivers of cloud adoption among SMEs, the security challenges associated with cloud-based environments, and the structural factors that contribute to heightened cyber risk in developing regions. These considerations provide the foundation for examining the need for a secure, practical, and context-aware framework for cloud deployment tailored to SME capabilities.
 
 \section{Motivations}
 
-\begin{itemize}
-    \item \textbf{Adoption:} Cloud as "Equalizer" for SMEs (scale without CapEx).
-    \item \textbf{Reality:} Security often secondary to speed of deployment.
-    \item \textbf{Common Errors:} Default settings, weak access control, ad-hoc practices.
-    \item \textbf{Framework Mismatch:} International standards identify *what* to do, but not *how* to do it with limited resources.
-    \item \textbf{Gap:} Lack of deployment-oriented models for SMEs.
-\end{itemize}
+One of the primary motivations driving cloud adoption among small and medium enterprises (SMEs) is the ability to scale information technology resources without substantial upfront capital expenditure. Cloud-based services allow SMEs to access advanced capabilities such as data analytics, enterprise applications, and digital platforms on a pay-as-you-use basis, reducing the financial barriers traditionally associated with on-premises infrastructure \cite{Shetty2021overview, Yuwono2024Information}. This shift has enabled many SMEs to pursue digital transformation initiatives that would otherwise be economically infeasible.
+
+Despite these advantages, empirical evidence suggests that cloud adoption in SME contexts is frequently driven by speed of deployment and functional requirements rather than by systematic security planning. Studies indicate that security considerations are often deferred in favor of rapid implementation, particularly in resource-constrained environments where time-to-market and cost efficiency dominate decision-making \cite{Skafi2020Factors, Wilson2015Enablers}. As a result, cloud environments are commonly deployed using default configurations, weak access controls, and informal operational practices.
+
+This tendency is reinforced by limited internal expertise and the absence of structured governance mechanisms within many SMEs. Rather than deliberate risk acceptance, insecure deployments often reflect a lack of practical guidance on how to translate security recommendations into actionable steps under real-world constraints \cite{Holler2025Factors, JamesBalancing}. In this context, security failures are more commonly associated with misconfigurations and poor operational discipline than with sophisticated cyberattacks.
+
+Although international standards and best-practice frameworks provide comprehensive descriptions of security controls, they typically focus on identifying what should be implemented rather than how implementation can be achieved with limited financial, technical, and human resources. For SMEs operating in developing regions, this creates a mismatch between formal security guidance and practical deployment realities \cite{Diaz2024Navigating, Sayginer2021Multi}. The resulting gap highlights the need for deployment-oriented, risk-aware frameworks that prioritize essential controls and align security implementation with SME capabilities.
 
 \section{Context of the Study}
 
-\begin{itemize}
-    \item \textbf{Setting:} Socioeconomic/Regulatory context of developing regions (Lebanon, Egypt, etc.).
-    \item \textbf{Constraints:} Uneven regulation, limited cyber preparedness, skills gap.
-    \item \textbf{Example (Lebanon):} Legal frameworks exist but organizational readiness is low.
-    \item \textbf{Barriers:} Infrastructure, Cost, Technical Training.
-    \item \textbf{Conclusion:} Technical solutions must align with organizational capabilities.
-\end{itemize}
+This study is situated within the socioeconomic and regulatory context of small and medium enterprises (SMEs) operating in developing regions, where digital transformation efforts are shaped by structural, institutional, and resource-related constraints. Prior research indicates that SMEs in these contexts face uneven regulatory environments, limited cybersecurity preparedness, and persistent skills shortages, all of which influence how cloud technologies are adopted and managed \cite{Diaz2024Navigating, Holler2025Factors}.
+
+In many developing countries, legal and policy frameworks related to information technology and data protection exist but are often inconsistently enforced or insufficiently aligned with the operational realities of SMEs. Empirical evidence from the Middle East and similar regions shows that regulatory compliance is frequently treated as a formal requirement rather than as an integrated component of organizational risk management \cite{Milhem2025integrated, Gibreel2023Factors}. As a result, SMEs may satisfy minimal legal obligations while lacking the internal processes, governance structures, and technical controls necessary for secure cloud operation.
+
+The Lebanese context illustrates this challenge clearly. While relevant legal frameworks and regulatory guidelines are in place, organizational readiness among SMEs remains limited, particularly with respect to cybersecurity governance and technical expertise \cite{Skafi2020Factors}. Economic instability, constrained investment capacity, and reliance on informal IT practices further restrict the ability of SMEs to implement comprehensive security measures. Similar conditions have been observed across other developing regions, including parts of Africa and Asia, suggesting that these challenges are systemic rather than country-specific \cite{Wilson2015Enablers, Owusu2020Determinants}.
+
+Beyond regulatory considerations, practical barriers such as unreliable infrastructure, high connectivity costs, and limited access to technical training continue to shape cloud deployment decisions. These constraints often force SMEs to prioritize immediate operational needs over long-term security planning, reinforcing patterns of insecure configuration and reactive risk management \cite{Sayginer2021Multi, Yuwono2024Information}. Consequently, purely technical security solutions are unlikely to be effective unless they are explicitly aligned with organizational capabilities, resource availability, and local operating conditions.
+
+This contextual landscape underscores the need for cloud security approaches that account for both technical and organizational realities. Frameworks designed for SME environments in developing regions must therefore integrate security controls with pragmatic deployment guidance that reflects regulatory variability, skills limitations, and economic constraints.
 
 \section{Research Problem}
 
-\textbf{Misalignment:} Security guidance vs. SME reality (Limited expertise, budget, informal governance).
+Cloud computing has become an increasingly common component of digital transformation strategies among small and medium enterprises (SMEs) in developing regions. However, empirical evidence consistently shows that cloud adoption in these contexts is accompanied by elevated security, regulatory, and operational risks. SMEs frequently operate under constraints such as unreliable connectivity, limited technical expertise, budgetary pressures, and uneven regulatory enforcement, all of which amplify their exposure to cybersecurity incidents and service disruptions.
 
-\textbf{Deficiency:} Literature focuses on "Adoption Drivers" or "High-Level Theory", lacking operational guidance.
+Although numerous cloud security frameworks, standards, and best-practice guidelines have been proposed, most are designed for large organizations with dedicated security teams, mature governance structures, and sufficient financial resources. As a result, these frameworks often remain theoretical or impractical when applied to SME environments, particularly in developing regions. SMEs are left with high-level recommendations that specify security requirements without providing actionable guidance on how such controls can be implemented, prioritized, or maintained under real-world constraints.
 
-\textbf{Core Question:}
-\textit{How can SMEs in developing regions operationalize secure cloud deployment and management practices within the constraints identified in existing empirical research?}
+Existing research has extensively examined factors influencing cloud adoption intentions among SMEs, yet comparatively little attention has been given to deployment-oriented security frameworks that address post-adoption realities. Furthermore, evaluation approaches in the current literature rely predominantly on perceptual measures, such as perceived usefulness or intention to adopt, rather than on objective indicators of security posture, cost-efficiency, or operational usability. This limits understanding of whether proposed solutions meaningfully improve security outcomes in practice.
+
+Consequently, a significant gap exists between available cloud security guidance and the practical needs of SMEs operating in resource-constrained environments. There is a lack of empirically grounded, risk-driven, and cost-aware deployment frameworks that integrate security controls with automation mechanisms and that can be validated using measurable performance indicators. Addressing this gap is essential to enable SMEs in developing regions to adopt cloud technologies securely while maintaining operational feasibility and sustainability.
 
 \section{Objectives of the Study}
 
-\textbf{Goal:} Develop and assess a deployment-oriented \textit{Secure Cloud Deployment Framework (SCDF)}.
+The primary objective of this study is to design and evaluate a secure, practical, and cost-aware cloud deployment framework tailored to the needs of small and medium enterprises (SMEs) operating in developing regions. To achieve this overarching aim, the study pursues the following specific objectives:
 
-\textbf{Specific Objectives:}
-\begin{enumerate}
-    \item \textbf{examine} existing frameworks for SME-applicable controls.
-    \item \textbf{Design} a modular, open-source-based deployment framework.
-    \item \textbf{Assess} feasibility via simulation and expert review.
-\end{enumerate}
+\begin{itemize}
+    \item To identify and synthesize the key security, regulatory, and operational challenges affecting cloud adoption and deployment among SMEs in developing regions, with particular attention to contextual constraints such as limited expertise, budgetary pressure, and infrastructure limitations.
+    
+    \item To critically analyze existing cloud security frameworks, standards, and risk-driven models in order to determine which controls and practices can be realistically adapted to SME environments.
+    
+    \item To design a Secure Cloud Deployment Framework (SCDF) that prioritizes essential security controls, integrates risk-based decision-making, and leverages automation and open-source tools to reduce implementation and maintenance overhead.
+    
+    \item To evaluate the proposed framework through simulations and illustrative case studies using measurable indicators, including security posture, cost-efficiency, and operational usability.
+    
+    \item To assess the practical applicability of the proposed framework in supporting secure and sustainable cloud adoption for SMEs under real-world constraints.
+\end{itemize}
 
 \section*{Summary}
 \addcontentsline{toc}{section}{Summary}
 
-\begin{itemize}
-    \item Chapter covered: Background, Motivation, Context, Problem, Objectives.
-    \item Next Chapter: Literature Review (Adoption constraints, Security considerations, SME readiness).
-\end{itemize}
+This chapter established the background and context of the study by examining the drivers of cloud adoption among small and medium enterprises (SMEs) in developing regions and the security challenges that accompany this shift. It highlighted how structural constraints such as limited expertise, budgetary pressures, uneven regulatory enforcement, and infrastructure limitations contribute to elevated cyber risk in SME cloud environments.
+
+The chapter articulated the central research problem, emphasizing the disconnect between existing cloud security frameworks—largely designed for large enterprises—and the practical realities faced by SMEs operating under resource constraints. While prior research has extensively explored factors influencing cloud adoption, comparatively limited attention has been given to deployment-oriented security frameworks that can be realistically implemented and objectively evaluated in SME contexts.
+
+Based on this gap, the chapter defined the objectives of the study, which focus on the design and evaluation of a secure, risk-driven, and cost-aware cloud deployment framework tailored to SME needs. Together, these elements provide a structured foundation for the systematic review of related literature presented in the next chapter, which examines existing cloud security frameworks, adoption models, and relevant empirical findings in greater detail.
+
