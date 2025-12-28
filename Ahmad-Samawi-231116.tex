@@ -80,7 +80,10 @@
 % DECLARATION
 % Use the following command to change the declaration text:
 %\renewcommand{\submittedtext}{INSERT NEW TEXT HERE}
-\degree{MSc in Computing - Information Security and Forensics Track}
+\makeatletter
+\gdef\@degree{MSc in Computing - Information Security and Forensics Track}
+\makeatother
+%\degree{MSc in Computing - Information Security and Forensics Track}
 \degreedate{\today}
 % Define submitted text expected by the class
 \providecommand{\submittedtext}{Submitted in partial fulfillment of the requirements for the}
