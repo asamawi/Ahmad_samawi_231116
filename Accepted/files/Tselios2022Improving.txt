@@ -1,0 +1,590 @@
+                                                                                                                                         PDF Download
+                                                                                                                                         3538969.3544426.pdf
+                                                                                                                                         23 December 2025
+                                                                                                                                         Total Citations: 2
+                                                                                                                                         Total Downloads: 375
+    .
+    .
+        Latest updates: hps://dl.acm.org/doi/10.1145/3538969.3544426
+
+
+
+
+                                                                                                                                         .
+                                                                                                                                         .
+                                                                                                                              Published: 23 August 2022
+        .
+        .
+                                                                                                                              .
+    RESEARCH-ARTICLE
+
+
+
+
+                                                                                                                              .
+                                                                                                                              Citation in BibTeX format
+    Improving Network, Data and Application Security for SMEs
+
+
+
+
+                                                                                                                              .
+                                                                                                                              .
+                                                                                                                              ARES 2022: The 17th International
+                                                                                                                              Conference on Availability, Reliability
+    CHRISTOS TSELIOS, University of Patras, Rio, Achaia, Greece                                                               and Security
+    .
+                                                                                                                              August 23 - 26, 2022
+    ILIAS POLITIS, University of Piraeus, Piraeus, Aica, Greece                                                              Vienna, Austria
+    .
+                                                                                                                              .
+    CHRISTOS XENAKIS, University of Piraeus, Piraeus, Aica, Greece
+
+
+
+
+                                                                                                                              .
+    .
+    .
+    .
+    Open Access Support provided by:
+    .
+    University of Piraeus
+    .
+    University of Patras
+    .
+                                                     ARES '22: Proceedings of the 17th International Conference on Availability, Reliability and Security (August 2022)
+                                                                                                                              hps://doi.org/10.1145/3538969.3544426
+                                                                                                                                                  ISBN: 9781450396707
+.
+     Improving Network, Data and Application Security for SMEs
+                  Christos Tselios                                                   Ilias Politis                           Christos Xenakis
+    Wireless Communications Laboratory                                   Systems Security Laboratory                    Systems Security Laboratory
+             University of Patras                                            University of Piraeus                          University of Piraeus
+               Achaia, Greece                                                   Piraeus, Greece                               Piraeus, Greece
+             ctselios@upatras.gr                                            ipolitis@ssl.ds.unipi.gr                         xenakis@unipi.gr
+
+ABSTRACT                                                                                      organizations and fueled the fast growth of new online services
+The evolution of Information and Communications Technology                                    and products. Remote accessibility and management drastically re-
+and Cloud Computing, combined with the advent of novel telecom-                               shaped the way companies operate today. Nearly all organizations
+munication frameworks such as 5G, have introduced the notion of                               such as big/medium/small companies, public administrators and
+ubiquitous connectivity combined with a seemingly vast pool of                                government authorities have online presence spanning from web-
+resources, storage and services. This immense transformation in-                              sites with basic information to complex systems offering product
+troduced new types of security threats mostly due to the significant                          ordering, billing capabilities and advanced customer services. This
+increase of the attack surface, which can now be compromised by                               immense transformation introduced new types of security threats
+malicious users. Despite the fact that malicious attacks constantly                           mostly due to the significant increase of the attack surface, which
+become more and more sophisticated, SMEs and public administra-                               can now be compromised by malicious users. Large companies
+tions remain reluctant to invest in cybersecurity since they operate                          are heavily investing time and money to protect their systems, yet
+on a limited budget and are mostly focused in time to market and                              this is not the case for small/medium companies due to economic
+cost minimization. The purpose of this book chapter is to provide an                          constraints, lack of resources and priority for reaching the market
+overview on how the most common network-related cybersecurity                                 as fast as possible.
+attacks are orchestrated, which are the systems and services they                                Delivering effective cybersecurity is a highly complex problem.
+affect the most as well as present specific design principles and                             Each company with its services and products has its own peculiari-
+guidelines for crafting platforms and frameworks capable of miti-                             ties and requirements forcing solutions to be tailored made for each
+gating such attacks and ensure a certain level of secure operation.                           case separately. Because of this, security solutions are expensive,
+                                                                                              take too much time to deploy, are highly complex and require ex-
+CCS CONCEPTS                                                                                  perts to setup and manage. Big companies are willing to pay the
+                                                                                              price to protect them since a potential breach could have severe
+• Computer systems organization → Embedded systems; Re-
+                                                                                              economical impact. On the other hand, SMEs and public administra-
+dundancy; Robotics; • Networks → Network reliability.
+                                                                                              tions with limited budgets are mostly focused in time to market and
+KEYWORDS                                                                                      cost minimization and remain reluctant to invest in cybersecurity.
+                                                                                              However, as malicious attacks constantly rise and become more and
+Security, Network, Data, SME                                                                  more sophisticated, cybersecurity will inevitably become a topic
+ACM Reference Format:                                                                         of major discussion. Especially with the arrival of 5G, where novel
+Christos Tselios, Ilias Politis, and Christos Xenakis. 2022. Improving Net-                   and much more perplexed types of mitigation measurements will
+work, Data and Application Security for SMEs. In The 17th International                       be necessary, countermeasures may involve Machine/Deep Learn-
+Conference on Availability, Reliability and Security (ARES 2022), August
+                                                                                              ing techniques [1, 8, 17], network coding [2, 25] and blockchain
+23–26, 2022, Vienna, Austria. ACM, New York, NY, USA, 8 pages. https:
+                                                                                              integration [20]. The purpose of this book chapter is to provide an
+//doi.org/10.1145/3538969.3544426
+                                                                                              overview on how the most common network-related cybersecurity
+1     INTRODUCTION                                                                            attacks are orchestrated, which are the systems and services they
+                                                                                              affect the most together with the direct effect they have on com-
+The evolution of Information and Communications Technology                                    promised systems and finally to present certain guidelines for the
+and Cloud Computing, combined with the advent of novel telecom-                               design of platforms and frameworks capable of mitigating them and
+munication frameworks such as 5G, have introduced the notion of                               operate with a certain level of security confidence. The rest of the
+ubiquitous connectivity combined with a seemingly vast pool of                                chapter is organized as follows: Section 2 presents contemporary
+resources, storage and services. This new reality has significantly                           cybersecurity attacks while Section 3 contains the guidelines for
+lowered both management and operational costs of companies and                                designing a secure and robust system. Finally, Section 4 lists the
+Permission to make digital or hard copies of all or part of this work for personal or         conclusions and summarizes the chapter.
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than ACM
+must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,
+to post on servers or to redistribute to lists, requires prior specific permission and/or a   2 CYBERSECURITY ATTACKS CATEGORIES
+fee. Request permissions from permissions@acm.org.
+ARES 2022, August 23–26, 2022, Vienna, Austria                                                2.1 Attacking over the Network
+© 2022 Association for Computing Machinery.
+ACM ISBN 978-1-4503-9670-7/22/08. . . $15.00                                                  2.1.1 Distributed Denial of Service. A distributed denial-of-service
+https://doi.org/10.1145/3538969.3544426                                                       (DDoS) attack — or simply DDoS attack — occurs when multiple
+ARES 2022, August 23–26, 2022, Vienna, Austria                                                                           Tselios, Politis and Xenakis
+
+
+compromised systems are used as origin points of improper net-            attacks against service availability mounted from a single host to
+work traffic, all targeting a specific service or application server.     be classified as DoS while those in which a attacker exploits many
+The rapid increase of inbound traffic saturates the network, over-        systems simultaneously to attack a remote host, be classified as
+loads the attack target and renders it incapable of accommodating         DDoS ones.
+legitimate user requests leading to service delay, disruption or even
+complete shutdown. In its most common form, DDoS attack "floods"          2.1.2 Man In the Middle attacks. Eavesdropping is defined in real
+the network with useless packages of information, exploiting the          life as the act of silent conversation overhearing. In networking,
+universal server regulation for mandatory reply against all incom-        an "Eavesdropping attack" occurs when an unauthorized party
+ing requests which consequently leads to outage due to lack of            improperly intercepts, modifies or deletes essential information
+adequate processing capacity or network bandwidth. Access to              transmitted between two nodes. This type of attack, also known as
+legitimate users is eventually denied while from a business perspec-      sniffing or snooping attack, is considered insidious since it is diffi-
+tive this translates to measurable revenue loss for as long as critical   cult to know they take place to begin with. Once connected to an
+applications are down.                                                    open network, naive or cybersecurity-unaware users tend to behave
+    From the attacker perspective, using multiple points of origin        as if the communication channel is absolutely safe, thus unwittingly
+for launching an attack has several advantages. A large number            share sensitive information including passwords, account numbers
+of compromised nodes generates substantial amounts of traffic             or private messages with whoever is listening. Even in cases where
+compared to a single server, while in the same time the attack is         a layer of security is introduced to protect information leaks, an
+much more difficult to be mitigated. Identifying one malicious node       eavesdropper may still compromise the network by exploiting weak
+and drop all ingress traffic originating from it will have not affect     passwords, VPN security holes, or by injecting malware or network
+on the overall process whatsoever, since the attack will not stop.        sniffers in the network pathway that will monitor and duplicate
+In addition, multiple nodes may have a much stealthier behavior           potentially critical business information. Man-in-the-Middle is a
+over the network, making the identification significantly harder.         case of active eavesdropping in which the attacker makes indepen-
+These attacker advantages introduce new challenges for potential          dent connections with the target nodes and then relays messages
+defence mechanisms. Merely purchasing more incoming bandwidth             in between, deceiving them that they are talking directly to each
+than the existing one will most likely won’t help in the long run,        other over a private connection [18]. However, in reality the entire
+since the attacker only has to simply add more attacking nodes.           conversation is controlled by the attacker since he is now able to in-
+Computational resources scale-out is also ineffective since despite       tercept all relevant messages traversing between the two endpoints
+all efforts the service will crash and become unavailable for periods     and inject new ones.
+of time. Stopping the attack is the only effective strategy but this          The impact of Eavesdropping attacks may be significant, ranging
+mandates a solid understanding of how real-world DDoS attacks             from loss of privacy and financial damage to severe cases of identity
+are launched.                                                             theft which are really hard to mitigate. Every business holds confi-
+    For effectively launching a DDoS attack, the attackers rely mainly    dential information able to lead the organization astray if becomes
+on malicious software which allows them to convert legit servers          public. While eavesdropping, the attackers obtain vital business
+into bots. The bots are then aggregated into a wider network of           ideas and conversations exchanged within the organization thus
+nodes known as botnet, used by the attackers to launch the attack.        compromising its privacy. In more severe cases, attackers are able to
+An alternative approach for obtaining control over remote servers         use the leaked information for getting access to even larger amount
+is using automated tools that exploit design/security flaws in pro-       of material which can be later sold to the highest bidder.
+grams that listen for connections from third party hosts. A well              There are some methods for tackling eavesdropping attacks or
+known DDoS tool is Stacheldraht1 rendering the attacker capable           effectively minimise the damage they may inflict into a business.
+of connecting to a first layer of compromised systems, the Handlers,      Primarily, it is advised to use encryption for all message exchange
+used to issue commands to a second layer of compromised systems,          amongst network points. When encryption is enforced in an end-
+the Agents, which in turn facilitate the DDoS attack. Each Handler        to-end manner, even if an attacker manages to intervene between a
+can control up to a thousand Agents, using automated routines             communication, the attack would be considered successful only if
+for exploiting vulnerabilities in programs that accept remote con-        intercepted data can be interpreted. By using a 256-bit, also known
+nections. Stacheldraht uses classic DoS attack methods known as           as military-grade encryption, the attacker may gather large datasets
+bandwidth consumption attacks, mostly relying on IP spoofing [13]         via eavesdropping, but the content will still be safe as deciphering
+and amplification like smurf attacks [7].                                 is nearly impossible. An additional countermeasure against eaves-
+    It is also possible that simple attacks such as SYN floods [6] to     dropping attacks in large corporation/business environments is
+appear having a wide range of source IP addresses, thus giving the        network segmentation. The overall computer network is divided
+appearance of a well distributed DoS. These flood attacks do not          into logically isolated parts, each accessible by specific individuals
+require completion of the TCP three way handshake and attempt             and key personnel only. This tactic boosts network traffic deconges-
+to exhaust the destination SYN queue or the server bandwidth.             tion, improves security and prevents information leakage. However,
+Because the source IP addresses can be trivially spoofed, an attack       the most important factor for preventing an eavesdropping attack
+could come from a limited set of sources, or may even originate           is raising awareness among all employees through cybersecurity
+from a single host. In general, proper classification dictates that       training and constant updates. Given the fact that a chain is only as
+                                                                          strong as its weakest link, an unaware employee may unknowingly
+1 https://packetstormsecurity.com/distributed/stachel.tgz                 put the whole organization at risk, thus avoiding potential malware
+Improving Network, Data and Application Security for SMEs                                             ARES 2022, August 23–26, 2022, Vienna, Austria
+
+
+downloading and installation, or connect to the company’s backend       payment. If the victim makes the payment, the attacker constantly
+infrastructure through open/weak networks.                              invents additional fees or in most cases simply vanishes (ii) create
+                                                                        backlinks to their own website through false and irrelevant com-
+2.2     Data Security breaches                                          ments inserted in the victim’s website. The attacker uses software,
+2.2.1 Sensitive Data Exposure. Applications and online services         such as ScrapeBox3 , to find potential targets and overflow them
+often reveal sensitive data to attackers which launch successful        with comments. The comments are useless to the victim, but create
+man-in-the-middle attacks, steal digital access keys and more often     blacklinks to the spammer’s website increasing its visibility and
+intercept clear text datasets during transmission. Lack of encryption   potential revenue.
+was the most common reason of data theft, regardless if the datasets       Spamming is considered economically viable due to the low
+were obtained from a server, while in transit or from the user’s        operating cost for the attackers, which only covers mailing list
+client. Yet, even in cases where encryption is applied, brute force     management, domain names, limited backend infrastructure and
+attacks, facilitated by contemporary Graphics Processing Units          possible IP ranges purchase. In addition, attackers do not face crim-
+(GPUs) proved capable of successfully compromising systems rely-        inal charges or held accountable for mass email submission. Main
+ing on weak key generation and management, outdated security            costs related to lost productivity and fraud, are imposed to both the
+algorithms and protocols or weak password hashing storage tech-         public and the Internet service providers, which have been forced to
+niques, regardless if applied for providing an extra layer of protec-   add extra capacity to cope with the volume. Spamming has been the
+tion to data in transit or data at rest. A compromised system often     subject of legislation in many jurisdictions. With regards to SMEs,
+reveals to the attacker sensitive personal information of legitimate    spam creates a communication service overload since businesses
+users, such as health records, credentials or financial documents,      may need to pay a premium to provides or third party software
+which often require protection as defined by laws and regulations       vendors to efficiently filter electronic messages.
+such as EU’s General Data Protection Regulation (GDPR)2 or local           Phishing on the other hand is the fraudulent attempt to obtain
+privacy legislation.                                                    sensitive information such as usernames, passwords and credit card
+   There are several simplistic scenarios which demonstrate im-         details by disguising oneself as a trustworthy entity in an elec-
+proper security design leading to sensitive data exposure. For in-      tronic communication. Typically carried out by email spoofing it
+stance, an application may encrypt credit card numbers in a data-       often directs users to enter personal information at a fake website
+base using automatic database encryption, yet automatically de-         which matches the look and feel of the legitimate site. Phishing
+crypt retrieved elements from the specific database. This approach      is an example of social engineering techniques being used to de-
+makes the application vulnerable, since it allows an SQL injection      ceive users. Users are often lured by communications purporting
+attack [16] to retrieve credit card information in clear text. An-      to be from trusted parties such as social web sites, auction sites,
+other example may come from an application server which doesn’t         banks, online payment processors or IT administrators. Attempts
+enforce Transport Layer Security (TLS) in an end-to-end manner          to deal with phishing incidents include legislation, user training,
+or supports weak encryption. A malicious user capable of moni-          public awareness, and technical security measures, often paired
+toring network traffic (i.e. in a public, insecure wireless network),   with meticulously maintained phising website inventories [5], often
+may downgrade connections from HTTPS to HTTP and steal all              even pragmatically populated [26] used for blacklisting or machine
+available session cookies. By replaying the cookies, the attacker       learning-based identification algorithm training.
+is now able to hijack authenticated sessions and access or modify
+all transported data. A third example is of a password database         2.3     Application-related attacks
+which uses unsalted or simple hashes to store passwords. If a file      2.3.1 Injection Attacks. Injection attacks is probably the most com-
+upload flaw is identified, an attacker could potentially retrieve the   mon and successful attack class on the internet, due to its large
+password database and expose all unsalted hashes via a rainbow          attack surface, type variation and countermeasure complexity. The
+table of pre-calculated hashes. Even if the hashes were salted, those   main characteristic of this type of attack is identification and ex-
+generated by simple or fast hash functions can be compromised by        ploitation of specific flaws which allow malicious users to relay and
+a GPU. These examples aim to prove that data exposure needs to          execute code through an application to a third party node. Notable
+be addressed from the early phases of application design and by         examples of injection attacks include Cross-Site Scripting (XSS),
+having the broader picture in mind.                                     SQL Injection, Header Injection, Log Injection and Full Path Disclo-
+                                                                        sure. As most web applications rely on operating system features
+2.2.2 Spam and Phishing Attacks. Spam is defined as massively dis-      and external programs to support their functionality, an attacker
+tributed, irrelevant or unsolicited messages sent over the Internet,    may include a variety of calls to numerous functional entities rang-
+aiming to trick recipients and collect valuable pieces of personal      ing from the operating system to the backend databases. In addition,
+information. Spam content varies ranging from plain advertising         it is also possible for an attacker to inject special (meta) characters
+to consulting services and is often considered the responsible for      or command modifiers into HTTP request information, having the
+phishing scams, fraud, privacy threats and malware spread. Attack-      web application blindly pass them on the end system for execution.
+ers using spam messages to (i) engage recipients into advance-fee           A particularly widespread and perilous form of injection attack
+scams, a form of fraud that typically involves promising the vic-       is SQL injection. The attacker in order to exploit an SQL injec-
+tim a significant financial benefit in return for a small up-front      tion flaw, must be able to identify a parameter that the target web
+2 https://ec.europa.eu/info/law/law-topic/data-protection_en            3 http://www.scrapebox.com/
+ARES 2022, August 23–26, 2022, Vienna, Austria                                                                          Tselios, Politis and Xenakis
+
+
+application directly forwards to a database. Once such a param-           characters from the results page. However it is also common for
+eter is identified, the attacker becomes capable of deceiving the         non-persistent attacks to be delivered through innocent-looking
+application into forwarding improper queries to the database, by          URLs pointing to a trusted site but containing hidden web attack
+carefully embedding malicious SQL commands into the parameter             vectors, including XSS. By clicking the link, the victim’s browser
+content. The consequences of such attacks can be devastating, since       executes the injected script and the attack is instantly launched.
+the attacker can copy, corrupt, or destroy the content of the now            The persistent XSS vulnerability is a more dangerous variation
+compromised database. In general, there is no pattern or specific         of the cross-site scripting flaw: it occurs when the data injected by
+level of complexity for identifying injection vulnerabilities. Simi-      the attacker is permanently stored in the server and then constantly
+larly, the consequences of successful injection attacks may range         served as results in HTTP requests of all legitimate users [9]. The
+from having a trivial effect to complete system outage and service        malicious script is automatically rendered, without the need of indi-
+disruption. In any case, since contemporary applications heavily          vidually targeting victims or redirect them to third-party websites.
+rely on external calls the likelihood of an application to contain an     In its most sophisticated implementation, the malicious code can be
+injection flaw should always be considered as high.                       self-propagated across accounts, thus creating a type of client-side
+    As all contemporary web applications allow external command           worm [9].
+execution such as system calls, shell commands, and SQL requests,            DOM-based XSS attacks take place in cases that web applications
+the susceptibility of an external call to command injection is directly   stores data to the Document Object Model without first enforcing
+linked on how the call is conducted. However, it should be stated         any type of data sanitation process or algorithm. This exact data
+that almost all external calls can be attacked if the web application     can be manipulated by the attackers to include XSS content such
+is not properly implemented. For instance, a malicious parameter          as malicious JavaScript (JS) code on the target web page. It should
+could change the results of a system call which normally retrieves        be stated here that DOM is a convention used to represent and
+a file path to track another similar file path belonging to a different   automate object-related functionality in any HTML document. Con-
+user, or SQL queries could be modified by adding additional ‘con-         sequently, all HTML documents have associated DOMs consists
+straints’ to a where clause to gain access to or modify unauthorized      of object which represent document properties from the browser
+data.                                                                     point of view. During the execution of a client-script, it parses the
+                                                                          DOM of the HTML page, is accessing its properties and is in a
+2.3.2 Cross Site Scripting Attack. Security on the web is based on        position of changing their values. The attacker can simultaneously
+a series of concepts which create a functional baseline that all ser-     use a variety of DOM objects to launch an XSS attack. In general, JS
+vices depend upon. One of these concepts is the same-origin policy,       frameworks, single-page applications and APIs which dynamically
+which states that if an entity is granted permission of accessing web     insert data to a web page should always be considered as the attack
+browser resources, then content from any URL having the same (i)          surface of DOM XSS.
+URI scheme, (ii) hostname and (iii) port number also inherits the
+                                                                          2.3.3 Access Control. The scope of Access control is to enforce
+same permission.
+                                                                          predefined policies related to user permissions. When operating
+   Attacks categorized as cross-site scripting (XSS) [4] ones exploit
+                                                                          normally, Access control prevents unauthorized information disclo-
+known vulnerabilities in web-based applications, their underlying
+                                                                          sure and data modification or discard by blocking low-privileged
+hardware infrastructure or affiliated plug-in systems. The attacker
+                                                                          users. However, access control is also possible to succumb in attacks
+is able to insert malicious content on top of the legitimate content
+                                                                          launched by malicious users. Some common attacks involve (i) by-
+which is delivered by the compromised node. When the combined
+                                                                          passing access control checks by modifying the application URL, the
+content is inspected in the client-side upon arrival it is marked as
+                                                                          internal application state, or through a custom API attack tool like
+being sent by a trusted source therefore is granted fully operational
+                                                                          Metasploit4 , (ii) metadata manipulation such as tampering a JSON
+permissions. By injecting malignant scripts into web pages, attack-
+                                                                          Web Token, a cookie or a hidden field to achieve access privilege
+ers are rendered capable of getting elevated access privileges to
+                                                                          elevation or nullifying the whole validation process and lastly (iii)
+resources like sensitive page content, session cookies and private
+                                                                          unauthorized API access through efficient Cross-Origin Resource
+user information that is maintained in the browser on behalf of the
+                                                                          Sharing (CORS) misconfiguration or missing access controls for
+user.
+                                                                          POST, PUT and DELETE calls.
+   There are two prime categories of XSS vulnerabilities: persistent
+and non-persistent with some experts further diving these groups
+into those caused by server-side code flaws and the Document
+                                                                          3 MITIGATING CYBERSECURITY ATTACKS
+Object Model (DOM)-based ones which take place on client-side.            3.1 Best Practices for Network Security
+The non-persistent XSS vulnerability is probably the most common          The rise of mobility as integral part of contemporary technical
+type and can be exploited when web client-oriented data such              workforce makes remote access a crucial service. However, this
+as HTTP query parameters, is directly utilized by the backend             also increases the organization’s attack surface with devastating
+without any proper content sanitation. Given the fact that HTML           consequences in case there is a breach. Compromising a company
+documents are structured using a flat, serial schema containing           network allows attackers to launch a direct attack on the whole
+control statements, formatting elements all fused with the actual         organization by obtaining privilege escalation and gain control of
+content, it is possible that non-validated data inflicting markup         core components. Once inside, a backdoor or Remote Access Trojan
+injection. As mentioned in [9], an XSS flaw is possible when site-
+embedded search engines do not properly reject HTML control               4 https://www.metasploit.com/
+Improving Network, Data and Application Security for SMEs                                            ARES 2022, August 23–26, 2022, Vienna, Austria
+
+
+(RAT) typically has little difficulty connecting to a Command and       data and are applied through firewalls and gateways. Firewalls and
+Control (C2) server using an outbound call to an external system,       gateways restrict traffic to their respective zones, reducing lateral
+while freely available network traffic generators5 [10, 14, 15] and     movement and attack surface to contain the blast radius of a breach.
+DDoS tools can be configured and controlled in forming botnets          Essential network segmentation guidelines dictate that firewalls
+capable of generating valid internet user traffic and flood targeted    and gateways must support:
+websites. It becomes obvious that for ensuring cybersecurity for
+SMEs, such issues need to be addressed in a holistic manner, apply-         • Authentication and proxy of client connections in the neces-
+ing (i) end-to-end remote access strategies, (ii) network segmenta-           sary demilitarized zone (DMZ) - a physical or logical subnet-
+tion and implementing network security zones, and (iii) intelligent           work that contains and exposes an organization’s external-
+load balancing and multilayer DDoS service protection.                        facing services, to block malformed packets and malicious
+                                                                              requests at this point.
+3.1.1 Providing secure Remote Access for partners, customers and            • Optimization, multiplexing and rate limiting of connections
+employees. Advanced remote access capabilities allow users outside            to backend servers to protect their resources.
+the company’s core network infrastructure to access applications,           • A software-defined architecture that uses virtualization to
+services and data. The existence of a dedicated node which monitors,          enable the hardware platform to be securely carved up into
+controls and secures remote user privileges is of paramount impor-            separate and unique instances, each with separate SLAs and
+tance. To be more specific, this dedicated node, must be capable              assigned memory, SSL, CPU and virtual NICs that are either
+of                                                                            shared or dedicated.
+     • Extending remote access and Single sign-on (SSO) function-
+       ality to all applications.                                       It is important for all network nodes to be designed, implemented
+     • Unifying infrastructure for reducing access method prolifer-     and deployed with segmentation in mind. More specific:
+       ation.
+                                                                            • Traffic domains need to segment traffic for different applica-
+     • Intercepting incoming traffic acting as a highly capable full
+                                                                              tions and tenants into fully isolated network environments
+       reverse-proxy gateway before forwarding it to the applica-
+                                                                              on a single appliance.
+       tions on the network backend.
+                                                                            • Internal administrative partitions must segment individual
+     • Providing a single URL for consolidating all third-party so-
+                                                                              appliances into separate resources with dedicated adminis-
+       lutions needed to support all types of access scenarios.
+                                                                              tration and separate login UI, views, configuration files and
+A very common method of delivering seamless access capabili-                  logging.
+ties is a full Secure Sockets Layer (SSL) virtual private network
+(VPN) configured to provide a direct network-level connection to        This approach ensures that even in case of a successful attack,
+the datacenter. However, other solutions also exist for instance NG-    the fallout will be contained into one segment and the network
+INX Plus6 or Citrix Application Delivery Controller (ADC)7 which        infrastructure will never be compromised as a whole.
+provides a specialized proxy service based on its Independent Com-
+puting Architecture (ICA) protocol for connecting privately hosted      3.1.3 Improving Availability through Intelligent Load Balancing and
+applications with the end-user equipment [22, 23]. As with SSL          Multilayer Denial of Service Protection. Network and service avail-
+VPN, all data transmitted between the client and datacenter is en-      ability is challenged daily by both hardware and software failures
+crypted. Such solutions are commonly delivered over a single URL        as well as DDoS attacks that disrupt services through the exhaus-
+which provides end users a unique entry point for remote access to      tion of bandwidth, compute and memory resources. This renders
+web and SaaS applications from any device, with the ability to also     load balancers network nodes of paramount importance, since they
+have two-factor authentication, SSO and Federation configured. It       must be capable of seamlessly distributing incoming client requests
+should be stated here that such solutions should also be specifically   across multiple servers hosting web applications and content. This
+designed to simplify and centralize access control and visibility by    prevents any one server from becoming a single point of failure and,
+providing a single point of configuration and enforcement. Feature      together with utilization optimization methods such as Least Con-
+delivery should also be blocked based on client and server IP and       nection or SNMP-based metrics, improves overall application avail-
+port as well as user and group membership. Virtual channels access      ability and responsiveness. Global Server Load Balancing (GSLB)
+such as cut-and-paste, mapping, client drive mapping or printing        provides an additional layer of protection, failover and optimization
+should be enabled in a per-application manner, to provide the right     for organizations with multiple sites and geographically distributed
+level of access.                                                        services. As part of a multilayer approach to availability, any com-
+                                                                        pany network must enforce mechanisms for delivering:
+3.1.2 Network Segmentation: Implementing Network Security Zones.
+Network Segmentation is a strategy aiming to extend the rule of             • DDoS protection – preferably by having a dedicated node
+least privilege to all network infrastructure and interconnected              intelligent enough to (i) monitor client connection and re-
+hosts by properly implementing security zones. These zones operate            quest parameters to prevent flood attacks such as SYN, UDP,
+specifically for minimizing user access to sensitive applications and         ICMP and Smurf [7], (ii) capable of proxying the connection
+5 https://trex-tgn.cisco.com/                                                 until a valid application request has been submitted.
+6 https://www.nginx.com/products/nginx/load-balancing/                      • SSL/TLS offloading – by proxying, validating and, if needed,
+7 https://www.citrix.com/products/citrix-adc/                                 rate-limiting connections, network infrastructure should be
+ARES 2022, August 23–26, 2022, Vienna, Austria                                                                                  Tselios, Politis and Xenakis
+
+
+        able to protects web services against attacks such as Heart-      3.2.2 Containerization: Encrypt Data both in Transit and at Rest.
+        Bleed8 , and Shellshock9 that target SSL/TLS vulnerabilities.     In natively-run mobile applications data is locally stored, and a
+      • Surge protection and priority queuing – load balancers must       strategy that significantly increases the the risk of data leakage
+        enforce mitigation policies against traffic spikes and surges     and loss. Insecure mobile data storage must be addressed by en-
+        that can overload backend servers involving caching and pri-      forcing containerization and encryption in all applications, devices
+        oritizing connections, and then delivering them as the server     and endpoints. More specific, through containerization (or alterna-
+        load is reduced so that none are dropped. DNS protection is       tively application-level segmentation) the application data resides
+        also a necessity while the support for Domain Name System         inside the container in which is executed and cannot be accessed
+        Security Extensions (DNSSEC) [11] to protect against forged       by external applications. This approach is also convenient for data
+        and corrupted host records spreading to new targets is a          encryption since any isolated container within an endpoint can be
+        welcome addition to the cybersecurity arsenal.                    easily encrypted in an independent manner, mitigating against data
+                                                                          loss.
+3.2     Enhancing Data Security                                              In addition, as the concept of bring-your-own-device is extremely
+Data of all kinds, including legal documents, contracts, R&D data,        popular among organizations and most importantly startups, it be-
+marketing and sales info, entertainment media or any other form of        comes essential to separate personal and business applications along
+intellectual property, constitute vital organizational assets that must   with their associated data. Contemporary solutions available from
+be protected. Over the last few years, data breaches have resulted        VMWare10 , Citrix11 and Microsoft 12 , leverage industry-standard
+substantial amount of compromised records, many with personally           encryption for application data either at compile time or via wrap-
+identifiable information (PII), including credit card numbers, Social     ping technology. All application data is stored in a secure container
+Security numbers, dates of birth, driver’s license, addresses, health     that encrypts both files and embedded SQL technology on the de-
+records and government records come even containing fingerprints          vices. Data held in local database files is encrypted using AES-256
+and security clearance data.                                              [3].
+   However, not every breach results from hacking, malware and            3.2.3 Secure Sharing: Enable Secure File Sharing to Reduce Data
+other attacks. Other causes include unintended disclosure, payment        Loss. As employees, customers and business partners seek to collab-
+card fraud, insider fraud, loss of documents, loss of media, and loss     orate efficiently, they always demand an easy way of data sharing
+of both mobile and stationary devices. In addition, the popularity        and are constantly trying to find the path of least resistance to do
+of consumer-grade cloud storage among users is especially prob-           so. This sometimes includes third-party solutions that are out of
+lematic, moving data off the trusted network to servers outside           the visibility, approval or control of the authorized IT, leading to
+the organization’s control and the security regulations it enforces       data sprawl and non-secure file sharing via USB drives, the Internet
+[12, 19, 21]. Thus said, it becomes important to enhance data se-         and personal cloud services that often lack either basic or advanced
+curity as a whole through techniques that promote (i) centralized         controls against data leakage. Additional solutions based on commu-
+monitoring and data egress control, (ii) data encryption and (iii)        nication protocols such as FTP, lack secure authentication having
+secure data sharing.                                                      credentials transmitted in cleartext. Last but not least users rely on
+3.2.1 Centralization: Centralize, Monitor and Control Data Egress.        unencrypted email, which may also have catastrophic results if files
+In contemporary virtualized ecosystem environments, all data are          are accidentally sent to unauthorized individuals inside and outside
+aggregated in secure locations inside the organization’s datacenter.      the organization. Such a perplexed problem demands a unified solu-
+The core application functionality is run on the server and inter-        tion addressing security characteristics such as (i) Authentication,
+acts with the user equipment with only the necessary mouse clicks         (ii) Authorization, (iii) Auditing and (iv) Encryption.
+and keystrokes. This approach improves security caused by lost,                • Authentication could be improved by implementing mul-
+stolen or destroyed endpoints. Organizations can further protect                 tiple two-factor and two-step authentication methods some
+against bulk data loss by preventing file and database transfer even             of which are token-based or smartphone-dependent (SMS
+to authorized workstations. To prevent data from being saved on                  or push notifications to affiliated, secure applications).
+removable media such as USB drives, emailed among users, printed               • Authorization could be ensured by a central, IT-monitored
+out or otherwise exposed to loss or theft, policies should be cen-               repository which will integrate the ability to generate file
+trally administered for controlling users’ ability to save, copy, print          links to be forwarded via e-mail but having the IT controlling,
+or otherwise move data. Some notable device policies to further                  monitoring and possibly blocking the overall process. For
+enhance data security include:                                                   additional data protection, an expiration date could be set to
+     • the isolation of client-side data from applications, by block-            each link while the owner could also be capable of remotely
+        ing virtual channels such as client drive mapping, print, and            wiping-out content stored in mobile devices in case of loss
+        copy/paste.                                                              or theft.
+     • folder redirection allowing user folders mapping to a central           • Auditing involves mechanisms for tracking and logging all
+        file storage location in the datacenter.                                 user activity, including data access and sharing in an attempt
+     • enforcing restrictions on where files can be saved to protect
+                                                                          10 https://www.vmware.com/products/workspace-one.html
+        against loss, theft or the destruction of the endpoint.           11 https://www.citrix.com/products/citrix-endpoint-management/
+8 https://heartbleed.com/                                                 12 https://www.microsoft.com/en-ww/security/business/microsoft-endpoint-
+9 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271            manager
+Improving Network, Data and Application Security for SMEs                                                 ARES 2022, August 23–26, 2022, Vienna, Austria
+
+
+        to support compliance requirements and provide clarity on          with the later being directly managed by IT. Container-based secu-
+        data utilization. This allows organizations to monitor all data-   rity measures must include encrypted storage, granular application
+        related activity and intervene once an attack or malicious         data control and data wipe policies, in order to effectively extend
+        activity is identified.                                            hardware, operating systems and individual application security.
+      • Encryption must be implemented in a specific way: each file        For effectively augmenting application security through container-
+        must be encrypted using a unique key before being copied           ization, any contemporary solution must support the following
+        to its permanent location and decrypted before being down-         services:
+        loaded to the user’s browser. Finally, encryption keys should          • Dedicated Micro-VPN tunnels for native mobile applications
+        not be stored in the same server as the files for ensuring that          ensure that internal network resources are not exposed to
+        physical access to the storage server does not automatically             ingress traffic toward personal applications which always
+        grant access to the content of the files stored there.                   could be infected with malware. As always, sessions must
+                                                                                 be encrypted using SSL/TLS encryption protocols.
+3.3     Improving Application Security                                         • Device validation is of paramount importance since con-
+                                                                                 tainerization alone can’t ensure security for a device that
+As already stated, all types of applications are popular targets for
+                                                                                 has been jailbroken or rooted by its owner to allow the in-
+exploitation. Even if security researchers track a vulnerability be-
+                                                                                 stallation of pirated or non-validated applications. This is the
+fore hackers do, the overall remediation action for the entire or-
+                                                                                 main reason for the deployment of endpoint management
+ganization may take months before it is finalized. Moreover, it
+                                                                                 solutions [23] specifically designed to support device sta-
+is quite common that many successful breaches have exploited
+                                                                                 tus validation and block jailbroken devices before the initial
+known vulnerabilities with existing patches which have never be-
+                                                                                 enrollment.
+ing applied into legacy applications. Especially web applications
+are considered even more vulnerable due to poor security config-           3.3.3 Inspection: Protect Web Applications Against Attacks. Web
+uration, incomplete patch management of the underlying operat-             applications expose a highly vulnerable attack surface with direct
+ing system, vulnerabilities in the coding language, or unpatched           connectivity to databases containing sensitive customer and com-
+and zero-day vulnerabilities in third party dependencies. Legacy           pany information. Attackers often launch customized attacks on
+or unsupported applications risk attacks that tamper with fields,          specific applications rendering identification by network-layer se-
+overflow buffers or perform command injection and remote code              curity devices such as intrusion protection systems and network
+execution. Application-layer attacks are well above the controls           firewalls nearly impossible. This approach leaves web applications
+provided by network firewalls and intrusion detection/prevention           exposed to application-layer attacks using known and zero-day
+systems (IDS/IPS), which don’t understand logic attacks. Mitigat-          exploits.
+ing application-layer attacks requires thinking in a more abstract            In addition, since web applications are often prone to DDoS
+layer [24] and must enforce techniques related to (i) centraliza-          attacks, protection must extend beyond the network and session
+tion of virtualized application and encrypted content delivery, (ii)       layers. More specific, for mitigating a DDoS attack, the gateway
+containerization and (iii) meticulous inspection.                          must be able to block or throttle traffic that appears to be as valid at
+                                                                           the network layer. The method involves an entity able to challenge
+3.3.1 Centralization: Virtualize Applications and Require Encrypted        client requests to ensure that their origin is a valid browser. Requests
+Delivery. Application virtualization protects sensitive data by cen-       coming from bots and scripts typically cannot answer the challenge
+tralizing apps in the datacenter and allowing only a pixelated rep-        properly and are discarded. When POST requests are involved
+resentation of the application to reach the endpoint—no actual             the process must be slightly different. The POST request is first
+data transfer occurs. Virtualization also allows the classification of     checked for a valid cookie. Potential lack of the specific cookie
+applications based on their security requirements; sensitive apps          must trigger an alarm and raise awareness since the platform is
+must be siloed onto dedicated servers within a separate network            potentially under attack. However, the gateway should first make a
+segment with different sensitivity classifications and restrictions,       request to the client demanding information resubmission using
+and multiple isolated versions of web browsers should be published         a new cookie, which becomes invalid after a predefined period
+to address diverse security and legacy requirements of web apps.           of time. From that point on, every response to the client is sent
+Through centralization it is possible to perform OS patches, service       using the new cookie. During an attack, all cookies sent beforehand
+packs, hot fixes, and configuration updates on a single master im-         must become invalid, while new connections as well as connections
+age, greatly accelerating testing and rollout. Endpoint-based attacks      that cannot provide valid cookie data should be placed into a low-
+such as memory or RAM scraping no longer present a risk. The               priority queue. To further ensure proper application behavior it is
+spectrum of benefits this approach provides renders it suitable for        necessary to enforce both positive and negative security models.
+all modern business environments, hence highly recommended.                The positive security model understands good application behavior
+                                                                           and treats all other traffic as malicious. In real-world scenarios,
+3.3.2 Containerization: Manage Mobile Apps to Prevent Data Loss.           this is the only proven approach for delivering zero-day protection
+Best practices for mobile application security must be also based          against unpublished exploits. Administrators should be able to
+on containerization, a form of segmentation at the device level. As        create managed exceptions and relaxations when an application’s
+already mentioned in a previous section, users should be able to           intended and legal behavior might otherwise cause a violation of the
+use a single device with both personal and business applications,          default security policy. On the other hand, using a negative security
+ARES 2022, August 23–26, 2022, Vienna, Austria                                                                                                       Tselios, Politis and Xenakis
+
+
+model involves a mandatory and constant scanning against known                                 next generation networks. In 2018 IEEE International Conference on Perva-
+attacks using thousands of automatically updated signatures. The                               sive Computing and Communications Workshops (PerCom Workshops). 272–277.
+                                                                                               https://doi.org/10.1109/PERCOMW.2018.8480342
+advanced web application protection profile must also add session-                        [13] Opeyemi A. Osanaiye. 2015. Short Paper: IP spoofing detection for preventing
+aware protections to protect dynamic elements such as cookies,                                 DDoS attack in Cloud Computing. In 2015 18th International Conference on Intel-
+                                                                                               ligence in Next Generation Networks. 139–141. https://doi.org/10.1109/ICIN.2015.
+form fields and session-specific URLs. Attacks that target the trust                           7073820
+between the client and server are consequently stopped, making                            [14] Ioannis Prevezanos, Andreas Angelou, Christos Tselios, Alexandros Stergiakis,
+this type of mitigation strategy imperative for any application that                           Vassilis Tsogkas, and George Tsolis. 2017. Hammer: A real-world end-to-end
+                                                                                               network traffic simulator. In 2017 IEEE 22nd International Workshop on Computer
+processes user-specific content.                                                               Aided Modeling and Design of Communication Links and Networks (CAMAD). 1–6.
+                                                                                               https://doi.org/10.1109/CAMAD.2017.8031618
+                                                                                          [15] Ioannis Prevezanos, Christos Tselios, Andreas Angelou, Michael McGrath, Rufael
+4    CONCLUSIONS AND FUTURE WORK                                                               Mekuria, Vassilis Tsogkas, and George Tsolis. 2017. Evaluating Hammer Network
+                                                                                               Traffic Simulator: System Benchmarking and Testbed Integration. In GLOBECOM
+Delivering effective cybersecurity is a complex problem since each                             2017 - 2017 IEEE Global Communications Conference. 1–6. https://doi.org/10.1109/
+organization has highly differentiated requirements which dictate                              GLOCOM.2017.8254081
+                                                                                          [16] Amirmohammad Sadeghian, Mazdak Zamani, and Azizah Abd. Manaf. 2013.
+tailored solutions per case. This renders security solutions to be                             A Taxonomy of SQL Injection Detection and Prevention Techniques. In 2013
+expensive, time-consuming to develop and deploy, with a high de-                               International Conference on Informatics and Creative Multimedia. 53–56. https:
+gree of complexity that often requires expert knowledge to setup                               //doi.org/10.1109/ICICM.2013.18
+                                                                                          [17] Parvinder Singh Saini, Sunny Behal, and Sajal Bhatia. 2020. Detection of DDoS
+and manage. However, when viewed in a layered perspective, se-                                 Attacks using Machine Learning Algorithms. In 2020 7th International Conference
+curity attacks can be partially grouped. The purpose of this book                              on Computing for Sustainable Global Development (INDIACom). 16–21. https:
+chapter was to provide an overview on how the most common                                      //doi.org/10.23919/INDIACom49435.2020.9083716
+                                                                                          [18] Ch. Tselios, K. Birkos, P. Galiotos, S. Kotsopoulos, and T. Dagiuklas. 2012. Mali-
+network-related cybersecurity attacks are orchestrated, which are                              cious threats and novel security extensions in P2PSIP. In 2012 IEEE International
+the systems and services they affect and most importantly to present                           Conference on Pervasive Computing and Communications Workshops. 746–751.
+                                                                                               https://doi.org/10.1109/PerComW.2012.6197612
+certain guidelines for the design of platforms and frameworks capa-                       [19] C. Tselios, I. Politis, K. Birkos, T. Dagiuklas, and S. Kotsopoulos. 2013. Cloud
+ble of mitigating them and operate with a certain level of security                            for multimedia applications and services over heterogeneous networks ensuring
+confidence.                                                                                    QoE. In 2013 IEEE 18th International Workshop on Computer Aided Modeling
+                                                                                               and Design of Communication Links and Networks (CAMAD). 94–98. https:
+                                                                                               //doi.org/10.1109/CAMAD.2013.6708096
+                                                                                          [20] C. Tselios, I. Politis, and S. Kotsopoulos. 2017. Enhancing SDN security for IoT-
+REFERENCES                                                                                     related deployments through blockchain. In 2017 IEEE Conference on Network
+ [1] Vipindev Adat, Tafseer Akhtar, Ilias Politis, Christos Tselios, and Stavros Kot-          Function Virtualization and Software Defined Networks (NFV-SDN). 303–308. https:
+     sopoulos. 2019. Towards Secure Network Coding Enabled Mobile Small Cells.                 //doi.org/10.1109/NFV-SDN.2017.8169860
+     In 2019 IEEE Global Communications Conference (GLOBECOM). 1–6. https:                [21] Christos Tselios, I Politis, V Tselios, S Kotsopoulos, and T Dagiuklas. 2012. Cloud
+     //doi.org/10.1109/GLOBECOM38437.2019.9014127                                              Computing: A Great Revenue Opportunity for Telecommunication Industry. In
+ [2] Vipindev Adat Vasudevan, Christos Tselios, and Ilias Politis. 2020. On Security           FITCE Congress (FITCE), 51st, 6, Poznan, Poland.
+     Against Pollution Attacks in Network Coding Enabled 5G Networks. IEEE Access         [22] Christos Tselios and George Tsolis. 2016. A Survey on Software Tools and
+     8 (2020), 38416–38437. https://doi.org/10.1109/ACCESS.2020.2975761                        Architectures for Deploying Multimedia-Aware Cloud Applications. In Lecture
+ [3] Joan Daemen and Vincent Rijmen. 2002. The Design of Rijndael. Springer-Verlag,            Notes in Computer Science: Algorithmic Aspects of Cloud Computing. Vol. 9511.
+     Berlin, Heidelberg.                                                                       Springer International Publishing, 168–180.
+ [4] Mohit Dayal Ambedkar, Nanhay Singh Ambedkar, and Ram Shringar Raw. 2016.             [23] Christos Tselios, George Tsolis, and Manos Athanatos. 2020. A Comprehensive
+     A comprehensive inspection of cross site scripting attack. In 2016 International          Technical Survey of Contemporary Cybersecurity Products and Solutions. In
+     Conference on Computing, Communication and Automation (ICCCA). 497–502.                   Computer Security, Apostolos P. Fournaris, Manos Athanatos, Konstantinos Lam-
+     https://doi.org/10.1109/CCAA.2016.7813770                                                 propoulos, Sotiris Ioannidis, George Hatzivasilis, Ernesto Damiani, Habtamu
+ [5] Murat Karabatak and Twana Mustafa. 2018. Performance comparison of classifiers            Abie, Silvio Ranise, Luca Verderame, Alberto Siena, and Joaquin Garcia-Alfaro
+     on reduced phishing website dataset. In 2018 6th International Symposium on               (Eds.). Springer International Publishing, Cham, 3–18.
+     Digital Forensic and Security (ISDFS). 1–5. https://doi.org/10.1109/ISDFS.2018.      [24] Ioannis Tzolas and Christos Tselios. 2017. Virtual job management and scheduling
+     8355357                                                                                   for media services. In 2017 IEEE 22nd International Workshop on Computer Aided
+ [6] L. Kavisankar and C. Chellappan. 2011. A mitigation model for TCP SYN flooding            Modeling and Design of Communication Links and Networks (CAMAD). 1–6. https:
+     with IP spoofing. In 2011 International Conference on Recent Trends in Information        //doi.org/10.1109/CAMAD.2017.8031620
+     Technology (ICRTIT). 251–256. https://doi.org/10.1109/ICRTIT.2011.5972435            [25] Vipindev Adat Vasudevan, Tafseer Akhtar, Christos Tselios, Ilias Politis, and
+ [7] Sanjeev Kumar. 2007. Smurf-based Distributed Denial of Service (DDoS) Attack              Stavros Kotsopoulos. 2021. Study of Secure Network Coding Enabled Mobile
+     Amplification in Internet. In Second International Conference on Internet Monitor-        Small Cells. In ICC 2021 - IEEE International Conference on Communications. 1–5.
+     ing and Protection (ICIMP 2007). 25–25. https://doi.org/10.1109/ICIMP.2007.42             https://doi.org/10.1109/ICC42927.2021.9500614
+ [8] Aris S. Lalos, Athanasios P. Kalogeras, Christos Koulamas, Christos Tselios,         [26] Farashazillah Yahya, Ryan Isaac W Mahibol, Chong Kim Ying, Magnus Bin
+     Christos Alexakos, and Dimitrios Serpanos. 2019. Secure and Safe IIoT Systems             Anai, Sidney Allister Frankie, Eric Ling Nin Wei, and Rio Guntur Utomo. 2021.
+     via Machine and Deep Learning Approaches. Springer International Publishing,              Detection of Phising Websites using Machine Learning Approaches. In 2021
+     Cham, 443–470. https://doi.org/10.1007/978-3-030-25312-7_16                               International Conference on Data Science and Its Applications (ICoDSA). 40–47.
+ [9] Miao Liu, Boyu Zhang, Wenbin Chen, and Xunlai Zhang. 2019. A Survey of                    https://doi.org/10.1109/ICoDSA53588.2021.9617482
+     Exploitation and Detection Methods of XSS Vulnerabilities. IEEE Access 7 (2019),
+     182004–182016. https://doi.org/10.1109/ACCESS.2019.2960449
+[10] Rufael Mekuria, Michael McGrath, Christos Tselios, Dirk Griffioen, George Tsolis,
+     and Shahar Beiser. 2016. KPI Mapping for Virtual Infrastructure Scaling for a
+     Realistic Video Streaming Service Deployment. In IEEE QoMex’16 Proceedings.
+     IEEE Conference on Quality of Media Experience.
+[11] Moritz Müller, Taejoong Chung, Alan Mislove, and Roland van Rijswijk-Deij.
+     2019. Rolling With Confidence: Managing the Complexity of DNSSEC Operations.
+     IEEE Transactions on Network and Service Management 16, 3 (2019), 1199–1211.
+     https://doi.org/10.1109/TNSM.2019.2916176
+[12] Stavros Nousias, Christos Tselios, Dimitris Bitzas, Olivier Orfila, Samantha
+     Jamson, Pablo Mejuto, Dimitrios Amaxilatis, Orestis Akrivopoulos, Ioannis
+     Chatzigiannakis, Aris S. Lalos, and Konstantinos Moustakas. 2018. Manag-
+     ing nonuniformities and uncertainties in vehicle-oriented sensor data over
+

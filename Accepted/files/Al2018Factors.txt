@@ -1,0 +1,453 @@
+                                                                                                                                    PDF Download
+                                                                                                                                    3230348.3230370.pdf
+                                                                                                                                    23 December 2025
+                                                                                                                                    Total Citations: 11
+                                                                                                                                    Total Downloads: 512
+    .
+    .
+        Latest updates: hps://dl.acm.org/doi/10.1145/3230348.3230370
+
+
+
+
+                                                                                                                                    .
+                                                                                                                                    .
+                                                                                                                          Published: 25 April 2018
+        .
+        .
+                                                                                                                          .
+    RESEARCH-ARTICLE
+
+
+
+
+                                                                                                                          .
+                                                                                                                          Citation in BibTeX format
+    Factors Influencing Cloud-Computing Adoption in Small and Medium
+
+
+
+
+                                                                                                                          .
+                                                                                                                          .
+                                                                                                                          ICIEB '18: 2018 International Conference
+    E-Commerce Enterprises in Jordan                                                                                      on Internet and e-Business
+                                                                                                                          April 25 - 27, 2018
+    RADWAN MOH D AL-DWAIRI, Yarmouk University, Irbid, Irbid, Jordan                                                      Singapore, Singapore
+
+
+
+
+                                                                                                                          .
+    .
+                                                                                                                          .
+    NADIA AL-TWEIT, Yarmouk University, Irbid, Irbid, Jordan
+    .
+    KHOLOOD ZYOUT, Yarmouk University, Irbid, Irbid, Jordan
+    .
+    .
+    .
+    Open Access Support provided by:
+    .
+    Yarmouk University
+    .
+                                                           ICIEB '18: Proceedings of the 2018 1st International Conference on Internet and e-Business (April 2018)
+                                                                                                                          hps://doi.org/10.1145/3230348.3230370
+                                                                                                                                             ISBN: 9781450363754
+.
+     Factors Influencing Cloud-Computing Adoption in Small
+         and Medium E-Commerce Enterprises in Jordan
+        Radwan M. Al-Dwairi                                         Nadia Al-Tweit                                Kholood Zyout
+  Management Information Systems                         Computer Information Systems                   Computer Information Systems
+               Department                                            Department                                     Department
+  Faculty of Information Technology                     Faculty of Information Technology              Faculty of Information Technology
+      and Computer Sciences                                 and Computer Sciences                          and Computer Sciences
+         Yarmouk University                                    Yarmouk University                             Yarmouk University
+              Irbid, Jordan                                         Irbid, Jordan                                  Irbid, Jordan
+        r.aldwairi@yu.edu.jo                           nadiafaisaltweit@hotmail.com                    2016930013@ses.yu.edu.jo
+
+
+
+ABSTRACT                                                                       disciplines as a new efficient technology, and e-commerce is an
+Adoption of cloud computing provides great benefits especially to              ideal one to be motivated by the features of cloud computing in
+e-commerce small and medium enterprises (SME) in the                           saving the cost of IT infrastructure and respond quickly to the
+developing countries. as such businesses need to serve their                   continuous changes in market demand, since it can be allowed to
+customers and business partners effectively. This entails                      access the IT resources such as hardware, software, data and
+companies to use strong infrastructures that offer latest                      infrastructure on the cloud platform and pay for them as services.
+technologies in terms of hardware and software. However, the                   This facilitates the ability of e-commerce SMEs to enter the
+economical tough conditions may hurdle such endeavor and                       international markets easily and focus on their core business
+therefore SME need to adopt new solutions. Cloud computing as a                management, while the cloud service provider supply almost all
+new IT capability can solve many problems to SME in terms of                   the necessary products and services to the online store [2]. Small
+cost, technology, and availability. Many SMEs in developing                    and medium-sized enterprises (SME) are identified in [32] as
+countries are still reluctant to adopt such technology. This                   those companies who are employing less than 100 employees. In
+research investigates the main factors that impact adoption of                 September 2005, the Prime Minister of Jordan endorsed the
+cloud computing by interviewing 16 managers of e-commerce                      definition of industrial small enterprises as companies which
+SME and analyzes the collected data qualitatively. Results show                employed between 10 and 49 employees and have a registered
+that need, cost, security, and reliability are major factors that              capital of JD 30,000 or more. Furthermore, medium companies
+impact cloud computing adoption.                                               employed from 50 to 249 employees and have a registered capital
+                                                                               of JD 30,000 or more. SMEs accounted for 99.4 percent of
+                                                                               Jordan's 156,000 enterprises, and account for 70 percent of the
+CCS Concepts                                                                   workforce, Cloud computing as a new trend in the IT domain can
+Social    and       professional     topics→Professional                       be considered as an important capability for businesses from two
+topics→Computing and business→Socio-technical systems                          main pillars: IT efficiency and agility [29]. The two pillars are
+                                                                               dominant factors for businesses to achieve competitive edge in
+Keywords                                                                       competitive environments like e-commerce. Based on this, any
+Cloud computing; E-commerce; need; security, adoption; IT                      company needs to gain the competitive edge; it should build a
+architecture.                                                                  smart IT infrastructure that reflects its IT architecture [30]. The
+                                                                               later should be carefully designed to align business needs without
+1.    INTRODUCTION                                                             adding any new unnecessary technologies or devices. In response
+Cloud computing is defined by NIST, 2009 as "a model for                       to this fact, e-commerce enterprises increasingly understand the
+enabling convenient, on-demand network access to a shared pool                 importance of cloud computing and start adopting it in an
+of configurable computing resources (e.g., networks, servers,                  enormous adoption rate.
+storage, applications, and services) that can be rapidly provisioned           E-commerce enterprises increasingly understand the importance
+and released with minimal management effort or service provider                of cloud computing and start adopting it in an enormous adoption
+interaction [1]. Cloud computing is being applied to many vital                rate. The technology adoption studies goal is to find and
+                                                                               determine the main factors that affect organizations' decisions to
+ Permission to make digital or hard copies of all or part of this work for
+ personal or classroom use is granted without fee provided that copies are
+                                                                               accept and use such technology innovation [3]. Previous studies in
+ not made or distributed for profit or commercial advantage and that           this field show a lot of variations in the main factors that affect the
+ copies bear this notice and the full citation on the first page. Copyrights   adoption as well as the adoption rate among e-commerce SME [4].
+ for components of this work owned by others than ACM must be                  Adopting cloud computing by SME in Jordan is not widely
+ honored. Abstracting with credit is permitted. To copy otherwise, or          addressed by researchers and not yet completely understood. On
+ republish, to post on servers or to redistribute to lists, requires prior     the other hand there is a lack of theoretical models that
+ specific permission and/or a fee. Request permissions from                    investigates and analyzes the major factors that affect managers'
+ Permissions@acm.org.
+                                                                               decisions towards adoption of this technology in their
+ ICIEB 2018, April 25–27, 2018, Singapore, Singapore
+ © 2018 Association for Computing Machinery.
+                                                                               organizations to meet current and future organizational needs.
+ ACM ISBN 978-1-4503-6375-4/18/04…$15.00                                       Dynes [5] mentioned that IT managers are the dominant factor in
+ https://doi.org/10.1145/3230348.3230370                                       organizational decision making regarding the adoption of new IT
+technologies like cloud computing. In response the main purpose          enterprises adopt their cloud strategies [1]. Technically, when this
+of conducting this research is to explore and investigate the main       strategy is adopted into an e-commerce company; one service
+factors that affect SMEs managers' decision towards adoption of          provider can provide almost all the services to an e-commerce
+cloud computing in their enterprises. The remaining sections of          website. Hence, the supply chain of an e-commerce company will
+this article are structures as follows: section two presents the         be changed [1].
+literature review. Section three discussed the theoretical
+background and the proposed model. Section 4 and 5 present the           Understanding advantages of cloud computing pinpoint the extent
+research methodology. Section 6 presents data analysis research          of adoption of cloud computing and identify the tasks or activities
+results. Conclusions and future works are presented in section 7         where it is possible to improve performances of the organizational
+followed by references.                                                  tasks or functions. Generally, many previous researches have
+                                                                         focused on cloud computing benefits and possible services.
+                                                                         Studies [6], [7] pointed that cloud computing supports cost
+2.     LITERATURE REVIEW                                                 savings, scalability, availability, innovation speed, efficiency, easy
+Wang in [1] explained the adoption of cloud computing in e-              management and disaster management. On the other hand, cloud
+commerce companies in view of three modes: service, business             computing adoption is faced with a number of challenges and
+and technical. In the service mode e-commerce enterprises can            difficulties; these challenges starting with trust between clients
+access the required infrastructure which consists of needed              and vendors, because cloud computing calls for organizations to
+hardware and software and pay for this service. So that data is          trust vendors with the management of their IT resources and data
+saved remotely. This mode offers many advantages like                    [8]. In addition, adopting of cloud computing might be faced with
+decreasing the development costs, company operations, and                some structural aspects that include complex structure and
+maintenance. This yields to avoid companies dealing and owning           compatibility [9]. Table 1 below lists some previous studies with
+a complex IT architecture. In addition, this helps companies to          factors that are used by managers in the adoption of cloud
+manage and run its daily tasks according to a given plan based on        computing. Saleh in study [10] proposed a framework for
+business priorities. xIn addition, there are many main forces for        adopting of cloud computing in e-commerce enterprises. His
+companies to involve cloud computing long-term strategies: some          suggested framework highlights the important role of cloud
+of these factors are related to requests to improve the efficiency of    computing in decreasing enterprises costs and offer an effective
+customer's services, decreasing costs, more flexibility is needed, ,     implementation of e-commerce activities, and solves the problem
+establishing of data centers, data integration and best processing       of enterprises due to lack of hardware and software assets. Study
+to increase the efficiency of customer's online services.                [7] highlighted the role of cloud computing in implementing
+Furthermore offering customers with high quality of e-commerce           successful e-commerce activities by SMEs.
+products and services is another need that makes the e-commerce
+                                                         Table 1. Previous studies
+                 Article                                   Sample/methodology                                     Main results
+                                                                                                            flexible cost structure
+           Sultan, N. A. (2011)                                 British SME
+                                                                                                                   salability.
+                                                                                                   compatibility with the companies’ policy
+      Lin, A., & Chen, N.-C. (2012)             Interview of 19 Taiwanese IT professionals
+                                                                                                     IS development environment Needs.
+                                                                                                  company’s size: larger companies is better
+     Brender, N., & Markov, I. (2013)                   Sample of Swiss companies
+                                                                                                             fitting for the cloud.
+                                                                                                       CIO innovativeness data security
+                                                                                                      compatibility top manager support
+Lian, J., Yen, D., & Wang, Y. (2014).            Survey of 106 CIOs of hospitals ANOVA
+                                                                                                     adequate resource perceived industry
+                                                                                                                    pressure
+     Alshamaila, Y. Papagiannidis,S.
+                                                  104 Greece organization online survey                     only relative advantage
+           Stamati, T.(2013)
+                                                                                                     ease of use convenience security and
+ Gupta, P., Seetharaman, A., & Raj, J.
+                                                        Survey of 211 SMEs/SMBs                   privacy cost reduction. Reliability sharing
+                (2013)
+                                                                                                               and collaborating.
+     Alkhater ,N. Wills ,G. Walters, G      twenty IT experts in Saudi Arabia semi-structured
+                                                                                                      Security privacy trust compliance
+                  ( 2014)                                      interviews.
+                                               223 questionnaires were distributed to the IT      Technological factor have the most impact
+          Harfoushi, et al (2016)
+                                                 departments of different Jordan hospitals                on the adoption decision.
+                                              220 interviews with ICT officers and business           technological, organizational and
+            Makena, J (2013)
+                                                            owners In Kenya                                environmental factors
+
+
+Aydin in [11] presented how cloud computing was started as a             business tasks which reflected in lots of advantages for businesses
+theoretical concept and later on was applied in many areas like e-       with lower costs and high benefits. Shah in [13] claimed that SME
+commerce domain. In his study he discussed how Internet                  in the last two decades suffer from many challenges related to lack
+computing; another name for cloud computing; influenced e-               of proper resources, security, and high implementation costs. He
+commerce applications. Desai in [12] explained how mobile                discussed how cloud computing was used to solve such problems.
+applications along with deploying of cloud computing provide
+great accessibility for e-commerce enterprises where majority of
+employees and customers can use hand held devices for various
+3. THEORETICAL BACKGROUND AND                                           needs of the organizations and their needs to support activities that
+                                                                        enhance and accelerate business processes and ultimately improve
+RESEARCH MODEL                                                          business performance as well as productivity [30].
+There are a lot of computer fields where adoption theory is being
+applied to determine the factors that drive technology acceptance       The term IT infrastructure is a comprehensive term that composed
+and implementation. For example, study [14] investigated the            of physical and virtual resources that an organization's IT
+factors in bank industry that leads to adopt internet banking in        infrastructure can support. This infrastructure is determined by
+comparison with various traditional delivery machines. Study [15]       many major components like: hardware, software, networks and
+studied the influences of adopting e-learning education from the        communications facilities (including Internet and Intranet), and
+perspective of learners and instructors. In addition, study [16]        database and its users [30].
+applied UTAUT theory to investigate the practitioners' behaviour
+                                                                        Cloud computing is considered as one of the IT capabilities that
+in adopting different forms of social media for public relations by
+                                                                        help businesses to be more agile and allow them to achieve the
+non-profit organizations. In addition, study [17] applied the
+                                                                        advantage of using the latest technologies of hardware and/or
+technology acceptance model to examine the adoption of online
+                                                                        software delivered by a cloud vendors via the Internet. This
+shopping across cultures. With regard to the evaluation of specific
+                                                                        service can be included within the strategy of business companies.
+perceptions of technologies, a number of researchers have
+                                                                        Globally, many companies and large governmental institutions,
+described the motivation behind the choice of recommending a
+                                                                        including private companies in modern countries like the United
+new technology to some reasons like cost-effectiveness, security,
+                                                                        States of America went to cloud computing and had a positive
+reliability and organizational needs [22]. In addition to those
+                                                                        impact on these institutions in terms of performance, efficiency,
+factors, Roberts and James [18] added a non-technical factor:
+                                                                        productivity and lower operating costs. Turban et. al [30]
+customer service.
+                                                                        explained some benefits that can be achieved by implementing
+Dachyar and Prasetya [19] studied the adoption of cloud                 cloud computing like improving assets utilization, agility, and
+computing in Indonesian business companies. Results of their            shifting from asset ownership to service management. This
+study showed that security, need, cost and reliability were             enables companies to get rid of maintenance cost and concentrates
+significant in decision to adopt cloud computing. These factors         on internal issues. In Jordan, many institutions and companies are
+were also found to be significant in study [20]. Gupta [21] found       concerned about various types of issues related to financial
+that the use of cloud computing can improve the organization            aspects, data privacy and confidentiality when the matter related
+business security and reduced costs. Security control and threat        to IT deployment. This may be one of the biggest obstacles that
+detect techniques must be well managed by cloud providers to            prevent such companies from migrating their data to external
+engage customer trust in cloud services in an ongoing process in        storage media or using an external host to accomplish their day-
+involve high level security standards [23], since cloud security        by-day daily tasks. Such tasks are evolved around activities like:
+still a doubtful model it must be controlled through several            supplier relationship process, new service/product development
+perspectives: cloud architecture, stakeholders perspective like         process, order fulfillment, and customer relationship [31].
+applying complex access requirements and service delivery
+                                                                        In order to achieve the goals of this research, the authors have
+models perspective [24].
+                                                                        conducted many visits to many e-commerce SMEs in Jordan.
+High reliable cloud service is concerned with high operation and        During the interviews that were held with many managers of
+maintenance cost in adopting well defined backup strategies,            SMEs, the conversations were focused on many factors that are
+hardware failure strategies, security hardware and technology           supposed to be considered as benefits and challenges of adopting
+used and system status monitoring techniques, so cloud provider         of cloud computing. One example of the interviews was held with
+have to make a trade off to gain customer expectations of               Mr. Majd Jama'ah, the infrastructure engineer at Opensooq; the
+reliability level obtained and remain attractive to the customer as a   largest e-commerce enterprise in Jordan; explained that the need
+cost reduction service model [25].                                      of cloud is that you can scale up or down your all infrastructure
+                                                                        easily. This can be done because the data center is in the cloud
+Furthermore the virtualization feature used by cloud computing to       and consequently, this offer the mobility feature to e-commerce
+improve hardware resources efficiency increase the reliability          organization. This eeffects reduce the costs in any company adopt
+issue [26]. Cost minimizing while performance is guaranteed is          cloud computing, so companies can just pay for what the really
+attractive feature of cloud pay-per-use model, when the                 use, no extra or idle resources. This reinforces the fact that
+organization pay only for operational processes and data space          enterprises should have IT architecture that make a good balance
+cost [27] which allow the e-commerce to scale up while the              or alignment between needs and technology. Further, security
+business improve, or scale down or maybe close without the loss         measures that are adopted by companies that offer cloud
+of a purchased infrastructure. The need of cloud computing is           computing may be more strong than what is really used in some
+concerned with considering the cloud advantages and services            SMEs. The reliability depends on that where your cloud is, there
+which is still unclear for many organizations. Hence, some efforts      are variant companies with variant reliable service.
+from the cloud computing providers are required to clarify such
+benefits [28].                                                          Understanding benefits of cloud computing determines the extent
+                                                                        of adoption of cloud computing and identify the functions where it
+The adoption of could computing in Jordan is still in its early         is applicable to improve predetermined performances of the
+stages. There are a lot of businesses and government agencies are       functions. Based on studies [7]-[9], cloud computing supports cost
+still reluctant toward deploying it for many reasons. Some of these     saving, scalability, availability, innovation speed, efficiency, easy
+reasons are related to the company itself whereas some other            management and disaster management.
+reasons are related to implementing the technology itself.
+Furthermore, building and developing IT infrastructure with high        Based on the presented information, this study identify four main
+capacity need a well-skilled staffs in IT fields to procure and build   factors: security, cost, reliability, and need as a determinant
+hardware, software, networks, and databases which serve the
+factors that affect cloud computing adoption process by SME             willing to decrease the costs and to use latest technologies in
+managers in Jordan. Figure.1 illustrates the research model.            terms of software and hardware according to their needs which
+                                                                        align their IT architecture. This result assists the fact that
+                                                                        companies can reduce their costs and utilize strong IT
+                                                                        infrastructure that can be provided by cloud computing service
+        Security
+                                                                        provider. As a result, e-commerce SMEs can offer better services
+                                                                        to its customers as well as enhancing its business model.
+          Cost                                                          Security and reliability were found as a two-sided sword in this
+                                                    Cloud
+                                                                        study. 71.4% of interviewed managers indicated that large
+                                                  computing             companies who provide cloud computing services can offer strong
+       Reliability                                 adoption             security mechanisms to the cloud data. In addition, hosted data
+                                                                        can be accessed remotely by companies' employees and business
+                                                                        partners. In addition, deploying latest technologies in terms of
+          Need                                                          strong and fast processors can increase companies processing
+                                                                        powers and increase reliability. On the other side, 14.3% of
+                   Figure 1. Research model.                            mangers are reluctant of using cloud computing as they are not
+                                                                        confident about the security measures that will be used by the
+Based on the presented information, this study identify four main
+                                                                        service provider; hence the company will be under a continuous
+factors: security, cost, reliability, and need as a determinant
+                                                                        risk. Accessibility will be considered also as another problem. In
+factors that affect cloud computing adoption process by SME
+                                                                        sum, this study indicated that the four factors: cost, security,
+managers in Jordan. Figure 1 illustrates the research model
+                                                                        reliability and need were found as major determinants for the
+                                                                        adoption of the cloud computing in the visited enterprises.
+4.    RESEARCH METHODOLOGY
+Given the shortage of empirical studies in the area of cloud
+computing adoption in Jordan and the necessity to obtain concise            100.00%             78.53%71.43%
+data that describes the reality and nature of deploying of cloud
+computing in e-commerce SMEs, hence, this study is considered
+                                                                             80.00% 57.14%71.43%
+exploratory in nature. The process of data collection started on             60.00%
+November 2017 till end of December 2017.
+                                                                             40.00%
+4.1       Instrumentation Description                                        20.00%
+The survey instrument used in this research was developed as
+open questions via interviews. The ideas of the open questions of
+                                                                              0.00%
+the instrument are based on ideas from study [22]. Open questions
+were used to enable the interviewee to express all his/her ideas
+about the given questions. To improve the reliability of the
+instrument, two experts in the field of cloud computing have been
+consulted. Based on the given feedback, questions in their final
+forms were prepared for the planned interviews. Later on, a
+common interview protocol was prepared that enables the
+                                                                                   Decision maker responses percentag
+                                                                         Figure 2. Respondent's ratio of factors related to cloud
+researchers to explain the purpose behind this study and setup a                         computing adoption.
+predefined date and time for the interviews.
+                                                                        Companies which are visited in this study agreed that cloud
+The instrument of the study formulated of three parts: the first part   computing approach is an important force that can be adopted to
+consists of some general questions about the company: number of         have considerable cost saving over traditional computing methods.
+employees, establishment date, purpose of the company and, IT           This benefit yields to have IT architecture according to the
+assets. The second part of questions pointed to the nature of using     enterprise needs without any extra technologies or machines.
+cloud computing and benefits that the company may gain from the         Analysis of the data showed that 78.5% of managers agreed about
+deployment of this technology. The third part highlights the main       reliability of using cloud computing in their organizations as
+challenges and difficulties that prevent or inhibit the company         employees are able to access the enterprise resources remotely.
+from adopting cloud computing. Sixteen SMEs were visited by             The effect of four factors is shown in Figure 2.
+the researchers for the benefit of this study.
+                                                                        Consequently, mobility and availability are both achieved.
+4.2       Data Analysis and Research Results                            Security was also an important factor in this domain as enterprises
+After finishing the process of data collection, data are manually       data should be secured and managers are aware of the advance
+prepared and categorized based on sections that are presented           techniques that can be deployed by many cloud computing
+during the interviews. Data analysis of the collected data revolved     providers like oracle, IBM, and Google as leading companies in
+around two main baselines. The first one related to some internal       this field.
+issues of the company while the other baseline represents issues        Through the research open question interviews, a comparison
+related to cloud computing service providers.                           between cloud computing and traditional technology was
+Some organizational factors like need and cost were found as            conducted, and Figure 3 addressed this comparison, and shows a
+major benefits of deploying cloud computing in e-commerce               highly trust in cloud reliability comparing with traditional
+SMEs that were covered in the study. E-commerce SMEs are                technology by organization decision makers. In addition, the
+response percentage for each factor for cloud technology was                of Information Technology, National Institute of Industrial
+higher in a clear difference values.                                        Engineering Mumbai, Mumbai, India 2013.
+                                                                      [4]   http://sites.tcs.com/cloudstudy/differences-in-cloud-
+      80.00%             71.43%                                             adoption-across-global-industries
+                                    64.29% 64.29%
+                                                                      [5]   Dynes, S., Brechbuhl, H. and Johnson, M.E., 2005, June.
+      60.00%                                                                Information Security in the Extended Enterprise: Some Initial
+               42.88%
+                  35.71%                                                    Results from a Field Study of an Industrial Firm. In WEIS.
+      40.00%
+                                        21.43%                        [6]   Armbrust, M., Fox, A., Griffith, R., Joseph, A.D., Katz, R.,
+      20.00%                                       14.29%                   Konwinski, A., Lee, G., Patterson, D., Rabkin, A., and Stoica,
+                              7.14%
+                                                                            I., A view of cloud computing. Communications of the ACM,
+      0.00%                                                                 2010, 53, 4, 50-58.
+           cloud is more              cost of                         [7]   Abdulkader, Samer Jamal, and Abdallah Mohammad
+            secure than           maintenance is                            Abualkishik. Cloud computing and e-commerce in small and
+             traditional         lower with cloud                           medium enterprises (SME’s): The benefits, challenges.
+                                                                            International Journal of Science and Research (IJSR), 2.12
+                        agree     not agree                                 (2013), 285-288.
+                                                                      [8]   Joseph Kwame Adjei, (2015), Explaining the role of trust in
+       Figure 3. Cloud technology in comparison with                        cloud computing services. Info, 17, 1, 54-67
+                   traditional technology.
+                                                                      [9]   Oredo, J. O., & Njihia, J. (2014). Challenges of cloud
+                                                                            computing in business: Towards new organizational
+5.     CONCLUSION                                                           competencies. International Journal of Business and Social
+Cloud computing offers several benefits for e-commerce                      Science, 5, 3.
+enterprises. But, the idea of migrating an existing system to the
+cloud is affected by organization's manager decision. There is a      [10] Saleh, A. A. E. (2012). A proposed framework based on
+shortage of empirical studies in Jordan that focuses in adoption of         cloud computing for enhancing e-commerce applications.
+cloud computing in e-commerce SMEs. As such, this study is one              International Journal of Computer Applications, 59, 5.
+among the rare studies which were implemented in Jordan. The          [11] Nevin Aydin (2015). Cloud Computing for E-commerce
+main purpose of this research was to investigate the deployment             IOSR Journal of Mobile Computing & Applications, 2, 1, 27-
+of cloud computing in e-commerce SMEs in Jordan.                            31.
+The study has focused on two main silent domains: factors that are    [12] Desai, N. S. (2016). Mobile cloud computing in business.
+related to the company itself and considered as internal factors.           International Journal of Information, 6, 1/2.
+The other part was concentrating on factors which are related to      [13] Jignesh P. Shah (2014). Role and challenges in cloud
+the service provider of cloud computing. From another point of              computing and ecommerce in SME’s. International
+view, this research explains how to encourage organizations to              Multidisciplinary Research Journal, 1, 3. Available online
+adopt cloud computing services by investigating the security and            ISSN: 2349-7637.
+cost saving factors that influence an organization's intention to
+adopt cloud computing. Hence, from SMEs managers' point of            [14] Gopalakrishnan, Shanthi, J. Daniel    Wischnevsky, and
+view; this research was able to answer the motivations of                   Fariborz Damanpour. A multilevel analysis of factors
+deploying this new paradigm by e-commerce SMEs.                             influencing the adoption of Internet banking. IEEE
+                                                                            Transactions on Engineering Management, 50.4 (2003), 413-
+Results of this study showed that organizational needs and costs            426.
+were found to be important and significant factors for deploying      [15] Sun, Pei-Chen, Ray J. Tsai, Glenn Finger, Yueh-Yang Chen,
+cloud computing technology in SMEs. These factors are
+                                                                            and Dowming Yeh. What drives a successful e-Learning? An
+considered as internal factors. On the other side, security and             empirical investigation of the critical factors influencing
+reliability also found to be a determinant factor for using this
+                                                                            learner satisfaction. Computers & Education, 50, 4 (2008),
+technology. For a future research, the researchers may consider             1183-1202.
+main factors that are related to SME's environmental and
+technological domain. In addition, a more comprehensive plan can      [16] Curtis, Lindley, Carrie Edwards, Kristen L. Fraser, Sheryl
+be put up to do more visits for more investigation.                         Gudelsky, Jenny Holmquist, Kristin Thornton, and Kaye D.
+                                                                            Sweetser. Adoption of social media for public relations by
+                                                                            nonprofit organizations. Public Relations Review, 36, 1
+6.     REFERENCES                                                           (2010), 90-92.
+[1]   Wang, D. (2013). Influences of cloud computing on e-
+      commerce businesses and industry. Journal of Software           [17] Ashraf, Abdul R., Narongsak Thongpapanl, and Seigyoung
+      Engineering and Applications, 6, 06, 313.                             Auh. The application of the technology acceptance model
+                                                                            under different cultural contexts: The case of online shopping
+[2]   Jadeja, Y., and Modi, K., Cloud computing-concepts,                   adoption. Journal of International Marketing, 22, 3 (2014),
+      architecture and challenges. In Editor (Ed.)^(Eds.), Book             68-93.
+      Cloud Computing-concepts, Architecture and Challenges,
+      (IEEE, 2012, edn.), 877-880                                     [18] Roberts, K. G., and James B. Pick. Technology factors in
+                                                                            corporate adoption of mobile cell phones: A case study
+[3]   Review on IT adoption: insights from recent technologies              analysis. In System Sciences, 2004. Proceedings of the 37th
+      Hemlata Gangwar, Hema Date and A.D. Raoot Department
+    Annual Hawaii International Conference on, 10-pp. IEEE,          [26] Li, Qiong, and Ruiying Li. Reliability evaluation for cloud
+    2004                                                                 computing system considering common cause failure. In
+[19] Dachyar, M., & Prasetya, M. D. (2012). Cloud computing
+                                                                         Control Conference (CCC), 2016 35th Chinese, 5267-5271.
+    implementation in Indonesia. International Journal of                IEEE, 2016.
+    Applied, 2,3.                                                    [27] McGough, A. Stephen, Matthew Forshaw, Clive Gerrard,
+[20] Hailu, A. (2012). Factors influencing cloud-computing               Stuart Wheater, Ben Allen, and Paul Robinson. Comparison
+    technology adoption in developing countries, (Doctoral               of a cost-effective virtual cloud cluster with an existing
+    dissertation, Capella University).                                   campus cluster. Future Generation Computer Systems, 41
+                                                                         (2014), 65-78.
+[21] Gupta, Prashant, Arumugam Seetharaman, and John Rudolph
+                                                                     [28] Wen, Zhenyu, Jacek Cała, Paul Watson, and Alexander
+    Raj. The usage and adoption of cloud computing by small
+    and medium businesses. International Journal of Information          Romanovsky. Cost effective, reliable and secure workflow
+    Management, 33, 5 (2013), 861-874.                                   deployment over federated clouds. IEEE Transactions on
+                                                                         Services Computing, 10, 6 (2017), 929-941.
+[22] Lease, David R. Factors influencing the adoption of
+    biometric security technologies by decision making               [29] Oredo, J. O., & Njihia, J. (2014). Challenges of cloud
+    information technology and security managers. PhD diss.,             computing in business: Towards new organizational
+    2005.                                                                competencies. International Journal of Business and Social
+                                                                         Science, 5, 3.
+[23] Kalaiprasath, R., R. Elankavi, and Dr R. Udayakumar. Cloud.
+                                                                     [30] TURBAN EFRAIM, LINDA VOLONINO, GREGORY R.
+    security and compliance-A semantic approach in end to end
+    security. International Journal of Mechanical Engineering            WOOD (2013) Information Technology for Management
+    and Technology, (IJMET), 8, 5 (2017).                                Advancing Sustainable, Profitable Business Growth, John
+                                                                         Wiley & Son.
+[24] Almorsy, Mohamed, John Grundy, and Ingo Müller. An
+                                                                     [31] Krajewski, L. J., Ritzman, L. P., & Malhotra, M. K. (2013).
+    analysis of the cloud computing security problem. arXiv
+    preprint arXiv:1609.01107 (2016).                                    Operations Management: Processes and Supply Chains, 1,
+                                                                         New York, NY: Pearson.
+[25] Daniel, W. K., Challenges on privacy and reliability in cloud
+                                                                     [32] JORDAN HUMAN DEVELOPMENT REPORT 2015.
+    computing security. In Information Science, Electronics and
+    Electrical Engineering (ISEEE), 2014 International                   http://www.jo.undp.org/content/jordan/en/home/library/Hum
+    Conference on, 2, 1181-1187. IEEE, 2014.                             an_Development/NHDR/2015.html. accessed on : 20/1/2018.
+

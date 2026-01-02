@@ -1,0 +1,496 @@
+                                                                                                                                       PDF Download
+                                                                                                                                       3447432.3447439.pdf
+                                                                                                                                       23 December 2025
+                                                                                                                                       Total Citations: 18
+                                                                                                                                       Total Downloads: 1064
+    .
+    .
+        Latest updates: hps://dl.acm.org/doi/10.1145/3447432.3447439
+
+
+
+
+                                                                                                                                       .
+                                                                                                                                       .
+                                                                                                                            Published: 08 January 2021
+        .
+        .
+                                                                                                                            .
+    RESEARCH-ARTICLE
+
+
+
+
+                                                                                                                            .
+                                                                                                                            Citation in BibTeX format
+    Cloud Accounting Adoption in Small and Medium Enterprises: An
+
+
+
+
+                                                                                                                            .
+                                                                                                                            .
+                                                                                                                            IEIM 2021: 2021 The 2nd International
+    Integrated Conceptual Framework: Five factors of determinant were                                                       Conference on Industrial Engineering
+    identified by integrated Technology-Organization-Environment (TOE)                                                      and Industrial Management
+                                                                                                                            January 8 - 11, 2021
+    framework, Diﬀusion of Innovation (DOI), Institutional Theory (INT)                                                     Barcelona, Spain
+
+    and extended factors.
+
+
+
+
+                                                                                                                            .
+                                                                                                                            .
+    DALINEE SASTARARUJI, Chulalongkorn University, Bangkok, Thailand
+    .
+    DANUPOL HOONSOPON, Chulalongkorn Business School, Bangkok, Thailand
+    .
+    PONGSAKORN PITCHAYADOL, Prince of Songkla University, Hatyai, Songkhla, Thailand
+    .
+    PIMSIRI CHIWAMIT, Chulalongkorn Business School, Bangkok, Thailand
+    .
+    .
+    .
+    Open Access Support provided by:
+    .
+    Prince of Songkla University
+    .
+    Chulalongkorn University
+    .
+    Chulalongkorn Business School
+    .
+                                                IEIM 2021: 2021 e 2nd International Conference on Industrial Engineering and Industrial Management (January 2021)
+                                                                                                                             hps://doi.org/10.1145/3447432.3447439
+                                                                                                                                                ISBN: 9781450389143
+.
+   Cloud Accounting Adoption in Small and Medium Enterprises:
+             An Integrated Conceptual Framework
+Five factors of determinant were identified by integrated Technology-Organization-Environment (TOE)
+           framework, Diffusion of Innovation (DOI), Institutional Theory (INT) and extended factors.
+
+                               Dalinee Sastararuji                                                                  Danupol Hoonsopon
+    Technopreneurship and Innovation Management Program,                                           Faculty of Commerce and Accountancy, Chulalongkorn
+          Graduate School, Chulalongkorn University                                                               University, Thailand
+
+                          Pongsakorn Pitchayadol                                                                      Pimsiri Chiwamit
+    Faculty of Commerce and Management, Prince of Songkla                                          Faculty of Commerce and Accountancy, Chulalongkorn
+                    University, Thailand                                                                          University, Thailand
+
+ABSTRACT                                                                                           on Industrial Engineering and Industrial Management (IEIM 2021), Janu-
+During the Covid-19 pandemic period, many SMEs are facing a vari-                                  ary 08–11, 2021, Barcelona, Spain. ACM, New York, NY, USA, 7 pages.
+                                                                                                   https://doi.org/10.1145/3447432.3447439
+ety of technology challenges, including teleworking, digitalization,
+and new business practices. The decision to adopt cloud computing
+solution has sprung to the forefront as a major concern for SMEs                                   1   INTRODUCTION
+across the globe. This paper presents an integrated framework that                                 SMEs are the backbone of global economy and social development.
+combine Technology-Organization-Environment (TOE) framework,                                       In many countries, SMEs represents over 90% of business, more
+Diffusion of Innovation (DOI) theory and Institutional Theory (INT)                                than 50% of employment and up to 60% of national income (GDP)
+and extended factors to characterize the critical factors shaping                                  [1, 2]. To date, COVID-19 pandemic has significantly change busi-
+cloud accounting adoption in SMEs. The conceptual framework                                        ness landscape and how SMEs operate. Recent survey conducted
+identified five factors of determinant-technology, organization, en-                               by International Trade Center [3] revealed that SMEs have faced
+vironment, vendor, and owner that influence the adoption decision                                  severe loss of revenues, reduction in the supply of labour, manda-
+from the literature reviews and qualitative method. The framework                                  tory teleworking and rapid shifted to digital sales. In USA, the use
+can serve as starting point to discover influential factors in cloud                               of telework by SMEs increased from 12% to 20% and sales mix to-
+accounting adoption in SMEs context.                                                               ward online channel increased from 10% to 17%. Nevertheless, this
+                                                                                                   occur is limited to SMEs in developed countries only. Accounting
+CCS CONCEPTS                                                                                       to IFC research, developing counties show 10 times lower usage
+                                                                                                   of technology during COVID-19 [4]. As such, SMEs in developing
+• Information systems; • Information systems applications;
+                                                                                                   countries need to focus on information and communication tech-
+• Enterprise information systems;
+                                                                                                   nologies (ICTs) in response to the changes. SMEs could enhance
+                                                                                                   their digitalization by outsourcing their back office functions to
+KEYWORDS                                                                                           cloud computing/Software-as-a-Service (SaaS) vendors at an afford-
+Cloud Computing, Software-as-a-Service (SaaS), SMEs, Information                                   able cost, especially in the context of recovery from COVID-19
+Technology (IT) Adoption                                                                           [4].
+                                                                                                      To the best of our knowledge, there were only few theoretical
+ACM Reference Format:
+Dalinee Sastararuji, Danupol Hoonsopon, Pongsakorn Pitchayadol, and Pim-                           studies about cloud accounting adoption in SMEs. Moreover, for
+siri Chiwamit. 2021. Cloud Accounting Adoption in Small and Medium                                 general cloud computing, most adoption studies are experimental
+Enterprises: An Integrated Conceptual Framework: Five factors of determi-                          in nature, lack of theories and focus on technical issues [5]. Most
+nant were identified by integrated Technology-Organization-Environment                             of studies also concentrate in developed countries [6]. COVID-19
+(TOE) framework, Diffusion of Innovation (DOI), Institutional Theory                               pandemic has significantly change business landscape and how
+(INT) and extended factors.. In 2021 The 2nd International Conference                              SMEs operate thus it is worthwhile to explore the attitude of SMEs
+                                                                                                   toward cloud accounting, which plays a vital role in the success or
+Permission to make digital or hard copies of all or part of this work for personal or              failure of business [7].
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation          2 LITERATAURE REVIEW
+on the first page. Copyrights for components of this work owned by others than ACM
+must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,            2.1 Cloud Accounting
+to post on servers or to redistribute to lists, requires prior specific permission and/or a
+fee. Request permissions from permissions@acm.org.                                                 Although cloud computing is not theoretically new, cloud account-
+IEIM 2021, January 08–11, 2021, Barcelona, Spain                                                   ing is considered to be emergent and revolutionary in the field of
+© 2021 Association for Computing Machinery.
+ACM ISBN 978-1-4503-8914-3/21/01. . . $15.00                                                       business practices and accounting [8]. Cloud accounting refers to
+https://doi.org/10.1145/3447432.3447439                                                            accounting service hosted remotely on the cloud where multiple
+
+
+
+
+                                                                                              32
+IEIM 2021, January 08–11, 2021, Barcelona, Spain                                                                               Dalinee Sastararuji et al.
+
+
+                                          Table 1: Cloud Accounting vs Traditional Accounting Software
+
+                                                             Cloud Accounting                           Traditional Accounting Software
+ Accounting software license                                  Company rents it                                Company owns it
+ System location                                                 In the cloud                                Where company wants
+ Maintenance & support fee                               Included in software license                          Extra purchased
+ Application                                                   Vendor manages                                 Company manages
+ Data                                                          Vendor manages                                 Company manages
+ Runtime                                                       Vendor manages                                 Company manages
+ Middleware                                                    Vendor manages                                 Company manages
+ Operating system                                              Vendor manages                                 Company manages
+ Virtualization                                                Vendor manages                                 Company manages
+ Servers                                                       Vendor manages                                 Company manages
+ Storage                                                       Vendor manages                                 Company manages
+ Networking                                                    Vendor manages                                 Company manages
+
+
+users can access from anywhere. Nowadays, disruptive technology                the globe, the large enterprises, mostly in developed countries are
+such as artificial intelligent, big data and blockchain are also used          far ahead from SMEs [29]. Some of barriers to entry in develop-
+together with cloud accounting platform [10]. Cloud accounting                 ing countries are poor awareness, negative attitudes toward cloud
+is also known as “online accounting”, “web accounting”, “virtual               computing, fear of work disruption, satisfaction with existing sys-
+accounting system” or “SaaS accounting software” [9, 11]. The                  tem, limited resources, privacy and security concern and expensive
+difference between cloud accounting and traditional accounting                 and poor internet infrastructure [30, 31]. As a result, many SMEs,
+software (on premises) is shown in Table 1 [9, 12].                            especially in developing countries have struggled to adopt cloud
+    While there is no consensus definition, cloud accounting is often          computing since the COVID-19 lockdown.
+identified with SaaS related advantages and accounting information
+system functionality [13, 14]. SaaS is one of the most widely used             2.2    Small and Medium Enterprises (SMEs)
+service models of cloud computing, alongside Infrastructure-as-a-
+Service (IaaS), Platform-as-a-Service (PaaS) and Business Process-             The definition of Small and Medium Enterprises (SMEs) varies by
+as-a-Service (BPaaS) [15]. Through a vendor-owned model, SaaS                  country but is usually based on quantifiable characteristics such
+provides users access to application software and databases via                as employment, capital level, sales revenue, and asset [32]. The
+a range of devices anytime, anywhere and is usually priced on a                definitions of SMEs in different countries are contained in Table 2
+pay-per-use model [6]. SaaS has important effects on business and                 Although there is no universal definition of SMEs, they do share
+IT operations, including cost reduction in area of acquisition costs,          several characters. Some of the salient characteristics of SMEs are
+maintenance and management of hardware and software infrastruc-                limited resources (capital, technology, and personnel), simple busi-
+ture [16, 17], higher efficiency [18], improved mobility [19], flexible        ness structure, flexible strategy, more responsive to turbulent and
+payment and scalability [20, 21], access to latest technology by               relatively small share of the market [35, 36]. Moreover, the success
+world class vendors without additional costs. [22], and co-creation            or failure of SMEs depends primarily on the owner. As lifelong duty,
+of value through client-vendor interaction [23]. Besides the vari-             the owner typically makes all decisions based on his/her individual
+ety of benefits given by the usage of SaaS, there is a set of risk,            personality and maintains close contact with customers, employees,
+including security and data concerns, lack of control, connectivity            and suppliers. [37, 38].
+requirement and one size-fits-all model that may not work well for                In recent years, digital disruption creates both opportunities
+all types of organisation. [6, 17]                                             and challenges for SMEs. With digital tools, SMEs can serve global
+    Accounting information systems serves three basic functions: to            markets more economically and effectively [39]. However, digital
+collect and store data concerning economic activities, to transform            disruption raises the new rules of competition and allows digital
+data into useful information for internal and external decision-               disruptors to offer the same value as conventional SMEs [40, 41].
+makers and to control integrity and reliability of information [9,             Thus, SMEs are under pressure to drive digital initiatives, revolv-
+24, 25]. Accounting software can perform a wide range of tasks for             ing around three pillars: customer insights, business models and
+SMEs owner/manager. Most common activities for all size-SMEs                   operating models. [42]
+are recording business expenses, issuing invoices to customers, and               When it comes to information technology (IT), the adoption
+taking payment [26].                                                           rate of SMEs is conventionally low, and the failure rate is high
+    Global cloud accounting market size was $2.98 billion in 2019              [43, 44]. Lack of digital skills and qualified staffs are the hurdles
+and is projected to reach $4.57 billion by the end of 2026, with a             to technology adoption for SMEs. A survey conducted by Deloitte
+CAGR of 6.2% [27]. Some of the global cloud accounting vendors                 also shows that 80% of SMEs do not fully utilize digital tools due
+for SMEs are Intuit, Sage, Xero, Zoho [28]. Although the number                to unaware of the benefit of internet. [39] Moreover, SMEs are
+of enterprises using cloud accounting has increased rapidly across             less likely to adopt IT than large firms. For instance, the level of
+                                                                               cloud computing and e-commerce adoption in SMEs across OECD
+
+
+
+
+                                                                          33
+Cloud Accounting Adoption in Small and Medium Enterprises: An Integrated Conceptual Framework                    IEIM 2021, January 08–11, 2021, Barcelona, Spain
+
+
+                                                Table 2: Definitions of SMEs in different countries
+
+       Country                                               Definition                                              Measurement                    Source
+ USA                     - Less than 500 employees for manufacturing sector                                   Employment and sales               [33]
+                         - Less than USD5 million in sales for non-manufacturing sector                       revenue
+ Vietnam                 - Less than 30 employees and less than VND 1 billion in capital for small            Employment and capital             [33]
+                         enterprises
+                         - 30-200 employees and VND1 to 4 billion in capital for medium
+                         enterprises
+ Indonesia               - Less than 100 employees                                                            Employment                         [33]
+ Japan                   - Less than 100 employees or JPY100million in assets for wholesale                   Employment and assets              [34]
+                         sector
+                         - Less than 100 employees or JPY50 million in assets for service sector
+                         - Less than 50 employees or JPY50 million in assets for retail sector
+ Malaysia                - Less than 150 employees or MYR25 million in assets for manufacturing               Employment and assets              [34]
+                         sector
+                         - Less than 50 employees or MYR5 million in assets for service sector
+
+
+countries was about half that of large firms. This gap was 3 to 1                   theoretical strength and deep understanding to the environmental
+in Mexico and almost 5 to 1 in Poland [45]. However, the COVID-                     context of the TOE framework and SaaS adoption [58].
+19 pandemic has accelerated digital transformation efforts across                      As shown in Figure 1, TOE framework (TOE) identified three
+industries. For example, in Asia Pacific, SMEs are speeding up                      factors that influence organizational adoption: technology, organi-
+their digitalization and 50% of them anticipating over 1/5 of their                 zation, and environment [59]. Technology refers to both internal
+businesses to be digitalized by 2021 [46].                                          and external technologies that are beneficial to the organization.
+                                                                                    Roger’s five characteristics of innovation: relative advantage, com-
+2.3    Technology Adoption Models and Theories                                      plexity, observability, compatibility and trialability are also included
+                                                                                    [60]. Organization emphasizes nature of business and key resources
+In recent years, cloud computing adoption has received increas-                     which is potentially defined by size, busines scope, managerial
+ing attention from academia [5, 47]. Most of the studies focused                    structure, organizational culture, and internal communication pro-
+on technology perspectives rather than on business perspective                      cedures [61]. Environment is external support and pressure from
+[48]. Also, there are limited studies related to cloud computing                    customer, market, competitor, trading partner, infrastructure, and
+conceptualization and organizational-level adoption [5].                            regulator. TOE is comprehensive, specific in studying IT adoption
+   As shown in Table 3, the most common theoretical models used                     and possibly used in SMEs context [62].
+to examine IT/IS adoption at organizational level and small busi-
+ness are Resource-Based Theory (RBT), Porter’s models, Theory
+of Planned Behavior (TPB), Technology Acceptance Model (TAM),                       2.4     Combining Theories and Extending Factors
+Diffusion of Innovation (DOI), Institutional Theory (INT) and TOE                   Many studies have combined traditional frameworks or added new
+framework [49, 50]. DOI, INT, and TOE appear to be top three most                   constructs to provide better understanding of how studied tech-
+widely used in studying technology adoption at organizational level                 nology are adopted. [49, 55, 58]. As shown in Table 4, there have
+[51].                                                                               been some literatures in the past exploring the use of either cloud
+   Diffusion of Innovation (DOI) by Rogers [52] is recognized as the                or SMEs’ technology by integrating TOE, DOI, INT and extended
+foundation of the research on individual and organization technol-                  factors.
+ogy adoption [53, 54]. There are three groups of determinants: inno-
+vation characteristics, organizational characteristics, and individual              3 ANALYSIS AND DISCUSSION
+characteristics that influence decisions to adopt innovations and
+technology. DOI views five innovation characteristics e.g. relative                 3.1 Research Design
+advantage, compatibility, complexity, trialability, and observability               This exploratory study used both literature review and qualitative
+as the most critical factors of innovation diffusion [54]. However,                 method to develop cloud accounting adoption framework. Firstly,
+DOI does not consider the environment context while TOE and                         the literature review was conducted to discover insight from pre-
+INT do [55].                                                                        vious research related to cloud accounting, nature of SMEs and
+   Institutional Theory (INT) highlights that institutional environ-                technology adoption models at organization level. Secondly, five
+ments are crucial in shaping organizational structure and actions                   semi-structured interviews with open-ended questions were used to
+[56]. INT identifies three different pressures such as coercive - pres-             explore and confirm the factors which influence the cloud account-
+sure from external stakeholders which firm depends on, norma-                       ing adoption among SMEs owners. All five participants are key
+tive – pressure from social norm, value, and standard and mimetic-                  decision makers and already adopted cloud accounting for business
+pressures from superior performance demanded [57]. INT reinforce                    purposes. The interview data was collected in Bangkok, Thailand
+
+
+
+
+                                                                              34
+IEIM 2021, January 08–11, 2021, Barcelona, Spain                                                                 Dalinee Sastararuji et al.
+
+
+                                                   Table 3: Various technology adoption theories
+
+                            Model                                               Construct                         Author
+ Resource-Based Theory (RBT)                               Physical Capital Resources                   Barney (1991)
+                                                           Financial Capital Resources
+                                                           Human Capital Resources
+                                                           Organizational Capital Resources
+ Porter’s models                                           Bargaining Power of Suppliers                Porter (1980)
+                                                           Bargaining Power of Buyers
+                                                           Threat of New Entrants
+                                                           Threat of Substitute Products or Services
+                                                           Industry Competition
+ Theory of Planned Behavior (TBP)                          Attitude                                     Ajzen (1991)
+                                                           Subjective Norm
+                                                           Perceived Behavior Control
+                                                           Behavioral Intention
+                                                           Intentions
+ Technology Acceptance Model (TAM)                         Perceived Usefulness                         Davis (1989)
+                                                           Perceived Ease of Use
+                                                           Behavioral Intention to Use
+                                                           Actual System Use
+ Diffusion of Innovation (DOI)                             Relative Advantage                           Rogers (1983)
+                                                           Compatibility
+                                                           Complexity
+                                                           Trialability
+                                                           Observability
+ Institutional Theory (INT)                                Coercive Pressure                            DiMaggio and Powell (1983)
+                                                           Normative Pressure
+                                                           Mimetic Pressure
+ TOE framework                                             Technology                                   Tornatzky and Fleischer
+                                                           Organization                                 (1990)
+                                                           Environment
+
+
+
+
+                                            Figure 1: TOE Framework by Tornatzky and Fleischer (1990)
+
+
+
+
+                                                                         35
+Cloud Accounting Adoption in Small and Medium Enterprises: An Integrated Conceptual Framework                   IEIM 2021, January 08–11, 2021, Barcelona, Spain
+
+
+                                   Table 4: Models constructed from TOE, DOI, INT, and extended factors
+
+ Model/Theory                                                                 Technology/Innovation                                           Source
+ TOE + DOI                                                                    Cloud computing, SaaS                                           [53, 63]
+ DOI + INT                                                                    SaaS                                                            [57]
+ TOE + DOI + INT                                                              SaaS                                                            [64]
+ TOE + DOI + Owner                                                            Website                                                         [65]
+ TOE + Owner                                                                  Cloud computing, E-Commerce                                     [61, 66]
+ INT + Owner                                                                  Cloud computing                                                 [67]
+ Technology + Organization + Vendor                                           SaaS (ERP)                                                      [21]
+ Technology + Organization + Vendor + Owner                                   SaaS                                                            [68]
+
+                                                              Table 5: The interview result
+
+                             Owner 1B2C                 Owner 2                    Owner 3Retail          Owner 4B2B                 Owner 5Business
+                             Trading                    Manufacturing              Service                Trading                    Service
+ Participant Profile
+ Gender                 Female                          Male                       Female                 Male                       Male
+ Education              Master’s degree                 Master’s degree            Master’s degree        Bachelor’s degree          Bachelor’s degree
+ Age                    30-40                           30-40                      30-40                  30-40                      30-40
+ Business Profile
+ Company Age            0-3 years                       4-6 years                  4-6 years              7-10 years                 7-10 years
+ Employment             0-3 staffs                      4-10 staffs                11-50 staffs           4-10 staffs                51-200 staffs
+ Revenue                N/A                             THB 0-10 mil               THB 21-30 mil          THB 11-20 mil              THB 31-500 mil
+ Motivation to Adopt Cloud Accounting
+ Start registering                                      ✓
+ company
+ Get more               ✓                               ✓
+ productivity from
+ less staff
+ Reduce paper use       ✓
+ Reduce manual work                                                                ✓                                                 ✓
+ Work from home &                                                                  ✓                      ✓                          ✓
+ anywhere
+ Driven Factors
+ Technology             Strong                          Strong                     Strong                 Strong                     Strong
+ Organization           Neutral                         Strong                     Neutral                Strong                     Neutral
+ Environment            Neutral                         Neutral                    Strong                 Neutral                    Strong
+ Vendor                 Neutral                         Strong                     Neutral                Neutral                    Strong
+ Owner                  Strong                          Neutral                    Strong                 Strong                     Neutral
+
+
+during covid-19 pandemic (August – September 2020). The dura-                       vendor, and owner related factors are mentioned by all participants.
+tion of the online/face-to-face interview process was approximately                 For example, Owner 2 who prioritize technological factor claimed
+45-60 minutes per participant.                                                      that “A simple usability (UX/UI) is one of my top priority”. The
+                                                                                    interview results are summarized in Table 5
+3.2    Results
+The participant profiles are diverse in term of gender, education, and
+age. Their business profiles are also different in term of company                  4    PROPOSED CONCEPTUAL FRAMEWORK
+age, employment, and revenue. Key motivations to cloud accounting                   The proposed conceptual framework has been developed based
+adoption are various. The top motivation is “work from home &                       on five components- technology, organization, environment, ven-
+anywhere” as Owner 1 stated that “I need to travel as part of my                    dor, and owner as shown in Figure 2. This framework specifically
+job. With cloud accounting, I and my outsourced accountants can                     designed for cloud accounting technology which employ a vendor-
+collaboratively work from anywhere and anytime. Just log-in”. In                    owned model and SMEs which is owner-managed business. It is
+line with literature review, technology, organization, environment,                 also necessary to take account of environmental pressure based
+
+
+
+
+                                                                              36
+IEIM 2021, January 08–11, 2021, Barcelona, Spain                                                                                                         Dalinee Sastararuji et al.
+
+
+
+
+                                       Figure 2: A high level cloud accounting adoption framework for SMEs
+
+
+on recent Covid-19 pandemic. Environmental factors are also high-                              [9] Christauskas, C. and Miseviciene, R. Cloud–Computing Based Accounting for
+lighted.                                                                                           Small to Medium Sized Business. Engineering Economics, 23, 1 (2012).
+                                                                                              [10] Ionescu, L. Big Data, Blockchain, and Artificial Intelligence in Cloud-based Ac-
+                                                                                                   counting Information Systems. Analysis and Metaphysics, 18 (2019).
+5    CONCLUSION                                                                               [11] Ðorđević, M., Radovic, O. and Bonić, L. Potentials for applying cloud technology
+                                                                                                   in accounting. Ekonomika, 64 (01/01 2018), 23-30.
+Based on the literature reviews, DOI does not consider environmen-                            [12] Mell, P. and Grance, T. The NIST Definition of Cloud Computing. City, 2011.
+tal factors which become more important in consumer purchasing                                [13] Khanom, T. Cloud Accounting: A Theoretical Overview. IOSR Journal of Business
+                                                                                                   and Management, 19 (2017), 31-38.
+decisions since COVID-19 pandemic [3, 55]. Furthermore, TOE ne-                               [14] Dimitriu, O. and Matei, M. Cloud Accounting: A New Business Model in a Chal-
+glects social factors such as friends, family, staffs, inter-organization,                         lenging Context. Procedia Economics and Finance, 32 (2015/01/01/ 2015), 665-671.
+and individual factors such as top management support, decision-                              [15] Loebbecke, C., Thomas, B. and Ullrich, T. ASSESSING CLOUD READINESS AT
+                                                                                                   CONTINENTAL AG. MIS Quarterly Executive, 11, 1 (2012), 11-23.
+makers’ related attributes which are essential for SMEs context                               [16] Catteddu, D. Cloud Computing: Benefits, Risks and Recommendations for Infor-
+[49, 55]. Through a vendor-owned model, SaaS vendor are fully                                      mation Security. Springer Berlin Heidelberg, City, 2010.
+responsible for almost IT related issues such as application, server,                         [17] Brandas, C., Megan, O. and Didraga, O. Global Perspectives on Accounting
+                                                                                                   Information Systems: Mobile and Cloud Approach. Procedia Economics and
+storage, data, and runtime [15]. To move beyond the limitations of                                 Finance, 20 (2015/01/01/ 2015), 88-93.
+current research, this study develops cloud accounting adoption                               [18] Wu, W. W. Developing an explorative model for SaaS adoption. Expert Systems
+                                                                                                   with Applications, 38, 12 (2011), 15057-15064.
+framework based on an integrated combination of Diffusion of In-                              [19] Rumale, A. S. and Chaudhari, D. N. Cloud computing: Software as a service. In
+novations (DOI) Theory, Technology-Organization-Environment                                        Proceedings of the 2017 Second International Conference on Electrical, Computer
+(TOE) framework, Institutional Theory (INT) and new added con-                                     and Communication Technologies (ICECCT) (22-24 Feb. 2017, 2017), [insert City
+                                                                                                   of Publication],[insert 2017 of Publication].
+structs, namely “Vendor” and “Owner”.                                                         [20] Xin, M. and Levina, N. Software-as-a-Service Model: Elaborating Client-Side
+   This conceptual framework identified five group of determinants                                 Adoption Factors. City, 2008.
+– technology, organization, environment, vendor, owner- that can                              [21] Seethamraju, R. Adoption of Software as a Service (SaaS) Enterprise Resource.
+                                                                                                   Information Systems Frontiers (2015).
+influence the adoption decision along with some contexts of SaaS                              [22] Lewandowski, J., Salako, A. O. and Garcia-Perez, A. SaaS Enterprise Resource
+technology and SMEs from the literatures and semi-structure in-                                    Planning Systems: Challenges of Their Adoption in SMEs. City, 2013.
+                                                                                              [23] Kohli, R. and Grover, V. Business Value of IT: An Essay on ExpandingResearch
+terviews. We expect that our framework can be used as starting                                     Directions to Keep up with the Times. Journal of the Association for Information
+point to uncover influential factors in cloud accounting adoption                                  System, Volume 9, Issue 1, Article 2, pp. 23-39 (2008).
+in SMEs context after Covid-19 pandemic.                                                      [24] Belfo, F. and Trigo, A. Accounting information systems: Tradition and future
+                                                                                                   directions. Procedia Technology, 9 (2013), 536-546.
+                                                                                              [25] Romney, M., Steinbart, P., Mula, J., McNamara, R. and Tonkin, T. Accounting
+REFERENCES                                                                                         Information Systems Australasian Edition. Pearson Higher Education AU, 2012.
+ [1] OECD OECD SME and Entrepreneurship Outlook 2019, 2019.                                   [26] BCSG. The small business revolution: trends in SMB cloud adoption. 2015.
+ [2] World Bank SMALL AND MEDIUM ENTERPRISES (SMES) FINANCE. City, 2019.                      [27] 360 Market Updates. GLOBAL CLOUD ACCOUNTING SOFTWARE MARKET
+ [3] International Trade Center. SME Competitiveness Outlook 2020: COVID-19: The                   SIZE, STATUS AND FORECAST 2020-2026. 2020.
+     Great Lockdown and its Impact on Small Business. ITC, Geneva., 2020.                     [28] Permenter, K., Rosa, D. F. and Lava, S. IDC MarketScape: Worldwide SaaS and
+ [4] Strusani, D. and Houngbonon, V. G. The Impact of COVID-19 on Disruptive                       Cloud-Enabled Small Business Finance and Accounting Applications 2020 Vendor
+     Technology Adoption in Emerging Markets. International Finance Corporation                    Assessment. 2020.
+     (IFC), City, 2020.                                                                       [29] Sobhan, R. The Concept of Cloud Accounting and its Adoption in Bangladesh, 3
+ [5] Senyo, P. K., Addae, E. and Boateng, R. Cloud computing research: A review of re-             (06/24 2019), 1261-1267.
+     search themes, frameworks, methods and future research directions. International         [30] Madisha, M. and Van Belle, J. Factors influencing SaaS adoption by small South
+     Journal of Information Management, 38, 1 (2018), 128-139.                                     African organisations. City, 2011.
+ [6] Kim, S. H., Jang, S. Y. and Yang, K. H. Analysis of the Determinants of Software-        [31] Hasheela Miss, V. T. and Mufeti Dr, T. K. An investigation of factors leading to
+     as-a-Service Adoption in Small Businesses: Risks, Benefits, and Organizational                the reluctance of SaaS ERP adoption in Namibian SMEs. The African Journal of
+     and Environmental Factors. Journal of Small Business Management, 55, 2 (2017),                Information Systems, 8, 4 (2016), 1.
+     303-325.                                                                                 [32] Pitchayadol, P., Hoonsopon, D., Chandrachai, A. and Triukose, S. Innovativeness
+ [7] Marand, A. A., Marand, E. A. and Dashtebayaz, M. L. Investigating the effects                 in Thai Family SMEs: An Exploratory Case Study. Journal of Small Business
+     of cloud computing on accounting and its comparison with traditional models.                  Strategy, 28 (2018), 38-48.
+     Advances in Environmental Biology, 7 (2013/10// // 2013), 2836+.                         [33] Harvie, C. and Lee, B.-C. The role of SMEs in national economies in East Asia.
+ [8] Rîndas, u, S.-M. Emerging information technologies in accounting and related                  Edward Elgar Publishing, 2002.
+     security risks – what is the impact on the Romanian accounting profession.               [34] Makinde, G., Babatunde, A. and Ajike, E. STRATEGIC PLANNING: EFFECT ON
+     Journal of Accounting and Management Information Systems, 16 (12/01 2017),                    PERFORMANCE OF SMALL AND MEDIUM ENTERPRISES IN LAGOS, NIGERIA.
+     581-609.                                                                                      International Journal of Management Studies, Statistics and Applied Economics,
+                                                                                                   5 (06/01 2015), 77-94.
+
+
+
+
+                                                                                         37
+Cloud Accounting Adoption in Small and Medium Enterprises: An Integrated Conceptual Framework                                           IEIM 2021, January 08–11, 2021, Barcelona, Spain
+
+
+[35] Lopez-Nicolas, C. and Soto-Acosta, P. Analyzing ICT adoption and use effects on                 [53] Hiran, K. K. and Henten, A. An integrated TOE–DoI framework for cloud com-
+     knowledge creation: An empirical investigation in SMEs. International Journal                        puting adoption in the higher education sector: case study of Sub-Saharan Africa,
+     of Information Management, 30, 6 (2010/12/01/ 2010), 521-528.                                        Ethiopia. International Journal of System Assurance Engineering and Manage-
+[36] Berisha, G. and Pula, J. Defining Small and Medium Enterprises: a critical review.                   ment, 11, 2 (2020/04/01 2020), 441-449.
+     Academic Journal of Business, Administration, Law and Social Sciences, 1 (03/01                 [54] Salahshour Rad, M., Nilashi, M. and Mohamed Dahlan, H. Information technology
+     2015), 17-28.                                                                                        adoption: a review of the literature and classification. Universal Access in the
+[37] Loecher, U. Small and medium-sized enterprises – delimitation and the European                       Information Society, 17, 2 (2018/06/01 2018), 361-390.
+     definition in the area of industrial business. European Business Review, 12, 5                  [55] Alkhalil, A., Sahandi, R. and John, D. An exploration of the determinants for
+     (2000), 261-264.                                                                                     decision to migrate existing resources to cloud computing using an integrated
+[38] Peltier, J. W., Zhao, Y. and Schibrowsky, J. A. Technology adoption by small                         TOE-DOI model. Journal of Cloud Computing, 6, 1 (2017/01/13 2017), 2.
+     businesses: An exploratory study of the interrelationships of owner and envi-                   [56] DiMaggio, P. J. and Powell, W. W. The iron cage revisited: Institutional isomor-
+     ronmental factors. International Small Business Journal, 30, 4 (2012/06/01 2012),                    phism and collective rationality in organizational fields. American sociological
+     406-431.                                                                                             review (1983), 147-160.
+[39] Deloitte. Connecting Small Businesses in the US Commissioned by Google. 2018.                   [57] Kung, L., Cegielski, C. G. and Kung, H.-J. An Integrated Environmental Per-
+[40] Llewellyn, R. How Digital Democratized Consulting. Springer International Pub-                       spective on Software as a Service Adoption in Manufacturing and Retail Firms.
+     lishing, City, 2017.                                                                                 Journal of Information Technology, 30, 4 (2015), 352-363.
+[41] Kujala, V. and Halonen, R. Business Growth Using Open Source e-Commerce                         [58] Oliveira, T., Martins, R., Sarker, S., Thomas, M. and Popovič, A. Understanding
+     and ERP in Small Business. Springer International Publishing, City, 2020.                            SaaS adoption: The moderating impact of the environment context. International
+[42] Igartua, J. I., Ganzarain, J. and Ibarra, D. Identification and Prioritization of Indus-             Journal of Information Management, 49 (2019/12/01/ 2019), 1-12.
+     try 4.0 Projects in SMEs: A Process Approach. Springer International Publishing,                [59] Tornatzky and Fleischer The process of technology innovation. Lexington, MA:
+     City, 2020.                                                                                          Lexington Books, 165 (1990).
+[43] Nguyen, T. H., Newby, M. and Macaulay, M. J. Information Technology Adoption                    [60] Mangula, I. S., van de Weerd, I. and Brinkkemper, S. Why do Companies Adopt
+     in Small Business: Confirmation of a Proposed Framework. Journal of Small                            or Reject SaaS? Looking at the Organizational Aspect. City, 2015.
+     Business Management, 53, 1 (2015), 207-227.                                                     [61] Rahayu, R. and Day, J. Determinant Factors of E-commerce Adoption by SMEs in
+[44] Mole, K. F., Ghobadian, A., O’Regan, N. and Liu, J. The Use and Deployment                           Developing Country: Evidence from Indonesia. Procedia - Social and Behavioral
+     of Soft Process Technologies within UK Manufacturing SMEs: An Empirical                              Sciences, 195 (2015/07/03/ 2015), 142-150.
+     Assessment Using Logit Models. Journal of Small Business Management, 42, 3                      [62] Awa Hart, O. and Ukoha, O. Revisiting technology-organization-environment
+     (2004/07/01 2004), 303-324.                                                                          (T-O-E) theory for enriched applicability. The Bottom Line, 30, 01 (2017), 2-22.
+[45] OECD Launch of “Digital for SMEs” Initiative. City, 2019.                                       [63] Safari, F., Safari, N. and Hasanzadeh, A. The adoption of software-as-a-service
+[46] IDC-Cisco 2020 Asia Pacific SMB Digital Maturity Study. City, 2020.                                  (SaaS): ranking the determinants. Journal of Enterprise Information Management,
+[47] Gupta, P., Seetharaman, A. and Raj, J. R. The usage and adoption of cloud com-                       28, 3 (2015), 400-422.
+     puting by small and medium businesses. International Journal of Information                     [64] Martins, R., Oliveira, T. and Thom, M. An empirical analysis to assess the deter-
+     Management, 33, 5 (2013/10/01/ 2013), 861-874.                                                       minants of SaaS diffusion in firms. Computers in Human Behavior (2016).
+[48] Herzfeldt, A., Floerecke, S., Ertl, C. and Krcmar, H. Examining the antecedents                 [65] Ramayah, T., Ling, N. S., Taghizadeh, S. K. and Rahman, S. A. Factors influencing
+     of cloud service profitability. International Journal of Cloud Applications and                      SMEs website continuance intention in Malaysia. Telematics and Informatics, 33,
+     Computing (IJCAC), 9, 4 (2019), 37-65.                                                               1 (2016/02/01/ 2016), 150-164.
+[49] Parker Craig, M. Small firm e-business adoption: a critical analysis of theory.                 [66] Khayer, A., Talukder, M. S., Bao, Y. and Hossain, M. N. Cloud computing adoption
+     Journal of Enterprise Information Management, 22, 1/2 (2009), 167-182.                               and its impact on SMEs’ performance for cloud supported operations: A dual-
+[50] Oliveira, T. and Martins, M. F. Literature Review of Information Technology Adop-                    stage analytical approach. Technology in Society, 60 (2020/02/01/ 2020), 101225.
+     tion Models at Firm Level. Electronic Journal of Information Systems Evaluation,                [67] Yigitbasioglu, M. The role of institutional pressures and top management sup-
+     14, 1 (2011), 110-121.                                                                               port in the intention to adopt cloud computing solutions. Journal of Enterprise
+[51] Molinillo, S. Organizational adoption of digital information and technology: a                       Information Management, 28, 4 (2015), 579-594.
+     theoretical review. The Bottom Line, 30, 01 (2017), 33-46.                                      [68] Cho, V. and Chan, A. An integrative framework of comparing SaaS adoption
+[52] Rogers, E. M. Diffusion of innovations. Simon and Schuster, 2010.                                    for core and non-core business operations: An empirical study on Hong Kong
+                                                                                                          industries. Information Systems Frontiers, 17, 3 (2015), 629-644.
+
+
+
+
+                                                                                                38
+

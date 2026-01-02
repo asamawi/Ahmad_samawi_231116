@@ -1,0 +1,1039 @@
+                    The current issue and full text archive of this journal is available on Emerald Insight at:
+                    www.emeraldinsight.com/1328-7265.htm
+
+
+
+                                                                                                                        Factors
+   Factors aﬀecting the adoption of                                                                                 aﬀecting the
+            cloud of things                                                                                          adoption of
+                                                                                                                 cloud of things
+               The case study of Indian small and
+                     medium enterprises                                                                                                397
+                                      Vaibhav S. Narwane
+                                                                                                                   Received 30 October 2018
+                       Department of Production Engineering,                                                       Revised 20 February 2019
+            Veermata Jijabai Technological Institute (VJTI), Mumbai, India                                                       4 June 2019
+                                                                                                                 Accepted 30 September 2019
+                                          Rakesh D. Raut
+             Department of Operations and Supply Chain Management,
+         National Institute of Industrial Engineering (NITIE), Mumbai, India
+                                       Bhaskar B. Gardas
+                       Department of Production Engineering,
+            Veermata Jijabai Technological Institute (VJTI), Mumbai, India
+                                         Mahesh S. Kavre
+         Department of Mechanical Engineering, Terna Engineering College,
+                            Navi Mumbai, India, and
+                                   Balkrishna E. Narkhede
+                        Department of Industrial Engineering,
+         National Institute of Industrial Engineering (NITIE), Mumbai, India
+
+
+Abstract
+Purpose – The purpose of this study is to determine the signiﬁcant factors affecting the adoption of Cloud
+of Things (CoT) by Indian small and medium-sized enterprises, using exploratory and conﬁrmatory factor
+analysis.
+Design/methodology/approach – Signiﬁcant factors that impact CoT implementation were
+identiﬁed through a detailed literature survey. A conceptual framework and hypotheses were proposed
+for linking the signiﬁcant factors so identiﬁed, namely, cost saving, relative advantage, sharing and
+collaboration, reliability, security and privacy, technical issues and adoption intention. The data were
+collected from 270 Indian SMEs using an online survey. Structural equation modelling (SEM) was used
+to test the proposed model.
+Findings – It was observed that factors such as “sharing and collaboration”, “cost saving” and “relative
+advantage” had a positive inﬂuence on CoT adoption. Findings of the study also supported the hypothesis
+that “security and privacy” were the prime concerns for CoT adoption.
+Research limitations/implications – Sample coverage across different geographical areas with
+qualitative data can be helpful. The SEM methodology is only capable of verifying linear relationships; to
+counter this, a hybrid approach with tools such as artiﬁcial neural network and multiple linear regression can
+be used.
+                                                                                                                          Journal of Systems and
+                                                                                                                        Information Technology
+                                                                                                                               Vol. 21 No. 4, 2019
+Authors would like to thank Dr Raymond Chiong, the editor of Journal of Systems and Information                                       pp. 397-418
+Technology and two anonymous reviewers for their valuable comments and suggestions that have                         © Emerald Publishing Limited
+                                                                                                                                       1328-7265
+helped to improve the quality of the manuscript signiﬁcantly.                                                       DOI 10.1108/JSIT-10-2018-0137
+JSIT   Practical implications – This study intends to guide the managers of SMEs, cloud service providers
+       and regulatory organisations for formulating an effective strategy to adopt CoT. It may be noted that
+21,4   CoT is the prime building block of Industry 4.0 and SMEs will beneﬁt from government support for the
+       same.
+       Originality/value – This paper highlights the inﬂuence of factors on the adoption intention of CoT with a
+       focus on the SMEs of a developing country like India.
+       Keywords Conﬁrmatory factor analysis (CFA), Internet of Things (IoT),
+398    Exploratory factor analysis (EFA), Small and medium enterprises (SMEs), Cloud computing adoption,
+       Cloud of Things (CoT)
+       Paper type Research paper
+
+
+       1. Introduction
+       Small and medium-sized enterprises (SMEs) are large in number and include various
+       essential aspects of the manufacturing sector (Ivers et al., 2016). They play a critical role in
+       improving the Gross Domestic Product (GDP), which helps in releasing employment
+       pressure and getting closer to the optimised structure of the economy (Hallam et al., 2018). It
+       may be noted that most of the SMEs lack in research and development, operations
+       management and advanced technical capabilities. This highlights the need for quality
+       research on behalf of the SMEs, exploring current technological developments (Müller et al.,
+       2018).
+          Internet of things (IoT) and cloud computing are the essential technologies of the 21st
+       century. In 2016, the Deutsche Telecom of Germany coined the term Cloud of Things (CoT),
+       innovatively integrating cloud computing and IoT (Roopaei et al., 2017). Despite their
+       separate evolutionary paths, IoT and cloud computing can assist each other in providing
+       multiple mutual beneﬁts (Botta et al., 2016). The data from different IoT sensors can be
+       published on cloud (with due permissions from the owners), thereby becoming accessible to
+       many users simultaneously (Perera et al., 2014). It may be noted that CoT implementation
+       makes the system more reliable, allowing resources to get accessed and used from
+       everywhere. It also helps ensure that smart things/objects can be placed anywhere (Botta
+       et al., 2016). As CoT service provides unlimited storage and processing capabilities and
+       universal access to resources, its implementation across SMEs is considered beneﬁcial for
+       the growth of the industry (Farahzadi et al., 2018). Its implementation results in improved
+       productivity and enables SMEs to become location-independent (Gunashekar et al., 2016).
+       Further, CoT implementation improves transparency within the organisation (Grifﬁths,
+       2016). Also, it allows the quick ﬂow of information within the supply chain, which cements
+       the supplier-customer relationship (Doherty et al., 2015).
+          A little consideration will show that the SMEs of developing countries lack sufﬁcient
+       awareness about the virtues of CoT, and the high initial investment is a prime concern for its
+       adoption. Furthermore, very few research articles directly address the challenges faced by
+       the SMEs for CoT adoption in developing countries like India. With this motivation, this
+       study aims to address the following research questions and address the research objectives
+       mentioned below:
+          RQ1. Which factors inﬂuence CoT adoption in the Indian SMEs?
+          RQ2. What is the inﬂuence of each factor on the adoption intention of CoT?
+          RO1. To identify the factors inﬂuencing CoT adoption in SMEs.
+          RO2. To establish the relationship between each factor and CoT adoption intention.
+The rest of this paper has been organised as follows: to address the research questions and            Factors
+attain the objectives mentioned above a detailed literature review has been carried out in         aﬀecting the
+Section 2 to identify the factors and sub-factors that inﬂuence the adoption of CoT. In
+Section 3, the conceptual model has been explained, and the research hypotheses have been
+                                                                                                    adoption of
+formulated. Section 4 details the research methodology, whereas in Section 5, the empirical     cloud of things
+results have been elaborated. A discussion on the results and conclusion of the study has
+been covered in Section 6.
+                                                                                                          399
+2. Literature review
+The literature survey section has been categorised into four sections, namely, Cloud
+computing adoption, IoT adoption, CoT adoption and research gaps.
+
+2.1 Cloud computing adoption
+Various authors have discussed the adoption of cloud computing in the SMEs of developed,
+developing and underdeveloped countries. Some of the publications are briefed below:
+   Alshamaila et al. (2013) studied the SMEs of Northeast England and proposed signiﬁcant
+drivers for cloud adoption, namely top management support, market scope, relative
+advantage, external computing support, and prior experience. To determine cloud service
+implementation behaviour across enterprises of Taiwan, Hsu and Lin (2016) used the
+Technology–Organisation–Environment (TOE) framework. The results of the study
+showed that technological factors (security and relative advantage), organisational factors
+(ﬁnancial cost and complacency from existing IS) and environmental factors (competitive
+pressure) had a positive inﬂuence on cloud service adoption. Raut et al. (2017) examined the
+factors that inﬂuence the adoption of CC in the MSMEs using an interpretive structural
+modelling approach, and the factor “previous technological experience” was found to be the
+most signiﬁcant.
+   Yigitbasioglu (2015) analysed the role of top management support and institutional
+pressures on CC adoption intention using the partial least squares technique. It was
+concluded that coercive and mimetic pressures affected top management’s belief to adopt CC
+solutions. Narwane et al. (2019) detailed the issues related to cloud manufacturing and
+focused on future research directions. Raut et al. (2018a) analysed the factors affecting CC
+adoption in the quantitative and qualitative environment. Gangwar et al. (2015) identiﬁed
+top management commitment, organisational readiness, compatibility, relative advantage,
+complexity, and training and education as signiﬁcant variables for inﬂuencing cloud
+adoption for Indian SMEs. In an exploratory study, Doherty et al. (2015) surveyed 1,500
+SMEs of Ireland and concluded that “cost-beneﬁt” was a signiﬁcant driver, while the
+continuous availability of services was a signiﬁcant concern for cloud adoption. Kumar et al.
+(2017) studied Indian SMEs and concluded that ﬂexibility, scalability, easy deployment and
+cost advantage had a positive inﬂuence on cloud adoption; poor internet connectivity,
+security concern, vendor lock-in and loss of control were the signiﬁcant barriers.
+
+2.2 Internet of Things adoption
+This part of the manuscript focuses on the studies related to IoT adoption. A study
+addressing Chilean SMEs was conducted by Grandon et al. (2018), which demonstrated that
+facilitating conditions and social inﬂuence were the main determinants of IoT adoption. A
+study conducted by Luthra et al. (2018) determined critical challenges to IoT adoption,
+namely, lack of talent, lack of standardisation, security and privacy issues, poor internet
+connectivity, costing issues and more extended payback period. Grifﬁths (2016) identiﬁed
+improved safety and transparency, cost reduction, economic growth, and new business
+JSIT   opportunities as primary drivers; on the other hand, privacy and security and integration
+21,4   challenges were the barriers against IoT adoption across SMEs of UK. A study conducted
+       by Tu (2018) across various industries of Taiwan revealed that perceived cost, perceived
+       beneﬁts, external pressure and trust of technology were the critical factors inﬂuencing the
+       adoption of IoT in the logistics and supply chain. Gao and Bai (2014) identiﬁed that
+       perceived enjoyment, social inﬂuence, ease of use, perceived usefulness and perceived
+400    behavioural control were the signiﬁcant determinants of IoT users in a northern China city.
+
+       2.3 Cloud of Things adoption
+       The CoT paradigm has an impact on services like smart grid, smart logistics, smart cities,
+       smart mobility, smart home, and smart metering (Botta et al., 2016; Díaz et al., 2016).
+       However, CoT for manufacturing has not been explored much in the past studies. Some
+       research articles focusing on CoT are discussed below:
+          Yan et al. (2014) proposed a CoT framework for the supply chain management (SCM) that
+       integrates supplier, warehouse, logistics, and client. The prototype implementation showed
+       that virtualisation of resources helped in better resource management, service monitoring,
+       and tracking. Ai et al. (2018) studied the factors affecting CoT adoption for computing,
+       mobile edge computing, and cloudlets. Stergiou et al. (2018) surveyed security issues and
+       beneﬁts of CoT. Also, the contribution of CC to IoT was detailed. Díaz et al. (2016)
+       highlighted the open issues and challenges in the integration of CC and IoT. In healthcare
+       systems, Thota et al. (2018) focused on the centralised fog computing security platform for
+       CC and IoT and concluded that CoT applications provide secure and seamless access to
+       health data. In the cloud manufacturing (CM) domain, Tao et al. (2014) studied the IoT-based
+       intelligent perception towards CM. Also, the manufacturing resources and services were
+       classiﬁed, and their relationships were discussed.
+          To understand CoT adoption in Indian SMEs, Narwane et al. (2019) considered factors
+       such as trust, IT security risk, ease of use and social inﬂuence. The results showed that
+       social inﬂuence, ease of use and trust were positively related to adoption. Mitalaa et al. (2016)
+       used multiple theoretical perspectives to understand CoT adoption in India. Constructs
+       considered for the study were the attitude toward adoption, behavioural control, ease of use,
+       usefulness, subjective norms, and intention. Exploratory analysis showed that except
+       behavioural control, all other constructs inﬂuenced CoT adoption. To measure trust
+       reputation in CoT group formation, Fortino et al. (2018) proposed a trust metric and agent
+       grouping algorithm. The study identiﬁed helpfulness, reliability and local reputation as
+       prominent factors.
+          Through literature review, several factors that inﬂuence cloud and IoT adoption were
+       shortlisted. Common factors inﬂuencing the adoption of both IoT and cloud technology,
+       along with their sub-factors, were grouped into six constructs, i.e. Relative advantage,
+       Reliability, Sharing and collaboration, Cost saving, Privacy concerns and Technical issues
+       (Table I).
+
+       2.4 Research gaps
+       Most of the studies enlisted above have addressed adoption factors either for cloud
+       computing or IoT by conducting survey-based research across SMEs. Literature survey
+       shows that several articles focused on the adoption of CC (Alshamaila et al., 2013; Doherty
+       et al., 2015; Gangwar et al., 2015; Hsu and Lin, 2016; Kumar et al., 2017; Narwane et al., 2019;
+       Raut et al., 2017; Raut et al., 2018a; Yigitbasioglu, 2015) and IoT (Gao and Bai, 2014; Grandon
+       et al., 2018; Grifﬁths, 2016; Hsu and Lin, 2018; Luthra et al., 2018; Tu, 2018) separately, but
+       only few papers have discussed the adoption of CoT, i.e. a combination of both (Ai et al., 2018;
+Sr. No.               Factor              Sub-factor             Description                                        References
+
+1                     Cost Saving (CSV)   P_CSV1: Reduced        As service providers are responsible for           Aazam et al. (2016)
+                                          cost for maintenance   maintenance of resources, the ﬁrm’s
+                                                                 maintenance cost is reduced
+                                          P_CSV2: Reduced        Since CoT resources are available on rent, the     Dash et al. (2010), Zhang et al. (2010)
+                                          initial investment     initial investment is reduced
+                                          P_CSV3: Reduced        SaaS (Sensing as a service) provides access to     Perera et al. (2014)
+                                          data accessing cost    the data at a less cost
+                                          P_CSV4:                Since, CoT is an emerging technology, it offers    Aazam et al. (2016), Farahzadi et al. (2018),
+                                          Enhancement in         new services, products and strategies that         Grifﬁths (2016)
+                                          transparency           enables transparency
+                                          P_CSV5: Reduced        Since, CoT provides on-demand services and         Doherty et al. (2015), Farahzadi et al. (2018),
+                                          operational cost       uses service-driven business policies, resources   Trigueros-Preciado et al. (2013)
+                                                                 can be de-allocated during low service demand;
+                                                                 this helps to reduce cost
+2                     Relative            P_RAV1: Rapid          Service providers make SMEs deploy CoT             Aazam et al. (2016), Priyadarshinee et al. (2017)
+                      Advantage (RAV)     deployment             resources rapidly and it helps to reduce staff
+                                                                 cost of the ﬁrm, which is required for CoT
+                                                                 implementation
+                                          P_RAV2:                Firm’s safety is enhanced due to sensing and       Alshamaila et al. (2013), Grifﬁths (2016)
+                                          Enhancement in         actuation attribute of IoT resources
+                                          safety
+                                          P_RAV3: Competitive    Pressure from competitors from similar sector      Hsu and Yeh (2017)
+                                          pressure               who have already adopted CoT
+                                          P_RAV4: Green          In order to fulﬁll the objective of a clean        Grifﬁths (2016)
+                                          operations             environment, the monitoring of CoT is essential.
+                                                                 CoT resources can be implemented in the areas
+                                                                 where direct monitoring is difﬁcult. The green
+                                                                 concern is one of the primary drivers for the
+                                                                 CoT adoption
+                                          P_RAV5: Maximum        In order to make assets ( or resources) focus on   Doherty et al. (2015), Aazam et al. (2016)
+                                          asset usage            core work, CoT allows the ﬁrm to outsource non-
+                                                                 competent work
+                                                                                                                                                              (continued)
+
+
+
+
+ the CoT adoption
+Factors influencing
+                                                                                                                                               401
+                                                                                                                                                          cloud of things
+                                                                                                                                                              adoption of
+
+
+
+
+          Table I.
+                                                                                                                                                             aﬀecting the
+                                                                                                                                                                 Factors
+                                                                                                                                                          21,4
+
+
+
+                                                                                                                                      402
+                                                                                                                                                          JSIT
+
+
+
+
+    Table I.
+Sr. No.        Factor          Sub-factor             Description                                        References
+
+                               P_RAV6: Inﬁnite        By integrating the cloud with IoT, the resources   Aazam et al. (2016), Farahzadi et al. (2018),
+                               processing             are provided with unlimited processing capacity    Perera et al. (2014)
+                               capabilities
+                               P_RAV7: New            Since CoT is an emerging technology, it offers     Aazam et al. (2016), Farahzadi et al. (2018),
+                               business               new services, products and strategies that         Grifﬁths (2016)
+                               opportunities          generate new revenue streams
+                               P_RAV8: High           CoT services are highly scalable; it allows on-    Aazam et al. (2016), Alshamaila et al. (2013),
+                               Scalability            demand access to a large number of shared pool     Dash et al. (2012), Farahzadi et al. (2018)
+                                                      of resources during peak time
+                               P_RAV9: Market         CoT offers location independency to SMEs. It
+                               scope                  helps to enhance the horizontal extent of ﬁrms’
+                                                      operations by giving them access to
+                                                      international markets and foreign networks
+                               P_RAV10: Inﬁnite       IoT devices with limited storage ability can be    Aazam et al. (2016), Farahzadi et al. (2018),
+                               storage capabilities   integrated with the cloud to enjoy unlimited       Perera et al. (2014), Zhang et al. (2010)
+                                                      storage
+                               P_RAV11:               Since, IoT resources are vastly adopted in ﬁrms,   Farahzadi et al. (2018)
+                               Enhancement in         its assimilation with cloud enhances
+                               productivity           productivity within the ﬁrm
+3              Sharing and     P_SAC1: Improved       Use of CoT enhances the quality of deliverables    Farahzadi et al. (2018)
+               collaboration   customer experience    to the clients
+               (SAC)           P_SAC2: Supplier       In order to improve supplier-customer relation,    Doherty et al. (2015)
+                               and Customer           CoT allows the rapid ﬂow of information
+                               collaboration          through the supply chain
+                               P_SAC3: Sharing and    Using SaaS (sensing as a service) the user can     Perera et al. (2014)
+                               reusing of data        have access to multiple sensor’s data and the
+                                                      service provider can publish this data on the
+                                                      cloud with the consent of the “owner of the
+                                                      sensor”
+                                                                                                                                                 (continued)
+Sr. No.        Factor              Sub-factor            Description                                         References
+
+4              Reliability (RLB)   P_RLB1: Pervasive     One can place smart objects/things in a location-   Aazam et al. (2016), Botta et al. (2016)
+                                                         independent manner
+                                   P_RLB2: Automated     Automatic sensor conﬁguration eliminates            Perera et al. (2014)
+                                   sensor conﬁguration   human intervention
+                                   P_RLB3: Ubiquitous    CoT allows resources to get used and accessed       Aazam et al. (2016), Botta et al. (2016),
+                                   access to resources   from anywhere                                       Papathanasiou et al. (2015)
+                                   P_RLB4:               Green operations of CoT resources enhance the       Grifﬁths (2016)
+                                   Enhancement in        environmental sustainability
+                                   environmental
+                                   sustainability
+                                   P_RLB5: Tracking of   Since, CoT allows the real-time tracking of         Yan et al. (2014), Perera et al. (2014)
+                                   real-time data        sensor data, it is useful in decision and policy
+                                                         making
+                                   P_RLB6: Support       Top management gives vision and commitment          Alshamaila et al. (2013), Hsu and Yeh (2017),
+                                   from top              to make a favorable environment for the             Raut et al. (2018b)
+                                   management            adoption of emerging technologies. Support
+                                                         from the top management is essential to make
+                                                         resources available and to ensure a supportive
+                                                         environment for the adoption of a new
+                                                         technology
+                                   P_RLB7: Previous IT   It is the operator’s previous exposure with         Alshamaila et al. (2013)
+                                   experience            similar kind of technology
+                                   P_RLB8: Service       CoT makes use of the service-driven business        Dash et al. (2010)
+                                   driven                policy, i.e. on demand services are available
+5              Security and        P_SAP1: Vendor        Due to the lack of common standards, service        Doherty et al. (2015), Phaphoom et al. (2015),
+               Privacy (SAP)       lock-in               providers give services through their               Raut et al. (2018c)
+                                                         proprietary interfaces, which leads to difﬁculty
+                                                         in data portability and vendor lock-in issues
+                                   P_SAP2: Lack of       Due to lack of universal standards, APIs,           Botta et al. (2016), Díaz et al. (2016), Perera et al.
+                                   common standards      protocols and architectures; interoperability       (2014)
+                                                                                                                                                         (continued)
+                                                                                                                                            403
+                                                                                                                                                        cloud of things
+                                                                                                                                                            adoption of
+
+
+
+
+    Table I.
+                                                                                                                                                           aﬀecting the
+                                                                                                                                                               Factors
+                                                                                                                                                               21,4
+
+
+
+                                                                                                                                            404
+                                                                                                                                                               JSIT
+
+
+
+
+    Table I.
+Sr. No.        Factor             Sub-factor              Description                                         References
+
+                                                          within the multiple sensor hardware and cloud
+                                                          becomes difﬁcult
+                                  P_SAP3: Network         Most of the IT challenges within SMEs are           Luthra et al. (2018)
+                                  and connectivity        related to network and connectivity, which is
+                                  issue                   not a promising sign for CoT implementation
+                                  P_SAP4: Loss of         Decision-makers of the SMEs get worried while       Zhang et al. (2010)
+                                  control of data         transferring control of data and resources to the
+                                                          external service providers
+                                  P_SAP5: Difﬁcult to     Thorough monitoring is a necessary task in the      Díaz et al. (2016)
+                                  monitor                 cloud for SLAs, resource management,
+                                                          performance and capacity planning. However,
+                                                          monitoring becomes difﬁcult because of the
+                                                          volume, velocity and variable nature of the data
+                                                          being generated from the IoT resources
+                                  P_SAP6: Privacy and     Privacy and security of data is a standard issue    Conti et al. (2018), Díaz et al. (2016), Farahzadi
+                                  security                for both IoT and cloud resources. Since, data       et al. (2018)
+                                                          centers are located at distant places, the users
+                                                          need to completely depend on the service
+                                                          providers for the physical security of CoT
+                                                          resources
+                                  P_SAP7: Distrust        Distrust for transferring data to the third party   Trigueros-Preciado et al. (2013)
+6              Technical Issues   P_TIS1: Delay in data   Due to the delay in data transfer, real-time data   Doherty et al. (2015)
+               (TIS)              transfer                tracking becomes difﬁcult. It is a signiﬁcant
+                                                          concern for time-critical applications like those
+                                                          used in the ﬁnancial markets and international
+                                                          trading
+                                  P_TIS2: Lowered         In WSN, when a particular sensor is exchanged       Doukas and Maglogiannis (2012)
+                                  energy efﬁciency        with smart things, energy efﬁciency becomes a
+                                                          signiﬁcant issue. Integration with cloud results
+                                                          into increased data transfer, which consumes
+                                                          more power
+                                                                                                              El Rachkidi et al. (2016), Grifﬁths (2016)
+                                                                                                                                                       (continued)
+Sr. No.        Factor         Sub-factor              Description                                         References
+
+                              P_TIS3: Complexity      Integration of CoT resources with the existing
+                              in integration          system is one of the challenging tasks as the
+                                                      CoT environment consists of different nodes like
+                                                      IoT devices, cloud data centers and edge nodes,
+                                                      etc. It may be noted that each node has its own
+                                                      service component catalogue, resources and
+                                                      capabilities. Such heterogeneity causes difﬁculty
+                                                      in integration
+                              P_TIS4: Difﬁcult to     Generally, non-technical users ﬁnd CoT as a         Gangwar et al. (2015)
+                              understand              challenging technology to use and understand
+                              P_TIS5: Difﬁculty in
+                              usage
+                              P_TIS6: Lack of         Since, CoT is a new technology, awareness           Trigueros-Preciado et al. (2013)
+                              knowledge               about its uses and beneﬁts is less amongst the
+                                                      SMEs
+                              P_TIS7: The shortfall   Due to lack of training and education, SMEs         Luthra et al. (2018)
+                              of skilled workers      have less number of skilled workers
+                              P_TIS8: Uncertain       Investing in CoT resources may or may not           Grifﬁths (2016)
+                              returns                 provide expected beneﬁts
+7              CoT Adoption   P_INT1: In favor of     Facilitating conditions and social inﬂuence are     Tu (2018)
+               Intention      using CoT               the main determinants that explain CoT
+                              P_INT2: Intended to     adoption. Further, the inﬂuence of past             Gangwar et al. (2015)
+                              adopt CoT               experience of CoT inﬂuences its future adoption
+                              P_INT3: Creating        in other industries or in the extensions of the     Alshamaila et al. (2013)
+                              awareness about CoT     present setting
+                              P_INT4: Satisfaction                                                        Tu (2018)
+                              with CoT services
+                                                                                                                                     405
+                                                                                                                                             cloud of things
+                                                                                                                                                 adoption of
+
+
+
+
+    Table I.
+                                                                                                                                                aﬀecting the
+                                                                                                                                                    Factors
+JSIT               Botta et al., 2016; Díaz et al., 2016; Fortino et al., 2018; Mitalaa et al., 2016; Narwane et al., 2019;
+21,4               Stergiou et al., 2018; Tao et al., 2014; Thota et al., 2018; Yan et al., 2014). A little consideration
+                   will show that none of the past studies has focused on CoT adoption in the Indian SMEs
+                   context by employing a quantitative approach such as EFA-CFA- structural equation
+                   modelling (SEM). Hence, the critical goal of the present research is to identify and analyse the
+                   factors that inﬂuence the adoption intention of CoT in the Indian SMEs context by employing
+406                the EFA-CFA-SEM approach. This is the novelty of the present research framework.
+                   Undoubtedly, the factors inﬂuencing CoT adoption for developing countries will be different
+                   from those of the developed countries. Large-scale manufacturing companies in India have
+                   started to adopt the latest trends in Industry 4.0/smart manufacturing. The government of
+                   India is actively promoting the “Make in India” initiative. Thus, SMEs who are major
+                   suppliers to these large manufacturers must adopt CoT to sustain in this rapidly changing
+                   scenario. This observation is the driving motivation for this study.
+
+                   3. Conceptual model and hypotheses development
+                   3.1 Conceptual model
+                   A conceptual model is considered as a structure of interrelated constructs in an organised
+                   form. It represents the relationship between observed variables and the constructs. A
+                   proposed conceptual framework for this study is shown in Figure 1.
+
+                   3.2 Pilot study
+                   Initially, logical grouping was done as per the technical speciﬁcations of the factors. In order
+                   to conﬁrm the grouping of these variables, a pilot study across 30 SMEs was conducted.
+                   Based on the results of the pilot study, ﬁnal constructs and their indicator variables were
+
+
+                                             Cost Saving (CSV)
+
+
+
+
+                                          Relative Advantage (RAV)
+                                                                                     H1 (+)
+
+                                                                                 H2 (+)
+
+                                          Sharing and Collaboration
+                                                                           H3 (+)
+                                                   (SAC)
+                                                                                               CoT Adoption
+                                                                                              Intention (INT)
+                                                                       H4 (+)
+                                             Reliability (RLB)
+                                                                        H5 (–)
+
+
+                                                                          H6 (-)
+                                           Security and Privacy
+                                                  (SAP)
+
+
+
+
+                                          Technical Issues (TIS)
+Figure 1.
+Conceptual model
+deﬁned. Using these ﬁnal constructs, the conceptual framework and research hypotheses                       Factors
+were framed. To ascertain the respondents’ opinion about CoT adoption, a ﬁve-point Likert               aﬀecting the
+scale was used. After the pilot study, the 42 sub-factors of six constructs of Table I were
+reduced to 22. Table II shows the sub-factors retained for the actual survey and the
+                                                                                                         adoption of
+justiﬁcation has been provided for the formulation of the six hypotheses.                            cloud of things
+
+4. Research methodology                                                                                        407
+4.1 Sample characteristics
+Total 243 responses were received from employees as well as decision-makers of the 270
+SMEs, out of which 124 were valid. Industry-wise distribution of respondents is as follows:
+manufacturing industry (45 per cent), business sector (27 per cent), IT (13 per cent),
+education sector (2 per cent) and others (13 per cent). Distribution of respondents as per their
+knowledge about cloud computing, IoT and CoT technology is as follows: 51 per cent of the
+respondents were aware of CoT technology, i.e. integration of cloud computing and IoT, 22
+per cent of the respondents were aware of cloud computing and/or IoT technology, and 27
+per cent of the respondents were not aware of cloud computing, IoT and CoT technology.
+Hence, 124 responses (51 per cent), which belong to the CoT technology category were
+considered as valid and were analysed further.
+
+4.2 Exploratory factor analysis
+Factor analysis helps analyse the structure of interrelationships among a large number of
+variables by deﬁning a set of variables that are highly correlated, known as factors. Also, it
+helps reduce the data (Hair et al., 2010). The Bartlett’s test of sphericity is used to check the
+appropriateness of factor analysis. Another useful indicator is KMO, i.e. Kaiser–Meyer–
+Olkin to measure sampling adequacy. Its values range from 0 to 1. KMO values of more than
+0.5 are acceptable (Hair et al., 2010).
+
+4.3 Conﬁrmatory factor analysis
+CFA checks the stability of the scale and determines the model ﬁt, validity and reliability of the
+proposed conceptual model. SEM is popularly used to execute CFA. SEM explains how well the
+conceptual model determines observed correlations among the measured variables (Malhotra,
+2010; Pawaskar et al.,2018). Reliability is considered as the degree to which the measurement
+scale produces consistent outputs. Composite reliability (CR) is the ratio of total true score
+variance identiﬁed about the total score variance. Value of CR ranges from 0 to 1, where 0
+indicates no consistency in measuring outputs while 1 indicates perfect consistency. Though
+CR above 0.7 is desirable, values between 0.6-0.7 are also acceptable (Hair et al., 2010).
+    Validity signiﬁes how effectively a speciﬁc property can be measured. Construct validity
+has two components, i.e. convergent validity and discriminant validity (Malhotra, 2010). The
+estimate to test convergent validity is AVE (average variance extracted). AVE can be
+deﬁned as variance in observed or indicator variables that is explained by the latent
+construct. Values of AVE  0.5 show signiﬁcant convergent validity. Discriminant validity
+indicates that each indicator measures only one construct. For discriminant validity, the
+square root of AVE must be larger than the correlation coefﬁcients (Hair et al., 2010).
+
+5. Empirical results
+In statistical analysis, EFA was performed using the IBM SPSS statistic V20, and for CFA
+and SEM, AMOS V22.0 was used. In order to test the research hypotheses, authors
+employed linear regression in IBM SPSS statistic V20.
+                                                                                                                                                             21,4
+
+
+
+                                                                                                                                          408
+                                                                                                                                                             JSIT
+
+
+
+
+    Table II.
+
+
+    hypotheses
+    factors and
+    Constructs, Sub-
+No.       Factor              Description                                                      Sub-factors            Hypotheses
+
+1         Cost Saving         CoT offers scope for innovation, reduces IT expenditure, and  CSV1: Reduced cost for    H1: Cost saving is positively associated
+          (CSV)               lowers the total cost of computing. Also, it decreases        maintenance               with ﬁrm’s intention to implement CoT
+                              maintenance cost and reduces infrastructure costs by          CSV2: Reduced initial
+                              providing services on a pay-as-use basis. Further, it helps   investment
+                              save enormous cost as it offers services on demand and        CSV3: Reduced data
+                              resources can be de-allocated during low service demands.     accessing cost
+                              Additionally, CoT services provide access to the data at a    CSV4: Enhancement in
+                              reduced cos                                                   transparency
+2         Relative            It is the degree to which a CoT service is considered as      RAV1: Rapid deployment    H2: Relative advantage is positively
+          Advantage           advancement on the system it is purposed to replace. The      RAV2: Enhancement in      associated with ﬁrm’s intention to
+          (RAV)               CoT has more beneﬁts over other technologies like unlimited   safety                    implement CoT
+                              storage and processing capabilities, highly scalable services,RAV3: Competitive
+                              improved safety and transparency, enhanced productivity,      pressure
+                              etc.                                                          RAV4: Green operations
+3         Sharing and         Due to multiple new services offered by CoT, the quick ﬂow    SAC1: Improved customer   H3: Sharing and collaboration is positively
+          collaboration       of information is possible within the supply chain. This helpsexperience                associated with ﬁrm’s intention to
+          (SAC)               enhance the quality of deliverables to the customers and      SAC2: Supplier and        implement CoT
+                              promotes better supplier-customer relationship                Customer collaboration
+                                                                                            SAC3: Sharing and
+                                                                                            reusing of data
+4         Reliability (RLB)   The implementation of CoT makes the system more reliable. RLB1: Pervasive               H4: Reliability is positively associated with
+                              It allows resources to get accessed and used from everywhere. RLB2: Automated sensor    ﬁrm’s intention to implement CoT
+                              Also, smart things/objects can be placed anywhere. Since      conﬁguration
+                              most of the sensor owners are non-technical, automatic sensor RLB3: Ubiquitous access
+                              conﬁguration plays a vital role in its use                    to resources
+                                                                                                                                                        (continued)
+No.         Factor             Description                                                      Sub-factors                 Hypotheses
+
+5           Security and       CoT lacks identity management standards and sensible             SAP1: Vendor lock-in        H5: Security and privacy is negatively
+            privacy (SAP)      security protocols; this raises security and privacy concerns    SAP2: Lack of common        associated with ﬁrm’s intention to
+                               among the SMEs. It is a signiﬁcant critical concern for          standards                   implement CoT
+                               ﬁnance, governance and healthcare domains as the                 SAP3: Network and
+                               conﬁdential information is associated with these sectors. It     connectivity issue
+                               may be noted that data security is a standard issue for both     SAP4: Loss of control of
+                               cloud and IoT. The data transfer takes place through             data
+                               middleware and offering security in the middleware is an         SAP5: Difﬁcult to monitor
+                               essential aspect                                                 SAP6: Privacy and
+                                                                                                security
+6           Technical issues   Technical issues like delay in data transfer, real-time data     TIS1: Delay in data         H6: Technical issues are negatively
+            (TIS)              tracking and reduced energy efﬁciency make contrary              transfer                    associated with ﬁrm’s intention to
+                               intention towards CoT implementation. It is a signiﬁcant         TIS2: Lowered energy        implement CoT
+                               concern for time-critical applications used in the ﬁnancial      efﬁciency
+                               markets and international trading. Further, the integration of
+                               CoT with the existing IS system is a critical concern. In WSN,
+                               when a particular sensor is exchanged with smart things,
+                               energy efﬁciency becomes a signiﬁcant issue
+                                                                                                                                             409
+                                                                                                                                                       cloud of things
+                                                                                                                                                           adoption of
+
+
+
+
+Table II.
+                                                                                                                                                          aﬀecting the
+                                                                                                                                                              Factors
+JSIT                5.1 Exploratory factor analysis
+21,4                Principal component analysis and varimax rotation method were used to obtain constructs.
+                    Variables that showed loading less than 0.5 were suppressed. The rotated factor matrix is
+                    shown in Table III.
+                       It was found that KMO = 0.851 > 0.5 and thus, acceptable. Bartlett’s test of sphericity
+                    signiﬁcance value was 0.00, which is below 0.05 and hence, signiﬁcant at 95 per cent
+410                 conﬁdence level.
+
+                    5.2 Conﬁrmatory factor analysis
+                    5.2.1 Discriminant validity. Discriminant validity deﬁnes that each indicator variable
+                    measures only for one construct, i.e. a given construct is distinct from the others (Hair et al.,
+                    2010). Table IV shows the obtained results of CR and AVE.
+                        The Fornell–Larcker criterion is usually employed to assess the discriminant validity of
+                    latent constructs, which demands that the square root of AVE must be more signiﬁcant than
+                    correlation coefﬁcients (Fornell and Larcker, 1981). Table V demonstrates that almost all
+                    latent constructs met the required criteria.
+                        However, the Fornell–Larcker criterion is inadequate in detecting the absence of
+                    discriminant validity in variance-based SEM. Henseler et al. (2015) proposed the
+
+
+                                                                              Component
+                    Factors                       1          2          3         4           5          6          7
+
+                    INT1                        0.845
+                    INT2                        0.837
+                    INT3                        0.836
+                    INT4                        0.829
+                    SAP1                                   0.786
+                    SAP2                                   0.785
+                    SAP3                                   0.688
+                    SAP4                                   0.621
+                    SAP5                                   0.565
+                    SAP6                                   0.510
+                    RAV1                                              0.755
+                    RAV2                                              0.746
+                    RAV3                                              0.656
+                    RAV4                                              0.558
+                    CSV1                                                         0.783
+                    CSV2                                                         0.705
+                    CSV3                                                         0.608
+                    CSV4                                                         0.564
+                    SAC1                                                                    0.807
+                    SAC2                                                                    0.760
+                    SAC3                                                                    0.582
+                    RLB1                                                                               0.764
+                    RLB2                                                                               0.653
+                    RLB3                                                                               0.623
+                    TIS1                                                                                          0.877
+                    TIS2                                                                                          0.768
+Table III.          Extraction Method: Principal Component Analysis, Rotation Method: Varimax with Kaiser Normalization
+Rotated component   Initial eigenvalues           8.569    2.522       1.753      1.516     1.455      1.272      1.05
+matrix              Percentage variance          32.95     9.701       6.742      5.831     5.597      4.892      4.05
+heterotrait monotrait (HTMT) ratio of correlation as a new mean to assess discriminant                         Factors
+validity. HTMT ratio is the mean of correlations of indicator variables across                             aﬀecting the
+constructs measuring dissimilar phenomena relative to the mean of correlations of
+indicator variables within the same constructs. The value of HTMT less than 1
+                                                                                                            adoption of
+indicates discriminant validity (Ali et al., 2018; Henseler et al., 2015). It was suggested             cloud of things
+by Hair et al. (2017) that the HTMT value should be less than 0.9 for conceptually
+similar constructs and 0.85 for conceptually different constructs. Results of a study by
+Voorhees et al. (2016) suggested that the cut-off value of HTMT ratio less than 0.85
+                                                                                                                      411
+gave an excellent assessment of discriminant validity.
+   In this study, Smart PLS 3 software was used for estimating the HTMT ratio among the
+constructs. HTMT values among all the constructs were found to be less than 1 and also less
+than 0.85 (Table VI). Thus, discriminant validity for the proposed model is achieved.
+   5.2.2 Structural model. Model ﬁt can be estimated by comparing the estimated
+covariance matrix with the sample or the observed covariance matrix. A model is
+considered a better ﬁt if the observed and estimated covariance matrices match well.
+The goodness of ﬁt index (GFI) indicates how well a given model ﬁts the sample data as
+well as which proposed model has the most superior ﬁt. The observed value of GFI in
+this study was 0.985, which was above 0.9 and thus, acceptable (Hair et al., 2010).
+RMSEA (Root mean square error of approximation) is considered as the badness of ﬁt
+index. It estimates the residual, or in other words, square root of the mean of squared
+residual. Its value was ascertained to be 0.036, which is less than 0.08 and thus,
+acceptable. Figure 2 shows the path diagram of CFA.
+
+
+
+Factors                                                      AVE                                  CR
+
+Cost saving                                                  0.53                                0.77
+Relative advantage                                           0.55                                0.71
+Sharing and collaboration                                    0.56                                0.72
+Reliability                                                  0.50                                0.67
+Security and privacy                                         0.62                                0.76
+Technical issues                                             0.53                                0.68          Table IV.
+Adoption intention                                           0.67                                0.89   AVE and CR Values
+
+
+
+
+                                                                       Security
+                             Cost   Relative Sharing and                 and    Technical Adoption
+Factors                     saving advantage collaboration Reliability privacy   issues   intention
+
+Cost saving                   0.73
+Relative advantage            0.64     0.74
+Sharing and                   0.44     0.34         0.75
+collaboration
+Reliability                   0.80     0.57         0.64         0.71
+Security and privacy          0.57     0.39         0.45         0.56       0.79
+Technical issues              0.35     0.19         0.24         0.21       0.37        0.73
+                                                                                                                   Table V.
+Adoption intention            0.67     0.54         0.60         0.60       0.60        0.33   0.82          Fornell–Larcker
+                                                                                                                Criterion for
+Note: Value of diagonal elements of the correlation matrix represents the square root of AVE            discriminant validity
+JSIT                                       Adoption     Cost   Relative            Security and   Sharing and     Technical
+21,4                    Factors            intention   saving advantage Reliability privacy       collaboration    issues
+
+                        Adoption
+                        intention
+                        Cost saving          0.648
+                        Relative             0.599     0.681
+412                     advantage
+                        Reliability          0.609     0.716     0.640
+                        Security and         0.403     0.433     0.426     0.369
+                        privacy
+Table VI.               Sharing and          0.590     0.537     0.589     0.630       0.333
+HTMT Values for         collaboration
+discriminant validity   Technical issues     0.298     0.410     0.223     0.149       0.413         0.287
+
+
+                        5.3 Hypothesis testing
+                        In order to test the six research hypotheses, linear regression in SPSS was performed. Linear
+                        regression is generally used for ascertaining a relationship between the constructs. In this
+                        analysis, adoption intention was considered as a dependent variable, while the other
+                        constructs were independent variables. Results of hypothesis testing are shown in
+                        Table VII.
+                            The analysis shows that out of six hypotheses, four were supported while two were not.
+                        The hypotheses that were not supported dealt with the negative relationship between
+                        technical issues and CoT adoption (0.615), and a positive relationship between reliability and
+                        CoT adoption (0.539). It should be noted that few ﬁndings of the present study do not fall in
+                        line with the past results, which may be attributed to differences in geographical region and
+                        type of industries.
+
+                        6. Discussion and conclusions
+                        In the present investigation, six signiﬁcant factors that inﬂuence the adoption intention of
+                        CoT in the Indian SMEs context have been identiﬁed through literature review and they
+                        were analysed using the EFA-CFA-SEM methodology. The relationship between each factor
+                        and the CoT adoption intention has been established along with the strength of each
+                        relationship. Two research questions have been addressed and formulated research
+                        objectives have been attained. It may be noted that CoT allows resources to get accessed and
+                        used from anywhere. Also, it enables smart things/objects to be placed anywhere. The
+                        implementation of CoT makes the system more reliable and improves transparency within
+                        the organization. This study has presented the signiﬁcance of CoT as a novel technology for
+                        SMEs in the context of a developing country like India. The large-scale manufacturing ﬁrms
+                        of India have already started using these advanced technologies and expect the SMEs to
+                        follow suit in due course of time.
+                            It is apparent from this study that cost saving, relative advantage and sharing and
+                        collaboration are signiﬁcant drivers for CoT adoption. Importantly, security and privacy is a
+                        signiﬁcant concern for CoT adoption across Indian SMEs. It was found that cost saving is
+                        an important criterion for CoT adoption. This is because the resources can be allocated and
+                        de-allocated on demand, and there can be considerable cost savings through resource de-
+                        allocation during low service demands (Doherty et al., 2015). Also, sensing as a service
+                        provides access to data at a reduced cost (Perera et al., 2014). The positive inﬂuence of
+                        relative advantage on the adoption of CoT has also been explored in previous studies. The
+                                                                                                        Factors
+                                                                                                    aﬀecting the
+                                                                                                     adoption of
+                                                                                                 cloud of things
+
+                                                                                                              413
+
+
+
+
+                                                                                                           Figure 2.
+                                                                                                 Path diagram of CFA
+
+
+
+CoT service provides unlimited storage and processing capabilities and ubiquitous access to
+resources. The implementation of CoT is signiﬁcantly beneﬁcial to the SMEs as it helps to
+improve productivity and propels SMEs towards location independence (Farahzadi et al.,
+2018; Gunashekar et al., 2016).
+   Data security has been identiﬁed as an issue for both cloud and IoT. As data centres are
+positioned away from the SME location, customer needs to depend on service providers for
+the physical safety of data and resources (Doherty et al., 2015). Due to a lack of trust among
+service providers, SMEs fear to handover their sensitive data. Also, technical issues such as
+delay in data transfer, network and connectivity issue, lack of common standards, vendor
+lock-in, difﬁculty in understanding and reduced energy efﬁciency detract the CoT adoption
+intention of SMEs. Due to the delay in data transfer, real-time data tracking becomes
+JSIT                                                                                         Results
+21,4                                                                                       (Supported In agreement In contrast
+                     Hypo. No.   Hypothesis                             p (Significance)     <0.05)   with         with
+
+                     H1          Cost saving is positively                   0.009            Yes     Luthra et al.         —
+                                 associated with ﬁrm’s intention to                                   (2018)
+                                 implement CoT
+414                  H2          Relative advantage is positively            0.032            Yes     Narwane               —
+                                 associated with ﬁrm’s intention to                                   et al. (2019)
+                                 implement CoT
+                     H3          Sharing and collaboration is                0.002            Yes     Mitalaa et al.        —
+                                 positively associated with ﬁrm’s                                     (2016)
+                                 intention to implement CoT
+                     H4          Reliability is positively associated        0.539             No     Botta et al.     Fortino
+                                 with ﬁrm’s intention to implement                                    (2016)           et al. (2018)
+                                 CoT
+                     H5          Security and privacy is negatively          0.001            Yes     Doherty          Narwane
+                                 associated with ﬁrm’s intention to                                   et al. (2015)    et al. (2019)
+                                 implement CoT
+Table VII.           H6          Technical issues are negatively             0.615             No     Gangwar          Luthra
+Hypothesis testing               associated with ﬁrm’s intention to                                   et al. (2015)    et al. (2018)
+results                          implement CoT
+
+
+
+                     difﬁcult. It is a signiﬁcant concern for time-critical applications used in the ﬁnancial market
+                     and international trading (Doherty et al., 2015). However, in the present investigation, the
+                     negative relationship between technical issues and CoT adoption was not supported. This
+                     indicates that technical issues no longer act as barriers in the practical adoption CoT and
+                     this factor needs to be analysed in detail in the further research activities.
+                         The paper will be useful for academic researchers as well as professionals in
+                     understanding the issues pertaining to CoT adoption. The identiﬁed factors and sub-factors
+                     will aid researchers in pinpointing issues and obtaining further directions regarding CoT
+                     adoption for SMEs. Researchers working in the case domain may explore the same problem
+                     in different countries by employing different methodologies. Also, a comparative study may
+                     be carried out across different economies and various sectors to understand their inclination
+                     towards the adoption of CoT. This study guides the managers in understanding the factors
+                     that affect CoT adoption in the context of Indian SMEs and their inﬂuence on the adoption
+                     decision. In addition, this investigation intends to help the policymakers of SMEs to
+                     formulate strategies and recommendations for the effective adoption of CoT.
+                         Further, the service providers may use ﬁndings of this study for improved and more
+                     effective marketing by showcasing their strengths. Also, they can identify their weaknesses
+                     and improve upon them to stay competitive in the highly volatile market scenario. They need
+                     to upgrade themselves in order to provide more ﬂexible and robust services to increase the CoT
+                     adoption rate among the SMEs. In addition, the service provider should offer low-cost solutions
+                     without compromising on security and privacy concerns. Additionally, government and local
+                     regulatory authorities need to encourage SMEs by spreading awareness regarding the beneﬁts
+                     of the CoT and by offering incentives to the adopting ﬁrms.
+                         The main limitation of this study is that the ﬁndings cannot be applied directly to developed
+                     economies as the responses received for developing the SEM model were obtained from the
+                     Indian SMEs, i.e. from the viewpoint of developing economies. However, this model
+                     may be applicable to the other economies after carrying out minor modiﬁcations.
+Further, the SEM methodology employed in this study is only capable of verifying                                      Factors
+linear relationships; to counter this a hybrid approach with tools such as artiﬁcial                              aﬀecting the
+neural network and multiple linear regression can be used to further understand the
+inﬂuence of factors on CoT adoption. Since CoT is an emerging technology and with
+                                                                                                                   adoption of
+more beneﬁts, new services and business opportunities, its adoption on a large scale is                        cloud of things
+expected shortly among the SMEs. By replicating this survey research in other
+geographical areas, with higher sample coverage and using qualitative and
+quantitative research methods, more appropriate and universal results can be obtained.                                   415
+By considering the results of this study, which include signiﬁcant factors affecting
+adoption of CoT, one can build a more robust CoT platform for the better penetration of
+CoT in the Indian industries.
+
+References
+Aazam, M., Huh, E.N., St-Hilaire, M., Lung, C.H. and Lambadaris, I. (2016), “Cloud of things: integration
+        of IoT with cloud computing”, Robots and Sensor Clouds, Springer, Cham. pp. 77-94.
+Ai, Y., Peng, M. and Zhang, K. (2018), “Edge computing technologies for internet of things: a primer”,
+        Digital Communications and Networks, Vol. 4 No. 2, pp. 77-86.
+Ali, F., Rasoolimanesh, S.M., Sarstedt, M., Ringle, C.M. and Ryu, K. (2018), “An assessment of the use of
+        partial least squares structural equation modeling (PLS-SEM) in hospitality research”,
+        International Journal of Contemporary Hospitality Management, Vol. 30 No. 1, pp. 514-538.
+Alshamaila, Y., Papagiannidis, S. and Li, F. (2013), “Cloud computing adoption by SMEs in the North
+        East of England: a multi-perspective framework”, Journal of Enterprise Information
+        Management, Vol. 26 No. 3, pp. 250-275.
+Botta, A., De Donato, W., Persico, V. and Pescapé, A. (2016), “Integration of cloud computing and
+        internet of things: a survey”, Future Generation Computer Systems, Vol. 56, pp. 684-700.
+Conti, M., Dehghantanha, A., Franke, K. and Watson, S. (2018), “Internet of things security and forensics:
+        challenges and opportunities”, Future Generation Computer Systems, Vol. 78, pp. 544-546.
+Dash, S.K., Mohapatra, S. and Pattnaik, P.K. (2010), “A survey on applications of wireless sensor
+        network using cloud computing”, International Journal of Computer Science and Emerging
+        Technologies, Vol. 1 No. 4, pp. 50-55.
+Dash, S.K., Sahoo, J.P., Mohapatra, S. and Pati, S.P. (2012), “Sensor-cloud: assimilation of wireless
+        sensor network and the cloud”, International Conference on Computer Science and Information
+        Technology, Springer, Berlin, Heidelberg. pp. 455-464.
+Díaz, M., Martín, C. and Rubio, B. (2016), “State-of-the-art, challenges, and open issues in the integration
+        of internet of things and cloud computing”, Journal of Network and Computer Applications,
+        Vol. 67, pp. 99-117.
+Doherty, E., Carcary, M. and Conway, G. (2015), “Migrating to the cloud: examining the drivers and
+        barriers to adoption of cloud computing by SMEs in Ireland: an exploratory study”, Journal of
+        Small Business and Enterprise Development, Vol. 22 No. 3, pp. 512-527.
+Doukas, C. and Maglogiannis, I. (2012), “Bringing IoT and cloud computing towards pervasive
+        healthcare”, Sixth International Conference on Innovative Mobile and Internet Services in
+        Ubiquitous Computing (IMIS), IEEE. NJ, pp. 922-926.
+El Rachkidi, E., Agoulmine, N., Belaid, D. and Chendeb, N. (2016), “Towards an efﬁcient service provisioning
+        in Cloud of Things (CoT)”, Global Communications Conference (GLOBECOM), IEEE, NJ, pp. 1-6.
+Farahzadi, A., Shams, P., Rezazadeh, J. and Farahbakhsh, R. (2018), “Middleware technologies for cloud
+        of things: a survey”, Digital Communications and Networks, Vol. 4 No. 3, pp. 176-188.
+Fornell, C. and Larcker, D.F. (1981), “Evaluating structural equation models with unobservable
+        variables and measurement error”, Journal of Marketing Research, Vol. 18 No. 1, pp. 39-50.
+JSIT   Fortino, G., Messina, F., Rosaci, D. and Sarné, G.M.L. (2018), “Using trust and local reputation for group
+               formation in the Cloud of Things”, Future Generation Computer Systems, Vol. 89, pp. 804-815.
+21,4
+       Gangwar, H., Date, H. and Ramaswamy, R. (2015), “Understanding determinants of cloud computing
+               adoption using an integrated TAM-TOE model”, Journal of Enterprise Information
+               Management, Vol. 28 No. 1, pp. 107-130.
+       Gao, L. and Bai, X. (2014), “A uniﬁed perspective on the factors inﬂuencing consumer acceptance of internet
+416            of things technology”, Asia Paciﬁc Journal of Marketing and Logistics, Vol. 26 No. 2, pp. 211-231.
+       Grandon, E.E., Ibarra, A.A., Guzman, S.A., Ramirez-Correa, P. and Alfaro-Perez, J. (2018), “Internet of
+               things: factors that inﬂuence its adoption among Chilean SMEs”, 13th Iberian Conference on
+               Information Systems and Technologies (CISTI), IEEE, NJ, pp. 1-6.
+       Grifﬁths, H. (2016), “IoT adoption among cities in the UK: progress, drivers and barriers, with a focus
+               on security. Future Cities Catapult report”.
+       Gunashekar, S., Spisak, A., Dean, K., Ryan, N., Lepetit, L. and Cornish, P. (2016), Accelerating the
+               Internet of Things in the UK, RAND Corporation, Cambridge.
+       Hair, J.F. Anderson, R.E. Tatham, R.L. and William, C.B. (2010), Multivariate Data Analysis, Pearson
+               Education, Essex.
+       Hair, J., Hollingsworth, C.L., Randolph, A.B. and Chong, A.Y.L. (2017), “An updated and expanded
+               assessment of PLS-SEM in information systems research”, Industrial Management and Data
+               Systems, Vol. 117 No. 3, pp. 442-458.
+       Hallam, C., Dorantes Dosamantes, C.A. and Zanella, G. (2018), “Culture and social capital network
+               effects on the survival and performance of high-tech micro and small ﬁrms”, Journal of Small
+               Business and Enterprise Development, Vol. 25 No. 1, pp. 81-106.
+       Henseler, J., Ringle, C.M. and Sarstedt, M. (2015), “A new criterion for assessing discriminant validity in
+               variance-based structural equation modeling”, Journal of the Academy of Marketing Science,
+               Vol. 43 No. 1, pp. 115-135.
+       Hsu, C.L. and Lin, J.C.C. (2016), “Factors affecting the adoption of cloud services in enterprises”,
+               Information Systems and e-Business Management, Vol. 14 No. 4, pp. 791-822.
+       Hsu, C.L. and Lin, J.C.C. (2018), “Exploring factors affecting the adoption of internet of things services”,
+               Journal of Computer Information Systems, Vol. 58 No. 1, pp. 49-57.
+       Hsu, C.W. and Yeh, C.C. (2017), “Understanding the factors affecting the adoption of the internet of
+               things”, Technology Analysis and Strategic Management, Vol. 29 No. 9, pp. 1089-1102.
+       Ivers, A.M., Byrne, J. and Byrne, P.J. (2016), “Analysis of SME data readiness: a simulation perspective”,
+               Journal of Small Business and Enterprise Development, Vol. 23 No. 1, pp. 163-188.
+       Kumar, D., Samalia, H.V. and Verma, P. (2017), “Exploring suitability of cloud computing for small and
+               medium-sized enterprises in India”, Journal of Small Business and Enterprise Development,
+               Vol. 24 No. 4, pp. 814-832.
+       Luthra, S., Garg, D., Mangla, S.K. and Berwal, Y.P.S. (2018), “Analyzing challenges to internet of things
+               (IoT) adoption and diffusion: an Indian context”, Procedia Computer Science, Vol. 125,
+               pp. 733-739.
+       Malhotra, N.K. (2010), Marketing Research: an Applied Orientation, 6th ed., Pearson Education India.
+               Bengaluru.
+       Mitalaa, M., Changb, V., Choudharyc, P., Panid, A. and Sune, Z. (2016), “Adoption of cloud based
+               internet of things in India: a multiple theory perspective”, International Journal of Information
+               Management, available at: https://doi.org/10.1016/j.ijinfomgt.2016.02.011
+       Müller, J.M., Buliga, O. and Voigt, K.I. (2018), “Fortune favors the prepared: how SMEs approach business
+               model innovations in industry 4.0”, Technological Forecasting and Social Change, Vol. 132, pp. 2-17.
+       Narwane, V., Narkhede, B., Raut, R., Gardas, B., Priyadarshinee, P. and Kavre, M. (2019), “In press. To
+               identify the determinants of the CloudIoT technologies adoption in the Indian MSMEs:
+       structural equation modelling approach”, International Journal of Business Information Systems,               Factors
+       Vol. 31 No. 3, pp. 322-353.
+                                                                                                                 aﬀecting the
+Narwane, V.S., Narkhede, B.E., Gardas, B.B. and Raut, R.D. (2019), “Cloud manufacturing issues and its
+       adoption: past, present, and future”, International Journal of Management Concepts and
+                                                                                                                  adoption of
+       Philosophy, Vol. 12 No. 2, pp. 168-199.                                                                cloud of things
+Papathanasiou, J., Kostoglou, V. and Petkos, D. (2015), “A comparative analysis of cloud computing
+       services using multicriteria decision analysis methodologies”, International Journal of
+       Information and Decision Sciences, Vol. 7 No. 1, pp. 51-70.                                                      417
+Pawaskar, U.S., Raut, R.D. and Gardas, B.B. (2018), “Assessment of consumer behavior towards
+       environmental responsibility: a structural equations modeling approach”, Business Strategy and
+       the Environment, Vol. 27 No. 4, pp. 560-571.
+Perera, C., Zaslavsky, A., Christen, P. and Georgakopoulos, D. (2014), “Sensing as a service model for
+       smart cities supported by internet of things”, Transactions on Emerging Telecommunications
+       Technologies, Vol. 25 No. 1, pp. 81-93.
+Phaphoom, N., Wang, X., Samuel, S., Helmer, S. and Abrahamsson, P. (2015), “A survey study on major
+       technical barriers affecting the decision to adopt cloud services”, Journal of Systems and
+       Software, Vol. 103, pp. 167-181.
+Priyadarshinee, P., Raut, R.D., Jha, M.K. and Gardas, B.B. (2017), “Understanding and predicting the
+       determinants of cloud computing adoption: a two staged hybrid SEM-Neural networks
+       approach”, Computers in Human Behavior, Vol. 76, pp. 341-362.
+Raut, R.D., Gardas, B.B., Jha, M.K. and Priyadarshinee, P. (2017), “Examining the critical success
+       factors of cloud computing adoption in the MSMEs by using ISM model”, The Journal of High
+       Technology Management Research, Vol. 28 No. 2, pp. 125-141.
+Raut, R.D., Priyadarshinee, P., Gardas, B.B. and Jha, M.K. (2018a), “Analyzing the factors inﬂuencing
+       cloud computing adoption using three stage hybrid SEM-ANN-ISM (SEANIS) approach”,
+       Technological Forecasting and Social Change, Vol. 134, pp. 98-123.
+Raut, R., Priyadarshinee, P., Gardas, B.B., Narkhede, B.E. and Nehete, R. (2018b), “The incident
+       effects of supply chain and cloud computing integration on the business performance: an
+       integrated SEM-ANN approach”, Benchmarking: An International Journal, Vol. 25 No. 8,
+       pp. 2688-2722.
+Raut, R., Priyadarshinee, P., Jha, M., Gardas, B.B. and Kamble, S. (2018c), “Modeling the
+       implementation barriers of cloud computing adoption: an interpretive structural modeling”,
+       Benchmarking: An International Journal, Vol. 25 No. 8, pp. 2760-2782.
+Roopaei, M., Rad, P. and Choo, K.K.R. (2017), “Cloud of things in smart agriculture: intelligent irrigation
+       monitoring by thermal imaging”, IEEE Cloud Computing, Vol. 4 No. 1, pp. 10-15.
+Stergiou, C., Psannis, K.E., Kim, B.G. and Gupta, B. (2018), “Secure integration of IoT and cloud
+       computing”, Future Generation Computer Systems, Vol. 78, pp. 964-975.
+Tao, F., Zuo, Y., Da Xu, L. and Zhang, L. (2014), “IoT-based intelligent perception and access of
+       manufacturing resource toward cloud manufacturing”, IEEE Trans. Industrial Informatics,
+       Vol. 10 No. 2, pp. 1547-1557.
+Thota, C., Sundarasekar, R., Manogaran, G., Varatharajan, R. and Priyan, M.K. (2018), “Centralized fog
+       computing security platform for IoT and cloud in healthcare system”, in Exploring the
+       Convergence of Big Data and the Internet of Things, IGI Global. PA, pp. 141-154.
+Trigueros-Preciado, S., Pérez-González, D. and Solana-González, P. (2013), “Cloud computing in
+       industrial SMEs: identiﬁcation of the barriers to its adoption and effects of its application”,
+       Electronic Markets, Vol. 23 No. 2, pp. 105-114.
+Tu, M. (2018), “An exploratory study of Internet of Things (IoT) adoption intention in logistics and
+       supply chain management: a mixed research approach”, The International Journal of Logistics
+       Management, Vol. 29 No. 1, pp. 131-151.
+JSIT   Voorhees, C.M., Brady, M.K., Calantone, R. and Ramirez, E. (2016), “Discriminant validity testing in
+               marketing: an analysis, causes for concern, and proposed remedies”, Journal of the Academy of
+21,4           Marketing Science, Vol. 44 No. 1, pp. 119-134.
+       Yan, J., Xin, S., Liu, Q., Xu, W., Yang, L., Fan, L., Chen, B. and Wang, Q. (2014), “Intelligent supply chain
+               integration and management based on cloud of things”, International Journal of Distributed
+               Sensor Networks, Vol. 10 No. 3, p. 624839.
+       Yigitbasioglu, O.M. (2015), “The role of institutional pressures and top management support in the
+418            intention to adopt cloud computing solutions”, Journal of Enterprise Information Management,
+               Vol. 28 No. 4, pp. 579-594.
+       Zhang, Q., Cheng, L. and Boutaba, R. (2010), “Cloud computing: state-of-the-art and research
+               challenges”, Journal of Internet Services and Applications, Vol. 1 No. 1, pp. 7-18.
+
+       About the authors
+       Vaibhav S. Narwane is working as an Associate Professor in Mechanical Engineering Department at K.J.
+       Somaiya College of Engineering, Mumbai. Vaibhav received his ME in CAD/CAM from Shri Guru Gobind
+       Singhji Institute of Engineering and Technology, Nanded. Currently, he and pursuing his PhD from
+       Production Engineering Department, VJTI Mumbai. He has 13 years of teaching and 1 year of industrial
+       experience. He has few papers in journals and conferences of national and international repute to his credit.
+       His current area of research includes cloud computing, industrial engineering and AI techniques.
+          Rakesh D. Raut is an Assistant Professor of Operations and Supply Chain Management at
+       National Institute of Industrial Engineering, Mumbai. Rakesh D. Raut received his Post-Doctoral
+       Fellow from EPFL, Switzerland and Fellowship (PhD) from the National Institute of Industrial
+       Engineering (NITIE), Mumbai. He holds his MTech (Mechanical) and BE (Production) Degree from
+       the Nagpur University. He has more than nine years of work experience in industry and academic
+       institutions. Before joining NITIE, he has worked as an Assistant Professor at IMT, Nagpur and
+       Dubai and also, at Symbiosis Centre for Management and Human Resource Development (SCMHRD),
+       Pune. His research interest includes agricultural supply chain, MCDM techniques, green and
+       sustainable supply chain management and logistics management. Rakesh Raut is the corresponding
+       author and can be contacted at: rakeshraut09@gmail.com
+          Bhaskar B. Gardas is a research scholar in the Production and Industrial Engineering department,
+       Veermata Jijabai Technological Institute (VJTI), Mumbai, India. He has eleven years of work
+       experience in industry and academic institutions. His research interest includes MCDM techniques,
+       sustainable supply chain management and logistics management.
+          Mahesh S. Kavre is an Assistant Professor in Department of Mechanical Engineering at Terna
+       Engineering College, Navi Mumbai. He completed his BE in Mechanical Engineering in 2015 and
+       MTech (CAD/CAM and Robotics) in 2017 from the University of Mumbai. He has few papers in
+       journals and conferences of national and international repute to his credit. His research interests
+       include cloud computing, Internet of Things, industrial engineering and AI techniques.
+          Balkrishna E. Narkhede is an Associate Professor in the Department of Industrial Engineering at
+       NITIE, Mumbai, India. He holds a PhD in Mechanical Engineering. He has over 17 years of teaching,
+       research and administrative experience. Indian Institution of Industrial Engineering has awarded
+       him a Fellowship in recognition of his substantial contribution to Industrial Engineering. He is also
+       the recipient of Excellence in teaching award from VJTI based on student’s feedback. He has been
+       nominated as a Subject Expert in All India Board of Management Studies under AICTE, New Delhi,
+       India. He is an Editor-in-Chief for Industrial Engineering Journal since January 2009. He has
+       successfully guided 05 PhD candidates in Production Engg. His research interests include production
+       and industrial engineering and operations management.
+
+
+
+       For instructions on how to order reprints of this article, please visit our website:
+       www.emeraldgrouppublishing.com/licensing/reprints.htm
+       Or contact us for further details: permissions@emeraldinsight.com
+

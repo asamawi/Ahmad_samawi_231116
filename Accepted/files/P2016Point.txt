@@ -1,0 +1,428 @@
+                                                                                                                                        PDF Download
+                                                                                                                                        3018009.3018019.pdf
+                                                                                                                                        23 December 2025
+                                                                                                                                        Total Citations: 0
+                                                                                                                                        Total Downloads: 145
+    .
+    .
+        Latest updates: hps://dl.acm.org/doi/10.1145/3018009.3018019
+
+
+
+
+                                                                                                                                        .
+                                                                                                                                        .
+                                                                                                                             Published: 26 November 2016
+        .
+        .
+                                                                                                                             .
+    RESEARCH-ARTICLE
+
+
+
+
+                                                                                                                             .
+                                                                                                                             Citation in BibTeX format
+    Point of sales application based on cloud computing adoption for
+
+
+
+
+                                                                                                                             .
+                                                                                                                             .
+                                                                                                                             ICCIP '16: 2nd International Conference
+    indonesian small medium enterprise: qualitative study                                                                    on Communication and Information
+                                                                                                                             Processing
+    ADI SURYAPUTRA P, Universitas Ciputra, Surabaya, East Java, Indonesia                                                    November 26 - 29, 2016
+                                                                                                                             Singapore, Singapore
+    .
+    TRIANGGORO WIRADINATA, Universitas Ciputra, Surabaya, East Java, Indonesia
+
+
+
+
+                                                                                                                             .
+                                                                                                                             .
+    .
+    .
+    .
+    Open Access Support provided by:
+    .
+    Universitas Ciputra
+    .
+                                             ICCIP '16: Proceedings of the 2nd International Conference on Communication and Information Processing (November 2016)
+                                                                                                                              hps://doi.org/10.1145/3018009.3018019
+                                                                                                                                                 ISBN: 9781450348195
+.
+      Point of Sales Application Based on Cloud Computing
+       Adoption for Indonesian Small Medium Enterprise:
+                        Qualitative Study
+                                              Adi Suryaputra P, Trianggoro Wiradinata
+                                                                 University of Ciputra
+                                                                 UC Town, Citraland
+                                                                 Surabaya, Indonesia
+                                                                   +62317451699
+                                            {adi.suryaputra, twiradinata}@ciputra.ac.id
+
+
+ABSTRACT                                                                       data in http://internetlivestats.com over the last 5 years Indonesia
+The internet technology and cloud computing development are                    has increased the number of internet users is significant, even for
+increasing the opportunity for small and medium enterprises                    3 consecutive years Indonesia ranked 12th in the world for the
+(SMEs) to be able adopt information technology at an affordable                number of internet users.
+and does not require an expensive investment. By using cloud                   Along with the development of internet 2-3 Years later emerged a
+computing, SMEs only need to subscribe a service from an                       new technology called cloud computing, cloud computing
+application without need to invest in the purchase of software or              technology allows public who want to use information technology
+expensive hardware such as servers and other network devices.                  solutions very flexible in the needs of the operating system
+Cloud computing is a technology that provides a service for users              platform, information technology infrastructure and software, the
+to be able to choose what services you want to use both Platform               flexibility of the cloud this computing can provide a new solution
+As a Service (PaaS) or Software As a Service (SaaS), the                       for SMEs that need the application without spending a huge
+advantages of using cloud computing is the customers have the                  amounts on software and make a large investment to buy the
+flexibility to choose what services to be used without the need of             hardware needs of information technology. The purpose of
+how much investment is required when trying to build a system                  research is to explore the characteristics of cloud-based POS that
+for business that they do. This research will build an information             meets the needs of business owners. Specifically, this research
+system that is required by small and medium enterprises (SMEs)                 will explore the extent to which employers' perspective on this
+based cloud computing, the research is expected to appear a                    technology (Understand description of technology from the
+solution for small and medium enterprises (SMEs) in building an                perspective of employers), features what features are needed, and
+information system at an affordable cost but still in accordance               what are the factors that contribute to the readiness of
+with the needs of SME, and still make SMEs competitive to face                 entrepreneurs in utilizing this technology. The research question
+global competition.                                                            in this research is how to build an application that is easy to use,
+                                                                               affordable prices and features to suit the needs of small and
+CCS Concepts                                                                   medium enterprise information system-based cloud computing?.
+• Information systems ➝ Information System Application ➝                       The contribution of this research is to build a model of cloud-
+Enterprise Information Systems ➝ Enterprise Application.                       based POS application that is appropriate for the needs of
+                                                                               Indonesian SME.
+Keywords
+SMEs; internet; cloud; technology; investment                                 2. LITERATURE REVIEW
+1. INTRODUCTION                                                                2.1 Cloud Computing
+                                                                               Cloud computing is defined as a shared pool of on-demand
+The development of the Internet in the 21st century as a means of              computing resources that are accessible over the internet and
+information exchange, this development make small and medium                   dynamically configured to optimize resource. Cloud computing
+enterprises (SMEs) more easily recognized by the public. The                   offers users ubiquitous and convenient access to a shared pool of
+internet not only use in large organizations business processes and            computing resources consisting of networked servers, storage and
+information exchange, but a lot of micro, small and medium                     software applications that are configured based on user
+enterprises (SMEs), which also use it, especially when internet                requirements, rapidly provisioned to correspond with demand, and
+users outside of their organization is also increasing. Based on               made available on a pay-per-use basis. Essentially, cloud
+                                                                               computing represents the mode by which IT services are delivered
+Permission to make digital or hard copies of all or part of this work for      over the internet on a scalable, virtual infrastructure using the
+personal or classroom use is granted without fee provided that copies are      latest communication technologies; allowing businesses and users
+not made or distributed for profit or commercial advantage and that copies     access to shared resources in a service format tailored to their
+bear this notice and the full citation on the first page. To copy otherwise,   needs without having to buy, install, maintain, and manage those
+or republish, to post on servers or to redistribute to lists, requires prior   computing resources [1]. Cloud services also have the potential to
+specific permission and/or a fee.
+                                                                               reduce the problem of information systems is a challenge often
+ICCIP’16, November 26-29, 2016, Singapore.
+                                                                               faced by SMEs. These challenges include among others (1)
+© 2016 ACM. ISBN 978-1-4503-4819-5/16/11…$15.00
+                                                                               unfurled management functions through the benefits of
+DOI: http://dx.doi.org/10.1145/3018009.3018019                                 information systems, (2) bridging limited funds to have a skilled
+technical employees in information systems, and (3) limitations on       different from the data collected in other observational study de-
+the investment of capital for Information and Communication              signs. The standardized measures employed in quantitative studies
+Technology. Some of these challenges have led SMBs have a                constrict the diverse perspectives of study participants along pre-
+slower adoption rate for IT innovation compared to large                 determined continua (e.g. categorical or continuous) so that they
+companies [2]. Cloud services have the potential to overcome             can be statistically aggregated. The data collected in qualitative
+many challenges, as mentioned above, and requires little                 studies are typically obtained through in-depth interviews, focus
+equipment investment Information and Communication                       groups, direct observation, document review, and audio recording
+Technology. These cloud services can even be managed by                  review. These data, while typically not aimed at establishing
+suppliers and service providers are paid by the system of "pay as        generalizability, lend themselves to generating new theoretical
+you use". Cloud services enable SMEs receive additional benefits         insights about certain phenomena [6]. The research methodology
+including increased business focus, the infrastructure is more           phase in this research is shown on Figure 2 bellow.
+economical, collective problem solving, experimental business
+models, reduce dependence on human resources and improve the                                                          Start
+experience of SMEs [3]. An important conclusion from previous
+research is that the cost savings and cost reduction is not the most
+important factor for small businesses (SMBs or SMEs) to adopt                                                Literature Review
+cloud. "Ease of Use and comfort 'and' Security and Privacy 'is
+considered the top two priorities for them to adopt cloud, followed
+by cost reduction or cost savings. This shows that SMEs are                                           Research Problem Formulation
+happy to adopt cloud for ease of use, convenience and better
+security and privacy in addition to reducing their investments.
+factors that significantly affect the adoption of cloud computing,
+                                                                                                       Research Instrument Design
+are shown in the Figure 1. [4]
+
+  C O S T R E D U C T IO N
+                                                                                                              Data Collection
+
+  EA SE O F U SE A N D
+                                                     C LO U D
+  C O N V E N IE N C E
+                                                 C O M P U T IN G
+                                                A D O P T IO N B Y                                                Data Analysis
+                                             M IC R O A N D S M A L L
+  R E L IA B IL IT Y
+                                              B U S IN E S S (S M E s
+                                                  A N D S M B s)
+                                                                                                        Triangulation & Conclusion
+  S H A R IN G A N D
+  C O L L A B O R A T IO N
+
+  S E C U R IT Y A N D                                                                                                Stop
+  P R IVA C Y
+                                                                                           Figure 2. Research methodology
+Figure 1. Factors that significantly affects in cloud computing
+                           adoption                                      3.2 Data Collecting & Analysis
+                                                                         The process of data collection was done by interview to 10
+2.2 Point of Sales                                                       informants in Surabaya, Indonesia, the informants consists of
+Definition of Point of Sales (POS) is a retail store, a cashier at the
+                                                                         three categories: business owners, IT experts, IT users. Through
+store, or the location where the transaction occurred. More
+                                                                         the interview process is expected to deliver IT users need the
+specifically, POS often refers to the hardware and software used
+                                                                         features, then this requirement will be validated by IT experts and
+for checkouts - the equivalent of an electronic cash register. POS
+                                                                         business owners, while business owners can deliver also features
+used in supermarkets, restaurants, hotels, stadiums, and virtually
+                                                                         what the needs of the POS for later validated by IT experts. The
+any type of retail business. Most retail POS systems do more than
+                                                                         relationship between 3 informants categories shown in Figure 3
+simply the task of "point of sale". Even for smaller retailers, many
+                                                                         below. The informants profile shown in Table 1 below.
+POS systems already include an integrated accounting, inventory
+management, purchasing demand forecasting, customer
+relationship management (CRM), service management, leasing,
+and payroll modules. Because of these functions, the supplier is                                                      U ser
+                                                                                  R equirem ent                                                    R equirem ent
+sometimes seen a POS as retail management software or business                      Validation                                                       Validation
+management software. Today, most large retailers using POS
+software or POS system hardware with standardized interfaces by
+                                                                                                                                     Technical
+suppliers and retailers working together to standardize                                            Functional
+                                                                                                                                   R equirem ent
+                                                                                                  R equirem ent
+development of computerized systems and simplify
+interconnecting POS [5].
+                                                                                                             B usiness O w ner
+3. RESEARCH METHODOLOGY                                                                                        R equirem ent
+                                                                                   B usiness
+3.1 Research Design                                                                                                                         IT E xpert
+                                                                                    O w ner
+This research uses Qualitative Methodology for collecting data,
+data analysis, triangulation, result analysis and conclusion finding.                                              R equirem ent
+                                                                                                                     Validation
+Qualitative studies are based on data that are fundamentally
+               Figure 3. Informants categories relation                     No            Purpose                             Result
+                      Table 1. Informants profile                                been using IT for business           more than 10 years
+                                                                            2       Find out whether this              All of informants
+       User                    Role              Industry type                    investment for IT and IT             maintain their IT
+         1         IT User                     Retail                            equipment maintenance is        equipment regularly, and
+         2         IT User                     Retail                                  done regularly               review IT Investment
+         3         IT User                     Retail                                                                      every year
+         4         Store Manager               Retail                       3    Finding out whether the use        Cloud computing is a
+         5         IT User                     Retail                            of cloud computing will be        future solution for the
+         6         IT User                     Retail                            the solution to the problem     business owner, they can
+         7         Business Owner              Supermarket                       of investment and maintain            reduce cost of IT
+         8         Business Owner              Electronics                              IT equipment            investment by switch into
+         9         IT Expert                   IT                                                                     IT operational cost
+        10         IT Expert                   IT                           4      Finding out whether the        All of informants agree
+                                                                                 transaction and report can’t        that the limitation of
+4. RESULT                                                                           be seen at any time is a    current POS is about can’t
+After going through the interview process obtained the features                    constraint in using POS      be accessed anywhere and
+needs of IT users and business owners and then performed the                                                                 anytime
+validation from interviews with IT experts. Based on the                    5     Finding out what features      Features most needed by
+triangulation results showed that the use of cloud computing will                 are required in POS from           business owners is a
+indeed be the future, but not all IT users are ready to use it, based               the point of business               summary of the
+on interviews also showed that not all IT users need mobile                                owners                  transactions that occur
+technology to the needs of POS operations. Relations needs and                                                    every day either for the
+validation of the interview can be seen in Table 2 to Table 4 and                                               sale, purchase and transfer
+Figure 4 below.                                                                                                              of stock
+                                                                            6     Finding the report feature    Sales summary, sales item
+           Table 2. Summary from IT users interview
+                                                                                  whatever is needed at the       analyst, sales trend and
+  No                 Purpose                       Result                             POS application             forecasting in graphical
+                                         Feature related to sales                                                report are report features
+                                          activity and store front                                                  that really needed by
+          Finding what features are        operation including                                                          business owner.
+   1      required in Point of Sales    payment activity and print          7    Find out if there will be an         Migration to cloud
+             (POS) as IT Users             out receipt is mostly                    obstacle when POS is         computing is no problem
+                                          needed for IT Users in                 currently used to migrate to    for the business owner as
+                                                    retail                            cloud computing             long as they can use all
+                                                                                                                    features comfortably
+              Finding feature in POS     Most of POS application
+   2           application frequent         used in informants              8      Figuring out whether         Mobile technologies such
+                 errors when used            already error free                   mobile technologies will      as smartphone and tablets
+                                                                                  help enable the use POS         is needed for a business
+              Finding the key factors
+                                                                                   and what features are              owner, they need to
+                  that make POS          Ease of use factor is the
+   3                                                                                 needed in mobile              monitor their company
+              application can be used     most important factor
+                                                                                        technology                  activity. The features
+                    by IT users
+                                                                                                                     what they needed in
+                                          Most IT Users in retail                                                  mobile technologies is
+           Dig up information on
+                                        industry don’t need cloud                                               report features and analyst
+          whether the use of cloud
+                                           computing or mobile                                                               features
+           computing and mobile
+   4                                      technologies to run the           9       Find out if a recap of              Is really needed
+          technologies can help IT
+                                          POS Application, they                    transactions every day
+              users to run POS
+                                            just need Personal                   sending to business owner
+                 application
+                                                Computing                           via email is required
+             Finding out whether                                            10   Finding what factors are a     The most important factor
+                                         Daily transactions recap
+           recap daily transactions                                              major consideration in the     of cloud computing use is
+   5                                     is require sent via email
+          sent via email is required                                              use of cloud computing         about the internet (need
+                                           in every end of shift
+            at the POS application                                                                              fast and reliable internet)
+               Finding the report       Sales summary and daily                                                  and security in the POS
+              feature whatever is       transaction summary are                                                        application
+   6
+              needed at the POS            the most needed in
+                  application               reporting feature                     Table 4. Summary from IT experts interview
+                                                                            No            Purpose                         Result
+        Table 3. Summary from business owner interview
+                                                                                                                 All of IT experts already
+                                                                                  Figuring out how long to
+ No              Purpose                          Result                                                         provide IT solutions for
+                                                                            1      provide IT services to
+ 1      Figuring out how long it has    All of informants using IT                                              their consumer more than
+                                                                                         consumer
+                                                                                                                          5 years
+
+
+
+
+                                                                        P
+ No              Purpose                         Result              been mentioned by the research conducted by Eleonora Pantano
+           Finding out whether                                       and Milena Viassone in 2013. This research said understanding
+        consumers of the company       All consumers regularly       what consumers and retailers expect acquires importance for the
+  2      to perform maintenance        maintain their IT devices     successful adoption and diffusion of innovations. Despite the large
+           and investment of IT           such as PC, server         number of technologies for points of sale and the potential
+             devices regularly                                       benefits emerging from the introduction of these advanced
+                                            Most of consumers        systems, still only a limited number of retailers adopted them with
+         Finding out whether the                                     different strategies [7]. Another research write that some
+                                           interested with cloud
+          use of cloud computing                                     architectural principles and guidelines that should be followed in
+                                       computing because of cost
+  3      will be the solution to the                                 order to achieve success in cloud computing is data protection [8],
+                                        efficiency, but somehow
+        problem of investment and                                    is match with the business owner and IT Experts needs in this
+                                         they worried about data
+          maintain IT equipment                                      research, this research statement is in line with prior studies in
+                                                  credential
+                                         The POS application is      2015 conducted by Sharma and Al Bahdi which said Therefore,
+         Finding out whether the                                     the degree of trust in cloud computing services is required to be
+                                       mostly having no problem
+         products and services of                                    addressed by service providers in order for the customers to feel
+                                          if transferred to cloud
+  4        the company can be                                        comfortable to hand over data to an external large cloud
+                                       computing, the obstacle is
+           transferred to cloud                                      computing network [9].
+                                             about the internet
+                computing
+                                         connection in Indonesia     Based on interviews of IT users, business owners and IT experts
+                                         Sales activity, payment     obtained the features that must exist in the cloud-based POS and
+                                       method, stock monitoring,     the factors that influence the use of cloud-based POS. The
+        Finding out what features           report analysis and      summary of features need factors that influence shown in Table 5
+  5     are required in POS from         dashboard for executive     below.
+         the point of IT Experts          are the most important
+                                               feature in POS            Table 5. Feature need and factor influences summary
+                                                applications
+                                                                            Role           Features Need         Factor Influences
+                                          Daily activity in sales,
+                                                                                         - Sales
+                                          stock moving, activity
+        Finding the report feature                                                       - Store       front
+                                        analysis, forecasting and
+  6     whatever is needed at the                                                          operation
+                                         dashboard are the report
+            POS application                                                              - Stock
+                                         features needed in POS                                                     - Ease of Use
+                                                                          IT Users         Transferred
+                                                 application
+                                                                                         - Transaction
+                                          The obstacle for cloud
+                                                                                           summary      and
+                                       computing in Indonesia is
+        Find out if there will be an                                                       recap in every
+                                             about the internet
+          obstacle when POS is                                                             shift
+  7                                        connection, for POS
+         currently used to migrate                                                       - Transaction
+                                           features is having no
+            to cloud computing                                                             Summary      and
+                                          problem if migrated to
+                                                                                           send it to email          - Security
+                                             cloud computing              Business
+                                                                                           everyday                  - Internet
+                                       Mobile technologies right           Owner
+                                                                                         - Report Analysis           Connection
+                                         now is the solutions for                        - Dashboard
+           Figuring out whether
+                                       business owner who want                           - Forecasting
+         mobile technologies will
+                                        monitor their company in
+        help to enable the use POS                                                       - Sales
+  8                                       anyplace and anytime.
+           and what features are                                                         - Store       front
+                                       POS features should have
+             needed in mobile                                                              operation
+                                        in mobile technologies is
+                technology                                                               - Stock
+                                            about reporting and
+                                                                                           Transferred
+                                              analysis feature
+                                                                                         - Stock Audit
+           Find out if a recap of                                                        - Transaction
+          transactions every day         Is needed for business                            Summary      and          - Security
+  9
+        sending to business owner                owner                   IT Experts        send it to email          - Internet
+           via email is required                                                           everyday                  Connection
+                                       The most important factor                         - Rep ort Analysis
+                                          for the use of cloud                           - Dashboard
+        Finding what factors are a
+                                        computing is about the                           - Forecasting
+ 10     major consideration in the
+                                        internet connection and                          - Items
+         use of cloud computing
+                                         security for data in an                           Information
+                                               application                               - Transaction
+                                                                                           Audit
+Based on interviews of IT users, business owners and IT experts
+found that cloud computing solutions area a future solution for      In this research, a business owner who becomes the object of
+POS applications, although not all of the features required by IT    research already have an understanding of IT needs, so in this
+users. This shows that the solution provided must be based on        study can successfully identify the features needed for a POS-
+customer needs and not based on advances in technology, this has     based cloud computing, which is consistent with studies that have
+been conducted by Rahayu and Day in 2015, in this study said that          Management.              33,           5,          861–874.
+an understanding of the IT needs from business owners is a major           DOI:http://dx.doi.org/10.1016/j.ijinfomgt.2013.07.001
+factor in technology adoption [10].                                   [5] Sularto, L., Wardoyo, and Yunitasari, T. 2015. User
+                                                                          requirements analysis for restaurant POS and accounting
+5. CONCLUSION                                                             application using quality function deployment. Procedia -
+Important factors that affect the use of cloud computing is ease of
+                                                                          Social and Behavioral Sciences. 169, 266–280.
+use, security and internet connection. Currently POS features is
+                                                                          DOI:http://dx.doi.org/10.1016/j.sbspro.2015.01.310
+already enough for SMEs needs and having no problem if
+transferred to cloud computing, mobile technology is a cloud          [6] Tsai, A. C., et al. 2016. Promises and pitfalls of data sharing
+computing enable in this time. Cloud computing will be future             in qualitative research. Social Science & Medicine.
+solution for Indonesian SMEs if Indonesian internet become faster         DOI:http://dx.doi.org/10.1016/j.socscimed.2016.08.004
+and more reliable.                                                    [7] Pantano, E. and Viassone, M. 2014. Demand pull and
+                                                                          technology push perspective in technology-based innovations
+6. ACKNOWLEDGMENT                                                         for the points of sale: The retailers evaluation. Journal of
+We would like to thank to Indonesian Higher Education and                 Retailing and Consumer Services. 21, 1, 43–47.
+Research for this opportunity and research grant, and also for            DOI:http://dx.doi.org/10.1016/j.jretconser.2013.06.007
+University of Ciputra for research facility.
+                                                                      [8] Bayramusta. M. and Nasir. V. A. April 2016. A fad or future
+7. REFERENCES                                                             of IT? A comprehensive literature review on the cloud
+[1] Garrison, G., Wakefield, R. L., and Kim. S. 2015. The effects         computing research. International Journal of Information
+    of IT capabilities and delivery model on cloud computing              Management.              36,           4,          635–644.
+    success and firm performance for cloud supported processes            DOI:http://dx.doi.org/10.1016/j.ijinfomgt.2016.04.006
+    and operations. International Journal of Information              [9] Sharma, S. K., Al-Badi, A. H., Govindaluri, S. M., and Al-
+    Management.              35,           4,          377–393.           Kharusi, M. H. March 2016. Predicting motivators of cloud
+    DOI:http://dx.doi.org/10.1016/j.ijinfomgt.2015.03.001                 computing adoption: A developing country perspective.
+[2] Lacity, M. C. and Reynolds, P. 2014. Cloud services                   Computers      in    Human       Behavior.    62,   61–69.
+    practices for small and medium-sized enterprises. MIS                 DOI:http://dx.doi.org/10.1016/j.chb.2016.03.073
+    Quarterly Executive. 13, 1, 31.                                   [10] Rahayu, R. and Day, J. 2015. Determinant Factors of E-
+[3] Lyer, B. and Henderson, J. C. March 2012. Business Value               commerce Adoption by SMEs in developing country:
+    from clouds: Learning from users. MIS Quarterly Executive.             Evidence from Indonesia. Procedia - Social and Behavioral
+    11, 1, 51.                                                             Sciences.                   195,                   142–150.
+                                                                           DOI:http://dx.doi.org/10.1016/j.sbspro.2015.06.423
+[4] Gupta, P., Seetharaman, A., and Raj, J. R. 2013. The usage
+    and adoption of cloud computing by small and medium
+    businesses.   International   Journal     of   Information
+

@@ -1,0 +1,468 @@
+                                                                                                                                                                                       2024 International Conference on Cybernation and Computation (CYBERCOM)
+
+
+
+                                                                                                                                                                  A Suggested Model for Using Multi factor
+                                                                                                                                                              Authentication Framework in Cloud Computing For
+                                                                                                                                                                                   SME
+                                                                                                                                                                       Ashish Kumar Verma                                          Manik Rakhra                                        Abhishek Bhattacherjee
+                                                                                                                                                                  School Of Computer Science and                          School Of Computer Science and                           School Of Computer Science and
+                                                                                                                                                                            Engineering                                             Engineering                                              Engineering
+                                                                                                                                                                   Lovely Professional University                          Lovely Professional University                           Lovely Professional University
+                                                                                                                                                                          Phagwara,India                                          Phagwara,India                                           Phagwara,India
+                                                                                                                                                                     ashishv90444@gmail.com                                 rakhramanik786@gmail.com                                  abhishek.27306@lpu.co.in
+
+                                                                                                                                                                            Aryan Maan                                               Tiyas Sarkar                                       Vikas Kumar Pandey
+2024 International Conference on Cybernation and Computation (CYBERCOM) | 979-8-3315-4234-4/24/$31.00 ©2024 IEEE | DOI: 10.1109/CYBERCOM63683.2024.10803146
+
+
+
+
+                                                                                                                                                                  School of Computer Science and                          School Of Computer Science and                            School of Computer Science &
+                                                                                                                                                                            Engineering                                               Engineering                                           Engineering
+                                                                                                                                                                   Lovely Professional University                          Lovely Professional University                           Lovely Professional University
+                                                                                                                                                                      Phagwara, Punjab, India                                       Phagwara,India                                        Phagwara, India
+                                                                                                                                                                    aryanmaan437@gmail.com                             info.tiyasofficial11901657@gmail.com                       vikaskumarpandey776@gmail.com
+
+                                                                                                                                                                  Abstract—Cloud computing provides a number of Internet-                        use the internet to provide software applications in a software
+                                                                                                                                                              based services that can considerably assist Small and Medium-                      as a service (SaaS) format. Platform as a Service allows SMEs
+                                                                                                                                                              sized Enterprises (SMEs). These services are provided by data                      to collaborate on software development initiatives by
+                                                                                                                                                              centers, which hold all of the required software and hardware                      providing accessibility to platform resources including
+                                                                                                                                                              resources while rendering them accessible across networks.                         systems with operating systems as well as libraries.
+                                                                                                                                                              However, SMEs typically face impediments to the mainstream                         Meanwhile, IaaS offers a range of virtualized computational
+                                                                                                                                                              utilization of cloud-based technological advancements. One                         assets, including as central processing units, random-accessed
+                                                                                                                                                              significant hurdle is the integrity of approaches to
+                                                                                                                                                                                                                                                 memory (RAM), storage, and operating systems, and needs,
+                                                                                                                                                              authentication used in cloud-based settings, which are primarily
+                                                                                                                                                                                                                                                 which are managed by CSP [2].
+                                                                                                                                                              designed for larger enterprises & may be exceedingly costly for
+                                                                                                                                                              small businesses. Single sign-on (SSO) mechanisms, which are                           Cloud The term Cloud Computing infrastructures
+                                                                                                                                                              commonly employed in these scenarios, are susceptible to a wide                    considers a wide range of issues: security, privacy, trust,
+                                                                                                                                                              range of cyber threats. This study intends to address the                          enhanced automation & many more connections. For SMEs,
+                                                                                                                                                              research goals concerning understanding the concerns for                           such as the owners’ SMEs, several services that cloud
+                                                                                                                                                              development of multi factor authentication MFA, which is                           computing aspire to perform are: on-demand accessibility,
+                                                                                                                                                              suitable for the medium and small enterprises in the context of                    flexibility, technology readiness and organizational help as
+                                                                                                                                                              cloud computing. The present research makes an attempt to
+                                                                                                                                                                                                                                                 well as high-level security and privacy. Cloud Service
+                                                                                                                                                              state the main constituents necessary for the such organizational
+                                                                                                                                                                                                                                                 Providers (CSPs) like Google and Microsoft provide cloud-
+                                                                                                                                                              structure through analysis of information exchange with the
+                                                                                                                                                              subject matter practitioners. The finding is expected to enable                    enabled solutions that help SMEs cut costs on operating
+                                                                                                                                                              the SMEs to exploit the cloud computing technology in a more                       expenditure by eliminating the need for purchase and
+                                                                                                                                                              efficient and cost effective manner. Moreover, as consumer                         maintenance of software and hardware. But here the charges
+                                                                                                                                                              appetite for cloud services grows, there rises the demand for                      for this are taken care of by the CSP and the SMEs in this case
+                                                                                                                                                              increasing effectiveness, trustworthiness and serviceability of                    are only left with the contract renewal fees. In addition, cloud
+                                                                                                                                                              cloud-based offerings for small and medium enterprises hence                       computing provides great advantages for SMEs. The Pay As
+                                                                                                                                                              the necessity of the cloud based offering.                                         You go for allows acting, which eliminates stagnant resources
+                                                                                                                                                                                                                                                 are availability at the time of the action. There is off-site
+                                                                                                                                                                 Keywords—Multi Factor Authentication, Small and Medium                          disaster recovery, which protects against data loss from
+                                                                                                                                                              Enterprises, Cloud Computing, Cyber Attacks and Cost Effective                     anywhere that is under destruction, such as war policies and
+                                                                                                                                                              Framework.                                                                         natural disasters. In addition, cloud computing helps SMEs
+                                                                                                                                                                                                                                                 adjust their infrastructure and services to changes in the
+                                                                                                                                                                                        I. INTRODUCTION                                          business environment. This flexibility helps the SMEs in
+                                                                                                                                                                  Small and medium-sized businesses (SMEs) are rapidly                           ensuring that operational costs are within budget limits. This
+                                                                                                                                                              embracing cloud computing, which provides a variety of                             ‘purchasing when you need’ attitude allows for server, storage
+                                                                                                                                                              services such as software, platforms, and infrastructure. Cloud                    & memory bandwidth to be temporarily in excess in times of
+                                                                                                                                                              technology stands out for its versatility, collaboration of                        company expansion whilst cutting it down when growth
+                                                                                                                                                              resources, flexibility, global network participation, and on-                      periods are slow.In contrast, operating servers and services in-
+                                                                                                                                                              demand accessibility. This technique is based on hosting                           house incurs greater expenses and complexity [4].
+                                                                                                                                                              facilities that contain the appropriate software and hardware
+                                                                                                                                                              infrastructure, significantly decreasing capital investments for                       On the other hand, there is a considerable increase in the
+                                                                                                                                                              infrastructure & applications while optimizing operational                         cost and intricacy when servers and services are managed
+                                                                                                                                                              expenses. The cloud computing environment is primarily                             within an organization [4]. As it stands, the authentication
+                                                                                                                                                              divided into three distinct solution approaches: IaaS -                            security methods in cloud based computing for SMEs are
+                                                                                                                                                              Infrastructure as a Service, PaaS - Platform as a Service, and                     quite basic. Authentication is the process of validating any
+                                                                                                                                                              SaaS - (Software as a Service). Cloud service suppliers (CSP)                      information to confirm the user of a system, prior to gaining
+
+
+
+
+                                                                                                                                                                      979-8-3315-4234-4/24/$31.00 ©2024 IEEE                               192
+                                                                                                                                                              Authorized licensed use limited to: Lovely Professional University - Phagwara. Downloaded on July 19,2025 at 07:14:39 UTC from IEEE Xplore. Restrictions apply.
+                         2024 International Conference on Cybernation and Computation (CYBERCOM)
+
+that access. Previously, normal users were required to give a                      many SMEs used in cloud computing setups rely on SSO
+username and password which were encoded and sent to some                          systems. This proposed SSO solution strongly depends on
+authentication server for the verification process to take place.                  third-party authentication offered by Cloud Service Providers.
+Unfortunately, this old method has its weaknesses such as                          During the login procedure, users submit their ID and
+being targeted by several forms of Cyber threats, which will                       password, which are validated by the Web Access database.
+bring forth data losses. To counter these vulnerabilities,                         Researchers have confirmed the SSO framework's usefulness
+Multifactor authentication (MFA) was introduced. Other than                        in safeguarding cloud settings. The system compares the
+password MFA also involves the use of biometrics, device                           authentication credentials supplied by the CSP to the most
+identifying codes, specific geographic locations, or even a                        recent user profile in the database. Access is given or refused
+person’s behavioural usage patterns. Research conducted at                         according to whether the credentials match. Despite its
+Google Cloud [5] Service Providers (CSPs) have stated that                         efficiency, the primary authentication strategy of SSO is still
+possession based mechanisms such as device codes,                                  vulnerable to Cyber-Attacks.
+encryption keys or biometric devices are far better when it
+comes to security issues than single factor authentication.                        B. Two Factor Authentication
+Many Multifactor authentication (MFA) frameworks are                                   Given the increase in CyberSecurity breaches, further
+developed in the context of large corporations and sectors,                        research has demonstrated that SSO (Single Sign On)
+thus placing small and medium enterprises (SMEs) with                              authentication is insufficient for safeguarding cloud
+limited resources at a disadvantage. The increased cost of                         computing settings. This has resulted in various research
+acquiring MFA devices is a huge barrier to adherences by                           pushing for Two-Factor Authentication (2FA) as a more
+SMEs since implementation of such methods usually incurs                           effective security technique. 2FA solves SSO issues by
+huge expenses. Financial organizations frequently use                              providing additional security against phishing and password
+biometric devices and physical authentication techniques,                          leaks. Many researchers are working on improving SSO to
+which are expensive to implement, maintain, and integrate                          include 2FA, which will improve security. However, it
+into complicated systems. Despite the overall cost benefits of                     should be remembered that 2FA often requires a specialized
+cloud computing, current MFA systems still need a significant                      device for the second authentication step [21], [22], [23].
+financial commitment [24]. Retinal biometrics was previously
+                                                                                   Despite this, most experts believe that Multifactor
+a prominent authentication method in the healthcare industry
+due to its excellent security and low mistake rate, with a                         Authentication (MFA) is more secure & more suitable for
+scanning accuracy of 1 in 10 million. However, the high costs                      cloud contexts than SSO and 2FA.
+of the required hardware, maintenance, and system integration                      C. Multi Factor Authentication
+have led to a decrease in its popularity. Similarly, while
+                                                                                       Multifactor Authentication (MFA) necessitates the
+physiological Biometrics usually provide better security than
+knowledge-based techniques, they need specialized                                  employment of at least two of information security's three
+technology, limiting their accessibility to SMEs. The                              primary authentication methods: possession, knowledge, and
+dependency on certain hardware and technological limits may                        Biometrics. Smart cards, biometric devices and text
+prevent SMEs from using their chosen gadgets. This study                           passwords are common authentication techniques in MFA
+analyzes to assess current security system & suggest an                            systems, each providing a unique layer of protection. Table 1
+innovative MFA scheme that is customized to the demands of                         summarizes the authentication tools used inside the MFA
+SMEs working in cloud computing environments [6].                                  system. The integration of numerous security features
+                                                                                   attempts to improve the security of cloud environments. The
+    This article is organized as follows: it starts with a basic
+                                                                                   next chapter will look at several MFA alternatives
+introduction that covers principles of cloud based computing
+                                                                                   customized particularly for SME customers in the context of
+authentication and architecture assurance. The second section
+reviews the pertinent research on single sign On (SSO), 2                          cloud computing.
+Factor Authentication (2FA) & Multi Factor Authentication
+                                                                                       TABLE I.         AUTHENTICATION TOOLS AS PROPOSED MANNER
+(MFA). This is followed by an evaluation of the present MFA
+security components. The approach used in this investigation                             Serial No.             Authentication              References
+is then detailed. Finally, the article offers the findings and                                                  Service Tools
+                                                                                              1.             Mobile Authentication              [8]
+discussions, emphasizing components used and protection                                                          with help of
+requirements for cultivating a successful M.F.A. system [7].                                                     Biometrices.
+                                                                                              2.             Generating Hardware              [9], [10]
+                         II. RELATED WORK                                                                       Code Protocol.
+                                                                                              3.                Short Message                   [11]
+    Safety techniques have developed to meet the increased                                                    Services Like OTP.
+threats posed by exploits and vulnerabilities in cloud-                                       4.                OTP Token for                   [12]
+computing settings. Consequently, security is moving from a                                                    Software related
+secondary issue to critical necessity for maintaining a                                                            demand.
+                                                                                              5.                 Biometrices                 [13], [14]
+defending workplace. Next part will look into existing                                                          Authentication.
+research on various authentication mechanisms.
+                                                                                   III. MULTI-FACTOR AUTHENTICATION DEFENSE ELEMENTS
+A. Single Sign-On Authentication
+   Single Sign On (SSO), commonly known as Single Factor                               Before this paper examines security vulnerabilities in
+Authentication (SFA), is a prime example of a classical                            cloud-computing settings & investigates use of low-cost
+authentication approach. This study examined several SSO                           Multifactor Authentication (M.F.A.) frameworks as solution
+frameworks used in prior projects to create a baseline for                         for providing complete protection to SMEs. While device-
+analyzing and improving security needs, especially because                         based authentication approaches improve security, SMEs
+
+
+
+
+                                                                             193
+Authorized licensed use limited to: Lovely Professional University - Phagwara. Downloaded on July 19,2025 at 07:14:39 UTC from IEEE Xplore. Restrictions apply.
+                         2024 International Conference on Cybernation and Computation (CYBERCOM)
+
+frequently choose simpler integration's with reduced                                 numerous security features to improve connection security
+maintenance costs.                                                                   while successfully addressing privacy and confidentiality
+                                                                                     issues.
+    Furthermore, the study suggests creating a secure
+authentication architecture to serve as the foundation for
+implementing an innovative MFA system customized to
+SMEs working in cloud settings. Table 2 summarizes the
+findings from an exhaustive review of the literature on
+security MFA aspects. The very first findings emphasize
+essential components of identification including device based
+and system integration aspects.
+    The report also contains findings from early consultations
+with industry experts and SMEs to assess[15] their
+preparedness to implement such authentication techniques.
+The interview findings will assist in determining the most
+effective authentication aspects for a proof of concept (POC),
+as well as recommending the integration of different security
+methods to improve connection security while successfully
+resolving privacy and confidentiality issues.
+    As previously said, this study examined several security
+measures to protect certain places. It also compares the                             Fig. 1. Architecture of Methodological Approach of Proposed MFA
+suggested authentication methods for 2 Factor Authentication
+(2FA), Single Factor Authentication (SFA) and Multi Factor                                             V. RESULTS AND DISCUSSIONS
+Authentication (MFA) to determine the best effective                                 A. Analysis Of Datasets
+solutions for safeguarding cloud computing environments.
+This evaluation seeks to discover which authentication                                   The study anticipates positive feedback from the
+techniques offer the best security protections for securing                          interviewees on the suggested MFA framework's efficacy.
+cloud-based applications.                                                            Table 3 provides a summary of the conclusions from talks
+                                                                                     with the SME expert. In addition to describing the security
+       TABLE II.        PROPOSED MFA SECURITY ELEMENTS TOOLS                         components, the table highlights the challenges and
+    Serial No.         Indexing            Security          References
+                                                                                     recommendations that arose from the interviews.
+                                           Elements
+                                            Tools                                         TABLE III.      PROPOSED SUMMARY OF INTERVIEW PROCESS
+           1.           Cloud           TLS, OTP, VPN          [16], [25]
+                     Authentication        & TOTP                                          Index No.         Sections of Security     Different Issues and
+                       services                                                                                                         Recommendation
+                                                                                               1.             Cloud Data Storage           Recommend -
+           2.           Firewall         Virtual Private     [17],[26], [27]                  [31]                                    Hypertext Format and
+                                            Network                                                                                       TLS with SSL.
+           3.           Antivirus          Antivirus           [18], [28]                      2.                Cloud Server           1. OTP Token can
+                                           Enterprise                                         [32]                                       Create issues on
+                                                                                                                                         Maintenance and
+           4.        Device Security     RDA( Remote           [19], [29]                                                                 Hardware cost.
+                                         Authentication                                                                               2. Recommend - OTP
+                                         for Desktop).
+                                                                                                                                             Service.
+           5.         Antimalware        Protection Of         [20], [30]                      3.               Device Section        1. Multiple Software
+                                         Antimalware                                          [33]                                            Issues.
+                                                                                                                                       2. Security Endpoint
+                                                                                                                                        and Management.
+                                                                                               4.              Firewall Security         1. VPN hijacking
+                  IV. PROPOSED METHODOLOGY                                                    [34]                                       Issue and MITM
+                                                                                                                                             Attacks.
+     The suggested architecture was created using technique
+                                                                                                                                         2. Recommend -
+depicted in Figure 1. The study looked at studies released                                                                                VPN with SSL.
+between 2018 and 2023 to determine the key authentication                                      5.              Remote Desktop             Accept Format
+features for the framework's architecture. A systematic                                       [35]              Authentication
+literature review was completed, utilizing available databases                                                    Service.
+that includes Scopus, Science Direct, WoS, and IEEE. In
+addition, semi-structured interviews were conducted with two                             The interview results show that Remote Desktop
+cloud computing specialists from SMEs to investigate the                             Authentication (RDA) efficiently safeguards the connection
+security requirements for the MFA framework.                                         between SMEs and cloud servers. However, further security
+    The interviews sought to determine any extra safeguards                          precautions are required for other issues. As a result,
+measures needed for framework. Based on these observations,                          “Endpoint Management and Security” (EMS) will take the
+the research will finalize the multi-factor authentication                           place of the antivirus and antimalware recommendations
+features needed by SMEs. Furthermore, a proof of concept                             made earlier in 3rd Section, secured devices. EMS improves
+(POC) was created using VBScript to generate an OTP code,                            security for networks by securing all network connected
+which was then emailed to the receiver. The successful                               gadgets, such as workstations, laptops and peripheral devices.
+execution of the POC demonstrates the need of combining                              EMS offers centralized management of all connected devices
+
+
+
+
+                                                                               194
+Authorized licensed use limited to: Lovely Professional University - Phagwara. Downloaded on July 19,2025 at 07:14:39 UTC from IEEE Xplore. Restrictions apply.
+                         2024 International Conference on Cybernation and Computation (CYBERCOM)
+
+via a software agent, setting it apart from standard antivirus                     B. Finalizing expected methods protective aspect for Multi-
+and antimalware software. In section Firewall, found results                           factor Authentication
+suggest using SSL-VPN rather than a usual VPN. SSL-VPN                                 The research conducted an initial review of proposed
+improves dataset transit security over internet, providing                         model & framework through conversations with two
+greater adaptability & comprehensive accession protection.                         entrepreneural professionals. Changes to this model &
+    One-Time Passwords (OTPs) sent via SMS, email, or                              framework were made in response to their comments & are
+robocalls to preregistered numbers are alternative means for                       verified by relevant origins. Table 4 given below
+showing a second factor. SMEs can choose their preferred                           recapitulates the security features covered in each segment.
+OTP sending mechanism for the second authentication factor.
+These solutions have the benefit of not requiring a hardware                       TABLE IV.        RECOMMENDED SECURITY COMPONENTS TOOLS
+device, lowering the danger of theft and eliminating                                                FOR MULTI FACTOR AUTHENTICATION
+
+unnecessary maintenance expenses. Furthermore, this study                                        Division                           Privacy Parts
+investigated the usage of email-based OTPs since they are                                           1.                       HTTPS AND TLS with SSL.
+simple and cost-effective for SMEs. Figure 2 depicts the                                           [36]
+                                                                                                    2.                                Email OTP
+sample code used to generate OTPs, while Figure 3                                                  [37]
+demonstrates how to configure email integration on a web                                            3.                              VPN with SSL
+page to allow email OTP capability.                                                                [38]
+                                                                                                    4.                        Authentication for Security
+                                                                                                   [39]                          Verification(RDA).
+                                                                                                    5.                     Endpoint Security Verification and
+                                                                                                   [40]                              Management.
+
+
+                                                                                   C. Suggested Multi-factor Authentication Framework for
+                                                                                       Cloud Computing Environments
+                                                                                       This research describes security techniques for a variety
+                                                                                   of components, including user access, devices, networks,
+                                                                                   cloud servers, and storage. These five domains cover the
+                                                                                   entire range of link between SMEs and the cloud technology.
+                                                                                   Furthermore, the research assesses created structure through
+Fig. 2. The Code for generating OTP-Code Algorithm.
+                                                                                   a comparison of MFA, 2FA and SSO to establish best
+                                                                                   effective documentation mechanism for cloud computing
+                                                                                   security. OTP email was chosen as the primary authentication
+                                                                                   mechanism due to its cost-effectiveness and ease of
+                                                                                   implementation. Technical workers at SMEs can include the
+                                                                                   offered code into their online applications where Figure 4
+                                                                                   displays the OTP email processing flow.
+
+
+
+
+Fig. 3. Coding to generating Email-OTP Code Algorithm.
+
+    In last part, respondent suggested using Transport Layer
+Security (TLS) and Secure Socket Layer (SSL) encrypting
+data to increase reliability during transmission. The suggested                    Fig. 4. Framework for Processing for OTP email.
+method comprises employing a self signed cryptographic
+document certificate to establish a secured link between                               During the login procedure, users must first enter their
+SME's network & cloud environment. TLS and SSL are used                            registered username and password before selecting their
+at stratum of transportation to protect secrecy, integrity and                     reporting department, which defines their degree of access.
+confirmation of data transfers. Furthermore, HTTP security
+                                                                                   The system checks the credentials against the database. If the
+protections are built within the online application to
+supplement TLS-SSL safety protocols. This configuration                            credentials are valid, a random OTP code is created and
+allows SMEs to securely combine to & communicate in cloud                          emailed to the user's registered address. If the information
+setup, considerably reducing the risk of MTM (Man-In-The-                          entered is wrong, the system will display an error notice. The
+Middle) attacks.                                                                   following stage requires users to grab the OTP code from
+                                                                                   their email, enter it into the system, and submit it. Access is
+                                                                                   permitted only when the OTP matches the one in the database.
+
+
+
+
+                                                                             195
+Authorized licensed use limited to: Lovely Professional University - Phagwara. Downloaded on July 19,2025 at 07:14:39 UTC from IEEE Xplore. Restrictions apply.
+                         2024 International Conference on Cybernation and Computation (CYBERCOM)
+
+    If the code does not match, the process resets and the user                    related to cloud computing security, particularly the current
+must re-enter their login details. An initial evaluation using                     challenges.
+SME's ‘Performance Allowance System’ (PALS) generated
+favorable results. MFA system is mostly based on OTP                                   The time it takes for a response to an email, through the
+provided via email to validate users and guard against                             email system is still quite a serious area that needs to be
+phishing attempts. As a result, this study provides an                             addressed.During the pilot testing phase, the email code
+improved multi-factor authentication architecture for cloud                        delivery time ranged from 30 seconds to five minutes.
+computing, as shown in Figure 5.                                                   Network testing indicated that ping time to SME's email-
+                                                                                   server averaged 200 ms, whereas open email services such as
+                                                                                   Google-Mail had a ping time of only 10ms. As a result, a
+                                                                                   faster reaction time is critical for OTP email delivery.
+                                                                                       Furthermore, it is critical to educate SMEs on the value
+                                                                                   concerning information security & how to safeguard against
+                                                                                   increasing number of Cyber Threats. As SMEs migrate to
+                                                                                   cloud services, they confront new security vulnerabilities that
+                                                                                   pose serious risks. While a universal security solution may
+                                                                                   appear enticing, it is typically impracticable for small and
+                                                                                   medium-sized enterprises. Addressing these security issues
+                                                                                   necessitates a more sophisticated strategy that focuses on
+Fig. 5. Framework of Proposed Multi-factor Authentication Security.
+                                                                                   essential components efficiently. Future study should try to
+     This research proposes an MFA architecture that is                            grow specimen scale & investigate MFA's application in
+intended to provide SMEs with full end-to-end security. This                       cloud computing for a wider spectrum of SME.
+framework's original feature is its flexibility, which allows                                                   REFERENCES
+for the use of additional authentication methods, such as OTP
+                                                                                   [1]  Yaseen, H., Al-Adwan, A. S., Nofal, M., Hmoud, H., & Abujassar, R.
+received by email, in either all or particular areas of the                             S. (2023). Factors influencing cloud computing adoption among SMEs:
+system. SMEs, for example, can use MFA when connecting                                  The Jordanian context. Information Development, 39(2), 317-332.
+to a remote machine via Remote Desktop Protocol (RDP). In                          [2] Aligarh, F., Sutopo, B., & Widarjo, W. (2023). The antecedents of
+this circumstance, users must enter their username and                                  cloud computing adoption and its consequences for MSMEs’
+                                                                                        performance: A model based on the Technology-Organization-
+password, followed by an extra authentication code emailed                              Environment         (TOE)      framework. Cogent      Business     &
+to their registered email.                                                              Management, 10(2), 2220190.
+    The second component of the report recommends                                  [3] Al-Mutawa, B., & Saeed Al Mubarak, M. M. (2024). Impact of cloud
+Endpoint Management Security as a replacement for                                       computing        as     a     digital    technology     on     SMEs
+traditional antivirus solutions. The content at present can be                          sustainability. Competitiveness Review: An International Business
+attributed to the increase in the effectiveness in handling and                         Journal, 34(1), 72-91.
+safeguarding many different kinds of devices. Lastly,                              [4] Dixit, A., Sharma, D. P., & Sharma, S. K. (2023). TECHNOLOGICAL
+                                                                                        SUPPORT FRAMEWORK FOR INDIAN SMALL AND MEDIUM
+recommendations are made with regards to the addition of                                SCALE ENTERPRISES OVER CLOUDS. Journal of Data
+SSLVPN to the VPN tunnel for the purposes of enhancing                                  Acquisition and Processing, 38(1), 1117.
+network security. Such an approach allows for user access to                       [5] Shetty, J. P., & Panda, R. (2023). Cloud adoption in Indian SMEs–an
+certain systems or applications that may be more securely                               empirical analysis. Benchmarking: An International Journal, 30(4),
+connected in a less secure environment. After such security                             1345-1366.
+measures have been developed and enhanced within the first                         [6] Ouma, G., Awuor, M., Wamuyu, K. P., & Maake, B. (2024).
+three steps further multi-factor authentication (MFA) should                            APPLICABILITY OF CLOUD SECURITY FRAMEWORKS AND
+                                                                                        MODELS IN THE KENYAN-BANKING SECTOR: A
+be required for access to the cloud by any SME users. The                               REVIEW. African Journal of Emerging Issues, 6(9), 81-99.
+research verified that OTP sent to email is actually a workable
+                                                                                   [7] Mujalli, A., Wani, M. J. G., Almgrashi, A., Khormi, T., & Qahtani, M.
+and effective form of MFA for small and medium enterprises.                             (2024). Investigating the factors affecting the adoption of Cloud
+The last portion of the paper deals with the protection of such                         Accounting in Saudi Arabia's Small and Medium-Sized Enterprises
+data while transferring it by use of SSL and TLS encryption                             (SMEs). Journal of Open Innovation: Technology, Market, and
+technologies. These encryptions guarantee not only the                                  Complexity, 100314.
+confidentiality but also the authenticity of the information                       [8] AL-Dosari, K., & Fetais, N. (2023). Risk-management framework and
+making it impervious to any threats.                                                    information-security systems for small and medium enterprises
+                                                                                        (SMES): A meta-analysis approach. Electronics, 12(17), 3629.
+          VI. CONCLUSIONS AND FUTURE WORK                                          [9] AL-Dosari, K., & Fetais, N. (2023). Risk-management framework and
+                                                                                        information-security systems for small and medium enterprises
+    What this work adds to the previous literature is providing                         (SMES): A meta-analysis approach. Electronics, 12(17), 3629.
+an architectural design for SMEs within a cloud circle which                       [10] Bakar, M. R. A., Razali, N. A. M., Ishak, K. K., Ismail, M. N., &
+qualifies as Multi Factor Authentication by virtue of                                   Sembok, T. M. T. (2024). Adoption of Industry 4.0 with Cloud
+integrating five distinct security elements The proposed model                          Computing as a Mediator: Evaluation using TOE Framework for
+                                                                                        SMEs. JOIV: International Journal on Informatics Visualization, 8(2),
+comprises different components of security where even                                   554-563.
+Endpoint Management, Remote Desktop Security, SSLVPN.                              [11] Waqar, A., Skrzypkowski, K., Almujibah, H., Zagórski, K., Khan, M.
+HTTPS, Email OTP, TLS-SSL can be utilized. These aspects                                B., Zagórska, A., & Benjeddou, O. (2023). Success of implementing
+were carefully chosen and considered during study’s analysis                            cloud computing for smart development in small construction
+of data phase. The paper ends with some important issues                                projects. Applied Sciences, 13(9), 5713.
+
+
+
+
+                                                                             196
+Authorized licensed use limited to: Lovely Professional University - Phagwara. Downloaded on July 19,2025 at 07:14:39 UTC from IEEE Xplore. Restrictions apply.
+                         2024 International Conference on Cybernation and Computation (CYBERCOM)
+
+[12] Natrajan, N. S., Sanjeev, R., & Jain, R. U. (2024). Sustainability in         [26] GETHRUDE, E. N. (2024). An End-User Centred Framework for Data
+     small and medium enterprises: A circular economy approach using                    Access Management and Security in the Enterprise Public
+     cloud computing. Business Strategy & Development, 7(2), e370.                      Cloud (Doctoral dissertation, UNIVERSITY OF STRATHCLYDE).
+[13] Vo Van, H., Abu Afifa, M., & Saleh, I. (2024). Accounting information         [27] Oriza, R. (2024). Adoption and Impact of Cloud Computing in Small
+     systems and organizational performance in the cloud computing era:                 and Medium Enterprises A Systematic Review. Journal Informatic,
+     evidence from SMEs. Sustainability Accounting, Management and                      Education and Management (JIEM), 6(2), 8-15.
+     Policy Journal.                                                               [28] Minaee, M. M., Mohammadi, M., & Mehrmanesh, H. (2024). Factors
+[14] Al-Mutawa, B., & Saeed Al Mubarak, M. M. (2024). Impact of cloud                   Influencing the Security Framework in Cloud Computing: A Case
+     computing        as     a     digital    technology      on     SMEs               Study of Infrastructure Communications Company. Journal of
+     sustainability. Competitiveness Review: An International Business                  Information Technology Management, 16(2), 206-222.
+     Journal, 34(1), 72-91.                                                        [29] Adeusi, O. C., Adebayo, Y. O., Ayodele, P. A., Onikoyi, T. T.,
+[15] Johnson, E., Seyi-Lande, O. B., Adeleke, G. S., Amajuoyi, C. P., &                 Adebayo, K. B., & Adenekan, I. O. (2024). IT standardization in cloud
+     Simpson, B. D. (2024). Developing scalable data solutions for small                computing: Security challenges, benefits, and future directions. World
+     and medium enterprises: Challenges and best practices. International               Journal of Advanced Research and Reviews, 22(3), 2050-2057.
+     Journal of Management & Entrepreneurship Research, 6(6), 1910-1935.           [30] Ekwonwune, E. N., Chigozie, U. C., Ekekwe, D. A., & Nwankwo, G.
+[16] Jain, R., Palaniappan, D., Bekuma, Y., & Parmar, K. Cloud-Based MIS                C. (2024). Analysis of Secured Cloud Data Storage Model for
+     Model for Medium and Small Enterprises in Ethiopia.                                Information. Journal of Software Engineering and Applications, 17(5),
+[17] T. Sarkar, M. Rakhra, V. Sharma, S. Takkar and K. Jairath,                         297-320.
+     "Comparative Study of Object Recognition Utilizing Machine                    [31] Mohanapriya, D., Selvi, S., Rekha, S., Banupriya, C. V., & Gobi, M.
+     Learning Techniques," 2024 International Conference on                             (2024, March). Enhanced Quantifying Assessment Model for
+     Communication, Computer Sciences and Engineering (IC3SE),                          Monetary Implication and Security in Cloud Computing. In 2024 5th
+     Gautam Buddha Nagar, India, 2024, pp. 726-731, doi:                                International Conference on Intelligent Communication Technologies
+     10.1109/IC3SE62002.2024.10593475.                                                  and Virtual Mobile Networks (ICICV) (pp. 843-850). IEEE.
+[18] P. Chakrabarty, T. Sarkar, M. Rakhra, K. Jairath and V. Sharma,               [32] Arroyabe, M. F., Arranz, C. F., de Arroyabe, I. F., & de Arroyabe, J. C.
+     "Enhanced Data Security Framework Using Lightweight Cryptography                   F. (2024). The effect of IT security issues on the implementation of
+     and Multi-Level Encryption," 2024 International Conference on                      industry 4.0 in SMEs: Barriers and challenges. Technological
+     Communication, Computer Sciences and Engineering (IC3SE),                          Forecasting and Social Change, 199, 123051.
+     Gautam Buddha Nagar, India, 2024, pp. 720-725, doi:                           [33] Atadoga, A., Umoga, U. J., Lottu, O. A., & Sodiya, E. O. (2024).
+     10.1109/IC3SE62002.2024.10593191.                                                  Evaluating the impact of cloud computing on accounting firms: A
+[19] T. Sarkar, M. Rakhra, V. Sharma and A. Singh, "An Empirical                        review of efficiency, scalability, and data security. Global Journal of
+     Comparison of Machine Learning Techniques for Bank Loan Approval                   Engineering and Technology Advances, 18(2), 065-074.
+     Prediction," 2024 International Conference on Communication,                  [34] Abdul-Azeez, O., Ihechere, A. O., & Idemudia, C. (2024). Digital
+     Computer Sciences and Engineering (IC3SE), Gautam Buddha Nagar,                    access and inclusion for SMEs in the financial services industry
+     India, 2024, pp. 137-143, doi: 10.1109/IC3SE62002.2024.10593355.                   through Cybersecurity GRC: A pathway to safer digital
+[20] S. Talwani, M. Rakhra and T. Sarkar, "Perspectives on the Future of                ecosystems. Finance & Accounting Research Journal, 6(7), 1134-1156.
+     Agriculture and Recent Developments in Agricultural Technology,"              [35] Nasir, R., & Mathias, T. (2024). Cloud Computing Security:
+     2024 11th International Conference on Reliability, Infocom                         Safeguarding Organizational Assets in the Digital Realm. International
+     Technologies and Optimization (Trends and Future Directions)                       Journal of Advanced Engineering Technologies and Innovations, 1(2),
+     (ICRITO),        Noida,     India,     2024,      pp.     1-6,    doi:             216-237.
+     10.1109/ICRITO61523.2024.10522413.
+                                                                                   [36] Hassan, O. F., Fatai, F. O., Aderibigbe, O., Akinde, A. O., Onasanya,
+[21] T. Sarkar, B. Moharana, M. Rakhra and G. S. Cheema, "Comparative                   T., Sanusi, M. A., & Odukoya, O. (2024). Enhancing Cybersecurity
+     Analysis of Empirical Research on Agile Software Development                       through Cloud Computing Solutions in the United States. Intelligent
+     Approaches," 2024 11th International Conference on Reliability,                    Information Management, 16(4), 176-193.
+     Infocom Technologies and Optimization (Trends and Future
+     Directions) (ICRITO), Noida, India, 2024, pp. 1-6, doi:                       [37] Mousa, K., Zhang, Z., Sumarliah, E., & Hamdan, I. K. (2024). The
+     10.1109/ICRITO61523.2024.10522134.                                                 Impact of Cloud Computing Adoption on Firm Performance Among
+                                                                                        SMEs in Palestine: A Machine Learning Approach. International
+[22] Odukoya, O. (2024, May). The Transformative Impact of Cloud                        Journal of Intelligent Information Technologies (IJIIT), 20(1), 1-24.
+     Computing on Small and Medium-sized Enterprises (SMEs): A
+     Comprehensive Analysis. In 2024 International Conference on Smart             [38] Truong Du Chau, X., Toan Nguyen, T., Khiem Tran, V., Quach, S.,
+     Applications, Communications and Networking (SmartNets) (pp. 1-5).                 Thaichon, P., Jo, J., ... & Viet Hung Nguyen, Q. (2024). Towards a
+     IEEE.                                                                              review-analytics-as-a-service (raaas) framework for smes: A case study
+                                                                                        on review fraud detection and understanding. Australasian Marketing
+[23] Al-Mutawa, B., & Saeed Al Mubarak, M. M. (2024). Impact of cloud                   Journal, 32(1), 76-90.
+     computing        as     a     digital    technology      on     SMEs
+     sustainability. Competitiveness Review: An International Business             [39] Santos, A., Martins, J., Pestana, P., Gonçalves, R., São Mamede, H., &
+     Journal, 34(1), 72-91.                                                             Branco, F. (2024). Factors affecting cloud computing adoption in the
+                                                                                        education context-Systematic Literature Review. IEEE Access.
+[24] Nagahawatta, R., Warren, M., Salzman, S., & Lokuge, S. (2024).
+                                                                                   [40] Rehan, H. (2024). Revolutionizing America's Cloud Computing the
+     Towards an Understanding of Cloud Computing Adoption in SMEs:
+                                                                                        Pivotal Role of AI in Driving Innovation and Security. Journal of
+     The Role of Security and Privacy Factors. International Journal of
+                                                                                        Artificial Intelligence General science (JAIGS) ISSN: 3006-4023, 2(1),
+     Cyber Warfare and Terrorism (IJCWT), 14(1), 1-13.
+                                                                                        239-240.
+[25] Silaban, D. S., & Moedjiono, S. (2024). Analysis of Cloud Computing
+     Characteristics, Services and Security Against Information Technology
+     Strategy for Small Medium Enterprises. Return: Study of Management,
+     Economic and Bussines, 3(2), 66-75.
+
+
+
+
+                                                                             197
+Authorized licensed use limited to: Lovely Professional University - Phagwara. Downloaded on July 19,2025 at 07:14:39 UTC from IEEE Xplore. Restrictions apply.
+

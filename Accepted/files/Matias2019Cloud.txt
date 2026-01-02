@@ -1,0 +1,1006 @@
+Article
+
+
+Cloud Computing Adoption                                                                                   Global Business Review
+                                                                                                                             1–22
+Intention by MSMEs in                                                                                                  © 2019 IMI
+                                                                                                        Reprints and permissions:
+the Philippines                                                                          in.sagepub.com/journals-permissions-india
+                                                                                                 DOI: 10.1177/0972150918818262
+                                                                                                   journals.sagepub.com/home/gbr
+
+
+
+Junrie B. Matias1
+Alexander A. Hernandez2
+
+Abstract
+A paradigm shift in computing has been created and it has changed the way IT services development
+provision and implementation take place with the advent of cloud computing. However, cloud comput-
+ing is not widely adopted especially in third world countries like the Philippines. As a result, the goal of
+the study is to evaluate the factors that affect micro, small and medium enterprises’ intention to adopt
+cloud computing using technology organization environment framework. Findings suggest that competi-
+tive pressure and regulatory support influences firms to adopt cloud computing. The study contributes
+to technology adoption literature by providing a different perspective to cloud adoption.
+
+Keywords
+Cloud computing, technology adoption, TOE framework, developing country
+
+
+
+Introduction
+To keep up with the market demands, it is a vital and a prerequisite for the organization to determine its
+readiness to adopt innovations of this evolving and volatile environment (Aboelmaged, 2014). To
+improve business competitiveness, organizations are forced to conform and transform their environment,
+adapt innovations and achieve continuous improvement (Uygun, Canvar Kahveci, Taşkin, & Piriştine,
+2015). These changes include implementing information technologies that will keep businesses in the
+competitive environment; especially for small- and medium-sized enterprises, it will enable them to
+compete with large firms. However, traditional information technology (IT) environments have a
+challenging management task; it requires physical space for IT equipment and people for implementing
+and maintaining IT services. With the advent of cloud computing through its guaranteed benefits, these
+requirements will reduce. A paradigm shift in computing has been created by cloud computing as it has
+changed the way IT services development, provision and implementation take place (Phaphoom, Wang,
+Samuel, Helmer, & Abrahamsson, 2015). Information producers and consumers are not necessarily
+
+
+1
+    College of Computing and Information Sciences, Caraga State University, Ampayon, Butuan City, Philippines.
+2
+    College of Information Technology Education, Technological Institute of the Philippines, Manila, Philippines.
+
+Corresponding author:
+Junrie B. Matias, College of Computing and Information Sciences, Caraga State University, Ampayon, Butuan City, Philippines.
+E-mail: jbmatias@carsu.edu.ph
+2                                                                                    Global Business Review
+
+within the same physical space which is entirely different from traditional IT (Gupta, Seetharaman, &
+Raj, 2013). Due to the traditional IT environment constraints (Priyadarshinee, Jha, Raut, & Kharat,
+2016), cloud computing can be very attractive for small to medium-sized enterprises (SMEs). They can
+now access this services through the cloud without having an in-house IT equipment’s and specialist, and
+these can minimize operating cost (Garrison, Wakefield, & Kim, 2015) and maximize the return on their
+investment (Alshamaila, Papagiannidis, & Li, 2013). Though there are promising benefits of this new
+technology, not all businesses are going to implement cloud services (Oliveira, Thomas, & Espadanal,
+2014) and many SMEs are hesitant to move to this trend, fearing to lose control if they migrate their
+infrastructure to cloud and may encounter undesirable outcomes.
+    Several studies relating to cloud computing adoption have been conducted (Yang & Tate, 2012);
+however, little work is available on developing economies, more specifically, cloud computing
+perspective by organizations in the Philippines. First, a handful of studies exploring cloud adoption
+directly on micro, small and medium enterprises (MSMEs) in developing countries have been published.
+In 2016, the Philippines was ranked number 9th on cloud readiness index from a report released by the
+Asia Cloud Computing Association (ACCA, 2016) with a total score of 53.8. Though, the report indicates
+that the gap in cloud readiness between the top performers is vast as the number 8th ranked Malaysia has
+a total score of 66.3 compared to the Philippines which is 53.8 only. To determine the potential and
+challenges of cloud adoption, ACCA began studying and reporting an annual cloud readiness index of
+14 countries in Asia. The finding helps to identify solutions to the problems related to cloud adoption
+with the aid of the major cloud vendors, government cloud stakeholders, decision makers and cloud
+consumers (Abolfazli & Sanaei, 2015). However, the reports gathered lacks sufficient understanding
+and information on the degree of cloud adoption by MSMEs in the Philippines. This situation
+creates a gap in cloud computing adoption by MSMEs in the Philippines, an example of a developing
+country.
+    Second, no study has been conducted to investigate the cloud computing intentions in MSMEs in the
+Philippines. The Philippine MSMEs are progressively growing and contributing to the economic
+performance. Additionally, the MSMEs accounts for 8 per cent in all types of business organizations in
+the Philippines. To date, the Philippine government has been prescribing cloud-first policy as a key
+sustainable approach for IT deployment needs in various business sectors. It is a priority of the government
+to improve the business operations of organizations as a whole. Hence, understanding the factors, issues
+and challenges, and practices of MSMEs in cloud computing adoption is beneficial not only for
+professionals but also for developing economies aiming to enhance their business operations by
+implementing cloud-based solutions.
+    Third, cloud computing is gradually being adopted by MSMEs in the Philippines to reach and expand
+market opportunities, and allow speedy and cost-effective deployment of services. However, more
+research is needed to address and analyse business-related issues about the implementation of could
+computing in the Philippines. The MSMEs still require research and references to further successful
+cloud computing adoption. More importantly, there is a need to investigate cloud computing adoption as
+a competitive approach to levelling between developed and developing countries. Hence, this study is
+the first attempt at investigating this significant phenomenon and is not only significant in MSMEs in the
+Philippines but also for other emerging economies in the Asia-Pacific region.
+    The succeeding sections of this article include a review of cloud computing, technology adoption
+models and the current state of MSMEs in the Philippines, followed by hypothesis, methodology and
+presentation of the results, discussion, implications and conclusion.
+Matias and Hernandez                                                                                         3
+
+Literature Review
+
+Cloud Computing
+Cloud computing emerged from the continuous advancement of IT products and services delivered over
+the Internet (Oliveira et al., 2014). Firms can lease IT resources in the cloud and deploy applications,
+manage data and perform analyses via the Internet (Hsu, Ray, & Li-Hsieh, 2014) and will only access
+services they had paid for (Alkhater, Wills, & Walters, 2014).
+   The public, the private and the hybrid cloud are the three common cloud computing delivery models.
+The concept of public cloud involves customers given access to a shared-service environment from a
+cloud provider (Garrison et al., 2015), which is very cost effective for the small-medium firm to deploy
+applications (Gupta et al., 2013). Organization in the private cloud is much secured compared to the
+public cloud since private cloud has exclusive access and use of its resources (Low, Chen, & Wu, 2011).
+The use of both service-delivery models creates a hybrid cloud environment with the automated
+arrangement and coordination of two platforms (Garrison et al., 2015). Additionally, cloud computing is
+categorized into the following service models (Garrison et al., 2015; Gupta et al., 2013; Low et al.,
+2011). (a) Software-as-a-Service (SaaS) category: the business software is provided by the application
+service provider over the Internet for client consumption; (b) the Platform-as-a-Service (PaaS): this
+category enables firms to access resources like operating systems, databases and middleware within a
+virtualized platform provided over the internet; (c) Infrastructure-as-a-Service (IaaS): this category is the
+delivery of actual physical devices as a service available over the internet.
+
+
+Cloud Computing Adoption
+According to Oliveira et al. (2014), there are numerous studies that have been conducted to address
+cloud computing technical and operational issues. Topics on costs and risks, secure storage audit protocol,
+security, privacy and information loss are covered in those studies to aid the firm in selecting appropriate
+cloud computing services. Repschlaeger, Zarnekow, Wind, and Klaus (2012) had presented an overall
+requirement of the cloud computing framework that covers six target dimensions. These studies help
+firms by providing a better assessment foundation to adopt cloud services.
+   Phaphoom et al. (2015) suggest that companies are quite hesitant to move their resources into the
+cloud because of some technical barriers and security-related risks. There are six major obstacles when
+deciding on cloud adoption namely, availability, data privacy, integration, portability, security and
+migration. Based on their research findings, the three factors availability, integration, and migration
+complexity will encourage firm in adopting cloud computing. Moreover, Gupta et al. (2013) recommend
+that the least important factors for SMEs to adopt cloud are cost savings and cost reduction and the most
+top two priority factors are ‘ease of use and convenience’ and ‘security and privacy’. Moreover, the study
+indicates that SMEs in Singapore, Malaysia and India are pleased to migrate to the cloud due to its easy
+use, convenience and better security and privacy. Also, it is indicated that reliability factor needs attention
+by providers and firms.
+   In Taiwan, Lin and Chen (2012) interviewed 19 IT professionals to determine its perceptions towards
+cloud computing and to identify their concerns associated with cloud adoption. Even with supports made
+by the providers, the study suggests that many IT professionals do not have an in-depth understanding of
+cloud computing and are unfamiliar with its advantages. Their concerns are mostly in cloud business
+applications and not on the complexity and effort spends. Lastly, Alshamaila et al. (2013) found that firm
+4                                                                                      Global Business Review
+
+potential to recognize the advantage of cloud implementation to its competitor depends on their high
+relational IT capability. Cloud adoption intention is not directly affected by firm size. Instead, it helps to
+recognize cloud benefits and its importance (Hsu et al., 2014). Organizations now are slowly integrating
+cloud computing into their business strategies and operations to attain competitiveness. SMEs will not
+be reluctant anymore to implement these types of innovations into their businesses despite the few issues
+identified by the experts (Gupta et al., 2013).
+   However, cloud computing adoption in developing economies remains a research gap as limited
+empirical evidence published is available (Sharma, Al-Badi, Govindaluri, & Al-Kharusi, 2016). Thus, an
+extensive investigation of cloud computing in developing countries, more particularly, the MSMEs must be
+conducted to understand the critical factors on success and or failure of organizations in cloud computing
+adoption. Lastly, numerous studies that are also examined in this work are included in Appendix A.
+
+
+
+Technology Adoption Models
+There are two widely adopted theories for IT adoption studies in organizations: the technology–
+organization–environment (TOE) framework and diffusion of innovation (DOI) (Phaphoom et al., 2015).
+To create a more holistic approach, Oliveira et al. (2014) had to combine these two theoretical perspectives
+to determine the factors of adoption based on the attribute of innovation and the technology development,
+organization and industry environment of organizations.
+   In the past decades, researchers have investigated the factors that influence the diffusion processes of
+various technologies, through the different models and theories proposed. There are eight theories in this
+area, such as Theory of Reasoned Action (TRA) (Fishbein & Ajzen, 2011), the technology acceptance
+model (TAM) (Venkatesh & Davis, 2000), the Motivation Model (Davis, Bagozzi, & Warshaw, 1992),
+the theory of planned behaviour (TPB) (Ajzen, 1991), the diffusion of innovation (DOI) (Rogers, 2010),
+and technology environment organization framework (TOE) (Tornatzky, Fleischer, & Chakrabarti,
+1990), among others.
+   Among these models and theories, DOI is one of the commonly used theories that attempts to explain
+and predict the adoption of innovations, developed by Rogers (2010). Most of these theories explain the
+adoption decision through the technology-related factors; however, technology-related factors are not
+the only factors that influence innovation adoption of individuals and by organizations. Furthermore,
+there are environmental and organizational factors which affect the decision to adopt technologies. These
+factors, more specifically, environmental factors, are not taken into account in DOI (Rogers, 2010).
+Thus, the TOE is introduced that overcomes this shortcoming. TOE framework not only employs
+technological aspects of the diffusion process, but also presents non-technological aspects including
+organizational and environmental factors (Tornatzky et al., 1990). Hsu et al. (2014) state that TOE
+enhances DOI’s capability to explain the intra-firm innovation diffusion.
+
+
+
+Diffusion of Innovation
+The DOI has been used to explain IT adoption. The model aims to explain the way that technological
+innovation progresses from creation to utilization. It describes the adoption patterns, and mechanisms for
+diffusion, and further assists in predicting how and whether the innovation will be successful. The DOI
+model comprises three main categories of factors that influence innovation adoption decisions including
+innovation characteristics, organizational characteristics and individual characteristics (Rogers, 2010). The
+Matias and Hernandez                                                                                         5
+
+innovation characteristics consist of the perceived attributes of innovation that hinder or facilitate. Rogers
+(2010) explained the five attributes of innovation such as relative advantage, compatibility, complexity,
+trialability and observability. Relative advantage refers to the perceived extent of advantage of the new
+technological innovation. Compatibility refers to the degree to which the innovation is perceived consistent
+with the existing values, experiences and needs of the possible adopters in organizations. Complexity
+relates to the perceived difficulty of understanding and using the innovation, while trialability refers to the
+degree to which the innovation can be easily tried and tested over time. Finally, observability refers to the
+level to which the results of an innovation are visible to the technology adopter (Rogers, 2003).
+
+
+The Technology Organization Environment Framework
+The TOE is argued to be integrative framework providing a holistic approach and guidance (Oliveira &
+Martins, 2011). The TOE framework contains three dimensions, including technology, organization and
+environment that influence the diffusion process by which innovation is adopted. It serves as taxonomy
+for factors that facilitate or inhibit the adoption of innovative technologies. The technology dimension
+refers to the internal and external technology relevant to the organization, and relevant available
+technologies for potential adoption. The organization dimension explains the structure and the processes
+in an organization that facilitates or constraint the adoption of innovation. The environment dimension
+consists of market elements or competitors, industry, regulations and government.
+   The integrative model shown in Figure 1 was tested based on 369 sample firms from Portugal to study
+the cloud adoption by manufacturing and services sectors.
+   Hsu et al. (2014) developed a model based on TOE factors and examined 200 Taiwanese firms and
+found out three significant determinants, and had found out that competitors pressure as a not significant
+determinant. It also noted that businesses having high IT capability will like to select the pay-as-you-go
+pricing mechanism. Also, the deployment model is determined by concerns, and firms with larger
+business concerns are likely to choose private over public cloud. Yang et al. (2015) examined SaaS
+adoption factors in China, and the study had assessed how to prepare organizational users to implement
+the cloud service. The study used a tripod model of SaaS Readiness, and the study findings suggest that
+not all organizational users are willing to adopt SaaS and despite the considerable cost the firm may save
+they are still hesitant. Alshamaila et al. (2013) studied the SME adoption process in the north east of
+
+
+
+
+Figure 1. The Integrative DOI–TOE Research Model
+Source: Oliveira et al. (2014).
+6                                                                                        Global Business Review
+
+England. Using the TOE framework, a semi-structured interview was conducted to gather data in 15
+different firms. The study found out 12 main factors that have a significant role in the adoption of cloud
+computing by SMEs. Though, an element identified as a not important determinant of cloud computing
+adoption is competitive pressure.
+   Sharma et al. (2017) adopted a mixed methodology to identify and rank critical factors for cloud
+computing adoption in the Indian context. Results revealed that ‘IT service cost’ and ‘time to market’ are
+the most critical factors, while ‘organization size’ is reported to be the least critical for cloud computing
+adoption.
+   Consequently, Gangwar, Date, and Ramaswamy (2015a) integrated TAM and TOE and tested at the
+organizational level. The study collected data using a questionnaire from 280 companies in three different
+sectors in India, namely IT, manufacturing and finance. Their result shows various important determinants
+of cloud computing adoption in organizations. Thus, they also noted that factors directly influencing
+intention to adopt cloud services, in contrast to Alshamaila et al. (2013), are competitive pressure and
+trading partner support. Also in Gangwar et al. (2015a), the authors extended the TAM–TOE framework
+and incorporated cloud-specific variables security and third-party control. The framework was
+qualitatively analysed using an interview method which resulted in 12 of the variables relevant to cloud-
+computing adoption.
+
+
+
+MSMEs in the Philippines
+According to the Senate of the Philippines (2012), MSMEs are a vital factor in economic development
+in countries like the Philippines. These MSMEs improved the lives of many Filipinos by creating jobs
+and stimulating economic growth in rural and far-flung areas.
+   In 2014, according to a report provided by the Philippine Statistics Authority (PSA), 99.6 per cent of the
+establishments in the Philippines was MSMEs and with the remaining 0.4 per cent are large companies
+(DTI, 2014). MSMEs have contributed 62.8 per cent of jobs in 2014 compared to 37.1 per cent from large
+enterprises. It also contributes to exports accounting for 25 per cent revenue and estimated that 60 per cent
+of all exporters belong to this sector. Table 1 presented a thriving and growing economy by MSMEs and
+served as a framework and a model for new entrepreneurs and large firms. Even with the policies supporting
+and promoting an empowering atmosphere for MSME development, full growth and potential are hardly
+achieved, because of some non-financial and financial barriers (Senate of the Philippines, 2012).
+   Survival and continuity of this sector are a must and essential for the country; hence, adopting ICT
+innovations such as cloud computing can help to reduce barriers as they can explore new business
+opportunities, maximize their profit and investments by integrating new strategies and cutting cost on IT
+infrastructures. Adopting ICT enables business organizations to compete on a global scale with improved
+operation, productivity and services to customer and communication with its suppliers (Tarutė &
+
+
+          Table 1. MSME Classification in the Philippines
+
+          Enterprise                         By Asset Size                   Firm Size
+          Micro                           Up to P3,000,000                     1–9
+          Small                        P3,000,001–P15,000,000                 10–99
+          Medium                      P15,000,001–P100,000,000               100–199
+          Source: Senate of the Philippines (2012).
+Matias and Hernandez                                                                                      7
+
+Gatautis, 2014). The ACCA (2016) reported the improvement of the Philippines Cloud Readiness
+ranking it to be the ninth most cloud-ready nation in the Asia Pacific, overtaking Thailand. Accordingly,
+the Philippines have improved on addressing freedom of information and privacy. Inadequate connectivity
+and exposure to natural disasters pose a risk, reported as the reasons why the country performs poorly in
+this metrics. On the other hand, the Philippines have established Government Cloud (GovCloud), a
+government core objective of creating infrastructure and services that consolidate IT resources, streamline
+the organization cost in IT implementation and improve overall operational efficiency (Government
+Cloud, 2017). Accordingly, most Philippine agencies are having real potential and capabilities to
+implement cloud-based solutions and must benefit from these technologies.
+
+
+
+Objectives
+The objective of this study is to advance the growing body of research on cloud computing, through
+understanding the factors affecting cloud adoption intention by MSMEs in the Philippines using TOE
+framework. TOE is a multi-perspective framework organization-level theory (Depietro, Wiarda, &
+Fleischer, 1990). A quantitative survey will be carried out by individuals having an important position into
+MSMEs and familiarity with the organization direction in information technology implementation. The
+study results may help the sector that contributes almost 62.8 per cent of jobs generated in the Philippines
+for the year 2014 (DTI, 2014) to adopt new strategies, explore new business opportunities and gain business
+operational advantages (Tarutė & Gatautis, 2014). The findings of the study could have important
+implications and significant value to computing society, government and service providers, in understanding
+on why MSMEs choose to adopt cloud computing services (Alshamaila et al., 2013).
+
+
+Theoretical Framework and Hypotheses
+Adopting the TOE framework, we propose a research model shown in Figure 2 by replicating some of
+the experience from Gangwar et al. (2015b), Hsu et al. (2014) and Oliveira et al. (2014) to gain further
+insights on cloud adoption intention by MSMEs in the Philippines on an exploratory perspective.
+
+
+
+
+Figure 2. Research Framework
+Source: Gangwar, Date, and Ramaswamy (2015b), Hsu et al. (2014) and Oliveira et al. (2014).
+8                                                                                   Global Business Review
+
+Hypotheses of the TOE Context
+
+Technology context
+Two features were adopted from the literature for technology context: the perception on cloud benefits
+and the concerns of the businesses; these factors are seen to be critical in cloud adoption process from
+the work of Hsu et al. (2014). Accordingly, perception on cloud benefits indicates the firm’s operative
+and execution advantages acquired from cloud computing. Thus, we also observe the hypothesis:
+
+    H1: An MSME that recognizes a higher levels cloud advantages is more likely to adopt cloud services.
+
+   Business concerns are that the potential risk may be encountered by firms in using the cloud. Several
+issues that are associated with cloud computing have been widely argued by researchers. Adopting cloud
+means that a firm will entrust its resources to cloud service provider, and these may include operations,
+equipment and critical data and information. Having this kind of setup, firm may encounter different
+problems like bandwidth and infrastructure related issues since cloud-computing services depend mainly
+on the Internet. Hence, we also adopted the study hypothesis:
+
+    H2: An MSME that recognizes higher levels of business concern is less likely to adopt cloud services.
+
+
+Organizational context
+The organization context is the existing business resources to support and manage the adoption and
+implementation of innovation. These resources include technology readiness or ability that involves an
+annual budget and number of IT personnel to support daily operations. Alshamaila et al. (2013) suggest
+that a firm with strong IT capacity is more likely to recognize the benefits of cloud computing. Thus, we
+hypothesize in line with the TOE framework and with the previous studies:
+
+    H3: An MSME with higher levels of technological readiness is more likely to adopt cloud services.
+
+Environment context
+Environmental context is the physical space and location where businesses operate. It is influenced by
+environmental elements that might affect a company’s intention to adopt cloud technology. As shown in
+the model, competitive pressure and regulatory support are included in the environmental context.
+Competitive pressure is the degree of pressure by the firm from its competitors. To keep up with their
+competitor’s, businesses are forced to adopt innovation to improve their business strategies. Hence, the
+following hypothesis:
+
+    H4: Pressure from competitors positively affects MSMEs intention to adopt cloud computing.
+
+   Regulatory supports encourage the integration of cloud computing by businesses. The lack of policy
+and standards can affect firm positively or negatively from adopting cloud. Accordingly, if a government
+mandates organization to confirm through technology policies, firms will be agreeable to accept new
+technology. Thus, the hypothesis:
+
+    H5: A government regulation positively affects MSMEs intention to adopt cloud computing.
+Matias and Hernandez                                                                                     9
+
+Methodology
+
+Research Methodology
+There are three commonly accepted research approaches applied to information systems, namely,
+quantitative, qualitative and mixed-method (Terrell, 2012). This study used a mixed-method, as several
+studies shown in the literature have effectively used this approach to study technology adoption (Hsu
+et al., 2014; Low et al., 2011; Oliveira et al., 2014). As a result, several concepts are reviewed and have
+developed a model to examine the adoption intention of new technologies. In the previous sections, the
+study followed TOE framework for developing the research model and formulating the hypotheses,
+grounding on the study of Hsu et al. (2014) and Oliveira et al. (2014).
+    The survey questionnaire was created with the objective of answering the hypotheses formed from the
+proposed research framework. A quantitative methodology was adequately used for this work. Hence,
+the results are in the form of numeric data that can be analysed statistically.
+    To complement the survey, interviews were considered. Interviews are widely accepted approach in
+qualitative studies on technology adoption to obtain in-depth understanding of the phenomenon and
+context involved (Marshall & Rossman, 2014).
+
+
+
+Survey Questionnaire
+Each item in the survey instrument is taken from well-established and validated works (Hsu et al., 2014;
+Oliveira et al., 2014) to measure the factors affecting firms intention to adopt cloud computing. The
+summary of the measurement items used for each factor and their related key literature sources are
+shown in Table 2.
+
+
+
+Sample Selection
+For surveys, there are two types of sampling techniques that can be used: probability or non-probability
+sampling (Burmeister & Aitken, 2012). Hence, the study is using a sampling strategy, and MSMEs are
+chosen based on the subjective judgment of the researchers, rather than random selection; a non-
+probability sampling technique will be adopted to select participants. The target survey respondents for
+this quantitative study are decision makers or individuals having an important position to the MSMEs
+
+
+Table 2. Summary of the Questionnaire Instrument
+
+Factor                                              Items                            Reference
+Perceived benefits of cloud (PB)                      6                           Hsu et al. (2014)
+Business concerns of using cloud (BC)                 7
+IT capability (ITC)                                   2
+Competitive pressure (CP)                             3                         Oliveira et al. (2014)
+Regulatory support (RS)                               2
+Cloud-computing adoption (A)                          1
+Source: Authors’ own.
+10                                                                                    Global Business Review
+
+Table 3. Sample Characteristics
+
+Position                       #                %          IT Personnel           #               %
+Asst Vice Pres                 1                3%              0–2              19              63%
+General Manager               21               70%              3–5               7              23%
+IT Manager                     2                7%             6–10               3              10%
+Owner                          6               20%             11–50              1               3%
+IT Budget                      #                             Firm Size            #               %
+Below 500 thousand            24               80%             Micro             18              60%
+Between 1 & 5 million          1                3%             Small              8              27%
+Between 5 & 10 million         1                3%           Medium               2               7%
+Between 500 thousand           3               10%             Large              2               7%
+& 1 million
+Over 10 million                   1             3%
+Source: Authors’ own.
+
+
+
+such as owner, directors and senior IT managers which are the most familiar with the firm direction in
+technology acquisition and implementation (Oliveira et al., 2014).
+
+
+
+Data Gathering
+An online survey was carried out in this study, as this method has numerous strengths compared to other
+survey methods (Senarathna, 2016). By using the Internet, the survey questionnaire was distributed in
+different forms, such as by email with a link to a survey URL, or by email with an embedded survey. It
+guarantees the prospective respondents that their answers will be anonymous and the gathered data will be
+evaluated in an aggregate manner, and individual feedback will be not be associated with the respondents
+(Aboelmaged, 2014). Consequently, there are 30 MSMEs that participated in this study. The data gathering
+was conducted on 3 February 2017, until 15 March 2017 and sample summary is shown in Table 3.
+   Face-to-face interviews were conducted to gain a broad understanding of the participants’ perspectives
+on cloud-computing adoption. Interviews ranged from one to two hours and were recorded for each
+participant. The recorded interview responses were transcribed for analysis. This study ensures that the
+participants understood and informed of the purpose of the study, taken an informed consent form before
+the data collection started. Interview schedules for each participant were prepared and succeeding follow-up
+interview sessions as well. All interview sessions were conducted conveniently for each participant.
+
+
+Data Analysis
+Several processes and analyses were adopted from Senarathna (2016) to test the proposed research
+model; the data were collected using Google forms and spreadsheets; it was then downloaded to a
+statistical application, that is, SPSS to be analysed. Each variable was coded with a numeric value, and
+that was measured based on a five-point Likert’s scale where 1 is the lowest level, and 5 is the highest,
+except for the IT capability, where responses are not based on perceptions; rather, it reflects the actual
+status of the businesses in terms of the number of employees and their current IT division budget. Then
+responses were categorized as (a) 0–2 employees, (b) 3–5 employees, (c) 6–10 employees, (d) 11–50
+Matias and Hernandez                                                                                    11
+
+Table 4. Reliability Indicators
+
+Factor                                              Items                              Alpha
+Perceived benefits of cloud (PB)                      6                                0.902
+Business concerns of using cloud (BC)                 7                                0.885
+Competitive pressure (CP)                             3                                0.758
+Regulatory support (RS)                               2                                0.869
+IT capability (ITC)                                   2                                0.201
+Source: Authors’ own.
+
+
+
+employees, and (e) over 50 employees for the number of IT employees. Similarly, the responses for the
+current budget for the IT division were categorized as (a) below 500 thousand, (b) between 500 thousand
+and 1 million, (c) between 1 and 5 million, (d) between 5 and 10 million, and (e) over 10 million. To
+ensure accuracy, the data were screened to check missing values, outliers and normality. The measure of
+central tendency and the frequency distribution of each item were examined, and the mean value and the
+standard deviation for all elements in each factor were also calculated. The data validity and reliability
+are evaluated to guarantee the data quality for the modelling to undertake. Also, the study used cut-off
+points that are identified (Senarathna, 2016) for reliability. Accordingly, the 0.70 or higher coefficients
+are considered acceptable. Content validity of the research instrument was established as it was lifted
+from well-established and validated works in the pieces of literature and carefully selected and refined
+items to develop the questionnaire. Table 4 shows the reliability statistics with Cronbach’s alpha where
+every factor has greater than 0.7 value, indicating good quality of data.
+
+
+Confirmatory Factor Analysis
+To test the hypothesized research model, we conducted a confirmatory factor analysis (CFA) using structural
+equation modelling (SEM). The measurement model was developed using the AMOS tool and analysis was
+method maximum likelihood estimation (MLE) for estimation procedure. MLE does not require a large
+sample size, and it is the widely used method because it produces reliable results (Alkhalil, Sahandi, &
+
+
+
+
+Figure 3. Structural Equation Modelling Using AMOS Tool
+Source: Authors’ own.
+12                                                                                  Global Business Review
+
+John, 2017). Furthermore, the results suggest that there was adequate fit for the five factors measurements
+(c2 = 4.116, df = 5, GFI = 0.942, RMR = 0.045, RMSEA = 0.000, CFI = 1.00). Figure 3 shows the
+standardized results for the structural model and the extent of the mutual influence among variables.
+
+
+Data Analysis and Results
+Descriptive Statistics
+The descriptive statistics of the variables used in the research model is presented in Table 5. As
+enumerated, the top three perceived benefits of cloud services to a firm indicated by the respondents are
+‘ubiquitous access’, ‘customizability’ and ‘easily analyse data on the Internet’. As for the concerns
+reported by MSME, with some observations being the same as by Hsu et al. (2014), they are as following:
+‘confidentiality’, ‘service outages’, ‘insufficient service quality guarantee’ and ‘vendor lock-in.’ As for
+the organizational context, a respondent indicates that their firm has a lesser number of IT employees and
+lower annual budget for ICT.
+   Table 5 also indicates that cloud computing influenced the business competition and the respondents
+indicate higher awareness about cloud providing legal protection, and laws and regulations. The
+correlation and descriptive statistics of all factors are shown in Table 6, where a significant positive
+relationship between BC and CP, BC and RS, PB and RS, CP and A, and RS and A is shown.
+
+
+Table 5. Averages of Indicators
+
+Factors                        Assessment Indicators                   Average             Percentage
+Perceived benefits of        Customization                               4.133               82.67
+cloud (PB)                   Easily analyse data on Internet             4.033               80.6%
+                             Reduce deployment time                      3.833               76.6%
+                             Reduce IT cost                              3.967               79.3%
+                             Reduce IT employees cost                    3.867               77.3%
+                             Ubiquitous access                           4.167               83.33
+Business concerns of         Confidentiality                             3.500               70.00
+using cloud (BC)             Incompatibility                             2.900               58.00
+                             Insufficient service quality guarantee      2.933               58.67
+                             Internet bottleneck                         2.767               55.33
+                             Service outages                             2.967               59.33
+                             Underperformance                            2.900               58.00
+                             Vendor lock-in                              2.933               58.67
+Competitive pressure (CP)    Influence on competition                    3.400               68.00
+                             Pressure from competitors                   2.500               50.00
+                             Competitors adoption to cloud               2.833               56.67
+                             Computing
+Regulatory support (RS)      Legal protection                            3.833               76.67
+                             Laws and regulations                        3.400               68.00
+IT capability (ITC)          IT employee                                 1.533               30.67
+                             Annual budget                               1.400               28.00
+Cloud computing adoption (A) Intention to adopt                          2.933               58.66
+Source: Authors’ own.
+Matias and Hernandez                                                                                                       13
+
+Table 6. Correlation Matrix and Descriptive Statistics
+
+Factors              PB            BC             ITC             CP            RS       A             Mean        SD
+PB                   1                                                                             4.033      08309
+BC                0.320             1                                                              2.900          0.8448
+ITC              –0.003           0.126             1                                              1.466          0.6686
+CP                0.232           0.456*          0.206            1                               2.911          0.8114
+RS                0.555**         0.429*          0.088          0.307           1                 3.616          0.9439
+A                 0.244           0.234           0.256          0.481**       0.541**   1         2.933          0.6914
+Source: Authors’ own.
+Notes: **: Correlation is significant at the 0.01 level (2-tailed).
+        *: Correlation is significant at the 0.05 level (2-tailed).
+
+
+
+Multiple Linear Regression Analysis
+The proposed framework was tested using the multiple linear regression (MLR) model to understand the
+relationship between independent variables that influence the adoption of cloud computing. MLR
+attempts to model the relationship between independent variables and a response variable by fitting a
+linear equation to observed data.
+   The standard method was used, where all predictors are inputted concurrently into the model.
+Predictors or the independent variables are evaluated by what they add to the prediction of the dependent
+variable. F-test was used to assess whether any of the predictors in an MLR model are significant. After
+the F-value is computed, R-squared or the coefficient of determination is determined, and it will be used
+to examine how close the data are to the fitted regression line. The t-test will be used to check the
+significance of individual regression coefficients and beta coefficients will be used to determine the
+degree of the effect of each predictor to the dependent variable (Statistics Solutions, 2013). MLR results
+shown in Table 7 indicate that among the five indicators presented in the proposed model, competitive
+pressure and regulatory support significantly influence cloud computing adoption, while IT capability,
+perceived benefits and business concern, in contrary to Hsu et al. (2014), are not the significant factors,
+and it is possible that MSMEs are seeing or favouring other issues. It is also observed that PB and BC
+have negative coefficients. This means that MSMEs have believed to have higher comprehensive
+benefits, and expected some potential challenges and concerns in using the cloud; however, this does not
+affect its intention to adopt cloud computing or its acceptance remains low.
+
+
+
+Table 7. Summary of Hypotheses Test
+
+No.         Hypothesis                        Beta Coefficients            T-value       Significance         Supported?
+H1          Perceived benefits                      –0.085                 –0.462            p > .05              No
+            of cloud (PB)
+H2          Business concerns                       –0.156                 –0.858            p > .05              No
+            of using cloud (BC)
+H3          IT capability (ITC)                      0.151                  0.969            p > .05              No
+H4          Competitive pressure (CP)                0.380                  2.172            p < .05              Yes
+H5          Regulatory support (RS)                  0.525                  2.711            p < .05              Yes
+Source: Authors’ own.
+14                                                                                    Global Business Review
+
+    As for competitive pressure, contrary to the results of Hsu et al. (2014) and Oliveira et al. (2014), the
+results show a significant p < 0.05 and positive coefficient (0.323) when firms consider cloud adoption.
+Thus, findings support H4, ‘pressure from competitors encourages MSMEs and positively affect its
+intention to adopt cloud computing.’ According to Gangwar et al. (2015b), when a firm devices new
+business strategy by taking new ICT innovation such as cloud computing, other businesses face stiff
+competition and thus are influenced and pressurised to adopt same technology to keep up with the
+market demands and respond more quickly in the competitive environment (Low et al., 2011).
+    Contrary to the previous research (Hsu et al., 2014; Oliveira et al., 2014), regulatory support also has
+a significant (p < 0.05) and positive coefficient (0.385) and supports H5: governmental regulations
+motivate MSMEs and positively affect its intention to adopt cloud-computing.’ Firms have the desire to
+control its data and resources. If these processes are outsourced to the cloud, businesses need to ensure
+that the provider respects and is in compliance with laws and regulations (Phaphoom et al., 2015).
+    Thus, based on the results, we can reasonably assume that even though the MSMEs believed that they
+could acquire favourable features and advantages by using the cloud, they also anticipated some concerns
+in the technology, as well as believed that cloud computing requires a readily available financial budget.
+Nevertheless, with the absence of competitive pressure and regulatory support, MSMEs will not have the
+intention to adopt cloud computing. As suggested in the study of Lin and Chen (2012), IT personnel in
+every MSMEs do not have an in-depth understanding of the cloud and businesses will have to wait until
+some cases of firms that have successfully adopted and implemented the cloud before they make their
+decision. Accordingly, the absence of guiding policy and standards can prevent MSMEs from adopting the
+cloud and they tend to wait for generally accepted and implemented standards before they decide to adopt.
+    Lastly, it was discussed in Hsu et al. (2014) that the higher value of R-square will result in the
+research model having a greater explanatory power. In this study, the adjusted R-square of the multiple
+linear regression model is 0.333, which means that the model provided a 33.3 per cent of the explanatory
+power with a significance value of the regression model of 0.010 suggesting that the independent
+variables that comprise the model significantly correlated with the dependent variable.
+
+
+
+Qualitative Interviews
+This study also considered the views of the participants, through interviews on the technological,
+organizational and environmental aspects of cloud computing in MSMEs. It is to ensure that the
+perceptions of MSMEs in the Philippines have been captured.
+    All participants recognized the benefits of cloud computing adoption in organizations. A participant
+(IP7) explained that: ‘cloud computing enables our organization to customize, scale and efficiently
+deploy new services to our customers’. Another participant (IP9) confirmed that: ‘Our SaaS reduces
+costs while offering flexibility and quick access to resources as it provides better cloud work options.’
+Similarly, an interview participant (IP 2) points out that: ‘we have 24/7 access to cloud based services,
+we have lesser time in deploying our softwares, maintaining, and still have control over the resources
+needed and used’. Generally, all participants firmly believed that cloud computing adoption introduces
+widespread benefits; however, it is not a significant factor in the decision to adopt it among MSMEs.
+    The business concerns about using cloud computing do not strongly matter to the interview participants.
+All participants have concerns on confidentiality; however, it is confirmed that cloud computing adoption
+is also governed by the existing data privacy laws, which aims to strengthen confidentiality in handling
+data on business operations such as cloud-based systems. It reduces potential adverse risks in deploying
+Matias and Hernandez                                                                                              15
+
+cloud-based services while encouraging uptake among MSMEs. On the other hand, most of the
+participants do not see any potential challenges on incompatibility, service quality, technical bottleneck,
+service outage, underperformance and lock-in with service providers as a range of private cloud
+computing service providers offer competitive strategies and options to start its adoption among MSMEs.
+Moreover, the participants fully understand the implications of cloud computing adoption to business
+operations as well as its sustainability.
+   Concerns on IT capability among the participants were explained by the participants. Currently, a
+limited number of professionals in the country have cloud computing skills. An interview participant
+(IP1) confirmed: ‘We are having difficulty in employing IT professionals with relevant cloud computing
+competency’. Another participant explained the need for training (IP5): ‘We have been sending some of
+our IT professionals to training to ensure we fully understand the technical perspectives, benefits, and
+risks on cloud computing’. On the other hand, the participants noted that the financial budget needed
+does not affect the decision-makers to adopt cloud computing. All participants confirmed that cloud
+computing requires readily available financial budget within the MSMEs.
+   Another factor in the environmental context is competitive pressure, which affects the decisions to
+adopt cloud computing in MSMEs. An interview participant (IP8) explained that cloud computing
+adoption is influenced by competition:
+
+   Our goal is not only to provide value to our customers, however, I firmly believe that decreasing costs, enhancing
+   efficiency and introducing an innovative way of doing business helps in expanding our market share It is a
+   common direction to all SMEs in the Philippines to remain relevant with customers and competitors.
+
+Similarly, a participant (IP3) confirmed that MSMEs progressed in cloud computing adoption: ‘Our
+competitors have a welcoming mindset on cloud computing and deployed different cloud based solutions.
+They see it important to positively impact businesses, become competitive and bring new opportunities
+for stronger market and value-chain’.
+   This study also considered the factor regulatory support in the adoption of cloud computing in MSMEs.
+All participants confirmed the relevance of newly implemented policies and guidelines of the government
+on clouding computing adoption. A participant explained (IP4): ‘I think that the government campaign
+toward cloud computing positively affects our business delivery and operations. We have a guiding
+framework not only from private service providers but also from the government’. Another participant (IP6)
+further explained that the ‘new policies on cloud computing are suitable for MSMEs to strengthen end-to-
+end customer service operations and conducive for new market developments in the country’.
+
+
+Discussion
+The significant finding of this research is that the perceived benefits of cloud, business concerns of using
+a cloud and IT capability are not the main influencers for MSMEs in the Philippines to adopt cloud
+computing, whereas, regulatory support is considered as the most important factor to adopt cloud, and
+followed by competitive pressure.
+   The study hypothesized that MSMEs having recognized higher benefits would be more likely to
+adopt cloud computing. Results suggest that it does not influence firm’s intention, though they understand
+that they could gain relative advantages or benefits by implementing the technology. The study also
+hypothesized that an MSME that recognizes higher levels of business concern has slighter chance to
+adopt cloud computing. Similarly, findings indicate that it does not affect firm’s intention though the
+results observe higher averages.
+16                                                                                    Global Business Review
+
+    Concerning organizational context, the study hypothesizes that an MSME with higher levels of
+technological readiness is more likely to adopt cloud services. MSMEs recognize the benefits and
+advantages of having these technological advancements. Still, the majority of the MSMEs have lesser
+number of IT employees and lower annual budget for ICT. However, results suggest that it does not
+influence a firm’s intention to adopt cloud computing. The study finds that technological advancement
+is recognized by the firm’s management to be beneficial and advantageous to the businesses. Management
+should acquire or develop a competent team of IT personnel to successfully implement new technologies.
+Management should also evaluate the impact of implementing cloud computing and other innovations to
+its annual ICT budget, as they perceive that these technologies provide advantages against the cost of
+equipment and other expenditure. However, these perceptions of cloud benefits and IT capabilities do
+not influence them, or they are still hesitant (Yang & Tate, 2012), unlike large business investing rapidly
+in cloud services.
+    Additionally, with a guiding policy and standards in place in the country, it can positively influence
+MSMEs from adopting the cloud. Since cloud computing poses a variety of issues, it needs appropriate
+legal protection, and proper laws and regulations (Senarathna, 2016).
+    Regarding the environmental context, as businesses feel competitive pressure and once they perceive
+that competitors are adopting to these technologies, they are usually forced to take as they want to keep
+up with the competitive environment (Gangwar et al., 2015b).
+
+
+Theoretical Implications
+Using TOE framework (Hsu et al., 2014; Oliveira et al., 2014), this study is an initial attempt to explore,
+assess and understand factors affecting cloud adoption intention by MSMEs in the Philippines. Based on
+the samples (n = 30), we determined the factors of cloud adoption and used multiple linear regression to
+statically analyse the data obtained. The findings are vital for MSMEs to make a comprehensive decision
+on cloud adoptions.
+   Thus, the study provides theoretical contributions to the technology adoption literature by applying
+an established TOE framework to conduct an initial attempt to investigate the status of adoption of recent
+technology in the Philippines. Results also provided additional perspectives on cloud computing adoption
+since numbers of studies in this area are limited.
+
+
+Managerial Implications
+This study suggests some implications for practice in organizations. First, this study identifies the factors
+affecting the MSMEs decision to adopt cloud computing as IT deployment solution. MSMEs can use the
+findings of this study to make a better decision and further the uptake of cloud computing in organizations.
+Second, the results of the study could be used to further explore the role of IT capability in MSMEs in
+the Philippines considering that cloud computing requires technical competency not only for the cloud
+computing service providers but also for internal stakeholders in MSMEs organizations such as IT
+personnel and project managers, among others. Thus, this situation could be further explained, more
+importantly, the skills readiness among IT professionals involved in cloud computing implementations.
+Third, this study indicates the importance of regulatory support that influences cloud computing adoption
+in MSMEs. The findings could be used by policymakers and industry associations to develop better
+policies and guidelines that incentivize MSMEs in strategically integrating cloud computing solutions
+with a strong position on collaboration on successful adopters and early adopters in organizations.
+Matias and Hernandez                                                                                                17
+
+Hence, MSMEs could better exploit other opportunities of cloud computing to achieve business
+performance and sustainability.
+
+
+Limitations and Future Research
+Despite the contribution of this study, it is not free from limitations. First, the data collection was
+conducted in insufficient time; many firms are still in the stage of understanding what cloud computing
+is rather than studying how to implement the services. Thus, bias could happen; hence, the study method
+of data collection was subjective. Due to limited time, the study data are quite small and limited to the
+southern part of the Philippines. Hence, it is suggested in future work to gather larger data and increase
+coverage. Second, the study is limited to five indicators. Future work could consider other indicators
+such as pricing and types of deployment in future works to further explain the significant factors in cloud
+computing adoption in MSMEs. Furthermore, investigating the relationships and influences of these
+factors in cloud computing adoptions are required. Third, this study could not be used to generalize cloud
+computing adoption in the Asia-Pacific region. Future studies may consider cross-country analysis of
+cloud computing adoption in MSMEs and determine their similarities, differences, and challenges. Also,
+future studies may help in identifying the opportunities for the adoption of best practices in leading
+MSMEs with successful cloud computing implementation.
+
+
+
+Conclusion
+The study aims to evaluate the factors that affect MSMEs intention to adopt cloud computing. The
+findings suggest that competitive pressure and regulatory support influence businesses to adopt cloud
+computing. Conversely, perceived benefits, IT capability and business concerns of using cloud computing
+do not influence cloud computing adoption in organizations. Therefore, this study contributes to
+technology adoption literature by providing a different perspective of cloud computing adoption in a
+developing country perspective with relatively growing MSME markets.
+
+Acknowledgement
+The authors are grateful to the anonymous referees of the journal for their extremely useful suggestions to improve
+the quality of the article. Usual disclaimers apply.
+
+Declaration of Conflicting Interests
+The authors declared no potential conflicts of interest with respect to the research, authorship, and/or publication of
+this article.
+
+Funding
+The authors received no financial support for the research, authorship, and/or publication of this article.
+18                                                                                     Global Business Review
+
+Appendix A.
+
+                                     Technology              Organizational            Environmental
+Author                     Model     Context                 Context                   Context
+Alshamaila et al. (2013)   DOI-TOE   • Relative advantage   • Size                   • Competitive pressure
+                                     • Uncertainty          • Top management         • Industry
+                                     • Compatibility           support                • Market scope
+                                     • Complexity           • Innovativeness         • Supplier computing
+                                     • Trialability         • Prior technology          support
+                                                                experience
+Gupta, Seetharaman,        DOI       • Cost reduction
+and Raj (2013)                       • Ease of use and
+                                        convenience
+                                     • Security and privacy
+                                     • Sharing and
+                                        collaboration
+                                     • Service provider
+                                        Reliability
+Makena (2013)              TOE       • Relative advantage   • Top management
+                                     • Competitiveness         support
+                                     • Complexity           • Size
+                                     • Compatibility
+                                     • Technology readiness
+Abubakar et al. (2014)     DOI       • Cost Benefits        • Top management
+                                     • Security and privacy    support
+                                     • Data loss
+Abdullah and Hassan        DOI       • Fitness of cloud     • Top management
+(2015)                                  vendors                 support
+                                     • Compatibility        • Resistance towards
+                                     • Presence of IT          adopting a new
+                                        Infrastructure          technology
+Boateng and Essandoh       TOE       • Triability           • Learning Capability    • First Adopters in
+(2014)                               • IT Infrastructure    • Non-performance           Our Industry
+                                        and Resources           of Cloud Services to   • User and Technical
+                                        Compatibility           support Operations        Support from
+                                        Security             • Top Management            Provider
+                                                                Support and            • Choice of Skilled
+                                                                Involvement               and Expert Cloud
+                                                             • Resistance towards        Vendors
+                                                                New Technologies       • Influence of Market
+                                                                Conformity with           Scope
+                                                                Work Culture and       • The Nature of
+                                                                Style                     Industry Relationship
+                                                             • Organizational            with Providers
+                                                                Structure and Size     • Government and
+                                                                                          Competitors
+                                                                                                    (continued)
+Matias and Hernandez                                                                                        19
+
+
+Appendix A. (continued)
+
+                                   Technology                Organizational           Environmental
+Author                   Model     Context                   Context                  Context
+Prasad and Green         TOE                                 • Strategic and         • External factors
+(2015)                                                          incremental intent
+                                                             • Organizational
+                                                                structure and culture
+                                                             • Human resource
+                                                                capacity
+Al-Ismaili, Li, Shen,    DOI-TOE   • Security Concerns      • Top Management        • External Support
+He (2016)                          • Cost Savings              Support                  Market Scope
+                                   • Relative Advantage     • Innovativeness of the
+                                   • Privacy Risk              Firm
+                                   • Compatibility          • IS knowledge
+                                   • Trialability           • Firm Size
+Senarathna (2016)        DOI-TOE   • Cloud relative         • Awareness of Cloud
+                                      advantages
+                                   • Cloud flexibility
+                                   • Quality of service
+                                      (QoS)
+                                   • Cloud security (CS)
+                                   • Cloud privacy
+Amini and Bakri (2015)   DOI-TOE   • Relative Advantage     • Top Manager          • Competitive Pressure
+                                   • Compatibility             Support              • Regulatory Support
+                                   • Security Concerns
+                                   • Cost Savings
+                                      Technology
+                                      Readiness
+Karkonasasi (2016)       TOE       • Cost Savings           • Top Management       • Competitive Pressure
+                                   • Security and Privacy      Support              • Trading Partner
+                                      Reliability                                       Pressure
+Nuskiya (2017)           TOE       • Security Concern       • Top Management
+                                   • Technology                Support
+                                      Readiness              • Firm Size
+Chemjor and Lagat        TOE       • Relative Advantage     • Top Management       • Competitive Pressure
+(2017)                             • Compatibility             Support                 Trading Partners
+                                   • Technology             • Firm Size               Pressure
+                                      Readiness
+                                      Complexity
+Sandu and Gide (2018)    TOE       • Technology             • Top Management       • Regulatory Support
+                                      Readiness                 Support
+20                                                                                          Global Business Review
+
+References
+Abdullah, M. I., & Zainuddin Hassan, P. (2015). A Cloud Technology Migration Management Strategy Model for
+    Sme’s in Iraq : An Overview. Journal of Theoretical and Applied Information Technology, 31(3). Retrieved from
+    www.jatit.org
+Aboelmaged, M. G. (2014). Predicting e-readiness at firm-level: An analysis of technological, organizational and
+    environmental (TOE) effects on e-maintenance readiness in manufacturing firms. International Journal of
+    Information Management, 34(5), 639–651. Retrieved from https://doi.org/10.1016/j.ijinfomgt.2014.05.002
+Abolfazli, S., & Sanaei, Z. (2015). Cloud adoption in Malaysia: Trends, opportunities, and challenges, 1–7. Retrieved
+    from https://doi.org/10.1108/02656710210415703
+Abubakar, A. D., Bass, J. M., & Allison, I. (2014). Cloud Computing: Adoption Issues for Sub-Saharan African
+    Smes. Retrieved from www.ejisdc.org
+ACCA. (2016). Cloud Readiness Index 2016: Asia Cloud Computing Association. Retrieved from http://www.
+    asiacloudcomputing.org/images/documents/cri2016_acca.pdf
+Ajzen, I. (1991). The theory of planned behavior. Organizational Behavior and Human Decision Processes, 50(2),
+    179–211.
+Al-Ismaili, S., Li, M., Shen, J., & He, Q. (2016). A Consumer-Oriented Decision-Making Approach for Selecting the
+    Cloud Storage Service: From PAPRIKA Perspective. Lecture Notes in Business Information Processing.
+    Retrieved from http://ro.uow.edu.au/eispapers1/779
+Alkhalil, A., Sahandi, R., & John, D. (2017). An exploration of the determinants for decision to migrate existing
+    resources to cloud computing using an integrated TOE-DOI model. Journal of Cloud Computing, 6(1). Retrieved
+    from https://doi.org/10.1186/s13677-016-0072-x
+Alkhater, N., Wills, G., & Walters, R. (2014). Factors influencing an organisation’s intention to adopt cloud
+    computing in Saudi Arabia. 2014 IEEE 6th International Conference on Cloud Computing Technology and
+    Science, 1040–1044. Retrieved from https://doi.org/10.1109/CloudCom.2014.95
+Alshamaila, Y., Papagiannidis, S., & Li, F. (2013). Cloud computing adoption by SMEs in the north east of
+    England. Journal of Enterprise Information Management, 26(3), 250–275. Retrieved from https://doi.org/
+    10.1108/17410391311325225
+Amini, M., & Bakri, A. (2015). Cloud Computing Adoption by SMEs in the Malaysia: A Multi-Perspective
+    Framework based on DOI Theory and TOE Framework. Retrieved from https://www.researchgate.net/
+    publication/308612049
+Burmeister, E., & Aitken, L. M. (2012). Sample size: How many is enough? Australian Critical Care, 25(4), 271–
+    274. Retrieved from https://doi.org/10.1016/j.aucc.2012.07.002
+Chemjor, E. M., & Lagat, C. (2017). Determinants of Level of Cloud Computing Adoption in Small and Medium
+    Enterprises in Nairobi County, Kenya. International Journal of Economics, Commerce and Management.
+    Retrieved from http://ijecm.co.uk/
+Davis, F. D., Bagozzi, R. P., & Warshaw, P. R. (1992). Extrinsic and intrinsic motivation to use computers in the
+    workplace 1. Journal of Applied Social Psychology, 22(14), 1111–1132.
+Depietro, R., Wiarda, E., & Fleischer, M. (1990). The context for change: Organization, technology and environment.
+    The Processes of Technological Innovation, 151–175.
+DTI. (2014). MSME Statistics. Retrieved from http://www.dti.gov.ph/dti/index.php/2014-04-02-03-40-26/
+    news-room/179-workshop-on-market-access-for-smes-set
+Fishbein, M., & Ajzen, I. (2011). Predicting and changing behavior: The reasoned action approach. London:
+    Psychology Press.
+Gangwar, H., Date, H., & Ramaswamy, R. (2015a). Developing a cloud-computing adoption framework. Global
+    Business Review, 16(4), 632–651. Retrieved from https://doi.org/10.1177/0972150915581108
+———. (2015b). Understanding determinants of cloud computing adoption using an integrated TAM-TOE model.
+    Journal of Enterprise Information Management, 28(1), 107–130. Retrieved from https://doi.org/10.1108/
+    JEIM-08-2013-0065
+Garrison, G., Wakefield, R. L., & Kim, S. (2015). The effects of IT capabilities and delivery model on cloud
+    computing success and firm performance for cloud supported processes and operations. International Journal of
+    Information Management, 35(4), 377–393. Retrieved from https://doi.org/10.1016/j.ijinfomgt.2015.03.001
+Matias and Hernandez                                                                                              21
+
+Government Cloud. (2017). iGovPhil Program. Retrieved 30 May 2018, from http://i.gov.ph/govcloud/
+Gupta, P., Seetharaman, A., & Raj, J. R. (2013). The usage and adoption of cloud computing by small and medium
+    businesses. International Journal of Information Management, 33(5), 861–874. Retrieved from https://doi.
+    org/10.1016/j.ijinfomgt.2013.07.001
+Hsu, P. F., Ray, S., & Li-Hsieh, Y. Y. (2014). Examining cloud computing adoption intention, pricing mechanism,
+    and deployment model. International Journal of Information Management, 34(4), 474–488. Retrieved from
+    https://doi.org/10.1016/j.ijinfomgt.2014.04.006
+Karkonasasi, K., Baharudin, A. S., Esparham, B., Mousavi, S. A., & Suhaimi Baharudin, A. (2016). Adoption of
+    Cloud Computing Among Enterprises in Malaysia. Indian Journal of Science and Technology, 9(48). Retrieved
+    from https://doi.org/10.17485/ijst/2016/v9i48/88128
+Lin, A., & Chen, N. C. (2012). Cloud computing as an innovation: Percepetion, attitude, and adoption. International
+    Journal of Information Management, 32(6), 533–540. Retrieved from https://doi.org/10.1016/j.ijinfomgt.
+    2012.04.001
+Makena, J. N., & Kenyatta, J. (2013). Factors that affect cloud computing adoption by small and medium enterprises
+    in Kenya. International Journal of Computer Applications Technology and Research, 2(5), 517–521. Retrieved
+    from www.ijcat.com
+Marshall, C., & Rossman, G. (1999). Designing qualitative research. Journal of Marketing Research (Vol. 27).
+    SAGE Publications.
+Nuskiya, F. A. (2017). Factors Influencing Cloud Computing Adoption by SMEs in Eastern Region of Sri Lanka.
+    Journal of Information Systems & Information Technology (JISIT), 2. Retrieved from http://ir.lib.seu.ac.lk/
+    bitstream/handle/123456789/3008/Paper2.pdf?sequence=1&isAllowed=y
+Oliveira, T., & Martins, M. F. (2011). Literature review of information technology adoption models at firm
+    level. Electronic Journal of Information Systems Evaluation, 14(1), 110.
+Oliveira, T., Thomas, M., & Espadanal, M. (2014). Assessing the determinants of cloud computing adoption: An
+    analysis of the manufacturing and services sectors. Information and Management, 51(5), 497–510. Retrieved
+    from https://doi.org/10.1016/j.im.2014.03.006
+Phaphoom, N., Wang, X., Samuel, S., Helmer, S., & Abrahamsson, P. (2015). A survey study on major technical
+    barriers affecting the decision to adopt cloud services. Journal of Systems and Software, 103, 167–181. Retrieved
+    from https://doi.org/10.1016/j.jss.2015.02.002
+Prasad, A., & Green, P. (2015). Governing cloud computing services: Reconsideration of IT governance structures.
+    International Journal of Accounting Information Systems, 19, 45–58. Retrieved from https://doi.org/10.1016/j.
+    accinf.2015.11.004
+Priyadarshinee, P., Jha, M. K., Raut, R. D., & Kharat, M. G. (2016). Risk analysis in adoption of cloud computing
+    in SMEs—a literature review. International Journal of Business Information Systems, 23(1), 54. Retrieved from
+    https://doi.org/10.1504/IJBIS.2016.078023
+Repschlaeger, J., Zarnekow, R., Wind, S., & Klaus, T. (2012). Cloud requirement framework: Requirements and
+    evaluation criteria to adopt cloud solutions. 20th European Conference on Information Systems, 1–12. Retrieved
+    from http://aisel.aisnet.org/ecis2012/42/
+Rogers, E.M. (2003). Diffusion of innovations (5th ed.). New York, NY: Free Press.
+———. (2010). Diffusion of innovations. New York, NY: Simon and Schuster.
+Sandu, R., & Gide, E. (2018). Technological, Organisational and Environmental (TOE) Factors that Influence the
+    Adoption of Cloud Based Service SMEs in India. In 2018 IEEE 11th International Conference on Cloud
+    Computing (CLOUD) (pp. 866–870). IEEE. Retrieved from https://doi.org/10.1109/CLOUD.2018.00123
+Senarathna, I. R. (2016). Cloud computing adoption by SMEs in Australia. Retrieved from http://dro.deakin.edu.au/
+    view/DU:30088887
+Senate of the Philippines. (2012). At a glance, the MSME sector. Retrieved from https://www.senate.gov.ph/
+    publications/AG 2012-03 - MSME.pdf
+Sharma, M., Gupta, R., & Acharya, P. (2017). Prioritizing the critical factors of cloud computing adoption using
+    multi-criteria decision-making techniques. Global Business Review. Retrieved from https://doi.org/10.1177/
+    0972150917741187
+22                                                                                           Global Business Review
+
+Sharma, S. K., Al-Badi, A. H., Govindaluri, S. M., & Al-Kharusi, M. H. (2016). Predicting motivators of cloud
+    computing adoption: A developing country perspective. Computers in Human Behavior, 62, 61–69. Retrieved
+    from https://doi.org/10.1016/j.chb.2016.03.073
+Statistics Solutions. (2013). Data analysis plan: Multiple linear regression. Retrieved from https://www.
+    statisticssolutions.com/data-analysis-plan-multiple-linear-regression/
+Tarutė, A., & Gatautis, R. (2014). ICT impact on SMEs performance. Procedia–Social and Behavioral Sciences,
+    110, 1218–1225. Retrieved from https://doi.org/10.1016/j.sbspro.2013.12.968
+Terrell, S. R. (2012). Mixed-Methods Research Methodologies. The Qualitative Report, 17(1), 254–280.
+Tornatzky, L. G., Fleischer, M., & Chakrabarti, A. K. (1990). The processes of technological innovation. Issues in
+    organization and management series. Lexington Books. Retrieved from http://www. amazon. com/Processes-
+    Technological-Innovation Organization/Management/dp/0669203483
+Uygun, Ö., Canvar Kahveci, T., Taşkin, H., & Piriştine, B. (2015). Readiness assessment model for institutionalization
+    of SMEs using fuzzy hybrid MCDM techniques. Computers and Industrial Engineering, 88, 217–228. Retrieved
+    from https://doi.org/10.1016/j.cie.2015.07.008
+Venkatesh, V., & Davis, F. D. (2000). A theoretical extension of the technology acceptance model: Four longitudinal
+    field studies. Management Science, 46(2), 186–204.
+Yang, H., & Tate, M. (2012). A descriptive literature review and classification of cloud computing research.
+    Communications of the Association for Information Systems, 31(2), 35–60. Retrieved from https://doi.
+    org/10.1.1.261.3070
+Yang, Z., Sun, J., Zhang, Y., & Wang, Y. (2015). Understanding SaaS adoption from the perspective of organizational
+    users: A tripod readiness model. Computers in Human Behavior, 45, 254–264. Retrieved from https://doi.
+    org/10.1016/j.chb.2014.12.022
+Yeboah-Boateng, E. O., & Essandoh, K. A. (2014). Factors Influencing the Adoption of Cloud Computing by Small
+    and Medium Enterprises in Developing Economies. International Journal of Emerging Science and Engineering
+    (IJESE), 2. Retrieved from https://doi.org/10.1634/theoncologist.2013-0456
+

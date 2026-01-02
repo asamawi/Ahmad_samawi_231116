@@ -1,0 +1,862 @@
+                                                                                     International Journal of E-Business Research
+                                                                                                                 Volume 19 • Issue 1
+
+
+
+
+Reaching for the “Cloud”:
+The Case of an SME in a Developing Economy
+Eric Ansong, Wisconsin International University College, Ghana*
+    https://orcid.org/0000-0002-0262-3485
+
+Sheena Lovia Boateng, Business School, University of Ghana, Ghana
+    https://orcid.org/0000-0002-4512-4555
+
+
+
+
+ABSTRACT
+
+Cloud computing adoption and utilization is gaining prominence in most developing countries. Its
+adoption is influenced by several factors, which can constitute a limitation rather than an advantage
+for firms. This research, therefore, explored the issues surrounding the adoption of cloud computing
+by small and medium-sized enterprises (SMEs) in a developing economy. An SME operating in
+Ghana for over five years was purposively selected as the case for the study. Technology-organization-
+environment (TOE) framework served as a guiding lens. Interviews were held with selected staff of
+the case firm. Data were analyzed using the Miles and Huberman’s transcendental realism technique.
+It was discovered that the motivation for cloud computing adoption is the possibility of getting a state-
+of-the-art IT infrastructure at the lowest cost possible. The study presents the factors that influenced
+cloud computing adoption in the SME. The study contributes to improving the present understanding
+of cloud computing as an SME’s strategic tool for operating within a developing economy.
+
+Keywords
+Cloud Computing, Developing Economy, Small and Medium-Sized Enterprises, Sustainable Development,
+Technology Adoption, TOE Framework
+
+
+
+INTRODUCTION
+
+Cloud computing, often referred to as simply “the cloud,” is the delivery of on-demand computing
+resources – everything from applications to data centres over the internet on a pay-for-use basis
+(Al-Hujran et al., 2018). In essence, cloud computing is the new form of data storage in the 21st
+century – used mostly by businesses from all sectors of which Small and Medium-sized Enterprises
+(SMEs) are of no exception (Jayeola et al., 2022). For instance, SMEs are a critical component of
+the Ghanaian economy, providing about 80 percent of employment opportunities and contributing
+
+
+
+DOI: 10.4018/IJEBR.319324                                                                                      *Corresponding Author
+        This article published as an Open Access article distributed under the terms of the Creative Commons Attribution License
+        (http://creativecommons.org/licenses/by/4.0/) which permits unrestricted use, distribution, and production in any medium,
+                        provided the author of the original work and original publication source are properly credited.
+
+
+                                                                                                                                    1
+International Journal of E-Business Research
+Volume 19 • Issue 1
+
+
+
+about 70 percent to the country’s Gross Domestic Product (GDP). Furthermore, SMEs account for
+approximately 92 percent of all businesses in Ghana (Quartey et al., 2017; Sasu, 2022).
+      In Ghana, businesses are increasingly relying on mobile cloud applications to serve their
+customers and clients (Edu, 2022). Additionally, governments and non-governmental organizations are
+recognizing the potential of cloud-based technologies to facilitate economic and social transformation,
+particularly in areas such as education, public health, and environmental sustainability (Abubakar,
+2016; Liu et al., 2022). To remain competitive, enterprises must embrace and adopt innovative
+technologies and practices that enable them to deliver advanced products and services that meet the
+evolving demands of the market. Cloud services are particularly advantageous for Small and Medium-
+sized Enterprises (SMEs), as they enable these businesses to take advantage of the opportunities
+presented in a rapidly evolving and dynamic information and communication technology (ICT)
+environment (Assante et al., 2016; Al-Hujran et al., 2018).
+      Paradoxically, SMEs have little to no competitive advantage as compared to large-scale businesses
+due to the scarcity of resources and the inability or difficulty to acquire an expensive Information
+Communication Technology (ICT) infrastructure (Abor & Quartey, 2010; Khayer et al., 2021). For
+this reason, SMEs are unable to fully compete on an acceptable level with large scale businesses.
+Cloud computing, a new technological paradigm, is therefore regarded as a panacea to assuaging this
+challenge (Easmon et al., 2019; Jayeola et al., 2022). Cloud computing provides simple, scalable as
+well as readily available technological solutions. Again, it grants SMEs access to similar technologies
+utilized by large businesses devoid of high costs and risks (Yeboah-Boateng & Essandoh, 2014;
+Khayer et al., 2021).
+      Previous cloud computing studies tend to focus on developed economies where there is a seeming
+formalized digital economic structure. This assertion is highlighted in the meta-analysis of cloud
+computing research in information systems by Senyo et al. (2018) where majority of the studies were
+conducted in developed economies. This gap is particularly apparent in sub-Saharan Africa and most
+developing economies. According to Yeboah-Boateng and Essandoh (2014) and Khayer et al. (2021),
+this is mainly attributable to cloud computing being in its early stages in developing economies. Extant
+studies (e.g., Abubakar, 2016; Al-Hujran et al., 2018; Khayer et al., 2021) also suggests for further
+research in cloud computing adoption by SMEs in emerging economies. Such a study is envisaged
+to provide insights from the developing economy perspective on how cloud computing is growing
+and how practitioners in SMEs and future entrepreneurs take advantage of the cloud and gain a more
+competitive advantage from it.
+      In addition, calls have been made for technology adoption to be examined from a multidimensional
+approach at the organisational level (Al-Hujran et al., 2018; Ansong & Boateng, 2018; Bose &
+Luo, 2011). Ansong and Boateng (2018), for instance, examined telecommuting adoption using a
+comprehensive framework that viewed adoption from the Technological, Organisational and the
+Environmental perspectives. This multidimensional approach provides a comprehensive perspective
+on the factors that influence technology adoption at the organisational level (Amini & Javid, 2023;
+Mohammad et al., 2022; Nkhoma & Dang, 2013; Oliveira & Martins, 2011; Tornatzky & Fleischer,
+1990).
+      The above discussions in extant literature call for a study on cloud computing adoption by SMEs
+in a developing economy from a multidimensional perspective – technological, organisational and
+environmental. This will be relevant in the current discourse of technology adoption, especially from
+a developing economy perspective where SMEs are entreated to play significant roles in helping
+with economic development as Adjabeng and Osei (2022) intimated. Specifically, this research was
+guided by the following questions;
+
+1.   What is the nature of usage of cloud computing by SMEs in Ghana?
+2.   What are the factors that influence the adoption of cloud computing by SMEs in Ghana?
+
+
+
+2
+                                                                International Journal of E-Business Research
+                                                                                            Volume 19 • Issue 1
+
+
+
+    This study is one of the handfuls of studies on cloud computing in a developing country that
+focuses on the SME industry. This adds to the knowledge of cloud computing from a developing
+economy perspective and serves as a reference for further studies on the subject matter. The
+remainder of the paper is structured into five sections. The second section reviews the literature on
+cloud computing. The third section discusses the methodology, while the fourth section presents the
+analysis and discussion of findings. The study concludes in the fifth section with a summary and
+recommendations.
+
+
+BACKGROUND
+
+The Small and Medium-Sized Enterprise (SME) Landscape in Ghana
+The significant contributions of SMEs to the economic growth and development of national economies,
+particularly in developing countries, have been emphasized by a number of empirical studies (e.g.,
+Abor & Quartey, 2010; Adjabeng & Osei, 2022; Quartey et al., 2017). SMEs make up over 90 percent
+of businesses in the world and account for 50–60 percent of employment (Fafunwa & Odufuwa, 2023).
+In developing countries, formal SMEs contribute up to 60 percent of total employment and up to 40
+percent of Gross Domestic Products (GDP) (World Bank, 2019). Furthermore, SMEs account for
+98 percent of enterprises, 50–80 percent of industrial employment, and 50 percent of manufacturing
+output in developing countries (Fafunwa & Odufuwa, 2023).
+      Abor and Quartey (2010) argue that data is not readily available on the exact number of SMEs
+in Ghana. Still, statistics from the Registrar General’s Department shows that about 90 per cent of
+registered companies in Ghana are SMEs. The statistics on SMEs are inadequate for a number of
+reasons: lack of a uniform definition, high cost of conducting an industrial census, and the fact that
+many SMEs do not register and remain outside the formal economy (Sasu, 2022).
+      SMEs in Ghana contribute significantly to the development of the economy. It is asserted in extant
+research (e.g., Abor & Quartey, 2010; Quartey et al., 2017; Sasu, 2022) that SMEs account for about
+92 percent of all formal businesses and offers 80 percent employment in addition to contributing to
+about 70 percent of Ghana’s Gross Domestic Products (GDP).
+      Generally, SMEs in Ghana are mostly owned and managed by a single person, who is in charge
+of all major decisions. Furthermore, SMEs in Ghana are known to mainly serve the local market. On
+the other hand, only a handful of these SMEs have the capability and resources to serve international
+markets. This is mostly due to the huge capital requirements for engaging in export trade, as well
+as the owner’s lack of education, training, and awareness of opportunities. Most of these SMEs are
+labour-intensive and often operate with low technological know-how and innovation (Al-Hujran et
+al., 2018; Donkor et al., 2018; Khayer et al., 2021).
+      In spite of the challenges, the significant role of SMEs in the economy of Ghana cannot be
+overemphasized (Easmon et al., 2019). It is, therefore, prudent to explore ways to improve their
+performance to become competitive both locally and internationally using digital innovations.
+This is because existing research (Evans, 2019; Jayeola et al., 2022) corroborates the assertion that
+digital innovations, such as cloud computing, have significant positive effects on the development
+of enterprises.
+
+Impacts of Cloud Computing on the Operations of SMEs
+SMEs benefit from cloud computing in several ways. First, cloud computing provides scalable
+resources (Abubakar, 2016). In cloud computing, SMEs can use as many resources as they require
+and these resources can be integrated smoothly in their operations. Second, the resources can be
+purchased with operational funds rather than as a capital expenditure (Dincă, Dima & Rozsa, 2019).
+The process for capital building usually takes a longer time, and many SMEs may face some difficulties
+in getting this type of fund. Another cloud computing advantage is the ability for multiple users to
+
+
+                                                                                                             3
+International Journal of E-Business Research
+Volume 19 • Issue 1
+
+
+
+collaborate on projects or documents in the cloud. It can bring together the key players in business.
+This could be in the form of helping teams, customers and suppliers to meet and share ideas as well
+as conducting business transactions effectively and without delay (Al-Hujran et al., 2018).
+     Through the use of cloud computing infrastructure, SMEs will not be required to invest in
+purchasing and maintaining ICT equipment for business operations. The SMEs, thus, are not required
+to invest in hardware, software, utilities as well as constructing data centres to manage the business.
+In addition, the SME do not need large IT teams to manage their operations as the firm may enjoy
+the expertise of their cloud service provider’s staff. These benefits therefore allow the SMEs to spend
+their time and money on their core business operations (Dincă et al., 2019; Jayeola et al, 2022).
+     Another major contribution of cloud computing in the operations of SMEs is Data security.
+Data security is a major concern for every firm irrespective of its size, age or industry of operation.
+Abubakar (2016) assert that cybercrimes and data breaches have a devastating effect on the revenues
+of businesses including customer loyalty and brand positioning. Through cloud computing, SMEs are
+guaranteed of secured data storage. Thus, cloud computing service providers implement advanced
+data protection features for their platforms (Dincă et al., 2019; Al-Hujran, et al., 2018).
+
+Theoretical Foundation to Innovation Adoption
+In recent times, SMEs are increasingly using and adopting ICT due to the advent of Personal
+Computers, cost-effectiveness and cheaper ICT products such as cloud computing (Al-Hujran et al.,
+2018). Jayeola et al. (2022) assert that the adoption of innovations including cloud computing provides
+numerous opportunities for SMEs to compete equally with the large corporations.
+     Dominant frameworks used in Information Systems research on innovation adoption include
+Technology Acceptance Model (TAM), Task-Technology Fit (TTF), Technology Organization
+Environment (TOE) framework, information system (IS) success model, Diffusion of Innovation (DoI),
+Delone and McLean model (D&M model). Nevertheless, the Technology Organization Environment
+(TOE) framework has been used extensively in Information Systems research to investigate a number
+of technology innovations (Dincă et al., 2019; Oliveira et al., 2014). The TOE framework is about
+the only framework that combines the three major determining factors that influence the adoption of
+technology; Environment, Technology and Organisation (Ansong & Boateng, 2018; Gangwar et al.,
+2015). This therefore justifies the adoption of the TOE framework as the guiding lens in the conduct
+of this study on cloud computing adoption in SME.
+
+The Technology-Organization-Environment (TOE) Framework
+Tornatzky and Fleischer (1990) developed the Technological-Organizational-Environmental
+(TOE) framework based on the Contingency theory. The Contingency theory proposes that for an
+organization to be effective, there should be a structure that is in line with the needs of the environment.
+Therefore, the organization’s ability to adopt innovations depends on its suitability for factors such
+as organizational size, environment, and strategy (Donaldson, 2001).
+      The TOE framework identifies three major contexts that influence the process through which
+organizations adopt and implement technological innovations: technological context, organizational
+context, and environmental context. Figure 1 outlines the framework as proposed by Tornatzky and
+Fleischer (1990).
+      The Technological context consists of all the technical issues which can be internal or external that
+influence the firm’s adoption of Technology. These technological factors consist of internal equipment
+and the current practices associated with technology. Some technological factors that influence the
+adoption of cloud computing in organisations include: compatibility (Chiu et al., 2017; Oliveira et
+al., 2014), security (Lian, 2015; Abdollahzadegan et al., 2013; Baker, 2011), relative advantage (Chiu
+et al., 2017; Oliveira et al., 2014), technological trend (Pateli et al., 2020) and trialability (Dincă et
+al., 2019; Yeboah-Boateng & Essandoh, 2014).
+
+
+
+4
+                                                                 International Journal of E-Business Research
+                                                                                             Volume 19 • Issue 1
+
+
+Figure 1.
+The TOE framework (Tornatzky & Fleischer, 1990)
+
+
+
+
+     The Organizational context denotes issues about the organisation and its human ware that
+influence the adoption of Technology. Some organisational factors that influence the adoption of
+innovation within the organisation include the firm size, top management support, organization
+structure, organization culture, and the availability of human and slack resources (Pateli et al., 2020;
+Ansong & Boateng, 2018; Chiu et al., 2017; Oliveira et al., 2014).
+     The Environmental context is also the market space where the organisation conducts its business
+activities which influence the adoption of technological innovations. The environmental factors
+may include competitive pressure, the industry of the firm, venders and business partners as well as
+relationships with governmental agencies (Pateli et al., 2020; Ansong & Boateng, 2018; Chiu et al.,
+2017; Lian, 2015; Oliveira et al., 2014). It is asserted that for an organization to adopt either existing
+or latest technology, such environmental factors play important roles.
+     Managers of organizations are therefore to consider the environmental, organizational and
+technological issues before making innovation adoption decisions. The TOE framework combines
+the technological, organizational and environmental factors of adoption, which other information
+adoption theories seem to be deficient in (Gangwar et al., 2015). The factors constituting the three
+contexts (Technological, Environmental and Organisational) were utilized in examining the factors
+that contributed to the adoption of cloud computing.
+
+
+METHODOLOGY
+
+Literature on cloud computing adoption was discussed in the previous section. This led to the
+development of the conceptual model guided by the TOE framework. The methodology for the study
+is presented in this section.
+     Critical realism was the guiding paradigm for the conduct of this study. Critical realism allows
+information systems researchers to get beneath the surface to understand and explain why things are
+
+
+
+                                                                                                              5
+International Journal of E-Business Research
+Volume 19 • Issue 1
+
+
+
+as they are, and the mechanisms that shape such observable events (Mingers, 2004). This therefore
+justified its selection as the guiding lens in the conduct of this study.
+     The approach for this study, based on the critical realism paradigm, was the qualitative method
+as it seeks to understand issues or situations by investigating the perspectives and behaviour of the
+people in cases and context within which they act (Kaplan & Maxwell, 2005). The qualitative method
+therefore best serve the purpose of the study on exploring the nature of usage and the adoption factors
+of cloud computing by SMEs in Ghana.
+     The focus of a case study is on the in-depth understanding of the phenomenon and its context
+(Cavaye, 1996). With this as the backbone, a case study was deemed the best strategy to carry out
+this research (Alshamaila et al., 2013). In this regard, an SME which has been operating within the
+service sector of Ghana since 2014 was selected as the case for the study. It is worth noting that this
+firm has adopted cloud computing, and it has been embracing technological innovations over the
+years. This firm currently has five employees who are full-time staff. Based on these characteristics,
+the SME was deemed fit to be purposively selected as the case for this study.
+     According to Benbasat et al. (1987), a case study should employ two or more sources of data
+collection to converge to support the research findings. Furthermore, case studies’ evidence can stem
+from six sources, namely: documents, archival records, interviews, direct observation, participant-
+observation, and physical artefacts (Yin, 2009). This research utilized almost all the listed sources of
+data collection. The primary data collection was however through interviews with personnel of the
+case SME while the other sources were utilized to verify or confirm information obtained from the
+interviews. Interviews were conducted with four personnel including the business owner who is also
+the Chief Executive Officer – directs the operations of the firm. This was done to solicit how they
+viewed cloud computing from their angles of operations in the firm. All interviews were carried out
+within the premises of the case SME. This allowed for the direct observation of activities within the
+case SME. Table 1 presents the demographic characteristics of the list of interviewees.
+     Boateng (2019) asserts that during the interview, the researcher should take notes and read through
+them to sort out and categorize the data concerning its relevance to the different respondents and to the
+research questions to be addressed. With this as a backbone, all data collected for this research from
+the field were organized, interviews were transcribed, field notes well-arranged to make logical sense.
+Therefore, the transcribed interviews were read repeatedly to gain the most out of the information
+generated to facilitate the analysis. The data collection took place between 21st and 30th June 2019.
+
+
+ANALYSIS OF DATA
+
+The analysis was done by drawing themes from the tape-recorded interviews, which were transcribed
+verbatim without paraphrasing. The analysis thus followed the Miles and Huberman’s (1994)
+transcendental realism technique (Figure 2) which highlights three main components for analysis;
+data reduction, data display and drawing and verifying conclusions.
+
+
+Table 1.
+Demographic characteristics of Interviewees
+
+
+    ID    Interviewee’s position         Highest level of   Gender    Years spent in       Duration of
+                                           education                   current role         Interview
+    1    Service Delivery Officer   Bachelor’s degree       Female        2 years          30 minutes
+    2    Software Developer         Professional degree      Male         3 years          45 minutes
+    3    Helpdesk System Analyst    Bachelor’s degree       Female        4 years          45 minutes
+    4    Chief Executive Officer    Bachelor’s degree        Male         5 years          30 minutes
+
+
+6
+                                                                    International Journal of E-Business Research
+                                                                                                Volume 19 • Issue 1
+
+
+Figure 2.
+Miles and Huberman’s (1994) transcendental Data Analysis Approach
+
+
+
+
+     In data reduction, the raw data is transformed into a more manageable and meaningful form,
+while preserving its essential meaning and integrity. Miles and Huberman (1994) suggest several
+techniques for data reduction, including coding, categorizing, and summarizing. This is applied and
+presented in this study in Figures 3, 4 and 5 as First-order codes.
+     The second component of the analysis technique is the data display which involves visual
+representation of data and the patterns and themes that have emerged from the data analysis. Miles
+and Huberman (1994) suggest that data display should be used to highlight patterns and relationships
+in the data, and to provide a visual representation of the findings that is accessible and understandable
+to others. The themes and patterns are also drawn and displayed in Figures 3, 4, and 5 as Second
+order constructs.
+     The final stage of the data analysis is where conclusions are drawn. These conclusions are
+presented as Aggregate Theoretical dimensions in Figures 3, 4 and 5 of this study.
+
+Nature of Cloud Computing in the Case Firm
+The firm chosen for this case has adopted cloud computing. This was the main criteria used in selecting
+the SME as the case for this study. This SME was established as a private limited liability company
+in 2014. This firm specializes in the development of on-demand IT solutions for clients. At the time
+of data collection, the firm had five full-time employees which included the owner. This information
+was consistent with data found in the documents and archival records of the SME.
+     The respondents were asked to define cloud computing in their own words. This was very helpful
+in throwing some lights on how cloud computing is perceived in the case firm. Hence, the Service
+Delivery officer stated that:
+
+Cloud computing means having your office on the go, in your pocket. As I have always understood
+it, it means being able to perform your role remotely, not necessarily within your organization.
+
+
+                                                                                                                 7
+International Journal of E-Business Research
+Volume 19 • Issue 1
+
+
+
+     Additionally, a respondent who is a Helpdesk System Analyst refers to cloud computing as:
+
+Having access to suites of IT services just utilizing the internet.
+
+     Another respondent also views cloud computing as:
+
+On-demand, IT services via the Internet, or an IT infrastructure hosted and managed by a third party.
+
+     Furthermore, it is essential to mention that cloud computing has gained company-wide acceptance.
+As such, all respondents stated that at least one or all parts of their daily tasks at work were carried
+out using cloud-based services, be it Software as a Service (SaaS), Platform as a Service (PaaS), or
+Infrastructure as a Service (IaaS) model. This was confirmed by both the Chief Executive Officer
+and the Helpdesk Specialist. The latter asserted that:
+
+As a digital company and an IT services provider, we must have a state-of-the-art infrastructure
+which is cost-effective. Hence, all our applications are cloud-based.
+
+    The respondents were asked to indicate the kinds of cloud services they were currently using
+and how it supports their operations. The Software developer stated that;
+
+We are now using the Microsoft Azure platform, which includes Office 365. We use it for our
+interactions such as chats, calls, emails, video conferencing, among others. We also have an ERP
+system for our personnel management, invoicing, and some financing. In terms of system security,
+we use GravityZone Bitdefender, which is a cloud-based software.
+
+     Another respondent (the Service Delivery Officer) corroborated this assertion by indicating that;
+
+We use Office 365 for collaboration, Bitdefender gravity zone for Security. We use an Odoo ERP
+that is customized and sold to our clients based on their needs. We use the Altaro VM backup for
+our automated backups.
+
+     Furthermore, the Helpdesk System Analyst asserted that:
+
+Cloud computing has come at the right time for us. Internally, all of our applications are hosted by our
+third-party infrastructure provider, which is Microsoft. Therefore, we do not have any apps running
+within our local network. About 90 percent of our applications are hosted in the cloud. This allows us,
+as employees, to work from anywhere with only internet access and a system. Additionally, it allows one
+agent to assist two to three clients from the office without necessarily going to the clients’ company.
+
+Cloud Computing Adoption Factors
+Several factors influence the adoption of cloud computing like any other technology. These factors
+can either be internal or external. In this section, these factors are analyzed based on the constructs
+of the TOE framework.
+
+Technological Factors
+Technological factors are adoption factors related to the presence and usage of innovation in a way that
+the existing technology supports the adoption process. As such, these factors have enabled the staff
+of the case firm to embrace cloud computing. The firm attributes the adoption of cloud computing
+
+8
+                                                                   International Journal of E-Business Research
+                                                                                               Volume 19 • Issue 1
+
+
+
+to the availability of fibre-optic broadband, MiFi devices, and a variety of electronic devices such
+as laptops, phones, or tablets. In addition, the availability of electricity and solar energy as a backup
+has contributed to the adoption of cloud computing. The Service Delivery Officer asserted that:
+
+Today, the availability of fibre Internet in the country made us bold to believe in cloud services as
+we all know without internet there is no cloud.
+
+    Again, another respondent (Software Developer) confirmed this assertion by attributing the
+adoption of cloud computing to the availability of mobile devices. He asserted that:
+
+The spread of electronic devices of all sorts that suit any budget has made technology more accessible
+than in previous years, where we had to think twice before purchasing a system. Additionally, for cloud
+software, you just need any available device to log in. For instance, all agents have been assigned a
+laptop, a MiFi, and a mobile phone, so we can work from anywhere unless the client’s issue is due
+to hardware faults.
+
+    Furthermore, the technical service manager considers that:
+
+The access to high-speed internet without restrictions and sophisticated mobile devices are the
+things that make cloud computing more attractive...they are the basis. If we can have access to more
+sophisticated IT services just through the internet at lower costs and with less staff, why shouldn’t
+we go for it? The subscription to cloud services is a bit of a relief for us technicians. We don’t have
+to crack our brains in order to do some configurations or type command lines; everything is handled
+by the service provider.
+
+Organisational Factors
+The Organizational context denotes issues about the organisation and its human ware that influence
+the adoption of Technology. These organisational factors consist of the management structure of the
+organisation, the scope and size of the organisation as well as the financial resources available to
+the organisation (Oliveira & Martins, 2011). Therefore, the respondents were asked to indicate the
+nature of support the management of the firm provides for cloud computing usage. The Helpdesk
+System Analyst responded that;
+
+Our managerial structure is more of hierarchical because at some point we have hierarchies we report
+to, and crucial decisions always come from the top for us to execute. When I joined this firm, they
+had already joined the cloud computing train, and since then, we have subscribed to more services.
+Our leaders have been very supportive in this regard.
+
+    Furthermore, another respondent (the Chief Executive Officer) also stated that:
+
+By using cloud-based services, the organisation is much more efficient – by reducing the number
+of agents employed, which consequently helps in reducing cost – and cost minimization is essential
+for Management.
+
+Environmental Factors
+The Environmental context includes the market space where business activities are conducted by the
+organisation which influence the adoption of technological innovations. In order to understand the
+environmental factors, the respondents were asked a series of questions. The responses pointed to the support
+
+                                                                                                                9
+International Journal of E-Business Research
+Volume 19 • Issue 1
+
+
+
+from the government in ensuring effective internet connectivity and the ability of the firm to embrace
+new technologies and use it to their advantage. For instance, the Helpdesk System Analyst stated that:
+
+The government has made it easier because now we are using the 4G network everywhere. The
+government has engaged Internet Service providers to provide internet which is the backbone of cloud
+computing. I would say the government has played a key role in our ability to use cloud services.
+
+   The Chief Executive officer of the SME also attributed their usage of the cloud technologies to
+some government policies which tend to provide support to firms who patronise digital technologies.
+
+The government has introduced policies and enacted legislations to protect firms who want to use
+digital tools. This support has made it safer to adopt cloud computing in our operations.
+
+    Another respondent attributed cloud computing adoption to competitive pressure. It was
+discovered that most competing firms within the industry had already embraced new technologies.
+The Service Delivery Officer indicated that;
+
+The other IT firms, who are our competitors, are already using cloud technologies, so we have no
+other option but to adopt such technologies as well.
+
+
+DISCUSSION OF FINDINGS
+
+The previous section outlined the analysis of the findings pertaining to the research questions. In
+order to address the research questions, this section provides an interpretation and discussion of the
+analysis of the findings relative to the literature reviewed.
+
+The Nature of Usage of Cloud Computing
+The first research question was aimed at determining the extent the case firm uses cloud-based
+services. The analysis of the findings shows that cloud computing is widely used in the SME. The
+SME has been able to take advantage of cloud-based services to compete in its industry. The analysis
+of the data indicated that all employees within the firm use cloud-based services. Furthermore, the
+analysis showed that the SME subscribed to all the three types of cloud-based services – SaaS, PaaS
+and IaaS. This finding is corroborated in extant Information Systems research (e.g. Amini & Javid,
+2023; Dincă et al., 2019; Evans, 2019) where it is asserted that SMEs mostly with low budgets and
+human resources are one of the major groups that tend to adopt cloud computing to remain competitive.
+This leads to the first finding of this study.
+
+Finding 1: SME with low budgets and human resources depends on cloud computing technologies
+    to compete in the industry.
+
+    The study also explored the types of cloud computing services utilized by the SME. It was
+discovered that the SME subscribed to a range of cloud computing services offered by Microsoft
+which contains an exchange hosted server, SharePoint for collaboration and data storage; Teams for
+communication and telecommuting, as well as word processing, spreadsheet and project management.
+The SME, thus, utilized the Platform as a Service (PaaS) model which offers an environment for
+developers to create and deploy applications. According to Abubakar (2016), the PaaS model has the
+capability to provide an affordable environment for consumer-created applications using programming
+languages, libraries, services, and tools supported by the provider.
+
+
+10
+                                                                International Journal of E-Business Research
+                                                                                            Volume 19 • Issue 1
+
+
+
+Cloud Computing Adoption Factors
+The second research objective was to identify the key Technological Organisational and Environmental
+factors that influence the adoption of cloud computing in the case study. A conceptual framework was
+therefore developed based on the TOE framework. This was used in analysing the data. The findings
+in this regard are discussed in this section.
+
+Technological Factors
+Technological Factors that influence cloud computing adoption include technological trends and
+technical tools and infrastructure, such as the internet and other electronic devices. This finding is
+in line with extant studies (e.g., Amini & Javid, 2023; Abdollahzadegan et al., 2013; Oliveira et al.,
+2014), which have asserted that the technology readiness of organizations - including their technology
+infrastructure and IT resources - constitutes a critical factor for cloud adoption. The summarized and
+analyzed data related to the technological context are presented in Figure 3.
+     Existing literature on cloud computing proposes that the trialability of cloud services and learning
+capability of employees influence cloud adoption (Dincă et al., 2019; Khayer et al., 2021; Yeboah-
+Boateng & Essandoh, 2014). Therefore, cloud computing adoption will tend to increase when high-
+quality technological devices and other tools are available as discovered in this study. Consistently,
+the technological trend and the availability of technologies which constitute the basis of a cloud
+environment influenced its adoption in the case SME. This leads to the second finding of this study.
+
+Finding 2: Technology readiness, technological trends, and available digital resources influence
+    cloud computing adoption.
+
+
+
+Figure 3.
+Structure of data related to the Technological context
+
+
+
+
+                                                                                                            11
+International Journal of E-Business Research
+Volume 19 • Issue 1
+
+
+
+Organisational Factors
+The analysis of the findings shows that the operations of the SME involve the use of electronic devices.
+The firm is in the IT sector, and management fully supports the use of digital tools, which serves as
+an enabler for the adoption of cloud computing. Additionally, management sees cloud computing as
+a cost-effective tool for serving clients with scarce resources. The summarized analyzed data related
+to the organizational context are presented in Figure 4.
+      A review of literature on cloud computing adoption asserted that the role of top management
+support and involvement in the adoption and use of innovative technologies is crucial (Khayer et
+al., 2021; Yeboah-Boateng & Essandoh, 2014). Furthermore, the size of the organisation was found
+to be an essential parameter for the adoption of digital innovations. Small and Medium-sized firms
+can be more innovative; they are flexible enough to adapt their actions to the quick changes in their
+environment (Assante et al., 2016; Abdollahzadegan et al., 2013). As such, the literature review
+indicated that the adoption process of cloud computing involves some organisational adjustments.
+These adjustments include the need to identify the way of thinking of the organisational elements (i.e.,
+staff, and management) regarding culture (Amini & Javid, 2023; Dincă et al., 2019; El-Gazzar, 2014).
+It was therefore discovered that the support from the management and organisational characteristics
+influenced the adoption of cloud computing in the case SME. Finding 3 of the study is developed.
+
+Finding 3: Both organisational characteristics and managerial support influence cloud computing
+    adoption.
+
+Environmental Factors
+The environmental context includes competitors, vendors and business partners as well as relationships
+with governmental agencies (Tornatzky & Fleischer, 1990). The environmental context consists of the
+structure of the industry, the presence or absence of technology service providers and the regulatory agencies
+(Baker, 2011). The summarized analysed data related to the environmental context is presented in Figure 5.
+     The government was identified as one of the first enablers of cloud adoption by facilitating a
+partnership with foreign companies to provide more extensive internet coverage, which constitutes
+
+
+Figure 4.
+Structure of data related to the Organisational context
+
+
+
+
+12
+                                                               International Journal of E-Business Research
+                                                                                           Volume 19 • Issue 1
+
+
+Figure 5.
+Structure of data related to the Environmental context
+
+
+
+
+the basis for a cloud environment. Furthermore, the case SME wanted to be among the first movers
+in the industry to adopt cloud-based services in the software development industry in Ghana. The
+existence of competitive pressure and government regulatory agencies tends to influence cloud
+computing adoption (Amini & Javid, 2023; Ansong & Boateng, 2018; Chiu et al., 2017; Dincă et al.,
+2019; Lian, 2015; Oliveira et al., 2014). For instance, through the Ministry of Communications, the
+Government of Ghana has built a national data center that serves as a cloud service provider for both
+public and private enterprises. In addition, the Government of Ghana has enacted various laws and
+promoted policies that support and facilitate the establishment of different service levels for cloud
+data transmission and storage. These regulations include the Data Protection Act, ICT4AD Policy,
+the National Telecom Policy, the Electronic Transaction Act, the Electronic Communications Act,
+among others (Omane-Boamah, 2014). This leads to Finding 4 of the study.
+
+Finding 4: Competitive pressure and Government support influence cloud computing adoption.
+
+
+CONCLUSION AND RECOMMENDATIONS
+
+The purpose of this study was to assess the current stage of cloud computing usage by SMEs and
+investigate the factors influencing its adoption in Ghana using a digital firm as a case study.
+     An extensive literature review was carried out to identify pertinent issues related to SMEs and
+cloud computing adoption in research. The Technology-Organisation-Environment (TOE) framework
+was selected as a guiding lens in order to conduct this research. The TOE framework was the best fit
+for this study because of its extensive use in information systems research to investigate a number of
+technology innovations (Oliveira & Martins, 2011). In addition, it is about the only framework that
+combines the three major determining factors that influence the adoption of a technology (Oliveira
+& Martins, 2011). A conceptual research model was developed using the TOE framework. This
+was in response to answering the second research objective which was to determine the factors that
+influence the adoption of cloud computing by SMEs in Ghana. The research model developed after
+the analysis and discussion of the findings is shown in Figure 6.
+
+                                                                                                           13
+International Journal of E-Business Research
+Volume 19 • Issue 1
+
+
+Figure 6.
+SMEs Cloud Computing Adoption Model
+
+
+
+
+     In response to the first research objective, it was discovered that the SME subscribed to a range of
+cloud computing services offered by Microsoft which contains an exchange hosted server, SharePoint
+for collaboration and data storage; Teams for communication and telecommuting, as well as word
+processing, spreadsheet and project management.
+
+Implications of the Study
+This study adds to the knowledge of cloud computing from a developing economy perspective and
+could serve as a basis for further studies in SMEs and cloud computing. The initial review of cloud
+computing literature revealed a limited number of studies conducted at the organisational level. In
+addition, most of the studies largely focused on the operational and technical issues involved in cloud
+computing adoption as intimated by Schneider and Sunyaev (2016). This study therefore fills this
+gap in literature from a developing country perspective.
+     In practice, this study provides more understanding of how cloud computing is growing in Ghana
+and how managers in SMEs and potential entrepreneurs can get the most out of the cloud and gain
+an edge over competitors. The study highlights the multidimensional factors which are critical for
+SMEs in the adoption of cloud computing within the Ghanaian economy. The case SME presents a
+success story of how cloud computing is being implemented which invariably can serve as a good
+learning point for other SMEs operating within a similar context.
+     In terms of significance to policy, this research provides more insight for policymakers with
+regards to the policy discourse on cloud computing adoption. Issues for policy discourse could include
+the cost of data by service providers, and guidelines to ensure there are laws governing the provision
+of cloud services in Ghana.
+
+Limitations and Future Research
+Cloud computing is a digital innovation which is still evolving; hence findings from this study could
+be limited to the peculiarities of an SME in Ghana. Future studies may expand this study into other
+sectors of the Ghanaian economy.
+     Again, an SME involved in software development was purposively selected for this study. The
+nature of the case SME may have an impact on the findings of this study. Hence future studies may
+consider other non-IT related SMEs to test and validate the findings from this study.
+     Future research may also include collecting quantitative data via surveys to test and validate the
+research model in Figure 6.
+
+
+
+14
+                                                                     International Journal of E-Business Research
+                                                                                                 Volume 19 • Issue 1
+
+
+
+REFERENCES
+
+Abdollahzadegan, A., Hussin, C., Razak, A., Moshfegh Gohary, M., & Amini, M. (2013). The organizational
+critical success factors for adopting cloud computing in SMEs. Journal of Information Systems Research and
+Innovation, 4(1), 67–74.
+Abor, J., & Quartey, P. (2010). Issues in SME Development in Ghana and South Africa. International Research
+Journal of Finance and Economics, 39(6), 218–228.
+Abubakar, D. A. (2016). Cloud computing adoption by SMEs in Sub-Saharan Africa [Doctoral dissertation].
+Robert Gordon University.
+Adjabeng, F. N., & Osei, F. (2022). The Development of Small Medium Enterprises and Their Impact
+on the Ghanaian Economy. Open Journal of Business and Management, 10(6), 2939–2958. doi:10.4236/
+ojbm.2022.106145
+Al-Hujran, O., Al-Lozi, E. M., Al-Debei, M. M., & Maqableh, M. (2018). Challenges of cloud computing
+adoption from the TOE framework perspective. International Journal of E-Business Research, 14(3), 77–94.
+doi:10.4018/IJEBR.2018070105
+Alshamaila, Y., Papagiannidis, S., & Li, F. (2013). Cloud computing adoption by SMEs in the northeast of
+England: A multi-perspective framework. Journal of Enterprise Information Management, 26(3), 250–275.
+doi:10.1108/17410391311325225
+Amini, M., & Javid, J. N. (2023). A Multi-Perspective Framework Established on Diffusion of Innovation (DOI)
+Theory and Technology, Organization and Environment (TOE) Framework Toward Supply Chain Management
+System Based on Cloud Computing Technology for Small and Medium Enterprises. International Journal of
+Information Technology and Innovation Adoption, 11(8), 1217–1234.
+Ansong, E., & Boateng, R. (2018). Organisational adoption of telecommuting: Evidence from a developing
+country. The Electronic Journal on Information Systems in Developing Countries, 84(1), e12008. doi:10.1002/
+isd2.12008
+Assante, D., Castro, M., Hamburg, I., & Martin, S. (2016). The Use of Cloud Computing in SMEs. Procedia
+Computer Science, 83, 1207–1212. doi:10.1016/j.procs.2016.04.250
+Baker, J. (2011). The technology-organization-environment framework. In Y. Dwivedi, M. Wade, & S. Schneberger
+(Eds.), Information Systems Theory: Explaining and Predicting Our Digital Society (pp. 231–246). Springer.
+Benbasat, I., Goldstein, D. K., & Mead, M. (1987). The case research strategy in studies of information systems.
+Management Information Systems Quarterly, 11(3), 369–386. doi:10.2307/248684
+Boateng, R. (2019). Research Made Easy. CreateSpace Independent Publishing.
+Cavaye, A. L. (1996). Case study research: A multi‐faceted research approach for IS. Information Systems
+Journal, 6(3), 227–242. doi:10.1111/j.1365-2575.1996.tb00015.x
+Chiu, C. Y., Chen, S., & Chen, C. L. (2017). An integrated perspective of TOE framework and innovation
+diffusion in broadband mobile applications adoption by enterprises. International Journal of Management,
+Economics and Social Sciences, 6(1), 14–39.
+Dincă, V. M., Dima, A. M., & Rozsa, Z. (2019). Determinants of cloud computing adoption by Romanian
+SMEs in the digital economy. Journal of Business Economics and Management, 20(4), 798–820. doi:10.3846/
+jbem.2019.9856
+Donaldson, L. (2001). The Contingency Theory of Organizations. Sage Publications. doi:10.4135/9781452229249
+Donkor, J., Donkor, G., & Kwarteng, C. (2018). Strategic planning and performance of SMEs in Ghana: The
+moderating effect of market dynamism. Asia Pacific Journal of Innovation and Entrepreneurship, 12(1), 62–76.
+doi:10.1108/APJIE-10-2017-0035
+Easmon, R., Kastner, A., Blankson, C., & Mahmoud, M. (2019). Social capital and export performance of SMEs
+in Ghana: The role of firm capabilities. African Journal of Economic and Management Studies, 10(3), 262–285.
+doi:10.1108/AJEMS-11-2018-0361
+
+
+
+                                                                                                                 15
+International Journal of E-Business Research
+Volume 19 • Issue 1
+
+
+
+Edu, A. S. (2022). Positioning big data analytics capabilities towards financial service agility. Aslib Journal of
+Information Management, 74(4), 569–588. doi:10.1108/AJIM-08-2021-0240
+Evans, O. (2019). Information and communication technologies and economic development in Africa in the short
+and long run. International Journal of Technology Management & Sustainable Development, 18(2), 127–146.
+doi:10.1386/tmsd_00002_1
+Fafunwa, T., & Odufuwa, F. (2023). African Micro, Small, and Medium Enterprises Need to Digitally Transform
+to Benefit from the Africa Continental Free Trade Area (AfCFTA). In Africa–Europe Cooperation and Digital
+Transformation (pp. 66-82). Routledge.
+Gangwar, H., Date, H., & Ramaswamy, R. (2015). Understanding determinants of cloud computing adoption using
+an integrated TAM-TOE model. Journal of Enterprise Information Management, 28(1), 107–130. doi:10.1108/
+JEIM-08-2013-0065
+Gong, C., Liu, J., Zhang, Q., Chen, H., & Gong, Z. (2010). The characteristics of cloud computing. National
+University of Defense Technology. doi:10.1109/ICPPW.2010.45
+Jayeola, O., Sidek, S., Abd Rahman, A., Mahomed, A. S. B., & Hu, J. (2022). Cloud computing adoption in small
+and medium enterprises (SMEs): A systematic literature review and directions for future research. International
+Journal of Business and Society, 23(1), 226–243. doi:10.33736/ijbs.4610.2022
+Kaplan, B., & Maxwell, J. A. (2005). Qualitative research methods for evaluating computer information systems.
+In J. G. Anderson & C. E. Aydin (Eds.), Evaluating the Organizational Impact of Healthcare Information Systems
+(pp. 30-55), Springer. doi:10.1007/0-387-30329-4_2
+Khayer, A., Jahan, N., Hossain, M. N., & Hossain, M. Y. (2021). The adoption of cloud computing in small and
+medium enterprises: A developing country perspective. VINE Journal of Information and Knowledge Management
+Systems, 51(1), 64–91. doi:10.1108/VJIKMS-05-2019-0064
+Lian, J. W. (2015). Critical factors for cloud-based e-invoice service adoption in Taiwan: An empirical study.
+International Journal of Information Management, 35(1), 98–109. doi:10.1016/j.ijinfomgt.2014.10.005
+Liu, J., Quddoos, M. U., Akhtar, M. H., Amin, M. S., Tariq, M., & Lamar, A. (2022). Digital technologies and
+circular economy in supply chain management: In the era of COVID-19 pandemic. Operations Management
+Research, 15(1-2), 326–341. doi:10.1007/s12063-021-00227-7
+Miles, M. B., & Huberman, A. M. (1994). Qualitative Data Analysis: An Expanded Sourcebook. Sage Publications.
+Mingers, J. (2004). Re‐establishing the real: Critical realism and information systems. In J. Mingers & L.
+Willcocks (Eds.), Social Theory and Philosophy for Information Systems (pp. 372–406). Wiley.
+Mohammad, A. B., Al-Okaily, M., Al-Majali, M., & Masa’deh, R. E. (2022). Business Intelligence and Analytics
+(BIA) Usage in the Banking Industry Sector: An Application of the TOE Framework. Journal of Open Innovation,
+8(4), 189. doi:10.3390/joitmc8040189
+Nkhoma, M., & Dang, D. (2013). Contributing factors of cloud computing adoption: A technology-organisation-
+environment framework approach. International Journal of Information Systems and Engineering, 1(1), 38–49.
+doi:10.24924/ijise/2013.04/v1.iss1/30.41
+Oliveira, T., & Martins, M. F. (2011). Literature Review of Information Technology Adoption Models at Firm
+Level. Electronic Journal of Information Systems Evaluation, 14(1), 110–121.
+Oliveira, T., Thomas, M., & Espadanal, M. (2014). Assessing the determinants of cloud computing adoption: An
+analysis of the manufacturing and services sectors. Information & Management, 51(5), 497–510. doi:10.1016/j.
+im.2014.03.006
+Omane-Boamah, E. (2014). PP-14 Policy Statements. ITU Plenipotentiary Conference, Busan, Korea. https://
+www.itu.int/en/plenipotentiary/2014/statements/file/Pages/ghana.aspx
+Pateli, A., Mylonas, N., & Spyrou, A. (2020). Organizational Adoption of Social Media in the Hospitality
+Industry: An Integrated Approach Based on DIT and TOE Frameworks. Sustainability, 12(17), 1–20. doi:10.3390/
+su12177132
+
+
+
+
+16
+                                                                        International Journal of E-Business Research
+                                                                                                    Volume 19 • Issue 1
+
+
+
+Quartey, P., Turkson, E., Abor, J. Y., & Iddrisu, A. M. (2017). Financing the growth of SMEs in Africa: What are
+the constraints to SME financing within ECOWAS? Review of Development Finance, 7(1), 18–28. doi:10.1016/j.
+rdf.2017.03.001
+Sasu, D. D. (2022). Overview of the economic contribution of SMEs in Ghana 2022, by category. Statista. https://
+www.statista.com/statistics/1322256/economic-contribution-of-smes-in-ghana-by-category/#statisticContainer
+Schneider, S., & Sunyaev, A. (2016). Determinant factors of cloud-sourcing decisions: Reflecting on the IT
+outsourcing literature in the era of cloud computing. Journal of Information Technology, 31(1), 1–31. doi:10.1057/
+jit.2014.25
+Senyo, P. K., Addae, E., & Boateng, R. (2018). Cloud computing research: A review of research themes,
+frameworks, methods and future research directions. International Journal of Information Management, 38(1),
+128–139. doi:10.1016/j.ijinfomgt.2017.07.007
+Tornatzky, L., & Fleischer, M. (1990). The Process of Technology Innovation. Lexington Books.
+World Bank. (2019). The World Bank Annual Report 2019: Ending Poverty, Investing in Opportunity. World Bank.
+Yeboah-Boateng, E. O., & Essandoh, K. A. (2014). Factors influencing the adoption of cloud computing by Small
+and Medium-sized Enterprises (SMEs). International Journal of Emerging Science and Engineering, 2(4), 13–20.
+Yin, R. K. (2009). Case Study Research, Design and Methods (3rd ed.). Sage Publications.
+
+
+
+
+Eric Ansong holds a PhD in Information Systems at the University of Ghana. He is also a Senior lecturer of
+Management Information Systems at the School of Research and Graduate Studies of the Wisconsin International
+University College, Accra. His research interests include technology adoption, innovations in education, Digital
+business strategies and ICT4D. He is currently researching on the Digital business strategy of enterprises in Africa.
+Eric Ansong has published a number of research articles in peer-reviewed academic journals and has presented
+papers in international conferences which include the Hawaii International Conference on System Sciences (HICSS).
+He has had the opportunity to work in a number of research projects such as the Microsoft in collaboration with
+Research ICT Africa Network project on Cloud computing in the public sector, Building Stronger Universities (BSU)
+e-learning and Problem Based Learning (PBL) in University of Ghana, the Council for the Development of Social
+Science Research in Africa (CODESRIA) project on technology-mediated faculty-student interactions, among others.
+
+Sheena Lovia Boateng is a lecturer at the Department of Marketing and Entrepreneurship at the University of
+Ghana Business School. She is the first female to complete a PhD in Marketing from the University of Ghana and
+is also the founder of the Women in Tertiary Education (WITE) Network, which seeks to provide support for women
+pursuing tertiary education in their academic research, family life and career balance. She is also a member of
+the Editorial Advisory Board for the Emerald Emerging Markets Case Study Journal, Emerald Publishing Limited,
+UK. Her academic work has been published in the International Journal of Bank Marketing, Journal of Financial
+Services Marketing, Smart Learning Environments and the Journal of Educational Technology Systems. Her
+research interests include online relationship marketing, fashion and beauty marketing, digital business strategy,
+electronic learning adoption, entrepreneurship, online branding and advertising, and social media marketing. Dr.
+Sheena’s paper on signalling theory published in the International Journal of Bank Marketing (2019) is listed among
+the most popular papers in the journal for the first quarter of 2019.
+
+
+                                                                                                                    17
+

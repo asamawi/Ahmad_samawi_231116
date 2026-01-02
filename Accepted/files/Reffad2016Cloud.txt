@@ -1,0 +1,462 @@
+ Cloud-based Semantic Platform for Dynamic Management
+        of Context-aware mobile ERP applications
+       Hamza REFFAD                                                   Adel ALTI                                 Philippe ROOSE
+  LAS Laboratory University of                           LRSD Laboratory University of                         LIUPPA Laboratory
+            SETIF-1                                                SETIF-1                                       IUT of Bayonne
+     Sétif, 19000 - Algeria                                 Sétif, 19000 - Algeria                            Anglet, 64000 - France
+       reffadh@yahoo.fr                                     alti.adel@univ-setif.dz                         philippe.roose@univ-
+                                                                                                                    pau.fr
+
+ABSTRACT                                                                    technologies has led to a dramatic multiplication of a wide range
+Mobile cloud computing (MCC) has attracted more and more                    of ERP business services, configurations, redundant context and
+attention from both Small and Medium Enterprises (SMEs). MCC                enterprises profiles. Moreover, there is an increasing usage of
+provides access to cloud services for mobile devices. With the              heterogeneous mobile devices as well as various customers
+growing popularity of smart mobile devices, customers need                  searching efficient and new high quality interactive services. This
+efficient and new high quality services. In this context, mobile            could imply that each company needs to manage business
+ERP services management and adaptation at real time are                     processes on various devices. In many cases, this situation could
+becoming a challenging task. However, it is necessary to handle in          overload a provider. Developing and managing different mobile
+a dynamic intelligent and transparent platform various mobile               cloud services for providers are costly. For instance, when a given
+cloud services provided by multiple cloud providers with several            purchasing service is provided by two or more providers, one
+qualities. This paper presents CloudCxQERP platform, which is a             company may want a fast transaction time, while another one may
+cloud-based semantic platform for dynamic management of                     want a better price without extra travel and custom fees; which
+context-aware mobile ERP applications. It is based on semantic              one improve company’s satisfaction with relevant service among
+web technologies and cloud computing and provides fast ERP                  the provided services.
+development process and “an ecosystem” of enterprises that                  The objective of this work is to present cloud-based semantic
+ensures quality customer service. Moreover, our platform                    platform called CloudCxQERP. CloudCxQERP allows a dynamic
+provides a middleware that offers to users more efficient services          semantic management of context-aware mobile ERP applications
+corresponding to current situations and adapts its ERP                      in order to handle various mobile cloud services provided by
+applications more quickly and cost effectively. Experiments are             multiple cloud providers with several qualities. It provides also
+based on online packaging boxes services.                                   more helpful to customers to intelligently provide up the right
+                                                                            services to current needs and to current situations (devices,
+CCS Concepts                                                                location, etc.). A platform for achieving this objective rests on
+• Distributed architectures ➝ Cloud computing.                              three key elements: first, of course, there has to be an "ecosystem"
+• Enterprise computing ➝ Enterprise information systems ➝                   of enterprises/customers profiles that semantically grouped
+Enterprise resource planning.                                               according to their functional and contextual descriptions. Second,
+                                                                            there has to be inference engine constraints analytics to
+Keywords                                                                    intelligently match up current constraints with cloud semantic
+Context-aware, semantic virtual business services, Cloud, ERP,              services, and finally there is the underlying technology to ensure
+QoS, multi-enterprises profiles.                                            the deployment or calls services are as efficient and high quality
+                                                                            as possible. A platform needs to provide a middleware that offers
+                                                                            to users more efficient services corresponding to their current
+1. INTRODUCTION                                                             situations and adapts its ERP applications more quickly and cost
+Mobile cloud computing (MCC) has attracted more and more                    effectively. The proposed platform is built according to three
+attention from both Small and Medium Enterprises (SMEs). MCC                primary layers. The first generic semantic core layer is a
+is an emerging technology that integrates cloud computing                   middleware itself and that sits in the Cloud. It provides the
+technology with mobile devices. MCC provides access to cloud                semantic reasoning and clustering facilities. Above a middleware,
+services for mobile devices such as computational resources,                a platform accumulates a network of enterprises, costumers and
+computing utilities, scalability. Today, the massive use of new             on-line business affairs between both participants.
+                                                                            The rest of this paper organized as follows: Section 2 presents
+Permission to make digital or hard copies of all or part of this work for
+                                                                            related works. Section 3 details ontology model. Section 4
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that         describes our adaptation platform architecture, i.e., the
+copies bear this notice and the full citation on the first page. To copy    CloudCxQERP platform. Section 5 validates our proposal and
+otherwise, or republish, to post on servers or to redistribute to lists,    section 6 concludes the paper with some future works.
+requires prior specific permission and/or a fee.
+MEDES'16, November 01-04, 2016, Biarritz, France
+© 2016 ACM. ISBN 978-1-4503-4267-4/16/11…$15.00
+DOI: http://dx.doi.org/10.1145/3012071.3012076
+2. RELATED WORKS                                                      techniques. Gupta et al. [7] have proposed critical organizational
+In this section, we present works directly related to our proposal    success factors for Cloud ERP. They based on market-based view
+and point out the differences with our model.                         (i.e. budget of company and ERP project budget), knowledge-
+                                                                      based view (i.e. economic strategies and implementations
+The INFOR publisher [2] provided a semantic connection                strategies) and social-based view (i.e. strategic goals and
+between some ERPs standards (i.e. SAP Oracle and SAGE                 objectives). They included also QoS criteria like implementation
+Microsoft) through its oracle fusion middleware. French               cost, customers' satisfaction, etc. without using contextual
+publishers with 15 years of experience in Oracle Fusion               information of customers and enterprises which may be as
+Middleware, Mobile and Cloud implementations, provided                relevant as the required market-based views. Another interesting
+enterprises with scalable and extendable ERP services, including      work is combination of Cloud computing paradigm and
+marketing management, customer relationship and online sales.         optimization techniques [8] to manage resources over the across
+More recently, this publisher was oriented to business solutions in   clients’ access. This work based on genetic optimization method
+the Cloud "CloudSuite as full SaaS". They didn’t talk exactly         for selecting and composing best ERP services. It proposes a
+about cloud model adaptation of the business process to have full     generic solution to manage and aggregate of quality business
+control of how business transactions should be received in            services from multiple providers. This work did not take into
+different devices (Laptop, Tablet, Smartphone…) and nor multi-        account the semantics of services and that of the category, QoS
+parts enterprises profiles. This publisher provides richer online     and context providers. Currently, Cloud ERP was developed with
+ERP services but did not take into account the business category      standard technologies that meet several qualities of service
+semantics, multi-enterprises clustering profiles and QoS (lower       (reliability, safety, efficiency). However, mobility, constraints
+implementation cost, lower time for costumer, meet most of            complexity and contexts of information will not be considered.
+enterprises requirements, flexibility to meet with context            This implies the following disadvantages: (1) - mobility
+changes).Gronli1et al. [5] proposed a cloud based framework for       introduces a degree of heterogeneity and highest dynamicity
+adapting mobile business services in pervasive computing              compared to traditional ERP systems (2) - a poor quality of
+environment by constructing a private mobile business service         service of Cloud ERP, consequence of the syntactic description
+adaptation agent for each mobile user in the cloud. However, this     without the context information and (3) - many enterprises
+work hasn't considered the contextual information of customers        profiles cloud has been specified, so many business process have
+and enterprises. In addition, this work does not hold the services    to be computed and updated. In many cases, this situation could
+selection and then, it does not allow providing the appropriate       overload the provider. The methods and contributions of this
+service to a customer. Other works have used cloud computing          paper are different from above related works. Our goal is looking
+paradigm as solution for the huge burden on user’s mobile             for generic high level semantic abstraction business processes that
+computing devices and overcoming obstacles related to the ERP         satisfy the most contextual constraints of both enterprises and
+performance. In [1] authors proposed an architecture to publish       mobile customers (e.g. same business constraints with same
+the business ecosystems of several enterprises, in the center’s       device and environment contexts). Our approach supports deep
+“cloud” for storage, processing, and distribution. In [4] authors     transition from a generic approach to a more specific enterprise
+proposed an infrastructure called ERP-Cloud infrastructure which      context (s) to deploy personalized business services. Preferences
+can manage business process on IT infrastructure. In [3] authors      could both QoS and contextual parameters. Our architecture must
+proposed mobile cloud ERP based on the adaptive object model          be able to reason upon contextual business services that comes
+for providing business process scalability and reducing hardware      from different and heterogeneous providers. Therefore, our
+costs. This work is more efficient on terms of memory usage.          architecture uses ontology and rules-based approaches to
+According to [9-10], the context information is indispensable to      represent and reason upon contextual information, infer the
+control the complexity of enterprise systems. Therefore, an           current situation, and select the quality services to the enterprise
+enterprise system that uses mobile computing devices which            staff or a customer according to the inferred situations.
+connect over-time to the cloud in more efficient manner in terms
+of energy, CPU and bandwidth when the enterprise suffers. All
+these works have proposed interesting solutions for acquiring,
+                                                                      3. PROPOSED APPROACH
+                                                                      The main objective of our approach is to identify and reuse the
+storing and managing business affairs using cloud computing
+                                                                      concept of a virtual business process as combination of virtual
+paradigm. However, they are constructing a specific business
+                                                                      business tasks for several mobile ERP applications. It allows also
+process for each enterprise profile. Business data will be
+                                                                      the fast identification process of relevant cloud business services
+processed in the public cloud and not in private cloud, so if a
+                                                                      and improves the efficiency and accuracy of ERP development
+security attack problem will be met, the business data cannot be in
+                                                                      process. These objectives are achieved through finite sets of
+a safe status in the cloud and that leads the security of business
+                                                                      semantic relevant cloud services. The main idea is taking the
+transactions. Rekik et al. [6] proposed a cloud description
+                                                                      cloud as a way to group some specific business requirements and
+ontology for service discovery and selection. Cloud ontology and
+                                                                      cloud services such that enterprises can share experiences,
+semantic techniques are used for modeling a generic customer
+                                                                      computation resources and bandwidth resources.
+requirements and contextual cloud services, which enables the
+system to guide a customer selecting the service that best fits       A mobile user prefers to adapt ERP services of specific task to his
+his/her needs in the given context. This work is efficient and        current context. Our goal is to select relevant business service that
+shared between different services using OWL as the best               match user context with low deployment costs and to find new
+candidates to describe and format those services. However, this       high-quality services to meet continuous companies' requirements
+work uses manual constraints checking and not supports logic          and context changes.
+inference. They also not provide possibilities for using reasoning
+To be efficient and shared between different cloud providers,           3.1 Enterprise sub-ontology
+mobile ERP applications must be as interoperable, extensible and        Fig.2 illustrates the enterprise sub-ontology. The Enterprise
+laconic as possible. For this, ERP applications are described as        concept is a core concept of our CxQWCloudERP ontology. It
+OWL ontology. An overview of CxQCloudERP ontology is given              can be either a customer service enterprise or production
+in Fig.1. It is comprised of 9 key concepts: enterprise, business       enterprise. We propose a new concept (Virtual Enterprise) which
+process, constraints, entity (resource), context entity, QoS, cloud     that includes a family of enterprises. Each enterprise has
+platform, cloud provider, cloud service.                                functional and non functional requirements. A company has no
+                                                                        knowledge about the published services. In addition, when a
+                                                                        particular service is provided by two or more cloud providers in
+                                                                        the same area of a business, a decision should be taken to select
+                                                                        the most appropriate service based on contextual description.
+
+
+
+
+         Figure 1. CxQCloudERP Ontology structure.
+         Enterprise has a name, unique location, functional and
+          non-functional requirements.
+         Business processes describes various business processes
+          such as sales, purchasing, opportunity, order, etc.
+         Cloud Service has a name, a version and unique ID
+          (URI).
+         QoS which describes the quality of service parameters
+          such as efficiency, security, availability, etc.                             Figure 2. Enterprise sun-ontology.
+         Entity which describes different types of resources:
+          staff, tasks, equipments, machines, raw materials, etc.       3.2 Entity sub-ontology
+         Context Entity which defines all information that can be      An entity is defined as inputs/outputs of business process. We
+          collected from the company (needs and preferences),           distinguish two types: physical entity (resource) and virtual entity.
+          process (deployment requirements and execution) and           Physical entities are StorageResource, ComputingResource,
+          resource (resource type and constraints).                     DataResource, TaskResource, ActorResource and MonyResource.
+         Constraint which describes a set of OWL logical               Storage resource is disks (Large, Medium, X-large, XX-large) and
+          expressions of various mobile agents and staff.               ram (Large, medium, large X, XX wide). A virtual entity describes
+         Cloud provider that provides business services                all families of resources in terms of hardware or software.
+         Cloud Platform Context-aware-Service is used for the
+          deployment of several business services.
+
+
+
+
+                                                      Figure 3. Entity sub-ontology.
+3.3 Context Entity sub-ontology                                                  The Environment Context: which describe spatial and
+We divided context sub-ontology into four essential sub-contexts:                 temporal, B2B collaboration informations:
+
+         The ExecutionContext which describes the current state            ̵ Temporal information can be a date or time used as
+          of equipment (memory size, CPU load, energy, etc.).                timestamp. Time is one aspect of durability so it is
+         The QoSContext which describes the quality of any                  important to date information as soon as it is produced.
+          mobile-based service can be represented on our
+          ontology, which is defined as set of metadata                     ̵ The Place describes related informations about B2B
+          parameters. These QoS parameters are: 1) – continuity              collaboration {longitude and latitude}, in a given location,
+          of service, 2) – speed and efficiency of service and 3) –          we can find available resources and services.
+          safety and security.                                              ̵ The B2B collaboration: according to a B2B domain, a
+         The HardContext is the resources (mobile devices)                  company can engage in B2B activity.
+          accessible by users such as tablets, Smart phones, etc.
+
+
+
+
+                                                  Figure 4. Context-Entity sub-ontology.
+3.4 Business process sub-ontology
+A business process is a sequence of steps to perform an identified      3.5 Cloud provider sub-ontology
+business objective. These steps are actions carried out by different    A cloud provider relates to local and remote data centers. It is are
+actors and synchronized through business exchanges. It would            sources provider (servers, storage and network) in terms of
+provide users with an improved services classification in one or        enhanced security, high availability, and confidentiality. Each
+more semantic criteria: business domain, business roles (sales,         provider provides three types of services: IaaS_Service,
+purchasing, CRM, finance, etc.), quality of service (security,          PaaS_Service, SaaS_Service in three modes: private, public and
+deployment and execution time). We use cloud computing for              hybrid. When a given service is provided by two or more services
+semantic reasoning and clustering facilities. Our goal is to provide    providers in the same mobile client area, a decision should be
+better use of resources in more optimum manner.                         taken to select the most appropriate service based on contextual
+                                                                        description with a better quality of service. Depending on the
+                                                                        availability of resources for the mobile device, our aim is the best
+                                                                        service from the list of services with equivalent functionality.
+                                                                        Specifically, in case of changes context, we dynamically switch to
+                                                                        the next service in the list of services offering the same service
+                                                                        functionality and requires lower resources.
+
+
+                                                                        3.6 Cloud service sub-ontology
+                                                                        The Service Cloud is made up of four sub-classes: three
+                                                                        traditional services IaaS_Service, PaaS_Service, SaaS_Service
+                                                                        and now virtual cloud service. Fig.5 shows following concepts:
+                                                                                 Service has a name, a version and unique ID (URI).
+                                                                                 Service_Location: the location which the service
+            Figure 5. Business process sub-ontology.                              facilities are located.
+            Figure 6. Context sub-ontology (a) Cloud provider sub-ontology (b) - Cloud service sub ontology
+
+   Service_Category = {SaaS, IaaS, PaaS, virtual service.}.     The Virtualized Cloud Service allows mobile customers and staffs
+   Service_Type = {local, remote, hybrid}.                      for improving the efficiency of a business process and hiding
+   QoS_parameters: list of QoS parameters. This concept         heterogeneity of platforms in one or more criteria: planning and
+    does not only relate to services but also the mobile         scheduling strategies, federation of business partners, routing
+    device resources where business activity takes a place.      paths, business monitoring and service migration.
+   Service_parameters: Each service category has its own
+    parameters and service state. For instance, the PaaS
+    service related to the database platform, implementation
+                                                                 3.7 Constraint sub-ontology
+                                                                 Each context entity has its context parameters. For example, the
+    languages and runtime tools, etc. SaaS has a name,
+                                                                 context related to the hardware resource is a collection of
+    version, role, unique ID (URI), location and execution
+                                                                 parameters: machine speed, min/max of consumption. Certain
+    time, business category (CRM, sales, shopping,
+                                                                 context parameters may use semantically similar terms, for
+    production, finance, etc.). The IaaS service has a
+                                                                 instance the speed of the machine and the number of units
+    capacity, computing and communication resources, etc.
+                                                                 produced / minute.
+
+
+
+
+                                          Figure 7. Virtual cloud service ontology.
+4. The CloudCxQERP PLATFORM                                                     ERP Cloud Registry: stores the description of Cloud
+4.1 The general architecture                                                     business services, business process patterns and ERP
+Here is a general overview of a cloud-based semantic context-                    resources of all providers in the Cloud. When a Cloud
+aware ERP architecture (Figure 8):                                               provider is active, it sends the description of all its
+                                                                                 cloud services to the ERP proxy. Therefore, the ERP
+         Entreprise customers: this is the device that the                      proxy has the descriptions of all services hosted on
+          customer is currently using.                                           providers involved in the ERP application, and the ERP
+         ERP Cloud Proxy: it stores or serves as an ERP Cloud                   generic composition algorithm is executed. In the next
+          proxy for cloud business services and ERP resources. It                section, we will detail the algorithm.
+          also executes cloud business services. This component       When the ERP proxy receives these informations as XML files, it
+          relies on the following sub-components: (1) - the           calls the ERP Inference Engine to cluster possible constraints of
+          Semantic Customer Context Monitor is responsible of         equivalent customers. This later researches for Cloud business
+          verifying user’s context change by contacting the Cloud     services able to make partial or full generic services composition
+          Context Management component, (2) – the Semantic            that satisfies most of the target customers' constraints. The
+          Entreprise Context Monitor is responsible of verifying      algorithm gives all the possible chains satisfying the most
+          enterprise resources and context changes and (3) - the      costumers' constraints. The ERP engine selects the best chain. We
+          ERP Inference Engine supports the building of               use various politics based on the weight (energy saving, customer
+          personalized business process from available services.      profile, low band-width, CPU charge etc.) of each chain.
+
+
+
+
+                                     Figure 8. The general architecture of CloudCxQERP platform
+                                                                      to eliminate any overhead during service discovery. The goal is to
+4.2 Functional model of the platform                                  accelerate the search process of relevant cloud business services
+We have specified the development process that exploits our           and to reduce overall response time. The idea of the requirements
+ontology in order to generate several business processes according    clustering is to take into account the description of the functional
+the mobile users and their current context. This process uses a       and non-functional business requirements of two or more
+semantic inference engine that is responsible of planning and         enterprises. Two descriptions are semantically equivalent if all the
+optimizing the selection, the deployment and the execution of         matching values between parameters are exact. We propose a
+business processes based on a customizable quality of service. In     clustering method based on inference rules to cluster common
+order to accelerate the development process and to better discover    needs of different enterprises. If no similarity has been detected,
+and compose cloud business services, we propose to enhance the        go to step 6. Otherwise, if some similarities have been detected, it
+expressiveness of the semantic descriptions of cloud business         produces a common requirements guide containing common
+services, specifically to provide the "best" business service         requirements. The inference of common needs of several
+composition according to semantic properties based upon               companies expressed in SWRL as follows:
+common functional and non-functional needs provided by specific
+companies. Our work provides a semantic description of cloud          Common_ComplexConstraint (?cex) ∧
+business services (e.g., name, location, role), allows a dynamic      BusinessType(?cex, “Buy”) ∧ Entreprise(?e1) ∧ Entreprise(?e2) ∧
+                                                                      EntrepriseName(?e1, ?name1) ∧ EntrepriseName(?e2, ?name2) ∧
+selection of cloud business services based on context metadata        swrlb:notEqual(?name1,?name2) ∧ EntrepriseHasNeeds(?e1,?en1) ∧
+parameters (user, mobile device, service provider) . The process      ConstraintExpressedBy(?en1, ?cex1)∧ EntrepriseHasNeeds(?e2, ?en2) ∧
+of selection and dynamic composition of ERP processes is a 7-         ConstraintExpressedBy(?en2, ?cex2) ∧
+                                                                      ExpressionComposedOf(?cex1, ?sex1) ∧
+step process:
+                                                                      ExpressionComposedOf(?cex2, ?sex2) ∧ ConstraintID(?sex1, ?IDs1) ∧
+                                                                      ConstraintID(?sex2, ?IDs2) ∧ swrlb:equal(?IDs1, ?IDs2)
+Step.1 – Business requirements clustering: The first phase is to
+                                                                      BusinessType(?cex1, ?type1) ∧ BusinessType(?cex2, ?type2) ∧
+cluster into common constraint similar enterprises based on their     swrlb:equal(?type1, “Buy”) ∧ swrlb:equal(?type2, “Buy”)
+functional and non-functional descriptions. Therefore, the service    → ExpressionComposedOf(?cex, ?sex1) ∧
+discovery component matches set of services that share similar          ExpressionComposedOf(?cex, ?sex2) ∧
+                                                                        EntrepriseSet(?cex, ?e1) ∧ EntrepriseSet(?cex, ?e2) ∧
+functionality with a most of the target enterprises needs. The
+                                                                        IsCommonConstraint(?sex1, “1”) ∧ IsCommonConstraint(?sex2, “1”)
+clustering and classification of new services are performed offline
+Step.2 – Business tasks semantic matching: The task manager                5. A CASE STUDY AND EVALUATION
+component matches between the virtual task and the common                  This section describes implementation details of our prototype.
+constraint properties. The semantic matching process exploits the          Firstly, based on OWL and SWRL languages, we have
+categorization of the task hierarchy to find suitable matches. For         implemented our ontology and rules-based Cloud context model
+that purpose, it matches the virtual task properties (task category,       using Protégé tool [12]. Then, we use NetBeans IDE for
+location, time, QoS parameters, task time, inputs/outputs, etc.).          development of our prototype for dynamic semantic service
+Each constraint can be expressed as an AND-OR clause of a                  clustering and dynamic semantic service context monitoring.
+simple expression, like the following one: (taskCategory =
+`Buy' AND Price =`Low' AND location = `Sétif' AND                          Our prototype is based on three main parts: the first is a context
+TransactionType=`Internet'). The inference engine brings out               monitor to simulate the semantic service behavior (price, cloud
+set of business virtual tasks.                                             provider, execution time). The second part is contextual clustering
+                                                                           of customers' and enterprises requirements. The last part is the
+Step.3 – Finding relevant context-aware virtual cloud services:            dynamic business process management according to customer
+After receiving the list of corresponding virtual tasks that match         requirements. Our prototype generates virtual business process of
+the most target mobile users' requirements. A cloud-based                  both companies (AGROFILM and SYNSET) and offers to users
+semantic service selection mechanism is based on both service              relevant services to his current situations. Table1 illustrates
+semantic information and mobile users' context (e.g., less free            requirements of a customer and Table2 shows requirements of
+memory, less processor power, user location and available                  both companies. Figure 9 shows an abstract business process
+wireless protocols) or the environment context (e.g., less                 diagram from a both companies’ requirements and constraints of a
+bandwidth) or the mobile users' preferences. Relevant cloud                customer. Each transaction involves five parts: a customer, order,
+business services with higher potential benefit are selected earlier       manufacturing, a payment and a delivery gateway. The customer
+and find a limited number of composition solutions to reduce the           firstly configures it session by entering order details, browsing
+computation complexity. The following rule represent an example            products informations and deciding whether to view more
+of inference rule which serve to answer the semantic compatibility         products information. Then the customer makes order by selecting
+of candidate cloud services which implements the virtual business          packaging boxes models as well as filling in customer information
+task with the most target mobile constraints.                              and card credits details. The customer finally confirms the order
+ComplexConstraintExpression (?cexp) ∧
+                                                                           and sends it to two companies (AGROFILM and SYNSET) and
+ExpressionComposedOf (?cexp, ?sexp) ∧
+                                                                           waits for a delivery response. Once the order is received, the
+IsCommonConstraint (?sexp, \"1\") ∧ LogicOperator(?sexp, ?logicoperator)   delivery deadline is fixed for a customer and the collaborative
+∧ NumericValue(?sexp, ?numvalue) ∧                                         manufacturing process started in both companies in order to fill a
+SemanticValue (?sexp, ?semanticvalue) → sqwrl: selectDistinct (?cexp,      customer order. In parallel, companies purchase a supplier for raw
+?sexp, ?parametrename, ?logicoperator, ?numvalue, ?semanticvalue           materials in which the packaging boxes will be manufactured and
+                                                                           the payment gateway verifies the credit card details. Depends on
+Step.4 – Generating optimized virtual business processes: This
+                                                                           the returned status, a reply is either by email or phone call.
+step consists in constructing all possible composition between
+                                                                           Finally, companies deliver products to a customer in a specific
+virtual services based on the list of virtual services of Step 3. We
+                                                                           location. The treatment of both companies' requirements creates
+try to find the next service by checking the services available. If
+                                                                           an abstract business process. Some specific situations of customer
+the number of services is very large, at each step, we must check a
+                                                                           (mobility of user, device resources) and/or a firm (equipment
+lot of services. To reduce the checking time, we define the relation
+                                                                           failure and no availability of raw materials) may be as relevant as
+between a service and another one. This is based on semantic
+                                                                           the required business affairs. Several scenarios are experimented.
+relationships between services; equivalent ≤ substitution those are
+used to implement rules based on their semantics. This step                    Table 1. Contextual constraints specified by a customer
+returns a list of composition paths.
+                                                                           Location            Quality and Contextual constraints
+Step.5 – Business Process refinement: Refinement is necessary                           Shortest delivery time and high-quality packaging
+to address some customization of relevant contextual parameters               Any
+                                                                                                               boxes
+in order to fulfill specific needs of enterprises. For instance, one                    Receives 10% discount based on a large quantity of
+enterprise may want a fast transaction time with quality local raw          Near a
+                                                                                          packaging boxes without extra travel fees and
+materials providers, while another one may want money saving               Company
+                                                                                                notification by email or phone call
+with an average quality of raw materials. The refinement
+                                                                                         Notification only by phone call and prefers high-
+component is responsible for adding/replacing specific business               Car
+                                                                                                       security transaction
+services for each business tasks
+Step.6 – Selection of quality business processes: The goal of this          Table 2. Clustering contextual constraints of both companies
+step is to select a better optimal business processes from the
+                                                                             Company            Quality and contextual preferences
+primary process models identified in the previous step. We select
+the optimal business process in terms of cost with the best quality            Both              City= SETIF AND Type=Deposit
+service. The process decision engine ensures the selection of the                               Availability=High AND Supplier=Local
+best business processes from the graph if there are several services         SYNSET
+                                                                                                         AND Price=Low
+provided by two or more cloud providers.                                                             TransactionType=Confidential
+                                                                           AGROFILM
+Step.7 – Process Execution: ERP proxy deploys cloud services                                  AND Supplier =Any AND Payment=Fast
+and sends the result to each customer
+     Customer                   Mobile application                 CloudCxQERP                   DW   6. CONCLUSION
+            {Initial start}                                                                           In this article, we have proposed a new hybrid approach based on
+ Run the application             EnterProductDetails
+                                                                                                      semantic web technologies and cloud computing. We propose also
+                                BrowseProductsDetails                                                 CloudCxQERP platform, which is cloud-based semantic platform
+SelectDesiredProduct                  Save
+                                                                Desired Product Saved                 for dynamic management of context-aware mobile ERP
+                                                                       proeded
+                              [YES]
+                                        [Other Products?]                                             applications. The main objective of this platform is the selection
+                                       [NO]                                                           of relevant services and adaptation of ERP applications more
+                                Ask for Customer Details                                              quickly and cost effectively. In future works, we intend to refine
+InputCustomerInfos                 Ask for Credit Card
+                                                                                                      costumers' requirements. Moreover, we will develop heuristic
+                                                                                                      parallel genetic method at design and at run-time phases.
+InputCreditCardInfos              Ask for Customer to
+                                     share Order
+     [NO]         [Share?]
+
+              [YES]
+                                                                                                      7. REFERENCES
+                                                                        Share the Order               [1] A. Paya, D. Marinescu: Energy-aware Load Balancing and
+                                                                                                          Application Scaling for the Cloud Ecosystem, IEEE
+                                Ask for the authorization
+    Get Authorization                                                                                     Transactions on Cloud Computing, (99):2168-7161, 2015.
+                                   to identify Context
+                                                                             Get the Context
+                                  Customer Location
+                                                                                                      [2] EuroCloud: Cloud Letter, Knowledge Base of Cloud, special
+                                                                Contextual
+                                                                 services
+
+
+
+
+                                 CustomerDeviceCtx
+                                                                                                          Issue of ERP in Cloud Computing, pp. 16, 2014. DOI=
+                                 CustomerPreferences                                                      http://www.infor.fr/solutions/technology/cloud/
+                                                                                                      [3] Y.E. Gelogo, H.K Kim: Enterprise Resource Planning Asi-
+                               Update Credit                                                              pacific Journal of Multimedia Services Convergence with
+                                             Receive Products                                             Art, Humanities and Sociolog, 3(1):1-8, 2013.
+                                                                                                      [4]    K. Mohan, S.S. Shetty: Cloud Computing and Enterprise
+             Figure 9. An abstract collaborative business process.                                          Resource Planning (ERP) Systems in Cloud Environment.
+                                                                                                            International Journal of Advanced Research in Computer
+ A First scenario: a customer in a Car using a Tablet. A customer                                           Science and Software Engineering, 5(4):721-726, 2015.
+ cannot read his personal emails in a Car. The Semantic Customer
+                                                                                                      [5] TM. Gronli1, G. Ghinea, M. Younas and J. Hansen:
+ Context Monitor has attached a discovery protocol and GPS
+                                                                                                          Automatic Configuration of Mobile Applications Using
+ service as client service. When a delivery time comes, the ERP
+                                                                                                          Context-Aware Cloud-Based Services. Modeling and
+ Inference Engine reinitiates the composition process, inferred
+                                                                                                          Processing Big-Data Technologies, pp. 367-383, 2015.
+ actions that of discovering the available text to speech services are
+ supported by the user location: : update Text email service with                                     [6]    M. Rekik, K. Boukadi, H. Ben-Abdallah: Cloud Description
+ Text to Speech service. After finding the adequate services from                                           Ontology for Service Discovery and Selection, In Proc. of
+ cloud and after its selection and integration, the user can follow                                         the 10th Inter. Conf. on Soft. Eng. and App. (ICSOFT-
+ the email service while taking a Car. When a User asked for the                                            EA'2015), pp. 26-36, 2015, Colmar, Alsace, France.
+ fast payment, the ERP Inference Engine discovered two payment                                        [7] S. Gupta, S.C. Misra Implementation of Cloud ERP
+ types: a credit card and a bank transfer. The Inference Engine                                           Moderating Effect of Compliance on the Organizational
+ deployed the second one because absence of security factor and                                           Factors. In Proc. of the 5th Int. Conf. on Cloud Computing
+ unavailability of Wi-Fi.                                                                                 and Services Science (CLOSER-2015), pp. 194-198, 2015.
+ A second scenario: delay of raw materials reception. When a                                          [8] C.S. Chena, W.Y. Liangb, H.Y. Hsu, A cloud computing
+ manufacturing process started in a SYNSET firm, a notification                                           platform for ERP applications. Applied Soft Computing, Vol.
+ was sent to the Semantic Enterprise Context Monitor that there is                                        27: 127-136 (2015).
+ not enough available raw materials from supplier to continue
+                                                                                                      [9] M. Satyanarayanan, P. Bahl, R. Caceres, N. Davies: The
+ displaying such a customer order. In this case, ERP Inference
+                                                                                                          Case for VM-Based Cloudlets in Mobile Computing, IEEE
+ Engine should evaluate another available semantic equivalent
+                                                                                                          Pervasive Computing, 4(8) :14-23, October 2009.
+ services paths but with different QoS in order to replacing
+ supplier service at run-time. We are used [11] for classifying the                                   [10] M. Rekik, K. Boukadi and H. Ben-Abdallah: A decision-
+ relevant cloud services that have potential benefit. Table.3 shows                                        making method for business process outsourcing to the cloud
+ the evaluation results, meaning that services orchestration                                               based on business motivation model and AHP, Int. J. Cloud
+ “RawMateriel_eMail_SuplierLocal + PaymentOrder_Local” is                                                  Computing, 4(1):47-62, 2015.
+ selected as the best composition path. This selection based on the                                   [11] A. Alti, S. Laborie, P. Roose : USSAP: Universal Smart
+ high score compared to other paths.                                                                       Social Adaptation Platform, In Proc. of the 6th Int. Conf. on
+                              Table 3. Evaluation results                                                  Ambient Systems, Networks and Technologies (ANT 2015),
+                                                                                                           Procedia Computer Science, pp. 670–674.
+          Services composition paths                                                     Score        [12] Protégé. 2007. Why Protégé. http://protege.stanford.edu
+ SaaS_Service_RawMateriel_eMail_SuplierLocal
+                                                                                       0.79 ms/$
+     >> SaaS_Service_PaymentOrder_Local
+ SaaS_Service_RawMaterielSuplier_WebSite >>
+                                                                                       0.65 ms/$
+   SaaS_Service_InputCustomerCreditCard
+

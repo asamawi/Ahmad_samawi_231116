@@ -1,0 +1,358 @@
+                                                                                                                                       PDF Download
+                                                                                                                                       3436829.3436830.pdf
+                                                                                                                                       24 December 2025
+                                                                                                                                       Total Citations: 2
+                                                                                                                                       Total Downloads: 135
+    .
+    .
+        Latest updates: hps://dl.acm.org/doi/10.1145/3436829.3436830
+
+
+
+
+                                                                                                                                       .
+                                                                                                                                       .
+                                                                                                                             Published: 11 November 2020
+        .
+        .
+                                                                                                                             .
+    RESEARCH-ARTICLE
+
+
+
+
+                                                                                                                             .
+                                                                                                                             Citation in BibTeX format
+    A Conceptual View for an Enhanced Cloud Soware Life-Cycle Process
+
+
+
+
+                                                                                                                             .
+                                                                                                                             .
+                                                                                                                             ICSIE 2020: 2020 9th International
+    (CSLCP) Model                                                                                                            Conference on Soware and Information
+                                                                                                                             Engineering
+    AMIRA A ALSHAZLY, Alexandria University, Alexandria, Alexandria, Egypt                                                   November 11 - 13, 2020
+                                                                                                                             Cairo, Egypt
+    .
+    MUSTAFA Y ELNAINAY, Alexandria University, Alexandria, Alexandria, Egypt
+
+
+
+
+                                                                                                                             .
+                                                                                                                             .
+    .
+    ADEL A EL-ZOGHABI, Alexandria University, Alexandria, Alexandria, Egypt
+    .
+    MOHAMED S ABOUGABAL, Alexandria University, Alexandria, Alexandria, Egypt
+    .
+    .
+    .
+    Open Access Support provided by:
+    .
+    Alexandria University
+    .
+                                                 ICSIE '20: Proceedings of the 9th International Conference on Soware and Information Engineering (November 2020)
+                                                                                                                              hps://doi.org/10.1145/3436829.3436830
+                                                                                                                                                 ISBN: 9781450377218
+.
+  A Conceptual View for an Enhanced Cloud Software Life-
+              Cycle Process (CSLCP) Model
+     Amira A. Alshazly                     Mustafa Y. ElNainay                     Adel A. El-Zoghabi              Mohamed S. Abougabal
+  Information Technology      Computer and Systems        Information Technology      Computer and Systems
+Dept., Institute of Graduate Engineering Dept., Faculty Dept., Institute of Graduate Engineering Dept., Faculty
+Studies & Research (IGSR),      of Eng., Alexandria     Studies & Research (IGSR),      of Eng., Alexandria
+   Alexandria University             University            Alexandria University             University
+     Alexandria, Egypt           Alexandria, Egypt           Alexandria, Egypt           Alexandria, Egypt
+igsr.amira.alshazly@al ymustafa@alexu.edu.e adel.elzoghby@alexu.e mohamed.abougabal@
+      exu.edu.eg                g                    du.eg            alexu.edu.eg
+
+ABSTRACT                                                                            Providing a guide for implementing process improvement in
+Small to Medium-sized Enterprises (SMEs) benefit from the                            SMEs could help them to: focus their improvement efforts,
+advantages of the cloud computing environment. These                                 outline from where and the way to begin improvement, and
+                                                                                     determine the areas that employees have to be trained thereon.
+enterprises have limited resources. Consequently, SMEs require a
+structured software process model to develop a reliable and good                   The Software Engineering Competence Centre (SECC) of the
+quality cloud software. Existing cloud software process (CSP)                      Egyptian Ministry of Communications and Information
+models focused only on the processes of software development                       Technology (MCIT) studied the difficulties of SMEs to use the
+and ignored the other aspects of software production. In this                      CMMI model, presented in [1]. The difficulties are miss-control
+paper, a conceptual view for Cloud Software Life Cycle Process                     of budget, delivery schedule, and quality related problems [4].
+(CSLCP) model is proposed. This model overcomes the                                SECC found that SMEs require a modern software development
+deficiencies of existing CSP models. Also, it satisfies the                        process to improve the software quality according to the
+development of a reliable and high quality cloud software. The                     international standards at reasonable cost [4]. To achieve that,
+CSLCP model is compatible with level two and three of the                          SECC developed a Software Process Improvement Guide (SPIG)
+capability maturity model integration (CMMI). It extends the                       to train SMEs to use a SPI model [4]. The SPI is a general model
+software process improvement (SPI) model, developed in Egypt                       for SMEs. It is not prepared for specific business domain or
+for SMEs, to suit the cloud environment. The application of the                    organizational structure. This SPI model consists of four phases
+CSLCP model in SMEs would improve their level of maturity.                         and five processes. The phases are initiation; planning; execution,
+                                                                                   monitoring and control; and the closure phase. The five processes
+CCS Concepts                                                                       are project management, product development, peer review,
+• Software and its engineering → Software creation and                             quality assurance, and configuration management. The SPI model
+management • Computer systems organization → Cloud                                 used twelve process areas from the CMMI; six from the second
+computing                                                                          level and six from the third level.
+Keywords                                                                           Small to Medium sized Enterprises (SMEs) have limited funding
+Cloud computing; Software Engineering; Software quality; SPI                       resources. SMEs benefit from using cloud computing to acquire
+models; software development life cycle (SDLC); CMMI.                              large computing resources dynamically with low cost [5]. A
+                                                                                   software process model is a systematic approach to produce a
+1.    INTRODUCTION                                                                 software product [6, p. 23]. Choosing inappropriate software
+Existing SPI models provide guides to develop and maintain
+                                                                                   process model leads to poor software quality and increment in
+quality software products [1]. There are numerous SPI models,
+                                                                                   development cost [7, p. 8]. The software engineering process
+such as: CMM, CMMI, six sigma, IDEAL, software process
+                                                                                   needs to be modified to be appropriate for the cloud-based
+improvement and capability determination (SPICE), and ISO [2].
+                                                                                   projects [8]. Authors, to date, consider only the development
+In [3], Cepeda et al. presented a study to determine the suitability               process of cloud-based applications. Also, they did not provide
+of CMMI use in SMEs and the results were as follows.                               evidence to ensure the quality of the produced software. In
+                                                                                   addition, they did not consider the characteristics, challenges and
+ Any slight improvement in software processes offers a fast and                   standards of the cloud computing environment.
+  noticeable impact on companies.
+                                                                                   This work proposes a conceptual view for the Cloud Software
+ Permission to make digital or hard copies of all or part of this work for         Life Cycle Process (CSLCP) model. The model uses some process
+ personal or classroom use is granted without fee provided that copies are
+                                                                                   areas, of the second and the third level of the CMMI [1], which
+ not made or distributed for profit or commercial advantage and that
+ copies bear this notice and the full citation on the first page. Copyrights       are also used by the Egyptian Software Process Improvement
+ for components of this work owned by others than ACM must be                      (SPI) model [4]. In addition, the CSLCP model took into
+ honored. Abstracting with credit is permitted. To copy otherwise, or              consideration the characteristics, challenges, and the standards of
+ republish, to post on servers or to redistribute to lists, requires prior         the cloud computing environment. This helps SMEs in producing
+ specific permission and/or a fee. Request permissions from                        a reliable and good quality cloud software with its limited
+ Permissions@acm.org.                                                              resources.
+ ICSIE 2020, November 11–13, 2020, Cairo, Egypt
+ © 2020 Association for Computing Machinery.                                       This paper is organized as follows. In section two, the existing
+ ACM ISBN 978-1-4503-7721-8/20/04…$15.00                                           CSP models are reviewed. The proposed CSLCP model is
+ https://doi.org/10.1145/3436829.3436830                                           explained in section three. It is validated, in section four,
+
+
+
+
+                                                                               1
+employing a real life case study. Finally, the work is concluded               cloud software that uses SaaS and micro-services. Therefore,
+and a description of the future extensions is offered in section               there is a need to propose a model that addresses the use of
+five.                                                                          different types of cloud software in the same application.
+                                                                           2) It is required to adjust the Egyptian SPI [4] model to suit the
+2.   RELATED WORK                                                              cloud development environment.
+The previous work on the process models of cloud software can              3) Development in a cloud environment involves many
+be classified into two categories: process models of cloud                     important decisions. The process of decision-making and
+software application developed for a particular purpose and a                  choice between different alternatives need to be studied and
+particular consumer, and process models of Software as a Service               considered.
+(SaaS).                                                                    4) The needs and business environment change rapidly.
+2.1 Consumer-specific Cloud Software Process                                   Consequently, in some cases, there are no need for some
+                                                                               software components and features. Therefore, a retirement
+Models                                                                         phase is required, in order to dispense with these components,
+In this category, models were tackled from the perspective of the              and to scale down the acquired resources.
+software provider, who develops the cloud based software.                  5) Cloud computing environment involves many challenges and
+Features of the waterfall, prototyping, and incremental model                  risks. There is a need for a risk-management process area
+were integrated in the model presented in [9]. In the planning                 along the cloud software life cycle. In order to treat the
+phase, the authors considered the contract between the cloud                   different risks in both proactive and reactive manner.
+provider and the development company. In the general case, the             In an attempt to overcome the above shortcomings, an enhanced
+terms of the service level agreement (SLA) are set as a predefined         CSLCP model is proposed in the following section.
+document. The development company chooses between the
+providers based on the SLA terms and other factors. In the design          3. THE PROPOSED CLOUD SOFTWARE
+phase of the model [9], the authors took into consideration re-
+engineering of existing legacy software to be used as a SaaS.                 LIFE-CYCLE PROCESS (CSLCP)
+However, this decision should be planned and made before the                  MODEL
+design phase. In addition, they did not consider the need to retire        The proposed CSLCP model is concerned with any cloud-based
+the unwanted pieces of the developed software and the need to              software. The cloud-based software could be a private software
+reduce resources. The Cloud Computing Development Life Cycle               application developed from scratch and deployed in the cloud, a
+(CCDLC) model [10] integrated the agile model with other                   SaaS application, a micro-service or a combination of them. The
+processes. The CCDLC model addressed risk modeling and                     CSLCP model is a cyclic iterative prototyping model. The model
+management only within the starting of every sprint. However,              is iterative to enhance the software continuously. The cyclic
+risk management ought to be considered throughout the                      nature of it is to accumulate features in an incremental manner.
+development process. The CCDLC model dealt with the security               Prototyping is required to guarantee the early acceptance of the
+and privacy at the end of the development process. However,                developed solution.
+security and privacy issues should be considered throughout the
+whole development process. This is in view of the fact that the            3.1 The Conceptual View of the Proposed
+SLA terms should be investigated before starting the development               CSLCP Model
+process. An iterative waterfall model was used in [11] to develop          The aim of the conceptual view of the CSLCP model is to
+the cloud based applications. The author of this model did not             understand the rationale behind the CSLCP model in a concrete
+consider the development of the SaaS. As well, the distinction             way. In addition, it explains the interaction between the main
+between the use of Platform as a Service (PaaS) and Infrastructure         activities of the CSLCP model. The conceptual view outlines the
+as a Service (IaaS) for development and the traditional on premise         minimal and main activities of the CSLCP model that any cloud
+development was not clear.                                                 software project should have. These main activities are located in
+                                                                           six process areas namely: project management (PM), requirements
+2.2 Process Models of SaaS                                                 (R), product development (PD), quality assurance (QA), risk
+In this category, the first model [12] tackled SaaS from the               management (RM) and configuration and change management
+viewpoint of its developer. The second model [13] tackled it as its        (CM). All versions of the artifacts throughout the CSLCP model
+consumer. The third one [14] did not tackle the perspective of the         are stored as per the CM process area. The conceptual view of the
+provider or consumer. J. Song et al. [12] used a clustering                CSLCP model is depicted in Figure 1. Each step of the flowchart
+algorithm to extract the phases of the life-cycle model. This model        is labeled by a number and/or a code to facilitate its description,
+did not tackle the way of collecting the core information about the        as detailed below. The process area to which each step belongs is
+project, nor its planning, design, and maintenance phases. The IT          specified in parentheses.
+service life-cycle on a virtualized cloud model [13] addressed the         1. Identification of the business goals and scope of the software
+way of acquiring a SaaS. It is divided into five phases. The SLA is        project (PM), and elicitation of the initial requirements (R).
+the main interest of the model [14]. It neither did not consider the       2. Check whether there is any ready-made SaaS or micro-service
+life cycle of acquiring SaaS as a consumer, nor the SDLC of SaaS           for any initial elicited requirements. According to that check, two
+from the viewpoint of its provider.                                        tracks begin to implement the initial requirements. The first track
+The deep study of the SPI model for SMEs [4], (Section 1) and              (A), there is a ready-made SaaS or micro-service for an initial
+related work (Section 2), indicates that the following issues are          elicited requirement. The second track (B), an initial elicited
+required for a cloud environment.                                          requirement will be developed from scratch.
+1) There is a variety of cloud software, such as SaaS, Function as         A.1 On the first track, survey the available SaaS and/or micro-
+                                                                           service providers (PM).
+    a Service (FaaS) – a micro-service or a nano-service [15], and
+                                                                           A.2 For each available third-party SaaS and/or micro-service,
+    developed private software for a specific customer. In many
+                                                                           conduct a comparison among the providers based on; the provided
+    cases, a private cloud application is developed using hybrid
+
+
+
+
+                                                                       2
+features, SLA, cost, IT laws, the national and international laws,        A.3 Arrange providers, according to the results of the comparison
+agreements and regulations that govern the use of the service,            (PM).
+data, violation of privacy, vendor lock-in issues, violation of the       A.4 Choose the appropriate SaaS and/or micro-service provider
+SLA and international arbitration, and the results of risk analysis       based on the ordered list of providers (PM).
+(PM and RM).                                                              A.5 Acquire the chosen SaaS or micro-service (PM).
+
+
+
+
+                   Figure 1 The conceptual view of an enhanced cloud software life cycle process (CSLCP) model.
+
+
+
+
+                                                                      3
+A.6 Integrate the APIs of the acquired SaaS and/or micro-service           B.1 On the second track, there is not an available third-party's
+with the previously developed artifacts (PD).                              SaaS or micro-service for some of the initial elicited requirements.
+A.7 Perform the integration test (PD).                                     These requirements will be developed from scratch. The project
+A.8 The results of integration testing may pass through one of two         manager and the leader of the development team arrange the
+tracks; success or failure.                                                initial elicited requirements. This will help in planning the
+A.8.1 If the result of integration test is successful, the                 increments of the software development cycles (PM and R).
+development processes can pass through four paths: monitor and             B.2 Start each development cycle with specifying the initial
+evaluate the acquired SaaS and/or micro-service of a third-party,          elicited requirements that have the highest priority (R).
+deploy the integrated artifacts, specify and provide the terms of          C Start the analysis and design of the specified requirements. This
+SLA of the developed SaaS/micro-service, and start specifying              step is performed in parallel with the path D (R and PD).
+and developing the next requirement (QA, PD, PM and R).                    D.1 Based on the specified requirements, define the needed
+A.9 Monitor and evaluate the acquired SaaS and/or micro-service            resources IaaS and/or PaaS, and the required skills of the
+of a third-party in terms of: Quality of Service (QoS), cost, change       development team members and their roles (PM).
+of laws, agreements and regulations, and risk analysis (QA and             D.2 Survey the available IaaS and/or PaaS providers, and collect
+PM).                                                                       all the available and needed information about each provider
+A.9.1 If the result of monitoring and evaluating the acquired SaaS         (PM).
+and/or micro-service of a third-party is instability or lack of            D.3 Based on D.2, make a comparison among the providers on the
+quality, rise of cost, or change of law and regulations negatively;        basis of the provided features of the service, SLA, cost, law,
+the project manager can choose between one of two processes that           agreements and regulations, and the results of risk analysis (PM
+are illustrated in A.9.1.1.                                                and RM).
+A.9.1.1 The project manager can change the used SaaS/micro-                D.4 Based on the results of the comparison, arrange the providers
+service and choose another provider, or specify and develop the            (PM).
+required service (of the previously used SaaS/micro-service) as a          D.5 Choose the provider that has the highest priority (PM).
+new component and move on to the step B.1 (PM and R).                      D.6 Acquire the chosen IaaS and/or PaaS to start the
+A.9.2 The results of monitoring and evaluating the acquired SaaS           implementation processes (PM).
+and/or micro-service is stability in QoS, cost, and the laws,              B.3 Start coding the designed requirements on the acquired
+agreements and regulations are unchanged.                                  resources (PD).
+A.9.2.1 The project manager will continue the use and monitor of           B.4 Test the implemented components (PD).
+the third-party's SaaS/micro-service, and return back to the step          B.5 The results of component testing may pass through one of two
+A.9 (PM).                                                                  tracks; success or failure.
+A.10 If the developed artifacts are private software for a specific        B.5.1 If the component test succeeded, proceed from step A.6 that
+customer, the successful integrated artifacts are deployed on the          integrates this component with components that were previously
+operating platform. While if the integrated components are                 developed (PD).
+offered as SaaS or micro-services, a third-party hosts the service         B.5.2 If the component test failed, the development team defines
+(service pool) which will be acquired by any consumer (PD).                the reason of failure and reworks the component. The rework may
+A.11 Simultaneously and prior to the deployment of the                     be re-implement (B.3) or redesign (C) the component (PD).
+developed SaaS/micro-service, the project management team will             It is evident from the above description of the conceptual view,
+specify the terms of the SLA of the offered SaaS/micro-service to          that the proposed CSLCP model resolves fully issues one and
+be provided upon deployment of the service (PM).                           four, and partially issues two, three and five.
+A.8.2 The second track of integration test is a failure of
+integration.                                                               4.   CASE STUDY
+A.8.2.1 If the result of integration test is a failure, identify the       A real life case study is employed as a proof of concept for the
+cause of integration failure and start reworking to fix the                proposed CSLCP model. The case study is a cloud e-commerce
+integration. The rework may be to re-design (C) or re-implement            web application. It is an online shop for many kinds of products.
+(B.3) the component that caused integration failure (PD).                  The user of the cloud e-commerce application can browse the
+A.12 The end-user starts using the deployed software on the                showed products and read its details. Users of the application
+operating platform, and submits feedback to assess the software            ought to have a registered account to purchase products. A user
+(PM).                                                                      can change the quantity of the products contained in a cart which
+A.13 Based on the feedback of the end-user, the development                will be purchased. The application calculates the value of the
+team starts maintaining the software. Maintenance may lead to re-          order contained in the cart, including the shipment value.
+implementation of some components of the software (B.3) or re-             The case study provides an in-depth hands-on to know the way to
+analysis and redesign of some components of the software (C)               apply the proposed CSLCP model to produce a cloud based
+(PD).                                                                      software. The application was implemented on a private cloud
+A.14 Over the time, some features of the software become                   acquired from Amazon Web Services (AWS). To produce the
+unused/unneeded. This will lead to the retirement of the                   application, various components were integrated such as, SaaS,
+components that represent the unused features of the software              FaaS, Database as a Service (DaaS) and other implemented
+(PM, R, and PD).                                                           components. All cloud resources were acquired from AWS. The
+A.15 The current business environment is continually changing              application was implemented in an angular development
+due to changes in customer needs, the evolution of technology,             environment using Javascript integrated with AWS amplify
+changing business goals and the competitive environment. This              libraries. The architecture of the application is shown in Figure 2.
+will change the current requirements and create new requirements.          This case study follows the steps depicted in Figure 1 as detailed
+The feedback of the end-user will reflect that. Therefore, new             below.
+requirements will be added and specified (R).                              The initial requirements are elicited (step 1). For authentication
+                                                                           and authorization requirements, ready-made services are found
+
+
+
+
+                                                                       4
+such as; AWS Cognito, Google authenticator. RSA SecurID,                     6.    REFERENCES
+Microsoft Azure Active Directory, etc. (step 2, A, and A.1). The             [1] CMMI-Product-Team. CMMI for Development, Version 1.3,
+services were compared and prioritized (step A.2 and A.3). AWS                    Software Engineering Institute, Carnegie Mellon University,
+Cognito was chosen (A.4). The initial web application was created                 Pittsburgh, Pennsylvania, 2010, 482.
+and AWS Cognito service was acquired and integrated into it (A.4             [2] Anees, A. and Agrwal, A. Software process improvement
+and A.5). Different test cases were performed and the integration                 models and their comparison. International Journal of
+testing succeeded (A.7, A.8 and A.8.1). The next step is B.2. The                 Advanced Research in Computer Science (IJARCS), 8 (5).
+following requirement in the initial-requirements, priority list was              928-932.
+showing all products on the homepage. This requirement has                   [3] Cepeda, S., Garcia, S. and Langhout, J. Is CMMI Useful and
+specified. The development team analyzed and designed that                        Usable in Small Settings? One Example. CrossTalk, The
+requirement (C). In parallel with step C, the following steps were                Journal of Defense Software Engineering, 21 (2). 32.
+performed. The web-app will be a serverless application. The                 [4] SECC. SPIG Product Suite Handbook V1.2, Software
+needed resources will be a NoSQL database, API and functions.                     Process Improvement Guide (SPIG), Information Technology
+Team members should be familiar with JavaScript (D.1). The                        Industry Development Agency (ITIDA), Ministry of
+available PaaS providers were surveyed, compared and prioritized                  Communications and Information Technology (MCIT), Giza,
+(D.2, D.3 and D.4). AWS Lambda functions, AWS API Gateway                         Egypt, 2010.
+and DynamoDB were chosen and acquired (D.5 and D.6). Then,                   [5] Avram, M.G. Advantages and Challenges of Adopting Cloud
+the implementation was started (B.3). Both the component testing                  Computing from an Enterprise Perspective. Procedia
+and integration testing were successful (B.4, B.5, B.5.1, A.6, A.7,               Technology, 12. 529-534.
+A.8 and A.8.1). The following cycles were continued until the last           [6] Sommerville, I. Software Engineering. Pearson Education,
+requirement. After completing the case study, it became evident                   England, UK, 2015.
+that the CSLCP model is applicable and could resolve fully issues            [7] Sommerville, I. Software Engineering. Addison-Wesley
+one and four, and partially issues two, three and five, as                        Longman Publishing Co., Inc., China, 2006.
+mentioned in Section 2. The CSLCP model solved all shortages of              [8] Krishna, R. and Jayakrishnan, R. Impact of Cloud Services
+existing CSP models. Thus, outperforming these models.                            on Software Development Life Cycle. in Mahmood, Z. and
+                                                                                  Saeed, S. eds. Software Engineering Frameworks for the
+                                                                                  Cloud Computing Paradigm, Springer London, London,
+                                                                                  2013, 79-99.
+                                                                             [9] Hacaloglu, T., Eren, P.E., Mishra, D. and Mishra, A. A
+                                                                                  Software Development Process Model for Cloud by
+                                                                                  Combining Traditional Approaches. in Ciuciu, I., Panetto, H.,
+                                                                                  Debruyne, C., Aubry, A., Bollen, P., Valencia-García, R.,
+                                                                                  Mishra, A., Fensel, A. and Ferri, F. eds. On the Move to
+                                                                                  Meaningful Internet Systems: OTM 2015 Workshops:
+                                                                                  Confederated International Workshops: OTM Academy,
+                                                                                  OTM Industry Case Studies Program, EI2N, FBM, INBAST,
+                                                                                  ISDE, META4eS, and MSC 2015, Rhodes, Greece, October
+                                                                                  26-30, 2015. Proceedings, Springer International Publishing,
+                                                                                  Cham, 2015, 421-430.
+                                                                             [10] Babar, M., ur Rahman, A. and Arif, F., Cloud Computing
+                                                                                  Development Life Cycle Model (CCDLC). in The 1st EAI
+                                                                                  International Conference on Future Intelligent Vehicular
+                                                                                  Technologies, (Porto, Portugal, 2016), Springer International
+                                                                                  Publishing, 189-195.
+Figure 2 The architecture of the cloud e-commerce web                        [11] Balasubramanyam, S.R. Cloud-Based Development Using
+application.                                                                      Classic Life Cycle Model. in Mahmood, Z. and Saeed, S. eds.
+                                                                                  Software Engineering Frameworks for the Cloud Computing
+5.    CONCLUSION & FUTURE WORK                                                    Paradigm, Springer London, London, 2013, 101-122.
+A conceptual description of an enhanced Cloud Software Life                  [12] Song, J., Li, T., Jia, L. and Zhu, Z., A Deduced SaaS
+Cycle Process (CSLCP) model is presented in this paper. The                       Lifecycle Model Based on Roles and Activities. in
+CSLCP model is compatible with level two and three of CMMI.                       International Conference on Advances in Computing and
+The model was validated using a case study. Applying the CSLCP                    Communications         (ACC 2011), (Kochi, India, 2011),
+model in SMEs shall improve its maturity level. Time spent on                     Springer, Berlin, Heidelberg., 421-431.
+training members of the various development teams to use the                 [13] Joshi, K.P., Finin, T. and Yesha, Y., Integrated lifecycle of IT
+CSLCP model, would improve the quality, cost, time of producing                   services in a cloud environment. in The Third International
+a cloud software. Using the CSLCP model can aid SMEs to                           Conference on the Virtual Computing Initiative (ICVCI
+develop cloud based software with their limited resources and                     2009), (Research Triangle Park, NC, USA, 2009).
+with a good quality.                                                         [14] Jagli, D. and Yeddu, S. CloudSDLC: Cloud Software
+In future work, more process areas of the detailed CSLCP model                    Development Life Cycle. International Journal of Computer
+will be considered and described. The description will illustrate                 Applications, 168 (8). 6 -10.
+the phases and activities listed in each process area for every              [15] Kritikos, K. and Skrzypek, P., A Review of Serverless
+phase. The detailed CSLCP model will explain the roles and                        Frameworks. in 2018 IEEE/ACM International Conference
+artifacts. Also, it will fully resolve all shortages of existing cloud            on Utility and Cloud Computing Companion (UCC
+software process models.                                                          Companion), (Zurich, Switzerland, 2018), IEEE, 161-168.
+
+
+
+
+                                                                         5
+

@@ -1,0 +1,492 @@
+                                                                                                                                       PDF Download
+                                                                                                                                       3625156.3625158.pdf
+                                                                                                                                       23 December 2025
+                                                                                                                                       Total Citations: 0
+                                                                                                                                       Total Downloads: 198
+    .
+    .
+        Latest updates: hps://dl.acm.org/doi/10.1145/3625156.3625158
+
+
+
+
+                                                                                                                                       .
+                                                                                                                                       .
+                                                                                                                            Published: 11 August 2023
+        .
+        .
+                                                                                                                            .
+    RESEARCH-ARTICLE
+
+
+
+
+                                                                                                                            .
+                                                                                                                            Citation in BibTeX format
+    Factors Related to Information Sharing and Cloud Computing Adoption
+
+
+
+
+                                                                                                                            .
+                                                                                                                            .
+                                                                                                                            ICISS 2023: 2023 The 6th International
+    in SMEs: Evidence from Saudi Arabia                                                                                     Conference on Information Science and
+                                                                                                                            Systems
+    OMER A GIBREEL, Gulf University for Science and Technology Kuwait, Hawally, Kuwait                                      August 11 - 13, 2023
+                                                                                                                            Edinburgh, United Kingdom
+    .
+    SAKTHI MAHENTHIRAN, Oregon State University, Corvallis, OR, United States
+
+
+
+
+                                                                                                                            .
+                                                                                                                            .
+    .
+    HUSSAIN A ALHEJJI, Gulf University for Science and Technology Kuwait, Hawally, Kuwait
+    .
+    MAWADA H GADKARIM, Khartoum University, Khartoum, Sudan
+    .
+    .
+    .
+    Open Access Support provided by:
+    .
+    Oregon State University
+    .
+    Gulf University for Science and Technology Kuwait
+    .
+    Khartoum University
+    .
+                                                    ICISS '23: Proceedings of the 2023 6th International Conference on Information Science and Systems (August 2023)
+                                                                                                                              hps://doi.org/10.1145/3625156.3625158
+                                                                                                                                                 ISBN: 9798400708206
+.
+  Factors Related to Information Sharing and Cloud Computing
+ Adoption in SMEs: Evidence from The Kingdom of Saudi Arabia
+                                  Omer A Gibreel∗                                                                     Sakthi Mahenthiran
+               Gulf University for Science and Technology                                                           Oregon State University
+                         gibreel.o@gust.edu.kw                                                                     mahenths@oregonstate.edu
+
+                                 Hussain A Alhejji                                                                   Mawada H Gadkarim
+               Gulf University for Science and Technology                                                            Khartoum University
+                        Alhejji.H@gust.edu.kw                                                                     mawada.gadkarim@gmail.com
+
+ABSTRACT                                                                                            1   INTRODUCTION
+The Gulf Cooperation Council region, particularly the Kingdom                                       With a majority of the organizational activities being supported by
+of Saudi Arabia, is embracing 5G technology and its applications,                                   cloud services, the firms are allocating significant portions of their
+such as cloud computing. Nevertheless, Small and Medium-sized                                       IT budgets to cloud services in the hopes of generating increased
+Enterprises (SMEs) are held back due to the introduction of new                                     business value [2, 17]. This study investigates the factors influenc-
+technology, which leads to new business models and system dy-                                       ing information sharing by subordinates during the IT budgeting
+namics that require a new set of tools (hard skills) and skills (soft                               process that can moderate the benefits of cloud computing adoption.
+skills) to quickly adopt new technologies. Using survey data from                                   The switch from traditional IT to cloud computing is driven by the
+122 respondents and structural equation modeling, the study finds                                   benefits of reduced costs, greater access to computing resources,
+the factors affecting the level of information sharing in organiza-                                 lower expenditures, and greater economies of scale [1, 7]. Recent
+tions can act as a barrier to cloud computing adoption. The study’s                                 studies pointed out that information sharing and reliability of the
+contribution is that it looks at the effect of information sharing                                  cloud computing provider are positively and significantly associ-
+from three intertwined socio-economic, technological, and behav-                                    ated with the users’ perception of the performance of the cloud
+ioral perspectives. The results suggest that although technological                                 computing provider. Moreover, once the switch to cloud comput-
+aspects are important, socio-economical, and behavioral aspects                                     ing is made, it requires minimal managerial effort and interaction
+are equally crucial for cloud computing adoption. The study con-                                    with the service providers, which frees up managers to focus on
+cludes by highlighting the implications for SMEs adopting cloud                                     their core business which is critical in globally competitive markets
+computing and the need for future research to understand why 5G                                     [1, 7, 32, 33]. However, cloud computing systems expose organiza-
+adoption might not realize its full potential in emerging markets.                                  tions to risk because their data is stored remotely and controlled
+                                                                                                    by the cloud service provider, which can cause security risks and
+CCS CONCEPTS                                                                                        greater uncertainty, particularly for Small and Medium Enterprises
+• Information systems → Enterprise applications.                                                    (SMEs) in less developed countries. For example, security breaches
+                                                                                                    cost businesses over $2 trillion in 2019 in direct and indirect costs
+KEYWORDS                                                                                            due to time and effort spent in dealing with security breaches, lost
+                                                                                                    opportunities, and regulatory fines [12]. These costs can be dispro-
+Cloud Computing, Information Sharing, Trust, Procedural Justic                                      portionately high for SMEs because they are unlikely to have cyber
+ACM Reference Format:                                                                               insurance and lack the personnel and other resources needed to
+Omer A Gibreel, Sakthi Mahenthiran, Hussain A Alhejji, and Mawada H                                 recover from these cybercrimes [29]. Hence, we study the factors
+Gadkarim. 2023. Factors Related to Information Sharing and Cloud Com-                               that can improve information sharing in organizations that can
+puting Adoption in SMEs: Evidence from The Kingdom of Saudi Arabia. In                              help mitigate the risks and reduce the uncertainties related to cloud
+2023 The 6th International Conference on Information Science and Systems                            computing adoption by SMEs.
+(ICISS 2023), August 11–13, 2023, Edinburgh, United Kingdom. ACM, New                                  When a firm outsources the IT services to a cloud service
+York, NY, USA, 7 pages. https://doi.org/10.1145/3625156.3625158
+                                                                                                    provider it means that the cloud provider’s employees have ac-
+                                                                                                    cess to the financial data, mission-critical non-financial data, and
+∗ orresponding author
+                                                                                                    sensitive records such as salaries and personnel records [32, 36].
+                                                                                                    Thus, before switching to cloud computing most times security
+Permission to make digital or hard copies of all or part of this work for personal or               analysts test the cloud environment to discover their capabilities
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+                                                                                                    and vulnerabilities for which risk-based security testing models
+on the first page. Copyrights for components of this work owned by others than the                  have been developed for this purpose [35]. More importantly, the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or              IT governance-knowledge fit perspective suggests that authority of
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.                                         the decision-making in IT-related issues should be gathered from
+ICISS 2023, August 11–13, 2023, Edinburgh, United Kingdom                                           those employees with the pertinent knowledge. Kruger and Kear-
+© 2023 Copyright held by the owner/author(s). Publication rights licensed to ACM.                   ney’s (2006) case studies show that all employees in an organization
+ACM ISBN 979-8-4007-0820-6/23/08. . . $15.00
+https://doi.org/10.1145/3625156.3625158
+                                                                                                    should be engaged in finding solutions for information security
+
+
+
+
+                                                                                                8
+ICISS 2023, August 11–13, 2023, Edinburgh, United Kingdom                                                                            Omer Gibreel et al.
+
+
+concerns, which should not only be delegated to the IT department              [6, 20]. Further, Macharia (2022) finds that cloud security aware-
+[20]. Otherwise, employees can pose a serious threat to organiza-              ness is positively related to an organization’s IT-business strategic
+tional information security with a range of negative behaviors, and            alignment. Prior research has shown the importance of alignment
+studies suggest many factors that could hinder compliance with a               between an organization’s business concerns and IT considerations
+firm’s information security policy or ISP [6, 23]. Internally within           are crucial for successful cloud computing adoption [24, 30]. Also,
+an organization, Xu and Mahenthiran (2021) show the importance                 IT personnel are concerned about security breaches that are caused
+of trust in the supervisor in the IT department in addition to ISPs            internally within an organization due to weak passwords, not using
+and the technological capabilities of the cloud computing provider             multifactor authentication, and sharing of hardware such as USB
+are important determinants of the performance of the cloud com-                drives between employees [21], and these studies emphasize the
+puting provider. Thus, from an SMEs standpoint, both internal and              importance of honest information sharing to help deal with em-
+external factors would affect the risk and uncertainty of adopting             ployee resistance. However, this area of research remains relatively
+cloud computing. This study focuses on internal factors, specifically          unexplored, specifically in SMEs.
+the subordinates’ behaviors during the IT budgeting process that                  Trust in the immediate supervisor and organizational justice
+affects information sharing within an organization [33].                       involves the perceptions of organizational members regarding the
+    ISPs only prescribe employee behaviors that are deemed effec-              fairness of organizational decisions. Research in psychology and
+tive in dealing with cyber threats of the past, but not those likely           management has examined organizational justice and its impact on
+to emerge [23]. According to Lin et al. (2022), following ISPs is a            employee attitudes and behavior [10]. Among the different types
+passive behavior, but employees should be capable of identifying               of justices studied, procedural justice will be explored in our study
+new security threats and developing effective solutions that would             in the context of cloud computing technology and the aspect of
+require honest information sharing within an organization. Lin et              information shearing. Folger and Greenberg (1985) define proce-
+al. (2022) refers to this as proactive information security behavior or        dural justice as "the perceived fairness of the procedures used in
+PISB, and show that "PISB is shaped by organizational culture and              decision making (p. 143)" [13]. Leventhall (1980) identified six "fair-
+structure, as they constitute an organizational context impacting in-          ness rules" that an individual uses to judge fairness in any resource
+formation security behavior (p. 2)" [23]. According to Lin et al. (2022)       allocation process: (1) decisions should be consistent across per-
+proactive employee behaviors are self-initiated and aim to change              sons and time; (2) decision-makers should be unbiased; (3) decisions
+and improve an organizational situation. Thus, as good citizens of             should be based upon accurate information; (4) decisions should be
+an organization, employees should share their security concerns,               correctible with a right of appeal; (5) the decision process should
+and their security experiences to strengthen organizational security           be representative that means the views and opinions of all groups
+engagement. Lin et al., (2022) suggest that "to practice proactive             affected should be acknowledged; (6) decisions should conform to
+idea implementation, employees will offer security improvement                 the prevailing ethical standards within the organization [22]. And
+suggestions and then discuss them with co-workers (p. 2)", and they            many studies report a significant association between procedural
+find that a human relations culture that encourages employees to               justice and the number of employee outcomes such as job satisfac-
+engage in mutual assistance in performing their security duties lead           tion, trust, job performance, and low employee turnover [9, 10]. Lin
+to PISB [23]. Nevertheless, information sharing among employees                et al. (2022) finds that when IT resource use is less restrictive for
+as proactive behavior has not received much attention in IT behav-             employees, they are more likely to develop creative solutions to
+ioral research even though it could be categorized as a PISB activity          deal with information security issues, which suggests that justice
+that fosters a good human relations culture. Thus, the purpose of              in IT resource allocation decisions is important for employees.
+the study is to investigate cultural, technical, and organizational               There are two main explanations for how procedural justice
+factors such as procedural justice in the IT budgeting process that            influences employees’ behaviors. The relational model suggests
+improves information sharing in organizations.                                 that work represents an important social group for employees and
+                                                                               that fair treatment of the individual signals to the employee that he
+                                                                               or she is a valued member of the group [11]. The instrumental model
+                                                                               suggests that individuals seek procedural justice in order to protect
+2    LITERATURE REVIEW                                                         their own self-interest in decision outcomes. On the other hand,
+The cost of cloud computing can be reduced by restructuring the IT             Kim and Mauborgne (1988) argue that neither the relational nor the
+departments so that they act as intermediaries between the cloud               instrumental models fully explain the motivation of managers to
+provider and the internal customers playing a key role in manag-               share information. They suggest that managers "seek recognition
+ing the relations with the cloud vendor and the employees, which               of their value not as ’labor’, ’personnel’ or ’human resources’, but
+will make the IT departments relevant and add value to organiza-               as human beings who are treated with full respect and dignity and
+tions [8, 23]. Prior research on the risks of cloud computing has              appreciated for their individual worth [18]. Akgun, Keskin, and
+focused on security threats with respect to data privacy, control,             Byrne (2010) report that Kim and Mauborgne’s (1988) arguments
+and hacking in the cloud computing environment [4, 24]. Addi-                  are relevant for example for new product development teams [1,18].
+tionally, user resistance to cloud computing adoption studies have             Therefore, the literature is clear that unfair procedures would signal
+focused on employee resistance as an important research stream                 disrespect and discourage information sharing in organizations, and
+[15, 16]. Particularly, employee information security awareness                we also explore how information sharing is affected by age, industry
+refers to general knowledge and information about potential secu-              or position within the company too.
+rity issues and the possible repercussions of the lack of awareness
+
+
+
+
+                                                                           9
+Factors Related to Information Sharing and Cloud Computing Adoption in SMEs: Evidence from The
+Kingdom of Saudi Arabia                                                                                  ICISS 2023, August 11–13, 2023, Edinburgh, United Kingdom
+
+
+   PISB researchers find that organizational culture and structure                   "the pattern of decision-making for all IT-related issues including
+determine the moral beliefs that individual employees use to justify                 IT investment, planning, management, and application (p.4)". IT
+their ISP violation behaviors [23], and the thought patterns which                   governance, therefore, is a construct of organizational structure
+would sustain such behaviors [13]. Given that the study is being                     that is related to the extent of centralization and formalization. And
+conducted in a middle eastern country it provides us an opportunity                  IT use management is an area of IT governance that explores how
+to examine the role of social and cultural factors play in building                  IT governance impact employees’ PISB [23]. Employees’ perception
+the trust in the supervisor which can lead to more information                       of procedural justice is thus an integral part of IT use management
+sharing by subordinates during the IT budgeting process. Thus, we                    because they are likely to be highly positively correlated. However,
+test for following hypotheses.                                                       studies have sparsely investigated how procedural justice in IT
+   H1: Social and cultural factors such as the level of power distance               budgeting encourages subordinates to share their information with
+between employees and the propensity to avoid uncertainty will                       their superiors during the IT budgeting processes.
+affect the level of Trust in the Supervisor.                                            Organizational citizenship behavior studies also emphasize the
+   H2: Trust in the supervisor will moderate the effect of social and                importance of participation, which usually refers to going beyond
+cultural factors on the perceived level of procedural justice in the                 the existing role and voicing behaviors. Hsu et al. (2014) find that
+IT budgeting process.                                                                employee involvement and social control are not only related to in-
+   Xu and Mahenthiran (2021) find that "when employees trust                         role behaviors but also extra-role behaviors affecting information
+their immediate supervisor’s technical competency, it can medi-                      security, specifically by voicing ideas, suggestions, and comments
+ate the confidence in cloud providers’ capability to provide data                    [16]. Employee participation in decision-making has been shown
+integrity, confidentiality, and cybersecurity that positively affects                to inspire employees to self-manage their work and bolster their
+users’ perception of cloud computing performance (p. 828)" [33].                     confidence in managing challenging tasks and facilitate employee
+This and other studies find that technical complexity negatively                     empowerment that motivates initiative-taking behaviors in their
+affects user satisfaction [7, 28], and having a competent supervisor                 duties [26, 27]. Thus, this research has shown the importance of
+can mitigate the negative association between complexity and cyber                   good citizenship behaviors to strengthen information security [16,
+security concerns and user satisfaction. Accordingly, we hypoth-                     23]. The literature reviewed and the factors used to justify the effects
+esize that the level of complexity and concerns for cyber security                   on users’ procedural justice all point to the fact that the higher the
+will affect the level of trust in the supervisor, which will depend on               perceived procedural justice in the IT budgeting process greater
+the level of procedural justice in the IT budgeting process. Thus,                   the information sharing. Thus, we formally state a hypothesis and
+we hypothesize a direct effect of the technical factors (complexity                  examine if that is the case during the IT budgeting process in SMEs
+and security concerns) on procedural justice in the IT budgeting                     in the middle east.
+process as well as an indirect effect of these technical factors on                     H6: The higher the level of procedural justice in IT budgeting
+procedural justice via the trust in the supervisor. Thus, we test the                the greater the information sharing.
+following hypotheses.                                                                   Figure 1 below shows the proposed framework and the hypothe-
+   H3: Technical factors such as the level of complexity and con-                    ses being tested.
+cerns for cyber security will affect the level of trust in the supervisor.
+   H4: Technical factors such as the level of complexity and con-
+cerns for cyber security will also directly affect the perceived level
+of procedural justice in the IT budgeting process.                                   3     METHODOLOGY
+   H5: The level of trust in the supervisor will mediate the rela-                   Survey data was collected using online web questionnaire and
+tionship between the technical factors and the perceived level of                    analyzed using both SPSS and AMOS. The number of respondents
+procedural justice in the IT budgeting process.                                      (cases gathered) was 153. In the case of data inspection and cleaning,
+   Drawing on the agency theory, accounting and management                           from the 153-sample size, 31 cases had missing data points that
+studies suggest that subordinate employees have more private in-                     were removed leaving us with a total of 122 cases for the analyses.
+formation about their area of responsibility than their superiors and                Next is the list of Construct/measurement items explored in this
+that the sharing of such information is beneficial to the organization               research. Table 1 below shows the constructs measured and the
+[5, 26]. For example, studies have shown that participation in the                   scales used.
+budgeting processes provides subordinates the opportunity to re-                        Regarding gender, 42% were male, and 58% were female. In terms
+veal their private information which leads to higher quality budgets                 of level of management, senior management level or equivalent was
+that more accurately represent likely future conditions affecting                    7 percent, middle management level or equivalent was 25 percent,
+the firm [25], leads to better resource allocations [31], and higher                 frontline management or higher than beginner level was 23 percent,
+job performance [27]. The budgeting studies have also established                    lower-level or entry-level management was 21 percent and others
+that procedural justice (rather than distributive justice), influences               was 24 percent.
+the degree of information sharing [26]. Specifically, these studies                     Preliminary data analyses uses the following stages. In the first
+argue that if subordinates believe that budgeting procedures are                     stage, we considered Kaiser-Meyer-Olkin (KMO) and Bartlett’s tests.
+fair, then the subordinates are more likely to share their private                   The KMO measure of sampling adequacy resulted in 0.80 (above
+information during the budgeting process.                                            0.60 is acceptable) [3]. For Bartlett’s test, the results were signifi-
+   The security concerns in IT implementation often relates to the                   cant (0.000), a Bartlett’s result less than <0.001 is significant. In the
+concept of IT governance. Lin et al. (2022) define IT governance as                  second stage, we analyzed the measurement model for convergent
+
+
+
+
+                                                                                10
+ICISS 2023, August 11–13, 2023, Edinburgh, United Kingdom                                                                           Omer Gibreel et al.
+
+
+
+
+                                                               Figure 1: Research Model
+
+                           Table 1: Measurement constructs name, type of measurement, and basic description
+
+ Name                                                Type                 Measurement                  Scale Description
+ Trust (in Supervisor)                               Numeric              Ordinal                      Likert scale from 1 to 7
+ Power Distance                                      Numeric              Ordinal                      Likert scale from 1 to 7
+ Uncertainty avoidance                               Numeric              Ordinal                      Likert scale from 1 to 7
+ Complexity                                          Numeric              Ordinal                      Likert scale from 1 to 7
+ Security                                            Numeric              Ordinal                      Likert scale from 1 to 7
+ Procedural Justice                                  Numeric              Ordinal                      Likert scale from 1 to 7
+ Information Sharing                                 Numeric              Ordinal                      Likert scale from 1 to 7
+
+
+and discriminant validity. For convergent validity, items with fac-               The above table shows that except for hypotheses H3 and H5 the
+tor loadings below 0.5 were excluded, and 4 items were excluded                remaining four hypotheses are supported, and they are discussed
+that did not satisfy this condition. The remaining item loadings               below.
+were greater than 0.6 [14]. In discriminant validity, there was no
+cross-loading, and all factor correction matrices were below 0.7.              4   DISCUSSION AND CONCLUSION
+Cronbach’s alpha, a method for measuring internal consistency,                 As per social and cultural factors affecting trust in supervisor that
+were consistently above .80. The alpha coefficients for the scales             were hypotheses H1a and H1b, our study results finds that power
+were: Trust (in Supervisor) 0.82, Power Distance 0.84, Uncertainty             distance doesn’t significantly affect the trust in supervisors. On
+avoidance 0.88, Complexity 0.86, Security concerns 0.81, Proce-                the other hand, an environment of high uncertainty avoidance
+dural Justice 0.87, Information sharing 0.82. In the case of model fit,        significantly affects the trust in supervisors and procedural justice
+CMIN/DF was 1.456, which is within the threshold between 1 and                 perceptions. This could indicate that a setting with clear procedures
+3[17]. RMSEA was 0.061, and was within the range for the cut-off               and steps guided by the supervisor incentivizes employees’ trust
+criteria. CFI was 0.994, SRMR was 0.027 which are all within the               in their supervisors. This would support Lin et al. 2022 finding on
+appropriate threshold. Hence, we conclude the model fit is good.               proactive information security behavior. The more employees are
+Table 2 presents the model results for the hypothesis tests using              included in the decision making and information processing, the
+confirmatory factor analysis and structural equation modeling. The             more proactive behavior could be cultivated within the organization
+estimated p-value and status of the hypothesis are stated as either            and the more trust in the supervisor can be developed [23]
+supported or rejected.                                                            Hypothesis H2 is supported in that the trust in the supervisor
+                                                                               affects procedural justice. This indicates that the more employees
+
+
+
+
+                                                                          11
+Factors Related to Information Sharing and Cloud Computing Adoption in SMEs: Evidence from The
+Kingdom of Saudi Arabia                                                                                             ICISS 2023, August 11–13, 2023, Edinburgh, United Kingdom
+
+
+                                               Table 2: Results of structural equation modeling analysis.
+
+ Hypothesis              Independent                                        Dependent                 Estimate              Signif                Status
+ H1a→                    Power Distance                                     Trust                     0.138                 .104                  Rejected
+ H1b→                    Uncertainty Avoidance                              Trust                     0.446                 ***                   Supported
+ H2→                     Uncertainty Avoidance→Trust                        Procedural                0.198                 ***                   Supported
+                                                                            Justice
+ H3a→                    Complexity                                         Trust                     0.168                 .096                  Rejected
+ H3b→                    Security                                           Trust                     -0.009                .933                  Rejected
+ H4a→                    Complexity                                         Procedural                -0.161                *                     Supported(inverse)
+                                                                            Justice
+ H4b→                    Security                                           Procedural                0.429                 ***                   Supported
+                                                                            Justice
+ H5a→                    Complexity→ trust                                  Procedural                0.074                 0.175                 Rejected
+                                                                            Justice
+ H5b→                    Security →Trust                                    Procedural                -0.004                0.932                 Rejected
+                                                                            Justice
+ H6→                     procedural justice                                 Information               0.999                 ***                   Supported
+                                                                            Sharing
+
+
+trust the supervisor, the more there is a strong belief that procedural                      [2] Abdulaziz Aljabre. 2012. Cloud computing for increased business value. Interna-
+justice in an organization is fair and upheld. This means incorporat-                            tional Journal of Business and social science 3, 1 (2012).
+                                                                                             [3] Peter James Allen and Kellie Bennett. 2010. PASW statistics by SPSS: a practical
+ing a culture of sharing ideas about new technology, such as cloud                               guide: version 18.0. Cengage Learning, South Melbourne, Vic.
+computing, which can help support trust in the IT department and                             [4] Randy V. Bradley, Terry Anthony Byrd, Jeannie L. Pridmore, Evelyn Thrasher,
+                                                                                                 Renee ME Pratt, and Victor WA Mbarika. 2012. An empirical examination of
+the supervisor, which can help support procedural justice. In Har-                               antecedents and consequences of IT governance in US hospitals. Journal of
+vard Business Review, Kirby and Stewart (2006) noted a case study                                Information Technology 27, (2012), 156–177.
+that included an interview with Jeff Bezos about how innovations                             [5] Jason L. Brown, John H. Evans III, and Donald V. Moser. 2009. Agency theory
+                                                                                                 and participative budgeting experiments. Journal of management accounting
+are accepted in Amazon’s work culture. The case study pointed out                                research 21, 1 (2009), 317–345.
+that a strict procedure was introduced from the start in which new                           [6] Burcu Bulgurcu, Hasan Cavusoglu, and Izak Benbasat. 2010. Information security
+ideas are reviewed and tentatively accepted, called the institutional                            policy compliance: an empirical study of rationality-based beliefs and information
+                                                                                                 security awareness. MIS quarterly (2010), 523–548.
+"Yes" method vs. institutional "No" attitude. The idea is to encourage                       [7] Victor Chang, Robert John Walters, and Gary Wills. 2013. The development that
+senior managers to say yes first to new ideas and projects. This                                 leads to the Cloud Computing Business Framework. International Journal of
+                                                                                                 Information Management 33, 3 (2013), 524–538.
+would encourage employees to share more ideas and demand se-                                 [8] Vidyanand Choudhary and Joseph Vithayathil. 2013. The impact of cloud com-
+nior managers to reason with the idea and explain their point of                                 puting: Should the IT department be organized as a cost center or a profit center?
+view if they disagree with an employee’s suggestion [19]. As new                                 Journal of Management Information Systems 30, 2 (2013), 67–100.
+                                                                                             [9] Yochi Cohen-Charash and Paul E. Spector. 2001. The role of justice in organiza-
+technology are introduced in the GCC region, a culture of accepting                              tions: A meta-analysis. Organizational behavior and human decision processes
+and taking new risks should be highly encouraged to discourage                                   86, 2 (2001), 278–321.
+the tendency to avoid uncertainties that are sometimes a concern                            [10] Jason A. Colquitt, Donald E. Conlon, Michael J. Wesson, Christopher OLH Porter,
+                                                                                                 and K. Yee Ng. 2001. Justice at the millennium: a meta-analytic review of 25 years
+for small and medium-sized enterprises when adopting new tech-                                   of organizational justice research. Journal of applied psychology 86, 3 (2001), 425.
+nologies such as cloud computing. H3 is rejected because it seems                           [11] Jason A. Colquitt, Jerald Greenberg, and J. Greenberg. 2003. Organizational justice:
+                                                                                                 A fair assessment of the state of the literature. Organizational behavior: The state
+the complexity and security concerns of IT adoption don’t affect                                 of the science (2003), 159–200.
+trust in supervisors, probably because these technical concerns are                         [12] Cybint. 2019. 10 Cybersecurity Trends To Watch Going Into 2020. Cybint. Re-
+addressed upfront before adopting the new technology. In the case                                trieved July 10, 2023 from https://www.cybintsolutions.com/10-cybersecurity-
+                                                                                                 trends-to-watch/
+of hypothesis H4, IT complexity significantly affects procedural                            [13] Robert Folger and Jerald Greenberg. 1985. Procedural justice: An interpretive
+justice negatively, whereas the high perceived security concerns                                 analysis of personnel systems. Research in personnel and human resources
+positively affect procedural justice. H5 two trust moderating factors                            management 3, 1 (1985), 141–183.
+                                                                                            [14] Joseph F. Hair, Joseph F. Hair, William C. Black, Barry J. Babin, and Rolph E.
+hypothesis did not moderate the effect between complexity, secu-                                 Anderson. 2013. Multivariate Data Analysis. Pearson Education Limited.
+rity, and procedural justice. Also, H6 procedural justice positively                        [15] Pi-Jung Hsieh. 2016. An empirical investigation of patients’ acceptance and
+                                                                                                 resistance toward the health cloud: The dual factor perspective. Computers in
+and significantly affects information sharing during IT and cloud                                Human Behavior 63, (2016), 959–969.
+computing adoption. Due to page limitations, the implications of                            [16] Pei-Fang Hsu, Soumya Ray, and Yu-Yu Li-Hsieh. 2014. Examining cloud comput-
+our findings are further discussed in a full-length manuscript.                                  ing adoption intention, pricing mechanism, and deployment model. International
+                                                                                                 Journal of Information Management 34, 4 (2014), 474–488.
+                                                                                            [17] Li-tze Hu and Peter M. Bentler. 1999. Cutoff criteria for fit indexes in covari-
+REFERENCES                                                                                       ance structure analysis: Conventional criteria versus new alternatives. Struc-
+ [1] Ali E. Akgün, Halit Keskin, and John C. Byrne. 2010. Procedural justice climate             tural Equation Modeling: A Multidisciplinary Journal 6, 1 (January 1999), 1–55.
+     in new product development teams: Antecedents and consequences. Journal of                  DOI:https://doi.org/10.1080/10705519909540118
+     Product Innovation Management 27, 7 (2010), 1096–1111.                                 [18] W. Chan Kim and Renee A. Mauborgne. 1988. Becoming an effective global
+                                                                                                 competitor. The Journal of Business Strategy 9, 1 (1988), 33.
+
+
+
+
+                                                                                       12
+ICISS 2023, August 11–13, 2023, Edinburgh, United Kingdom                                                                                         Omer Gibreel et al.
+
+
+[19] Julia Kirby and Thomas Stewart. 2007. The institutional yes: An interview with               IT budgeting procedures are applied consistently across all re-
+     jeff bezos. Harvard Business Review 85, (October 2007), 75–82.                            sponsibility areas.
+[20] Hennie A. Kruger and Wayne D. Kearney. 2006. A prototype for assessing infor-
+     mation security awareness. Computers & security 25, 4 (2006), 289–296.                       In my company, the IT budgeting procedures adequately repre-
+[21] Shirly Lee, Ivy Ong, HyoTaek Lim, and HoonJae Lee. 2010. Two factor authenti-             sent the concerns of all responsibility areas.
+     cation for cloud computing. Journal of information and communication conver-
+     gence engineering 8, 4 (2010), 427–432.
+                                                                                                  IT budgetary decision-makers try hard not to favor one respon-
+[22] Gerald S. Leventhal, K. J. Gergen, M. S. Greenberg, and R. H. Willis. 1980. Social        sibility area over another.
+     exchange: Advances in theory and research. Social exchange: advances in theory               IT budgeting procedures are applied consistently across time.
+     and research (1980).
+[23] Canchu Lin, Jenell L.S. Wittmer, and Xin (Robert) Luo. 2022. Cultivating proactive           IT budgetary decision makers adequately explain how the budget
+     information security behavior and individual creativity: The role of human rela-          resource allocations for my responsibility area are determined.
+     tions culture and IT use governance. Information & Management 59, 6 (September               IT budgeting decisions for my area of responsibility are based
+     2022), 103650. DOI:https://doi.org/10.1016/j.im.2022.103650
+[24] Mary Macharia. 2023. Cloud Computing Risk: A Decision-making Framework.                   on accurate information and well-formed opinions.
+     Journal of Computer Information Systems 63, 2 (March 2023), 421–435. DOI:https:              The current IT budgeting procedures contain provisions that
+     //doi.org/10.1080/08874417.2022.2067793
+[25] Nace Magner, Robert B. Welker, and Terry L. Campbell. 1996. Testing a model
+                                                                                               allow me to appeal to the adequacy of IT budget resources set for
+     of cognitive budgetary participation processes in a latent variable structural            my area of responsibility.
+     equations framework. Accounting and Business Research 27, 1 (1996), 41–50.                   Coded: Strongly Disagree, Disagree, Somewhat Disagree, Nei-
+[26] Robert J. Parker, James M. Kohlmeyer, Sakthi Mahenthirian, and Terry Sincich.
+     2014. Procedural Justice and Information Sharing During the Budgeting Process.            ther Agree nor Disagree, Somewhat Agree, Agree, Strongly Agree
+     In Advances in Management Accounting, Marc J. Epstein and John Y. Lee (eds.).             on a 7-point scale.
+     Emerald Group Publishing Limited, 93–112. DOI:https://doi.org/10.1108/S1474-                 2. Complexity Scale – Adopted from Xu & Mahenthiran,
+     787120140000023003
+[27] Robert J. Parker and Larissa Kyj. 2006. Vertical information sharing in the bud-          (2021) Study
+     geting process. Accounting, organizations and society 31, 1 (2006), 27–45.                   The complexity of learning cloud-computing applications is high.
+[28] G. Premkumar and Margaret Roberts. 1999. Adoption of new information tech-
+     nologies in rural small businesses. Omega 27, 4 (1999), 467–484.
+                                                                                                  The difficulty of transferring current systems to a cloud-
+[29] Steve Ranger. 2018. What is cloud computing? Everything you need to know                  computing platform is high.
+     about the cloud explained. ZDNet. Retrieved March 3, (2018), 2021.                           The complexity of maintaining the cloud-computing platform is
+[30] Rajiv Sabherwal and Yolande E. Chan. 2001. Alignment between business and IS
+     strategies: A study of prospectors, analyzers, and defenders. Information systems         high.
+     research 12, 1 (2001), 11–33.                                                                The complexity of developing cloud-computing applications is
+[31] Michael D. Shields and S. Mark Young. 1993. Antecedents and Consequences of               high.
+     Participative Budgeting: Evidence on the Effects of Asymmetrical Information.
+     Journal of Management Accounting Research 5, (1993).                                         The complexity of effective systems integration is high.
+[32] Joseph Vithayathil. 2018. Will cloud computing make the I nformation T ech-                  Coded: Strongly Disagree, Disagree, Somewhat Disagree, Nei-
+     nology (IT) d epartment obsolete? Information Systems Journal 28, 4 (2018),
+     634–649.
+                                                                                               ther Agree nor Disagree, Somewhat Agree, Agree, Strongly Agree
+[33] Hongjiang Xu and Sakthi Mahenthiran. 2021. Users’ perception of cybersecurity,            on a 7-point scale.
+     trust and cloud computing providers’ performance. ICS 29, 5 (November 2021),                 3. General IT Security Concerns – Adopted from Xu &
+     816–835. DOI:https://doi.org/10.1108/ICS-09-2020-0153
+[34] Boonghee Yoo, Naveen Donthu, and Tomasz Lenartowicz. 2011. Measuring Hof-                 Mahenthiran, (2021) Study, but added Question 3 based on
+     stede’s Five Dimensions of Cultural Values at the Individual Level: Development           our discussions.
+     and Validation of CVSCALE. (2011), 18.                                                       The risk of the cloud provider going bankrupt is of concern to
+[35] Philipp Zech. 2011. Risk-based security testing in cloud computing environments.
+     In 2011 Fourth IEEE International Conference on Software Testing, Verification            me.
+     and Validation, IEEE, 411–414.                                                               The lack of government regulations to guide IT Adoption, par-
+[36] Qi Zhang, Lu Cheng, and Raouf Boutaba. 2010. Cloud computing: state-of-the-art
+     and research challenges. Journal of internet services and applications 1, (2010),
+                                                                                               ticularly cloud computing adoption in the country is of concern to
+     7–18.                                                                                     me.
+                                                                                                  The risk of government intervention in the country where the
+                                                                                               data is stored in the cloud is of concern to me.
+                                                                                                  Coded: Strongly Disagree, Disagree, Somewhat Disagree, Nei-
+A A APPENDICES                                                                                 ther Agree nor Disagree, Somewhat Agree, Agree, Strongly Agree
+A.1 Question are set used in the study                                                         on a 7-point scale.
+Independent Variables                                                                             4. Power Distance [34]
+   1. Trust in the Supervisor Scale Xu & Mahenthiran, (2021)                                      People in higher positions should make most decisions without
+   My level of confidence that my Supervisor is technically compe-                             consulting people in lower positions.
+tent in the critically important elements of his or her job is:                                   People in higher positions should not ask the opinions of people
+   My level of confidence that my Supervisor will make well though-                            in lower positions too frequently.
+out rational decisions about his or her job is:                                                   People in higher positions should avoid social interaction with
+   My level of confidence that my Supervisor will follow through                               people in lower positions.
+on the assignment(s) is:                                                                          People in lower positions should not disagree with decisions by
+   When my Supervisor tells me something, my level of confidence                               people in higher positions.
+that I can rely on what he or she tells me is:                                                    People in higher positions should not delegate important tasks
+   2. Procedural Justice in IT Budgeting Processes – Adopted                                   to people in lower positions.
+from Parker R., J. M. Kohlmeyer, S. Mahenthiran, and T. Sin-                                      Coded: Strongly Disagree, Disagree, Somewhat Disagree, Nei-
+cich. 2014 study, but modified to suit IT Adoption                                             ther Agree nor Disagree, Somewhat Agree, Agree, Strongly Agree
+                                                                                               on a 7-point scale.
+
+
+
+
+                                                                                          13
+Factors Related to Information Sharing and Cloud Computing Adoption in SMEs: Evidence from The
+Kingdom of Saudi Arabia                                                                                ICISS 2023, August 11–13, 2023, Edinburgh, United Kingdom
+
+
+   8. Uncertainty avoidance [34]                                                        During the IT budgeting process, I disclose my personal insights
+   It is important to have instructions spelled out in detail so that I              to my superiors about opportunities and problems in my area of
+always know what I’m exected to do.                                                  responsibility.
+   It is important to closely follow instructions and procedures.                       In the IT budgeting process, I communicate information to my
+   Rules and regulations are important because they inform me of                     superiors about opportunities and problems facing the organization.
+what is expected of me.                                                                 The IT budget process enables me to communicate information
+   Standardized work procedures are helpful.                                         to my superiors about the opportunities and challenges in my area
+   Instructions for operations are important.                                        of responsibility.
+   Coded: Strongly Disagree, Disagree, Somewhat Disagree, Nei-                          Through the IT budgeting process, I share my insights with
+ther Agree nor Disagree, Somewhat Agree, Agree, Strongly Agree                       superiors about the situation in my area of responsibility.
+on a 7-point scale.                                                                     I use the IT budgeting process to share my knowledge about my
+   Dependent Variables – Information Sharing                                         area of responsibility with my superiors.
+   10. Information Sharing during Budgeting (ISB) – Adopted                             Coded: Strongly Disagree, Disagree, Somewhat Disagree, Nei-
+from Parker R., J. M. Kohlmeyer, S. Mahenthiran, and T. Sin-                         ther Agree nor Disagree, Somewhat Agree, Agree, Strongly Agree
+cich. 2014 study, but modified to suit IT Adoption                                   on a 7-point scale.
+
+
+
+
+                                                                                14
+

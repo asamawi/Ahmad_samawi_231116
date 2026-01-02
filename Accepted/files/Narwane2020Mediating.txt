@@ -1,0 +1,1402 @@
+Annals of Operations Research
+https://doi.org/10.1007/s10479-019-03502-w
+
+S.I.: INFORMATION- TRANSPARENT SUPPLY CHAINS
+
+
+
+Mediating role of cloud of things in improving performance
+of small and medium enterprises in the Indian context
+
+Vaibhav S. Narwane1 · Rakesh D. Raut2 · Sachin Kumar Mangla3              ·
+Bhaskar B. Gardas4 · Balkrishna E. Narkhede5 · Anjali Awasthi6 ·
+Pragati Priyadarshinee7
+
+
+© Springer Science+Business Media, LLC, part of Springer Nature 2020
+
+
+Abstract
+Integration of cloud computing and the Internet of things can influence large as well as small-
+scale organizations in transforming their business systems for high performance. However, in
+developing nations like India, cloud of things is relatively novel, and there is a need for its
+proper understanding specifically, in small and medium scaled enterprises. This study aims
+to investigate the mediating role of cloud of things on the performance of small and medium
+scaled enterprises and the influence of various key factors namely security and privacy, per-
+ceived ease of use, top management support, perceived security risk, big data analytics, trust,
+customer–supplier intention, manufacturing infrastructure, IT support, knowledge sharing, and
+external environment support on cloud of things was analyzed. A sample of 290 responses
+from 96 Indian small and medium scaled enterprises was collected and exploratory fac-
+tor analysis, confirmatory factor analysis, structural equation modelling methodologies were
+employed for the analysis. Results suggest that big data analytics, top management support,
+trust, perceived security risk, etc. require the mediating support of cloud of things. This study
+is useful for managers, policymakers, practitioners, and regulatory authorities to understand
+the importance of information, and the cloud of things, and further to formulate strategies to
+improve firm’s performance by improving the information transparency across the value chain.
+
+Keywords Cloud computing · Information transparency · Supply chain management ·
+Smart manufacturing · Small and medium enterprises
+
+
+1 Introduction
+
+Currently, with Industry 4.0 becoming a key pillar, most of the companies are concerned
+about lagging in its adoption. Cloud computing (CC) and the internet of things (IoT) are
+an integral part of Industry 4.0 and Smart Factories (Kang et al. 2016). Characteristics of
+CC and IoT are complimentary regarding reachability, storage, computational capabilities
+and big data (Ahmadov and Helo 2018; Botta et al. 2016). In recent years, most of the
+
+
+* Sachin Kumar Mangla
+  sachin.kumar@plymouth.ac.uk; sachinmangl@gmail.com
+Extended author information available on the last page of the article
+
+
+                                                                                      13
+                                                                              Vol.:(0123456789)
+                                                                   Annals of Operations Research
+
+
+firms looked Industry 4.0 and smart manufacturing (SM) with interest but with a sense of
+destruction. As per Kang et al. (2016), Industry 4.0 or SM is the fourth industrial revolu-
+tion. It is a new paradigm shift and convergence of cutting-edge ICT and manufacturing
+technologies across supply chains. The information provides a platform for making useful
+and optimized decisions through swifter and more accurate decision-making processes in
+transparent supply chain system. The paradigm shift from the information level to signifi-
+cant data level is a need for SM and technologies like CoT, and artificial intelligence (AI)
+are assisting businesses through data management.
+   Integration of cloud computing (CC) and the internet of things (IoT) are termed as
+Cloud of Things (CoT) and coined by Deutsche Telecom, Germany in 2016. CoT is assist-
+ing new manufacturing paradigms (like SM, cyber-physical system, knowledge-driven
+manufacturing, cloud manufacturing, responsive manufacturing, and social manufacturing)
+through data collection, data analytics, and decision-making techniques (Esmaeilian et al.
+2016). Critical characteristics of SM such as digitization, distributed intelligence, collab-
+orative supply chain management (SCM), integrated decision making, advanced sensors,
+and big data analytics (BDA) proposes SM as a promised solution for future (Liu and Yi
+2018; Lu 2017). These technologies helps in improving the transparency of supply chain to
+enable managers what is happening in both the upstream and downstream of chain as well
+as ensure a smooth flow of information in both the way.
+   In the future, the amount of data on the devices is going to be enormous and to store
+this data using physical devices would be difficult. In this sense, there would be a need for
+rental storage space, and so clouds may be an effective choice (Botta et al. 2016; Manuel
+2015). Manufacturing goals of CoT are related to throughput, scalability, latency, energy,
+security, and safety (Da Xu et al. 2014). Application of CoT in manufacturing will help
+organizations in smart equipment maintenance, process monitoring, quality control, design
+and planning (Tao et al. 2018). Thus, it is necessary to study the adoption of SM and CoT
+together for organization. Earlier studies of adoption either deal with CC (Gangwar et al.
+2015) or IoT (Da Xu et al. 2014) disjointedly. Recently, Narwane et al. (In press) consid-
+ered the intention of CoT adoption, but the paper did not discuss SM. de Sousa Jabbour
+et al. (2018a) deliberated about SM and sustainable manufacturing; however, they doesn’t
+discussed the drivers/critical success factors of CoT in industry. Many research articles
+available on BDA, and firm performance (Wamba et al. 2017), BDA and sustainable world-
+class manufacturing (Dubey et al. 2017) fail to address the impact of CoT on SMEs firms
+performance. Manufacturing SMEs (Small and Medium Enterprises) can be benefited
+through CoT, with BDA assisting the same. 5 V’s (variety, velocity, volume, veracity, and
+value-adding) of big data can improve CoT adoption and consequently firm performance.
+   Big data identifies patterns and learning source for the cloud-based system. BDA analy-
+ses further sensor data collected by IoT for the diffusion of knowledge. CoT based sys-
+tems can be utilized for smart factory policy creation as well as knowledge creation. Smart
+manufacturing setup can further melodramatically change the SMEs performance. Based
+on these arguments, this study targets the Indian manufacturing SMEs. Indian SME devel-
+opment Act of 2006 mentioned a huge investment (in Indian Rupees) for advancements in
+equipments in manufacturing enterprises (Ghatak 2010).
+   It may be noted that the CoT adoption in the Indian context is at a very nascent stage
+and big organizations on the pathway for adopting CoT technologies (IANS 2019).
+   The objectives of this paper are as follows:
+
+   (i) To identify the issues for implementation of the CoT in manufacturing SMEs,
+  (ii) To assess the mediating role of CoT adoption on the firm’s performance.
+
+13
+Annals of Operations Research
+
+
+ (iii) To suggest managerial implications of CoT adoption.
+
+   To address the above-said objectives, the literature survey was carried out to identify
+factors and sub-factors followed by hypothesis and analysis using empirical analysis to
+establish a relationship.
+   The remainder of this paper has the following structure: Sect. 2 provides a literature sur-
+vey on CoT, and Sect. 3 presents a conceptual model and the hypotheses. Section 4 outlines
+the research methodology, and Sect. 5 shows the empirical results. Section 6 presents the
+managerial implications of the study—finally, conclusion and future scope of the study is
+presented in Sect. 7.
+
+
+
+2 Literature survey
+
+The literature review can be broadly categorized into three sections such as (1) CoT and
+supporting technologies (2) CoT applications in a manufacturing firm, and (3) identifica-
+tion of research gap.
+
+
+2.1 CoT and supporting technologies
+
+IoT is a network of things like software, sensors, physical objects etc. (Kang et al. 2016).
+Kevin Ashton coined it in 1999 in the UK. Some of the critical IoT technologies which are
+widely used today includes RFID (Radio-frequency identification), WSN (Wireless Sen-
+sors Network), CC, Middleware, etc. The Primary function of IoT is to collect or exchange
+the data acquired from the sensors or software (Kang et al. 2016). IoT has smart nodes to
+interact autonomously for all kinds of services; however, openness and wide distribution
+makes IoT objects vulnerable to cyber-attacks (Conti et al. 2018). Technologies of Industry
+4.0 such as CPS (Cyber-Physical System), IoT, Cloud Manufacturing (CM), and Additive
+Manufacturing (AM) can assist environmentally-sustainable manufacturing, in terms of
+design for environment, cleaner production, and green supply chain initiatives (de Sousa
+Jabbour et al. 2018a, b). SM, also known as predictive manufacturing, assists an improve-
+ment in manufacturing systems through big data and information management (Dubey
+et al. 2017). Disruptive technologies such as CC, big data have been leveraged by IoT,
+and in recent time IoT integration with blockchain can furtehr achieve security, reliability,
+scalability, autonomy, market to service, and decentralization (Reyna et al. 2018). On the
+top of all, supply chain transparency is the issue, among the manufactures and their supply
+members.
+   BDA is also used to improve efficient decision making, supply chain performance, and
+sustainable manufacturing. BDA for WCSM (world-class sustainable manufacturing) can
+offer better environmental performance, social performance and economic performance
+(Dubey et al. 2017). BDA helps organizations in demand planning, supply chain network,
+and collaboration with partnering companies (Wamba et al. 2017). Market turbulence
+always plays a negative role in company performance; however, BDA can predict market
+turbulence as well (Gunasekaran et al. 2017). BDA capability can improve both system
+quality and information quality. Big data further improves firm performance through con-
+tinuous improvement in business value (Ren et al. 2017). Common challenges in BDA are
+heterogeneity, scalability, accuracy, complexity, security issues (privacy, integrity, threats
+
+                                                                                  13
+                                                                    Annals of Operations Research
+
+
+to data availability, mitigation of DoS attacks, confidentiality), Retrieve/Reuse/Discover
+(Jin et al. 2015).
+
+
+2.2 CoT applications in manufacturing context
+
+CC is the term used for on-demand distribution of the software applications and other IT
+resources over the internet and cost based on the consumption. Eric Schmidt coined the
+term ‘CC’ in 2006. It has many benefits, such as adaptability, multi-tenancy, reliability,
+scalability, etc. (Zissis and Lekkas 2012). However, CC services need specific security
+requirements for the physical level, virtual level, and application level. The physical level
+has issues of network attacks, hardware interruption, connection flooding, etc.; while vir-
+tual level issues include communication disruptions, defacement, session hijacking, soft-
+ware deletion, etc.; application-level issues consist of interception, data modification, net-
+work exposure, privacy breach, etc. According to Varghese and Buyya (2018), emerging
+computing architecture such as volunteer computing, fog computing, mobile computing,
+edge computing, serverless computing, and software-defined computing would have an
+impact on CC based applications.
+   CC and IoT are the most critical enabling technologies in Industry 4.0. In IoT-enabled
+manufacturing, manufacturing resources such as machines, workers, tools are intercon-
+nected, and share/exchange real-time data through internet RFID tags and readers are used
+for the data collection purpose on shop floors, assembly lines and warehouses.
+   CoT, which is the resultant of merging of cloud computing (CC) and the internet of
+things (IoT) has used in manufacturing. For example, with the support of IoT technology,
+various smart sensors, both the physical manufacturing resource, and the software manu-
+facturing resource can be intelligently perceived and connected to other networks through
+various information mechanisms (Han et al. 2018; Tao et al. 2014); integrating CC with IoT
+solves problems of each technology partially (Perera et al. 2014); CoT gives enhanced ser-
+vice provisioning and makes efficient utilization of resources (Botta et al. 2016). According
+to Deutsche Telecom, CoT is a platform which collects and evaluates the sensor data from
+different machines. In CoT network, IoT devices rely on CC for storage, data transfer and
+data analysis (Mai and Khalil 2017)
+   However, research issues and challenges for CoT needs to be addressed for broad adop-
+tion in manufacturing sectors. Security and privacy are significant challenges in the deploy-
+ment of CoT. Thus legal and social aspects are a primary concern for top management
+(Díaz et al. 2016; Botta et al. 2016). Authentication in CoT integrates different devices
+deployed for assessing information in diverse context.
+   With a massive number of connected sensors communicating through WSN (wire-
+less sensor network), energy consumption is a big concern (Da Xu et al. 2014). Data
+processing such as data acquisition, transmission, storage, processing, and usage con-
+sumes much electric power. Thus sustainable practices need to be adopted in the design,
+production, and service for CoT manufacturing (Tao et al. 2016). With some technolo-
+gies and devices in CoT, data heterogeneity and interoperability is also a critical issue
+(Díaz et al. 2016). Thus, standards and protocols are needed for the national and inter-
+national level. According to Wang et al. (2016), CoT application can assist in the design,
+manufacturing, assembly, logistic, marketing, and supplier aspects of a value chain. It
+means that CoT can help enterprises in a holistic sense to achieve goals. CoT along with
+BDA capabilities used by retailers of USA and UK, some of the examples are Amazon
+for recommendations for consumers, Wal-Mart for optimizing supply-chain, and Tesco
+
+13
+Annals of Operations Research
+
+
+for product promotions (Manyika et al. 2011). The aerospace industry, USA combined
+manufacturing and repair datasets, followed by predictive analysis to predict the future
+for product escape and number of returns (McAfee et al. 2012). CoT helped General
+Electric, the USA to optimize service contracts which boosted their industrial product
+sale and reduced after-sale maintenance cost (Davenport et al. 2012).
+   Organizations in developing countries such as India have also started implementing
+CC and IoT for their business. Tata motor, India is using these advanced techniques for
+customer relationship management (CRM) for process excellence as well as six sigma
+principle (Srivastava et al. 2013). In doing so, Tata motors achieved an increase in cus-
+tomer satisfaction as well as a reduction in cost and driving quality in the manufactur-
+ing process. Developing countries like India are collaborating with developed countries
+like France for adopting SM technology. To improve the productivity of stakeholders
+and collaborative work, India and France have developed the IoT application framework
+(Patel and Cassou 2015). However, the adoption rate of CoT, as well as SM for develop-
+ing countries is far less than in developed countries. According to Junaid Ahmad (World
+Bank Country Director in India), Indian sectors must adopt sustainable practices (e.g.
+information, data, etc.) to meet the needs of globalization and better information trans-
+paency across business functions.
+
+
+
+2.3 Research gaps
+
+From literature survey, the adoption issues of CoT in developing countries differ from
+developed countries. The current literature discusses the adoption of CC and IoT dis-
+jointedly; few articles deliberate about the adoption of a CoT. In adoption studies on
+CC and IoT, various authors recognized critical factors and its influence on the busi-
+ness performance of the organization. Enterprises must be aware of the advantages of
+combining CC and IoT which is capable of superseding the limitations of individual
+technology. The benefits of CoT for SMEs of developing countries not much debated in
+the literature. Hence, the present paper attempts to identify critical factors of CoT for
+improving the performance of manufacturing SMEs in India.
+   Business firms can improve their decision making through data analytics (Wamba et al.
+2017). SM, also known as predictive manufacturing, is an improvement in manufactur-
+ing systems through BDA. Although many literature papers indicate a positive correlation
+between BDA and firm performance, yet little is known about how BDA can assist CoT
+adoption for an improved business performance. Data analytics capability not only assists
+the cloud system but also considers as a prime requirement for IoT applications. In this
+sense, in this paper, the authors considered BDA as an enabler for CoT adoption.
+   Also, few studies considered the effect of Industry 4.0 and sustainable manufacturing;
+de Sousa Jabbour et al. (2018a) discussed about these two concepts; however, they doesn’t
+not take into account the CoT aspect. As a result, there is a need for discussing the effect of
+CoT adoption on a firm performance from BDA and information transparency perspective
+for a developing country like India. Hence, the present study considers CoT as a mediator
+between firm performance and BDA with other elements like manufacturing levers, pri-
+vacy, IT resources, top management support, etc. However, the proposed methodology has
+some limitations which are discussed later. It must be noted that understanding the effect of
+BDA on CoT adoption will assist managers with an effective and faster implementation of
+the smart factory and information transparent supply chain.
+
+
+                                                                                   13
+                                                                       Annals of Operations Research
+
+
+3 Conceptual framework and proposed hypothesis
+
+Based on the above literature, the conceptual framework is shown in Fig. 1. Proposed
+hypothesis and the sub-criteria (items) are discussed in Table 1.
+
+
+4 Research methodology
+
+4.1 Sample characteristic
+
+To test the hypothesis, a 7 point Likert scale was used in the questionnaire survey, which
+offers better variability and improves the accuracy in capturing the survey responses as
+compared to 5 points Likert scale. The survey was directed to IT managers and engi-
+neers in Indian manufacturing organizations those are involved in CC and IoT initiatives
+to enhance their overall performance. SMEs working in an automobile, textile and cloth-
+ing, electronics, and metals and machinery are selected as sample in this work. Total of
+120 SMEs in India were shortlisted for the survey. The pilot study was carried out with
+123 responses which were collected through e-mail and personal visits. Later, the question-
+naire was upgraded and refined. Ninety-six organizations responded to the survey and out
+of total 330 responses received, 290 responses were found valid. Table 2 shows the sam-
+ple characteristics, organizations having employee size 200–250 have responded highest
+156 (53.79%). Out of four types of industry, 150 (51.72%) responses were received from
+
+
+            Security and Privacy (SAP)
+
+
+         Perceived IT Security Risk (PTR)
+                                                         H1 (-)
+
+          Perceived Ease of Use (PEU)             H2 (-)
+
+                                                   H3 (+)
+        Top Management Support (TMS)
+
+                                                  H4 (+)
+
+
+         Trust and Social Practices (TSP)        H5 (+)
+                                                                             H12 (+)
+                                                                                       SMEs Factory
+                                                                    CoT
+                                                H6 (+)                                  Performance
+                                                                  Adoption
+        Customer Supplier Intension (CSI)                                                  (SFP)
+
+
+                                              H7 (+)
+
+         IT Support and Resources (ISR)
+                                              H8 (+)
+
+
+        Manufacturing Infrastructure (MFI)
+                                             H9 (+)
+
+
+                                              H10 (+)
+            Big Data Analysis (BDA)
+
+
+                                             H11 (+)
+       Knowledge and Information Sharing
+                    (KIS)
+
+
+
+          External Environment Support
+                     (EES)
+
+
+
+Fig. 1  Conceptual model. Source The Author
+
+
+13
+     Table 1  Constructs, Sub-factors and hypothesis (+ sign indicates positive hypothesis, − sign indicates negative hypothesis)
+     Hypothesis no. Factor                Description                                                  Sub-factors (Items)                    References
+
+     H1               Security and        CoT is data focused, with physical devices connected         SAP 1: Threats and attacks             Addo-Tenkorang and Helo (2016),
+                       privacy (SAP)       with smart sensors, WSN, cloud-based services. As           SAP 2: Privacy concerns                 Díaz et al. (2016)
+                                           manufacturing data is accessible from anywhere, unau-
+                                           thorized access to data is a big concern for manufactur-    SAP 3: Interoperability
+                                           ers. With a high level of connectivity and integration,     SAP 4: Data latency
+                                           security and privacy of data with no interruption of the
+                                                                                                                                                                                         Annals of Operations Research
+
+
+
+
+                                           manufacturing processes need to be achieved
+     H2               Perceived IT        Obstacles in CoT adoption perceived by decision-makers,      PTR 1: Reliability                     Botta et al. (2016), Díaz et al. (2016),
+                       security risk        business users and executives results in IT complexity,    PTR 2: Communication protocol           Narwane et al. (In Press)
+                       (PTR)                integration challenges, performance, and reliability.
+                                                                                                       PTR 3: Service availability
+                                            Also, other predominant concerns are lack of expertise,
+                                            legal and organizational issues like insufficient knowl-   PTR 4: Compliance
+                                            edge, data control, and compliance
+     H3               Perceived ease of   CoT offers many advantages such as ubiquitous access,        PEU 1: Transparency                    Gangwar et al. (2015)
+                       use (PEU)            unlimited storage, and processing capability, data scal-   PEU 2: Visualization
+                                            ability, etc. The user-friendly graphical user interface
+                                                                                                       PEU 3: Traceability
+                                            (GUI) and virtualization make it convenient for the
+                                            native user. Research in visualization may play a criti-   PEU 4: Quality of Service
+                                            cal role in manufacturing particularly for a complex
+                                            product
+     H4               Top management      Initial investment and interdisciplinary nature of CoT is    TMS 1: Initial investment issues      Gangwar et al. (2015), Martins et al.
+                        support (TMS)       a concern of top management of SMEs. Implementa-           TMS 2: Lack of division of roles       (2016)
+                      [training and         tion of the CoT system needs a considerable amount
+                                                                                                       TMS 3: Resistance to change, enforce-
+                        education]          of initial investment and ROI must be calculated
+                                                                                                        ment
+                                            beforehand. To start with test beds and lighthouse
+                                            projects implementation can be done to win the trust of
+                                            top management
+     H5               Trust and social    In the adoption of CoT, trust in both the technology or      TSP 1: Legal and social aspect         Botta et al. (2016), Mishra et al.
+                       practices (TSP)      the vendor is crucial. Concern of privacy need to be       TSP 2: Sustainability                   (2016)
+                                            addressed to improve the trust of stakeholders. CoT
+                                                                                                       TSP 3: Technical stability
+                                            can contribute to people welfare if implemented in an
+                                            effective way                                              TSP 4: Socio-organizational implica-
+
+
+
+
+13
+                                                                                                        tions
+     Table 1  (continued)
+     Hypothesis no. Factor                Description                                               Sub-factors (Items)                 References
+
+
+
+
+13
+     H6               Customer sup-     Network ecosystem around CoT consists of different          CSI 1: Vendor lock-in               Gangwar et al. (2015), Lounis et al.
+                        plier intension  customers (SMEs, large companies, research center                                               (2016), Rekik et al. (2015)
+                        (CSI)            etc.), supplier, and other systems. Customer and sup-      CSI 2: Trading partner support
+                      [Competitive       plier relationship is significant for the improvement      CSI 3: Integrity
+                        relative advan-  of processes, creating additional services around the
+                        tage]            core product. The business model, cost structure, and      CSI 4: Economic feasibility
+                                         revenue structure are key aspects for manufacturing
+                                         industries
+     H7               IT support and    Development of ICT specifically cloud computing is a        ISR 1: IT Enabler                   Ben-Daya et al. (2019), Zeng et al.
+                        resources (ISR)  boost for SM. Considering sensors/actuators, significant   ISR 2: Sensor and actuator           (2018), Li et al. (2017)
+                                         progress has been achieved for product price and qual-
+                                                                                                    ISR 3: Communication
+                                         ity. However, at the same time, demand for real-time
+                                         control of process requirements of IT, CC, sensor and      ISR 4: Energy Considerations
+                                         embedded system are also increased
+     H8               Manufacturing     Manufacturing systems have evolved from Industry 2.0        MFI 1: Production Planning and      Alkhanak et al. (2015), Rekik et al.
+                        infrastructure   through Industry 4.0. Manufacturing infrastructure for      Control                             (2015), Luthra et al. (2018a)
+                        (MFI)            SM includes physical structure, devices for data collec-   MFI 2: Flexibility
+                                         tion and communication, and data analysis. Sustainable
+                                                                                                    MFI 3: Technology and Innovation
+                                         manufacturing is the need of today and technologies
+                                                                                                     (Product Innovation)
+                                         like CC, IoT, big data, and CPS helps to achieve the
+                                         same                                                       MFI 4: Lean and Agile Practices
+                                                                                                    MFI 5: Green Design and Environ-
+                                                                                                     ment Practices
+                                                                                                    MFI 6: Quality Control
+                                                                                                    MFI 7: Cost
+                                                                                                    MFI 8: Purchasing and Procurement
+                                                                                                     Practices
+                                                                                                                                                                               Annals of Operations Research
+     Table 1  (continued)
+     Hypothesis no. Factor               Description                                                  Sub-factors (Items)                References
+
+     H9               Big data analyt-   Integrity and quality (heterogeneity) of captured unstruc-   BDA 1: BDA Connectivity            Dubey et al. (2017), Ren et al.
+                       ics (BDA)           tured manufacturing data is a significant challenge.                                           (2017), Wamba et al. (2017), Raut
+                                           Thus BDA is a core component of SM, which connects         BDA 2: BDA Compatibility            et al. (2019)
+                                           human and sensor data in the loop. Five V’s of big         BDA 3: BDA Modularity
+                                           data is capable of handling issues like data quality,
+                                           dynamics, dimensionality, real-time verification, and      BDA 4: BDA Planning
+                                                                                                                                                                              Annals of Operations Research
+
+
+
+
+                                           validation
+                                                                                                      BDA 5: BDA Investment
+                                                                                                      BDA 6: BDA Co-ordination
+                                                                                                      BDA 7: BDA Technical Knowledge
+                                                                                                      BDA 8: BDA Technology Manage-
+                                                                                                       ment Capability
+                                                                                                      BDA 9: BDA Control
+                                                                                                      BDA 10: BDA Business Knowledge
+                                                                                                      BDA 11: BDA Relational Knowledge
+     H10              Knowledge and      The degree to which an organization shares insights          KIS 1: Data synchronization        Addo-Tenkorang and Helo (2016),
+                       information        about their business to partners is knowledge sharing.      KIS 2: Real-time dynamics           Stergiou et al. (2018), Li et al.
+                       sharing (KIS)      Endogenous and exogenous are two broad categories                                               (2018)
+                                                                                                      KIS 3: Heterogeneity
+                                          of knowledge. Risks in knowledge sharing through
+                                          IT may include loss of information, competition, and        KIS 4: Intelligent systems
+                                          dependency. Proper knowledge and information shar-
+                                          ing can help organizations to gain agility as well as
+                                          improvement in dynamic capability of the information
+                                          transparent supply chain
+
+
+
+
+13
+     Table 1  (continued)
+     Hypothesis no. Factor              Description                                                 Sub-factors (Items)                     References
+
+
+
+
+13
+     H11              External environ- Adopting CoT is useful for organizations to alter the       EES 1: Competitive Pressure             Da Xu et al. (2014), Martins et al.
+                       ment support       competitive environment. Being the first mover in CoT,                                             (2016)
+                       (EES)              companies can get an advantage to outclass com-           EES 2: Business Challenge (sensitive-
+                                          petitors. This competitive pressure could be coercive      ness, pro-activeness)
+                                          (exerted by other organizations) or normative (rules/     EES 3: Market turbulence
+                                          norms) in nature. Coercive pressure is more significant
+                                          to drive top management for CoT adoption                  EES 4: Social network
+     H12              SMEs factory      Implementation of IoT and CC services in the smart          SFP 1: Agility                          Kang et al. (2016), Tao et al. (2018),
+                       performance        factory allow efficient, safer and sustainable manu-      SFP 2: Productivity                      Zhong et al. (2017), Luthra et al.
+                       (SFP)              facturing. Ubiquitous, flexibility, reconfiguration of                                             (2018b)
+                                                                                                    SFP 3: Quality
+                                          production, proactive maintenance, mass customiza-
+                                          tion, and intelligent automation are few of performance   SFP 4: Proactive maintenance
+                                          measures for SMEs                                         SFP 5: Reconfigurability
+                                                                                                    SFP 6: Ubiquitous design and manu-
+                                                                                                     facturing
+                                                                                                    SFP 7: Mass customization
+                                                                                                    SFP 8: Product digitization
+                                                                                                    SFP 9: Intelligent automation
+
+     Subfactors considered for CoT are as follows: CoT 1: Reduced costs of data acquisition, operational and maintenance, CoT 2: Enhanced customer experience, CoT 3: Scalabil-
+     ity, unlimited processing, and storage, and CoT 4: Service-oriented approach [Lounis et al. (2016), Narwane et al. (In Press), Pagán et al. (2018)]
+                                                                                                                                                                                     Annals of Operations Research
+Annals of Operations Research
+
+
+the automobile industry. Highest qualified respondents are undergraduate (167, 57.59%),
+whereas 120 (41.38%) respondents are postgraduate. Maximum responses in terms of work
+experience was from 5 to 10 years (148, 51.04%); turnover between 100 and 200 million
+(99, 34.14%); male (192, 66.21%).
+
+
+4.2 EFA
+
+Exploratory factor analysis (EFA) is used to identify the factor structure of experiential
+variables without imposing a rigid structure on the result. Five steps are involved in EFA
+namely: checking data suitability, extract the factors, criteria for factor extraction, select-
+ing the rotational method, and data interpretation (Williams et al. 2010). A sample size of
+200–300 is relatively good (Dimitrov 2014).
+
+4.3 CFA
+
+Both EFA and CFA as the linear model based on normal distribution and includes meas-
+ured variables, latent construct/s. For a proper and converged solution, it is suggested to use
+one or more indices of goodness-of-fit (Anderson and Gerbing 1984). Various goodness-
+of-fit indices are such as GFI (goodness-of-fit index), CFI (comparative fit index), RMSEA
+(root means square error of approximation), etc. According to Hu and Bentler (1999)
+acceptable range of these indices are as follows: (i) GFI must be equal to or more than .90
+for good fit, (ii) CFI greater than or equal to .90 is desirable, (iii) Range of RMSEA, for
+good fit should be in between .05 and .08; RMSEA more than .1 is poor fit. However, .08
+to .1 predict an average fit, and (iv) AGFI is adjusted GFI for DoF, and its value should be
+greater than .8.
+
+4.4 SEM
+
+SEM (Structural equation modeling) analyses multivariate data by incorporating dependent
+variables (DVs), independent variables (IVs), and latent constructs (LCs). DVs and IVs can
+be measured variables and may be discrete or continuous in nature. Initially, SEM was used
+for marketing theory (Bagozzi 1980); however later becomes popular in almost all studies
+of social and behavioral sciences (MacCallum and Austin 2000). Path analysis and CFA
+are two particular types of SEM. In this study author used software package of AMOS as it
+offers good quality path diagrams and capable of reading SPSS system files too.
+
+
+5 Results and discussion
+
+5.1 EFA
+
+The survey-based approach is used to measure the firm performance of SMEs through CoT
+adoption. Thirteen constructs of CoT adoption were measured through a quantitative and
+qualitative survey. Measures of all 13 constraints were also found through their respective
+items. The two-phase approach adopted as Phase 1-Dimension items for each one followed
+construct definition. In this stage, an undefined indication of validity and reliability was
+
+
+                                                                                   13
+                                                                         Annals of Operations Research
+
+
+Table 2  Characteristics of the   Categories                          Frequency       Percentage (%)
+sample
+                                  Gender
+                                    Male                               192             66.21
+                                    Female                             98              33.79
+                                    Total                              290             100%
+                                  Educational qualification
+                                    Undergraduate                      167             57.59
+                                    Postgraduate                       120             41.38
+                                    Ph.D.                              03              1.03
+                                  Total                                290             100%
+                                  Job Experience (No. of Years)
+                                    Less than five years               73              25.17
+                                    5 to 10 years                      148             51.04
+                                    More than ten years                69              23.79
+                                  Total                                290             100%
+                                  Size of the Organization(Regarding no. of Employees)
+                                    Less than 100                      66              22.76
+                                    100–200                            68              23.45
+                                    200–250                            156             53.79
+                                  Total                                290             100%
+                                  Turnover (Revenue in million)
+                                    Less than 100                      23              7.93
+                                    100–200                            99              34.14
+                                    200–250                            45              15.52
+                                    More than 250                      123             42.41
+                                  Total                                290             100%
+                                  Type of manufacturing industry
+                                    Automobile                         150             51.72
+                                    Textile and clothing               26              8.97
+                                    Electronics                        47              16.21
+                                    Metals and machinery               67              23.10
+                                  Total                                290             100%
+
+
+
+also provided. Phase 2-Questionnaire was designed based on a seven-point Likert scale to
+measure CoT adoption. The final survey was conducted with 290 valid responses. Testing
+the suitability of collected respondent data was done using KMO and Bartlett’s Test. KMO
+index ranges from 0 to 1, with a value of .5 or more is suitable for analysis; for a 95% confi-
+dence level, the value of ‘p’ should be less than .05 for (Hair et al. 1995). KMO and ‘p’ for
+this study are .895 and .00 respectively.
+    The rotational method was used to check if a variable is related to one or more fac-
+tor. Orthogonal and oblique rotations are two broad categories and based on these various
+rotational methods are formulated. Thompson (2004) invented the Orthogonal Varimax
+method, which is mostly used to provide a more natural interpretation and parsimonious
+solution. Commonly used extraction methods for EFA and CFA are Principal components
+analysis (PCA), Maximum likelihood, Principal axis factoring (PAF), Un-weighted least
+squares, Generalised least squares etc. PAF and PCA are more popular in literature, with
+
+13
+Annals of Operations Research
+
+
+PCA are more preferred when no previous theory exists. In this study, the author has used
+PCA for extraction and Varimax rotation with Kaiser Normalization. Table 4 in Annexure-
+I shows converged (after seven iterations) rotation component matrix, which indicates high
+loadings of all variables (i.e. more than .5). Least loading is of CoT with .553, the highest
+loading of TMS with .947 and no cross loadings were observed (discriminant validity).
+Thus EFA results found satisfactory for CFA analysis.
+
+5.2 CFA
+
+CFA was performed on all thirteen constructs of CoT adoption. All these constructs were
+allowed to correlate with one another freely. Construct SMEs factory performance has nine
+items. Big Data Analytics is the only construct with more than ten items. Figure 2 shows
+the measurement model. Table 5 in Annexure-II shows estimates for the CFA model. An
+analysis shows the close fit of the model as X ­ 2/DoF is 1.195 (< 3.0) and RMSEA magni-
+tude is .026 (< .05). GFI is less than the threshold value of .9 and AGFI magnitude is .79
+is marginally less than the threshold value of .80. However, CFI is higher than .95 with a
+magnitude of .975. Thus the author infers good fitness of measurement model with the col-
+lected dataset.
+    CFA is a theory-driven confirmatory technique used to test the convergent validity of
+all items of each construct. Loading between factors and measured variables were more
+than .5, whereas at 1% level all path estimates were momentous. An acceptable level of
+convergent validity is shown by loading of indicators in respective constructs (Barki and
+Hartwick 2001). Following loadings in measurement model namely: Flexibility (MFI2
+with value of .629), Technology and Innovation (MFI3 with value of .662), Lean and Agile
+Practices (MFI4 with value of .659), Cost (MFI7 with value of .659), Purchasing and Pro-
+curement Practices (MFI8 with value of .634), Service-oriented approach (CoT4 with value
+of .659), Competitive Pressure (EES1 with value of .659), Market turbulence (EES3 with
+value of .680), and Social network (EES4 with value of .667) are below .7. However, they
+are marginally less and also others loadings are not significantly harming internal consist-
+ency showing satisfactory proof of convergent validity. AMOS software was used for CFA
+analysis, and Fig. 2 shows the path diagram of CFA.
+
+5.3 SEM
+
+Path analysis is a particular case of SEM, obtained from the CFA model. Path analysis
+tests how well proposed model accounts for observed relationships between the variables.
+Table 6 in Annexure-III gives estimates of the structural model, and in a nutshell, it is con-
+cluded that SEM analysis supports the proposed model. Analysis shows the close fit of the
+model as ­X2/DoF is 1.44 (< 3.0), and RMSEA magnitude is .039 (< .05). GFI is less than
+the threshold value of .9 also AGFI magnitude is .755 is less than the threshold value of
+.80. CFI is with the magnitude of .941 is marginally less than .95. Thus the author infers
+the fitness of the structural model with the collected dataset.
+   Path analysis results show that out of twelve hypotheses,ten hypotheses are supported
+while two hypotheses are not supported. Hypothesis not supported by the study is about the
+positive relationship between CoT and PEOU (PEU, − .008), and IT support and resources
+(ISR, − .013).
+   Wang and Wang (2012) found that knowledge and information sharing can be a basis
+to improve firm performance. Hypothesis based on the same (KIS, .451) affect positively
+
+                                                                                  13
+                                                                   Annals of Operations Research
+
+
+to adopt CoT and smart factory, with a highest standardized estimate. With the implemen-
+tation of CoT, SMEs can get advantage regarding flexibility, cost, quality, etc. and it is
+supported by this study. Perceived risk is customer’s confidence with concerns about reli-
+ability, availability of service (Pavlou and Gefen 2004). This study supports two hypoth-
+eses based on Perceived IT Security Risk (PTR, − .104), and Security and Privacy (SAP,
+− .10). Role of top management (Gangwar et al. 2015) along with trust (Narwane et al.,
+in press) are crucial factors in adoption of advanced technologies and are well supported
+in this work. The study supports hypotheses regarding Customer–Supplier Intension (CSI,
+.032) and External Environment Support (EES, .072). Previous studies by Wamba et al.
+(2017), Ren et al. (2017), and Dubey et al. (2017) shows BDA has a positive effect on firm
+performance andour study also supports the same (BDA, .059) (Fig. 3).
+    Based on SEM analysis, Table 3 shows the results of path analysis.
+    It must be noted that few of the findings of the study contradicts with the past research
+as well. This could be because of differences in topographical inspirations of country, regu-
+latory authorities, and policies. The proposed research model used SEM approach for the
+testing the relationship between variables. The study can provide a reference source for
+future research supporting the adoption of CoT, BDA, and SM. The study will help Indian
+SMEs to increase the adoption rate of CoTfor improving their overall performance. The
+developed SEM model was validated by the professionals of the case manufacturing com-
+panies considered in the existing work. Domain specialist confirmed and approved results
+of all identified hypothesis.
+
+
+
+6 Managerial implications
+
+The present study is beneficial for managers of the manufacturing industry and acad-
+emicians as it provides significant information about the determinants of CoT adoption
+and their relationship with the firm performance of SMEs. The results are also valuable
+to policymakers of developing countries in regards with SM. Many developed countries
+have already launched various programs for Industry 4.0, and Indian industries must not
+fall behind regarding using these advanced ICT tools. Based on this study, managers can
+formulate decision making plans for the effective CoT adoption in the manufacturing
+environment.
+    The service providers of CoT, IoT, and BDA, can refer findings of the study for frmaing
+marketing and developing policies. Role of the service provider is essential to ensure
+security and associated risks. The service provider must guarantee privacy and reliability
+through a service level agreement. Service providers can give a trial to enterprises on SM
+activities for few weeks prior to actual implementation. This will help to get the trust of
+enterprises and service provider will get prior experience on industry-specific issues before
+implementation. Government organizations must encourage SMEs by spreading awareness
+about the benefits of SM. This study is further anticipated to help Indian ICT to move
+towards implementation of Industry4.0.
+    The manufacturer can understand factors influencing CoT adoption and develop a pro-
+posal to move to the smart factory. Based on selected critical factors, manufacturers can
+select CC, IoT and BDA services as well as service providers proficiently. Cost is a sig-
+nificant concern to SMEs due to limited budget available to them. CoT adoption helps in
+reducing initial cost and installation cost (hardware and software) and thus offers a cost-
+effective solution. Moreover, SMEs can focus on their core competencies and automate
+
+13
+Annals of Operations Research
+
+
+
+
+Fig. 2  CFA path diagram. Source The Author
+
+
+
+their orthodox IT facilities. With ‘knowledge and information sharing’ and ‘manufacturing
+infrastructure’ are identified as the most critical factors, enterprises can further improve
+their supply chain transparency.
+   The proposed model is validated based on a survey conducted for manufacturing SMEs
+in India. The emergence of a concept such as ‘design anywhere, manufacture anywhere’
+‘Mass production to mass customization,’ and ‘automation to intelligent automation’
+demand manufacturing firms to shift for CoT adoption. CoT can be the ideal way to tackle
+issues like agility, reconfigurability, and proactive maintenance through its ubiquitous
+
+
+                                                                                 13
+                                                                    Annals of Operations Research
+
+
+
+
+Fig. 3  SEM path diagram. Source The Author
+
+
+
+design and manufacturing, and product digitization. Companies adopting CoT can get a
+relative competitive advantage over their competitor as it offers advantages like closer part-
+ner relationships, data analysis capabilities, better efficiency, cost-saving, etc.
+   A concern like security, vendor lock-in, trading partner support, and integrity must
+be addressed to bring CoT in reality for Indian SMEs. In developing countries like India,
+critical issues include lack of IT resources, lack of information sharing, sufficient human
+expertise, and internet bandwidth. The decision of top management is most crucial in the
+
+
+13
+     Table 3  Results of path analysis
+     Serial no. Regression relation                                       Stand-     Sup-     In agreement with                                           In contrast with
+                                                                          ardized    ported
+                                                                          estimate   (Y/N)
+
+     1          H1: There is a negative influence of Security and pri-    − .010     Yes      Díaz et al. (2016), Addo-Tenkorang and Helo (2016)
+                 vacy on CoT.
+                                                                                                                                                                                    Annals of Operations Research
+
+
+
+
+     2          H2: There is a negative influence of Perceived IT secu-   − .104     Yes      Botta et al. (2016), Díaz et al. (2016), Narwane et al.     Jarvenpaa et al. (2000)
+                 rity risk on CoT                                                              (In Press)
+     3          H3: There is a positive influence of Perceived Ease of    − .008     No       Gangwar et al. (2015)
+                 Use on CoT adoption.
+     4          H4: There is a positive influence of Top Management        .004      Yes      Gangwar et al. (2015)
+                 Support on CoT adoption.
+     5          H5: There is a positive influence of Trust and Social      .087      Yes      Botta et al. (2016), Narwane et al. (In Press)
+                 Practices on CoT adoption
+     6          H6: There is a positive influence of Customer Supplier     .032      Yes      Rekik et al. (2015), Gangwar et al. (2015), Lounis et al.
+                 Intension on CoT adoption.                                                    (2016).
+     7          H7: There is a positive influence of IT Support and       − .013     No                                                                   Ben-Daya et al.
+                 Resources on CoT adoption.                                                                                                                (2019), Zeng et al.
+                                                                                                                                                           (2018)
+     8          H8: There is a positive influence on Manufacturing         .310      Yes      Rekik et al. (2015), Alkhanak et al. (2015)
+                 Infrastructure on CoT adoption.
+     9          H9: There is a positive influence of Big Data Analytics    .059      Yes      Ren et al. (2016), Côrte-Real et al. (2017)
+                 on CoT adoption.
+     10         H10: There is a positive influence of Knowledge and        .451      Yes      Addo-Tenkorang and Helo (2016), Stergiou et al. (2018)
+                 Information Sharing on CoT adoption.
+     11         H11: There is a positive influence of External Environ-    .072      Yes      Jiang et al. (2016)
+                 ment Support on CoT adoption.
+     12         H12: There is a positive influence of CoT Adoption on      .040      Yes      Kang et al. (2016), Tao et al. (2018)
+                 SMEs Factory Performance.
+
+
+
+
+13
+                                                                    Annals of Operations Research
+
+
+adoption of new technologies. Concerns of top management are in regards to the initial
+investment and resistance to change for employees. Proper training and education can
+ensure smooth enforcement and proper division of roles. Trust, i.e., strong confidence can
+be developed through a contract of the agreement which will define guidelines in harmony
+with an efficient flow of information and improved performance for SMEs.
+
+
+7 Conclusion and future work
+
+This study identified the issues for implementation of the CoT in manufacturing SMEs
+and investigated the mediating role of CoT on the performance of SMEs. The influence of
+eleven factors namely security and privacy, perceived ease of use, top management sup-
+port, perceived security risk, big data analytics, trust, customer–supplier intention, manu-
+facturing infrastructure, IT support, knowledge sharing, and external environment support
+on cloud of things was analyzed. Results indicate that big data analytics, top management
+support, trust, perceived security risk, etc. require the mediating support of CoT. The pro-
+posed model is validated based on a survey conducted for manufacturing SMEs in India. A
+sample of 290 responses from 96 Indian SMEs was collected. Results suggest that big data
+analytics, top management support, trust, perceived security risk, etc. require the mediating
+support of cloud of things. For the productive work environment, there is the necessity of a
+stable system and information structure, which will offer a solution which is interoperable
+and secure in a transparent supply chain. The service provider must address unintended
+interruptions to service, disturbances in data access, information, service stability, and
+data privacy. Reliability of services can be achieved by addressing risk issues as well as
+compliance with standards and protocols. Concern about the availability of service is most
+prominent for SMEs. The technical stability which will guarantee CoT service under any
+adverse circumstances must gain the trust of all stakeholders or transparency in the supply
+chain itself. This study is useful for managers, policymakers, practitioners, and regulatory
+authorities to understand the importance of information, and the cloud of things, and fur-
+ther to formulate strategies to improve firm’s performance by improving the information
+transparency across the value chain.
+   Among limitations and future scope of the present study includes (i) Study was con-
+ducted in the Indian context, and thus results cannot be generalized to other geographical
+regions and underdeveloped countries. Also, the focus of the study was on the manufac-
+turing SMEs. However, cross-country comparative analysis and carrying out research in
+other sectors can overcome this limitation. Also, it will help to validate the findings of the
+present study. (ii) Second-order SEM can be applied to analyze derived variables from real
+factors like factory performance. (iii) A nonlinear predictive approach like the artificial
+neural network can be used to enhance model validity.
+
+
+Annexures‑I
+
+
+
+
+13
+Annals of Operations Research
+
+
+Table 4  Rotated Component Matrix
+          Component
+          1       2       3      4      5      6      7      8   9   10   11   12   13
+
+BDA3      .881
+BDA4      .879
+BDA2      .869
+BDA9      .854
+BDA1      .854
+BDA11     .852
+BDA8      .851
+BDA7      .837
+BDA6      .828
+BDA5      .823
+BDA10     .791
+SFP1              .916
+SFP8              .900
+SFP3              .892
+SFP7              .881
+SFP2              .871
+SFP6              .857
+SFP4              .844
+SFP9              .842
+SFP5              .794
+MFI5                      .748
+MFI6                      .732
+MFI4                      .729
+MFI2                      .725
+MFI8                      .716
+MFI3                      .710
+MFI1                      .691
+MFI7                      .630
+PEU1                             .917
+PEU3                             .914
+PEU2                             .876
+PEU4                             .865
+CSI1                                    .830
+CSI3                                    .802
+CSI2                                    .799
+CSI4                                    .791
+ISR1                                           .871
+ISR4                                           .844
+ISR2                                           .840
+ISR3                                           .829
+SAP2                                                  .848
+SAP1                                                  .814
+SAP3                                                  .784
+
+
+
+                                                                               13
+                                                                          Annals of Operations Research
+
+
+Table 4  (continued)
+           Component
+           1       2       3      4     5    6       7      8      9       10      11     12      13
+
+SAP4                                                 .775
+PTR2                                                        .834
+PTR4                                                        .834
+PTR3                                                        .826
+PTR1                                                        .822
+KIS2                                                               .807
+KIS4                                                               .765
+KIS3                                                               .754
+KIS1                                                               .705
+TMS3                                                                       .947
+TMS2                                                                       .942
+TMS1                                                                       .941
+TSP1                                                                               .851
+TSP2                                                                               .827
+TSP3                                                                               .822
+TSP4                                                                               .802
+CoT1                                                                                      .861
+CoT2                                                                                      .847
+CoT3                                                                                      .755
+CoT4                                                                                      .553
+EES2                                                                                              .779
+EES4                                                                                              .778
+EES3                                                                                              .747
+EES1                                                                                              .719
+
+Extraction Method: Principal Component Analysis
+Rotation Method: Varimax with Kaiser Normalization
+a. Rotation converged in 7 iterations
+
+
+
+
+13
+Annals of Operations Research
+
+
+Annexures‑II
+
+Table 5  Estimates for CFA Model
+Item            Construct                      Stand-     Unstand-   Standard   Critical ratio (C.R.)
+                                               ardized    ardized    error
+                                               estimate   estimate   (S.E.)
+
+BDA3     <— Big data analytics                 .880       1.000
+BDA4     <—     Big data analytics             .892       1.009      .045       22.393
+BDA2     <—     Big data analytics             .845        .973      .049       19.970
+BDA9     <—     Big data analytics             .838        .952      .048       19.632
+BDA1     <—     Big data analytics             .858        .975      .047       20.608
+BDA11    <—     Big data analytics             .845        .955      .048       19.988
+BDA8     <—     Big data analytics             .844        .958      .048       19.948
+BDA7     <—     Big data analytics             .838        .953      .049       19.653
+BDA6     <—     Big data analytics             .827        .945      .049       19.143
+BDA5     <—     Big data analytics             .810        .947      .051       18.400
+BDA10    <—     Big data analytics             .774       1.348      .079       16.984
+SFP1     <—     SMEs factory performance       .924       1.000
+SFP8     <—     SMEs factory performance       .912       1.014      .037       27.181
+SFP3     <—     SMEs factory performance       .898       1.006      .039       25.868
+SFP7     <—     SMEs factory performance       .872        .953      .040       23.840
+SFP2     <—     SMEs factory performance       .867        .973      .041       23.511
+SFP6     <—     SMEs factory performance       .853        .950      .042       22.546
+SFP4     <—     SMEs factory performance       .837        .952      .044       21.505
+SFP9     <—     SMEs factory performance       .825        .917      .044       20.832
+SFP5     <—     SMEs factory performance       .779        .880      .048       18.398
+MFI5     <—     Manufacturing infrastructure   .788       1.000
+MFI6     <—     Manufacturing infrastructure   .794       1.028      .072       14.285
+MFI4     <—     Manufacturing infrastructure   .659        .801      .070       11.463
+MFI2     <—     Manufacturing infrastructure   .629        .855      .079       10.853
+MFI8     <—     Manufacturing infrastructure   .634        .820      .075       10.962
+MFI3     <—     Manufacturing infrastructure   .662        .889      .077       11.508
+MFI1     <—     Manufacturing infrastructure   .706        .975      .078       12.422
+MFI7     <—     Manufacturing infrastructure   .659        .772      .067       11.453
+PEU1     <—     Perceived ease of use          .919       1.000
+PEU3     <—     Perceived ease of use          .914        .995      .040       25.021
+PEU2     <—     Perceived ease of use          .829        .952      .047       20.051
+PEU4     <—     Perceived ease of use          .840       1.083      .052       20.646
+CSI1     <—     Customer supplier intension    .814       1.000
+CSI3     <—     Customer supplier intension    .850       1.075      .065       16.530
+CSI2     <—     Customer supplier intension    .822       1.010      .064       15.798
+CSI4     <—     Customer supplier intension    .845       1.040      .063       16.390
+ISR1     <—     IT support and resources       .970       1.000
+ISR4     <—     IT support and resources       .976       1.000      .021       48.443
+ISR2     <—     IT support and resources       .938        .957      .026       37.362
+ISR3     <—     IT support and resources       .799       1.056      .050       21.121
+
+
+
+
+                                                                                         13
+                                                                      Annals of Operations Research
+
+
+Table 5  (continued)
+Item            Construct                     Stand-     Unstand-   Standard   Critical ratio (C.R.)
+                                              ardized    ardized    error
+                                              estimate   estimate   (S.E.)
+
+SAP2     <—     Security and privacy          .855       1.000
+SAP1     <—     Security and privacy          .912       1.065      .051       20.779
+SAP3     <—     Security and privacy          .720        .805      .057       14.220
+SAP4     <—     Security and privacy          .887       1.037      .052       19.880
+PTR2     <—    Perceived IT security risk     .855       1.000
+PTR4     <—    Perceived IT security risk     .861       1.002      .054       18.471
+PTR3     <—    Perceived IT security risk     .831        .968      .055       17.456
+PTR1     <—    Perceived IT security risk     .857       1.002      .055       18.339
+KIS2     <—    Knowledge and information      .897       1.000
+                sharing
+KIS4     <—    Knowledge and information      .758        .866      .056       15.587
+                sharing
+KIS3     <—    Knowledge and information      .747        .869      .057       15.212
+                sharing
+KIS1     <—    Knowledge and information      .818        .903      .051       17.574
+                sharing
+TMS3     <—    Top management support         .986       1.000
+TMS2     <—    Top management support         .974        .991      .017       57.707
+TMS1     <—    Top management support         .975        .989      .017       58.282
+TSP1     <—    Trust and social practices     .779       1.000
+TSP2     <—    Trust and social practices     .773       1.076      .085       12.720
+TSP3     <—    Trust and social practices     .759       1.005      .080       12.508
+TSP4     <—    Trust and social practices     .766       1.108      .088       12.616
+CoT1     <—    Cloud of things                .864       1.000
+CoT2     <—    Cloud of things                .885       1.234      .064       19.248
+CoT3     <—    Cloud of things                .839        .989      .056       17.798
+CoT4     <—    Cloud of things                .659        .873      .070       12.458
+EES2     <—    External environment support   .757       1.000
+EES4     <—    External environment support   .667        .951      .098        9.754
+EES3     <—    External environment support   .680       1.100      .111        9.906
+EES1     <—    External environment support   .659        .981      .102        9.657
+
+
+
+
+Annexure‑III
+
+
+
+
+13
+     Table 6  Estimates for the structural model
+     Item                           Construct                           Standardized   Unstandardized   Standard error   Critical ratio (C.R.)   P value
+                                                                        estimate       estimate         (S.E.)
+
+     CoT              <—            Big data analytics                   .059           .037            .034              1.091                  .275
+     CoT              <—            External environment support          .072           .092           .078              1.186                  .236
+     CoT              <—            Manufacturing infrastructure          .310           .267           .051              5.210                      ***
+     CoT              <—            Perceived ease of use               − .008         − .004           .029              − .143                 .886
+                                                                                                                                                           Annals of Operations Research
+
+
+
+
+     CoT              <—            Customer supplier intension           .032           .023           .041                .575                 .565
+     CoT              <—            IT support and resources            − .013         − .005           .022              − .237                 .813
+     CoT              <—            Security and privacy                − .010         − .006           .033              − .184                 .854
+     CoT              <—            Top management support                .004           .001           .018                .081                 .936
+     CoT              <—            Knowledge and information sharing     .451           .457           .061              7.544                      ***
+     CoT              <—            Perceived IT security risk          − .104         − .070           .038             − 1.845                 .065
+     CoT              <—            Trust and social practices            .087           .054           .036              1.502                  .133
+     SFP              <—            Cloud of things                       .040           .068           .108                .636                 .525
+     BDA3             <—            Big data analytics                    .880         1.000
+     BDA4             <—            Big data analytics                    .891         1.008            .045             22.359                     ***
+     BDA2             <—            Big data analytics                    .847           .975           .049             20.063                     ***
+     BDA9             <—            Big data analytics                    .839           .953           .048             19.691                     ***
+     BDA1             <—            Big data analytics                    .857           .973           .047             20.571                     ***
+     BDA11            <—            Big data analytics                    .845           .955           .048             20.003                     ***
+     BDA8             <—            Big data analytics                    .845           .958           .048             19.962                     ***
+     BDA7             <—            Big data analytics                    .837           .952           .049             19.632                     ***
+     BDA6             <—            Big data analytics                    .826           .944           .049             19.105                     ***
+     BDA5             <—            Big data analytics                    .810           .947           .051             18.410                     ***
+     BDA10            <—            Big data analytics                    .774         1.347            .079             16.973                     ***
+     SFP1             <—            SMEs factory performance              .924         1.000
+     SFP8             <—            SMEs factory performance              .912         1.013            .037             27.089                     ***
+
+
+
+
+13
+     SFP3             <—            SMEs factory performance              .897         1.006            .039             25.825                     ***
+     Table 6  (continued)
+     Item                   Construct                      Standardized   Unstandardized   Standard error   Critical ratio (C.R.)   P value
+                                                           estimate       estimate         (S.E.)
+
+
+
+
+13
+     SFP7            <—     SMEs factory performance        .873           .954            .040             23.910                     ***
+     SFP2            <—     SMEs factory performance        .868           .974            .041             23.530                     ***
+     SFP6            <—     SMEs factory performance        .853           .949            .042             22.506                     ***
+     SFP4            <—     SMEs factory performance        .837           .951            .044             21.483                     ***
+     SFP9            <—     SMEs factory performance        .826           .918            .044             20.873                     ***
+     SFP5            <—     SMEs factory performance        .778           .879            .048             18.359                     ***
+     MFI5            <—     Manufacturing infrastructure    .788          1.000
+     MFI6            <—     Manufacturing infrastructure    .790          1.022            .073             14.040                     ***
+     MFI4            <—     Manufacturing infrastructure    .664           .806            .070             11.471                     ***
+     MFI2            <—     Manufacturing infrastructure    .635           .862            .079             10.892                     ***
+     MFI8            <—     Manufacturing infrastructure    .646           .835            .075             11.116                     ***
+     MFI3            <—     Manufacturing infrastructure    .661           .887            .078             11.414                     ***
+     MFI1            <—     Manufacturing infrastructure    .701           .967            .079             12.214                     ***
+     MFI7            <—     Manufacturing infrastructure    .651           .762            .068             11.213                     ***
+     PEU1            <—     Perceived ease of use           .921          1.000
+     PEU3            <—     Perceived ease of use           .913           .993            .040             25.006                     ***
+     PEU2            <—     Perceived ease of use           .829           .951            .047             20.090                     ***
+     PEU4            <—     Perceived ease of use           .838          1.080            .052             20.578                     ***
+     CSI1            <—     Customer supplier intension     .822          1.000
+     CSI3            <—     Customer supplier intension     .851          1.065            .064             16.559                     ***
+     CSI2            <—     Customer supplier intension     .819           .996            .063             15.761                     ***
+     CSI4            <—     Customer supplier intension     .839          1.021            .063             16.253                     ***
+     ISR1            <—     IT support and resources        .973          1.000
+     ISR4            <—     IT support and resources        .974           .995            .021             48.170                     ***
+     ISR2            <—     IT support and resources        .938           .955            .025             37.738                     ***
+                                                                                                                                              Annals of Operations Research
+     Table 6  (continued)
+     Item                   Construct                           Standardized   Unstandardized   Standard error   Critical ratio (C.R.)   P value
+                                                                estimate       estimate         (S.E.)
+
+     ISR3            <—     IT support and resources             .801          1.056            .050             21.338                     ***
+     SAP2            <—     Security and privacy                 .864          1.000
+     SAP1            <—     Security and privacy                 .914          1.055            .050             20.953                     ***
+     SAP3            <—     Security and privacy                 .723           .800            .056             14.396                     ***
+                                                                                                                                                   Annals of Operations Research
+
+
+
+
+     SAP4            <—     Security and privacy                 .876          1.014            .052             19.676                     ***
+     PTR2            <—     Perceived IT security Risk           .856          1.000
+     PTR4            <—     Perceived IT security risk           .861          1.001            .054             18.388                     ***
+     PTR3            <—     Perceived IT security risk           .833           .969            .055             17.465                     ***
+     PTR1            <—     Perceived IT security risk           .854           .997            .055             18.153                     ***
+     KIS2            <—     Knowledge and information sharing    .913          1.000
+     KIS4            <—     Knowledge and information sharing    .750           .841            .055             15.332                     ***
+     KIS3            <—     Knowledge and information sharing    .736           .842            .057             14.899                     ***
+     KIS1            <—     Knowledge and information sharing    .814           .884            .051             17.414                     ***
+     TMS3            <—     Top management support               .986          1.000
+     TMS2            <—     Top management support               .974           .991            .017             57.745                     ***
+     TMS1            <—     Top management support               .975           .988            .017             58.273                     ***
+     TSP1            <—     Trust and social practices           .788          1.000
+     TSP2            <—     Trust and social practices           .775          1.066            .083             12.849                     ***
+     TSP3            <—     Trust and social practices           .755           .988            .079             12.542                     ***
+     TSP4            <—     Trust and social practices           .758          1.083            .086             12.584                     ***
+     CoT1            <—     Cloud of things                      .846          1.000
+     CoT2            <—     Cloud of things                      .869          1.234            .071             17.451                     ***
+     CoT3            <—     Cloud of things                      .819           .988            .061             16.228                     ***
+     CoT4            <—     Cloud of things                      .631           .873            .076             11.416                     ***
+     EES2            <—     External environment support         .748          1.000
+
+
+
+
+13
+     Table 6  (continued)
+     Item                          Construct                      Standardized   Unstandardized   Standard error   Critical ratio (C.R.)   P value
+                                                                  estimate       estimate         (S.E.)
+
+
+
+
+13
+     EES4             <—           External environment support    .685           .989            .102              9.663                     ***
+     EES3             <—           External environment support    .684          1.118            .116              9.646                     ***
+     EES1             <—           External environment support    .647           .974            .105              9.256                     ***
+
+     ***Are significant at P value < .001
+                                                                                                                                                     Annals of Operations Research
+Annals of Operations Research
+
+
+References
+Addo-Tenkorang, R., & Helo, P. T. (2016). Big data applications in operations/supply-chain management: A
+     literature review. Computers & Industrial Engineering, 101, 528–543.
+Ahmadov, Y., & Helo, P. (2018). A cloud based job sequencing with sequence-dependent setup for sheet
+     metal manufacturing. Annals of Operations Research, 270(1–2), 5–24.
+Alkhanak, E. N., Lee, S. P., & Khan, S. U. R. (2015). Cost-aware challenges for workflow scheduling
+     approaches in cloud computing environments: Taxonomy and opportunities. Future Generation Com-
+     puter Systems, 50, 3–21.
+Anderson, J. C., & Gerbing, D. W. (1984). The effect of sampling error on convergence, improper solutions,
+     and goodness-of-fit indices for maximum likelihood confirmatory factor analysis. Psychometrika,
+     49(2), 155–173.
+Bagozzi, R. P. (1980). Causal models in marketing. Hoboken: Wiley.
+Barki, H., & Hartwick, J. (2001). Interpersonal conflict and its management in information system develop-
+     ment. Mis Quarterly, 25, 195–228.
+Ben-Daya, M., Hassini, E., & Bahroun, Z. (2019). Internet of things and supply chain management: a litera-
+     ture review. International Journal of Production Research, 57(15–16), 4719–4742.
+Botta, A., De Donato, W., Persico, V., & Pescapé, A. (2016). Integration of cloud computing and internet of
+     things: A survey. Future Generation Computer Systems, 56, 684–700.
+Conti, M., Dehghantanha, A., Franke, K., & Watson, S. (2018). Internet of Things security and forensics:
+     Challenges and opportunities. Future Generation Computer Systems, 78, 544–546.
+Côrte-Real, N., Oliveira, T., & Ruivo, P. (2017). Assessing business value of big data analytics in European
+     firms. Journal of Business Research, 70, 379–390.
+Da Xu, L., He, W., & Li, S. (2014). Internet of things in industries: A survey. IEEE Transactions on
+     Industrial Informatics, 10(4), 2233–2243.
+Davenport, T. H., Barth, P., & Bean, R. (2012). How’big data’is different. MIT Sloan Management
+     Review.
+de Sousa Jabbour, A. B. L., Jabbour, C. J. C., Foropon, C., & Godinho Filho, M. (2018a). When titans
+     meet–Can industry 4.0 revolutionise the environmentally-sustainable manufacturing wave? The role of
+     critical success factors. Technological Forecasting and Social Change, 132, 18–25.
+de Sousa Jabbour, A. B. L., Jabbour, C. J. C., Godinho Filho, M., & Roubaud, D. (2018b). Industry 4 and
+     the circular economy: A proposed research agenda and original roadmap for sustainable operations.
+     Annals of Operations Research, 270(1–2), 273–286.
+Díaz, M., Martín, C., & Rubio, B. (2016). State-of-the-art, challenges, and open issues in the integration of
+     Internet of things and cloud computing. Journal of Network and Computer Applications, 67, 99–117.
+Dimitrov, D. M. (2014). Statistical methods for validation of assessment scale data in counseling and
+     related fields. Hoboken: Wiley.
+Dubey, R., Gunasekaran, A., Childe, S. J., Papadopoulos, T., Luo, Z., Wamba, S. F., et al. (2017). Can big
+     data and predictive analytics improve social and environmental sustainability? Technological Forecast-
+     ing and Social Change, 144, 534–545.
+Esmaeilian, B., Behdad, S., & Wang, B. (2016). The evolution and future of manufacturing: A review.
+     Journal of Manufacturing Systems, 39, 79–100.
+Gangwar, H., Date, H., & Ramaswamy, R. (2015). Understanding determinants of cloud computing
+     adoption using an integrated TAM-TOE model. Journal of Enterprise Information Management,
+     28(1), 107–130.
+Ghatak, S. (2010). Micro, small and medium enterprises (MSMEs) in India: An appraisal. Journal of
+     Technology Management & Innovation, 6(1), 66–76.
+Gunasekaran, A., Yusuf, Y. Y., Adeleye, E. O., & Papadopoulos, T. (2017). Agile manufacturing prac-
+     tices: The role of big data and business analytics with multiple case studies. International Journal
+     of Production Research, 56(1–2), 385–397.
+Hair, J. F., Anderson, R. I., Tatham, R. L., & Black, W. C. (1995). Multivariate data analysis (5th ed.).
+     Engle wood cliffs: Prentice Hall International.
+Han, S., Huang, H., Luo, Z., & Foropon, C. (2018). Harnessing the power of crowdsourcing and Internet
+     of Things in disaster response. Annals of Operations Research, 283, 1–16.
+Hu, L. T., & Bentler, P. M. (1999). Cutoff criteria for fit indexes in covariance structure analysis: Con-
+     ventional criteria versus new alternatives. Structural Equation Modeling: A Multidisciplinary Jour-
+     nal, 6(1), 1–55.
+IANS (2019). Indian government sector next big thing for Google Cloud, ET Prime. Retrieved Septem-
+     ber 9, 2019 from (https​://cio.econo​micti​mes.india​times​.com/news/cloud​-compu​ting/india​n-gover​
+     nment​-secto​r-next-big-thing​-for-googl​e-cloud​/70435​456.
+
+
+                                                                                                13
+                                                                                Annals of Operations Research
+
+
+Jarvenpaa, S. L., Tractinsky, N., & Vitale, M. (2000). Consumer trust in an Internet store. Information
+      Technology and Management, 1(1–2), 45–71.
+Jiang, P., Ding, K., & Leng, J. (2016). Towards a cyber-physical-social-connected and service-oriented
+      manufacturing paradigm. Social Manufacturing Manufacturing Letters, 7, 15–21.
+Jin, X., Wah, B. W., Cheng, X., & Wang, Y. (2015). Significance and challenges of big data research. Big
+      Data Research, 2(2), 59–64.
+Kang, H. S., Lee, J. Y., Choi, S., Kim, H., Park, J. H., Son, J. Y., et al. (2016). Smart manufacturing: Past
+      research, present findings, and future directions. International Journal of Precision Engineering
+      and Manufacturing-Green Technology, 3(1), 111–128.
+Li, G., Liu, W., Wang, Z., & Liu, M. (2017). An empirical examination of energy consumption, behav-
+      ioral intention, and situational factors: Evidence from Beijing. Annals of Operations Research,
+      255(1–2), 507–524.
+Li, G., Zheng, H., Sethi, S. P., & Guan, X. (2018). Inducing downstream information sharing via manu-
+      facturer information acquisition and retailer subsidy. Decision Sciences, 1–29.
+Liu, P., & Yi, S. P. (2018). A study on supply chain investment decision-making and coordination in the
+      Big Data environment. Annals of Operations Research, 270(1–2), 235–253.
+Lounis, A., Hadjidj, A., Bouabdallah, A., & Challal, Y. (2016). Healing on the cloud: Secure cloud archi-
+      tecture for medical wireless sensor networks. Future Generation Computer Systems, 55, 266–277.
+Lu, Y. (2017). Industry 4.0: A survey on technologies, applications and open research issues. Journal of
+      Industrial Information Integration, 6, 1–10.
+Luthra, S., Mangla, S. K., Chan, F. T., & Venkatesh, V. G. (2018a). Evaluating the drivers to informa-
+      tion and communication technology for effective sustainability initiatives in supply chains. Interna-
+      tional Journal of Information Technology & Decision Making, 17(1), 311–338.
+Luthra, S., Mangla, S. K., Chan, F. T., & Venkatesh, V. G. (2018b). Evaluating the drivers to informa-
+      tion and communication technology for effective sustainability initiatives in supply chains. Interna-
+      tional Journal of Information Technology & Decision Making, 17(01), 311–338.
+MacCallum, R. C., & Austin, J. T. (2000). Applications of structural equation modeling in psychological
+      research. Annual Review of Psychology, 51(1), 201–226.
+Mai, V., & Khalil, I. (2017). Design and implementation of a secure cloud-based billing model for smart
+      meters as an Internet of things using homomorphic cryptography. Future Generation Computer
+      Systems, 72, 327–338.
+Manuel, P. (2015). A trust model of cloud computing based on quality of service. Annals of Operations
+      Research, 233(1), 281–292.
+Manyika, J., Chui, M., Brown, B., Bughin, J., Dobbs, R., Roxburgh, C., & Byers, A. H. (2011). Big
+      data: The next frontier for innovation, competition, and productivity. http://www.mckin​sey.com/
+      Insig​hts/MGI/Resea​rch/Techn​ology​_and_Innov​ation​/Big_data_The_next_front​ier_for_innov​ation​.
+      Accessed 10 April 2019.
+Martins, R., Oliveira, T., & Thomas, M. A. (2016). An empirical analysis to assess the determinants of
+      SaaS diffusion in firms. Computers in Human Behavior, 62, 19–33.
+McAfee, A., Brynjolfsson, E., Davenport, T. H., Patil, D. J., & Barton, D. (2012). Big data: The manage-
+      ment revolution. Harvard Business Review, 90(10), 60–68.
+Mishra, D., Gunasekaran, A., Childe, S. J., Papadopoulos, T., Dubey, R., & Wamba, S. (2016). Vision,
+      applications and future challenges of Internet of Things: A bibliometric study of the recent literature.
+      Industrial Management & Data Systems, 116(7), 1331–1355.
+Narwane, V., Narkhede, B., Raut, R., Gardas, B., Priyadarshinee, P., Kavre, M. (In press). To identify the
+      determinants of the CloudIoT technologies adoption in the Indian MSMEs: structural equation model-
+      ling approach. International Journal of Business Information Systems.
+Patel, P., & Cassou, D. (2015). Enabling high-level application development for the Internet of Things.
+      Journal of Systems and Software, 103, 62–84.
+Pavlou, P. A., & Gefen, D. (2004). Building effective online marketplaces with institution-based trust. Infor-
+      mation Systems Research, 15(1), 37–59.
+Perera, C., Zaslavsky, A., Christen, P., & Georgakopoulos, D. (2014). Context aware computing for the
+      internet of things: A survey. IEEE Communications Surveys & Tutorials, 16(1), 414–454.
+Raut, R. D., Mangla, S. K., Narwane, V. S., Gardas, B. B., Priyadarshinee, P., & Narkhede, B. E. (2019).
+      Linking big data analytics and operational sustainability practices for sustainable business manage-
+      ment. Journal of Cleaner Production, 224, 10–24.
+Rekik, M., Boukadi, K., & Ben-Abdallah, H. (2015). A decision-making method for business process out-
+      sourcing to the cloud based on business motivation model and AHP. International Journal of Cloud
+      Computing 2, 4(1), 47–62.
+
+
+
+
+13
+Annals of Operations Research
+
+
+Ren, S., Fosso Wamba, S., Akter, S., Dubey, R., & Childe, S. J. (2017). Modelling quality dynamics, busi-
+     ness value and firm performance in a big data analytics environment. International Journal of Produc-
+     tion Research, 55(17), 5011–5026.
+Reyna, A., Martín, C., Chen, J., Soler, E., & Díaz, M. (2018). On blockchain and its integration with IoT:
+     Challenges and opportunities. Future Generation Computer Systems., 88(2018), 173–190.
+Srivastava, S. C., Mithas, S., & Jha, B. (2013). What is your global innovation strategy? IT Professional,
+     15(6), 2–6.
+Stergiou, C., Psannis, K. E., Kim, B. G., & Gupta, B. (2018). Secure integration of IoT and cloud comput-
+     ing. Future Generation Computer Systems, 78, 964–975.
+Tao, F., Qi, Q., Liu, A., & Kusiak, A. (2018). Data-driven smart manufacturing. Journal of Manufacturing
+     Systems, 48, 157–169.
+Tao, F., Wang, Y., Zuo, Y., Yang, H., & Zhang, M. (2016). Internet of Things in product life-cycle energy
+     management. Journal of Industrial Information Integration, 1, 26–39.
+Tao, F., Zuo, Y., Da Xu, L., & Zhang, L. (2014). IoT-based intelligent perception and access of manu-
+     facturing resource toward cloud manufacturing. IEEE Transactions on Industrial Informatics, 10(2),
+     1547–1557.
+Thompson, B. (2004). Exploratory and confirmatory factor analysis: Understanding concepts and applica-
+     tions. Washington: American Psychological Association.
+Varghese, B., & Buyya, R. (2018). Next generation cloud computing: New trends and research directions.
+     Future Generation Computer Systems, 79, 849–861.
+Wamba, S. F., Gunasekaran, A., Akter, S., Ren, S. J. F., Dubey, R., & Childe, S. J. (2017). Big data analytics
+     and firm performance: Effects of dynamic capabilities. Journal of Business Research, 70, 356–365.
+Wang, S., Wan, J., Li, D., & Zhang, C. (2016). Implementing smart factory of industrie 4.0: An outlook.
+     International Journal of Distributed Sensor Networks, 12(1), 3159805.
+Wang, Z., & Wang, N. (2012). Knowledge sharing, innovation and firm performance. Expert Systems with
+     Applications, 39(10), 8899–8908.
+Williams, B., Onsman, A., & Brown, T. (2010). Exploratory factor analysis: A five-step guide for novices.
+     Australasian Journal of Paramedicine, 8(3), 1–13.
+Zeng, D., Gu, L., & Yao, H. (2018). Towards energy efficient service composition in green energy powered
+     Cyber-Physical Fog Systems. Future Generation Computer Systems. https​://doi.org/10.1016/j.futur​
+     e.2018.01.060.
+Zhong, R. Y., Xu, X., Klotz, E., & Newman, S. T. (2017). Intelligent manufacturing in the context of indus-
+     try 4.0: A review. Engineering, 3(5), 616–630.
+Zissis, D., & Lekkas, D. (2012). Addressing cloud computing security issues. Future Generation computer
+     systems, 28(3), 583–592.
+
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+institutional affiliations.
+
+
+
+
+                                                                                                 13
+                                                                            Annals of Operations Research
+
+
+Affiliations
+
+Vaibhav S. Narwane1 · Rakesh D. Raut2 · Sachin Kumar Mangla3                   ·
+Bhaskar B. Gardas4 · Balkrishna E. Narkhede5 · Anjali Awasthi6 ·
+Pragati Priyadarshinee7
+    Vaibhav S. Narwane
+    vsnarwane@gmail.com
+    Rakesh D. Raut
+    rakeshraut09@gmail.com; rraut@nitie.ac.in
+    Bhaskar B. Gardas
+    gardas.bhaskar@gmail.com
+    Balkrishna E. Narkhede
+    benarkhede1@gmail.com
+    Anjali Awasthi
+    anjali.awasthi@concordia.ca
+    Pragati Priyadarshinee
+    priyadarshinee.pragati@gmail.com
+1
+    Department of Production Engineering, Veermata Jijabai Technological Institute (VJTI), H.R
+    Mahajani Marg, Matunga, Mumbai, Maharashtra 400019, India
+2
+    Department of Operations and Supply Chain Management, National Institute of Industrial
+    Engineering (NITIE), Vihar Lake, NITIE, Powai, Mumbai, Maharashtra 400087, India
+3
+    Knowledge Management and Business Decision Making, Plymouth Business School, University
+    of Plymouth, Plymouth PL4 8AA, UK
+4
+    Department of Mechanical Engineering, M.H. Saboo Siddik College of Engineering, 8, Saboo
+    Siddik Polytechnic Road, Byculla, Mumbai, Maharashtra 400008, India
+5
+    Department of Industrial Engineering and Management Systems, National Institute of Industrial
+    Engineering (NITIE), Vihar Lake, NITIE, Powai, Mumbai, Maharashtra 400087, India
+6
+    Concordia Institute for Information Systems Engineering (CIISE), Concordia University,
+    Montreal H3G2W1, Canada
+7
+    Chaitanya Bharathi Institute of Technology (CBIT), Gandipet, Hyderabad, Telangana 500075,
+    India
+
+
+
+
+13
+

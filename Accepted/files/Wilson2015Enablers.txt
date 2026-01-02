@@ -1,0 +1,409 @@
+                           2015 IEEE International Conference on Cloud Computing in Emerging Markets
+
+
+
+
+            Enablers and barriers of cloud adoption among
+            Small and Medium Enterprises in Tamil Nadu
+                                          Berlin Mano Robert Wilson, Babak Khazaei, Laurence Hirsch
+                                                            Faculty of ACES,
+                                                       Sheffield Hallam University,
+                                                        Sheffield, United Kingdom
+
+
+      Abstract— Cloud computing has the potential to speed up IT               developing countries tells a different story. Cloud computing is
+  adoption among SMEs in developing economies. Though the                      still in its infancy in India and level of cloud adoption among
+  benefits of cloud computing is very appealing, the level of cloud            SMEs is comparatively lesser than level of adoption in
+  adoption is still low among SMEs. This research aims to identify             developed countries [15].
+  the key enablers, barriers and other factors that influence cloud
+  adoption among SMEs in Tamil Nadu by conducting empirical                        In this paper, we investigate the factors that influence
+  investigations. We have used TOE framework to identify and                   decision makers in making decision while adopting a new
+  capture the factors that affect technology adoption. We highlight            technology innovation like cloud computing through an
+  cost benefits of using cloud infrastructure, scalability and agility         already used and tested framework. We have used
+  of cloud services as the key enablers of cloud adoption.                     Technology, Organization and Environment (TOE) framework
+  Broadband availability, high bandwidth cost and vendor lock-in               to investigate and identify the cloud adoption decision factors.
+  are the main barrier for cloud adoption. Compatibility to existing
+                                                                               The main aim of this study is to contribute to growing research
+  system, complexity of the migration process, top management
+  support, government policies and competitor pressure are the                 on cloud computing by studying the determinants of cloud
+  major organizational factors affecting cloud adoption among                  adoption by SMEs in Tamil Nadu. This paper reports the
+  SMEs in Tamil Nadu. This study is part of a larger study which               findings of the study conducted among decision makers from
+  aims to develop a cloud migration decision support system                    SMEs in Tamil Nadu.
+  (CMDSS) for SMEs in Tamil Nadu.                                              The structure of this paper is as follows. Section II provides an
+                                                                               overview of cloud computing and discusses related work,
+     Keywords—cloud computing; SMEs; TOE framework; cloud                      Section III presents the research methodology and the survey
+  adoption; cloud adoption in developing countries, empirical study.           carried out. Section IV is the analysis on data, result of the
+                                                                               survey. Section V and VI will discuss the recommendations,
+                         I. INTRODUCTION                                       future directions and the conclusion
+      Small and Medium Enterprises (SMEs) are perceived as the
+  backbone of a country's economy. The status of SME sector is                              II. CLOUD COMPUTING OVERVIEW
+  no different in India, where more than 40% of the total
+  workforce is employed by SMEs. SMEs contribute nearly 17%                    A. What is cloud computing?
+  to the GDP of Indian economy [10]. This study is focused on                      The concept of cloud computing itself is not new and the
+  SMEs in Tamil Nadu, one of the constituent states of the Indian              evolution of cloud computing can be dated back to 1960's
+  Union. Tamil Nadu accounts for 689,000 registered SMEs                       when John McCarthy introduced timesharing in Mainframes.
+  which is the largest in the whole of the Indian Union [10]. Due              The term cloud computing was first used by Professor
+  to provisions in Part XI of the Indian constitution, each state of           Ramnath Chellappa in 1997 and he defined cloud as a
+  the Indian union is entitled to have its own laws. Therefore, the            "computing paradigm where the boundaries of computing will
+  legal requirements for running a business can vary for each                  be determined by economic rationale rather than technical
+  state and a study focused on one state cannot be accurate for                limits alone" [31]. Cloud computing has many definitions [24]
+  the whole union.                                                             based on its characteristics. The most cited definition for cloud
+                                                                               computing is the one by US National Institute of Standards and
+      Innovation     in    Information       and    Communication              Technology (NIST) describing cloud based on its technological
+  Technologies (ICT) among SMEs has improved their                             characteristic. According to NIST [19], Cloud computing is a
+  individual businesses and has enabled SMEs to compete with                   "model for enabling convenient, on-demand network access to
+  larger companies [3]. Cloud computing is one such innovation                 a shared pool of configurable computing resources". The
+  which has attracted businesses and governments across the                    benefits of cloud computing like less investment on IT
+  world mainly due to the facilities and features it offers to                 infrastructure, software licensing costs and high scalability can
+  improve service delivery and performance [26]. In recent years,              be beneficial for SMEs in Tamil Nadu and therefore cloud
+  global computing traffic has increased twelve-fold and cloud                 computing can be viewed as a new business model using
+  computing can be credited to the rise in use of internet.                    existing technologies like virtualisation and distributed
+  Developed countries have embraced cloud for the features it                  computing having the facilities and features to speed up IT
+  offers like increase in reliability, efficiency and the flexibility          adoption in developing economies. According to NIST [19],
+  of the services [27]. However the status of cloud computing in               there are four cloud deployment models; Public, Private,
+
+978-1-4673-8566-4/16 $31.00 © 2016 IEEE                                  140
+DOI 10.1109/CCEM.2015.21
+Community and Hybrid. Irrespective of the type of deployment              technologies, SMEs can focus on their customers and can
+model used, there are three types of cloud service delivery               delivers their services effectively which can level the playing
+models; Software as a Service (SaaS), Platform as a Service               field for SMEs when they compete with large enterprises [16].
+(PaaS), Infrastructure as a Service (IaaS). The Public cloud
+type is provisioned for use for the general public. Users can                 Data security, Broadband availability, interoperability and
+subscribe to the cloud provider and use the resource offered              portability [21, 12] are some of the main issues faced by
+based on the subscription. e.g. Google mail, Facebook, Twitter            organisations in addition to the legal issues while migrating
+are few examples. Private Cloud is a type of cloud                        data and application to a cloud environment in India [30].
+infrastructure which is provisioned and operated for a single             While these can be considered as factors around cloud
+organisation. Community cloud is provisioned for users of a               infrastructure, SMEs also face technical, operational and
+specific community who share common concerns like security                organisational issues for implementing cloud in their
+requirements, policy and compliance. The fourth type of                   businesses [3].
+deployment is the Hybrid Cloud which is a composition of two                  In recent years, research efforts have started in both
+or more of the above mentioned cloud infrastructures. Due to              academia and in businesses to identify the factors that influence
+the type of infrastructure, community cloud is not suitable for           adoption of cloud computing. Literature review reveals that
+SMEs as they are usually expensive to manage. Therefore, we               there are recent studies by researchers to identify the
+will limit our investigation to Public, Private and Hybrid                determinants of cloud adoptions in India [5, 12, 21, 22].
+deployment models. SaaS is the service delivery of application            However there is very little literature available regarding cloud
+that is licensed for use. Such software applications are made             adoption for SMEs in Tamil Nadu.
+available by a cloud provider over a Public or Private cloud.
+PaaS is the delivery of platform that is essential to support and                        III. RESEARCH METHODOLOGY
+build a software application on a cloud infrastructure. Such
+tools include programming languages, software and                         A. TOE framework
+development tools. IaaS is the delivery of computational
+resources including servers, software, hardware, network                      There are many models available to study the adoption of
+equipment and storage as service over a public or a private               Information Technology at organisation level. The most used
+network. Each service delivery model has its own advantages               theories are Diffusion of Innovation (DOI) and Technology,
+and they are used based on the requirements of the business               Organisation, Environment Framework (TOE) [26]. We chose
+[19].                                                                     to employ TOE framework for our study as the framework is
+                                                                          relevant to the research objective and has been used by similar
+                                                                          studies to identify the determinants of cloud adoption in
+B. Towards cloud adoption                                                 different countries. TOE provides a framework for technology
+    The benefits of using cloud services are very appealing and           adoption by an enterprise at organisation level. Based on this
+according to KPMG cloud computing report for 2014                         framework, the technology innovation adoption process is
+involving 500 global business executives [33], cloud                      influenced by three aspects of an enterprise’s context, namely;
+computing is no longer a "hype" and large number of                       Technology context, Organisation context, Environment
+companies have started to use services offered by cloud.                  context. The technology context includes both the internal and
+Kshetri (2012) forecasted that cloud computing can greatly                external technology requirements relevant to the organisation
+accelerate India's digitalisation and transform how                       to adopt the new technology. Organisational context is related
+computational services are used [16]. The investments made in             to the resources and the characteristics of the enterprise. The
+the cloud computing segment are huge and it is forecasted that            environmental context refers to the current operating
+Indian cloud computing market will touch $3 billion by 2016.              environment of SMEs in Tamil Nadu.
+Local IT giants like Infosys technologies have started investing
+on public and private cloud projects. Though large enterprises               Based on reviewing the literature and other studies using
+have already started using cloud for their business, the level of         TOE framework [1, 3, 4, 12, 17, 21, 27], variables relevant to
+cloud adoption among SMEs in India is still very low when                 the cloud adoption in Tamil Nadu were selected. Figure I
+compared to SMEs in US and UK [33].                                       shows the conceptual TOE framework for the study.
+
+    In general, SMEs face several issues while adopting a new                 Relative advantage refers to the degree to which a
+technology innovation in their business. One of the main issue            technological factor is perceived to provide greater benefit for
+is SMEs are usually left with limited resources in terms of               the organisation [32]. Compatibility refers to the degree to
+time, money and expertise when compared to big businesses                 which an innovation is considered as similar to the existing
+[3]. This is one of the main reasons behind SMEs being late               values, past experiences and needs of potential adopters [26].
+adopters in any type of innovation in their business. Some of             Relative advantage, Complexity and Compatibility are the
+the benefits of cloud computing makes more sense for SMEs                 three research variables for Technology context. Top
+than large enterprises. For large enterprises which run their             Management support is very crucial for adoption of cloud
+own data centers it may not be cost efficient in adopting to              computing in any business. Top management will play
+cloud computing. Also for SMEs, cloud computing has the                   important role as cloud computing implementation may
+potential to deliver tangible benefits and can increase their             involve change in technological and organisational structure of
+investment by providing the same infrastructure that is used by           the organisation. The size of the organisation also plays an
+a larger enterprises [3]. If SMEs have access to highly scalable          important role while making decisions regarding adoption of a
+                                                                          new technology. We have identified factors like Government
+
+
+
+
+                                                                    141
+policy, legal risks and competitor pressure will have an                  classification of SMEs according to Ministry of Micro, Small
+influence on the organisation while making decision for cloud             and Medium Enterprise (MSME) based on initial investment
+migration. Government policy refers to the policies of the state          made by the enterprise on plant, machinery and equipment's to
+and union governments to support cloud computing providers                run the business [29]. The link to the survey was sent through
+and its users. Competitive pressure refers to the level of                an email along with an information sheet detailing the
+pressure experienced by the organisations from its competitors            objectives of the research to prevent any bias. The data
+within the same industry.                                                 collected was validated based on the location of the SME and
+                                                                          the IT infrastructure of the SME.
+ FIGURE I.          TOE FRAMEWORK FOR CLOUD ADOPTION                          Out of the total 16 responses from the decision makers; 14
+                                                                          were deemed valid, the remaining two responses were not
+                                                                          sufficiently complete to be considered for analysis. 6
+                                                                          respondents were decision makers from IT and ITES
+                                                                          (Information Technology Enabled Services) firms, 2 each from
+                                                                          Education and retail sector SMEs, 1 each from manufacturing
+                                                                          and banking sector SMEs. 3 respondents chose other from the
+                                                                          option. From the sample collected, 6 SME have already
+                                                                          adopted the use of cloud computing in their business. 5 SMEs
+                                                                          have not adopted cloud yet and 3 decision makers had
+                                                                          indicated that they are planning to adopt cloud for their
+                                                                          business in the next 18 months.
+
+                                                                          D. Data Analysis
+                                                                              SPSS was used to analyse the quantitative data collected
+                                                                          from the survey. As Likert scale was used in the survey
+                                                                          questions, calculating the Relative Importance Index (RII) was
+                                                                          essential to understand the importance of a particular factor [9].
+                                                                          Factors with indices ranging from 0.71-1 were classified as
+                                                                          high importance, 0.41-0.60 as medium importance and indices
+                                                                          less than 0.41 as low importance. Factors with RII less than
+                                                                          0.41 will have no effect on cloud migration.
+
+                                                                                           IV. FINDINGS AND DISCUSSION
+
+B. Research Design                                                        A. Enablers and Barriers of cloud adoption
+    The main aim of this research is to identify the factors that            The data collected identified 5 drivers and 4 barriers for
+influence cloud adoption decisions among SMEs in Tamil                    cloud computing among SMEs in Tamil Nadu.
+Nadu. For the purpose of exploring the impact of TOE factors
+on SME adoption of cloud computing service, a quantitative                             TABLE I.           ENABLERS OF CLOUD ADOPTION
+questionnaire method in the form of an online survey was
+chosen [6]. The survey questionnaire consisted 36 questions                                                  Relative Importance
+                                                                                        Enabler                                    Rank
+                                                                                                                    Index
+and was structured to capture the SMEs profile, enablers and                     Cost benefits of using
+barriers of cloud computing, as well as the factors (e.g.                                                           0.85            1
+                                                                                 cloud infrastructure
+technological, organizational and environmental) that influence                  Scalability          and
+                                                                                                                    0.81            2
+the adoption of cloud computing. All variables and constructs                    flexibility of cloud
+were measured using a 5 point Likert scale (1= strongly                          Increased productivity             0.78            3
+disagree, 5 = strongly agree). Random sampling was used                          Minimises software
+                                                                                                                    0.71            4
+while selecting the target samples. The objectives of the study                  licensing costs
+were clearly explained to the participants through an                            Reduces         system
+                                                                                                                    0.68            5
+information sheet. The questionnaire survey was conducted                        downtimes
+online through google forms and the data collected was stored
+on google drive provided by Sheffield Hallam University to                    From table I it can be understood that cost benefits of using
+comply with Research ethics policy of the University.                     cloud infrastructure is the major driver for cloud computing
+                                                                          among SMEs in Tamil Nadu and this result is consistent with
+C. Sampling and Data collection                                           similar studies [4,2,12,21,18,20,27] conducted for different
+   The survey questionnaire was sent to 70 decision makers                regions in developing economies. Cloud services are usually
+from different SMEs operating within Tamil Nadu. Decision                 marketed as cost effective, highly scalable and faster to market.
+makers included CEO's, Managing directors and CIO's of                    Keeping this in mind, when asked a direct question as to what
+SMEs in Tamil Nadu. To define SMEs, we followed the                       is the main driver for cloud computing with three possible
+
+
+
+
+                                                                    142
+answers (Reduced costs, Scalable and faster to market with an             choose the major barrier for adoption for cloud computing,
+option to select more than one choice). Overwhelming 91.7%                69.2% respondents suggested that broadband availability and
+respondents had said that reduced cost is the major driver as             high bandwidth cost as the major barrier and 61% said that
+compared to 58.3% for both scalability and agility of cloud               security is a concern for not adopting to cloud. Therefore,
+services. It can be implied that the level of cloud adoption will         bandwidth availability and High bandwidth costs can be
+increase if cloud service providers make their products and               considered as major barrier and will be main decision factor
+services targeted for SME population at competitive pricing.              for cloud adoption decisions for SMEs in Tamil Nadu.
+Software licensing cost is identified as fourth important factor.             Hybrid cloud is identified as currently used or most suited
+Anecdotal reference suggests that in Tamil Nadu software
+                                                                          type of deployment model for SME requirements by
+piracy is prevalent even at SME level and software licensing
+                                                                          respondents (42.85%). Public cloud is the second most
+costs are a major hindrance for using technology in businesses.
+This observation is further confirmed by the following                    preferred deployment model (35.71%). SaaS applications are
+comment made by a CEO of a well-established IT firm                       the most preferred type of cloud service delivery being used or
+                                                                          identified as most suited by respondents of the survey
+"Definitely cloud computing is going hit the markets well and             (42.8%). IaaS is the second preferred type of cloud service
+even the SME's too, but it may take some time. The main                   delivery model for SME decision makers in Tamil Nadu
+challenge is internet cost and the next is lack of knowledge              (35.7%). Google App Engine, Amazon Web Services,
+with the business owners. Most SME business owners use                    Salesforce and Openstack were identified as cloud providers
+small time software applications even pirated copies to run               currently being used or most suited for Tamil Nadu SME
+their business with / without knowledge of compliance                     requirements by respondents of the survey
+requirements. ".
+                                                                          B. Factors that influence cloud adoption
+            TABLE II.      BARRIERS OF CLOUD ADOPTION                         The study identified 12 organisational level factors that
+                              Relative Importance                         influence cloud adoption among SMEs in Tamil Nadu. These
+              Barrier                               Rank                  factors are categorised according to TOE under technological
+                                     Index
+       Vendor lock-in                0.85               1                 (4), organisational (4) and environmental context (4).
+       Security of cloud
+       services and Data             0.72               2                 TABLE III.     TECHNOLOGICAL FACTORS INFLUENCING CLOUD ADOPTION
+       privacy
+       Dependence     on                                                                                   Relative Importance
+                                     0.71               3                         Technological factor                           Rank
+       internet                                                                                                   Index
+                                                                                 Compatibility     with
+       Cost of bandwidth             0.68               4                                                         0.75            1
+                                                                                 existing system
+                                                                                 Complexity of the
+                                                                                                                  0.72            2
+                                                                                 migration process
+     Table II shows the barriers of cloud adoption. Surveys
+                                                                                 Addressing
+which were conducted few years ago in India [22], indicated                      interoperability and             0.61            3
+lack of awareness and expertise as major barrier for cloud                       portability
+adoption. This study indicates that vendor lock-in as a barrier                  Required      technical
+for cloud adoption among SMEs in Tamil Nadu. The survey                          expertise in cloud               0.58            4
+                                                                                 computing
+result revealed that 50% of the respondents were not sure how
+to minimise the risk of vendor lock-in. As expected, security
+of cloud service and privacy is the second major barrier for                 Table III shows the technological factors influencing the
+cloud adoption which is consistent to the literature and results          adoption of cloud computing among SMEs in Tamil Nadu.
+of similar studies. The results of the study also revealed that
+the perception of decision makers on the security offered by
+cloud providers has a direct impact on cloud adoption                       TABLE IV.       ORGANISATIONAL FACTORS THAT INFLUENCES CLOUD
+                                                                                                       ADOPTION
+decisions. One decision maker said
+     "We are Not sure business critical / sensitive documents                                              Relative Importance
+                                                                                 Organisational factor                           Rank
+                                                                                                                  Index
+like designs / patents / or crucial information like this can be                 Top        management
+shared on cloud. Don't see this can be possible in India in                                                       0.75            1
+                                                                                 support
+near future. We still believe in securing it ourselves even if                   Top      management's
+costs little more". According to Confederation of Indian                         intention to adopt new           0.71            2
+                                                                                 innovation
+Industry (CII), available bandwidth and broadband uptime for
+                                                                                 Size of Organisation             0.58            3
+consumers is a major concern while considering migrating to
+cloud [12]. The cost of a reliable broadband connection was                      Organisations trust in
+                                                                                                                  0.56            4
+                                                                                 cloud
+ranked fourth in our survey. This indicates broadband
+requirement is still a barrier of cloud adoption. 92.3% of the
+                                                                              Respondents have suggested compatibility of the existing
+respondents had fast broadband connection. However, they
+                                                                          system with the requirements for cloud computing as a major
+still are not confident of using cloud infrastructure. On one
+                                                                          technological determinant of cloud adoption. Data and
+question in the survey, when a direct question was asked to
+
+
+
+
+                                                                    143
+application migration can be complex and error prone [28].                infrastructure remains the major barrier for cloud adoption
+This study shows that complexity of the migration process is              among SMEs in Tamil Nadu. The Union government recently
+considered an important decision factor than addressing                   launched 'Digital India' campaign to bridge the digital divide
+interoperability and portability by SME decision makers. Most             between rural and urban areas in terms of broadband
+SMEs do not want to try a new innovation either due to lack of            penetration. Authorities must make extra efforts to make
+awareness of the technology or they fear of the perceived cost            reliable broadband available at an affordable cost for SMEs.
+of failure. 41.7% said that use of open standards can address             Government should also take necessary steps to create
+interoperability and portability issues which stress the need for         awareness on the existing data security and privacy regulations
+standards in cloud services. This can also reduce vendor lock-            to increase the trust of SMEs on cloud service providers in
+                                                                          order to move their data to a cloud environment. To effectively
+in issues.
+                                                                          leverage the benefits of cloud computing, SMEs must be
+    Table IV shows the organisational factors that influences
+                                                                          innovative and consider all factors that can affect cloud
+cloud adoption decisions among SMEs in Tamil Nadu. Top                    migration before planning a migration. Cloud service providers
+management support and their intention to adopt new                       should create standards to ensure interoperability so that SMEs
+innovation were found as significant organisational factors for           can implement cloud services seamlessly without reengineering
+cloud adoption. 83.7% of the respondents said that they                   their current system.
+measure cost benefits at total cost of ownership level [14]. Of
+the SMEs who have already adopted the use of cloud                            This study is part of an ongoing research approved by
+computing, most of them (5 out of 6) responded that the                   Sheffield Hallam University. Further work is planned with a
+performance of their application or workload has improved                 bigger sample of SMEs decision makers to validate the
+                                                                          proposed TOE framework. The result of the future study will
+after migrating to cloud. This shows that the top management's
+                                                                          help us gather more empirical evidence of the determinants of
+intention to adopt cloud is heavily relied on financial and
+                                                                          cloud adoption among SMEs in Tamil Nadu. The result will
+technological benefits to the business. It looks like this could          then be used to develop a Cloud Migration Decision Support
+be one of the reasons SMEs are usually late adapters of an                System (CMDSS) for SMEs in Tamil Nadu. CMDSS will
+innovation.                                                               include providing decision makers with features to understand
+    Table V shows the environmental factors that affect cloud             cloud migration process, identify cost benefits, risks and issues
+adoption decisions for SMEs in Tamil Nadu.                                in a cloud migration. The CDSS will aid decision makers to
+                                                                          make cloud migration decision effectively by suggesting a path
+  TABLE V.        ENVIRONMENTAL FACTORS THAT INFLUENCES CLOUD             from where to start, to how to complete the migration.
+                            ADOPTION
+                              Relative Importance
+       Environmental factor
+                                     Index
+                                                    Rank                                           VI. CONCLUSION
+       Competitor Pressure/                                                   Cost benefits, Scalability and Agility of cloud services
+                                     0.68            1
+       Market Scope
+                                                                          remain the three major drivers for adopting cloud computing in
+       Government policies           0.68            2                    Tamil Nadu. Broadband availability, high bandwidth costs and
+       Data center location          0.58            3                    vendor lock-in are some of the main barriers for cloud
+                                                                          computing. In this paper we have reported a first study of
+       Business requirement          0.56            4                    SMEs in Tamil Nadu and used TOE framework for cloud
+                                                                          adoption by SMEs. The survey has been successful and further
+                                                                          questionnaire surveys and semi-structured interviews will be
+     The survey revealed that data center location is not a major         carried out as second part of a larger study.
+decision factor for cloud adoption in Tamil Nadu. 66.7%
+responded that reputation of the cloud provider is the main
+criteria when selecting a particular cloud provider. When asked                                        REFERENCES
+whether there are government policies to safeguard SMEs in
+instances of a data security breach, 69.2% of the respondents                  [1] I.O. Adam, '"Small and Medium Enterprises (SMEs) in the Cloud
+were neutral and 15% of the respondents disagreed with the                          in Developing Countries: A Synthesis of the Literature and Future
+statement. On a different question in the survey, we asked if                       Research Directions." Available at SSRN 2513894.
+their organisation adheres to existing data security regulations.              [2] N. Alkhater, G. Wills and R. Walters, '"Factors Influencing an
+                                                                                    Organisation's Intention to Adopt Cloud Computing in Saudi
+Only 50% responded they adhere to regulations, the remaining                        Arabia,", pp. 1040-1044.
+participants responded either they don’t comply or don’t know                  [3] Y. Alshamaila, S. Papagiannidis and F. Li, '"Cloud computing
+about any such existing regulations. This confirms with the                         adoption by SMEs in the north east of England: A multi-
+literature that there is lack of data protection laws and policy                    perspective framework," Journal of Enterprise Information
+guidelines for SMEs [30]. In the Environmental context,                             Management, vol. 26, no. 3, pp. 250-275.
+competitor pressure is the major decision point for cloud                      [4] R. Awosan, '"Factor Analysis of the Adoption of Cloud Computing
+adoption.                                                                           In Nigeria,".
+                                                                               [5] S.S. Bharadwaj and P. Lal, '"Exploring the impact of Cloud
+                                                                                    Computing adoption on organizational flexibility: A client
+         V. RECOMMENDATION AND FUTURE WORK                                          perspective,", pp. 121-131.
+   This study provides empirical data on factors influencing                   [6] A. Bryman and E. Bell, '"Business research methods,", 2015.
+cloud adoption in Tamil Nadu. Lack of appropriate broadband
+
+
+
+
+                                                                    144
+[7] R. Buyya, H. Stockinger, J. Giddy and D. Abramson, Economic                     [21] A. Rath, S. Mohapatra, S. Kumar and R. Thakurta, '"Decision
+      models for management of resources in grid computing.                              points for adoption cloud computing in small, medium enterprises
+[8] R. Buyya, C.S. Yeo, S. Venugopal, J. Broberg and I. Brandic,                         (SMEs),", pp. 688-691.
+      '"Cloud computing and emerging IT platforms: Vision, hype, and                [22] M. Sharma, A. Mehra, H. Jola, A. Kumar, M. Misra and V. Tiwari,
+      reality for delivering computing as the 5th utility," Future                       '"Scope of cloud computing for SMEs in India," arXiv preprint
+      Generation Comput.Syst., vol. 25, no. 6, pp. 599-616.                              arXiv:1005.4030.
+[9] G. D. Holt, '"Asking questions, analysing answers: relative                     [23] S.R. Tehrani and F. Shirazi, '"Factors Influencing the Adoption of
+      importance revisited," Construction Innovation, vol. 14, no. 1, pp.                Cloud Computing by Small and Medium Size Enterprises
+      2-16.                                                                              (SMEs),", pp. 631-642.
+[10] V. Dhevika, '"A study on customer value of shampoo in                          [24] L. Tomatzky and M. Fleischer, '"The Process of Technology
+      thiruchirapalli district with special reference to collegestudents,".              Innovation," Lexington, MA: Lexington Books.
+[11] G. Feuerlicht and N. Margaris, '"Cloud Computing Adoption: A                   [25] L.M. Vaquero, L. Rodero-Merino, J. Caceres and M. Lindner, '"A
+      comparative study,".                                                               break in the clouds: towards a cloud definition," ACM
+[12] H. Gangwar, H. Date and R. Ramaswamy, '"Understanding                               SIGCOMM Computer Communication Review, vol. 39, no. 1, pp.
+      determinants of cloud computing adoption using an integrated                       50-55.
+      TAM-TOE model," Journal of Enterprise Information                             [26] C. Yang, B. Hwang and B.J. Yuan, '"Key consideration factors of
+      Management, vol. 28, no. 1, pp. 107-130.                                           adopting cloud computing for science,", pp. 597-600.
+[13] P. Halfpenny, '"Situating simulation in sociology,".                           [27] E.O. Yeboah-Boateng and K.A. Essandoh, '"Factors Influencing
+[14] K. Hurkens and F. Wynstra, '"The concept ‘Total Value of                            the Adoption of Cloud Computing by Small and Medium
+      Ownership’: A case study approach," Erasmus Research Institute                     Enterprises (SMEs) in Developing Economies," International
+      of Management, Rotterdam, pp. 51-62.                                               Journal of Emerging Science and Engineering (IJESE), vol. 2, no.
+                                                                                         4, pp. 13-20.
+[15] N. Kshetri, '"Cloud computing in India," IT Professional, no. 5, pp.
+      5-8.                                                                          [28] G. Zhang and L. Liu, '"Why do migrations fail and what can we do
+                                                                                         about it?".
+[16] N. Kshetri, '"Cloud computing in developing economies," ieee
+      Computer, vol. 43, no. 10, pp. 47-55.                                         [29] DiC, "Micro, Small and Medium Enterprises Department Policy
+                                                                                         Note". http://www.indcom.tn.gov.in/policynote.pdf
+[17] C. Low, Y. Chen and M. Wu, '"Understanding the determinants of
+      cloud computing adoption," Industrial management & data                       [30] BSA,            "cloud            computing             scorecard".
+      systems, vol. 111, no. 7, pp. 1006-1023.                                           http://cloudscorecard.bsa.org/2013/index.html
+[18] J.N. Makena, '"Factors That Affect Cloud Computing Adoption By                 [31] Atlascloud,     "      The      history      of     the     cloud".
+      Small And Medium Enterprises In Kenya," International Journal                      http://www.atlascloud.co.uk/blog/the-history-of-the-cloud
+      of Computer Applications Technology and Research, vol. 2, no. 5,              [32] Rogers, Everett M. Diffusion of innovations. Simon and Schuster,
+      pp. 517>< meta name=.                                                              2010.
+[19] P. Mell and T. Grance, '"The NIST definition of cloud                          [33] L. Columbus, KPMG's 2014 Cloud Computing Survey:
+      computing,".                                                                       http://www.forbes.com/sites/louiscolumbus/2014/12/26/kpmgs-
+[20] M. Mohlameane and N. Ruxwana, '"The Awareness of Cloud                              2014-cloud-computing-survey-enterprises-quickly-moving-
+      Computing: A Case Study of South African SMEs," International                      beyond-cost-reduction-to-customer-driven-results/
+      Journal of Trade, Economics and Finance, vol. 5, no. 1, pp. 6.
+
+
+
+
+                                                                              145
+

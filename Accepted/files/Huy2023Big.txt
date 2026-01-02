@@ -1,0 +1,1279 @@
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                                    Future Business Journal
+https://doi.org/10.1186/s43093-023-00221-4
+
+
+
+
+ RESEARCH                                                                                                                                                  Open Access
+
+Big data in relation with business
+intelligence capabilities and e‑commerce
+during COVID‑19 pandemic in accountant’s
+perspective
+Pham Quang Huy1*   and Vu Kien Phuc1
+
+
+
+  Abstract
+  This research aims at producing a thorough and accurate analysis on how big data as a service and business intelli-
+  gence capabilities provide a series of opportunities for small and medium enterprises to succeed in E-commerce. The
+  statistical data were drawn from samples of accountants within small and medium enterprises, spanning two periods,
+  the period of COVID-19 pandemic and the period of new normal. The structural equation modeling was applied in
+  this study. The value of fine-grained insights in this work could guide policy-makers and practitioners to sense and
+  seize how to implement E-commerce in an efficient and effective manner.
+  Keywords Big data, E-commerce, Business intelligence, Service, Small and medium enterprises
+
+
+Introduction                                                                               strain on how economic activity is organized, raising con-
+Small- and medium-sized enterprises (SMEs) operating                                       cerns about how businesses would respond to a world-
+in the manufacturing sectors have been particularly neg-                                   wide disaster like COVID-19 and drawing attention to
+atively impacted by the COVID-19 due to the increased                                      E-commerce (EC). Purchasing and selling products and
+risk associated with the market contraction associated                                     services online is known as EC [7]. Since the COVID-19
+with the reorganization of global supply chains [1–3];                                     coronavirus disease first appeared, EC has been increas-
+the increased cost associated with the reorganization                                      ingly popular [8]. The spread of COVID-19 improved EC
+of global supply chains as well as to the fresh difficulties                               as a medium for trade between businesses [9] and con-
+brought on by the emergence of fresh market opportuni-                                     sumers and merchants. People started purchasing online
+ties [4]. This is because SMEs are characterized by a lack                                 since they could not leave their homes due to limitations
+of organizational resources, which forces them to rely on                                  [10]. By delivering products at a low cost to new customer
+the stock of resources at hand [5]. Given their size and                                   categories, EC can help grow markets [11, 12]. After the
+the individual-level components of such behavior, SMEs                                     epidemic, EC grew astronomically [8]. Many businesses
+are under unprecedented pressure from the pandemic,                                        are now required to establish a digital presence and take
+which raises questions about their ability to eventually                                   advantage of the opportunities offered by the internet as
+adjust or adapt their strategy [6]. The epidemic has put                                   a result of the advent of EC [13]. According to Kumar and
+                                                                                           Ayedee [14], SMEs’ use of technology to address COVID-
+                                                                                           19 issues may be prerequisite. Researchers and acad-
+*Correspondence:
+Pham Quang Huy                                                                             emicians have been debating the deployment of various
+pquanghuy@ueh.edu.vn                                                                       types of technologies for a long time, not just during the
+1
+  University of Economics Ho Chi Minh City (UEH), Ho Chi Minh City,
+                                                                                           COVID-19 epidemic. Given that almost all businesses
+Vietnam
+                                                                                           now have limited knowledge of their clients, business
+
+                                         © The Author(s) 2023. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+                                         permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+                                         original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+                                         other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+                                         to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+                                         regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+                                         licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                              Page 2 of 21
+
+
+
+
+intelligence (BI) will help these businesses better com-       since it is more cost-effective and makes maintaining BD
+prehend the strategies and tools utilized for data analy-      infrastructure simpler because it functions in the cloud.
+sis by providing historical, current, and forecast views       This applies to SMEs specifically because they have less
+of business data [15]. Over the past two decades, BI has       financial and infrastructure resources at their disposal
+attracted a lot of attention in academia, EC, and business     [31]. Several attempts have been conducted to capture
+[16]. BI has emerged as a key technology for enhancing         insights into the structure of BAAS [28, 34–37] and the
+enterprise business performance as well as a driving force     determinants of its adoption [31]. Regardless of this sig-
+behind the development of EC and e-services [17]. Build-       nificant shift in research on BAAS, there is currently very
+ing on the viewpoints of Ransbotham and Kiron [18] and         little focus on demonstrating how BAAS supports EC
+Shiau et al. [19], the majority of recent business informa-    and BI. In other words, it is reasonable to draw the con-
+tion technology investments have gone toward the devel-        clusion that there is much to learn about the benefits and
+opment of BI. According to the general consensus, BI is a      impacts brought on by this important information tech-
+brand-new decision support system built on cutting-edge        nology domain.
+information technology and methodologies [20]. In order           This incites the demand to rethink and formulate a new
+to deliver smart solutions for corporate operations, it        and in-depth insight on the role of BAAS implementa-
+has a highly developed systematic capacity to gather and       tion, to tap higher potential of BI and EC. Starting from
+analyze data and turn it into knowledge or information         these considerations on the lack of an established aca-
+about opportunities and dangers [21, 22]. Unfortunately,       demic background on this specific subject pertaining to
+according to Marn-Ortega et al. [23], BI primarily con-        the potential role of BAAS in driving EC and BI, an anal-
+centrates on structured and internal corporate data while      ysis on how BAAS can foster the EC and business intel-
+ignoring the useful information hidden in unstructured         ligence capabilities (BIC) in SMEs represented the main
+and external data. Due to this, a business may make deci-      motivations in this research and underscored chances
+sions that are prejudiced and have an incomplete picture       for theoretical and practical contributions. These theo-
+of the world [24, 25]. However, due to the rapid develop-      retical gaps inspired the intriguing research questions as
+ment of big data (BD) and BD technology, BI is now con-        follows.
+fronting new difficulties and opportunities [26].                 RQ1. What is the impact of BAAS on EC during
+   The ability to develop and use additional analytics         COVID-19 pandemic and new normal?
+capabilities, such as prescriptive and diagnostic analysis,       RQ2. Does BIC mediate the interconnection between
+is provided by BD will primarily result in development         BAAS and EC during COVID-19 pandemic and new
+of BI systems [27]. Businesses need cutting-edge solu-         normal?
+tions to properly use data science due to the continually         The implementation of EC is pondered as a rational
+expanding volume of data [28]. Prior studies have shown        and innovative step for the process of enhancing com-
+that BD is an essential long-term tool for EC businesses       petition and encouraging organizational progress [38].
+since these businesses need new technology to control          Based on the perspectives to Biagi and Falk [39] as well as
+and analyze large amounts of information and data [29].        Lee et al. [40], EC can help both developed and develop-
+Many EC companies have made significant investments            ing nations. Admittedly, EC can assist businesses in pro-
+in BD with the hope of gaining crucial insights and long-      ducing significant benefits that could reduce costs and
+term competitive advantages [30]. The importance of BD         time while boosting competitiveness [39, 41, 42]. EC can
+services for business applications is primarily due to the     aid SMEs in expanding their markets and gaining finan-
+enormous potential or impact of the data, not merely           cial advantages [43]. Nevertheless, emerging economies
+because it is large [31]. Despite the benefits, dealing with   do not effectively use the advantages of EC. The present
+BD applications presents a significant difficulty because      study is novel in the setting of a developing country since
+it calls for more cutting-edge technological solutions that    it expanded existing understandings of the EC among
+swap out conventional databases for more scalable sys-         SMEs in developing countries in both the COVID-19
+tems. This is where big data as a service (BAAS) for com-      pandemic and new normal. By doing this, the findings of
+mercial applications can make a difference [32].               this research will enrich the growing body of literature
+   The idea of offering everything as a service encourages     focusing on the EC application in the COVID-19 pan-
+the creation and deployment of software applications as        demic [8, 44–49]. Alternatively, it can fill in the gaps that
+services in a world where service-oriented architecture        many earlier works with a strong cross-sectional design
+and its design are supported [33]. In order to help enter-     have inherently. This is due to the fact that one-time data
+prises to develop creative business strategies and derive      acquisition only depicts a snapshot of how customers feel
+intrinsic value from their BD, the BAAS model is a posi-       at a given point in time [50] and cross-sectional design
+tive move [34]. Adopting BAAS has benefits for SMEs            is unable to show the intricate and dynamic elements of
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                             Page 3 of 21
+
+
+
+
+a market. Surprisingly, the pandemic’s social and organi-       observations of Sirin and Karacan [58], BI has been rare
+zational effects have been difficult to assess, long-lasting,   to come across successful BI application even though
+and time-sensitive [51]. As a result, it is crucial to moni-    its value to the business has been widely acknowledged.
+tor and manage these effects quickly, effectively, and at       Additionally, according to Rahayu and Day [59] and
+the right time to ensure that efforts toward sustainable        Dahbi and Benmoussa [60], information technology pro-
+development are successful [52]. Through concentrating          viders play a role in EC applications. As such, the find-
+on the perspectives of accountants in SME on the role           ings of this research are likely to open up new business
+of BAAS toward EC and BIC, this research contributes            opportunities for new entrants, namely for merchants or
+to reaffirm and clarify the changing role of accountants        hardware and software developers.
+in this type of enterprise, that is, advisors to generate          With the exception of the introduction, the portions
+competitive advantage for SMEs. Admittedly, because             of the current manuscript are structured in the follow-
+of their special ability to combine general human capital       ing order. Theoretical understanding and foundation
+with digital human capital and social capital resources,        that focus on clarifying the adoption model and identi-
+accountants as consultants are expected to be a useful          fying the primary constructs are comprised in “Theo-
+strategic resource [53].                                        retical understanding and foundation” section. “Research
+  Both business executives and academics have recently          hypotheses corroboration and model formulation” sec-
+shown a great deal of interest in the development and           tion considers the research model and the creation of
+application of BD [29]. In order to gather significant          hypotheses. The technique, which stresses on the devel-
+insights and maintain competitive advantages, many              opment and application of empirical research, is then
+EC companies have made significant investments in               depicted in “Material and methods” section in more
+BD [30]. The current study is a trailblazer in the field of     detail. The following section of this manuscript covered
+research since it provides vital new information about the      with a result analysis and discussion that are presented.
+extraordinary effects of BAAS on EC in SMEs in devel-           The managerial repercussions are outlined in the penul-
+oping nations. Both large and small and medium-sized            timate section, along with a few hints for the creation of
+enterprises are using BI systems as their utilization is        further works.
+on the rise [54]. BI can improve capacities, incorporate
+developing technologies, and interact with the external         Theoretical understanding and foundation
+environment of firms to help shape how knowledge is             Contingency theory (CT)
+developed [55, 56]. The results of this study’s observa-        Based on the perspectives of Feidler [61], a management
+tions will broaden academics’ perspectives on how BIC           theory or model about leadership effectiveness that has
+affects EC. Besides, the uniqueness of this research is in      its roots in organizational theory is called CT. It has
+determining and assessing the function of BAAS that             gained popularity because it challenges the tenet of con-
+leads to BIC. Even while BI has been successfully applied       ventional management philosophy that there is just one
+by many organizations to assist decision-making and             right way to accomplish things [62]. The literature on
+organizational performance, not all firms can claim to          information systems and information technology man-
+have achieved the same level of success [57]. Building on       agement has extensively employed CT. Although it was
+the argument of Sirin and Karacan [58], BI and BD share         initially utilized to research systems design and imple-
+many similarities; however, there have not been many            mentation in the information system literature, it was
+research discussing how BI is affected by BD. Outstand-         later used to research how the environment and other
+ingly, in contrast to earlier studies that only looked at       factors affect task-performance fitness [63]. According to
+specific relationships, such as the relationship between        CT, there is no one optimum way to use an information
+BD and EC, the relationship between BD and BI, and the          system in every circumstance, rather, users and other
+relationship between BI and EC, the goal of the current         stakeholders’ perspectives must be taken into account
+research is to expand the frontier of knowledge by delv-        while designing and utilizing information systems [64].
+ing into at the mediating effect of BIC on the relationship     Scholars have proposed a contingent dynamic capabil-
+between BAAS and EC.                                            ity perspective to overcome some of the dynamic capa-
+  On the practical points of view, the value of more fine-      bility view’s drawbacks [65]. According to Sirmon and
+grained insights in this work will guide policy-makers          Hitt [66], the bundling of resources and competencies
+and SMEs’ managements to sense and seize how to lev-            can create a competitive advantage by taking advantage
+erage BAAS and BIC in an efficient and effective man-           of contingencies. The creation of this theory is helpful in
+ner. This is because a solution-based system called             explaining how the dynamic capacities of the organiza-
+BAAS is intended to give enterprises a wide range of            tion may be valuable [67]. Therefore, multiple fit concepts
+capabilities for deriving insights from data. Based on the      can be used and should be expressly taken into account
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                 Page 4 of 21
+
+
+
+
+while doing research while taking CT into account [68].          privacy of the information transmitted by customers in
+In order to help companies and decision makers manage            EC, viruses, password spying, and phony stores. As such,
+BAAS and BIC to thrive in EC, the CT was employed in             the EC security management is emphasized in several
+this research as a theoretical lens.                             studies [78–82].
+                                                                    Organizations can discover a collection of character-
+E‑commerce                                                       istics that emerge as explanatory variables of the online
+EC, as a general term, refers to internet technology, based      purchase process according to EC research already in
+on browser or server applications, through which buyers          existence. While Lin et al. [83] argued that system stabil-
+and sellers engage in a variety of trade activities to facili-   ity, system reliability, sales dynamics, and product line
+tate consumer online shopping, online payment, as well           availability are the top four critical success factors, Vieira
+as new business activities involving a number of differ-         et al. [84] identified a list of ten determinants of online
+ent business activities and other models [69]. EC differs        shopping behavior, including the availability of products
+from traditional trade in four ways. As such, EC is global,      and services online, website quality, confidence, conveni-
+direct, convenient, and equitable. In EC, businesses             ence, price, online experience, and so on. Additionally, a
+can sell their goods directly to customers after showing         variety of critical success factors are also determined in
+them their products online. They can even let buyers             numerous studies [83, 85–88].
+get involved in the product’s creation and customiza-               The success of the Internet depends on interaction
+tion. The network offers businesses a lot of convenience.        rather than just being a new conduit for communica-
+Businesses can use the network to release information,           tion [89]. Internet offers a variety of tools and technol-
+search for trading opportunities, exchange electronic            ogy that support EC. Many academic publications have
+documents, track goods, transfer funds, and use other            focused on the impact of internet of things on EC [90–
+methods to complete the transaction process. This helps          95]. In wealthy nations, commercial 5G cellular services
+businesses increase efficiency and cut costs. Businesses         are anticipated, according to Kumar [96]. The creation of
+can quickly react to their project decisions and business        5G networks, platforms, and gadgets undoubtedly calls
+strategies by gaining timely access to all types of market       for significant financial outlays. However, 5G has signifi-
+information through the network, conducting thorough,            cant psychological and emotional benefits in addition to
+thorough, accurate, and quick analyses, making predic-           its economic advantages.
+tions, and making judgments about many factors related              While Ahi et al. [97] focused on the EC policy and
+to production, sales, and procurement.                           global economy to pave the route for inclusive develop-
+   It is crucial and advantageous to understand the many         ment, current literature has also started to discuss the
+sorts of EC that exist while building a business. The EC         COVID-19 pandemic and EC [8, 44–49]. In addition,
+can be split into many types of business model plat-             customers have advanced a notch, and now always want
+forms based on the negotiating factor, specifically the          green or sustainable EC purchasing due to the increas-
+type of market and the economic connection between               ing number of individuals taking benefit of modern EC
+the parties involved. There are seven different types of         enterprises, the variety of products accessible, and the
+EC platforms, according to Turban et al. [70], including         ability to compare costs [98]. Numerous studies have
+business-to-business, business-to-consumer, consumer-            been conducted to delve into more about the sustainabil-
+to-business, and consumer-to-consumer. Each type of EC           ity and EC [99–107].
+is also investigated in several studies [71–75].                    Given that almost all of enterprises currently know lit-
+   When compared to the conventional buying procedure,           tle about their customers, BI will enable those enterprises
+the usage of EC offers many advantages and benefits,             to understand the tactics and technologies used for data
+but it also has some risks and restrictions that required        analysis, offering historical, current, and forecast views of
+to be noted. It also provides several opportunities to be        business information [15].
+present in a global market. Consumers, organizations,
+and society can all gain from EC, according to Niranjan-         Business intelligence capabilities
+aurth et al. [76] and Turban et al. [70]. These benefits are     BI is a framework made up of a selection of ideas, theo-
+growing gradually and can be categorized into three lev-         ries, and techniques for enhancing business decision
+els. The main non-technological constraints, according           making through the use of fact-based support systems
+to Niranjanaurth et al. [76], Turban et al. [70] as well as      [16]. In order to enhance business decision making,
+Miyazaki and Fernandez [77], are the absence of physi-           it refers to decision support systems that are based
+cal contact with the product, resistance to change, a lack       on the integration and analysis of organizational data
+of collaboration in the value chain, and the fact that a         resources [108]. Additionally, it is used to track and take
+significant amount of money is invested in security and          in data from a dynamic environment to identify new
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                            Page 5 of 21
+
+
+
+
+opportunities while reducing the risks brought on by           derive intrinsic value from their BD, the BAAS model
+uncertainty [109]. BI uses various data sources, as well       is a positive move [34]. While Zheng et al. [37] argued
+as organized and unstructured information, to supply           that it typically comprised of three layers, including BD
+decision makers with useful information and expertise          analytics, BD platform, and BD infrastructure, each of
+[110]. Strategic capabilities, operational capabilities, and   which offers consumers a distinct level of abstraction.
+data integration capabilities are the three different forms    The most fundamental services are specifically provided
+of BIC [111]. Utilizing BI systems to support strategic        by BD infrastructure, while more sophisticated services
+organizational operations, such as identifying opportu-        are provided by higher levels. However, this proposal
+nities, threats, risk assessments, and trends in the busi-     was unable to highlight a methodical approach to ser-
+ness environment, is referred to as having strategic BI        vice delivery, particularly with the type of data pro-
+capabilities. These capabilities can be vital for creating     cessing method to be employed [36]. As a result, Wang
+new corporate strategies [111]. The use of BI systems to       et al. [36] suggested a novel BAAS structure with three
+support operational organizational operations, however,        planes such as the sensing plane, the cloud plane, and
+includes operational BI capabilities. Operational BI capa-     the application plane. More concretely, sensing plane’s
+bilities include exchanging information across business        role in the cyber–physical–social systems is to more
+units, modeling, and process optimization for service          specifically organize data produced by diverse sources.
+and production [108]. Last but not least, data integra-        While the cloud plane enables all of these tensor net-
+tion capabilities entail the fusion of observable data from    work operations to be carried out effectively in the
+diverse sources to generate descriptive data about who,        cloud using the benefits of tensor networks and cloud
+what, when, and how much the combined dataset influ-           computing in terms of storage and computation, the
+ences [112].                                                   purpose of the application plane is to offer necessary
+   Most previous academic works put accent on the BI           proactive services in a variety of application domains
+advantages, success and growth of BI [113–115]. Many           after obtaining the mapped tensor network models.
+academic publications have focused on information tech-        The integration of BD based on tensor networks neces-
+nology acceptance and measurement [116–120]. Building          sitates a rethink of BD analytics techniques including
+on the perspective of Naznen and Lim [121], BI is con-         learning, mining, and recommendation [36].
+sidered as a cutting-edge method of generating highly
+intelligent data to facilitate decision making, which sup-
+ports revenue growth and makes it possible to gain a           Research hypotheses corroboration and model
+competitive advantage. Several academic notes delve into       formulation
+the impact of BI on organizations [54, 122–125]. More          Hypothesis corroboration
+recently, a few research investigate BI under the perspec-     The collaboration with a large number of enterprises will
+tive of information and business analytics [126–129] as        make it difficult to manage EC activities, to unify the
+well as and social media text analytics [130–134]. On the      corporate image, and to maintain consistent service lev-
+other hand, it is yet unclear whether BI solutions focused     els [139]. In this regard, BD will not only give businesses
+on data analytics will add value and benefits to organiza-     unprecedented insights into their customer’s buying hab-
+tions [135]. In this regard, the interconnection between       its and their own internal processes, it is also claimed
+BI and big data analytics also highlighted in several stud-    that it will herald a management revolution where tech-
+ies [26, 135–137]. Remarkably, on account of its immense       nology replaces human judgment, enabling businesses
+potential to have a positive impact on business, BD and        to take better decisions, more quickly, and provide value
+its use in BI have received a significant deal of attention    for their customers in new and unimagined ways [140].
+recently [22].                                                 Organizations and employees see these BD databases as
+                                                               a real opportunity and use it for targeted advertising, for
+Big data as a service                                          optimizing their offers, or even compare the rest of the
+A number of developing technology developments                 market [141]. The vast volumes of data that are available
+influenced by BD and cloud computing can be recog-             can be processed by BAAS to help EC enterprises identify
+nized by various “as-a-Service” models as a result of          market trends, forecast consumer demands, and assess
+the shift in the information technology paradigm [138].        consumer purchasing behavior. Drawing on the analyses
+The idea of “everything as a service” encourages the           described above, the second hypothesis was rationally
+creation and deployment of software applications as            conjectured as follows.
+services in a world where service-oriented architec-
+ture and its design are supported [33]. To help enter-         Hypothesis 1 (H1) BAAS exerts an influence on EC in a
+prises implement cutting-edge business strategies and          substantial and positive manner.
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                    Page 6 of 21
+
+
+
+
+   In order to take any particular decision BI, BIC plays                                        Business
+a vital role. To analyze, process, and predict BD takes a                                      intelligence
+                                                                                               capabilities
+                                                                                          H2                  H3
+crucial role in BIC. BD helps the BI to make decision-
+driven decisions and to identify the unknown facts which
+indeed contributes to taking a step in the process of mak-        Big data as a service           H1               E-commerce
+
+ing a statement in profits aspects of the organization
+[142]. BD have also started to be a significant source for     Fig. 1 Hypothesized model
+BI activities aimed at creating, delivering, and capturing
+customer value [143]. BD can make a difference for the BI
+of enterprises, help them make better strategic and tacti-
+                                                              Material and methods
+cal decisions as well as create value [143]. By attempting    Measurement of the model’s constructs
+to extract value from semi-structured and unstructured        In order to identify causal links between dimensions and
+data coming from external data sources like the web,          make generalizable claims about the research environ-
+mobile devices, and sensor networks, BAAS, in this view-
+                                                              ment, this study employed the questionnaire-based sur-
+point, enhances the capabilities of BI in integrating and     vey approach. Firstly, the questionnaire was purposefully
+reporting structured data located in enterprise-internal      constructed and structured based on a thorough evalu-
+databases. Drawing on the analyses described above, the
+                                                              ation of the literature to address the study’s goals. Sec-
+first hypothesis was rationally speculated as follows.
+                                                              ondly, 6 experts with sufficient, in-depth expertise of the
+                                                              subject matter of this study were consulted in order to
+Hypothesis 2 (H2) BAAS exerts an influence on BIC in a        increase the questionnaire’s thoroughness. A five-point
+substantial and positive manner.                              Likert scale was used to quantify the responses. Higher
+                                                              point scales might have made it harder and more com-
+  In accordance with Balachandran and Prasad’s [144]          plex for respondents to select an appropriate alternative
+suggestion, BI refers to technology, tools, and techniques    from the available possibilities because the present study
+for gathering, integrating, analyzing, and displaying busi-   is unique. A small-scale pilot test was carried out using a
+ness information to uphold better and quicker business        sample size of 30 respondents in order to verify the reli-
+decisions. BI is the set of technology methods and instru-    ability of the scales. The respondents for the main survey
+ments that help turn data into knowledge and informa-         and the pilot test were not the same respondents. The
+tion. Particularly, BI is taken advantage by businesses to    reliability of the developed constructs was demonstrated
+extract useful patterns through outlier detection, process    by the fact that all Cronbach’s alpha values obtained in
+mining, and clustering, such as increasing combustion         the pilot test were higher than 0.7 [147].
+efficiency, in addition to being used as a tool to trans-
+form raw data into useful information for better decision     E‑commerce
+making for administrative purposes [145]. As such, BI         In order to obtain the theoretical and empirical meaning,
+has grown to be a key tool for enhancing business perfor-     the measures of EC in this research were developed from
+mance of organizations as well as a driving force behind      the contribution of Susanty et al. [38] which was corrobo-
+the development of EC and e-services [146]. Taken             rated from the current literature and testified by small-
+together, the higher BIC can enable enterprises to extract    scale pilot test.
+valuable market information of all competitors and deter-
+mine potential business opportunities in EC. Drawing on       Big data as a service
+the analyses described above, the third hypothesis was        The high-order and composite construct was used as the
+rationally postulated as follows.                             measure of BAAS in this study in order to gain the theo-
+                                                              retical and empirical meaning. As such, BAAS constructs
+Hypothesis 3 (H3) BIC exerts an influence on EC in a          comprised of Sensing Plane, Cloud Plane, and Applica-
+substantial and positive manner.                              tion Plane following the recommendation of Wang et al.
+                                                              [36]. The criteria applied to assess first-order constructs
+                                                              were then formulated employing the outcomes of Wang
+                                                              et al. [36] and were testified by small-scale pilot test.
+Research model formulation
+Building on the above analyses, the research model is         Business intelligence capabilities
+depicted in Fig. 1, which maps the hypothesized inter-        In this study, high-order and composite constructs that
+relationships among the BAAS and EC with BIC as a             were supported by recent literature were used as the BIC
+mediator.                                                     measures in order to acquire theoretical and empirical
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                Page 7 of 21
+
+
+
+
+meaning. As such, the BIC consisted of three pillars such      Table 1 Demographic information
+as data integration capability, operational BI capabili-       Demographic          Model 1               Model 2
+ties, and strategic BI capabilities. The criteria applied to   profile              COVID-19 PANDEMIC     NEW NORMAL (sample
+evaluate data integration capability were stemmed from                              (sample size = 812)   size = 623)
+the findings of Cheng et al. [112]. The criteria applied to                         Usable    Weight (%) Usable    Weight (%)
+evaluate operational BI capabilities and strategic BI capa-                         responses            responses
+bilities were arisen from the work of Fink et al. [108]. All
+                                                               Gender
+of these scales were testified by small-scale pilot test.
+                                                                 Male               333        41.01      255      40.93
+                                                                 Female             479        58.99      368      59.07
+Sampling procedure and data collection                         Age
+The unit of analysis was SMEs and the accountants in             Below 30           47          5.79      63       10.12
+SMEs were selected as the target participants of this            31–40              477        58.74      379      60.83
+study. In two waves of data collecting for this investiga-       41–50              288        35.47      181      29.05
+tion, a convenience sampling was used. When the most           Experience (years)
+stringent lockout and limiting limitations were in place,        Below 10           47          5.79      63       10.11
+the first wave of data collection took place from April          10–Below 20        573        70.57      439      70.47
+through November of 2021. Because paper-based ques-              20–Below 30        192        23.64      121      19.42
+tionnaires would be difficult to provide during the lock-      Education
+down periods, telephone interviews were proposed as
+                                                                 Undergraduate      793        97.66      611      98.07
+a replacement. One of the ongoing restrictions in this
+                                                                 Postgraduate       19          2.34      12        1.93
+round of data collection was the suspension of public
+transit as well as the closure of schools and non-imper-
+ative service operations. The second wave, which took
+place in 2022 between April and November, was brought          columns. It is possible to conclude that the measurement
+on by a minor decrease in viral transmission, additional       scale used in the period of COVID-19 pandemic and new
+relaxation of restrictions, and a complete reopening of        normal achieved full content validity based on the values
+society. Surveys on paper that were sent directly saw          of all tested constructs shown in Table 2.
+a rise in response rates and a decline in sampling error.         Item-loadings were used to evaluate item reliability and
+After deleting useless responses, the number of valid          check for irregularities across all concept scales in terms
+responses for the first wave and second wave of the data-      of convergent validity [147]. Items should load over the
+base collection periods was 812 and 683, respectively.         advised level of 0.70, providing strong evidence for the
+The sociodemographic profile of the respondents is dem-        reliability of the items [147]. In order to assess the con-
+onstrated in Table 1.                                          struct reliability’s internal consistency, the values for
+                                                               composite reliability and Cronbach’s alpha were also con-
+Result and interpretation analytical observations              firmed. According to Hair et al. [147], for all values to be
+Common method variance                                         considered admissible, the construct dependability must
+As there are no multicollinearity problems when the val-       be greater than the cutoff of 0.70. Utilizing average vari-
+ues of the variance inflation factor (VIF) are less than       ance extracted (AVE) from the data, the model’s conver-
+3.3., the VIF assessment was performed. The statisti-          gence validity has been assessed. According to Hair et al.
+cal outcomes highlighted that the VIF values in the cur-       [147], this size should be 0.5 larger than the minimum
+rent study varied from 1.801 to 3.205 during the period        standard.
+of COVID-19 while the VIF values in the current study             As shown by the proper detail of reliability and conver-
+varied from 1.497 to 2.355 during the period of new nor-       gent validity listed in Table 3, both Models 1 and Model
+mal. To this end, statistical tools showed that common         2 attain the reliability and robustness of the measurement
+method variance did not pose a serious threat to the           model. Simply put, these results supported an appropri-
+interconnections in the measurement model.                     ate measuring methodology for both the COVID-19 pan-
+                                                               demic and the new normal periods.
+                                                                  Concerning to discriminant validity, it demonstrates
+Measurement characteristics and discriminant validity test
+                                                               how differently each measuring item in the suggested
+Cross-loading was used to evaluate the content validity,
+                                                               model represents its factor from every other item. The
+which showed that the questionnaire items conveyed
+                                                               heterotrait–monotrait (HTMT) ratio method and the
+similar meanings to those incorporated into specific
+                                                               Fornell and Larcker [148] correlation method can both
+concepts. So, a construct being evaluated has to have a
+                                                               be used to evaluate the discriminant validity in the
+higher value than other constructs in the same rows and
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                              Page 8 of 21
+
+
+
+
+Table 2 Results summary for the content validity
+        Model 1                                                                  Model 2
+        COVID-19 pandemic (sample size = 812)                                    New normal (sample size = 623)
+        AP        CP       DIC       EC       OBIC     SBIC     SP               AP       CP       DIC      EC       OBIC     SBIC     SP
+
+AP1       0.779    0.013     0.023    0.012    0.009    0.103    0.064   AP1      0.823   −0.039    0.005    0.201    0.045   −0.006   0.145
+AP2       0.774    0.055     0.020   −0.062    0.015    0.099    0.056   AP2      0.876   −0.041    0.007    0.193    0.008    0.025   0.072
+AP3       0.820    0.043     0.043    0.009    0.053    0.108    0.090   AP3      0.853    0.011    0.028    0.154    0.022    0.018   0.154
+AP4       0.796   −0.006    0.026     0.046    0.004    0.174    0.139   AP4      0.859   −0.048   −0.043    0.181    0.011    0.044   0.120
+CP1       0.047    0.790    0.027     0.083    0.283    0.077    0.159   CP1     −0.030    0.809    0.032    0.073    0.037    0.123   0.071
+CP2       0.104    0.828    0.045     0.070    0.308    0.094    0.113   CP2     −0.033    0.810   −0.023   −0.030    0.122    0.103   0.000
+CP3       0.029    0.793    0.046     0.127    0.308    0.122    0.149   CP3     −0.031    0.835   −0.048   −0.067    0.129    0.040   0.072
+CP4     −0.022     0.757    0.051     0.058    0.212    0.030    0.082   CP4      0.006    0.834   −0.016   −0.021    0.083    0.073   0.007
+CP5     −0.074     0.738   −0.031     0.015    0.213   −0.051    0.004   CP5     −0.048    0.788    0.008    0.066    0.046    0.090   0.034
+DIC1    −0.010     0.049    0.826     0.069   −0.013    0.056    0.083   DIC1     0.028   −0.014    0.877    0.289    0.034    0.009   0.033
+DIC2      0.006    0.018    0.796     0.157   −0.033    0.041    0.070   DIC2     0.001   −0.011    0.868    0.294    0.031    0.017   0.032
+DIC3     0.060     0.004    0.762     0.104   −0.052    0.063    0.067   DIC3     0.001   −0.004    0.837    0.320    0.034    0.034   0.058
+DIC4     0.061     0.052    0.788     0.145   −0.018    0.042    0.050   DIC4    −0.031   −0.009    0.849    0.254    0.058    0.026   0.039
+EC1      0.006     0.119    0.133     0.900    0.103    0.311    0.263   EC1      0.192    0.025    0.338    0.918    0.074    0.030   0.127
+EC2     −0.047     0.032    0.132     0.845    0.105    0.235    0.225   EC2      0.172   −0.009    0.304    0.879    0.096   −0.023   0.125
+EC3      0.044     0.092    0.124     0.887    0.069    0.271    0.248   EC3      0.210   −0.003    0.265    0.900    0.078    0.025   0.154
+OBIC1    0.040     0.303   −0.013     0.127    0.814    0.085    0.053   OBIC1    0.053    0.048    0.019    0.102    0.793   −0.025   0.073
+OBIC2    0.018     0.253   −0.039     0.091    0.821    0.006   −0.002   OBIC2    0.013    0.070    0.035    0.056    0.852   −0.031   0.016
+OBIC3   −0.019     0.297   −0.100     0.090    0.742    0.007    0.042   OBIC3   −0.002    0.087    0.057    0.079    0.900   −0.016   0.032
+OBIC4    0.017     0.272    0.015     0.061    0.800    0.023    0.038   OBIC4   −0.003    0.119    0.044    0.077    0.810    0.044   0.048
+OBIC5    0.037     0.237   −0.019     0.042    0.766    0.059    0.054   OBIC5    0.051    0.096    0.034    0.070    0.808   −0.020   0.025
+SBIC1     0.121    0.047     0.082    0.298    0.038    0.856    0.445   SBIC1    0.030    0.102    0.055    0.012   −0.010    0.888   0.115
+SBIC2     0.134    0.098     0.038    0.258   −0.023    0.782    0.433   SBIC2    0.003    0.072    0.033    0.020   −0.020    0.828   0.150
+SBIC3     0.122    0.041     0.028    0.232    0.051    0.805    0.441   SBIC3    0.036    0.121    0.008    0.026   −0.042    0.859   0.092
+SBIC4     0.141    0.092     0.038    0.206    0.111    0.792    0.435   SBIC4    0.039    0.051    0.002    0.007    0.045    0.845   0.112
+SBIC5     0.102    0.046    0.068     0.263    0.013    0.773    0.395   SBIC5   −0.024    0.102   −0.004   −0.019   −0.041    0.755   0.080
+SP1       0.076    0.136    0.093     0.234    0.061    0.419    0.763   SP1      0.158    0.093    0.002    0.153    0.055    0.119   0.851
+SP2       0.090    0.093    0.054     0.229    0.005    0.462    0.763   SP2      0.127    0.031    0.049    0.158    0.042    0.089   0.827
+SP3       0.064    0.120    0.063     0.207    0.068    0.396    0.791   SP3      0.089    0.031    0.048    0.077    0.041    0.114   0.821
+SP4       0.106    0.087    0.088     0.261    0.031    0.429    0.801   SP4      0.094    0.045    0.039    0.124    0.006    0.124   0.822
+SP5       0.103    0.109    0.035     0.166    0.022    0.389    0.784   SP5      0.132    0.009    0.060    0.112    0.046    0.109   0.839
+
+
+
+
+current study. The first method is an alternate approach,                AVE of a single factor is greater than the squared mul-
+as suggested by Henseler et al. [149], to evaluating discri-             tiple correlations of that factor with other factors. Given
+minant validity in partial least squares structural equa-                that the correlation matrix illustrated in Table 5 satisfied
+tion modeling (PLS-SEM). Based on the multitrait and                     the Fornell–Larcker criterion, all the constructs in the
+multimethod matrix, or HTMT of correlations, discrimi-                   proposed model during the COVID-19 pandemic and
+nant validity can be assessed. The discriminant validity                 the new normal illustrated discriminant validity for the
+is insufficient when the HTMT value is close to 1. As a                  empirical data.
+result, Table 4 shows the HTMT criterion values during
+the COVID-19 pandemic and the new normal, which sat-                     Analyzing the hypothesized model
+isfy the lowest HTMT value and fall within the recom-                    The evaluation of the structural or inner model to exam-
+mended range.                                                            ine the hypothesized interconnections relationships was
+  The second way is to evaluate discriminant validity                    the start of the second step [147]. Based on the advice of
+based on the Fornell–Larcker correlation matrix. In this                 Hair et al. [150], the bootstrapping method with 5,000
+way, discriminant validity is well established when the                  subsamples was used to calculate path coefficients (β).
+Table 3 Results summary for the measurement model
+                                                                                                                                                                                Huy and Phuc ﻿Future Business Journal 2023, 9(1):40
+
+
+
+
+Constructs and                      Model 1                                                       Model 2                                                        Discriminant
+operationalization                  COVID-19 pandemic (sample size = 812)                         New normal (sample size = 623)                                 validity
+
+                                    Convergent validity         Construct reliability             Convergent validity          Construct reliability
+                                    Factor loadings range AVE   Cronbach’s alpha Composite PA     Factor loadings Range AVE    Cronbach’s alpha Composite PA
+                                                                                 reliability                                                    reliability
+
+Sensing plane                 SP    0.821–0.851           0.692 0.889               0.918   0.890 0.763–0.801           0.609 0.840                0.886   0.840 Yes
+Cloud plane                   CP    0.788–0.835           0.665 0.875               0.908   0.888 0.738–0.828           0.611 0.842                0.887   0.852 Yes
+Application plane             AP    0.823–0.876           0.727 0.875               0.914   0.875 0.774–0.820           0.628 0.803                0.871   0.807 Yes
+E-commerce                    EC    0.879–0.918           0.808 0.881               0.927   0.883 0.845–0.900           0.770 0.852                0.910   0.865 Yes
+Data integration capability DIC     0.837–0.877           0.736 0.880               0.918   0.881 0.762–0.826           0.629 0.803                0.872   0.806 Yes
+Operational BI capabilities   OBIC 0.793–0.900            0.695 0.890               0.919   0.893 0.742–0.821           0.623 0.849                0.892   0.855 Yes
+Strategic BI capabilities     SBIC 0.755–0.888            0.699 0.893               0.921   0.910 0.773–0.856           0.643 0.861                0.900   0.863 Yes
+                                                                                                                                                                                Page 9 of 21
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                                        Page 10 of 21
+
+
+
+
+Table 4 Results summary for discriminant validity—heterotrait–monotrait ratio
+          Model 1                                                                          Model 2
+          COVID-19 pandemic (sample size = 812)                                            New normal (sample size = 623)
+          AP       CP          DIC        EC         OBIC       SBIC     SP                AP      CP          DIC       EC       OBIC     SBIC         SP
+
+AP                                                                               AP
+CP        0.054                                                                  CP        0.089
+DIC       0.041    0.037                                                         DIC       0.056   0.070
+EC        0.243    0.072       0.382                                             EC        0.079   0.109       0.181
+OBIC      0.045    0.117       0.051      0.105                                  OBIC      0.054   0.401       0.062     0.123
+SBIC      0.042    0.123       0.033      0.037      0.062                       SBIC      0.184   0.120       0.079     0.362    0.087
+SP        0.162    0.065       0.056      0.169      0.056      0.147            SP        0.134   0.161       0.104     0.331    0.066    0.631
+
+
+
+
+Table 5 Results summary for discriminant validity—Fornell–Larker Scale
+          Model 1                                                                          Model 2
+          COVID-19 PANDEMIC (sample size = 812)                                            NEW NORMAL (sample size = 623)
+          AP       CP           DIC       EC         OBIC       SBIC     SP                AP      CP         DIC       EC       OBIC     SBIC     SP
+
+AP         0.853                                                                 AP        0.792
+CP        −0.033      0.815                                                      CP        0.032   0.782
+DIC        0.000   −0.011       0.858                                            DIC       0.036   0.039       0.793
+EC         0.213      0.005     0.337     0.899                                  EC        0.004   0.096       0.148    0.878
+OBIC       0.026      0.101     0.046     0.092        0.834                     OBIC      0.026   0.345      −0.036    0.105    0.789
+SBIC       0.024      0.104     0.025     0.012      −0.011     0.836            SBIC      0.155   0.081       0.064    0.313    0.049    0.802
+SP         0.145      0.051     0.047     0.150        0.046    0.133    0.832   SP        0.112   0.140       0.086    0.281    0.048    0.536    0.781
+
+
+
+
+Table 6 Results of hypotheses testing for Model 1
+Relevant path              Path coefficient                      SE       95% Confidence interval          t value     p value    VIF       Result
+
+Direct effect
+     BAAS → EC             0.202                                 0.043    [0.113–0.284]                    4.703       0.000      1.010     Undergirded
+     BAAS → BIC            0.100                                 0.071    [−0.066–0.207]                   1.401       0.161      1.000     Rejected
+     BIC → EC              0.246                                 0.088    [−0.034–0.319]                   2.812       0.005      1.010     Undergirded
+Indirect effect
+     BAAS → BIC→ EC        0.025                                 0.016    [−0.014–0.048]                   1.503       0.133       –        Rejected
+     R2                    R2 BIC = 0.010; R2 EC = 0.112
+     f2                    f2 BAAS => BIC = 0.010; f2 BAAS =>
+                           EC = 0.046; f BIC => EC = 0.068
+                                        2
+
+     Q2                    Q2 BIC = 0.002; Q2 EC = 0.088
+
+
+
+  Concerning to Model 1, the statistical outcomes in                             the other hand, the statistical outcomes on the mediat-
+Table 6 highlighted that BAAS illustrated an insignifi-                          ing impact of BIC on the interlink between BAAS and EC
+cant association with BIC (H2: β = 0.100, t value = 1.401;                       reveal that BIC did not act as a mediator of this interlink.
+p value = 0.161). Similarly, the effect of BAAS (H1:                               Regarding to Model 2, the statistical outcomes in
+β = 0.202, t value = 4.703; p value = 0.000) underlined                          Table 7 emphasized that the BAAS had significantly posi-
+a strictly positive interconnection with EC. The inter-                          tive association with BIC (H2: β = 0.516, t value = 14.499;
+connection between BIC and EC (H3: β = 0.246, t                                  p value = 0.000). Besides, the BAAS was substanti-
+value = 2.812; p value = 0.005) was supported. To this end,                      ated to be related to EC (H1: β = 0.107, t value = 2.219;
+the H1 and H3 were accepted while H2 was rejected. On                            p value = 0.027) in a significantly positive manner. As
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                                       Page 11 of 21
+
+
+
+
+Table 7 Results of hypotheses testing for Model 2
+Relevant path               Path coefficient                     SE          95% Confidence      t value        p value       VIF          Result
+                                                                             interval
+
+Direct effect
+  BAAS → EC                 0.107                                0.048       [0.020–0.206]         2.219        0.027         1.363        Undergirded
+  BAAS → BIC                0.516                                0.036       [0.440–0.578]       14.499         0.000         1.000        Undergirded
+  BIC → EC                  0.289                                0.050       [0.181–0.380]         5.732        0.000         1.363        Undergirded
+Indirect effect
+  BAAS → BIC → EC           0.149                                0.028       [0.092–0.201]         5.373        0.000           –          Undergirded
+  R2                        R2 BIC = 0.266; R2 EC = 0.127
+  f2                        f2 BAAS => BIC = 0.363; f2 BAAS =>
+                            EC = 0.020; f BIC => EC = 0.070
+                                         2
+
+  Q2                        Q2 BIC = 0.062; Q2 EC = 0.093
+
+
+
+
+  Fig. 2 Diagram of structural model; this figure was extracted from SmartPLS version 4.0.8.5 and illustrates the path directions for H1–H3 based on
+  the empirical data collection in COVID-19 pandemic
+
+
+
+
+expected, the paths linking BIC and EC (H3: β = 0.289, t                      component. Building on the outcomes in Tables 6 and
+value = 5.732; p value = 0.000) were significantly positive.                  7, the values of f2 of all components were reported to be
+To this end, the H1, H2, and H3 were accepted. Remark-                        small.
+ably, the statistical outcomes on the mediating impact of                        The other critical scale was the determination coef-
+BIC on the interlink between BAAS and EC reveal that                          ficient (R2), which referred to the extent of variance
+BIC acts as a mediator of this interlink.                                     between endogenous and exogenous latent variables. The
+  The test of effect size (f2) enables assessing the con-                     values of R2 could be deemed substantial (0.75), medium
+tribution of an exogenous variable to an endogenous                           (0.50), or weak (0.25) [147]. As seen in Fig. 2, the hypoth-
+variable [147]. Examining Cohen’s f-square formula and                        esized model in the COVID-19 pandemic accounts for 1
+comparing to the suggested threshold values of 0.35                           percent of the variance in BIC; 11.2 percent of the vari-
+(large), 0.15 (medium), and 0.02 (small) were the recom-                      ance in EC. While in Fig. 3, the hypothesized model in
+mended methods for calculating the effect size of each
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                                      Page 12 of 21
+
+
+
+
+ Fig. 3 Diagram of structural model; this figure was extracted from SmartPLS version 4.0.8.5 and illustrates the path directions for H1–H3 based on
+ the empirical data collection in new normal
+
+
+
+the new normal accounts for 26.6 percent of the variance                     on BIC. The statistical findings of the current study cast
+in BIC; 12.7 percent of the variance in EC.                                  light on the crucial part that BAAS plays in improving
+  The assessment test predictive relevance (Q2) stood                        EC. BD does in fact become a crucial instrument as the
+for a hypothesized model’s predictive power [147]. The                       EC market grows [151]. This discovery echoes and broad-
+hypothesized model could be pondered to have adequate                        ens the conclusions of a number of academic studies that
+predictive relevance when endogenous variable values                         examine how BD affects EC [29, 151–154]. BD opens up
+were greater than Zero [147].                                                a lot of opportunities for EC, allowing a virtual business
+  As indicated in Table 6, during the COVID-19 pan-                          to thoroughly engage and investigate its online custom-
+demic the score for Q2 was 0.002 for BIC and 0.088 for                       ers [155]. In addition, BIC is found to have a noticeable
+EC. In the meanwhile, in Table 7, in the new normal, the                     impact on EC, as predicted by the researchers. These
+score for Q2 was 0.062 for BIC and 0.093 for EC.                             data support and extend the conclusions reached by ear-
+                                                                             lier researchers, including Ferreira et al. [156], Azhagan
+Discussion                                                                   and Thamizharasi [157], Bhuvaneswari and Natarajan
+Broadly speaking, the current research was performed                         [158], and Pan et al. [159]. In other words, the effective
+to produce a holistic picture on how to succeed in EC in                     use of BIC will increase the EC in the cutthroat corporate
+both pandemic and the post-pandemic through provide                          environment.
+precise and meticulous analysis on the perspectives of                          The plausible for the differences in effect size of all the
+accountants in SMEs on BAAS implementation and BIC                           components in the proposed model in the COVID-19
+enhancement in these two periods of time.                                    pandemic and new normal as well as the insignificant
+  The statistical outcomes of the hypothesized models                        interconnection between BAAS and BIC can be illumi-
+drawing on the two wave of data collection revealed sev-                     nated at the organizational degree and individual degree.
+eral differences in the significance and the effect size of                  Concerning to the organizational degree, the manufac-
+the constructs. From an overall perspective, the effect                      turing industry’s supply chains were severely impacted
+size of BAAS and BIC on EC in the COVID-19 pandemic                          by the COVID-19 epidemic. SMEs were hardest hit
+seemed to be less than those in the new normal and the                       because of the lack of materials and parts, problems
+BAAS is even verified to induce insignificant influence                      with the logistics process, and changes in demand [160].
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                            Page 13 of 21
+
+
+
+
+Manufacturing SMEs are firmly ingrained in an indus-            completed would grow as a result of remote working, but
+trial system that is influenced by the market as suppliers      family problems would worsen. More specifically, these
+and partners [161]. For SMEs to reorient and adapt in the       accountants, who had previously worked primarily inside
+face of uncertainty, creativity and innovation are essential    the organizational walls, had to quickly adjust to remote
+skills [162]. To maintain resilience, there must be close       work environments. Parental requirements for account-
+communication among the various supply chain partici-           ants have increased due to the closure of schools and day-
+pants [163]. Manufacturing SMEs typically concentrate           care facilities. Although these work–family relationships
+on differentiation methods such diversified product offers      appeared to be more difficult for accountants who had
+and adaptable customer responses, in contrast to large          children, single and childless personnel were nonetheless
+enterprises that obtain a competitive advantage through         susceptible to the negative consequences of such altered
+cost savings [164]. Inadequate financial resources, a lack      work settings, posing a serious risk to their productivity
+of managerial experience, and a lack of technical knowl-        and mental health. These matters resulted in their igno-
+edge are some of the challenges that SMEs face when             rance on the role of advanced technologies implemen-
+trying to innovate [163]. SMEs rarely innovate on their         tation. Remarkably, SMEs also have restrained oxygen
+own because of their strategic direction and capability         pertaining to money and other resources. Additionally,
+limitations, instead, they rely on outside sources to sup-      unprecedented difficulties are faced by the brick-and-
+port their internal innovation [165]. Although the recent       mortar retail sector, particularly during the COVID-19
+pandemic’s instability hastened SMEs’ transition to auto-       epidemic. As a result, it is difficult for SME employees to
+mated, autonomous, and intelligent manufacturing sys-           fully assist their company in utilizing the benefits of the
+tems [160].                                                     digital transformation.
+   The development brought about by digital transforma-           Nevertheless, in the new normal which is a period of
+tion improves connectivity and facilitates effective com-       moderately lessened virus transmission and in which
+munication among supply chain partners [161]. However,          more restrictions were eased and society fully reopened,
+SMEs are unable to achieve the best results in digital          the advantages of BAAS and BIC have been gradually rec-
+transformation due to their limitations in the implemen-        ognized and accepted by numerous accountants in SMEs.
+tation of multi-tasking roles, a lack of resources, risk        The evolution of work activities, as well as the enhance-
+management, data-driven decision-making processes,              ment of production processes and organizational struc-
+ineffective communications, and a lack of strategic plan-       tures, are all influenced by technological transformation
+ning [166]. The interaction between technologies and the        [174–176]. This relationship between technological
+people who use them must be taken into account while            transformation and increased organizational flexibility
+evaluating them. It is possible to make the case that tech-     is also evident. Better connectivity and efficient com-
+nological transformation includes both the introduction         munication among supply chain partners are results of
+of new technologies and a cultural revolution that makes        the improvements brought about by digital transforma-
+it possible for a new perspective on and manner of think-       tion [161]. According to Brem et al. [11] as well as Harker
+ing about technologies.                                         Martin and MacDonnell [12], EC can aid in market
+   On the one side, space–time flexibility has made it pos-     expansion by reaching new consumer segments through
+sible to work in more equitable and healthy daily work-         affordable ways of product distribution. With the quick
+ing conditions, which has helped to solve the issue of          advancement of information technology, EC has emerged
+excessive levels of stress [167, 168]. On the other side,       as a brand-new, extensively used method of transaction.
+numerous researchers (i.e., Adisa et al. [169], Möhring         This has just raised an urgent claim on implementation
+et al. [170]) have emphasized how some employees                of BAAS and BIC. These outcomes not only reaffirm but
+exhibit resistance related to the effective use of technol-     also widen the findings on the potential of implement-
+ogy that has a crucial impact on well-being because of an       ing BD and its applications on BI in generating business
+increased level of technostress [171]. The topic of rela-       impacts of several previous studies [26, 177, 178].
+tionships in the setting of the family is closely tied to the
+question of well-being. The adoption of remote and flex-        Implication and avenues for future research
+ible working has an impact on the routines and behavio-         The current study is concluded in this section by outlin-
+ral patterns that govern family connections. Building on        ing the implications for practice and summarizing a num-
+the findings of Eddleston and Mulik [172] as well as Allen      ber of inherent flaws that warrant further investigation.
+et al. [173], the integration of work activities at home and
+family activities, which is characterized by increased flex-    Theory implication
+ibility, increases work–family conflict because people find     As COVID-19 can cause illnesses ranging from the com-
+it difficult to withdraw from work. The amount of work          mon cold to more serious conditions (Yang et al. [179]),
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                          Page 14 of 21
+
+
+
+
+maintaining social distance was advised in order to            driving BIC improvement and EC success. As such, all
+combat this pandemic, which resulted in severe lock-           managers of SMEs should develop their managerial
+downs everywhere. Companies who relied on physical             cognitive abilities and give this issue more attention on
+storefronts to stay afloat before the COVID-19 epidemic        BAAS. To do so, all managers in SMEs should assure
+broke out were forced to diversify into the online market.     that the BAAS implementation has been more than a
+EC still has a promising future despite the drawbacks.         technical project and has been linked to organizational
+The findings of Hoang et al. [180] on how SMEs used EC         transformation initiative requesting analytics strate-
+to guide national economic recovery after COVID-19             gies, management support, and proactive and careful
+highlighted how several technologies were used, despite        painstaking management to seize the entire potential of
+the pandemic’s short length, to assure organizational          BAAS. The leaders of SMEs should become knowledge-
+survivability and revival in the cutthroat market climate.     able of BAAS formulation and implementation in order
+The results show that during COVID-19, technological           to guarantee the smooth evolution of BAAS. As a con-
+compatibility had the biggest impact on the uptake of          sequence, it has been urged for key resources, such as
+EC. EC needs the support of digital platforms to survive       infrastructure and digital platforms, to be consolidated.
+and develop in the post-pandemic period. Due to the fact       Instrumentally, in order to keep their staff up to date
+that almost all businesses now know little about their cli-    with cutting-edge programming systems, all managers
+ents, BI will help these businesses better comprehend the      in SMEs should focus on enhancing the organizational
+strategies and tools utilized for data analysis while pro-     workforce’s expertise through appropriate training
+viding historical, present-day, and future perspectives of     programs. In particular, emphasis should be placed on
+business information [15]. Therefore, when developing          enhancing professional education, developing profes-
+EC, BIC should be taken into account. However, Marn-           sional knowledge, and honing essential professional
+Ortega et al. [23] claim that BI predominantly focuses on      judgment skills. In addition to internal training ini-
+structured and internal business data while ignoring the       tiatives, SMEs were encouraged to set up specialized
+important information buried in unstructured and exter-        outside training initiatives to capitalize on market
+nal data. As a result, a corporation may come to decisions     conditions and gain knowledge of cutting-edge digital
+with preconceived notions and an imperfect understand-         information.
+ing of the world [24, 25]. The rapid advancement of BD           The findings of this study also showed how important
+and BD technology has presented BI with both new chal-         BIC is, since it was found to considerably and favorably
+lenges and opportunities [26]. The capacity to create and      improve the influence of EC. Therefore, managers must
+employ extra analytics capabilities, such prescriptive         see investing in BI systems as a crucial strategic choice
+and diagnostic analysis, is provided by BD will primarily      that will affect their company’s ability to successfully
+lead to the development of BI systems [27]. On the other       launch new products/services. We advise managers eval-
+hand, according to Alsaig et al. [181], BD is a crucial tool   uating BI investments to take into account BI’s potential
+for the expansion of the EC network. BD offers a brand-        to facilitate and improve EC in addition to its ultimate
+new, very effective method of organizing, carrying out,        goals. Additionally, it is recommended to all managers in
+disseminating, and evaluating study, revolutionizing the       SMEs to implement extraordinary tactics that are in line
+growth of information both within and outside of science       with organizational quirks and to set up internal proce-
+[155]. The BAAS model is a wise choice since it can assist     dures to achieve BIC.
+businesses in creating innovative business plans and             In every developing economy, the government plays an
+extracting intrinsic value from their large data [34]. SMEs    important role in facilitating the essential requirements
+can benefit from adopting BAAS because it is more cost-        for the development of EC through supplying robust and
+effective and because it makes managing BD infrastruc-         secure online payment options, warranting a stable infor-
+ture easier because it works in the cloud. Because they        mation technology infrastructure, offering sufficient pro-
+have fewer financial and infrastructure resources avail-       grams, building up awareness of using different means of
+able, SMEs are particularly affected by this [31]. Taken       media and education institutions [182]. As such, support-
+together, BAAS form a sizable key that unlocks enhance-        ing policies positively influence EC applications of the
+ment of BIC and the future expansion of the EC industry.       SMEs [59, 60]. Government’s supports via its policies and
+                                                               regulations are priceless for SMEs engaging to EC [59].
+Policy and practical implication
+                                                               At the same time, policy-makers and governmental influ-
+The obtained observations in this study provided a             encers should establish and promulgate policies as well as
+variety of practical takeaways based on the manage-            guidelines in relation to the adoption of advanced infor-
+rial outlooks. According to the statistical results of         mation technologies in order to revamp the efficiency
+the current study, BAAS would be the main factor in            and effectiveness of deployment across all organizations.
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                   Page 15 of 21
+
+
+
+
+  In order to produce more cutting-edge systems that            of BAAS will improve SMEs’ capacity to successfully
+are suitable for the quirks of SMEs, hardware and soft-         handle any problems that may arise as a result of the
+ware makers and merchants have also demanded that               quickly altering business environment. In the mean-
+efforts be made to understand much more explicitly the          while, BI has emerged as a key technology for enhanc-
+advantages and limitations of contemporary information          ing enterprise business performance as well as a driving
+technologies.                                                   force behind the development of EC and e-services [17].
+                                                                In order to formulate a new and in-depth insight on the
+Research limitations                                            role of BAAS implementation, to tap higher potential of
+There were a number of shortcomings, which allowed              BI and EC, an analysis on how BAAS can foster the EC
+for the creation of new relevant foundation development         and BIC in SMEs represented the main motivations in
+starting points in the future. First, given the importance      this research. The current research enriches the grow-
+placed on geographic provenance by individual nations,          ing body of literature on the potential of BAAS and
+the sample collected for the current study, which origi-        BIC in EC within SMEs in developing country in both
+nated in Vietnam, might not be immediately convertible          the period of COVID-19 pandemic and the period of
+to the other contexts. Alternately, despite the fact that the   new normal through provide precise and meticulous
+current data were taken from a single developing country        analysis on the perspectives of accountants in SMEs on
+that was meant to have many things in common, other             BAAS application, BIC enhancement and the effective-
+emerging economies nonetheless have peculiarities [183].        ness of EC, in these two periods of time. In doing so,
+This constraint would be overcome by conducting rep-            this will enable the researchers to produce more robust
+lications and extensions in more extensive geographic           empirical results and minimize potential sample biases,
+areas to demonstrate the reliability and generalizability of    reflecting the complex and dynamic characteristics of
+the findings, as meaningful disparities may also become         the market [184].
+apparent in a number of cases. The second limitation was
+the relatively small size of the data set obtained via an
+anonymous survey-based methodology using a conveni-
+ent selection of informants. This study also used a con-        Appendix A: Questionnaire survey items
+venience and snowball sample, which could have skewed
+the results in favor of particular participant categories.
+To that purpose, more target group circulation should           Construct                      Questions/indicators
+be used to support the current observations. In parallel,       Big data as a service (BAAS)
+random sample collection should be taken into account           Sensing plane (SP)             SP1: Sensing plane efficiently car-
+in follow-up research to support the findings when the                                         ries out the big data cleansing and
+necessary facilitations can be attained. Last but not least,                                   reduction for corporate predictive
+                                                                                               analytics
+despite the fact that this study could be regarded as a
+                                                                                               SP2: Sensing plane effectively
+trailblazing effort to examine the connections between                                         accomplishes the big data cleaning
+SMEs and BAAS, BIC, and EC in the context of the                                               and reduction for descriptive analy-
+COVID-19 crisis over two remarkable periods of time,                                           sis of a company’s status among its
+                                                                                               competitors
+the interlinks formed in the structural model seemed to
+                                                                                               SP3: Sensing plane successfully
+be treated in a static manner. The COVID-19 pandemic                                           implements big data cleansing and
+was predicted to continue spreading; hence, it led to the                                      reduction for prescriptive analyt-
+discovery of a future route to seek empirical validation of                                    ics to evaluate how reviews and
+                                                                                               behavioral adjustments might be
+these results in the future.                                                                   enhanced
+                                                                                               SP4: Sensing plane effectively car-
+Conclusion                                                                                     ries out the big data cleansing and
+                                                                                               reduction for prescriptive analytics
+As EC model has been considered as a model with                                                to conduct dynamic pricing for
+numerous beneficial features, namely low-cost and                                              customers
+boundless model, easier formulation and operationali-                                          SP5: Sensing plane success-
+zation, effective marketing opportunities generation, it                                       fully executes big data cleaning
+                                                                                               and reduction for forecasting for
+will allow SMEs to carry on with their operations and                                          improved planning to continuously
+continue to profit even during the COVID-19 pan-                                               update E-commerce strategies
+demic. According to Kumar and Ayedee [14], SMEs’
+utilization of technology to address COVID-19 issues
+may be prerequisite. In this regard, the deployment
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                                         Page 16 of 21
+
+
+
+
+Construct                          Questions/indicators                    Construct                               Questions/indicators
+Cloud plane (CP)                   CP1: Using a cloud plane, busi-         Operational BI capabilities             OBIC1: On a regular basis, the
+                                   nesses can implement precise            (OBIC)                                  organization thoroughly evaluates
+                                   marketing in E-commerce                                                         operational and administrative data
+                                   CP2: Cloud plane enables organiza-                                              OBIC2: The company incorporates
+                                   tions to choose the best E-Com-                                                 information from the BI system into
+                                   merce logistics route                                                           its ongoing operations
+                                   CP3: Organizations can offer infor-                                             OBIC3: The organization’s depart-
+                                   mation security assessments in a                                                ments frequently share data and
+                                   cloud computing environment due                                                 insights obtained from the BI system
+                                   to cloud plane                                                                  OBIC4: The business incorporates BI
+                                   CP4: In a cloud computing context,                                              tools into its continuous operations
+                                   cloud plane enables organizations                                               OBIC5: The BI system considerably
+                                   to provide information privacy                                                  aids mid-level managers in making
+                                   assessment                                                                      decisions
+Application plane (AP)             AP1: Application plane allows the       Strategic BI capabilities (SBIC)        SBIC1: The BI system greatly
+                                   organization to conduct personali-                                              facilitates decision making for senior
+                                   zation of products for consumers                                                executives
+                                   AP2: Application plane allows the                                               SBIC2: The BI system makes it pos-
+                                   organization to conduct supply                                                  sible to convey the organization’s
+                                   chain management                                                                position in a thorough and compre-
+                                   AP3: Application plane allows the                                               hensive manner
+                                   organization to conduct automated                                               SBIC3: The BI system offers com-
+                                   sourcing of product                                                             prehensive analytical tools for the
+                                   AP4: Application plane allows the                                               organization’s status
+                                   organization to conduct better                                                  SBIC4: The BI system is employed to
+                                   vendor management                                                               spot trends, chances, and risks in the
+                                   AP5: Application plane allows the                                               corporate environment
+                                   organization to conduct managing                                                SBIC5: The BI system’s information
+                                   fraud and risk                                                                  is a great help in developing the
+E-commerce (EC)                    EC1: E-commerce enables busi-                                                   organizational strategy
+                                   nesses to cut expenses and save
+                                   time
+                                   EC2: E-commerce enables busi-           Abbreviations
+                                   nesses to reach out to more clients     AP	Application plane
+                                   EC3: E-commerce enables busi-           BD	Big data
+                                   nesses to broaden their market          BAAS	Big data as a service
+                                   reach, boost sales, and boost profits   BI	Business intelligence
+                                                                           BIC	Business intelligence capabilities
+Business intelligence capabili‑                                            CP	Cloud plane
+ties (BIC)                                                                 CT	Contingency theory
+Data integration capability        DIC1: We are able to better integrate   COVID-19	Coronavirus disease 2019
+(DIC)                              the variety of available data than      DIC	Data integration capability
+                                   our rivals                              EC	E-commerce
+                                   DIC2: Compared to rivals, our           HTMT	Heterotrait–monotrait
+                                   organizations’ data sources have        OBIC	Operational business intelligence capabilities
+                                   more consistent data across them        PLS-SEM	Partial least squares structural equation modeling
+                                                                           SP	Sensing plane
+                                   DIC3: Unlike rivals, our businesses     SMEs	Small and medium enterprises
+                                   have good synchronization with          SBIC	Strategic business intelligence capabilities
+                                   other organizational databases in       VIF	Variance inflation factor
+                                   the targeted markets
+                                   DIC4: When compared to rivals, staff    Acknowledgements
+                                   from many divisions at our com-         We would like to thank UEH University for financially encouragement the
+                                   panies collaborate and exchange         accomplishment of this research. Moreover, all authors in this research
+                                   information                             sincerely thank the anonymous reviewers for their useful comments and sug-
+                                                                           gestions that improved the chapter’s quality.
+
+                                                                           Author contributions
+                                                                           QH made the conceptualization, methodology of manuscript. QH also wrote,
+                                                                           reviewed, and edited all versions of paper. KP analyzed and interpreted the
+                                                                           data regarding the survey. QH was a major contributor in writing the manu-
+                                                                           script. KP tested and validated results by using software. All authors read and
+                                                                           approved the final manuscript.
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                                                       Page 17 of 21
+
+
+
+
+Funding                                                                                13. Abebe M (2014) Electronic commerce adoption, entrepreneurial
+This paper was supported and funded by University of Economics Ho Chi                      orientation and small- and medium-sized enterprise (SME) perfor-
+Minh City (UEH), in Vietnam.                                                               mance. J Small Bus Enterp Dev 21(1):100–116. https://​doi.​org/​10.​1108/​
+                                                                                           jsbed-​10-​2013-​0145
+Availability of data and materials                                                     14. Kumar A, Ayedee N (2021) Technology adoption: a solution for SMEs to
+The author confirms that all data generated or analyzed during this study are              overcome problems during COVID-19. Acad Mark Stud J 25(1):1–16
+included in this published article. In addition, no data are associated with this      15. Ferreira T, Pedrosa I, Bernardino J (2019) Integration of business intel-
+article.                                                                                   ligence with e-commerce. In: 2019 14th Iberian conference on informa-
+                                                                                           tion systems and technologies (CISTI), pp 1–7. https://​doi.​org/​10.​23919/​
+                                                                                           cisti.​2019.​87609​92
+Declarations                                                                           16. Lim E-P, Chen H, Chen G (2013) Business intelligence and analytics. ACM
+                                                                                           Trans Manag Inf Syst 3(4):1–10. https://​doi.​org/​10.​1145/​24077​40.​24077​
+Ethics approval and consent to participate                                                 41
+Not applicable.                                                                        17. Turban E, Volonino L (2011) Information technology for management:
+                                                                                           improving strategic and operational performance, 8th edn. Wiley,
+Consent for publication                                                                    Danvers
+Not applicable.                                                                        18. Ransbotham BS, Kiron D (2017) Analytics as a source of business inno-
+                                                                                           vation. MIT Sloan Manag Rev 58(3):1–21
+Competing interests                                                                    19. Shiau W-L, Chen H, Wang Z, Dwivedi YK (2022) Exploring core knowl-
+The authors declare that they have no competing interests.                                 edge in business intelligence research. Internet Res. https://​doi.​org/​10.​
+                                                                                           1108/​INTR-​04-​2021-​0231
+                                                                                       20. Liang TP, Liu YH (2018) Research landscape of business intelligence and
+Received: 5 April 2023 Accepted: 14 June 2023                                              big data analytics: a bibliometrics study. Expert Syst Appl 111(128):2–10.
+Published: 5 September 2023                                                                https://​doi.​org/​10.​1016/j.​eswa.​2018.​05.​018
+                                                                                       21. Božič K, Dimovski V (2019) Business intelligence and analytics for value
+                                                                                           creation: the role of absorptive capacity. Int J Inf Manage 46:93–103.
+                                                                                           https://​doi.​org/​10.​1016/j.​ijinf​omgt.​2018.​11.​020
+References                                                                             22. Chen H, Chiang RH, Storey VC (2012) Business intelligence and analyt-
+  1. Dohale V, Ambilkar P, Gunasekaran A, Verma P (2022) Supply chain risk                 ics: from big data to big impact. MIS Q 36(4):1165–1188. https://​doi.​
+      mitigation strategies during COVID-19: exploratory cases of “make-                   org/​10.​2307/​41703​503
+      to-order” handloom saree apparel industries. Int J Phys Distrib Logist           23. Marín-Ortega PM, Dmitriyev V, Abilov M, Gómez JM (2014) ELTA: new
+      Manag 52(2):109–129. https://​doi.​org/​10.​1108/​IJPDLM-​12-​2020-​0450             approach in designing business intelligence solutions in era of big data.
+  2. Kano L, Oh CH (2020) Global value chains in the post-COVID world:                     Procedia Technol 16:667–674. https://​doi.​org/​10.​1016/j.​protcy.​2014.​10.​
+      governance for reliability. J Manag Stud 57(8):1773–1777. https://​doi.​             015
+      org/​10.​1111/​joms.​12626                                                       24. Llave MR (2018) Data lakes in business intelligence: reporting from the
+  3. Mouzas S, Florian B (2022) Rethinking business performance in global                  trenches. Procedia Comput Sci 138:516–524. https://​doi.​org/​10.​1016/j.​
+      value chains. J Bus Res 144:679–689. https://​doi.​org/​10.​1016/j.​jbusr​es.​       procs.​2018.​10.​071
+      2022.​02.​012                                                                    25. Ram J, Zhang C, Koronios A (2016) The implications of big data analytics
+  4. Campbell MC, Inman JJ, Kirmani A, Price LL (2020) In times of trouble:                on business intelligence: a qualitative study in China. Procedia Comput
+      a framework for understanding consumers’ responses to threats. J                     Sci 87:221–226. https://​doi.​org/​10.​1016/j.​procs.​2016.​05.​152
+      Consum Res 47(3):311–326. https://​doi.​org/​10.​1093/​jcr/​ucaa0​36             26. Fan S, Lau RYK, Zhao JL (2015) Demystifying big data analytics for
+  5. Nofiani D, Indarti N, Lukito-Budi AS, Manik HFGG (2021) The dynamics                  business intelligence through the lens of marketing mix. Big Data Res
+      between balanced and combined ambidextrous strategies: a paradoxi-                   2(1):28–32. https://​doi.​org/​10.​1016/j.​bdr.​2015.​02.​006
+      cal affair about the effect of entrepreneurial orientation on SMEs’              27. Faroukhi AZ, El Alaoui I, Gahi Y, Amine A (2020) A multi-layer big
+      performance. J Entrep Emerg Econ 13(5):1262–1286                                     data value chain approach for security issues. Procedia Comput Sci
+  6. Bressan A, Duarte Alonso A, Kok SK (2021) Confronting the unprece-                    175:737–744. https://​doi.​org/​10.​1016/j.​procs.​2020.​07.​109
+      dented: micro and small businesses in the age of COVID-19. Int J Entrep          28. Al-Hakeem MS (2016) A proposed big data as a service (BDaaS)
+      Behav Res 27(3):799–820. https://​doi.​org/​10.​1108/​IJEBR-​09-​2020-​0602          model. International Journal of Computer Sciences and Engineering
+  7. Kitukutha NM, Vasa L, Oláh J (2021) The impact of COVID-19 on the                     4(11):15–21
+      economy and sustainable e-commerce. Forum Scientiae Oeconomia                    29. Sazu MH (2022) Does big data drive innovation in E-commerce: A
+      9(2):47–72                                                                           global perspective? SEISENSE Bus Rev 2(1):55–66. https://​doi.​org/​10.​
+  8. Alwan SY, Hu Y, Al Asbahi AAMH, Al Harazi YK, Al Harazi AK (2023) Sus-                33215/​sbr.​v2i1.​797
+      tainable and resilient e-commerce under COVID-19 pandemic: a hybrid              30. Bresciani S, Ciampi F, Meli F, Ferraris A (2021) Using big data for co-
+      grey decision-making approach. Environ Sci Pollut Res 30:47328–47348.                innovation processes: mapping the field of data-driven innovation,
+      https://​doi.​org/​10.​1007/​s11356-​023-​25456-0                                    proposing theoretical developments and providing a research agenda.
+  9. Myovella G, Karacuka M, Haucap J (2020) Digitalization and economic                   Int J Inf Manag 60:1–15. https://​doi.​org/​10.​1016/j.​ijinf​omgt.​2021.​102347
+      growth: a comparative analysis of Sub-Saharan Africa and OECD econo-             31. Wessels T, Jokonya O (2022) Factors affecting the adoption of big data
+      mies. Telecommun Policy 44:1–12. https://​doi.​org/​10.​1016/j.​telpol.​2019.​       as a service in SMEs. Procedia Comput Sci 196:332–339. https://​doi.​org/​
+      101856                                                                               10.​1016/j.​procs.​2021.​12.​021
+ 10. Yuan J, Zou H, Xie K, Dulebenets MA (2021) An assessment of social                32. Ardagna CA, Bellandi V, Bezzi M, Ceravolo P, Damiani E, Hebert C (2021)
+      distancing obedience behavior during the COVID-19 post-epidemic                      Model-based big data analytics-as-a-service: take big data to the next
+      period in China: a cross-sectional survey. Sustainability 13(14):1–16.               level. IEEE Trans Serv Comput 14(2):516–529
+      https://​doi.​org/​10.​3390/​su131​48091                                         33. An K, Pradhan S, Caglar F, Gokhale A (2012) A publish/subscribe middle-
+ 11. Brem A, Viardot E, Nylund PA (2021) Implications of the coronavirus                   ware for dependable and real-time resource monitoring in the cloud. In
+      (COVID-19) outbreak for innovation: which technologies will improve                  Proceedings of the Workshop on Secure and Dependable Middleware
+      our lives? Technol Forecast Soc Chang 163:1–20. https://​doi.​org/​10.​              for Cloud Monitoring and Management 3:1–6. https://​doi.​org/​10.​1145/​
+      1016/j.​techf​ore.​2020.​120451                                                      24051​86.​24051​89
+ 12. Harker Martin B, MacDonnell R (2012) Is telework effective for organiza-          34. Xinhua E, Han J, Wang Y, Liu L (2013) Big Data-as-a-Service: definition
+      tions? Manag Res Rev 35(7):602–616. https://​doi.​org/​10.​1108/​01409​              and architecture. In: 2013 15th IEEE international conference on com-
+      17121​12388​20                                                                       munication technology, pp 738–742. https://​doi.​org/​10.​1109/​icct.​2013.​
+                                                                                           68204​72
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                                                   Page 18 of 21
+
+
+
+
+ 35. Vu QH, Asal R (2015) A framework for big data as a service. In: 2015 IEEE            Soc Behav Sci 175:299–307. https://​doi.​org/​10.​1016/j.​sbspro.​2015.​01.​
+     international conference on digital signal processing (DSP), pp 1–5.                 1204
+     https://​doi.​org/​10.​1109/​icdsp.​2015.​72519​21                             56.   Tutunea MF, Rus RV (2012) Business intelligence solutions for SME’s. Pro-
+ 36. Wang X, Yang LT, Liu H, Deen MJ (2017) A Big Data-as-a-service frame-                cedia Econ Finance 3:865–870. https://​doi.​org/​10.​1016/​s2212-​5671(12)​
+     work: state-of-the-art and perspectives. IEEE Trans Big Data. https://​doi.​         00242-0
+     org/​10.​1109/​tbdata.​2017.​27579​42                                          57.   Ramakrishnan T, Jones MC, Sidorova A (2012) Factors influencing busi-
+ 37. Zheng Z, Zhu J, Lyu MR (2013) Service-generated big data and big                     ness intelligence (BI) data collection strategies: an empirical investiga-
+     data-as-a-service: an overview. In: 2013 IEEE international congress on              tion. Decis Support Syst 52(2):486–496. https://​doi.​org/​10.​1016/j.​dss.​
+     Big Data, pp 1–8. https://​doi.​org/​10.​1109/​bigda​ta.​congr​ess.​2013.​60         2011.​10.​009
+ 38. Susanty A, Handoko A, Puspitasari N (2020) Push-pull-mooring frame-            58.   Sirin E, Karacan H (2017) A review on business intelligence and big data.
+     work for e-commerce adoption in small and medium enterprises. J                      Int J Intell Syst Appl Eng 5(4):206–215
+     Enterp Inf Manag 33(2):381–406                                                 59.   Rahayu R, Day J (2015) Determinant factors of E-commerce adoption
+ 39. Biagi F, Falk M (2017) The impact of ICT and e-commerce on employ-                   by SMEs in developing country: evidence from Indonesia. Procedia Soc
+     ment in Europe. J Policy Model 39(1):1–18. https://​doi.​org/​10.​1016/j.​           Behav Sci 195:142–150. https://​doi.​org/​10.​1016/j.​sbspro.​2015.​06.​423
+     jpolm​od.​2016.​12.​004                                                        60.   Dahbi S, Benmoussa C (2019) What hinder SMEs from adopting E-com-
+ 40. Lee YJ, Ha S, Johnson Z (2019) Antecedents and consequences of flow                  merce? A multiple case analysis. Procedia Comput Sci 158:811–818.
+     state in e-commerce. J Consum Mark 36(2):264–275. https://​doi.​org/​10.​            https://​doi.​org/​10.​1016/j.​procs.​2019.​09.​118
+     1108/​JCM-​10-​2015-​1579                                                      61.   Feidler F (1964) Advances in experimental social psychology, contin-
+ 41. Qi X, Chan JH, Hu J, Li Y (2020) Motivations for selecting cross-border              gency model of leadership effectiveness. Academic Press, New York
+     e-commerce as a foreign market entry mode. Ind Mark Manag                      62.   Csaszar FA, Ostler J (2020) A contingency theory of representational
+     89:50–60. https://​doi.​org/​10.​1016/j.​indma​rman.​2020.​01.​009                   complexity in organizations. Organ Sci 31(5):1053–1312. https://​doi.​
+ 42. Saridakis G, Lai Y, Mohammed A, Hansen JM (2018) Industry Character-                 org/​10.​1287/​orsc.​2019.​1346
+     istics, stages of E-commerce communications, and entrepreneurs and             63.   Reinking J (2012) Contingency theory in information systems research.
+     SMEs revenue growth. Technol Forecast Soc Chang 128:56–66. https://​                 Integr Ser Inf Syst 28:247–263. https://​doi.​org/​10.​1007/​978-1-​4419-​
+     doi.​org/​10.​1016/j.​techf​ore.​2017.​10.​017                                       6108-2_​13
+ 43. Ha VD (2020) Enhancing the e-commerce application in SMEs. Manag               64.   Shao Z, Feng Y, Hu Q (2016) Effectiveness of top management support
+     Sci Lett 10:2821–2828. https://​doi.​org/​10.​5267/j.​msl.​2020.4.​027               in enterprise systems success: a contingency perspective of fit between
+ 44. Aslan C, Derindag OF, Parmaksiz S (2023) Effects of cross-border                     leadership style and system life-cycle. Eur J Inf Syst 25(2):131–153.
+     E-commerce customs declaration ceiling increase on export perfor-                    https://​doi.​org/​10.​1057/​ejis.​2015.6
+     mance under COVID-19 conditions. Kybernetes, 1–22. https://​doi.​org/​         65.   Eckstein D, Goellner M, Blome C, Henke M (2015) The performance
+     10.​1108/K-​02-​2023-​0182                                                           impact of supply chain agility and supply chain adaptability: the mod-
+ 45. Din AU, Han H, Ariza-Montes A, Vega-Muñoz A, Raposo A, Mohapatra S                   erating effect of product complexity. Int J Prod Res 53(10):3028–3046.
+     (2022) The impact of COVID-19 on the food supply chain and the role                  https://​doi.​org/​10.​1080/​00207​543.​2014.​970707
+     of E-commerce for food purchasing. Sustainability 14:1–14. https://​doi.​      66.   Sirmon DG, Hitt MA (2009) Contingencies within dynamic managerial
+     org/​10.​3390/​su140​53074                                                           capabilities: interdependent effects of resource investment and deploy-
+ 46. Hamid S, Azhar M (2023) Behavioral intention to order food and                       ment on firm performance. Strateg Manag J 30(13):1375–1394. https://​
+     beverage items using e-commerce during COVID-19: an integration of                   doi.​org/​10.​1002/​smj.​791
+     theory of planned behavior (TPB) with trust. Br Food J 125(1):112–131.         67.   Schilke O (2014) On the contingent value of dynamic capabilities for
+     https://​doi.​org/​10.​1108/​BFJ-​03-​2021-​0338                                     competitive advantage: the nonlinear moderating effect of environ-
+ 47. Jílková P, Králová P (2021) Digital consumer behaviour and ecommerce                 mental dynamism. Strateg Manag J 35(2):179–203. https://​doi.​org/​10.​
+     trends during the COVID-19 crisis. Int Adv Econ Res 27(1):83–85. https://​           1002/​smj.​2099
+     doi.​org/​10.​1007/​s11294-​021-​09817-4                                       68.   Sousa R, Voss C (2008) Contingency research in operations manage-
+ 48. Lee JY, Yang YS, Ghauri PN (2023) E-commerce policy environment,                     ment practices. J Oper Manag 26(6):697–713. https://​doi.​org/​10.​1016/j.​
+     digital platform, and internationalization of Chinese new ventures: the              jom.​2008.​06.​001
+     moderating effects of Covid-19 pandemic. Manag Int Rev 63:57–90.               69.   Yue H (2022) Research on E-commerce data standard system in the era
+     https://​doi.​org/​10.​1007/​s11575-​022-​00491-0                                    of digital economy from the perspective of organizational psychology.
+ 49. Ramadan Z, Farah M, Abosag I, Sleiman A (2023) Typology of e-com-                    Front Psychol 13:1–10. https://​doi.​org/​10.​3389/​fpsyg.​2022.​900698
+     merce shoppers: the case of COVID-19. Quale Mark Res. https://​doi.​org/​      70.   Turban E, King D, Lee JK, Liang T-P, Turban DC (2015) Electronic com-
+     10.​1108/​QMR-​12-​2021-​0154                                                        merce: a managerial and social networks perspective, 8th edn. Springer,
+ 50. Huy PQ, Phuc VK (2022) Insight into the critical success factors of                  Cham
+     performance-based budgeting implementation in the public sector                71.   Alryalat MAA, Alryalat H, Alhamzi KHM, Sharma A (2023) Perceived barri-
+     for sustainable development in the COVID-19 pandemic. Sustainability                 ers to business-to-government (B2G) E-commerce adoption: the case
+     14(20):1–37. https://​doi.​org/​10.​3390/​su142​013198                               of government E-marketplace (GeM) portal in India. Int J Electron Gov
+ 51. Shulla K, Voigt B-F, Cibian S, Scandone G, Martinez E, Nelkovski F,                  Res 19(1):1–19. https://​doi.​org/​10.​4018/​IJEGR.​323571
+     Salehi P (2021) Effects of COVID-19 on the sustainable development             72.   Li X, Ma J, Zhou X, Yuan R (2023) Research on consumer trust mecha-
+     goals (SDGs). Discov Sustain 2(1):1–19. https://​doi.​org/​10.​1007/​                nism in China’s B2C E-commerce platform for second-hand cars.
+     s43621-​021-​00026-x                                                                 Sustainability 15:1–15. https://​doi.​org/​10.​3390/​su150​54244
+ 52. Ranjbari M, Shams Esfandabadi Z, Zanetti MC, Scagnelli SD, Siebers P-O,        73.   Skare M, Gavurova B, Rigelsky M (2023) Innovation activity and the
+     Aghbashlo M, Peng W, Quatraro F, Tabatabaei M (2021) Three pillars of                outcomes of B2C, B2B, and B2G E-Commerce in EU countries. J Bus Res
+     sustainability in the wake of COVID-19: A systematic review and future               163:1–12. https://​doi.​org/​10.​1016/j.​jbusr​es.​2023.​113874
+     research agenda for sustainable development. J Clean Prod 297:1–23.            74.   Timotius E, Sunardi O, Soenandi IA, Ginting M, Sabini B, Sutikno Y (2023)
+     https://​doi.​org/​10.​1016/j.​jclep​ro.​2021.​126660                                Buyers-sellers’ value of courier services: assessment in the Indonesian
+ 53. Yigitbasioglu O, Green P, Cheung M-YD (2022) Digital transformation                  C2C e-commerce. Int J Retail Distrib Manag 51(4):503–522. https://​doi.​
+     and accountants as advisors. Acc Audit Account J. https://​doi.​org/​10.​            org/​10.​1108/​IJRDM-​09-​2021-​0414
+     1108/​AAAJ-​02-​2019-​3894                                                     75.   Wei J, Wei X, Zhang DD, Liu J (2023) First-party content and market
+ 54. Ragazou K, Passas I, Garefalakis A, Zopounidis C (2023) Business                     concentration on a B2B E-commerce platform—theory and empirical
+     intelligence model empowering SMEs to make better decisions and                      evidence. Decis Support Syst 170:1–11. https://​doi.​org/​10.​1016/j.​dss.​
+     enhance their competitive advantage. Discov Anal 1(2):1–15. https://​                2023.​113958
+     doi.​org/​10.​1007/​s44257-​022-​00002-3                                       76.   Niranjanaurth M, Kavyashree N, Jagannath S, Chahar D (2013) Analysis
+ 55. Antoniadis I, Tsiakiris T, Tsopogloy S (2015) Business intelligence during           of e-commerce and m-commerce: advantages, limitations and security
+     times of crisis: adoption and usage of ERP systems by SMEs. Procedia                 issues. Int J Adv Res Comput Commun Eng 2(6):2360–2370
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                                                    Page 19 of 21
+
+
+
+
+ 77. Miyazaki AD, Fernandez A (2018) Internet privacy and security:                        Tan CC (eds) Mathematical and computational intelligence to socio-
+     an examination of online retailer disclosures. J Public Policy Mark                   scientific analytics and applications. Lecture notes in networks and
+     19(1):54–61. https://​doi.​org/​10.​1509/​jppm.​19.1.​54.​16942                       systems, vol 518. Springer, Singapore, pp 223–230. https://​doi.​org/​10.​
+ 78. D’Adamo I, González-Sánchez R, Medina-Salgado MS, Settembre-                          1007/​978-​981-​19-​5181-7_​17
+     Blundo D (2021) E-commerce calls for cyber-security and sustainability:         95.   Wang G, Zhang X, Gao Y, Yee AL, Wang X (2023) The use of an
+     how European citizens look for a trusted online environment. Sustain-                 internet of things data management system using data mining
+     ability 13(12):1–17. https://​doi.​org/​10.​3390/​su131​26752                         association algorithm in an e-commerce platform. J Organ End User
+ 79. Miao M, Jalees T, Zaman SI, Khan S, Hanif N-U, Javed MK (2022) The                    Comput 35(3):1–19. https://​doi.​org/​10.​4018/​JOEUC.​322553
+     influence of e-customer satisfaction, e-trust and perceived value               96.   Kumar N (2018) E-commerce in India: an analysis of present status,
+     on consumer’s repurchase intention in B2C e-commerce segment.                         challenges and opportunities. Int J Manag Stud 5(2):1–14. https://​doi.​
+     Asia Pac J Mark Logist 34(10):2184–2206. https://​doi.​org/​10.​1108/​                org/​10.​18843/​ijms/​v5i2(3)/​11
+     APJML-​03-​2021-​0221                                                           97.   Ahi AA, Sinkovics N, Sinkovics RR (2023) E-commerce Policy and the
+ 80. Zhang R, Fang L, He X, Wei C (2023) E-commerce security management                    Global Economy: A Path to More Inclusive Development? Manag Int
+     resources and organization. In: Zhang R, Fang L, He X, Wei C (eds) The                Rev 63:27–56. https://​doi.​org/​10.​1007/​s11575-​022-​00490-1
+     whole process of e-commerce security management system, advanced                98.   Aras G, Crowther D (2009) Making sustainable development sustain-
+     studies in e-commerce. Springer, Singapore, pp 37–60. https://​doi.​org/​             able. Manag Decis 47(6):975–988. https://​doi.​org/​10.​1108/​00251​
+     10.​1007/​978-​981-​19-​9458-6_3                                                      74091​09666​86
+ 81. Zhang R, Fang L, He X, Wei C (2023) E-commerce security manage-                 99.   Escursell S, Llorach-Massana P, Roncero MB (2021) Sustainability in
+     ment plan. In: Zhang R, Fang L, He X, Wei C (eds) The whole process                   e-commerce packaging: a review. J Clean Prod 280:1–17. https://​doi.​
+     of e-commerce security management system. Advanced studies in                         org/​10.​1016/j.​jclep​ro.​2020.​124314
+     e-commerce. Springer, Singapore, pp 15–36. https://​doi.​org/​10.​1007/​       100.   Faccia A, Le Roux CL, Pandey V (2023) Innovation and E-commerce
+     978-​981-​19-​9458-6_2                                                                models, the technology catalysts for sustainable development: the
+ 82. Zhang R, Fang L, He X, Wei C (2023) Supervision and optimization                      Emirate of Dubai case study. Sustainability 15:1–29. https://​doi.​org/​
+     mechanism of e-commerce security management. In: Zhang R, Fang L,                     10.​3390/​su150​43419
+     He X, Wei C (eds) The whole process of e-commerce security manage-             101.   Gao J, Siddik AB, Khawar Abbas S, Hamayun M, Masukujjaman M,
+     ment system. Advanced studies in e-commerce. Springer, Singapore,                     Alam SS (2023) Impact of E-commerce and digital marketing adop-
+     pp 281–295. https://​doi.​org/​10.​1007/​978-​981-​19-​9458-6_9                       tion on the financial and sustainability performance of MSMEs during
+ 83. Lin S-W, Fu H-P, Lin AJ (2023) Critical success factors and imple-                    the COVID-19 pandemic: an empirical study. Sustainability 15:1–21.
+     mentation strategies for B2B electronic procurement systems in                        https://​doi.​org/​10.​3390/​su150​21594
+     the travel industry. J Hosp Tour Technol. https://​doi.​org/​10.​1108/​        102.   Haryanti T, Subriadi AP (2022) E-commerce acceptance in the dimen-
+     JHTT-​08-​2021-​0230                                                                  sion of sustainability. J Model Manag 17(2):715–745. https://​doi.​org/​
+ 84. Vieira J, Frade R, Ascenso R, Prates I, Martinho F (2020) Generation Z and            10.​1108/​JM2-​05-​2020-​0141
+     key-factors on e-commerce: a study on the Portuguese tourism sector.           103.   Hayakawa K, Mukunoki H, Urata S (2023) Can e-commerce mitigate
+     Admin Sci 10(4):1–17. https://​doi.​org/​10.​3390/​admsc​i1004​0103                   the negative impact of COVID-19 on international trade? Jpn Econ
+ 85. Bao Z, Zhu Y (2023) Understanding customers’ stickiness of live                       Rev 74:215–232. https://​doi.​org/​10.​1007/​s42973-​021-​00099-3
+     streaming commerce platforms: an empirical study based on modified             104.   Islam MS, Proma AM, Wohn C, Berger K, Uong S, Kumar V, Korfmacher
+     e-commerce system success model. Asia Pac J Mark Logist 35(3):775–                    KS, Hoque E (2023) SEER: sustainable E-commerce with environ-
+     793. https://​doi.​org/​10.​1108/​APJML-​09-​2021-​0707                               mental-impact rating. Clean Environ Syst 8:1–10. https://​doi.​org/​10.​
+ 86. Colla E, Lapoule P (2012) E-commerce: exploring the critical success                  1016/j.​cesys.​2022.​100104
+     factors. Int J Retail Distrib Manag 40(11):842–864. https://​doi.​org/​10.​    105.   Oláh J, Kitukutha N, Haddad H, Pakurár M, Máté D, Popp J (2018)
+     1108/​09590​55121​12676​01                                                            Achieving sustainable E-commerce in environmental, social and
+ 87. Jian J, Lv L, Wan L (2023) Exploring consumer purchase intention                      economic dimensions by taking possible trade-offs. Sustainability
+     in cross-border e-commerce: evidence from ‘belt and road’ coun-                       11(1):1–22. https://​doi.​org/​10.​3390/​su110​10089
+     tries. Asia Pac J Mark Logist 35(3):625–644. https://​doi.​org/​10.​1108/​     106.   Pratap S, Jauhar SKJ, Daultani Y, Paul SK (2022) Benchmarking sustain-
+     APJML-​12-​2021-​0934                                                                 able E-commerce enterprises based on evolving customer expecta-
+ 88. Sharma H, Aggarwal AG (2019) Finding determinants of e-commerce                       tions amidst COVID-19 pandemic. Bus Strateg Environ 32(1):736–752.
+     success: a PLS-SEM approach. J Adv Manag Res 16(4):453–471. https://​                 https://​doi.​org/​10.​1002/​bse.​3172
+     doi.​org/​10.​1108/​JAMR-​08-​2018-​0074                                       107.   Zhang M (2023) Sustainability transitions in e-commerce research—
+ 89. Boas VV, Sousa BB (2022) The role of technical and relational factors in              academic achievements and impediments. Circul Econ Sustain.
+     trust and predisposition for online commerce: digital markets and con-                https://​doi.​org/​10.​1007/​s43615-​023-​00252-7
+     sumer perspective. Int J Electron Custom Relatsh Manag 13(2):166–185.          108.   Fink L, Yogev N, Even A (2017) Business intelligence and organi-
+     https://​doi.​org/​10.​1504/​IJECRM.​2021.​120353                                     zational learning: an empirical investigation of value creation
+ 90. Fan Z, Zhai X (2023) The performance improvement mechanism of                         processes. Inf Manag 54(1):38–56. https://​doi.​org/​10.​1016/j.​im.​2016.​
+     cross-border E-commerce grassroots entrepreneurship empowered by                      03.​009
+     the internet platform. Sustainability 15:1–14. https://​doi.​org/​10.​3390/​   109.   Tarek BH, Adel G, Sami A (2016) The relationship between ‘competi-
+     su150​21178                                                                           tive intelligence’ and the internationalization of North African SMEs.
+ 91. Khan SA (2023) E-marketing, e-commerce, e-business, and internet                      Compet Chang 20(5):326–336. https://​doi.​org/​10.​1177/​10245​29416​
+     of things: an overview of terms in the context of small and medium                    657494
+     enterprises (SMEs). In: Naim A, Devi AV (eds) Global applications of the       110.   Sabherwal R, Becerra-Fernandez I (2011) Business intelligence: prac-
+     internet of things in digital marketing, pp 332–348. https://​doi.​org/​10.​          tices, technologies, and management. Wiley, Hoboken
+     4018/​978-1-​6684-​8166-0                                                      111.   Alsaad A, Selem KM, Alam MM, Melhim LKB (2022) Linking business
+ 92. Picoto WN, Abreu JC, Martins P (2023) Integrating the internet of things              intelligence with the performance of new service products: insight
+     into E-commerce: the role of trust, privacy, and data confidentiality                 from a dynamic capabilities perspective. J Innov Knowl 7(4):1–11.
+     concerns in consumer adoption. Int J E-Bus Res 19(1):1–18. https://​doi.​             https://​doi.​org/​10.​1016/j.​jik.​2022.​100262
+     org/​10.​4018/​IJEBR.​321647                                                   112.   Cheng C, Zhong H, Cao L (2020) Facilitating speed of internationaliza-
+ 93. Shanmugalingam P, Shanmuganeshan A, Manorajan A, Kugathasan                           tion: the roles of business intelligence and organizational agility. J Bus
+     M, Pathirana GY (2023) Does e-commerce really matter on interna-                      Res 110:95–103. https://​doi.​org/​10.​1016/j.​jbusr​es.​2020.​01.​003
+     tional trade of Asian countries: evidence from panel data. PLoS ONE            113.   Novo E, Ribeiro HNR, Martins CAD (2023) The importance of business
+     18(4):1–16. https://​doi.​org/​10.​1371/​journ​al.​pone.​02845​03                     intelligence tools in the digital transition era: the Printria case. In: Eco-
+ 94. Sulthana AN, Vasantha S (2022) Effect of Internet of Things (IoT) and                 nomic and social development: book of proceedings, Varazdin: Varazdin
+     social media on e-commerce. In: Srivastava P, Thivagar ML, Oros GI,                   Development and Entrepreneurship Agency, pp 357–365
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                                                          Page 20 of 21
+
+
+
+
+114. Sun Z, Zou H, Strang K (2015) Big Data analytics as a service for business              J Manag Inf Syst 36(3):893–930. https://​doi.​org/​10.​1080/​07421​222.​
+     intelligence. Lecture notes in computer science, 200–211. https://​doi.​                2019.​16289​08
+     org/​10.​1007/​978-3-​319-​25013-7_​16                                           132.   Kanan T, Mughaid A, Al-Shalabi R, Al-Ayyoub M, Elbes M, Sadaqa O
+115. Zhou J, San OT, Liu Y (2023) Design and implementation of enterprise                    (2023) Business intelligence using deep learning techniques for social
+     financial decision support system based on business intelligence. Int                   media contents. Clust Comput 26:1285–1296. https://​doi.​org/​10.​1007/​
+     J Profess Bus Rev 8(4):1–14. https://​doi.​org/​10.​26668/​busin​essre​view/​           s10586-​022-​03626-y
+     2023.​v8i4.​873                                                                  133.   Kurnia PF (2018) Business intelligence model to analyze social media
+116. Alsibhawi IAA, Yahaya JB, Mohamed HB (2023) Business intelligence                       information. Procedia Comput Sci 135:5–14. https://​doi.​org/​10.​1016/j.​
+     adoption for small and medium enterprises: conceptual framework.                        procs.​2018.​08.​144
+     Appl Sci 13:1–12. https://​doi.​org/​10.​3390/​app13​074121                      134.   Wittwer M, Reinhold O, Alt R, Jessen F, Stüber R (2017) Social media ana-
+117. Lateef M, Keikhosrokiani P (2022) Predicting critical success factors of                lytics using business intelligence and social media tools—differences
+     business intelligence implementation for improving SMEs’ perfor-                        and implications. In: Abramowicz W, Alt R, Franczyk B (eds) Business
+     mances: a case study of Lagos State, Nigeria. J Knowl Econ. https://​doi.​              information systems workshops. BIS 2016. Lecture notes in business
+     org/​10.​1007/​s13132-​022-​00961-8                                                     information processing, vol 263. Springer, Cham, pp 252–259. https://​
+118. Popovič A, Puklavec B, Oliveira T (2019) Justifying business intelligence               doi.​org/​10.​1007/​978-3-​319-​52464-1_​23
+     systems adoption in SMEs: impact of systems use on firm perfor-                  135.   Al-Okaily A, Teoh AP, Al-Okaily M (2023) Evaluation of data analytics-
+     mance. Ind Manag Data Syst 119(1):210–228. https://​doi.​org/​10.​1108/​                oriented business intelligence technology effectiveness: an enterprise-
+     IMDS-​02-​2018-​0085                                                                    level analysis. Bus Process Manag J 29(3):777–800. https://​doi.​org/​10.​
+119. Wee M, Scheepers H, Tian X (2023) The role of leadership skills in the                  1108/​BPMJ-​10-​2022-​0546
+     adoption of business intelligence and analytics by SMEs. Inf Technol             136.   Agarwal R, Gupta BK, Sharma R (2022) Big data analytics for business
+     People 36(4):1439–1458. https://​doi.​org/​10.​1108/​ITP-​09-​2021-​0669                intelligence as a service. International Research Journal of Moderniza-
+120. Zoubi M, ALfaris Y, Fraihat B, Otoum A, Nawasreh M, ALfandi A (2023) An                 tion in Engineering Technology and Science 4(6):66–72
+     extension of the diffusion of innovation theory for business intelligence        137.   Guru SK (2023) Influence of big data analytics on business intelligence.
+     adoption: a maturity perspective on project management. Uncertain                       In: Sharma V, Maheshkar C, Poulose J (eds) Analytics enabled decision
+     Supply Chain Manag 11(2):465–472                                                        making. Palgrave Macmillan, Singapore, pp 45–58. https://​doi.​org/​10.​
+121. Naznen F, Lim WL (2023) Conceptualizing business intelligence (BI)                      1007/​978-​981-​19-​9658-0_3
+     adoption in SME to gain competitive advantage: effects of organiza-              138.   Duan Y, Fu G, Zhou N, Sun X, Narendra NC, Hu B (2015) Everything as a
+     tional mindfulness, inter-organizational relationship and technology                    service (XaaS) on the cloud: origins, current and future trends. In: 2015
+     orientation. In: Al-Sharafi MA, Al-Emran M, Al-Kabi MN, Shaalan K (eds)                 IEEE 8th international conference on cloud computing, pp 621–628.
+     Proceedings of the 2nd international conference on emerging tech-                       https://​doi.​org/​10.​1109/​cloud.​2015.​88
+     nologies and intelligent systems, ICETIS 2022. Lecture notes in networks         139.   Zheng Q, Chen J, Zhang R, Wang HH (2020) What factors affect Chinese
+     and systems, vol 584. Springer, Cham, pp 90–100. https://​doi.​org/​10.​                consumers’ online grocery shopping? Product attributes, e-vendor
+     1007/​978-3-​031-​25274-7_8                                                             characteristics and consumer perceptions. China Agric Econ Rev
+122. Aini Q, Harahap EP, Faradilla F (2019) The Effects of Sales Reports Busi-               12(2):193–213. https://​doi.​org/​10.​1108/​caer-​09-​2018-​0201
+     ness Intelligence on Employee Performance. APTISI Transactions on                140.   McAfee A, Brynjolfsson E (2012) Big data: the management revolution.
+     Management (ATM) 4(1):83–91. https://​doi.​org/​10.​33050/​atm.​v4i1.​1205              Harv Bus Rev 90:59–68
+123. Mbima D, Tetteh FK (2023) Effect of business intelligence on opera-              141.   BoydCrawford DK (2012) Critical questions for big data. Inf Commun
+     tional performance: the mediating role of supply chain ambidexterity.                   Soc 15(5):662–679. https://​doi.​org/​10.​1080/​13691​18x.​2012.​678878
+     Modern Supply Chain Res Appl 5(1):28–49. https://​doi.​org/​10.​1108/​           142.   Sivarajah U, Kamal MM, Irani Z, Weerakkody V (2017) Critical analysis
+     MSCRA-​08-​2022-​0020                                                                   of Big Data challenges and analytical methods. J Bus Res 70:263–286.
+124. Qaffas AA, Ilmudeen A, Almazmomi NK, Alharbi IM (2023) The impact of                    https://​doi.​org/​10.​1016/j.​jbusr​es.​2016.​08.​001
+     big data analytics talent capability on business intelligence infrastruc-        143.   Verhoef PC, Kooge E, Walk N (2016) Creating value with big data analyt-
+     ture to achieve firm performance. Foresight 25(3):448–464. https://​doi.​               ics: making smarter marketing decisions. Routledge, London
+     org/​10.​1108/​FS-​01-​2021-​0002                                                144.   Balachandran BM, Prasad S (2017) Challenges and benefits of deploy-
+125. Torres R, Sidorova A (2019) Reconceptualizing information quality as                    ing big data analytics in the cloud for business intelligence. Procedia
+     effective use in the context of business intelligence and analytics. Int J              Comput Sci 112:1112–1122. https://​doi.​org/​10.​1016/j.​procs.​2017.​08.​138
+     Inf Manag 49:316–329. https://​doi.​org/​10.​1016/j.​ijinf​omgt.​2019.​05.​028   145.   Duan L, Xu LD (2012) Business intelligence for enterprise systems: a
+126. Almtiri Z, Miah SJ, Noman N (2023) Impact of business analytics and                     survey. IEEE Trans Ind Inf 8(3):679–687. https://​doi.​org/​10.​1109/​tii.​2012.​
+     decision support systems on E-commerce in SMEs. In: Hsu CH, Xu M,                       21888​04
+     Cao H, Baghban H, ShawkatAli ABM (eds) Big Data intelligence and                 146.   Sun Z, Sun L, Strang K (2016) Big Data analytics services for enhancing
+     computing. DataCom 2022. Lecture notes in computer science, vol                         business intelligence. J Comput Inf Syst 58(2):162–169. https://​doi.​org/​
+     13864. Springer, Singapore, pp 344–361. https://​doi.​org/​10.​1007/​978-​              10.​1080/​08874​417.​2016.​12202​39
+     981-​99-​2233-8_​25                                                              147.   Hair JF, Hult GTM, Ringle CM, Sarstedt M (2022) A primer on partial least
+127. Daradkeh M (2023) The nexus between business analytics capabilities                     squares structural equation modeling (PLS-SEM), 3rd edn. Sage, New
+     and knowledge orientation in driving business model innovation: the                     York
+     moderating role of industry type. Informatics 10:1–23. https://​doi.​org/​       148.   Fornell C, Larcker DF (1981) Evaluating structural equation models with
+     10.​3390/​infor​matic​s1001​0019                                                        unobservable variables and measurement error. J Mark Res 18(1):39–50.
+128. Kabiraj S, Joghee S (2023) Improving marketing performance: how                         https://​doi.​org/​10.​2307/​31513​12
+     business analytics contribute to digital marketing. Int J Technol Innov          149.   Henseler J, Ringle CM, Sarstedt M (2015) A new criterion for assess-
+     Manag 3(1):9–18                                                                         ing discriminant validity in variance-based structural equation
+129. Schuetz CG, Schrefl M (2023) Conceptualizing analytics: an overview                     modeling. J Acad Mark Sci 43(1):115–135. https://​doi.​org/​10.​1007/​
+     of business intelligence and analytics from a conceptual-modeling                       s11747-​014-​0403-8
+     perspective. In: Vogel-Heuser B, Wimmer M (eds) Digital transformation.          150.   Hair JF, Risher JJ, Sarstedt M, Ringle CM (2019) When to use and how to
+     Springer, Berlin, Heidelberg, pp 311–336. https://​doi.​org/​10.​1007/​978-3-​          report the results of PLS-SEM. Eur Bus Rev 31(1):2–24. https://​doi.​org/​
+     662-​65004-2_​13                                                                        10.​1108/​EBR-​11-​2018-​0203
+130. Choi J, Yoon J, Chung J, Coh B-Y, Lee J-M (2020) Social media analytics          151.   Painuly S, Sharma S, Matta P (2021) Big Data driven E-commerce
+     and business intelligence research: a systematic review. Inf Process                    application management system. 2021 6th international conference on
+     Manage 57(6):1–18. https://​doi.​org/​10.​1016/j.​ipm.​2020.​102279                     communication and electronics systems (ICCES), pp 1–5. https://​doi.​
+131. Hu Y, Xu A, Hong Y, Gal D, Sinha V, Akkiraju R (2019) Generating busi-                  org/​10.​1109/​icces​51350.​2021.​94891​08
+     ness intelligence through social media analytics: measuring brand                152.   Ghandour A (2015) Big data driven e-commerce architecture. Int J Econ
+     personality with consumer-, employee-, and firm-generated content.                      Commerce Manag 3(5):940–947
+Huy and Phuc ﻿Future Business Journal 2023, 9(1):40                                                                                                      Page 21 of 21
+
+
+
+
+153. Yu R, Wu C, Yan B, Yu B, Zhou X, Yu Y, Chen N (2023) Analysis of the           173. Allen TD, Johnson RC, Kiburz KM, Shockley KM (2013) Work-Family
+     impact of Big Data on E-commerce in cloud computing environment.                    Conflict and Flexible Work Arrangements: Deconstructing Flexibility.
+     Complexity. https://​doi.​org/​10.​1155/​2021/​56135​99                             Pers Psychol 66(2):345–376. https://​doi.​org/​10.​1111/​peps.​12012
+154. Zhao Y, Zhou Y, Deng W (2020) Innovation mode and optimization                 174. Hjelmar U (2019) The institutionalization of public sector innovation.
+     strategy of B2C E-commerce logistics distribution under Big Data.                   Public Manag Rev 23(1):53–69. https://​doi.​org/​10.​1080/​14719​037.​2019.​
+     Sustainability 12(8):1–13. https://​doi.​org/​10.​3390/​su120​83381                 16657​02
+155. Gao Y (2021) Big Data analysis on E-commerce platform. In: Proceed-            175. Leonardi P, Treem JW (2020) Behavioral visibility: a new paradigm for
+     ings of the 2021 international conference on economic development                   organization studies in the age of digitization, digitalization, and data-
+     and business culture (ICEDBC 2021), pp 191–195                                      fication. Organ Stud 41(12):1601–1625. https://​doi.​org/​10.​1177/​01708​
+156. Ferreira T, Pedrosa I, Bernardino J (2017) Business intelligence for                40620​970728
+     E-commerce: survey and research directions. Recent Adv Inf Syst Tech-          176. Todisco L, Tomo A, Canonico P, Mangia G, Sarnacchiaro P (2021) Explor-
+     nol 10:215–225. https://​doi.​org/​10.​1007/​978-3-​319-​56535-4_​22                ing social media usage in the public sector: Public employees’ percep-
+157. Azhagan CT, Thamizharasi S (2018) A study on the role of business intel-            tions of ICT’s usefulness in delivering value added. Socioecon Plann Sci
+     ligence in E-commerce solutions. Int J Res Eng IT Soc Sci 08(5):176–181             73:1–28. https://​doi.​org/​10.​1016/j.​seps.​2020.​100858
+158. Bhuvaneswari R, Natarajan P (2018) Business intelligence-A tool for            177. Du X, Liu B, Zhang J (2019) Application of business intelligence based
+     robust E-Commerce. ZENITH Int J Multidiscip Res 8(9):165–180                        on big data in e-commerce data analysis. In: 2019 high performance
+159. Pan C-L, Bai X, Li F, Zhang D, Chen H, Lai Q (2021) How business intel-             computing and computational intelligence conference, pp 1–7
+     ligence enables e-commerce: breaking the traditional e-commerce                178. Padberg M (2015) Big Data and Business Intelligence: a data-driven
+     mode and driving the transformation of digital economy. In: 2021 2nd                strategy for e-commerce organizations in the hotel industry. Master
+     international conference on e-commerce and internet technology                      in Business Administration and Business Information Management.
+     (ECIT), pp 1–5. https://​doi.​org/​10.​1109/​ecit5​2743.​2021.​00013.               University of Twente the Netherlands
+160. Cai M, Luo J (2020) Influence of COVID-19 on manufacturing industry            179. Yang Y, Gong Y, Land LPW, Chesney T (2020) Understanding the effects
+     and corresponding countermeasures from supply chain perspective.                    of physical experience and information integration on consumer use of
+     J Shanghai Jiaotong Univ (Science) 25(4):409–416. https://​doi.​org/​10.​           online to offline commerce. Int J Info Manag 51:1–18. https://​doi.​org/​
+     1007/​s12204-​020-​2206-z                                                           10.​1016/j.​ijinf​omgt.​2019.​102046
+161. Ahmed A, Bhatti SH, Gölgeci I, Arslan A (2022) Digital platform capabil-       180. Hoang TDL, Nguyen HK, Nguyen HT (2021) Towards an economic
+     ity and organizational agility of emerging market manufacturing SMEs:               recovery after the COVID-19 pandemic: Empirical study on electronic
+     the mediating role of intellectual capital and the moderating role                  commerce adoption of small and medium enterprises in Vietnam.
+     of environmental dynamism. Technol Forecast Soc Chang 177:1–13.                     Manag Mark 16(1):47–68. https://​doi.​org/​10.​2478/​mmcks-​2021-​0004
+     https://​doi.​org/​10.​1016/j.​techf​ore.​2022.​121513                         181. Alsaig A, Alagar V, Ormandjieva O (2018) A critical analysis of the
+162. Ratten V (2020) Coronavirus and international business: an entrepre-                V-model of Big Data. In: 2018 17th IEEE international conference on
+     neurial ecosystem perspective. Thunderbird Int Bus Rev 62(5):629–634.               trust, security and privacy in computing and communications/12th
+     https://​doi.​org/​10.​1002/​tie.​22161                                             IEEE international conference on Big Data science and engineering
+163. Thukral E (2021) COVID-19: small and medium enterprises challenges                  (TrustCom/BigDataSE), pp 1809–1813. https://​doi.​org/​10.​1109/​Trust​
+     and responses with creativity, innovation, and entrepreneurship.                    Com/​BigDa​taSE.​2018.​00273
+     Strateg Chang 30(2):153–158. https://​doi.​org/​10.​1002/​jsc.​2399            182. Kabango CM, Asa AR (2015) Factors influencing e-commerce develop-
+164. Terziovski M (2010) Innovation practice and its performance implica-                ment: implications for the developing countries. Int J Innov Econ Dev
+     tions in small and medium enterprises (SMEs) in the manufacturing                   1(1):64–72. https://​doi.​org/​10.​18775/​ijied.​1849-​7551-​7020.​2015.​11.​2006
+     sector: a resource-based view. Strateg Manag J 31(8):892–902. https://​        183. Hoskisson RE, Eden L, Lau CM, Wright M (2000) Strategy in emerging
+     doi.​org/​10.​1002/​smj.​841                                                        economies. Acad Manag J 43(3):249–267. https://​doi.​org/​10.​2307/​
+165. Lin F-J, Lin Y-H (2016) The effect of network relationship on the perfor-           15563​94
+     mance of SMEs. J Bus Res 69(5):1780–1784. https://​doi.​org/​10.​1016/j.​      184. Davis DF, Golicic SL, Boerstler CN (2010) Benefits and challenges of
+     jbusr​es.​2015.​10.​055                                                             conducting multiple methods research in marketing. J Acad Mark Sci
+166. Walsh J, Nguyen TQ, Hoang T (2023) Digital transformation in Vietnam-               39(3):467–479. https://​doi.​org/​10.​1007/​s11747-​010-​0204-7
+     ese SMEs: managerial implications. J Internet Digit Econ. https://​doi.​
+     org/​10.​1108/​JIDE-​09-​2022-​0018
+167. Grant CA, Wallace LM, Spurgeon PC (2013) An exploration of the                 Publisher’s Note
+     psychological factors affecting remote e-worker’s job effectiveness,           Springer Nature remains neutral with regard to jurisdictional claims in pub-
+     well-being and work-life balance. Empl Relat 35(5):527–546. https://​doi.​     lished maps and institutional affiliations.
+     org/​10.​1108/​er-​08-​2012-​0059
+168. Xiao Y, Becerik-Gerber B, Lucas G, Roll SC (2021) Impacts of working
+     from home during COVID-19 pandemic on physical and mental well-
+     being of office workstation users. J Occup Environ Med 63(3):181–190.
+     https://​doi.​org/​10.​1097/​JOM.​00000​00000​002097
+169. Adisa TA, Aiyenitaju O, Adekoya OD (2021) The work–family balance
+     of British working women during the COVID-19 pandemic. Journal of
+     Work-Applied Management 13(2):241–260. https://​doi.​org/​10.​1108/​
+     JWAM-​07-​2020-​0036
+170. Möhring K, Naumann E, Reifenscheid M, Wenz A, Rettig T, Krieger U,
+     Friedel S, Finkel M, Cornesse C, Blom AG (2021) The COVID-19 pan-
+     demic and subjective well-being: longitudinal evidence on satisfaction
+     with work and family. Eur Soc 23(1):S601–S617. https://​doi.​org/​10.​1080/​
+     14616​696.​2020.​18330​66
+171. Suh A, Lee J (2017) Understanding teleworkers’ technostress and its
+     influence on job satisfaction. Internet Res 27(1):140–159. https://​doi.​
+     org/​10.​1108/​intr-​06-​2015-​0181
+172. Eddleston KA, Mulki J (2015) Toward understanding remote workers’
+     management of work-family boundaries: the complexity of workplace
+     embeddedness. Group Org Manag 42(3):346–387. https://​doi.​org/​10.​
+     1177/​10596​01115​619548
+

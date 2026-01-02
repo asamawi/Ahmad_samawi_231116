@@ -1,0 +1,775 @@
+                                                        Available online at www.ijournalse.org
+
+
+                                                     Emerging Science Journal
+                                           Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+
+
+
+          Multi-Perspective Decision-making Cloud Computing Adoption
+                 Model for Small and Medium Enterprises (SMEs)
+
+                                                        Can Sayginer 1*, Tuncay Ercan 2
+             1
+                 Department of Management Information Systems, Yaşar University, University Street, No 37-39, Bornova, Izmir 35100, Turkey
+                     2
+                         Department of Computer Engineering, Yaşar University, University Street, No 37-39, Bornova, Izmir 35100, Turkey
+
+
+
+                                                                                                             Keywords:
+    Abstract
+                                                                                                             Cloud Computing Adoption;
+    The research aims to test the model of integrated DOI theory and TOE framework to predict Cloud
+                                                                                                             Confirmatory Factor Analysis;
+    Computing (CC) decision-making intentions of SMEs, Izmir, Turkey. The survey data was
+    collected from 140 Information Technology (IT) decision-makers via Google forms survey tool.             Decision-Making Model;
+    Confirmatory factor analyses were made to examine the decision-making approach of SMEs. The              DOI Theory;
+    study revealed that the variance of top management support and complexity explained 29.8% of             SMEs;
+    the decision-making approach to CC adoption. The originality of the study is that the research on        TOE Theory.
+    cloud computing in Turkey is scarce and not comprehensive either. In addition, they are not for
+    Turkish SMEs. This research will bring together an introductory plan for cloud providers to
+    understand the intentions of SMEs for adopting cloud computing. This research will also provide          Article History:
+    scholars with an in-depth analysis of the status contributing to the academic research in the field of
+                                                                                                             Received:     25     August         2021
+    ICT development in developing countries. This study will contribute to SMEs’ ICT infrastructure
+    policies, and support governments in creating a legal framework to make laws for a secure                Revised:      17     November       2021
+    environment for SMEs to reduce costs, and gain a competitive advantage over Large Enterprises            Accepted:     03     December       2021
+    (LEs).
+                                                                                                             Published:    28     December       2021
+
+
+
+
+1- Introduction
+   Information Technology (IT) has introduced several products and services such as software, internet, electronics,
+and telecommunication equipment that help business processes to be improved. IT also optimizes the costs budgets of
+the companies (economics perspective) [1]. From the social aspect, it creates a cooperative work environment [2]. It
+also increases individuals’ knowledge so that they can comply with companies’ operating processes (personal
+development) [3]. When these three perspectives are considered, the research question of this study is “what are the
+factors that affect, obstruct and threaten cloud technology adoption in small and medium enterprises”. To have a better
+understanding and offer solutions to SMEs and cloud providers, the study analyzed the particular environment using
+Diffusion of Innovation (DOI) theory in combination with Technology, Organization and Environment (TOE)
+framework.
+   This study aims to provide a solution by showing the threats and hindrances to the perceptions of companies for
+Cloud Computing (CC) adoption in order to build the most effective and appropriate IT infrastructure system. This
+research also addresses the key challenges and issues of CC adoption, such as innovativeness of companies,
+technological, organizational, and environmental points of view. In order to build the rational mindset integrated with
+the business goals of companies in SMEs, this research fills the gap of literature for developing countries by
+
+*
+    CONTACT: can.sayginer@yasar.edu.tr
+DOI: http://dx.doi.org/10.28991/esj-2021-SP1-010
+© 2020 by the authors. Licensee ESJ, Italy. This is an open access article under the terms and conditions of the Creative
+Commons Attribution (CC-BY) license (https://creativecommons.org/licenses/by/4.0/).
+
+
+
+                                                                                                                                             Page | 141
+                                                 Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+considering external factors, such as compatibility, competitive pressure, technological readiness, and top management
+support matters, and internal factors: cost reduction, security concerns, relative advantage, and complexity towards CC
+adoption. Besides the study of [4] about SMEs and the study of [5] about the logistic sector taking place in Turkey,
+there is no specific study applied DOI and TOE theories especially for Turkish SMEs in the field of cloud computing
+adoption.
+    CC offers sets of ICT infrastructure such as operating systems, backup services, and software for enterprises [6].
+The deployment of ICT architecture consists of two business technology: on-premise, and CC [7]. The CC term, “data
+in the cloud”, is declared as web-based computing with the idea of data, and software is hosted in the data centers of
+the providers to increase rented IT sources effectively and decrease operational expenditures (OPEX). However,
+businesses, which have highly sensitive data, fluctuating user demands, and diverse application alternation on a large
+number of users, tend to adopt on-premise computing that data and software are hosted in the local servers [7]. Either
+of the decision varied different challenges for companies but most companies faced with the issues of analyzing,
+implementing IT activities for their business processes that cause high variable costs [8]. Therefore, understanding the
+difference between on-premise and CC is important for the IT infrastructure decisions of companies to form business
+continuity. There are several IT infra-structure studies for SMEs regarding CC adoption. Keskin et al. (2020) [9]
+observed the critical elements of cloud provider selection over storing data (on-premise or CC). Neicu et al. (2020)
+[10] analyzed the perception of cloud consumers over using cloud providers’ product. Nagahawatta et al. (2021) [11]
+made an in-depth literature research from 2010 to 2020 regarding security concerns over CC adoption. Hence, the
+scholars found out that security is important as knowing data, where should be located, is important either outside of
+company or inside, and knowing the customers’ ability to learn CC products is also crucial to overcome productivity
+issues.
+    Most companies, which adopted cloud computing (CC), generate “meaningful data” for companies to sustain their
+existence in the market [12]. Due to the challenges faced and difficulties of storing and analyzing a large amount of
+data in companies, CC has become a breakthrough technology for the last decade. There is no doubt that this
+inevitable technology adoption tends to increase because of ever-increasing IP traffic growth, broadband speed, and
+mobile traffic growth. There is tremendous growth in the number of data traffic at the rate of 22%, the broadband rate
+at nearly 100%, mobile traffic at the rate of 53% from 2015 to 2020 [13]. Cisco (2020) [14] also reported that data
+traffic, broadband rate, and mobile traffic are expected to increase up to 0.35-fold, 4.2-fold, and 0.57-fold growth by
+2023, respectively. Hence, this ever-increasing volume of internet users with the data growth indicated that examining
+the benefits, challenges, and obstacles of cloud computing adoption cannot be ignored. In other words, this study is
+necessary since companies ought to take affordable IT solutions according to their business needs against ever-
+increasing data growth in the world, and position themselves for the market competition to smoothly utilize the
+benefits of cloud computing adoption.
+   Turkey is the 17th largest economy with a GDP of 857 billion USD [15]. Sener et al. (2014) [4] also stated that
+SMEs constitute 99% of the total number of companies and cover 76 % of the employment of the Turkish industry.
+Although a great percentage of the number of SMEs are small and they employ up to 675800 workers, which can be
+considered as companies with low potential for cloud computing, the medium-size enterprises that employ 1.275.772
+workers each employing up to 250 employees form a great potential for cloud adoption [4]. SMEs are also the
+innovator promoters in developing countries [16].
+   According to OC & C Strategy Consultants (2018) [15], CC services have increased the level of innovativeness of
+a country. Turkey’s fiber broadband services have increased 10 % percent from 2016 to 2018 but should increase more
+to attract cloud providers for entering the Turkish ICT market. Free cross-border data flows have caused the
+accessibility of cloud-based services of Infrastructure as a service (IaaS), Software as a service (SaaS), and Platform as
+a service (PaaS) to grow in Turkey [15]. Hence, Deloitte (2020)’s research [17] also revealed that CC will be highly
+impactful in technological areas in Turkey in the next years.
+
+2- Theoretical Framework
+    The issues of CC adoption emerged and were addressed in some technological decision theories. These adoption
+theories are widely used for assessing factors of CC adoption for example, Diffusion of Innovation (DOI) (Rogers,
+1983) [18]; Technology, Organization and Environment (TOE) (Tornatzky and Fleischer, 1990) [19]; Technology
+Acceptance Theory (TAM) (Davis, 1989) [20]; and The Theory of Reasoned Action (TRA) (Fishbein and Ajzen,
+1977) [21]. In this study, Integrated DOI and TOE theory models were applied for Turkish SMEs, as illustrated in
+Figure 1. Due to the need for organizational research, combined DOI and TOE theory is considered effective to use, as
+it is the two-step flow decision (adoption or rejection) of DOI theory, mentioned by Rogers (1983) [18], TOE theory
+was incorporated into this study together with DOI theory to exhibit how external environment of CC adoption affects
+the decision processes of SMEs. There are two adoption theories used for assessing factors of cloud computing
+adoption in the study.
+
+
+
+                                                                                                                            Page | 142
+                                                Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+2-1- Diffusion of Innovation (DOI) Theory
+   Relative advantage is the degree, which understands the perceived manner of individuals over the new technology
+in terms of economic factors, and social-prestige factors, over the old technology [22]. Security concerns and cost
+reduction are found as economic and social-prestige factors by Oliveira et al. (2014) [23]. Complexity is the degree, to
+understand the perceived behavior of individuals that are found easy or difficult to use [22]. In Turkish SMEs, Cost
+Reduction (CR), Security Concerns (SC), and Relative Advantage (RA) indirectly affected CC adoption but
+complexity affected CC adoption directly, as the hypothesis shown below.
+  H1a1: Cost Reduction (CR) will negatively influence relative advantage (RA) for SMEs.
+  H1a2: Security Concerns (SC) will negatively influence relative advantage (RA) for SMEs.
+  H1a: Relative Advantage (RA) will negatively influence complexity (CX) for SMEs.
+  H1: Complexity (CX) will negatively influence cloud-computing adoption (CCA) for SMEs.
+
+2-2- Technology, Organization, and Environment (TOE) Theory
+   Top management leadership behavior is an organizational context, which has a key role in fostering CC adoption.
+The executive team is formed by top management support for the adoption to create a vision for the future [19].
+Compatibility is the degree, to which one understands the perceived ideas, norms, and also whether they fit the
+previous experiences and the existing values of individuals [22]. The available technology is a technological context,
+in which the company’s resources are supposed to fit with the current technology. Technological readiness was
+pioneered by Tornatzky & Fleischer (1990) [19] to understand the constraints and capacity of companies over the
+technology choice. The dimension of competition is an environmental context, in which the price, quality, and service
+give companies the ability to compete with the rivals [19]. Competitive pressure was found by Tornatzky & Fleischer
+(1990) [19] to monitor the differences in communication with customers. In Turkish SMEs, Technological Readiness
+(TR), Compatibility (CO), and Competitive Pressure (CP). Top management support directly affected CC adoption, as
+the hypothesis illustrated below.
+  H2: Top Management Support (TMS) will positively influence cloud-computing adoption (CCA) for SMEs.
+  H2a: Compatibility (CO) will positively influence Top Management Support (TMS) for SMEs.
+  H2b: Technological Readiness (TR) will positively influence Top Management Support (TMS) for SMEs.
+  H2c: Competitive Pressure (CP) will positively influence Top Management Support (TMS) for SMEs.
+
+
+
+
+                                             Figure 1. The proposed model.
+3- Research Methodology
+    The research strategy is mainly survey research that contains questionnaires as the data collection method. The
+quantitative research methodology was chosen for SMEs to investigate innovation diffusion (DOI theory) and the
+technology, organization, and environment factors of CC adoption (TOE theory). The survey was sent to 472 SMEs
+from the Izmir Chamber of Commerce, and the Aegean Region Chamber of Industry. The survey was responded to by
+140 SMEs (the response rate is 29.6%) that fits the sample size, which should be 3 to 20 times the number of variables
+and range from 100 to above 1000 according to Mundform et al. (2005) [24]. Accordingly, Confirmatory factor
+analysis was used to analyze the data over the SmartPLS analysis tool. The research methodology flow chart was
+illustrated in Figure 2 below.
+
+
+                                                                                                                           Page | 143
+                                                 Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+
+                                                      Research Problem
+
+
+
+                                                       Data Collection
+
+
+
+                                      Multi-perspective Questionnaire Model Design
+
+
+
+                                                        Data Analysis
+
+
+                                                      Hypothesis Results
+
+                                    Figure 2. The Research Methodology Flow Chart.
+
+   The unit of analysis is the SMEs, classified as previously experienced CC adoption, already adopted, or never
+adopted CC in the city of Izmir, Turkey. Google forms were used for online questionnaires. 32 close-ended questions
+were asked to respondents from January 2021 to June 2021. Out of 32, questions 6 were created to profile SMEs’ IT
+capacities, as shown in Table 1. 26 questions were gathered from Oliveira et al. (2014)’s study [23]. The proposed
+model is not completely consistent with Oliveira et al. (2014)’s research model [23]. There are differences because this
+study was conducted in a different country with a unique business and industrial climate. Tornatzky & Klein (1982)
+[25] declared that complexity and compatibility both have relationships with DOI and TOE theories, in which
+compatibility is included for the proposed model in the TOE model.
+   The Likert scale (strongly disagree 1-5 strongly agree) was used to gather ratio scale data. In the proposed model 9
+constructs and 26 items were measured by applying structural equational modeling. CC adoption was selected as a
+dependent variable containing 2 items. In the DOI theory, there are 4 independent variables including RA, CR, CS,
+and CX each of which has 4, 2, 3, and 3 items, respectively. In the TOE theory, there are 4 independent variables
+including CO, TR, CP, and TMS that each of them has 4, 2, 3, and 3 items, respectively. Upon eliciting the results,
+evaluations were made based on the hypothesis suggested as a starting point for the study.
+
+4- Results
+   Table 1 indicated that 44.2 % of SMEs in Turkey have not adopted CC yet. Within 44.2 %, 12.1% of Turkish
+SMEs are expected to adopt CC in the next 3 years or more. The percentages of those SMEs which are expected to
+adopt CC in less than a year, between 1 and 3 years, and 3 years and above are all the same as 10.7%. The project
+managers, who agreed to implement or decided not to implement CC, were male (67.1%), between the age of 41 and
+50 (33.6%), and their SMEs’ operating in the service sector (77.8%). Cloud applications, which have been adopted by
+SMEs, are IaaS (Cloud Storage, and Virtual Servers), PaaS (Microsoft Azure, Google App Engine, Amazon EC2
+cloud platforms, and IBM SmartCloud Cloud-based Database Management Systems. Amazon RDS, Google Cloud
+SQL, Microsoft SQL Azure, etc.), and SaaS (Google apps, CRM, ERP, etc.) were with 53.5%, 21.4%, and 18.5%,
+respectively.
+                           Table 1. Small and medium enterprises (SMEs) profile of the study.
+
+                                                         SMEs Profile
+                                                                                            Number        (%)
+                                                           Male                                94         67.1
+                                 Gender
+                                                           Female                              46         32.9
+                                                           20-25                               9          6.43
+                                                           26-30                               30         21.4
+                                   Age                     31-40                               47         33.5
+                                                           41-50                               30         21.4
+                                                           51 and above                        24         17.1
+                                                           Production Sector                   31         22.2
+                                  Sector
+                                                           Service Sector                     109         77.8
+                                                           0                                   62         44.2
+                                                           Between 1 and 3                     53         37.8
+                       Number of Cloud Applications
+                                                           Between 4 and 6                     16         11.4
+                                                           7 and above                         9           8.2
+
+
+
+
+                                                                                                                            Page | 144
+                                                    Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+                                                             Companies don’t consider it            15       10.7
+                                                             Less than 1 year                       15       10.7
+                      The Expected time for the adoption     Between 1 and 3 years                  15       10.7
+                                                             3 years and above                      17       12.1
+                                                             Companies already adopted it           78       57.4
+                                                             Infrastructure services                75       53.5
+                                                             Platform services                      30       21.4
+                              Cloud Applications             Software services                      26       18.5
+                                                             Security as a Service, etc.            9         6.4
+                                                             Non adopters                           78       44.2
+
+
+    DOI and TOE constructs demonstrate composite reliability (CR), and average variance extracted (AVE) that are
+between 0.841, and 0.929, which are between above 0.7, and 0.5 based on Arifin (2019) [26], respectively. It shows
+reliable and valid data, as shown in Table 2. For the integrated DOI and TOE theory, all items’ loadings are greater
+than 0.7 declared by Hair et al. (2010) [27], which is valid. Thus, all items are chosen in the structural model.
+   DOI has four constructs. For relative advantage, four items were added, containing the value of CR (0.912),
+including the value of AVE (0.721), involving the value of Cronbach’s Alpha (0.870), and holding factor loadings
+between 0.591 and 0.888. For cost reduction, two items were added, containing the value of CR (0.842), including the
+value of AVE (0.728), involving the value of Cronbach’s Alpha (0.632), and holding factor loadings between 0.808
+and 0.896. For security concerns, three items were added, containing the value of CR (0.921), including the value of
+AVE (0.796), involving the value of Cronbach’s Alpha (0.875), and holding factor loadings between 0.859 and 0.910.
+For complexity, three items were added, containing the value of CR (0.912), including the value of AVE (0.776),
+involving the value of Cronbach’s Alpha (0.855), and holding factor loadings between 0.783 and 0.942.
+   TOE has four constructs. For compatibility, four items were added, containing the value of CR (0.929), including
+the value of AVE (0.765), involving the value of Cronbach’s Alpha (0.898), and holding factor loadings between
+0.752 and 0.897. For technological readiness, two items were added, containing the value of CR (0.844), including the
+value of AVE (0.730), involving the value of Cronbach’s Alpha (0.636), and holding factor loadings between 0.839
+and 0.870. For competitive pressure, three items were added, containing the value of CR (0.841), including the value
+of AVE (0.640), involving the value of Cronbach’s Alpha (0.728), and holding factor loadings between 0.731 and
+0.900. For top management support, three items were added, containing the value of CR (0.891), including the value
+of AVE (0.733), involving the value of Cronbach’s Alpha (0.817), and holding factor loadings between 0.747 and
+0.910.
+   The independent construct is cloud computing adoption. For cloud computing adoption, two items were added,
+containing the value of CR (0.967), including the value of AVE (0.937), involving the value of Cronbach’s Alpha
+(0.933), and holding factor loadings between 0.966 and 0.970.
+   According to Table 4, the structural model fits well with the SRMR value of 0.078, which Hu & Bentler (1998)
+[28] confirmed that SRMR is less than 0.08, or 0.10, a good fit, or average fit, respectively.
+
+               Table 2. DOI and TOE constructs, items, loadings, Cronbach’s Alpha, CR, and AVE values.
+
+                    DOI Main Constructs                    Items       Loadings        Cronbach's Alpha        CR          AVE
+                                                           RA1           0.888
+                                                           RA2           0.880
+       (H1a) Relative Advantage (RA)                                                        0.870             0.912        0.721
+                                                           RA3           0.822
+                                                           RA4           0.591
+                                                           CR1           0.896
+       (H1a1) Cost Reduction (CR)                                                           0.632             0.842        0.728
+                                                           CR2           0.808
+                                                           SC1           0.910
+       (H1a2) Security Concerns (SC)                       SC2           0.859              0.875             0.921        0.796
+                                                           SC3           0.908
+                                                           CX1           0.783
+       (H1) Complexity (CX)                                CX2           0.942              0.855             0.912        0.776
+                                                           CX3           0.911
+
+
+
+
+                                                                                                                               Page | 145
+                                                                 Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+
+                       TOE Main Constructs                               Items         Loadings           Cronbach's Alpha        CR    AVE
+
+                                                                         CO1               0.897
+                                                                         CO2               0.873
+        (H2a) Compatibility (CO)                                                                               0.898           0.929    0.765
+                                                                         CO3               0.877
+                                                                         CO4               0.752
+                                                                         TR1               0.839
+        (H2b) Technological Readiness (TR)                                                                     0.636           0.844    0.730
+                                                                         TR2               0.870
+                                                                         CP1               0.900
+        (H2c) Competitive Pressure (CP)                                  CP2               0.731               0.728           0.841    0.640
+                                                                         CP3               0.759
+                                                                        TMS1               0.910
+        (H2) Top Management Support (TMS)                               TMS2               0.747               0.817           0.891    0.733
+                                                                        TMS3               0.809
+
+                      Independent Construct                              Items         Loadings           Cronbach's Alpha        CR    AVE
+
+                                                                        CCA1               0.966
+        Cloud Computing Adoption (CCA)                                                                         0.933           0.967    0.937
+                                                                        CCA2               0.970
+
+
+   The correlation matrix was measured within 9 constructs. According to the three dimensions of correlations pointed
+by Hair et al. (2017) [29], the strongest correlations were listed in Table 3, below. It was observed that there is a strong
+correlation between compatibility, and top management support, with a value of 0.734. It was found that there is a
+partial correlation between technological readiness, and top management support, with a value of 0.679. It can be
+stated that there is a partial correlation between compatibility, and technological readiness, with a value of 0.629.
+
+                                                              Table 3. Correlation matrix.
+
+           Constructs         RA           CR            SC            CX             CO            TR             CP        TMS       CCA
+               RA               1
+                CR           0.528          1
+                SC           -0.168       0.088           1
+               CX            -0.399      -0.200        0.494             1
+               CO            0.626        0.362        -0.250         -0.332           1
+                TR           0.427        0.223        -0.091         -0.268         0.629            1
+                CP           0.343        0.224        -0.620         0.046          0.452         0.332            1
+               TMS           0.588        0.319        -0.168         -0.271         0.734         0.679          0.331       1
+               CCA           0.404        0.162        -0.321         -0.295         0.507         0.282          0.331      0.522      1
+         *Three dimensions of correlations (Hair et al., 2017) [25]: below 0.3: weak, 0.3-0.7: partial, above 0.7: strong
+
+
+   The relationship between the constructs was referred to by the hypothesis testing, as shown in Table 4. T values of
+the constructs, which are higher than 1.96, or less than -1.96, verifying that the hypothesis is supported [30].
+   For DOI theory, the study exhibited that CR positively affects RA with a strong effect size (β = 0.547, p = 0.000),
+with a T value of 7.748, thus supporting H1a1 but SC negatively affects RA with a strong effect size (β =-0.216,
+p=0.011), with T value of -2.561 thus supporting H1a2. The study showed that RA negatively affects CX with a strong
+effect size (β = -0.399, p = 0.000), with the T value of -4.822 respectively, thus supporting H1a. The study indicated
+that CX negatively affects CCA with a strong effect size (β = -0.166, p = 0.020), with the T value of -2.337
+respectively, supporting H1.
+   For TOE theory, the study indicated that CO positively affects TMS with a strong effect size (β = 0.398, p = 0.00),
+with the T value of 4.906 respectively, thus supporting H2a. The study exhibited that TR positively affects TMS with
+a strong effect size (β = 0.340, p = 0.000), with the T value of 4.800, thus supporting H2b. The study showed that CP
+positively affects TMS with a strong effect size (β = 0.269, p = 0.000), with the T value of 4.424, thus supporting H2c.
+The study exhibited that TMS positively affects CCA with a strong effect size (β = 0.477, p = 0.000), with the T value
+of 7.189, thus supporting H2.
+
+
+
+                                                                                                                                             Page | 146
+                                                    Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+   The variances of the integrated model are seen in Table 4. The variance of CR, and SC explained 32.5 % of the
+variance of RA. The variance of RA explained 15.9 % of the variance of CX. The variance of CO, TR, and CP
+explained 67.4% of the variance of TMS. The variance of CX, and TMS explained 29.8 % of the variance of RA. The
+results indicate that SMEs with decisions of top management support, and the degree of complexity highly influence
+CC adoption. The path diagram of the proposed model is shown in Figure 3.
+                                             Table 4. Results of Hypothesis testing.
+
+                  Integrated Model                    Beta (β)        T-Values         Results          P-Values
+                                                  Hypothesized Path of the DOI
+                  H1a1. CR -> RA (+)                   0.547            7.748        Supported            0.000
+                  H1a2. SC -> RA (-)                   -0.216           -2.561       Supported            0.011
+                                                                2
+                                                            R : 0.325
+                  RA -> CX (-)                         -0.399           -4.822       Supported            0.000
+                    2
+                  R : 0.159
+                  CX -> CCA (-)                        -0.166           -2.337       Supported            0.020
+                                                  Hypothesized Path of the TOE
+                  CO -> TMS (+)                        0.398            4.906        Supported            0.000
+                  TR -> TMS (+)                        0.340            4.800        Supported            0.000
+                  CP -> TMS (+)                        0.269            4.424        Supported            0.000
+                                                            R2: 0.674
+                  TMS -> CCA (+)                       0.477            7.189        Supported            0.000
+                  Structural Model R2: 0.298
+                  Model Fit:       SRMR 0.078
+
+
+
+
+                                       Figure 3. The path diagram of the proposed model.
+
+5- Discussions
+5-1- Main Findings of the Present Study
+    CC is not widespread in Turkish SMEs and is not expected to be widely used soon, as illustrated in Table 1. The
+DOI theory, which measured how it is spread in the Turkish SMEs market, showed that the degree of complexity both
+negatively and directly influences CC adoption. Investigating the external factors, the TOE theory, indicated that the
+top management support directly influenced the decision-making approach to adopt CC for Turkish SMEs. Both of the
+factors showed that business processes adoption, and steering committee and their management took an important role
+in the decision.
+
+
+
+                                                                                                                               Page | 147
+                                                  Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+5-2- Implication and Explanation of Findings and Comparison with Other Studies
+    One of the most effective factors of complexity is cost savings. Fixed costs should be specified as the cost of
+ownership in terms of equipment costs, data migration costs, and maintenance costs [31]. If variable costs are a large
+amount, vanilla implementation can be applied by the cloud provider as the default system. If a company is eager to
+customize it, if required, hiring a consultant can diminish the costs of ownership that SMEs can know what their needs
+are, which can result in the reduction of a degree of complexity [7]. Al Ajmi et al. (2017), Bhuyan & Dash (2018), and
+Lynn et al. (2018) [32-34] stated that cost reduction affected CC adoption in the education sector in Umman, Indian
+hospitals, and Irish companies. However, Oliveira et al. (2014) [23] disagreed that cost reduction didn’t directly affect
+CC adoption in service and production companies in Portugal. Cost-saving is more likely to affect SMEs Alismaili et
+al. (2016) and it also affects companies that use SaaS Janssen & Joha (2011) [35, 36].
+   The second of the most effective factors of complexity is security concerns. Maintenance, network configurations,
+software license, and log-in servers are set by cloud providers, instead of SME’s own IT department. This has brought
+several risks such as eavesdropping, denial of service attacks that have brought complexity in configuring and
+customizing cloud services. Disaster recovery can be applied to cloud-based services, which has brought certainty in
+adopting CC. On the other hand, Charlebois et al. (2016) [37] appealed that the security concerns will negatively
+influence relative advantage in genomics research in Germany, Lynn et al. (2018) [34] stated that the security concerns
+will negatively influence relative advantage in Irish companies, Sayginer &Tuncay (2020) [38] reported that the
+security concerns will negatively influence relative advantage in Turkish national sector. Security concerns are more
+likely to be supported in developed countries, based on Charlebois et al. (2016) [37], and Lynn et al. (2018) [34].
+    The third most effective factor of complexity is the relative advantage. CC, the new system, has brought a set of
+initiatives such as hiring technical equipment, renting software based on the fluctuating number of varying users and
+over the legacy system. This has made the implementation process faster, and it enables SMEs to introduce their
+products and services to the market much quicker. Alshamaila et al. (2013), and Sallehudin et al. (2015) [39, 40]
+agreed that relative advantage directly affects CC adoption in English SMEs, and the Malaysian public sector,
+respectively. However, Charlebois et al. (2016), and Hassan and Nasir (2017) [37, 41] contradicted that relative
+advantage will not directly influence CC adoption. Relative advantage is less likely to be affected SMEs in the Far
+East (Hassan and Nasir, 2017), the middle eastern firms (Mas’adeh, 2016), and in the colleges, and universities of the
+American continent (Klug & Bai, 2015) [41-43]. Relative advantage is more likely to affect European SMEs' decisions
+(Alshamaila et al., 2013), and in developing countries (Senyo et al., 2016) [39, 44].
+   One of the most effective factors of CC adoption is complexity. If the business processes adoption issues emerge,
+bolt-in technology can be offered to build much-customized software from a third-party cloud provider [7]. Adopting
+multiple products from distinct cloud providers has brought the lack of building centralized database systems. In case
+of this breakdown, a best-of-breed strategy can be recommended to adopt multiple products from several cloud
+providers, but SLA contracts should be done in case of the exit strategy. Aktepe & Saatcioglu (2017) [5] stated that the
+application properties, which cloud providers have built, are restricted for logistic sectors. Sallehudin et al. (2015), and
+Hassan and Nasir (2017) [40, 41] claimed that the complexity doesn’t affect CC adoption in the Malaysian public
+sector and Malaysian SMEs, respectively. However, Oliveira et al. (2014), Gangwar et al. (2015), Gutierrez et al.
+(2015), and Alkhalil et al. (2017) [23, 45-47] found the complexity is significantly important in the adoption in
+Portuguese companies, Indian companies, English companies, and English SMEs, respectively. Complexity is a
+widely accepted factor of DOI and TOE in the research overviewed prior to this study such as Oliveira et al. (2014),
+Gangwar et al. (2015), Gutierrez et al. (2015), Alkhalil et al. (2017), and Alshamaila et al. (2013) [23, 39, 45-47],
+whereas public sector is not commonly accepted.
+    The second of the most effective factors of CC adoption is top management support. A steering committee of
+SMEs in Turkey should appoint an experienced project manager. Consultants can take part in the system to customize
+cloud-based services. Parallel implementation can also be applied, as the old system is in progress, the new system can
+work at the same time as well. A project manager should hire qualified program managers to test units, integrations,
+and performance loads. If the business process is already fit, a big bang implementation strategy can be applied, which
+decreases the cost. Oliveira et al. (2014) [23] found that top management support highly affects the adoption in the
+Portuguese service sector and companies; Alkhalil et al. (2017) [47] reported that it highly affects the adoption in
+English SMEs; Deil & Brune (2017) [48] stated that top management support highly affects the adoption German
+SMEs. However, Oliveira et al. (2014), Gutierrez et al. (2015), Kyriakou et al. (2017), and Al-Hujran et al. (2018) [23,
+46, 49, 50] proved that top management support is not significantly important, in the Portuguese manufacturing sector,
+UK companies, ceramic and cement sectors in six European countries (Germany, France, Italy, Poland, Spain, and the
+UK) and Jordan companies. Top management support is more likely to affect the service sector declared by Oliveira et
+al. (2014) and SMEs stated by Alkhalil et al. (2017) [23, 47].
+   The first of the most effective factors of top management support is compatibility. Well-defined roles and targeted
+departmental communications should be specified to increase knowledge of CC in Turkish SMEs. Super-users can be
+
+
+
+                                                                                                                             Page | 148
+                                                   Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+deployed in the project to build strong communication skills among the staff [7]. In case of any failures, change agents
+can be hired to help minimize compatibility issues in the Turkish market with sets of educations for staff to use the
+new system (Bradford, 2015) [7]. Otherwise, these actors can result in losing the power of top management support in
+the future for Turkish SMEs. Deil & Brune (2017), Bhuyan & Dash (2018), and Lynn et al. (2018) [48, 33, 34] proved
+that compatibility affects CC adoption in German SMEs, Indian hospitals, Irish SMEs, respectively. On the other
+hand, Oliveira et al. (2014), Alismaili et al. (2016), and Hassan and Nasir (2017) [23, 35, 41] claim that perceived
+compatibility is not likely to affect adoption in Portuguese companies, Australian SMEs, and Malaysian SMEs,
+respectively. Compatibility is claimed to be more likely to affect English SMEs Alshamaila et al. (2013) [39], it is also
+more likely to affect SMEs in Asia Continent Pathan et al. (2017) [51], Senyo et al. (2016) [44] reported that
+compatibility is likely to affect developing countries; Sallehudin et al. (2015) [40] found out that it is highly effective
+in far east public sector; Mas’adeh (2016) [42] reported similar likeliness in Middle Eastern countries. Studies in
+Middle Eastern higher education institutions and Tashkandi and Al-Jabri (2015) [52] shoved similarities.
+    The second of the most effective factors of top management support is technological readiness. The SMEs, which
+use internet infrastructure, and mobile technology, should consider technological readiness [46]. A high-bandwidth
+connection is essential for providing quality of service that the availability and the response times of services must be
+guaranteed under the SLA [31]. Adequate broadband access in Turkey hasn’t been made according to the user needs
+[53, 54]. There is no national broadband plan strategy implemented [55]. However, The Scientific and Technological
+Research Council of Turkey (TUBITAK), the Turkish GSM operators such as Turk Telekom, and Turkcell started
+investing in base stations for 5G internet infrastructure [56]. Oliveira et al. (2013), Oliveira et al. (2014), and Hassan et
+al. (2017) [23, 57, 58] asserted that technological readiness was found significantly important, regarding Portuguese
+companies, Portuguese firms, and Malaysian SMEs, respectively, however, Alkhalil et al. (2017), and Deil and Brune
+(2017) [47, 48] opposed the perceived technological readiness effects on CC adoption in English SMEs and German
+SMEs. Technological readiness is less likely to affect small and medium companies in developed countries [23, 47,
+48].
+   The third of the most effective factors of top management support is competitive pressure. Competitive pressure
+over companies depends on the SaaS, PaaS, and IaaS cloud provider’s products and entry-level of Turkish market that
+affects top management of companies to build an IT infrastructure strategy. The bargaining power of buyers of
+infrastructure as a service is weak in Turkey over PaaS, and SaaS, as there are fewer IaaS cloud providers such as
+Amazon, Google, and DigitalOcean [59]. As indicated in Table 1, there are 34.4%, 13.8%, and 11.9% of IaaS, PaaS,
+and SaaS adopters for Turkish SMEs, respectively. The majority of SMEs have adopted IaaS, which shows that well-
+known cloud providers have absolute power over adopting CC. On the other hand, PaaS, and SaaS adopters are less
+likely to adopt since switching cost is less and the exit barrier is less difficult than IaaS. Gangwar et al. (2015), and
+Hassan et al. (2017) [45, 58] reported that there is a significant relationship between competitive pressure and the
+adoption in Indian companies and Malaysian SMEs. On the other hand, Oliveira et al. (2014), and Alismaili et al.
+(2016) [23, 35] claimed that competitive pressure is not significantly important. Competitive pressure has changed
+depending on the region [45, 58]. Far East countries are also more likely to be affected in Indian and Malaysian
+companies Gangwar et al. (2015) [45, 58] respectively.
+
+5-3- Strengths and Limitations
+    This study will be useful for SMEs to increase the level of the adoption at a high compliance level for ICT
+development in terms of IaaS, PaaS, and SaaS adoption to compete with LEs. This study contributes to IT
+development through cloud providers and academia by applying integrated DOI and TOE theory on how SMEs can
+better understand their business processes and how to deal with the drawbacks and barriers of adopting CC for the
+decision-making approach to CC adoption. This study will help non-cloud adopters increase their knowledge of CC in
+terms of the development of ICT infrastructures for the successful digital transformation. The main restriction of the
+study is that the study has been conducted only in a specific region of Turkey, however, the study topic, CC adoption,
+is considered a common issue in developing countries with similar businesses and industrial climate.
+
+6- Conclusion, Recommendation, and Future Work
+    There is a low level of CC adoption at a low compliance level by Turkish SMEs, as it is shown that adopters are
+more likely to adopt IaaS than PaaS and SaaS. There is also a low-security level as it is seen in Table 1 that 4 out of
+100 SMEs there is security as service users (SeaaS) only, as it is also believed that the remote data centers from the
+office are untrustworthy. Business process adoption issues in terms of complexity, and inexperienced project managers
+in terms of top management support are the key hindrances on the CC adoption for Turkish SMEs. Cost reduction and
+security concerns are significant factors, affecting the relative advantage positively, and negatively, respectively.
+Relative advantage also negatively affects complexity. Competitive pressure, technological readiness, and
+compatibility positively influence top management support.
+
+
+
+
+                                                                                                                              Page | 149
+                                                    Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+   Government should tend to enhance the IT infrastructure of the country and balance trust, transparency, and
+neutrality among the actors, including operators, cloud providers, and SMEs in Turkey. Operators should also invest
+more in fiber infrastructure to enable service providers to provide mature cloud services in Turkey. In addition, the
+government should remove the obstacles hindering international cloud providers from entering the Turkish market
+where there is a lack of regulation that the data is not under a safe harbor agreement in Turkey. Moreover, SMEs
+should train their IT staff not only for implementation but also for integration and migration to grow in-house
+consultants, and experienced IT staff. For IaaS, well-known cloud providers are in the Turkish market that SMEs’
+service level agreement contracts are fully dependent on cloud providers, which may increase the cost. For PaaS and
+SaaS that have more options, cloud providers should invest more for mature cloud services in Turkey. Even there are
+PaaS and SaaS services in the market, the government should acknowledge SMEs to increase the awareness of CC and
+give incentives for trials of cloud services. Internet bandwidth, broadband subscriptions, and broadband data
+connection speeds should be increased for the benefits of these cloud services to attract cloud providers so that SMEs
+will have options to select reasonable cloud-based services, minimizing the perceived risks and cost. However, there
+are barriers to using those services from multiple cloud providers, because the integration costs of the distinct
+providers’ services can be high, and a high level of IT staff or in-house consultants is required.
+   Future research is required to examine the sectoral division of SMEs such as manufacturing, and service sector or
+public and private sector, and will be extended by measuring Trialability within DOI theory, and Regulatory support
+within TOE theory. Product as a service segmentation will be able to be divided for these distinct sectors such as
+hardware, servers in terms of IaaS, software platforms, operating system in terms of PaaS, and CRM, supply chain
+systems in terms of SaaS.
+
+7- Declarations
+7-1- Author Contributions
+   C.S. collected the company data and developed the model and the conceptual framework; T.E. developed a draft
+plan and formed a summary together with C.S; C.S. and T.E. and contribution to the cloud computing literature
+review. All authors have read and agreed to the published version of the manuscript.
+
+7-2- Data Availability Statement
+   The data presented in this study are available in article.
+
+7-3- Funding
+   The authors received no financial support for the research, authorship, and/or publication of this article.
+
+7-4- Acknowledgements
+   We would like to thank survey respondents in Izmir in Turkey for their time and participation.
+
+7-5- Conflicts of Interest
+   The authors declare that there is no conflict of interests regarding the publication of this manuscript. In addition,
+the ethical issues, including plagiarism, informed consent, misconduct, data fabrication and/or falsification, double
+publication and/or submission, and redundancies have been completely observed by the authors.
+
+8- References
+[1] Santinha, G., and Antonio Soares. “SMEs and ICTs Adoption: A New Challenge to Regional Policies.” 44th Congress of the
+    European Regional Science Association: Regions and Fiscal Federalism European Regional Science Association (ERSA).
+    Available online: https://www.econstor.eu/bitstream/10419/117159/1/ERSA2004_435.pdf (accessed on August 2021).
+[2] Yildirim, F. “How Marketing and Customers Will Be Affected By Cloud Computing?” International Journal of eBusiness and
+    eGovernment Studies 4, no. 2 (2012): 27–35.
+[3] Singh, Shweta, and Arun Kumar Tripathi. “Analyzing for Performanc Factors in Cloud Computing.” International Journal of
+    Control Theory and Applications 9, no. 21 (2016): 87–96.
+[4] Şener, Sefer, Mesut Savrul, and Orhan Aydın. “Structure of Small and Medium-Sized Enterprises in Turkey and Global
+    Competitiveness Strategies.” Procedia - Social and Behavioral Sciences 150 (2014): 212–21. doi:10.1016/j.sbspro.2014.09.119.
+[5] AKTEPE, Çağlar, and Ömür Yaşar Saatçioğlu “Cloud Computing Adoption in Logistics Firms in Turkey: An Exploratory
+    Study.” Sosyal Bilimler Arastirmalari Dergisi 7, no. 1 (2017): 9–20.
+
+[6] Thakur, Neeti, Dhananjay Bisen, Vikas Rohit, and Neelesh Gupta. “Review on Cloud Computing: Issues, Services and Models.”
+    International Journal of Computer Applications 91, no. 9 (2014): 34–39. doi:10.5120/15912-5120.
+
+
+
+                                                                                                                               Page | 150
+                                                     Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+[7] Bradford, Marianne. “Modern ERP: Select, Implement & Use Today’s Advanced Business Systems.” ISBN 978 1 (2015): 284.
+
+[8] Priyadarshinee, Pragati, Manoj Kumar Jha, Rakesh D. Raut, and Manoj G. Kharat. “Risk Analysis in Adoption of Cloud
+    Computing in SMEs - A Literature Review.” International Journal of Business Information Systems 23, no. 1 (2016): 54–86.
+    doi:10.1504/IJBIS.2016.078023.
+
+[9] Keskin, N, A N Kiran, F K Egdemir, and T Eren. “Cloud Computer Service Provider Selection with Multicriteria Decision
+    Making Methods.” International Journal of Management Information Systems and Computer Science, n.d., 52–73.
+
+[10] Neicu, Andra Ileana, Anamaria Catalina Radu, Gheorghe Zaman, Ivona Stoica, and Florian Rapan. “Cloud Computing Usage
+     in SMEs. An Empirical Study Based on SMEs Employees Perceptions.” Sustainability (Switzerland) 12, no. 12 (2020).
+     doi:10.3390/su12124960.
+
+[11] Nagahawatta, Ruwan, Matthew Warren, Sachithra Lokuge, and Scott Salzman. “Security Concerns Influencing the Adoption
+     of Cloud Computing by SMEs: A Literature Review.” In 27th Annual Americas Conference on Information Systems, AMCIS
+     (2021).
+
+[12] McKinsey Global Institute. The Age of Analytics: Competing in a Data-driven World. (2016). Available online:
+     https://mck.co/3H8xYLN (accessed on August 2021).
+
+[13] Cisco. Cisco Global Cloud Index (2015–2020). Available online: https://bit.ly/3eE6l13 (accessed on August 2021).
+
+[14] Cisco. Cisco Annual Internet Report (2018-2023). Available online: https://bit.ly/3my0oXI (accessed on August 2021).
+
+[15] OC & C Strategy Consultants. Tech Entrepreneurship Ecosystem in Turkey (2018). Available online:
+     https://www.occstrategy.com/media/1298/tech-entrepreneurship-ecosystem-in-turkey.pdf (accessed on August 2021).
+
+[16] Caputo, A. C., F. Cucchiella, L. Fratocchi, P. M. Pelagagge, and F. Scacchia. “A Methodological Framework for Innovation
+     Transfer to SMEs.” Industrial Management and Data Systems 102, no. 5 (2002): 271–83. doi:10.1108/02635570210428302.
+[17] Deloitte. Information and Communication Technologies (ICT) 2019 Market Data. (2020). Available online:
+     http://www.tubisad.org.tr/en/images/pdf/tubisad_ict_2020.pdf (accessed on July 2021).
+[18] Rogers, Everett M. “Diffusion of Innovations. n. p.: 3rd Edition” (1983). Macmillan Publishing. ISBN 978 0029266502.
+[19] Tornatzky, Louis G., Mitchell Fleischer, and Alok K. Chakrabarti. “Processes of technological innovation.” Lexington Books,
+     (1990).
+[20] Davis, Fred D. “Perceived Usefulness, Perceived Ease of Use, and User Acceptance of Information Technology.” MIS
+     Quarterly: Management Information Systems 13, no. 3 (1989): 319–39. doi:10.2307/249008.
+[21] Fishbein, Martin, and Icek Ajzen. "Belief, attitude, intention, and behavior: An introduction to theory and research."
+     Philosophy and Rhetoric 10, no. 2 (1977).
+[22] Rogers, Everett M. “Diffusion of Innovations: Modifications of a Model for Telecommunications.” In Die Diffusion von
+     Innovationen in Der Telekommunikation, 25–38, 1995. doi:10.1007/978-3-642-79868-9_2.
+[23] Oliveira, Tiago, Manoj Thomas, and Mariana Espadanal. “Assessing the Determinants of Cloud Computing Adoption: An
+     Analysis of the Manufacturing and Services Sectors.” Information and Management 51, no. 5 (2014): 497–510.
+     doi:10.1016/j.im.2014.03.006.
+[24] Mundfrom, Daniel J., Dale G. Shaw, and Tian Lu Ke. “Minimum Sample Size Recommendations for Conducting Factor
+     Analyses.” International Journal of Testing 5, no. 2 (2005): 159–68. doi:10.1207/s15327574ijt0502_4.
+[25] Tornatzky, Louis G., and Katherine J. Klein. “Innovation Characteristics and Innovation Adoption-Implementation: A Meta-
+     Analysis of Findings.” IEEE Transactions on Engineering Management EM-29, no. 1 (1982): 28–45.
+     doi:10.1109/TEM.1982.6447463.
+[26] Arifin, W. N. “Confirmatory Factor Analysis and Raykov’s rho. dim (data. cfa).” (2019). Available online:
+     https://wnarifin.github.io/workshop/qvw2019/cfa.pdf (accessed on August 2021).
+[27] Hair, Joseph F. Jr., William C. Black, Berry J. Babin and Rolph E. Anderson. “Multivariate Data Analysis. n.p.: Pearson, 7th
+     edition” (2010). ISBN 978 0138132637.
+[28] Hu, Li Tze, and Peter M. Bentler. “Fit Indices in Covariance Structure Modeling: Sensitivity to Underparameterized Model
+     Misspecification.” Psychological Methods 3, no. 4 (1998): 424–53. doi:10.1037/1082-989X.3.4.424.
+[29] Sarstedt, Marko, Christian M. Ringle, and Joseph F. Hair. “Partial Least Squares Structural Equation Modeling.” Handbook of
+     Market Research (2017): 1–40. doi:10.1007/978-3-319-05542-8_15-1.
+[30] Hair Jr., Joseph F., G. Tomas M. Hult, Christian M. Ringle, Marko Sarstedt, Julen Castillo Apraiz, Gabriel A. Cepeda Carrión,
+     José Luis Roldán, et al. “Manual de Partial Least Squares Structural Equation Modeling (PLS-SEM) (Segunda Edición)” (July
+     9, 2019). doi:10.3926/oss.37.
+
+
+
+                                                                                                                                Page | 151
+                                                   Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+[31] Faynberg, Igor, Hui-Lan Lu, and Dor Skuler. Cloud Computing - Business Trends and Technologies. Vol. 41. Ltd: John Wiley
+     & Sons, 2016. doi:10.1002/9781118736074.
+[32] Al Ajmi, Qasim, Ruzaini Abdullah Arshah, Adzhar Kamaludin, Ali Safa Sadiq, and Mohammed A. Al-Sharafi. “A Conceptual
+     Model of e-Learning Based on Cloud Computing Adoption in Higher Education Institutions.” 2017 International Conference
+     on Electrical and Computing Technologies and Applications (ICECTA) (November 2017). doi:10.1109/icecta.2017.8252013.
+[33] Bhuyan, Sambit, and Manoranjan Dash. “Exploring Cloud Computing Adoption in Private Hospitals in India: An Investigation
+     of DOI and TOE Model.” Journal of Advanced Research in Dynamical and Control Systems 10, no. 8 Special Issue (2018):
+     443–51.
+[34] Lynn, Theo, Xiaoning Liang, Anna Gourinovitch, John Morrison, Grace Fox, and Pierangelo Rosati. “Understanding the
+     Determinants of Cloud Computing Adoption for High Performance Computing.” Proceedings of the 51st Hawaii International
+     Conference on System Sciences (2018). doi:10.24251/hicss.2018.489.
+[35] Alismaili, Salim, Mengxiang Li, Jun Shen, and Qiang He. “A Multi Perspective Approach for Understanding the Determinants
+     of Cloud Computing Adoption among Australian SMEs.” In ACIS 2015 Proceedings - 26th Australasian Conference on
+     Information Systems, (2015).
+[36] Janssen, Marijn, and Anton Joha. “Challenges for Adopting Cloud-Based Software as a Service (SAAS) in the Public Sector.”
+     In 19th European Conference on Information Systems, ECIS 2011, 2011. http://aisel.aisnet.org/ecis2011/80.
+[37] Charlebois, Kathleen, Nicole Palmour, and Bartha Maria Knoppers. “The Adoption of Cloud Computing in the Field of
+     Genomics Research: The Influence of Ethical and Legal Issues.” PLoS ONE 11, no. 10 (2016): 1–33.
+     doi:10.1371/journal.pone.0164347.
+[38] Sayginer, C., and Tuncay Ercan. “Cloud Computing Adoption by National Sector in Turkey: A Framework based on DOI
+     Theory.” Proceedings Book of V. International European Congress on Social Sciences. (2020). ISBN 978 625 7898 15 7.
+[39] Alshamaila, Yazn, Savvas Papagiannidis, and Feng Li. “Cloud Computing Adoption by SMEs in the North East of England: A
+     Multi-Perspective Framework.” Journal of Enterprise Information Management 26, no. 3 (2013): 250–75.
+     doi:10.1108/17410391311325225.
+[40] Hasimi Sallehudin, Razli Che Razak, and Mohammad Ismail. “Factors Influencing Cloud Computing Adoption in the Public
+     Sector: An Empirical Analysis.” Journal of Entrepreneurship and Business 3, no. 1 (2015): 30–45. doi:10.17687/jeb.0301.03.
+[41] Hassan, H., and H. M. Nasir. “Determinants of Cloud Computing Adoption at Firm Level: From the Technological Context.”
+     Journal of Engineering and Applied Sciences 12, no. 16 (2017): 4186–92. doi:10.3923/jeasci.2017.4186.4192.
+[42] Mas’adeh, Ra’ed. “Cloud Computing Perceived Importance in the Middle Eastern Firms: The Cases of Jordan, Saudi Arabia
+     and United Arab Emirates from the Operational Level.” Communications and Network 08, no. 03 (2016): 103–117.
+     doi:10.4236/cn.2016.83011.
+[43] Klug, W, and X Bai. “Factors Affecting Cloud Computing Adoption among Universities and Colleges in the United States and
+     Canada.” Issues In Information Systems 16, no. 111 (2015): 1–10. doi:10.48009/3_iis_2015_1-10.
+[44] Senyo, Prince Kwame, John Effah, and Erasmus Addae. “Preliminary Insight into Cloud Computing Adoption in a Developing
+     Country.” Journal of Enterprise Information Management 29, no. 4 (2016): 505–24. doi:10.1108/JEIM-09-2014-0094.
+[45] Gangwar, Hemlata, Hema Date, and R. Ramaswamy. “Understanding Determinants of Cloud Computing Adoption Using an
+     Integrated TAM-TOE Model.” Journal of Enterprise Information Management 28, no. 1 (2015): 107–130. doi:10.1108/JEIM-
+     08-2013-0065.
+[46] Gutierrez, Anabel, Elias Boukrami, and Ranald Lumsden. “Technological, Organisational and Environmental Factors
+     Influencing Managers’ Decision to Adopt Cloud Computing in the UK.” Journal of Enterprise Information Management 28,
+     no. 6 (2015): 788–807. doi:10.1108/JEIM-01-2015-0001.
+[47] Alkhalil, Adel, Reza Sahandi, and David John. “An Exploration of the Determinants for Decision to Migrate Existing
+     Resources to Cloud Computing Using an Integrated TOE-DOI Model.” Journal of Cloud Computing 6, no. 1 (2017).
+     doi:10.1186/s13677-016-0072-x.
+[48] Deil, Robert, and Philipp Brune. “Cloudy with a Chance of Usage? - Towards a Model of Cloud Computing Adoption in
+     German SME.” In CEUR Workshop Proceedings, edited by X Franch, J Ralyté, R Matulevičius, C Salinesi, and R Wieringa,
+     1848:65–72, 2017.
+[49] Kyriakou, Niki, Manolis Maragoudakis, Euripidis Loukis, and Marinos Themistocleous. “Prediction of Propensity for
+     Enterprise Cloud Computing Adoption.” Proceedings of the 50th Hawaii International Conference on System Sciences (2017)
+     (2017). doi:10.24251/hicss.2017.596.
+[50] Al-Hujran, Omar, Enas M. Al-Lozi, Mutaz M. Al-Debei, and Mahmoud Maqableh. “Challenges of Cloud Computing
+     Adoption from the TOE Framework Perspective.” International Journal of E-Business Research 14, no. 3 (2018): 77–94.
+     doi:10.4018/IJEBR.2018070105.
+
+
+
+                                                                                                                              Page | 152
+                                                  Emerging Science Journal | Vol. 4, Special Issue "IoT, IoV, and Blockchain", (2020, 2021)
+
+[51] Pathan, Zulfiqar Hussain, Zeng Jianqiu, Umair Akram, Muhammad Kaleem Khan, Zahid Latif, and M. Zahid Tunio.
+     “Innovation-Diffusion Determinants of Cloud-Computing Adoption by Pakistani SMEs.” Human Systems Management 36, no.
+     3 (2017): 197–209. doi:10.3233/HSM-171794.
+
+[52] Tashkandi, Al Alaa, and Ibrahim Al-Jabri. “Cloud Computing Adoption by Higher Education Institutions in Saudi Arabia:
+     Analysis Based on TOE.” In 2015 International Conference on Cloud Computing, ICCC 2015.
+     doi:10.1109/cloudcomp.2015.7149634.
+
+[53] Guner, E. O., and Eriks Sneiders. “Cloud Computing Adoption Factors in Turkish Large-scale Enterprises.” PACIS 2014
+     Proceedings (2014). https://aisel.aisnet.org/pacis2014/353 (accessed on August 2021).
+
+[54] Arpaci, Ibrahim. “Antecedents and Consequences of Cloud Computing Adoption in Education to Achieve Knowledge
+     Management.” Computers in Human Behavior 70 (2017): 382–90. doi:10.1016/j.chb.2017.01.024.
+
+[55] The Software Alliance. 2018 BSA Global Cloud Computing Scorecard- Powering a Bright Future. (2018). Available online:
+     https://cloudscorecard.bsa.org/2018/pdf/BSA_2018_Global_Cloud_Scorecard.pdf (accessed on August 2021).
+
+[56] ITA, International Trade Administration. Turkey - Information and Communication Technology. (2019). Available online:
+     https://www.export.gov/apex/article2?id=Turkey-Information-and-Communications-Technology (accessed on August 2021).
+
+[57] Oliveira, L.R.De, A JulioMurlick, G V Pereira, and R Vicentin. “Adoption Analysis of Cloud Computing Services.” African
+     Journal of Business Management 7, no. 24 (2013): 2362–74. doi:10.5897/AJBM12.1333.
+
+[58] Hassan, Haslinda, Mohd Herry Mohd Nasir, Norhaiza Khairudin, and Iskandar Adon. “Factors Influencing Cloud Computing
+     Adoption in Small and Medium Enterprises.” Journal of Information and Communication Technology 16, no. 1 (2017): 21–41.
+     doi:10.32890/jict2017.16.1.8216.
+
+[59] Au-Yeung, B., D Chu, M Enfante, G Logan, and K Saelee. Industry Analysis: Cloud Computing. (2017). Available online:
+     https://www.csus.edu/indiv/h/hattonl/documents/cloudcomputingindustry.pdf (accessed on August 2021).
+
+
+
+
+                                                                                                                             Page | 153
+

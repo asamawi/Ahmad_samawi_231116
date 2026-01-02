@@ -1,0 +1,788 @@
+                                                                                                                                    PDF Download
+                                                                                                                                    3445969.3450427.pdf
+                                                                                                                                    20 December 2025
+                                                                                                                                    Total Citations: 14
+                                                                                                                                    Total Downloads: 923
+    .
+    .
+        Latest updates: hps://dl.acm.org/doi/10.1145/3445969.3450427
+
+
+
+
+                                                                                                                                    .
+                                                                                                                                    .
+                                                                                                                          Published: 28 April 2021
+        .
+        .
+                                                                                                                          .
+    RESEARCH-ARTICLE
+
+
+
+
+                                                                                                                          .
+                                                                                                                          Citation in BibTeX format
+    A Flexible Security Analytics Service for the Industrial IoT
+
+
+
+
+                                                                                                                          .
+                                                                                                                          .
+                                                                                                                          CODASPY '21: Eleventh ACM
+                                                                                                                          Conference on Data and Application
+    PHILIP EMPL, University of Regensburg, Regensburg, Bayern, Germany                                                    Security and Privacy
+    .
+                                                                                                                          April 28, 2021
+    GÜNTHER PERNUL, University of Regensburg, Regensburg, Bayern, Germany                                                 Virtual Event, USA
+    .
+                                                                                                                          .
+    .
+                                                                                                                          .
+                                                                                                                          Conference Sponsors:
+    .
+    Open Access Support provided by:                                                                                      SIGSAC
+    .
+    University of Regensburg
+    .
+                                                 SAT-CPS '21: Proceedings of the 2021 ACM Workshop on Secure and Trustworthy Cyber-Physical Systems (April 2021)
+                                                                                                                          hps://doi.org/10.1145/3445969.3450427
+                                                                                                                                             ISBN: 9781450383196
+.
+Session 1: AI for CPS Security                                                                                        SAT-CPS ’21, April 28, 2021, Virtual Event, USA
+
+
+
+
+         A Flexible Security Analytics Service for the Industrial IoT
+                                                                                  Philip Empl
+                                                                                 Günther Pernul
+                                                                       philip.empl@ur.de
+                                                                    guenther.pernul@ur.de
+                                                    Chair of Information Systems, University of Regensburg
+                                                                    Regensburg, Germany
+
+ABSTRACT                                                                                           1   INTRODUCTION
+In Cloud Computing, the cloud serves as a central data hub for                                     The emerging technologies around the Industrial Internet of Things
+the Industrial Internet of Things’ (IIoT) data and is deployed in                                  (IIoT) provide considerable advantages in many application fields.
+diverse application fields, e.g., Smart Grid or Smart Manufacturing.                               For instance, distributed sensors can be utilized in IIoT systems
+Therefore, the aggregated and contextualized data is bundled in a                                  to optimize processes and escort the industry to Smart Manufac-
+central data hub, bringing tremendous cybersecurity advantages.                                    turing’s vision by applying machine learning algorithms. Through
+Given the threat landscape in IIoT systems, especially SMEs (small                                 the coincide of domains, new insights can be generated, such as
+and medium-sized enterprises) need to be prepared regarding their                                  optimizing a machine’s production parameters. The alignment of in-
+cybersecurity, react quickly, and strengthen their overall cyber-                                  formation technology (IT) and operations technology (OT) requires
+security. For instance, with the application of machine learning                                   explicit knowledge in both domains and extensive cybersecurity
+algorithms, security-related data can be analyzed predictively in                                  knowledge. While IT systems are processing tons of OT systems
+order to be able to ward off a potential attack at an early stage.                                 data (e.g., from Industrial Control Systems) in decentralized architec-
+Since modern reference architectures for IIoT systems, such as                                     tures, new security threats arise, e.g., Sybil attacks [27], Wormhole
+RAMI 4.0 or IIRA, consider cybersecurity approaches on a high                                      attacks [10] or Distributed Denial of Service attacks [21]. Small and
+level and SMEs lack financial funds and knowledge, this paper con-                                 medium-sized enterprises (SME) are not up to the current state of
+ceptualizes a security analytics service used as a security add-on                                 the art regarding cybersecurity, making them vulnerable to new
+to these reference architectures. Thus, this paper conceptualizes a                                attack vectors. They often exhibit outstanding knowledge around
+flexible security analytics service that implements security capabili-                             their supply chain and production processes but cannot compete
+ties with flexible analytical techniques that fit specific SMEs’ needs.                            with the steadily evolving attack vectors. This gap can be traced
+The security analytics service is also evaluated with a real-world                                 back to a lack of financial, technical, or even personnel resources for
+use case.                                                                                          innovation [19] and the necessary knowledge about information
+                                                                                                   security and vulnerabilities [8].
+CCS CONCEPTS                                                                                       Knowledge is powerful and essential to be resilient against novel
+• Security and privacy → Security services; Domain-specific                                        attack vectors, such as the Distributed Denial of Service attack. To
+security and privacy architectures; • Applied computing → IT                                       what extent data and wisdom are related is illustrated in the Data-
+architectures; Reference models; Service-oriented architectures; •                                 Information-Knowledge-Wisdom (DIKW) hierarchy by Ackoff [1].
+Information systems;                                                                               In it, data generates information, information creates knowledge,
+                                                                                                   and knowledge makes wisdom. It might not always be necessary
+                                                                                                   to climb the hierarchy latter to the top, but a response to an inci-
+KEYWORDS                                                                                           dent should be triggered quickly concerning cybersecurity. Thereby,
+Industrial IoT, Security as a Service, Security Analytics                                          quick reactions build upon wisdom. For example, merely collect-
+                                                                                                   ing security-related data would not benefit the industry, such as
+ACM Reference Format:
+Philip Empl and Günther Pernul. 2021. A Flexible Security Analytics Service                        network traffic capture. Only those who process this network data,
+for the Industrial IoT. In Proceedings of the 2021 ACM Workshop on Secure                          recognize this information’s context and make predictions can be-
+and Trustworthy Cyber-physical Systems (SAT-CPS ’21), April 28, 2021, Virtual                      come game-changers. In the best case, the systems are sealed off
+Event, USA. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/                             at an early stage to prevent severe damage or ward off the attack
+3445969.3450427                                                                                    altogether. Therefore, security analytics must be established in the
+                                                                                                   industrial sector to tackle the current threat landscape.
+Permission to make digital or hard copies of all or part of this work for personal or              Security analytics must necessarily be embedded in an industrial
+classroom use is granted without fee provided that copies are not made or distributed              architecture that allows OT to be linked to IT and vice versa. SMEs
+for profit or commercial advantage and that copies bear this notice and the full citation          represent the German industry’s backbone and do not view cyber-
+on the first page. Copyrights for components of this work owned by others than ACM
+must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,            security as an integral part of IIoT systems but rather as an add-on.
+to post on servers or to redistribute to lists, requires prior specific permission and/or a        As most of their production systems exist over decades, security
+fee. Request permissions from permissions@acm.org.
+                                                                                                   by design considerations have changed, especially in this intercon-
+SAT-CPS ’21, April 28, 2021, Virtual Event, USA
+© 2021 Association for Computing Machinery.                                                        nection of IT and OT. Therefore, SMEs offer a vulnerable target for
+ACM ISBN 978-1-4503-8319-6/21/04. . . $15.00                                                       attack. Thus, system functionality is prioritized over cybersecurity
+https://doi.org/10.1145/3445969.3450427
+
+
+
+
+                                                                                              23
+Session 1: AI for CPS Security                                                                     SAT-CPS ’21, April 28, 2021, Virtual Event, USA
+
+
+
+
+in SMEs, which is partly because many SMEs lack the financial                   1.2    Structure
+resources and the necessary knowledge.                                          This paper is structured as follows. Section 2 provides the neces-
+Nevertheless, SMEs can thereby implement different architectures,               sary background knowledge in reference architectures, Security as
+e.g., Reference Architectural Model Industry 4.0 (RAMI 4.0) [24] or             a Service (SECaaS), and security analytics. Section 3 determines
+Industrial Internet Reference Architecture (IIRA) [14]. Due to the              the preliminaries towards a conceptual service model. Section 4
+lack of standardization, SMEs run the risk of betting on the wrong              provides the conceptual model for the security analytics service
+horse when selecting them or implement their versions. Nonethe-                 and defined relevant service characteristics. Section 5 shows the
+less, all of these architectures rely on the application of the cloud.          architectural module, which knit the security analytics service to
+The cloud established itself as a data hub that enables manufac-                the IoT architecture (IoT system) and vice versa. Section 6 evaluates
+turing enterprises of all sizes to quickly connect their OT systems             the architectural module with a real-world use case, and Section 7
+to cloud-dependent IT systems. The IIoT architectures use mid-                  provides the conclusion, limitations, and further research.
+dleware layers in general, which can be built on service-oriented
+architectures [2], enabling the communication between individual
+heterogeneous systems. A system offers numerous services made                   2     BACKGROUND AND RELATED WORK
+available by the cloud service provider (CSP) to the cloud service              This section presents well-known reference architectures for the
+consumer (CSC) and billed to the CSC via subscriptions. Many                    IIoT and describes SECaaS and security analytics. Besides, the re-
+SMEs align their systems in the cloud because embedded services                 lated work section provides knowledge to which this paper links.
+yield tremendous advantages of compatibility and interoperability.              These fundamentals are essential as a flexible security analytics
+Thus, integrating new services into an existing IT architecture is              service for IIoT systems is being developed that operates according
+made comfortable.                                                               to the principles of SECaaS.
+This paper conceptualizes a security analytics service that is com-
+patible with well-known reference architectures. As those reference
+architectures take the right step into standardization, they represent          2.1    IIoT Reference Architectures
+a further obstacle for SMEs as they do not offer concrete recom-                Reference architectures are utilized in the IIoT to provide an ar-
+mendations in terms of security analytics. Our security analytics               chitectural construct that builds on existing standards and norms.
+service follows those security principles but offers concrete security          Therefore, they are the first step towards standardization, as these
+capabilities (see DIKW) that can be instantiated as flexible analyt-            reference architectures explicitly refer to gaps or problems in cur-
+ical techniques. That means that every security capability might                rent standards. In the industrial context, these include RAMI 4.0
+encompass several analytical techniques (e.g., detective security               [24] and IIRA [14].
+capability is instantiated by Complex Event Processing) that can                Although those architectures appear different at first glance, both
+be bundled or standalone. This flexibility of analytical techniques             contain similar views of an IIoT architecture. RAMI 4.0 registers
+is significant because IoT architectures differ in their respective in-         six different layers (business, functional, information, communica-
+dustry regarding their application, middleware, and protocols [26],             tion, integration, and asset) designed to fulfil various architectural
+which results in different requirements. In this way, the security              tasks. Each layer in this architecture is viewed from a life-cycle and
+analytics service is flexible and generic, which is accomplished by             value stream perspective (cf. IEC 62890) and from the hierarchical
+providing analytical capabilities. Thus, flexibility is leading to a            level s(cf. IEC 62264/IEC 61512). Unlike RAMI 4.0, IIRA defines four
+straightforward application in the respective industry.                         viewpoints (implementation, functional, usage, and business) for
+                                                                                different stakeholders, which can be seen in terms of the industrial
+                                                                                sector and the product’s life cycles. Both reference architectures’
+                                                                                advantage is their interoperability (see Fig. 1) since the functional
+1.1     Contribution                                                            domains (cf. functional view) of IIRA can be mapped with the ref-
+As this paper is addressing cross-domain knowledge to accomplish                erence architecture RAMI 4.0 [15].
+knowledge gaps of SMEs in cybersecurity, the contribution of our                 In the following, the layers and their functionalities are explained.
+paper is threefold:                                                             According to RAMI 4.0, physical assets (1) involve all physical actors,
+                                                                                such as documents, software, and human actors. Besides, the indi-
+                                                                                vidual components of a cyber-physical system can also be counted
+      • We are introducing a novel and flexible security analytics              as physical assets. The integration layer (2) enriches the aforemen-
+        service, which fits the needs of industries and their use cases.        tioned physical assets with data transmitted in the communication
+        The security analytics service exhibits security capabilities,          layer (3), e.g., with the ISO/OSI model. In the information layer
+        which can yield a set of analytical techniques.                         (4), the transmitted data is getting contextualized and semantically
+      • We disclose how to generate wisdom from data to bridge                  categorized. The function layer (5) contains relevant processes that
+        the knowledge gap. Thereby, the security analytics service              support the business process layer (6).
+        assists in complying with all capabilities in the DIKW hier-            As almost every industrial reference architectures is based on middle-
+        archy.                                                                  wares or service-oriented architectures (SOA) [2], the relevant layer
+      • We are providing multi-disciplinary research that transfers             for this paper’s consideration is the information layer. This layer
+        knowledge in different domains and knits cybersecurity to               also defines relevant services and ensures the technical functional-
+        IIoT.                                                                   ity of an IIoT architecture. Additionally, the information layer also
+
+
+
+
+                                                                           24
+Session 1: AI for CPS Security                                                                   SAT-CPS ’21, April 28, 2021, Virtual Event, USA
+
+
+
+
+   IIRA                                                    RAMI 4.0
+                                                                              meta-model when discussing our flexible security analytics service
+                                                                              in Section 3 of this paper.
+
+
+
+          Functional domains
+                                           Business
+                                                                              2.3    Security Analytics
+                                    6
+                  Business                                                    As the amount of structured and unstructured security-related data
+                                    5     Functional                          is grown, traditional SIEM systems reach their limits [4]. In the era
+              Operations
+                                                                              of Big Data, new technologies arise which can support efficient
+              Information           4     Information                         real-time data processing and analysis, leading to the paradigm of
+                                                                              Big Data analytics [31]. Big data processing technologies are noth-
+              Application
+                                    3   Communication                         ing new in the IoT because of the vast amount of data generated by
+                  Control                                                     heterogeneous IoT devices. The application of Big Data processing
+          Sense         Actuation
+                                    2
+                                          Integration                         technologies, e.g., Apache Spark [33], is therefore not far distant
+                                                                              to support security. In this context, (Big Data) security analytics is
+            Physical Systems        1        Asset                            used to analyze contextual data in cybersecurity [16]. In general,
+                                                                              analytical techniques exist that fulfil single steps of the DIKW hi-
+                                                                              erarchy by Ackoff [1] in the context of IoT [28]. Therefore, these
+                                                                              analytical techniques can be classified as descriptive, diagnostic,
+Figure 1: Mapping of functional aspects in both reference                     detective, predictive, and prescriptive. In this paper, we refer to
+architectures.                                                                those categories as security capabilities. While descriptive and di-
+                                                                              agnostic capabilities are strictly retrospective, a detective capability
+                                                                              reflects interactions in real-time, and predictive and prescriptive
+                                                                              capabilities are prospective.
+provides reactions to specific events, such as an actionable to an
+empty machine magazine.
+                                                                              2.4    Related Work
+2.2       Security as a Service (SECaaS)                                      The provisioning of security services in on-premise solutions (SE-
+In Cloud Computing, there exist four main deployment models (pub-             CaaS) was already carefully elaborated in past research, e.g. Zarca
+lic, private, hybrid, community) and three service delivery models            et al. [20] focuses on appropriate methods for enhancing security in
+(Infrastructure as a service (IaaS), Platform as a Service (PaaS), and        IIoT by centrally orchestrating security mechanisms and controllers.
+Software as a Service (SaaS)) [18].                                           Therein, modules interact with each other to satisfy a quick reaction
+In general, security can be delivered in three alternate models,              and ease of control in the IoT landscape. However, these approaches
+so-called security service delivery models. These security service            omit an integral component of cybersecurity: the generation and ex-
+delivery models involve 1) on-premises security, 2) managed secu-             change of knowledge. Ackoff [1] defined the first approach to gather
+rity, and 3) SECaaS [25]. While on-premise security is deployed on            wisdom from data by providing the DIKW-hierarchy. Decades later,
+the client-side, managed security involves a CSP via service level            the IoT evolves, and authors rethink the existing DIKW by defining
+agreements and is set up for the enterprise. Both models cannot               new layers appropriate for the IoT [11]. With the rise of Big Data,
+be aligned with typical Cloud Computing advantages [25], such as              new opportunities regarding data analytics appeared, and analytical
+elasticity, broad network access, or pay-as-you-go subscriptions              methods are categorized along with their outcome, e.g. predictive
+[18].                                                                         analytics [28]. Based on those methods, the cybersecurity state of a
+Besides the service delivery models, there exist plenty of different          system or architecture can be evaluated, e.g., cybersecurity dynam-
+services. In the SECaaS, the overarching goal is to provide con-              ics provides a metric-based approach used to compare several secu-
+sumers with security services. Security services are wide-ranged              rity states of a system [32]. Furthermore, cybersecurity dynamics’
+and can be categorized as identity and access management, data                objectives provide valuable insights into the interaction between
+loss prevention, web security, email security, security assessment,           descriptive, predictive and prescriptive capabilities. Necessarily,
+intrusion management, security information and event manage-                  assessing the current cybersecurity state requires the judgment of
+ment (SIEM), encryption, network security and business continuity,            a security expert. Likewise, also for the implementation of security
+disaster recovery, and continuous monitoring [5].                             solutions. Thus, the exchange of knowledge between experts and
+SECaaS benefits from the broad application of Cloud Computing                 novices os crucial. The creation and exchange of knowledge result
+and thus receives extraordinary encouragement from the scientific             from collaborations between security experts and novices and must
+community [25]. A meta-model is also proposed by Furfaro et al.               be necessarily supported by novel technological approaches. [3].
+[9] to support the modelling of SECaaS in cloud environments. In              Past research focused on the assessment of security analytics meth-
+this meta-model, a distinction is made about whether a service                ods, the exchange and creation of knowledge in security analytics
+acts in support of another service’s security or whether it offers            and concrete instances of security analytics components, e.g. inci-
+security features. This methodological approach is detailed and               dent response. This research is knitting past research together by
+allows different perspectives to SECaaS. We will come back to the             meaningfully aggregating and assembling their findings.
+
+
+
+
+                                                                         25
+Session 1: AI for CPS Security                                                                      SAT-CPS ’21, April 28, 2021, Virtual Event, USA
+
+
+
+
+3     PRELIMINARIES                                                             We assume that the internal IT department of an SME is using
+This paper approaches a flexible security analytics service concern-            resources of a CSP and is therefore partly considered as CSC. Con-
+ing the meta-model described by Furfaro et al. [9]. This meta-model             sequently, we assume that the internal IT department is developing
+involves three phases, which are namely security services identifi-             somewhat cloud applications for the IIoT system. We consider the
+cation (SSI), design solutions definition (DSD), and design solutions           cloud instance trustworthy as the cloud provides robust authentica-
+analysis (DSA). The SSI-phase needs a definition of the security de-            tion mechanisms for the edge nodes and the internal IT department.
+livery model and the security requirements, which leads to security             Furthermore, we assume the data, which is transferred from the
+service conceptual models (SSCMs). With the exploitation of those               edge node to the cloud, to be encrypted.
+SSCM, security service design solutions (SSDSs) are approached in               Given the assumption, we derive the following threat landscape:
+the DSD-phase, evaluated, and selected in the DSA-phase, leading
+to an evaluated selected design solution (SDS).                                       • Spoofing attacks are realistic at the edge node and the ma-
+As this security analytics service offers security capabilities with                    chine, as unauthorized entities might have physical access
+flexible analytical techniques, the delivery scenario is considered                     to interact with them.
+a standalone service, which does not provide security services to                     • Tampering attacks are changing the integrity of data or ma-
+existing services. The next step towards SSCMs is to define appro-                      chine commands. Every entity in the IIoT system can manip-
+priate security requirements. Those requirements are described in                       ulate data flows independent of physical or virtual access.
+the following few paragraphs by determining the involved entities                     • Non-repudiation is reached by a false logging-mechanism
+and defining the threat model. Afterwards, the necessary security                       or missing signature of data streams.
+requirements are derived.                                                             • The elevation of privileges is possible at the machine, the
+                                                                                        edge node, or the cloud.
+3.1    Involved Entities                                                              • Furthermore, all data streams need to be encrypted and au-
+                                                                                        thorized to not reveal sensitive data to possible attackers
+The security analytics service should be applied within IIoT systems.                   (entities) and therefore, disclosure sensitive information.
+Therefore, we define a standard technological setup. According to                     • Denial of Service (DoS) attacks are assumed to be located at
+IIRA or RAMI 4.0, we instantiate an architecture based on a middle-                     the edge node as the cloud provides mechanisms to balance
+ware, which yields machines and their edge nodes in an Industrial                       immense loads, e.g., load balancing or horizontal or vertical
+Control System (ICS) and a cloud to process and analyze the gath-                       scalability.
+ered data. Therefore, we derive the following entities that are in-
+volved within the architecture, i.e., life cycle parties of machines [7]
+and Cloud Computing entities: CSP, CSC, network service provider                3.3     Security Requirements
+(NSP), internal IT department, manufacturer, distributor, owner,                In ISO/IEC-27000, there exist several security requirements for an
+and maintainer.                                                                 architecture: confidentiality, integrity, and availability, which other
+                                                                                requirements like non-repudiation or authenticity can complement.
+3.2    Threat Model                                                             In the threat model mentioned above, various threats are apparent
+Threat modelling methods like Octave, Coras, Mehari, or attack                  to an IIoT system. This variety of threats can be traced back to the
+trees lack a holistic methodology as detailed threat lists tend to be           amount of participating entities.
+incomplete or subjective. In contrast, STRIDE (Spoofing, Tampering,             As the operational technology aims instead at a high availability
+repudiation, information disclosure, denial of service, and eleva-              than confidentiality, we consider the availability as the security
+tion of privileges) modelling by Microsoft leads to a classification            requirement with the highest priority. The availability must be
+of threats given constant attack patterns. In contrast, LINDDUN                 reached for the OT (e.g., ICS) and the IT, as both components are
+is another threat modelling language that attempts privacy mod-                 interconnected. Second, data need to be encrypted regarding confi-
+elling. Since we address a service that is not designed to incorporate          dentiality as the machine’s data is classified as confidential. Last,
+privacy-sensitive data, we do not consider privacy leakage and ex-              considering the data quality of machines’ data, data need to exhibit
+clude, therefore, LINDDUN. STRIDE ensures a mapping of elements                 integrity. When data feature integrity, this also leads to a better qual-
+(external entity, processing node, data store, and data flow) to a              ity of security analytics. Security analytics in IIoT systems should
+particular category [22]. Depending on those categories, threats                aim to preserve a high availability, integrity in its data streams
+can be identified. For the STRIDE model, a context diagram and a                and encrypt the data efficiently. In order to achieve these security
+data flow model are required, shown in Fig. 2.                                  requirements, we include the security capabilities mentioned above.
+Level-0 defines the context diagram for our threat model, in which              In this paper, these capabilities are used for security analytics and
+all previously described entities are included. These entities interact         referenced as security capabilities. We consider these security ca-
+with a so-called IIoT system, which represents the combination of               pabilities to cover three temporal dimensions (hindsight, insight,
+IT and OT. If we complement this IIoT system with a data flow                   and foresight) and allow a holistic view of data. While descriptive
+model (level-1), three central components of the generic IIoT sys-              and diagnostic capabilities are aimed at hindsight, detective capa-
+tem are defined: machine, edge, and cloud. This data flow diagram               bilities are for insight and predictive plus prescriptive capabilities
+could now be abstracted into further levels, e.g., the cloud may                for foresight.
+contain various information systems in level-2 that communicate                 Thus, the security capabilities are follows: (i) descriptive, (ii) diag-
+with each other.                                                                nostic, (iii) detective, (iv) predictive, and (v) prescriptive. We refer
+
+
+
+
+                                                                           26
+Session 1: AI for CPS Security                                                                           SAT-CPS ’21, April 28, 2021, Virtual Event, USA
+
+
+
+
+                                                                                                                            Internal IT
+                                                                 Maintainer                 Owner                                                 CSP
+                                                                                                                           Department
+                            Manufacturer
+
+              Internal IT
+                                             CSP
+             Department
+
+
+
+                                                                                 1.1                           1.2                         1.3
+                              1. IIoT
+      Maintainer                                   NSP                         Machine                        Edge                        Cloud
+                              System
+
+
+
+
+                   Owner                     CSC
+
+                             Distributor                         Distributor              Manufacturer               NSP                   CSC
+
+
+
+
+                                 a)                                                                            b)
+
+
+                               Figure 2: context diagram on level-0 (a) and data flow model on level-1 (b).
+
+
+to them as service requirements in the service context and security            analytical techniques lead to wisdom, i.e., a better comprehension
+capabilities in security analytics.                                            of potential threats in the IIoT system and, therefore, to a more
+                                                                               efficient incident response.
+3.4    Framing the Problem
+                                                                               4     SERVICE MODELING
+The threat model has shown the threat landscape in IIoT systems
+on level-0 and level 1. The threat landscape’s complexity rises by             After specifying the service requirements and the security analytics
+abstracting more detailed threat model levels (e.g., level-2 or level-         service delivery model, this section approaches the SSCM, possible
+3). The higher the threat model’s level, the more detailed the threat          design solutions, and the selection of an appropriate conceptual
+landscape is described, i.e., the more knowledge is required to de-            model.
+scribe the relationships and dependencies between systems. Based
+on the arising complexity, extensive cybersecurity knowledge is
+                                                                               4.1       Conceptual Model
+required to set up even more detailed threat models. Concerning                First, the meta-model’s main attributes are specified, including the
+SMEs, they need to accomplish this threat landscape with appropri-             description, security concerns, security level, the category, and rele-
+ate knowledge. As knowledge is generated from data and informa-                vant service attributes. These entries are shown in Tab. 1.To satisfy
+tion, SMEs need appropriate security analytics methods to generate             the security requirements, we have defined security capabilities as
+wisdom from data.                                                              service requirements. Thus, all dimensions of security analytics are
+Common reference architectures like IIRA or RAMI 4.0 provide                   addressed and included in the security analytics service.
+dedicated security frameworks, e.g., the Industrial Internet Secu-             Although the security analytics service addresses all security capa-
+rity framework [17]. As can be inferred from frameworks, those                 bilities, the efficacy depends heavily on the implemented analytical
+security frameworks provide generically functional breakdowns                  techniques as humans need to implement analytical techniques
+for security components in IIoT systems. For instance, the security            first. Additionally, the security analytics service faces a broad threat
+component "security monitoring and analysis" is described as three             landscape and thus, we conclude the efficacy of detecting possible
+constituents: monitor, analyze, and react. Those components are                threats as a possible security concern. Furthermore, the abuse of
+described with their shared attributes but are not specified in depth          the rights of a user is another security concern.
+nor within the context of a cloud.                                             SIEM and intrusion management are considered the main cate-
+This research paper builds upon this gap and describes a security              gories for the security analytics service because security analytics
+analytics service that follows those security framework proposals              is a combination of both categories [30]. The security analytics
+and offers relevant security capabilities to provide SMEs with the             service is applied as an IaaS to simplify analytical techniques to a
+necessary knowledge. Moreover, these security capabilities may                 user or group. Thus, the deployment is straightforward and can be
+yield different analytical techniques that can be applied flexibly,            conducted without much effort since most SMEs have outsourced
+which means SMEs can swap or bundle them depending on their                    their computing resources to the cloud. Furthermore, the service
+desired outcome (e.g., proactive reaction or forensics). In summary,           should be independent of any service providers and is targeting a
+the security analytics service offers five security capabilities, and          minimum of service costs.
+each of them can flexibly yield different analytical techniques, e.g.,
+SMEs can implement Complex Event Processing as one instance                    4.2       Design Solution
+of a detective security capability. Thus, this service is generically          The considered SSCM provides five distinct service requirements,
+applicable to different industries. Regarding a particular industry,           which need to be involved within the design solution, i.e., SSDS. A
+
+
+
+
+                                                                          27
+Session 1: AI for CPS Security                                                                             SAT-CPS ’21, April 28, 2021, Virtual Event, USA
+
+
+
+
+Table 1: Conceptual model of the security analytics service.                      public repository.
+                                                                                  As we have only derived one design solution, this design solution is
+  Meta model concept                Description                                   also our selected solution for further considerations. In the next sec-
+                                    SR1: descriptive security capability          tion, we are sketching this solution with appropriate architectural
+                                    SR2: diagnostic security capability           modules.
+             Service requirements   SR3: detective security capability
+                                    SR4: predictive security capability            Table 2: Design solution of the security analytics service.
+                                    SR5: prescriptive security capability
+  SECaaS
+
+
+
+
+             Security service       This paper is facing a flexible secu-             Meta model concept                  Description
+                                    rity analytics service for IIoT sys-                 Identifier                       Id-01
+                                    tems by satisfying the service re-                   Description                      The security analytics service
+                                    quirements SR1-SR5.                                                                   binds a public repository, i.e.
+             Security concern       Efficacy, misuse of rights                                                            security analytics repository,
+             Security level         This service’s primary focus is the                                                   which yields descriptive infor-
+                                                                                                                          mation about specific analytical
+
+
+
+
+                                                                                      Policy
+                                    generic application to instantiate
+                                    analytical techniques dependent on                                                    techniques to satisfy a security
+                                    the desired outcome.                                                                  requirement.
+                                                                                                            Action        The user can select or define ana-
+                                    The security analytics service is cat-                     Statement
+  Category
+
+
+
+
+                                    egorized as Security Information                                                      lytical techniques, which are de-
+                                    and Event Management & Intrusion                                                      pendent on the desired security
+                                    Management.                                                                           capability. These analytical tech-
+                                                                                                                          niques are stored in a public repos-
+             Delivery modality      Infrastructure as a Service
+                                                                                                                          itory and can be accessed by other
+             Deployment modality    Public, private
+  Service
+
+
+
+
+                                                                                                                          SMEs.
+             Service provider       Any
+                                                                                                            Effect        The selected analytical technique
+             Cost of service        Target: minimal/ zero additional in-
+                                                                                                                          can quickly be adopted and ad-
+                                    frastructure
+                                                                                                                          justed to fit the security require-
+             Period of validity     Not specified
+                                                                                                                          ments of the IIoT system.
+                                                                                                User                      Group/ single
+                                                                                                Authentication time       Disable
+possible design solution needs to integrate these service require-                              Authentication location
+                                                                                      SM
+
+
+
+
+                                                                                                                          Disable
+ments and thus, needs an opportunity to allow multiple analytical                               Credential based          Username and strong password
+techniques as instances of one security capability. As these service
+requirements are holistically addressed, the security requirements
+are satisfied. Based on these findings, we instantiate one design
+solution. The design solution is represented by policies and security
+                                                                                  5            ARCHITECTURAL MODULES
+mechanisms (SM) that fulfil the SSCM (see Tab. 2).                                A design solution is selected in the previous section that addresses
+The SSCM under design faces strong security concerns regarding                    the service requirements for security analytics service. Based on
+its efficacy as SMEs lack knowledge in analytical techniques, and                 this design, the anchoring in IIoT systems and the relevant modules
+the given threat landscape is increasing. Security novices cannot                 are presented in this section. In general, security analytics should
+implement an analytical technique without any knowledge about                     be included in OT and IT concerning reference architectures. Zarca
+the desired outcome. Thus the efficacy of the analytical technique                et al. [20] provide, therefore, a security orchestration plane that
+is questionable.                                                                  enables a holistic orchestration of security task over the IIoT system.
+This problem can be minimized with the usage of a peer-reviewed                   This conception is also underlining that security analytics is often
+repository. Repositories have established themselves in many ar-                  perceived as a monitor in such architectures [29]. Thus, we align
+eas as they offer peer-reviewed functional patterns, which can be                 our security analytics service holistically over the IIoT system and
+adapted by the community and tailored to one’s needs. Thus, we con-               expand the monitoring functionality to respective security modules
+sider, similar to [13], a repository that yields analytical techniques.           and analytical techniques. The result is presented by Fig. 3 and the
+Of course, repositories can also be managed internally (private), but             modules are described in the following beginning at the bottom.
+we explicitly refer to public repositories. Public repositories’ usage
+fills the knowledge gap between SMEs and larger companies and                     5.1           IIoT System
+leads to high-quality analytical techniques. Moreover, this fosters               The IIoT system in Fig. 3 reflects all IT and OT domains and their in-
+the exchange of knowledge and enables a thorough elaboration of                   terplays. Based on the IIRA, we derived the five functional domains
+a system’s current cybersecurity state.                                           and their interplays. The control domain is located at the edge, the
+The security analytics service is secured by a username and pass-                 information and operation domain in the cloud, and the in-house
+word authentication schema. A user or the user group needs to sign                server’s business and application domain. We explain the single
+in to configure and adapt the analytical techniques stored within a               domains shortly as they have been described in the background
+
+
+
+
+                                                                             28
+Session 1: AI for CPS Security                                                                                 SAT-CPS ’21, April 28, 2021, Virtual Event, USA
+
+
+
+
+                                                                             User interface
+                  User
+
+
+
+
+                         Security policy
+                                                                               Security analytics repository
+                           repository
+
+
+
+                                                 Analytical   Analytical                                         Analytical
+                                                 technique    technique                                          technique
+
+
+                                                 Detective    Predictive             Prescriptive                Diagnostic          Descriptive
+                                                  module       module                  module                     module              module
+
+
+
+
+                                                                                       Security
+                                                 Monitor
+                                                                                     orchestrator
+
+
+                  Security analytics service
+
+                  IIoT system
+                                                                           Information domain                                 Business domain
+
+                                                               Data service               Analytics
+
+                                                                                          Batch layer
+
+
+
+                                                                                          Speed layer
+
+                                Control domain
+
+
+
+
+                                                                                                                       Application domain
+                                                                      Operations domain
+
+
+
+
+                           Figure 3: Architectural modules for the security analytics service in IIoT systems.
+
+
+section.                                                                           domain also provides feedback to the control domain to adjust the
+The control domain is aggregating sensor and machine data and                      machines’ parameter. Data and information are fed into the infor-
+sends the data to the information domain. The information domain                   mation domain to log the communication between domains and
+is transforming and cleaning the data and accelerates the informa-                 analyze their behaviour.
+tion based on the lambda architecture by Kiran et al. [12] in a speed
+layer. The business domain visualizes the data and connects it to
+various databases, e.g., Manufacturing Executive System (MES) or                   5.2        Security Analytics Service
+Enterprise Resource Planning (ERP). Depending on the business                      As also can be inferred from Fig. 3, the security analytics service is
+logic, the application domain is providing feedback to the control                 connected to the information domain and thus, connected to the
+domain. The operation domain is responsible for the monitoring,                    databases and the streaming data. This security analytics service
+optimization, and forecasting of machines’ states. The operation                   needs strong authentication regarding the streaming data and the
+                                                                                   databases. We omitted the interconnections between the security
+
+
+
+
+                                                                             29
+Session 1: AI for CPS Security                                                                       SAT-CPS ’21, April 28, 2021, Virtual Event, USA
+
+
+
+
+analytics service and the control domain, as this is not the main              or techniques are applied that are loose or coupled. Moreover, an-
+focus of this paper. The previously defined service requirements               alytical pipelines can be created by bundling multiple analytical
+SR1-SR5 are applied as security modules (with security capabili-               techniques together. The analytical techniques are considered se-
+ties) in the security analytics service. Those security modules are            curity modules and are originally located in the security analytics
+arranged according to the DIKW hierarchy, i.e., they are nearly                repository.
+ordered from the data (right) to the wisdom (left). In the following,          Security policy repository. Various policies can be defined in the
+the single parts of the security analytics service are described.              security policy repository, classified according to different security
+Security orchestrator. The security orchestrator is the bridge to              levels (e.g., low, medium, or high). The security policy repository
+the IIoT system and orchestrates and automates the response to a               offers two interfaces: one to the user and another to the detective,
+possible threat. The data is partly forwarded to the monitor (not              predictive and prescriptive modules. By applying these security
+depicted), but it should also be achievable to control networks from           policies, decisions are derived for the incident response.
+the control domain with the aid of higher-level software-defined               Security analytics repository. One main part of the security an-
+network controllers. The security orchestrator logically receives              alytics service is the security analytics repository. Instances of se-
+feedback from the predictive, detective, and prescriptive security             curity modules (analytical techniques) are stored in this repository
+modules to derive actions. We provided only one connection (pre-               and shared within and across a companies’ borders. This informa-
+scriptive module to security orchestrator) to enhance clarity.                 tion sharing enables a knowledge transfer and peer review of the
+Monitor. The monitor is also proposed in the recommendations for               instantiated analytical techniques.
+improving cybersecurity in the Industrial Internet Security Frame-
+work, among others. The monitor aggregates data from all sources
+and captures incoming data in real-time. The amount of data makes              5.3     Security Expert
+it possible to monitor systems and pass them to the individual se-             As described in the last section, a user needs to communicate with
+curity modules. The data sources are not limited to the information            the security analytics service. As this interaction dives deep into the
+domain; e.g., databases from the business domain can also be con-              subject, the user needs to exhibit outstanding domain knowledge.
+nected to gather information about ERP or MES.                                 Therefore, we are considering the user as a security expert. We
+Descriptive module. The descriptive analytics module provides                  manifest a user interface that enables interaction with the security
+possibilities for finding out what happened in a system, thereby               analytics repository and the security policy repository (see Fig.
+providing hindsight. Mostly data is summarized or presented in raw             3). A security expert first needs to sign in via a password-based
+data format. Common techniques are visual analytics or business                authentication schema. In the next steps, the security expert can
+analytics, where the data or information is presented graphically.             define or edit security policies for the IIoT system or create new
+Diagnostic module. The diagnostic module also creates hindsight                analytical techniques for a particular security module.
+but goes beyond descriptive analysis and investigates the cause of             The definition of security policies presents itself as a manageable
+a particular discrepancy or anomaly. For instance, within digital              task for a security expert. However, the implementation and applica-
+forensics, security experts can investigate data sources and causali-          tion of analytical techniques in terms of cybersecurity is a mammoth
+ties.                                                                          task. Here, the security expert must have in-depth knowledge from
+Detective module. The detective module provides a statement                    various domains, namely cybersecurity, software development, and
+about what is currently going on in the systems, and thus, it pro-             statistics.
+vides insights. Therefore, the analyses are only related to the current
+systems state and are performed based on the monitor’s data. De-
+                                                                               6     EVALUATION
+tection mechanisms are rule-based, time-based, or anomaly-based
+to detect incidents in real-time and support decision-making. How-             As this paper does not implement the concept, technical experi-
+ever, correlations or clustering of information can also be utilized           ments can be excluded. However, this paper is dedicated to SMEs,
+to detect inconsistencies.                                                     and we will evaluate the concept with a real-world use case. We
+Predictive module. In the predictive module, future system states              refer to SISSeC1 , an ongoing German research project.
+are predicted based on the real-time data received. If irregularities          SISSeC aims to securely link a printed circuit board (PCB) manufac-
+are discovered in the data, potential incidents might be averted at            turer’s machine and sensor data via an edge gateway to a so-called
+an early stage. This module includes analytical techniques such as             sensor cloud. Within the edge gateway, intrusion detection mech-
+regressions or fuzzy logic.                                                    anisms are applied, and access controls mechanisms authenticate
+Prescriptive module. The prescriptive module, in comparison to                 machines and sensors. The sensor cloud collects and aggregates this
+the predictive module, also predicts states of a system. Nevertheless,         data to determine the potential security state with security analytics
+the prescriptive module goes one step further and, unlike pure fore-           (e.g., via a digital twin). The PCB manufacturer’s overall objective is
+casting, also derives recommendations for actions. Thus, possible              to collect relevant data and identify likely future states. In addition
+actions can be determined for the incident response process, such              to the cybersecurity focus, such events are also production-related,
+as the systems’ encapsulation. Furthermore, recommender systems                e.g., the potential wear of a drill bit on the drilling and milling
+or Monte Carlo simulations are considered analytical techniques.               machine and the time remaining until its change.
+Analytical technique. An analytical technique is understood as                 Since the project itself is attempting a particular architecture, no
+an instance of a particular security module (security capability). As
+mentioned in the individual security modules, concrete algorithms              1 Secure Industrial Semantic SEnsor Cloud
+
+
+
+
+                                                                          30
+Session 1: AI for CPS Security                                                                    SAT-CPS ’21, April 28, 2021, Virtual Event, USA
+
+
+
+
+reference architectures are utilized. The main architectural build-            industry’s needs flexibly. Furthermore, we disclosed how to gener-
+ing blocks of SISSeC (machine, edge, and cloud) can nevertheless               ate data to wisdom and included this knowledge into our security
+be categorically classified in the architectural modules identified            analytics service. Thus, we bridge the knowledge gap within SMEs
+above. The control domain thus represents the machines, sensors,               and contribute to the multi-disciplinary research area concerning
+and the edge gateway. The sensor cloud in SISSeC is perceived as               the IIoT. Moreover, we presented the security analytics repository,
+the operations domain and the information domain. The traditional              which transfers knowledge between SMEs and established peer-
+IT systems (e.g., ERP) of the PCB manufacturer are understood as               reviewed implementations of analytical techniques.
+the business and application domains. In summary, the IIoT system              Besides the contribution, this paper exhibits two limitations. First,
+is fully covered by the architectural modules.                                 we do not specify any access control roles to our security analytics
+The information domain is realized using various Big Data tech-                service, as we have only covered a single entity (security expert).
+nologies (e.g., Apache Kafka) and equipped with two data pipelines             Second, we excluded parts of the incident response. As the response
+(batch and stream). This bidirectional data processing enables the             opportunities to a detected or predicted threat increase with the
+connection to the security orchestrator and the monitor, which                 complexity of IIoT systems, e.g., with software-defined networks
+create the link between these Big Data technologies and the secu-              for the ICS, a holistic sketch of interconnections within the archi-
+rity analytics service. All the relevant prerequisites for the security        tectural module is almost impossible.
+analytics service are given.                                                   In the future, we will work on implementing a prototype of this
+As one of the SISSeC goals is to conduct security analytics with a             security analytics service. The design of a specific implementation
+digital twin, we evaluate if our architectural module permits this             can be structured in several ways. We recommend a design based on
+instance of security analytics. Dietz & Pernul [6] state that digital          virtual machines, dockerized applications, and specific connectors
+twins can run in three different operation modes that benefit cy-              for a straightforward adoption and application of the capability
+bersecurity: simulations, replications, and analytics. The latter is           modules. As we admit in the introduction, data is vital to generate
+relevant for generating foresight by applying statistical analyses             wisdom. By bundling the data sources and types of data (stream
+or machine learning. Concerning the security analytics service’s               vs batch) required to fulfil a particular capability module (e.g., the
+security modules, a digital twin represents the link from real-time            descriptive module takes batch data), analytical techniques can be
+data to feasible simulation or forecast scenarios. In this context, the        instantiated. Thus, each capability module should be represented by
+digital twin is, therefore, regarded as a foresight security module.           one virtual machine. The virtual machines can be interconnected
+Since the digital twin can also derive recommendations for actions             with dedicated bridges to accomplish the dependencies between
+and forecasts, the digital twin is considered the prescriptive module.         the capability modules. Each of the virtual machines is running
+Our security analytics service stores digital twin models (e.g., Au-           on Docker to establish containerized and modular applications.
+tomationML [23]) for the PCB manufacturer in the security ana-                 There are many open-source software and tools for security ana-
+lytics repository. Concerning this digital twin model, a security              lytics applications that need to be categorized depending on their
+expert instantiates it as an analytical technique for the prescrip-            functionality, e.g., Suricata is an intrusion detection tool and is,
+tive module, enabling future system states’ simulations. The PCB               therefore, available in the detective module. In this context, the
+manufacturer must not necessarily create the digital twin itself but           security analytics repository is considered a collection of docker-
+can also purchase it under certain circumstances from a machine’s              ized applications. Besides provisioning dockerized applications, the
+manufacturer.                                                                  security analytics repositories need to yield connectors for each
+This use case addresses only the prescriptive module but can be                application to bind multiple applications’ sinks and sources. Addi-
+extended vertically regarding the remaining security modules. This             tionally, machine learning models can be shared across the security
+use case demonstrates the general applicability of the security ana-           analytics repository and integrated into the desired capability mod-
+lytics service and the potential benefits for SMEs and research.               ule. Those machine learning models might be integrated into the
+                                                                               predictive module (stream data) and the descriptive module (batch
+                                                                               data). The different analytical techniques can be tagged inside the
+7   CONCLUSION                                                                 security analytics repository (e.g. for detective module) and ranked
+As the threat landscape continues to grow and the gap between                  by other users. These mechanisms are resulting in transparency as
+larger companies and SMEs in terms of cybersecurity knowledge                  to which methods are successfully contributing to the cybersecu-
+widens, this paper takes a step towards improving knowledge trans-             rity.
+fer. The knowledge transfer is provisioned by a conceptualization              Based on this prototype, an evaluation is planned, which measures
+of a general-purpose flexible security analytics service for the IIoT          the effectiveness and efficiency of the service. Quasi-experiments
+suited for SME environments. Although this knowledge transfer                  evaluate latter for each of the modules, e.g. the descriptive mod-
+has been tailored to SMEs, larger companies can also benefit from              ule is used by one group, which is working out an incident with
+a shared knowledge base. In general, the shared knowledge ba-                  security analytics service, while the other group does not have the
+sis is necessary because companies are also encountering non-                  security analytics service available.
+standardized reference architectures in the IIoT and encounter ad-             In summary, we expect that this paper will contribute to the current
+vantages regarding their financial and personnel resources.                    state of research, as security capabilities have not been included in
+We presented a security analytics service that enables security ca-            security analytics so far. Furthermore, this paper will also transfer
+pabilities through security modules. These security modules can be             knowledge to industry and, in the case of a successful prototype,
+instantiated by diverse analytical techniques to address a particular          will also contribute to the exchange and creation of knowledge.
+
+
+
+
+                                                                          31
+Session 1: AI for CPS Security                                                                                            SAT-CPS ’21, April 28, 2021, Virtual Event, USA
+
+
+
+
+ACKNOWLEDGMENTS                                                                                        Internet Consortium and Plattform Industrie 4.0 joint whitepaper. Technical Report.
+                                                                                                  [16] T. Mahmood and U. Afzal. 2013. Security Analytics: Big Data Analytics for
+We want to acknowledge all project partners involved in the Secure                                     Cybersecurity: A Review of Trends, Techniques and Tools. In Proceedings of the
+Industrial Semantic Sensor Cloud (SISSeC) project funded by the                                        2nd. National Conference on Information Assurance (NCIA 2013). 129–134.
+                                                                                                  [17] R. Martin, S. Schrecker, H. Soroush, J. Molina, J. P. LeBlanc, F. Hirsch, M. Buchheit,
+German Federal Ministry of Economics and Energy (BMWi) as                                              A. Ginter, H. Banavara, S. Eswarahally, K. Raman, A. King, Q. Zhang, P. MacKay,
+part of its central innovation program for small and medium-sized                                      and B. Witten. 2016. Industrial Internet Security Framework. Technical Report.
+businesses.                                                                                       [18] P. M. Mell and T. Grance. 2011. SP 800-145. The NIST Definition of Cloud Computing.
+                                                                                                       Technical Report.
+                                                                                                  [19] S. Mittal, M. Ahmad Khan, D. Romero, and T. Wuest. 2018. A critical Review of
+REFERENCES                                                                                             Smart Manufacturing & Industry 4.0 Maturity Models: Implications for small and
+ [1] R. L. Ackoff. 1989. From Data to Wisdom. Journal of Applied Systems Analysis 16                   medium-sized Enterprises (SMEs). Journal of Manufacturing Systems 49 (2018),
+     (1989), 3–9.                                                                                      194–214.
+ [2] A. Al-Fuqaha, M. Guizani, M. Mohammadi, M. Aledhari, and M. Ayyash. 2015. In-                [20] A. Molina Zarca, J. Bernal Bernabe, I. Farris, Y. Khettab, T. Taleb, and A. Skarmeta.
+     ternet of Things: A Survey on Enabling Technologies, Protocols, and Applications.                 2018. Enhancing IoT Security through Network Softwarization and virtual
+     IEEE Communications Surveys Tutorials 17, 4 (2015), 2347–2376.                                    Security Appliances. International Journal of Network Management 28, 5 (2018),
+ [3] F. Böhm, M. Vielberth, and G. Pernul. 2021. Bridging Knowledge Gaps in Security                   e2038.
+     Analytics. Proceedings of the 7th. International Conference on Information Systems           [21] M. M. Salim, S. Rathore, and J. Park. 2019. Distributed Denial of Service Attacks
+     Security and Privacy (ICISSP 2021), 98–108.                                                       and its Defenses in IoT: a Survey. The Journal of Supercomputing 76, 7 (2019),
+ [4] A. A. Cárdenas, P. K. Manadhata, and S. P. Rajan. 2013. Big Data Analytics for                    5320–5363.
+     Security. IEEE Security and Privacy 11, 6 (2013), 74–76.                                     [22] R. Scandariato, K. Wuyts, and W. Joosen. 2013. A descriptive Study of Microsoft’s
+ [5] Cloud Security Alliance. 2011. Defined Categories of Security as a Service. Technical             Threat Modeling Technique. Requirements Engineering 20 (2013), 163–180.
+     Report.                                                                                      [23] G. N. Schroeder, C. Steinmetz, C. E. Pereira, and D. B. Espindola. 2016. Digital
+ [6] M. Dietz and G. Pernul. 2020. Unleashing the Digital Twin’s Potential for ICS                     Twin Data Modeling with AutomationML and a Communication Methodology
+     Security. IEEE Security Privacy 18, 4 (2020), 20–27.                                              for Data Exchange. IFAC-PapersOnLine 49, 30 (2016), 12–17.
+ [7] M. Dietz, B. Putz, and G. Pernul. 2019. A Distributed Ledger Approach to Dig-                [24] K. Schweichhart. 2016. Reference Architectural Model Industrie 4.0 (RAMI 4.0).
+     ital Twin Secure Data Sharing. In Proceedings of the 33th. Annual IFIP WG 11.3                    Technical Report.
+     Conference on Data and Applications Security and Privacy XXXIII (DBSec 2019).                [25] C. Senk. 2013. Adoption of Security as a Service. Journal of Internet Services and
+     Springer International Publishing, Cham, 281–300.                                                 Applications 4 (2013), 1–16.
+ [8] S. Dojkovski, S. Lichtenstein, and M. Warren. 2007. Fostering Information Security           [26] P. Sethi and S. Sarangi. 2017. Internet of Things: Architectures, Protocols, and
+     Culture in Small and Medium Size Enterprises: An Interpretive Study in Australia.                 Applications. Journal of Electrical and Computer Engineering 1 (2017), 1–25.
+     In Proceedings of the 15th. European Conference on Information Systems (ECIS 2007).          [27] H. Shafiei, A. Khonsari, H. Derakhshi, and P. Mousavi. 2014. Detection and
+ [9] A. Furfaro, A. Garro, and A. Tundis. 2014. Towards Security as a Service (SecaaS):                mitigation of sinkhole attacks in wireless sensor networks. J. Comput. System
+     On the modeling of Security Services for Cloud Computing. In Proceedings of                       Sci. 80, 3 (2014), 644–653.
+     the 48th. International Carnahan Conference on Security Technology (ICCST 2014).             [28] E. Siow, T. Tiropanis, and W. Hall. 2018. Analytics for the Internet of Things: A
+     1–6.                                                                                              Survey. Comput. Surveys 51, 4 (2018).
+[10] M. Goyal and M. Dutta. 2018. Intrusion Detection of Wormhole Attack in IoT: A                [29] K. A. Torkura, M. I. H. Sukmana, F. Cheng, and C. Meinel. 2017. Leveraging Cloud
+     Review. In Proceedings of the 2018 International Conference on Circuits and Systems               Native Design Patterns for Security-as-a-Service Applications. In Proceedings of
+     in Digital Enterprise Technology (ICCSDET 2018). 1–5.                                             the 2nd. International Conference on Smart Cloud (SmartCloud 2017). 90–97.
+[11] M. E. Jennex. 2009. Re-Visiting the Knowledge Pyramid. Proceedings of the 42ndn              [30] W. Wang and S. Yongchareon. 2017. A Survey on Security as a Service. In
+     Hawaii International Conference on System Sciences (HICSS 2009), 1–7.                             Proceedings of the 18th. Web Information Systems Engineering (WISE 2017). Springer
+[12] M. Kiran, P. Murphy, I. Monga, J. Dugan, and S. S. Baveja. 2015. Lambda Archi-                    International Publishing, Cham, 303–310.
+     tecture for cost-effective Batch and Speed Big Data Processing. In Proceedings of            [31] T. Y. Win, H. Tianfield, and Q. Mair. 2018. Big Data Based Security Analytics for
+     the 2015 IEEE International Conference on Big Data (Big Data 2015). 2785–2792.                    Protecting Virtualized Infrastructures in Cloud Computing. IEEE Transactions on
+[13] I. Kotenko, O. Polubelova, and I. Saenko. 2012. Data Repository for Security                      Big Data 4, 1 (2018), 11–25.
+     Information and Event Management in Service Infrastructures. In Proceedings of               [32] S. Xu. 2019. Cybersecurity Dynamics: A Foundation for the Science of Cyber-
+     the 9th. International Conference on Security and Cryptography (SECRYPT 2021).                    security. In Proactive and Dynamic Network Defense, C. Wang and Z. Lu (Eds.).
+     308–313.                                                                                          Springer International Publishing, Cham, 1–31.
+[14] S. W. Lin, B. Miller, J. Durand, R. Joshi, P. Didier, A. Chigani, R. Torenbeek, D.           [33] M. Zaharia, R. S. Xin, P. Wendell, T. Das, M. Armbrust, A. Dave, X. Meng, S.
+     Duggal, R. Martin, and G. Bleakley. 2015. Industrial Internet Reference Architecture.             Rosen, J.and Venkataraman, M. J. Franklin, A. Ghodsi, J. Gonzalez, S. Shenker,
+     Technical Report.                                                                                 and I. Stoica. 2016. Apache Spark: A Unified Engine for Big Data Processing.
+[15] S. W. Lin, B. Murphy, E. Clauer, U. Loewen, R. Neubert, G. Bachmann, M. Pai,                      Commun. ACM 59, 11 (2016), 56–65.
+     and M. Hankel. 2017. Architecture Alignment and Interoperability: An industrial
+
+
+
+
+                                                                                             32
+

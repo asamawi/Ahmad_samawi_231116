@@ -1,0 +1,170 @@
+International Journal of Cloud Applications and Computing
+Volume 10 • Issue 4 • October-December 2020
+
+
+
+
+Determinants of Cloud
+Business Intelligence Adoption
+Among Ghanaian SMEs
+Acheampong Owusu, Business School, University of Ghana, Ghana
+     https://orcid.org/0000-0001-7789-5162
+
+
+
+
+ABSTRACT
+
+This study explores the determinants of Cloud BI adoption among Ghanaian small-medium enterprises
+(SMEs). The study was guided by the technology-organization-environment (TOE) framework and
+information systems adoption model and employed the qualitative method through an in-depth
+interview with data collected from CEOs/key managers from 17 SMEs in Ghana. The results showed
+that technological characteristics (relative advantage, complexity, and compatibility), organizational
+characteristics (organization size and organizational readiness), environmental characteristics
+(competitive pressure and regulatory framework), and owner-manager characteristics (innovativeness
+and knowledge) influence the adoption of Cloud BI tools and services in Ghanaian SMEs. This study
+contributes to the body of knowledge by providing a Cloud BI adoption model from a developing
+country context. Practically, the study provides insights to vendors about the kind of Cloud BI
+Ghanaian SMEs require. Vendors can also use the findings to create awareness about the services
+they offer in terms of Cloud BI.
+
+Keywords
+Cloud BI, Cloud Computing, DOI, Ghana, SMEs, TOE Framework
+
+
+
+1. INTRODUCTION
+
+The use of Information Technology (IT) in supporting the operations of businesses is a very long-
+established phenomenon. IT is used to support every aspect of organizations (public or private;
+small, medium or large) and from diverse sectors (e.g. education, telecommunications, healthcare,
+banking and finance, retailing & distribution, manufacturing, services, etc.). However, in most cases,
+the cost of IT infrastructure (hardware, software, services, and support) and manpower alone can be
+a deterrent to many organizations especially small and medium enterprises (SMEs) in developing
+economies, specifically sub-Saharan Africa (SSA). Most SME businesses in developing economies and
+specifically Ghana, in particular, find it difficult when it comes to ICT investment due to insufficient
+finance and manpower (Mujinga & Chipangura, 2011). If you consider the benefits that come with
+adopting appropriate ICT tools in any business, this becomes an obstacle that deters such small and
+medium businesses. As a result, the SMEs are at disadvantaged positions compared with the more
+established larger organizations with all the appropriate technologies and manpower.
+     SMEs support the economic growth of emerging economies via service delivery, employment
+creation, poverty reduction, entrepreneurship, rural development, and exports of a nation, and are
+
+
+DOI: 10.4018/IJCAC.2020100104
+                                                                      ﻿
+ Copyright © 2020, IGI Global. Copying or distributing in print or electronic forms without written permission of IGI Global is prohibited.
+                                                                      ﻿
+
+
+48
+                                                   International Journal of Cloud Applications and Computing
+                                                                   Volume 10 • Issue 4 • October-December 2020
+
+
+
+mostly unearth in the informal sector where they partake in a diversity of sectors from finance,
+manufacturing, hospitality, and mining among others (Mujinga & Chipangura, 2011; Yeboah-Boateng
+& Essandoh, 2014). As SMEs are the engine of growth in all economies both developed and developing
+(Yeboah-Boateng & Essandoh, 2014), the need for them getting the requisite support in terms of
+technologies to advance their businesses is highly desirable.
+     It is in line with these that one key technology, Cloud Computing has become popular amongst
+SMEs due to its perceived benefits in cost-cutting when it comes to IT spending (Ali, Soar, Mcclymont,
+Yong, & Biswas, 2015). Through cloud computing, many firms that would have had it difficult to buy
+IT equipment, software, telecommunication, and hire competent IT staff have been able to enjoy the
+services without spending much (Mujinga & Chipangura, 2011). Cloud computing offers on-demand
+computing power with rapid implementation, fewer IT staff, low maintenance, and subsequently lower
+cost (Yang & Tate, 2012). These appealing features have caused cloud computing to be a principal
+IT press topic in recent years. The worldwide expenditure on Public Cloud services according to a
+recent IDC research was expected to reach US$210 billion in 2019 and the industry keeps growing
+where “the market is forecast to achieve a five-year compound annual growth rate (CAGR) of 22.5%
+with public cloud services spending reaching $370 billion in 2022” (IDC, 2019).
+     Subashini and Kavitha (2011) emphasized that SMEs have seen the potential values of cloud
+computing which is enhancing their businesses through the tapping of cloud infrastructure to advance
+fast access to the finest infrastructure and business applications at an insignificant cost. Cloud
+computing can bring substantial benefits to SMEs through the reduction of costs of investment in
+ICT infrastructure and even manpower. As cloud computing enables end-users to make use of various
+services including software, computation, data access, and storage without knowing the physical
+location and configuration of the system that delivers the services, it does not necessarily require
+the competence of a highly skilled IT staff to implement (Mujinga & Chipangura, 2011). This is
+an advantage to most SMEs since the hiring of skilled IT staff and maintenance of IT hardware
+infrastructure is not needed.
+     Another interesting phenomenon that is trending recently in the cloud computing industry is
+Cloud Business Intelligence (BI). As BI Systems are very expensive to implement and demands a
+lot of skilled manpower, time-consuming and others, BI vendors such as Birst, ClearStory Data,
+Domo, GoodData specializes in offering cloud-based BI and analytics (Gartner, 2016) which is
+more affordable and offered as part of Software as a service (SaaS) namely BI as a Service (BI-as-a-
+Service) (Olszak, 2014). Others such as Birst, IBM, Microsoft, Platfora, Oracle, SAP, and SAS offer
+both on-premises and cloud-based solutions (Gartner, 2016). Gartner (2016) predicted as part of
+their strategic planning assumptions that “by 2018, most business users and analysts in organizations
+will have access to self-service tools to prepare data for analysis as part of the shift to deploying
+modern BI platforms”. Forbes (2018) in their survey of “The State of Cloud Business Intelligence,
+2018” found out that “Cloud BI adoption is soaring in 2018, nearly doubling 2016 adoption levels”.
+Additionally, their report shows that “over 90% of Sales & Marketing teams say that Cloud BI is
+essential for getting their work done in 2018”, “66% of organizations that consider themselves
+completely successful with Business Intelligence (BI) initiatives currently use the cloud”, “Financial
+Services (62%), Technology (54%), and Education (54%) have the highest Cloud BI adoption rates
+in 2018” and finally, “86% of Cloud BI adopters name Amazon AWS as their first choice, 82% name
+Microsoft Azure, 66% name Google Cloud, and 36% identify IBM Bluemix as their preferred provider
+of cloud BI services” (Forbes, 2018).
+     However, a review of extant academic literature about the types of cloud computing adopted
+by Ghanaian SMEs in terms of the specific services they are using in the cloud is non-existent. The
+studies have been generic in the Ghanaian context in terms of the cloud service delivery models
+(SaaS, IaaS, PaaS) and deployment models (public, private, community, and hybrid) and does not
+offer the actual state of cloud computing adopted by Ghanaian SMEs (Senyo, Effah, & Addae, 2016;
+Yeboah-Boateng & Essandoh 2014; Adam & Musah 2015). In addition, the focus of extant academic
+
+
+                                                                                                           49
+       20 more pages are available in the full version of this
+   document, which may be purchased using the "Add to Cart"
+                   button on the product's webpage:
+   www.igi-global.com/article/determinants-of-cloud-business-
+                intelligence-adoption-among-ghanaian-
+                        smes/262615?camid=4v1
+
+
+
+     This title is available in InfoSci-Journals, InfoSci-Journal
+     Disciplines Business, Administration, and Management,
+  InfoSci-Journal Disciplines Computer Science, Security, and
+        Information Technology, InfoSci-Journal Disciplines
+       Engineering, Natural, and Physical Science, InfoSci-
+   Computer Science and IT Knowledge Solutions – Journals,
+         InfoSci-Business Knowledge Solutions – Journals.
+              Recommend this product to your librarian:
+                www.igi-global.com/e-resources/library-
+                          recommendation/?id=2
+
+
+
+
+Related Content
+
+A Framework on Data Mining on Uncertain Data with Related Research
+Issues in Service Industry
+Edward Hung (2011). Service Intelligence and Service Science: Evolutionary
+Technologies and Challenges (pp. 114-128).
+www.igi-global.com/chapter/framework-data-mining-uncertain-
+data/47359?camid=4v1a
+
+A Survey on Blood Image Diseases Detection Using Deep Learning
+Mohamed Loey, Mukdad Rasheed Naman and Hala Helmy Zayed (2020).
+International Journal of Service Science, Management, Engineering, and Technology
+(pp. 18-32).
+www.igi-global.com/article/a-survey-on-blood-image-diseases-detection-
+using-deep-learning/256653?camid=4v1a
+Location-Based Services (LBS) in Micro-Scale Navigation: Shortcomings and
+Recommendations
+Suleiman Almasri, Muhammad Alnabhan, Ziad Hunaiti and Eliamani Sedoyeka
+(2009). International Journal of E-Services and Mobile Applications (pp. 51-71).
+www.igi-global.com/article/location-based-services-lbs-
+micro/37447?camid=4v1a
+
+Comparative Study for Different Provisioning Policies for Load Balancing in
+Cloudsim
+Layla Albdour (2017). International Journal of Cloud Applications and Computing (pp.
+76-86).
+www.igi-global.com/article/comparative-study-for-different-provisioning-
+policies-for-load-balancing-in-cloudsim/182254?camid=4v1a
+

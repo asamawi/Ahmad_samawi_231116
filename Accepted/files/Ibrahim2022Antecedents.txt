@@ -1,0 +1,400 @@
+Antecedents of Software-as-a-Service Adoption for Small
+   and Medium Enterprise in Developing Countries
+
+           Ahmed Mamdouh Abdelfatah Ibrahim1 and Norris Syed Abdullah2
+   1 Faculty of Computing, Universiti Teknologi Malaysia, 81310 Skudai, Johor, Malaysia.
+
+                              Mamdouh@graduate.utm.my
+2 Azman Hashim International Business School, Universiti Teknologi Malaysia, 81310 Skudai,
+
+                                       Johor, Malaysia.
+                                      Norris@utm.my
+
+
+
+       Abstract. Cloud computing Software as a Service (SaaS) has become one of
+       the most hotly debated topics among enterprise information technology
+       professionals (IT). Small and medium enterprises (SMEs) with limited budgets
+       and human resources are among the most frequent users of cloud computing to
+       take advantage of this technology. Due to their limited financial resources, it is
+       crucial for enterprises to adopt innovative technologies that do not require
+       initial investment and can be deployed as and when required. The rapid
+       improvements and innovations in SaaS in recent years have led to many
+       companies in various industries accepting this technology as viable. The shift to
+       SaaS comes with a number of challenges that go beyond the technology. The
+       adoption of cloud computing in SMEs is influenced by a number of factors.
+       Before deciding to use cloud-based solutions, these conditions need to be
+       thoroughly assessed.
+
+       The objective of this research is to investigate into the significant factors which
+       influence Cloud computing Software as a Service (SaaS) adoption by Small and
+       medium enterprises in the developing nations. Previous research has
+       demonstrated that SaaS adoption benefits SMEs greatly. Therefore, the goal of
+       this study to presents and develop a research model including Relative
+       Advantage, Complexity, Security & Privacy, Compatibility, Top Management
+       Support, SaaS Awareness, Organization Culture, Competitive Pressure,
+       Regulatory Support, Personal Innovativeness and Prior Technology Experience
+       factors based on the integration of the Technology Organisation Environment
+       (TOE) and Human Organisation Technology Fit (HOT-fit) models. The study
+       pertains to SMEs that have previously adopt cloud computing SaaS. The data
+       can be obtained using a quantitative technique via surveys of SMEs in Qatar as
+       a developing country and analyzed using the Smart PLS tool.
+
+
+       Keywords: Cloud Computing; SaaS; Adoption; SME’s; TOE; HOT-fit;
+       Developing Countries.
+    1. Introduction
+The development of telecommunications and technology has long been considered
+one of the most important growth drivers in various industries [1]. This makes it
+necessary for companies to adopt and use new technologies to improve quality and
+increase benefits in all industries [3]. Cloud computing has made significant progress
+in the last decade, with usage reaching up to 94 per cent (Shang & Kauffman, 2020).
+As a result, cloud computing has become one of the most advanced solutions IT for
+public and private companies around the world. According to a recent study, the
+market for cloud computing will grow by more than 17% in 2019, reaching $200
+billion in 2019 and $278 billion in 2022 [11].
+
+The below is a summary of the paper's framework: The first Section gives an
+overview of SaaS cloud computing, including the research question and objectives as
+well. The second section digs into the literature review which include CC service
+delivery models, research methodology and SaaS adoption challenges. Section three
+contains the proposed framework and the hypothesis. While the last Section including
+the main conclusions and the future work.
+
+
+   Problem Background
+Low performance and lack of economic diversity are the result of the absence of a
+technological environment for entrepreneurship that necessitates the use of cloud
+computing SaaS in small and medium enterprises (SMEs). This is to enable
+enterprises with limited budget [12] and human resources to benefit from SaaS cloud
+computing and reduce the cost of IT infrastructure and expertise [13][14] to improve
+their economic viability.
+
+Despite the benefits of SaaS, there are a number of barriers to adoption. Different
+authors have pointed out different difficulties in adopting SaaS in different situations.
+According to the findings of [17], these are customization, security and privacy [18],
+virtualization and multi-tenancy [28]. Lack of familiarity with the definition of cloud
+computing services & insufficient knowledge, [22] loss of control, regional
+regulations [10], governance [23], lack of a well-managed and established standard,
+management resistance [24].
+
+Despite the many benefits cloud computing can offer, companies are reluctant to
+adopt it [29]. In a modern environment, the pace of technological innovation and new
+thinking is a hot topic. Although several studies have been conducted to investigate
+the barriers to adoption of CC, they are insufficient [30], and the question remains:
+How can a technology like cloud computing (CC) help SMEs overcome the previous
+problems?
+
+In the context of developing countries, Qatar offers an excellent economic climate
+[31], but the majority of SMEs in Qatar still struggle with the use of cloud computing
+SaaS and the adoption of cloud computing is still in its infancy with only 3%.
+   Research Questions
+This research will address the antecedents that influence intention to adopt cloud
+computing SaaS for small and medium-sized enterprise in Qatar. The aim of this
+research is to find answers to the questions listed below.
+"How can a model be developed to enable the adoption of SaaS in SMEs?”. The
+following sub-questions support the primary research question:
+
+        RQ1: What is the status of SAAS adoption in SMEs in Qatar?
+        RQ2: What factors influence the adoption of SAAS in SMEs in Qatar?
+        RQ3: How can the model for SAAS adoption be developed for SMEs in
+         Qatar?
+
+  Research Objectives.
+The research objectives can be formulated as follows:
+     RO1: To explore the current status of SAAS adoption in SMEs in Qatar.
+     RO2: To identify the factors influencing the adoption of SAAS among SMEs
+        in Qatar.
+     RO3: Develop a model for the adoption of SaaS for SMEs in Qatar.
+
+This research will address the antecedents that influence the intention to adopt cloud
+computing Software as a service for SMEs in Qatar.
+
+
+
+
+    2. Literature Review
+   Cloud Computing Service Delivery Models
+Cloud computing is a model for ubiquitous, convenient and on-demand network
+access to a shared pool of configurable computing resources (e.g. networks, servers,
+storage, applications and services) that can be rapidly provisioned and released with
+minimal management effort or interaction with the service provider [4].
+
+Previous research has found that there are three main models for cloud service
+delivery, referred to as SPI MODEL. SPI is an acronym that stands for Software,
+Platform and Infrastructure [5]. Infrastructure as a Service (IaaS), where a provider
+offers its customers paid access to storage, networks, servers and other computing
+resources in the cloud [6].
+
+Platform as a Service (PaaS), where the provider enables access to an infrastructure so
+that the user can build their own application. The platform allows customers to build
+their applications that run on the service provider's infrastructure [7]. Software-as-a-
+Service (SaaS): In this model, the customer can access the provider's infrastructure via
+an interface. The most commonly used interfaces are web browsers. In this model, a
+single instance on the service provider's side supports multiple access instances on the
+client's side [8].
+   Research Methodology
+Howell defines research methodology as the general research strategy that outlines the
+way in which research is to be conducted and specifies, among other things, the
+methods to be used in the process [2].
+In order to answer the research question, survey research needs to collect data from
+various sources. For this research, the existing literature was also consulted and
+reviewed. Therefore, the research design used can be called survey research.
+
+  Software as a service Cloud Computing Adoption challenges
+
+Both developing and developed countries have adopted SaaS. However, developed
+countries are far ahead of emerging countries in terms of adoption and use of the
+technology. Despite the many benefits of cloud computing, its value has yet to be
+recognized in developing countries. Many different studies [32], [33] have
+contributed significantly to the adoption of cloud computing in developed countries.
+For example, [32] studied CCA at CC adopter organizations in the UK using the TOE
+model. The study's findings revealed that while risks are frequently connected with
+SEMs' adoption of innovative technologies, organizational innovativeness and
+associated capacities play a critical influence in cloud computing adoption.
+
+ In Universities in Malaysia, a study was done to determine the differences based on
+SaaS adoption [34]. The research emphasized the importance of innovation for SaaS
+adoption, as well as effort expectation, social impact, performance expectancy, self-
+efficacy, peer, and even superior components. As stated by Awodele et al, issues in
+cloud computing services can be in terms of (a) Network and Data Security, (b)
+Governance, Compliance and legal, and (c) Communication interface and
+Virtualization Security [19]. Haider and Selvan, have addressed the inability to
+maintain data confidentiality because of the huge number of access devices and
+applications to store and manage data in cloud-based storage to be the most prominent
+issue in cloud computing [20].
+
+Security and privacy challenges associated with SaaS be addressed as follows [15].
+Following findings from (Nema, S. 2016), security and privacy issues in cloud
+computing are in terms of Loss of control, Lack of transparency, Virtualization, and
+Multi-Tenancy as shown in figure [9]. Kumar et al, narrated that Loss of control in
+cloud computing can be in terms of data loss and breach, data storage, and sharing
+under several Multiple Regional Regulations [16]. Research on the use of cloud
+computing infers nearly 63% of customers disagree to use services of cloud services
+providers in case the vendor fails to prevent loss of data through unauthorized
+accesses.
+
+   Factors Influencing Adoption of SaaS Cloud Computing
+While SaaS is a strategic decision made by businesses to cut costs, reduce risk, and
+increase system flexibility, Challenges to the adoption of SaaS, in general, can be
+categorized as stated by Branco et al. [21], can be in terms of Advantages of Cloud
+Computing Maturity of Business, Trust in Cloud Service provider, Analysis of Risks
+and Agreements of service level.
+The shortage of qualified folks and leadership abilities, high labor, and space
+expenses [35] which are regarded as malfunction factors in the organization, as well
+as a dearth of a society of entrepreneurialism which is strongly based on good strategy
+implementation, are the most specific issues facing the small and medium-sized
+enterprises segment in Qatar [36]. To lower the risk, the business owner must also
+identify and examine the current scenario as well as the problematic area.
+
+As discussed by [37] there are various factors that affect the decision of adopting
+SaaS services [25]. While some companies can be seen having technological concerns
+in terms of the security of data, some find adoption of cloud services complex. This is
+because of the fact that; cyber-attacks nowadays have been on a significant rise these
+days. Hackers are deliberately trying to find out alternatives to breach securities and
+many times they are being successful in it.
+
+In addition, being a comparatively advanced and ever-evolving technology, most of
+the users are significantly ignorant of appropriate management and security features
+associated with cloud computing and hence find the management quite more complex
+than onsite information storage, maintenance and safekeeping. On the other hand, it is
+impossible for anyone to access data at his own convenience. Rather, any
+unauthorized user is supposed to get into the storage premises and acquire
+information from individuals having knowledge of security features in order to breach
+the security. Moreover, sharing cloud services by a number of users reduces the
+control of organizations over IT/IS.
+
+While small and medium enterprises find it quite comfortable to enjoy services of a
+common shared pool, larger organizations do not find it convenient. This is because
+of the fact that a shared information pool allows users to use information stored by
+other users and hence costs of information collection, maintenance and security
+reduces significantly which in turn helps in cost reduction of SMEs.
+
+Quality of service and security provisions affect the decision of using cloud services
+by government organizations [26]. This is because; some of the government
+organizations such as national financial institutions and data related to the defense
+sector are highly confidential and hence cannot be taken a chance of getting any kind
+of unauthorized access. The use of any kind of cloud services by financial and defense
+organizations is supposed to make them susceptible to getting attacked by cyber
+attackers and get the entire country to go through a financial crisis and breach in
+national security.
+
+Factors identified by Tehrani and Shirazi, [27] influence the Adoption decision. These
+factors are; External Support, Pressure of competition in the market, Knowledge of
+decision-makers and employees on efficiencies of Cloud Computing, Information
+intensity, potential advantages, privacy and security, innovativeness, complexity,
+trialability, and compatibility with business requirements, used technologies, and
+company norms.
+To summarize, the majority of past research focused on businesses as a whole, with
+only a few studies focusing specifically on small and medium-sized businesses.
+Previous research has primarily focused on the adoption of CC, with only a few
+studies focusing specifically on SaaS. While these studies may not be able to exactly
+pinpoint the benefits that small and medium-sized businesses can achieve by adopting
+SaaS, very few studies are able to address the reasons why their issues with cloud
+computing SaaS persist. Only a small amount of research has been done in Qatar to
+investigate the antecedents of SMEs adopting SaaS, and only 3% of Qatari SMEs
+have done so. Very minimal studies are also looking at human level adoption for
+small and medium-sized businesses in developing or industrialized countries. As a
+conclusion, more research is needed to determine the various antecedents that may
+influence SaaS adoption among SMEs in developing nations.
+
+
+
+    3. Proposed Frame work and Hypothesis
+This study aims to study the current antecedents which may obstruct SAAS cloud
+computing Adoption through implementing combined model consisting of TOE
+model integrated with the Hot-Fit model.
+
+The current proposed model as shown in Figure 1, incorporates TOE (Technology-
+Organization-Environment) as among the most applicable frameworks for technology
+innovation at the organizational level while acquiring DOI (Relative Advantage,
+Complexity) technological constructs [38]. A few current proposed constructs
+(Organizational Culture, Awareness of SaaS) are got to add to the organizational level
+by customizing TOE to define the significant factors that affect Cloud Computing
+SaaS adoption in SMEs. Which means , the Technology construct incorporates three
+DOI factors (Relative Advantage, Compatibility, and Complexity) with Security,
+Organization constructs (Company Size, Awareness, Organizational Culture), and
+Environment constructs (Competitive Pressure, and Government Policy) into the
+original TOE model. Furthermore, with the addition of HOT-Fit, factors such as
+innovativeness and technical competence are considered.
+Fig. 1. The Proposed Model (VAM & ECM).
+
+       H1: Relative Advantage would significantly influence SME’s to adopt SaaS.
+       H2: Complexity of SaaS would significantly influence SME’s SaaS
+        adoption.
+       H3: Security & Privacy of SaaS would significantly influence SME’s to
+        adopt
+       H4: Compatibility of SaaS would significantly influence SME’s SaaS
+        adoption.
+       H5: Top Management Support would significantly influence SME’s to adopt
+        SaaS.
+       H6: SaaS Awareness would significantly influence SME’s to adopt SaaS.
+       H7: Organization Culture would significantly influence SMEs to adopt SaaS.
+       H8: Competitive Pressure would significantly influence SME’s to adopt
+        SaaS.
+       H9: Regulatory Support would significantly influence SME’s to adopt SaaS.
+       H10: Personal Innovativeness would significantly influence to adopt SaaS
+       H11: Prior Technology Experience would significantly influence SMEs to
+        adopt SaaS.
+    4. Conclusion
+Across all the services especially on request, SaaS cloud computing is a technology
+where computation can be carried out at extremely low costs. To encourage more
+companies to adopt SaaS cloud computing, the service providers need to address all
+the challenges affecting the adoption for their clients. In this paper, we have addressed
+and demonstrated the numerous obstacles and challenges related to SaaS cloud
+computing challenges.
+
+ Addressing these challenges requires research to be conducted as a future work from
+different areas like informatics, statistics, risk modeling, social sciences, and
+physiological factors. Also, a to investigate the relationship between Relative
+Advantage, Complexity, Security & Privacy, Compatibility, Competitive pressure,
+Regulatory Support, Awareness, Top Management support, Culture, Personal
+innovation, Prior Tech experience, and SaaS adoption as well. As a future work, a
+research need to conduct to test the developed model and the hypotheses by collecting
+the data using a quantitative technique via surveys of SMEs in Qatar as a developing
+country then analyzed the data using the Smart PLS tool to sort out the significant
+factors that may influence SaaS adoption in the developing countries.
+
+
+References
+
+ 1. Gangwar, H., Date, H., & Ramaswamy, R. (2015). Understanding determinants of cloud
+    computing adoption using an integrated TAM-TOE model. Journal of Enterprise
+    Information Management, 28(1), 107–130. doi:10.1108/JEIM-08-2013-0065
+ 2. Howell, K. E. (2013), Introduction to the Philosophy of Methodology. London: Sage
+    Publications
+ 3. Arvanitis, S., Kyriakou, N., & Loukis, E. N. (2017). Why do firms adopt cloud
+    computing? A comparative analysisbased on South and North Europe firm data.
+    Telematics and Informatics, 34(7), 1322–1332. doi:10.1016/j.tele.2016.05.013
+ 4. Mell, P. M., & Grance, T. (2011). The NIST definition of cloud computing.
+    doi:10.6028/nist.sp.800-145
+ 5. K. Hashizume, D. Rosado, E. Fernández-Medina and E. Fernandez, "An analysis of
+    security issues for cloud computing", J Internet Serv Appl, vol. 4, no. 1, p. 5, 2013.
+ 6. IaaS, PaaS and SaaS – IBM Cloud service models, visited 24 July 2019,
+    https://www.ibm.com/cloud/learn/iaas-paas-saas
+ 7. Cloud computing service and deployment models: layers and management", Choice
+    Reviews Online, vol. 50, no. 07, pp. 50-3896-50-3896, 2013.
+ 8. Q. Alajmi, Ali Safa Sadiq, Adzhar Kamaludin and Mohammed A. Al-Sharafi, Cloud
+    Computing Delivery and Delivery Models: Opportunity and Challenges, June 2018, DOI:
+    10.1166/asl.2018.11537
+ 9. Nema, S. 2016. A Survey of Security and Privacy Challenges in Cloud Computing.
+    International Journal of Advanced Research in Computer and Communication
+    Engineering, 5(3), pp. 191-194.
+10. Kumar, D., Samalia, H. V., & Verma, P. (2017). Exploring suitability of cloud computing
+    for small and medium-sized enterprises in India. Journal of Small Business and Enterprise
+    Development, 24(4), 814–832. doi:10.1108/jsbed-01-2017-0002
+11. Gartner, Assessing the Security Risks of Cloud Computing, 2008, [Online] Available at:
+    http://www.gartner.com/DisplayDocument?id=685308 La (Accessed: July 2020)
+12. Mwaniki, P., & Ondiek, C. (2018). Evaluation of the Effects of SaaS on SMEs in Nairobi
+    County, Kenya. Journal of Information Systems Engineering & Management, 3(3), 20.
+13. Fakieh, B., Blount, Y., & Busch, P. (2016). SMEs and cloud computing: The benefits to
+    the national economy and global competitiveness. Paper presented at the Conference: The
+    13 th European Mediterranean & Middle Eastern Conference on Information Systems,
+    EMCIS.
+14. Trinh, T. P., Pham, C. H., & Tran, D. (2015). An Adoption Model of Software as a Service
+    (SaaS) in SMEs. Paper presented at the PACIS.
+15. Sherif Sakr & Albert Zomaya, 2019, Encyclopedia of Big Data Technologies , first edition
+    Copyright Springer Nature Switzerland AG , eReference ISBN 978-3-319-77525-8
+16. Kumar, D., Samalia, H. V., & Verma, P. (2017). Exploring suitability of cloud computing
+    for small and medium-sized enterprises in India. Journal of Small Business and Enterprise
+    Development, 24(4), 814–832. doi:10.1108/jsbed-01-2017-0002
+17. Aleem, S., Ahmed, F., Batool, R., & Khattak, A. (2019). Empirical investigation of key
+    factors for SaaS architecture dimension. IEEE Transactions on Cloud Computing.
+18. Sun, Y., Zhang, J., Xiong, Y. and Zhu, G., 2014. Data security and privacy in cloud
+    computing. International Journal of Distributed Sensor Networks, 10(7), p.190903.
+19. Awodele O., Ominike Akpovi A., Adebayo A. O. & Tayo O. O., 2017, Security and
+    Privacy Issues in Cloud Computing, ISSN : 2394-4714
+20. Haider, Y. and Selvan, S., 2016. Confidentiality Issues in Cloud Computing and
+    countermeasures: A Survey.
+21. Branco Jr, T., de Sá-Soares, F. and Rivero, A.L., 2017. Key Issues for the Successful
+    Adoption of Cloud Computing. Procedia Computer Science, 121, pp.115-122.
+22. Kumar, D., Samalia, H. V. and Verma, P. (2017) ‘Exploring suitability of cloud computing
+    for small and medium-sized enterprises in India’, Journal of Small Business and Enterprise
+    Development, 24(4), pp. 814–832. doi: 10.1108/JSBED-01-2017-0002.
+23. Awodele, O., Adebayo, A.O. and Tayo, O.O., 2017. Security and Privacy Issues in Cloud
+    Computing. Communications On Applied Electronics, 7(3), pp.14-17.
+24. Ahmed, A. M., Moreton, R., Mehdi, Q. H., & Elmaghraby, A. (2013). E-government
+    services challenges and opportunities for developing countries: The case of Libya. Paper
+    presented at the 2013 Second International Conference on Informatics & Applications
+    (ICIA).
+25. Hsu, C.L. and Lin, J.C.C., 2016. Factors affecting the adoption of cloud services in
+    enterprises. Information Systems and e-Business Management, 14(4), pp.791-822.
+26. Alsanea, M., Barth, J. and Griffith, R., 2014. Factors affecting the adoption of cloud
+    computing in the government sector: a case study of Saudi Arabia. International Journal of
+    Cloud Computing and Service Science, 36.
+27. Tehrani, S.R. and Shirazi, F., 2014, June. Factors influencing the adoption of cloud
+    computing by small and medium size enterprises (SMEs). In International Conference on
+    Human Interface and the Management of Information (pp. 631-642). Springer, Cham.
+28. Nema, S. 2016. A Survey of Security and Privacy Challenges in Cloud Computing.
+    International Journal of Advanced Research in Computer and Communication
+    Engineering, 5(3), pp. 191-194.
+29. Fishman, C 2012, 'The insourcing boom', The Atlantic, December, pp. 44-52.
+30. Gide, E., & Sandu, R. 2015. “A Study to Explore the Key Factors Impacting on Cloud
+    Based Service Adoption in Indian SMEs”. In 12th International Conference on e-Business
+    Engineering, 387-392. IEEE.
+31. arabianbusiness,    2013      ,Qatar   SMEs     face     barriers   to   2022     projects,
+    https://www.arabianbusiness.com/qatar-smes-face-barriers-2022-projects-485087.html
+32. El-Haddadeh, R. (2019) ‘Digital Innovation Dynamics Influence on Organisational
+    Adoption: The Case of Cloud Computing Services’, Information Systems Frontiers.
+    Information Systems Frontiers. doi: 10.1007/s10796-019-09912-2.
+33. Senarathna, I., Wilkin, C., Warren, M., Yeoh, W., & Salzman, S. (2018). Factors that
+    influence adoption of cloud computing: an empirical study of Australian SMEs.
+    Australasian Journal of Information Systems, 22. doi: 10.3127/ajis.v22i0.1603.
+34. Yadegaridehkordi, E., Nilashi, M., Shuib, L., & Samad, S. (2020). A behavioral intention
+    model for SaaS-based collaboration services in higher education. Education and
+    Information Technologies, 25(2), 791-816.
+35. The Report: Qatar 2008 - Page 178 - Google Books Result ,
+    https://books.google.com.qa/books?id=stSsFxDTl4QC&pg=PA178&lpg=PA178&dq=pro
+    blem+of+high+cost+of+skilled+labour+%26+spaces+in+qatar&source=bl&ots=5y1PtZW
+    yjy&sig=ACfU3U342dib1LmBUbGBh0Szt8oGi0AA1g&hl=en&sa=X&ved=2ahUKEwib
+    h76v7ZroAhXo63MBHXJHCXMQ6AEwAHoECAoQAQ#v=onepage&q=problem%20of
+    %20high%20cost%20of%20skilled%20labour%20%26%20spaces%20in%20qatar&f=fals
+    e
+36. Singh, A., Sharma, S., Kumar, S. R., & Yadav, S. A. (2016). Overview of PaaS and SaaS
+    and its application in cloud computing. Paper presented at the 2016 International
+    Conference on Innovation and Challenges in Cyber Security (ICICCS-INBUSH).
+37. Hsu, C.-L., & Lin, J. C.-C. (2016). Exploring Factors Affecting the Adoption of Internet of
+    Things Services. Journal of Computer Information Systems, 58(1), 49–57.
+    doi:10.1080/08874417.2016.1186524
+38. Rogers, E.M. (2003), Diffusion of Innovations, 5th ed., Free Press, New York, NY.
+

@@ -1,0 +1,888 @@
+Received February 23, 2020, accepted March 28, 2020, date of publication April 13, 2020, date of current version May 11, 2020.
+Digital Object Identifier 10.1109/ACCESS.2020.2987331
+
+
+
+
+Factors Influencing SMEs’ Adoption of Cloud
+Computing Services in Lebanon: An Empirical
+Analysis Using TOE and Contextual Theory
+MAHMOUD SKAFI                      1 , MANAL M. YUNIS2 , AND AHMED ZEKRI1
+1 Department of Mathematics and Computer Science, Beirut Arab University (BAU), Beirut 11072809, Lebanon
+2 Department of Information Technology and Operations Management, Lebanese American University (LAU), Beirut 1102 2801, Lebanon
+
+Corresponding author: Mahmoud Skafi (mskafi@bau.edu.lb)
+
+
+
+
+  ABSTRACT An increasingly important advancement in information and communication technologies is
+  cloud computing, and a remarkably increasing trend is its adoption by various organizations. The trend is
+  attributed to the potential of this growing computing paradigm to improve the scalability, efficiency, and
+  reliability of IT systems. Diffusion of cloud computing innovation is changing the way business information
+  systems are developed, paid for, and maintained Alshamaila et al. 2013, Low et al. 2011, thus contributing to
+  efficiency and better value for enterprises. This not only applies to large organizations, but also progressively
+  more to small and medium-sized enterprises (SMEs). However, little is known about the factors most likely
+  to be associated to the adoption behavior of cloud computing services among small and medium enterprises
+  operating in Lebanon. This study deploys the technology–organization–environment (TOE) framework and
+  the Contextual Theory to empirically examine the determinants of cloud computing service adoption in
+  a developing country, namely Lebanon. A model is proposed, and data collected from 139 respondents
+  working in SMEs in Lebanon and analyzed using confirmatory factor analysis and logistic regression in
+  SPSS provide strong support for the model. Results indicate that technological (i.e., complexity and security)
+  and organizational (i.e., top management support and prior IT experience) factors are positively related to
+  the decision to adopt cloud computing services. Moreover, one of the areas of potential interest is the effect
+  of country-specific, or contextual factors, among those who intend to adopt cloud computing. The analysis
+  shows that context-specific factors (i.e. poor infrastructure and lack of government initiatives) are negatively
+  related to the adoption decision. Implications and limitations are discussed, and recommendations for future
+  research are proposed.
+
+
+  INDEX TERMS Computing services, TOE framework, contextual theory, logistic regression, IS adoption,
+  SMEs.
+
+
+
+I. INTRODUCTION                                                                                myriad of client organizations looking for high performance
+Due to fierce market competition and a rapidly innovative                                      computing at low costs. Scalability, contribution to a greener
+business environment, firms in all industries and sectors                                      innovative environment El-Kassar and Singh [19], shared
+have opted to adopt information and communication tech-                                        resources, shared user-interface technologies, advanced pro-
+nologies (ICTs) to improve their business operations and                                       cessors, broadband internet and wireless connections, elas-
+enhance their business value Aljabre [4], Marston et al. [36],                                 ticity, and high-speed low-cost servers have all contributed in
+Low et al., Sultan [59]. Cloud computing, a new computing                                      making cloud computing an attractive paradigm to adopt and
+paradigm, is growing at a rapid pace and is witnessing a                                       use by organizations of all types and sizes.
+high rate of adoption Sallehudin et al. [60], Gens 2009,                                          The increased usage of cloud computing adoption in orga-
+owing to its features that made it a compelling solution to a                                  nizations worldwide highlights the significance of exam-
+                                                                                               ining the aspects that might have impact on the adoption
+   The associate editor coordinating the review of this manuscript and                         of this computing paradigm in small and medium compa-
+approving it for publication was Lo’ai A. Tawalbeh             .                               nies (SMEs) operating in different industries and sectors.
+
+                     This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+VOLUME 8, 2020                                                                                                                                                        79169
+                                          M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+It is well agreed upon by researchers that cloud computing                invest in cloud computing mainly to achieve these strategic
+service models, especially the Software as a Service (SaaS)               objectives of efficiency and better performance. According to
+model, have significant effects on achieving cost efficiency              Global Finance survey, small business startups have become a
+and better payoffs and return on investments in information               wave that riveted the Middle East and North Africa (MENA)
+technologies and systems. However, this computing model                   region Domat [64]. According to the report, 2018 was again
+is still relatively recent and represents a fraction of the total         a record year for this region, with 366 deals, attracting
+Information Technology (IT) invested, even if it is growing at            $893 million in investment. Probably, the figure would be
+a faster pace compared to traditional computing models.                   regarded as modest compared to Europe and the USA, but
+   To start with, cloud computing in this study refers to                 the momentum is strong and is building fast Domat [64].
+an emerging platform or architecture that allows a global                 The trend is also changing regarding the adoption of digital
+on-demand access to data and applications in a shared                     services, where the region is witnessing the availability of lots
+pool of computer resources retrieved through internet con-                of technologies, such as artificial intelligence, cloud comput-
+nectivity Horrigan [61]. It involves the sharing and stor-                ing, data management, block chain, and others. Nevertheless,
+age of users’ data on non-local servers that are con-                     while the adoption and use of these advanced technologies
+trolled by a third party company offering a cloud service                 are driven by their advantages and their added-value input
+Gellman [62]. Cloud computing could be deployed in the                    to the organizations investing in them, they are also highly
+form of a public, private, hybrid, or community cloud,                    hampered by certain challenges that could slow down their
+offering a triad of services comprising Infrastructure-as-a-              adoption.
+service (IaaS), Platform-as-a-Service (PaaS), and Software-                  Studies demonstrate that the establishment of Small and
+as-a-Service (SaaS) Martha et al. [63], Diakakos et al. 2009.             Medium Enterprises (SMEs) have increased enormously dur-
+This study focuses on the last type, SaaS, whereby the CSP                ing the last decade in developing countries, owing to the
+offers software applications and data storage locations that              important role SMEs are playing in providing job opportu-
+users will either purchase or rent on a pay-as-you-go plan                nities and contributing in the development of an economy.
+Martha et al. [63], Diakakos et al. 2009.                                 SMEs are increasingly becoming the dominant form of an
+   With this in mind, and in an era where digitalization has              enterprise, with approximately 99% of all firms being SMEs.
+become ubiquitous, there are opportunities to migrate and                 They account for about 70% of jobs, and contribute majorly
+host data and applications to the cloud. Migration includes               to providing value, where on average, 50% and 60% of
+data storage, computations, or even whole services which                  value added could be attributed to them (OECD, 2016). At a
+has a huge effect on nearly all businesses in all sectors.                lower level, SMEs contribute up to 33% of Gross Domes-
+However, the reasons for adopting or not adopting these                   tic Product (GDP) and 45% of total employment in emerg-
+technologies are still not amply examined as regards SMEs                 ing economies. Additionally, developing SMEs may play an
+operating in Lebanon. This is specifically important since                important role in economic diversification, resilience, and
+Lebanon is considered a fertile ground for SME development                greener working environments (OECD, 2017).
+Fahed-Sreih et al. [20]. To contribute to this knowledge and                 However, when it comes to digital transition, SMEs are
+understanding through this study, a survey is developed to                lagging behind. Although digitalization provides SMEs with
+collect data that would help build insights in regards to the             new opportunities to enter the global market, evidence shows
+main factors that can impact the adoption of this new com-                that SMEs are still behind large firms when it comes to
+puting paradigm in the operation of SMEs, especially in the               digital transition or technology adoption. While the divide
+Lebanese market.                                                          between large organizations and SMEs is narrow for sim-
+   The effect of Information Technology (IT) on the perfor-               ple connectivity and web presence, the gap becomes bigger
+mance of organizations has been broadly discussed in the                  when considering more sophisticated applications, such as
+present body of literature (e.g., Yunis et al. [54]). Other               ecommerce and enterprise resource planning (ERP). While
+technologies including cloud computing have secured sup-                  the distance between large organizations and SMEs is narrow
+port in the IT field. As a matter of fact, cloud computing                for basic connectivity and web presence, when considering
+is a cost-efficient service that allows effectiveness in busi-            more complex applications such as e-commerce and business
+ness activities. More precisely, it helps in lowering capital             resource planning (ERP) the gap increases. For instance,
+expenses of buying new hardware and software and by pro-                  ERP software solutions to manage business processes are
+viding the efficient amount of electricity, bandwidth, oper-              highly adopted by large organizations, but less considered
+ations and storage when it is needed. Furthermore, cloud                  for adoption by SMEs. Furthermore, according to the OECD
+computing does not require IT staff to spend time on rou-                 report (2017), it is found that there is a large gap between
+tine daily work, instead companies will focus on improving                large organizations and SMEs for cloud computing adoption
+services and applications to reach business goals. Further-               in several countries.
+more, customers pay only for the needed and used computing                   Cloud computing is an innovative technology that can help
+resources since cloud services are delivered on-demand by                 entrepreneurs and IT experts to execute their plans, their work
+vendors and can be scaled up or down according to the need of             and their system development exercises and deal with their
+the customer. Companies, in general, and SMEs in particular               IT undertakings from anyplace, anytime. They can get to the
+
+79170                                                                                                                                    VOLUME 8, 2020
+M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+information, and documents they need via their cell phone or                       III. STUDY GOAL AND OBJECTIVES
+tablet. Indeed, they can share the greater part of their work and                  The purpose of this paper is therefore to (1) identify the
+documents with their representatives, customers, and clients.                      main factors that would help SMEs reap the benefits of a
+   In organizations, in general, and in SMEs, in specific,                         digitization technology, such as cloud computing; (2) draw
+the operational impact of cloud computing will reduce the                          on TOE and contextualization theory frameworks to propose
+pressure from IT managers. It is because the IT mainte-                            a model in order to present the various types of factors that
+nance and support will be implemented by the external cloud                        would facilitate the adoption of cloud computing by SMEs in
+providers. The cloud providers deliver the standard options                        a developing country like Lebanon; and (3) empirically test
+and packages for IT maintenance and support, but the cost                          the model through a quantitative analysis conducted on data
+will be much affordable than traditional service provider                          collected for this purpose. The main research questions of this
+applications.                                                                      study are: (1) What main factors are most likely to impact
+   Regulatory and security enforcement measures also play                          the adoption of cloud computing by SMEs operating in the
+an important role as they become more powerful with the                            Lebanese market? (2) Are there specific factors related to the
+use of cloud-based services. The cloud providers manage the                        Lebanese market context?
+majority of regulatory issues and IT managers get rid of direct                       This study, empirically, will serve as a useful platform for
+responsibility for some security issues. This makes cloud                          both researchers and practitioners in developing countries
+computing an appealing option to SMEs.                                             who are interested in assessing the factors that may influence
+   Furthermore, the cultural impact of the transition to the                       the adoption of IT/IS in general, and cloud computing in spe-
+cloud also plays a crucial role. It involves redefining the                        cific. The results of this study will help specialists to under-
+roles of business owners, and IT experts, and restructuring IT                     stand the best practice in setting policies and to make optimal
+support for users. IT professionals need to determine who will                     decisions regarding an efficient and effective investment in
+make a decision regarding the selection of applications and                        cloud computing. They will be able to assess the context
+cloud vendors. Similarly, end users can redirect their IT help                     and prevailing conditions in light of the factors derived and
+desk issues from internal IT resources to the cloud provider’s                     decide about the proper timing as well as the facilitating
+IT service.                                                                        conditions that would help in a successful implementation
+   It is then worth specifying that if SMEs have access to                         of this advanced technology. As for researchers, the study
+scalable technology, they could potentially deliver products                       will provide a useful reference, not only for assessing the
+and services that in the past only large enterprises could                         applicability of TOE framework factors in cloud comput-
+deliver. This way they will be flattening the competitive                          ing adoption in SMEs in Lebanon, but also for assessing
+arena.                                                                             the country-specific factors that might influence the deci-
+                                                                                   sion to adopt such technology. This would help in closing
+II. RESEARCH PROBLEM                                                               gaps in the literature, assessing the practicality of factors
+Academic research and industry reports show that SMEs                              included, and considering more context-related, behavioral,
+have not benefited as they should from the advantages of                           political, or other factors to be included in future research
+cloud computing technology. This is to be expected, given the                      Agnihotri et al. [2].
+fact that many organizations worldwide reported a failure in                          The remainder of this research is organized as follows.
+cloud migration projects. According to a survey conducted by                       Section 2 will provide the literature review and the theoretical
+iLand, it was found that about 57% of Amazon Web Service                           foundations underpinning successful adoption and deploy-
+(AWS) users have stated that cloud adoption was delayed                            ment of cloud computing. Consequently, the study hypothe-
+or failed. Similarly, but to a lower extent, failure was also                      ses are stated and the conceptual model of the study are
+reported by 44% of Microsoft Azure users Musiienko [65].                           presented. Following this, Section 3 will be a presentation
+The survey reported that 56% of the respondents perceived                          of the methodology followed, and section 4 will report the
+a major concern due to their ignorance in regards to cloud                         main results derived from the analysis done. Lastly, the final
+security and the best practices compliance, 55% claimed                            section will present the conclusion of the study and state the
+that they lacked a clear understanding of the business case                        main study limitations, as well as the authors’ suggestion that
+building to have a solid cloud migration, and finally 44%                          might aid future studies.
+admitted that their organizations had insufficient planning for
+the cloud adoption project.                                                        IV. THEORETICAL FRAMEWORK AND
+   In fact, moving enterprise systems and data to the cloud                        CONCEPTUAL MODEL
+has already been proved to be an unsettled course for several                      The theoretical frameworks used to support IT adoption
+businesses, which makes it prudent to examine the factors that                     research in general could be used to serve as a foundation
+enable the success of adopting digital technologies in SMEs.                       for cloud computing adoption research. Therefore, and in ref-
+This is further compounded by the fact that there is a lack                        erence to literature, several frameworks are utilized in order
+of literature providing sufficient insight into the general and                    to understand cloud computing adoption. These include,
+country-specific factors that influence the adoption of cloud                      among others, the Technology Acceptance Model Davis [66],
+computing by SMEs in a developing country like Lebanon.                            the Diffusion of Innovation theory Rogers [56], as well as
+
+VOLUME 8, 2020                                                                                                                               79171
+                                         M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+the Technological, Organizational and Environmental (TOE)                the prospect technologies that are not currently in use Hsu
+framework developed by Tornatzky and Fleischer [67]. The                 and Lin [25], Alshamaila et al. [5], Tornatzky and Klein [72].
+interesting common point among these frameworks is the                      Oliveira and Martins [39] conducts a review of the liter-
+socio-technical perspective each model is based on. In other             ature available on the models that are considered with IT
+words, each model empirically showed that a successful                   adoption at the firm level; he identifies that most practical
+IT adoption is a factor of not only technical factors—                   studies are a result of the DOI theory and TOE framework.
+rather, it is a blend of technological, individual, social, and          Oliveira concludes that the TOE framework could be con-
+environment-related aspects.                                             sidered an enhanced model to explain intra-firm innovation
+   Most importantly, these models aim to determine which                 adoption since it comprises the environment context. Com-
+factors affect the adoption as well as the attitude of the               bining the two frameworks would provide a holistic model
+organization. The proposed framework in this study includes              that embraces individual, technological, organizational, and
+selected elements from diffusion of innovation (DOI) theory,             environmental factors. This study adopts Oliveira’s approach,
+the technology-organization-environment (TOE), as well as                and also argues that context-specific factors need to be taken
+the context-based elements framework. What follows is a                  into consideration, given the special economic and political
+discussion of these frameworks. DOI theory is developed by               conditions and situations characterizing Lebanon. The impor-
+Rogers [56], described as the mechanism through which an                 tance of contextual factors has been highlighted by previ-
+innovation is transferred via specific channels over a period            ous researchers in international business, arguing that the
+of time between social system members. An innovation can                 contextual aspect impacts decisions, strategies, and policies
+be a new idea, object, or practice, according to a person or             Poulis et al. [73]. In the IS adoption research stream, previ-
+other unit of adoption. Moreover, organizations usually use              ous research highlighted the importance of context-specific
+the DOI theory to find predictors of IT diffusion adoption               variables as well. For example, Thong and Yap [48] stressed
+Frambach [68], Hameed et al. [69], Lee [70], Oliveira and                the importance of including the distinctive characteristics of
+Martins [39], Zhu [55].                                                  context in developing a strong theory to study the adop-
+   There are three adoption groups’ predictors according to              tion of innovation. Moreover, four important components
+Rogers [56]. The groups are divided according to individ-                were highlighted by Assaker et al. [7] using the destination
+ual characteristics such as individual innovativeness, internal          competitiveness theory: core resources (e.g. climate), sup-
+and external firm factors such as business size, available               porting resources (e.g. infrastructure), context management
+resources and the ICT management procedures. Rogers [56]                 (to maintain and improve core and supporting resources),
+also pointed out the importance of the technological charac-             and situational conditions (including government policies,
+teristics’ impact on possible adopters. However, these tech-             exchange rates, political situation, national security, and so
+nological characteristics do not emphasize the subjective                on) Fahed-Sreih et al. [20], Bandaly et al. [10].
+features of decision-makers’ minds, concentrating instead                   Based on the literature review and the theoretical informa-
+on the main objective aspects of technology. Researchers                 tion background provided by previous studies, a four dimen-
+have therefore theorized the relationship between innovation             sional model is proposed in this study. The model includes
+attributes and the tendency to deploy cloud computing in                 the variables of technology, organization, environment, and
+SMEs operating in the Lebanese market, along with IT per-                the Lebanese-market-specific-context factors as main influ-
+sonnel characteristic.                                                   encers in the decision to implement cloud computing in the
+   As for TOE, an organization-level theory, Tornatzky and               SMEs operating in the Lebanese market.
+Fleischer [67] established a multi-perspective system. TOE
+is a part of the innovation cycle that represents how business            A. TECHNOLOGICAL FACTORS
+context and components of enterprises affects the adoption               Researchers highlighted the technical factors that influence
+of innovation Baker [71]. These components are categorized               cloud computing adoption. Examples of these factors are
+as the (1) technological contexts which includes IT software             relative advantage, ambiguity, compatibility, difficulty, and
+and hardware issues, (2) organizational contexts applies to              triability. For example, Abolfazli et al. [58] pointed out that IT
+internal and external forces such as the market competition,             friendliness has a worldwide effect on cloud adoption, which
+and (3) environmental contexts of an organization as its                 might lead to significant different rates of cloud adoption in
+scope, size and management structure, which explores the                 several countries. In contrast to the features of traditional
+frameworks and theories that applied in previous Oliveira and            computing models that are even high performance, cloud
+Martins [39].                                                            computing has unique features which include high availabil-
+   Previous IS research has utilized the TOE framework in                ity, lower complexity, reduced total cost of ownership, low
+order to inspect the process of adopting new technology.                 capital investment, and elastic scalability Abolfazli et al. [58].
+In addition to the TOE framework, other studies used a com-              In addition, Avram [74] mentioned technological factors such
+bination of other theoretical frameworks to further examine              as security and privacy to be crucial in the adoption deci-
+the process of adoption Alshamaila et al. [5]. It is worth               sion. He emphasized that companies face several different
+mentioning that the technological element of the framework               requirements in their efforts to proper handle individuals’
+represents both the implemented technologies at the firm and             data to ensure data privacy, and it has not yet been determined
+
+79172                                                                                                                                   VOLUME 8, 2020
+M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+whether the cloud computing model ensures enough data                              when relevant information on how to use cloud services is
+security or whether companies will not abide to the regula-                        needed Makena [76].
+tions due to the new paradigm.                                                       Based on the above discussion, the following hypotheses
+   Concerning connectivity, Avram [74] emphasizes that it                          were formulated:
+is a critical enabler for an organization to widely embrace                         H1: The benefits provided by cloud computing is positively
+cloud computing. Another era of industrial revolution and the                            related to cloud computing adoption.
+increase need of advanced consumer products are facilitated                         H2: A company intend to adopt cloud computing services
+by the access of information through cloud. In addition, it is                           when it is noticed that the services when it leads to a
+important for businesses to provide 24/7 support through hav-                            lower financial costs. Therefore, cloud computing cost
+ing reliable applications Avram [74]. Disaster and emergency                             effective benefits that is provided to the organization
+planning must be implemented smoothly by firms in order to                               will encourage decision makers, who recognize the
+have minimum disruption in the event of failure or outages                               benefits of cloud computing, to adopt cloud services.
+Avram [74].                                                                         H3: Security controls are positively related to an orgaiza-
+   Alshamaila et al. [5] states that the main factors which                              tion’s readiness to adopt and use cloud computing ser-
+includes relative advantage, uncertainty, compatibility, and                             vices.
+triability play an important role in the adoption of cloud                          H4: Cloud compatibility with the users’ jobs and organiza-
+services when it comes to SME. It was found that the proba-                              tions’ processes is positively associated to the adoption
+bility of adopting cloud computing increases when businesses                             of cloud computing.
+determine the advantage in an innovation; Therefore, SMEs                           H5: The perceived complexity of using cloud computing
+need to have a clear vision and recognize the benefits of                                services negatively impact its adoption and use by
+applying cloud services. Previous research suggests that the                             SMEs.
+level of uncertainty towards cloud computing in SMEs affect                         H6: Trialability- the level to which Cloud computing may
+adoption decision. In Alshamaila’s research, it is also evident                          be partially tested - is positively related to Cloud com-
+that trust in the service providers is highly important to the                           puting adoption.
+majority of early adopters and prospectors.
+   It is found that for SMEs to adopt cloud computing in                           B. ORGANIZATIONAL FACTOR
+their industry it is essential for them to try the service before                  Previous research focused on the organizational factors
+deploying it since SMEs expect that cloud services to be                           that affect cloud computing adoption decisions in firms.
+compatible and user-friendly which, in return, will affect their                   Kuyoro et al. [57] addresses other issues that delay the adop-
+decision in adopting cloud computing. However, vendors,                            tion of cloud computing, such as the Service Level Agreement
+cloud service providers, claim that cloud services fit most                        (SLA), data migration, and the question of cloud scalability.
+of the adopters needs in their firms to bring consistency and                      The study also points out that there’s a lot to be careful about
+add business value. To adopt cloud computing, SMEs expect                          when it comes to cloud adoption. One needs to understand the
+that the services provided should be compatible and user-                          concerns and the challenges related to the application of these
+friendly. Therefore, it is useful for the client to try the service                technological innovations Kuyoro et al. [57]. In other words,
+as this will helo them to decide whether to buy it or not                          organizations should have the technical readiness to success-
+Alshamaila et al. [5].                                                             fully adopt such a computing paradigm. This is specifically
+   With respect to the challenges, Kuyoro et al. [57] considers                    crucial, taking into consideration the high failure rate in cloud
+security issues as one of the most significant challenges that                     computing projects mentioned earlier.
+hinder the growth of cloud computing. It is argued that firms                         Moreover, Avram [77] concludes that one of the factors
+fear from insufficient security when it comes to entrust their                     that need to be considered when using Cloud Technology
+data to another party and vendors should confirm their ability                     by an enterprise is the changes in the IT organization. The
+to protect clients’ data from serious threats like data leaks as                   author cautioned that before deciding to implement cloud
+well as data breaches like phishing and botnet (which is a                         computing, the organization should understand its processes
+network of Internet-connected machines running remotely).                          and asses the risks and benefits that it can bring to its business.
+Additionally, firms appear to be discouraged about having                             In addition, Alshamaila et al. [5]states that factors such as
+hosting their own software on servers controlled by the                            the size of the organization, the support of top management,
+providers Kuyoro et al. [57].                                                      as well as prior experience all play a role in SMEs’ adop-
+   Furthermore, many SMEs are not ready to try new                                 tion of cloud services. Organizational size considers to be
+technological innovations, especially those that are not                           a significant factor for small businesses and start-ups; small
+well established and tested. This is due to the ‘‘pre-                             companies believe that their size enables them to adopt new
+sumed cost of acquisition and perceived cost of failure’’                          innovations as they are able to change their vision and mission
+Stieninger et al. [75]. Many developed countries around the                        easily and with flexibility. It is also agreed that start-up com-
+world (excluding African nations), have conducted surveys                          panies tend to be attracted more in adopting cloud computing
+on cloud computing. However, because of the shortages of                           since it can aid in avoiding capital expenditure. However,
+references in this area, SMEs do not trust cloud computing                         it was discovered that the chief executive and managing
+
+VOLUME 8, 2020                                                                                                                                  79173
+                                         M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+director of a firm usually encourages IT staff to investigate             D. CONTEXT (COUNTRY)-SPECIFIC FACTORS
+cloud adoption further. Finally, service providers, prospectors          In reference to the Contextual theory, understanding the phe-
+and adopters have established that using similar technological           nomena and the prevailing situations in a certain context
+tools, especially virtualisation services, have made adopters            can provide a better understanding of IT adoption, including
+more familiar with the new technology, and will become even              cloud computing adoption. A country like Lebanon faces
+more comfortable with cloud services.                                    major challenges at the economic, infrastructure, and polit-
+   According to the aforementioned previous studies about                ical levels. Accordingly, an investment in a new computing
+organisational factors affecting the decision of Cloud com-              paradigm cannot ignore such challenges.
+puting adoption, the following hypotheses were established:                 Previous research on cloud computing in the MENA
+ H7: Organizational size consider to be a significant pos-               region, though very few, considered the impact of the envi-
+     itive factor the adoption of cloud computing; small                 ronment on adoption decisions. Abolfazli et al. [58] demon-
+     firms compared to larger firms adapt quickly to the                 strates that many factors, including financial wealth, political
+     changes in their environment.                                       stability, and geographical location, impact cloud adoption
+ H8: The support of the firms’ top management is positively              worldwide.
+     associated with cloud computing adoption.                              Avram [77] deduced that eco-political issues are among
+ H9: Testing new solutions before adopting it buy decision               the environmental factors influencing adoption decisions in
+     has a positive impact on the adoption of cloud com-                 companies. It is found that political stability plays an impor-
+     puting.                                                             tant role in regards to cloud adoption since it is unclear where
+H10: Prior technological experience provides familiarity                 the actual data is stored and accessed from, and where the
+     with technological innovations which is positively                  data-processing takes place, as each area may apply different
+     associated with cloud computing adoption.                           privacy rules and regulations when it comes to storing and
+                                                                         accessing data. By this token, politics affects the adoption
+C. ENVIRONMENTAL FACTORS                                                 of cloud computing, and should therefore be separated from
+                                                                         cloud computing in order to evolve into a borderless and
+Besides technological and organizational factors, previ-
+                                                                         global tool.
+ous research emphasized the importance of environmen-
+                                                                            Moreover, the global competitiveness index that is issued
+tal factors as determinants of cloud computing adoption.
+                                                                         by the world bank shows that the challenges facing technol-
+Alshamaila et al. [5], for example, listed the market scope as
+                                                                         ogy and innovation adoption in Lebanon are due to:
+a factor that impacts cloud computing adoption worldwide.
+The results showed that when companies operate in a wide
+                                                                           (1) Low levels of investment in research and development,
+market area, they tend to adopt cloud services which in return
+                                                                           (2) Low collaborative research between universities and
+might increase their efficiency. Another factor that impacts
+                                                                               industry,
+the adoption of technology is the business sector in which a
+                                                                           (3) Low reliance on technological sophistication among
+company operates in. For instance, adopters and prospectors,
+                                                                               among new start-ups and SMEs,
+believes that sectors which need a high computing require-
+                                                                           (4) Weak state of cluster development, i.e. according to
+ments tends to use more cloud services. A further factor
+                                                                               the GCI, Lebanon ranks 109 in 2012, and 108 in
+emphasized by the study is the supplier computing support
+                                                                               2012 according to the GII.
+– an external computing support- in the process of decision-
+making. These factors were emphasized by the majority of                    In addition, a survey performed by the Ministry of Econ-
+participants, who are grouped either as providers, adopters              omy and Trade in Lebanon revealed that investments face
+and prospectors. Alshamaila and Papagiannidis research did               significant hurdles that include the political status-quo,
+not show sufficient evidence concerning the competitive pres-            business regulations, infrastructure readiness, as well as
+sure as a significant determinant of Cloud computing adop-               the macro-economic environment. Additionally, a report on
+tion.                                                                    the economy of cloud in developing countries states that
+   In view of the above research regarding the environmental             the readiness and interest of developing countries, including
+impact on the adoption of Cloud computing, certain hypothe-              Lebanon, in the adoption of cloud computing technology
+ses were posited:                                                        services are slow and discouraging El Khoury [78]. This
+ H11: A high rivalry level among companies within an                     is expounded by the fact that these countries face a lot of
+      industry is positively related to a company’s decision             power outages, poor connectivity, poor infrastructure and
+      to adopt cloud computing.                                          other challenges related to economy and politics.
+ H12: Market scope is positively related to cloud computing                 Contextual factors vary across studies and locations. Pre-
+      adoption.                                                          vious research highlighted the importance of a variety of
+ H13: The level of outsourced support offered by vendors                 context-related factors, such as context management, sup-
+      such as training, customer services and support is                 porting context (e.g. infrastructure), and situational condi-
+      positively related to the tendency of the firms to adopt           tions (such as government policies, exchange rates, political
+      cloud computing services.                                          situation, and national security).
+
+79174                                                                                                                                   VOLUME 8, 2020
+M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+   For this study, after gathering the data we ran a principal
+component analysis which showed that the main contextual
+factors are Political issues, Lack of government initiatives,
+Poor infrastructure. This will be more elaborately explained
+in the methodology section and result section later in the
+study.
+   Thus, it is clear that Lebanese SMEs are delayed in apply-
+ing innovation and technology to their businesses. However,
+the successful implementation of cloud computing in these
+developing countries necessitates an organizational change,
+a step that is requires time and new investments, especially
+in a turbulent economy with unstable political conditions like
+Lebanon. As a matter of fact, unstable political situation in
+Lebanon, the wars, and the lack of a sense of security, do not
+help in the future planning to adopt this technology. With this
+in mind, the study contends that country or context-specific                       FIGURE 1. Conceptual framework.
+
+variables should be included for a comprehensive and holistic                      TABLE 1. Sample characteristics.
+conceptual model for cloud computing adoption in a MENA
+country like Lebanon. Consequently, the following hypothe-
+ses could be postulated:
+ H14: Political issues and instability negatively impact
+         cloud computing adoption.
+ H15: Lack of government initiatives negatively impacts
+         cloud computing adoption.
+ H16: Poor infrastructure negatively impacts cloud comput-
+         ing adoption.
+   In addition to the above literature review, both the the-
+oretical framework and derived hypotheses could help for-
+mulate the proposed conceptual model of the study as
+shown in Figure 1. As revealed in the diagram, the pro-
+posed model is an integrated framework of DOI, TOE, and
+Context-based factors. To implement cloud computing in                             various sectors and located in different areas in Lebanon
+an organization that is aware and that has knowledge of                            (Beirut, 51%; North, 30%; Mount Lebanon, 11%; South,
+the technology characteristics, several factors are consid-                        8%). In the questionnaire, 30 survey items for nine constructs
+ered Karkoulian et al. [27], Karkoulian et al. [28]. These rep-                    are designed similar to prior literature, but were modi-
+resent critical elements that are considered in the innovation                     fied where necessary to fit the context of cloud comput-
+process, i.e. what the firm considers in the process of the                        ing. The questionnaire had two parts: (a) the demographic
+adoption and implementation of the cloud computing inno-                           characteristics, as shown in Table 1, which includes the
+vation. The central indicator for this innovation in the above                     number of employees, adoption status of cloud comput-
+model is the adoption of this computing paradigm. Since there                      ing services, as well as prior IT experience; and (b) the
+are several factors that would influence this adoption deci-                       measurement of the nine factors. If you are using Word,
+sion, a multi perspective framework is taken into the account.                     use either the Microsoft Equation Editor or the MathType
+Based on this, the framework includes Technological, Orga-                         add-on (http://www.mathtype.com) for equations in your
+nizational, Environmental, and Context-based factors that                          paper (Insert | Object | Create New | Microsoft Equa-
+are very crucial in the decision and process of adopting an                        tion or MathType Equation). ‘‘Float over text’’ should not be
+innovation.                                                                        selected.
+   The following section explains the methodology followed                            Before conducting the survey, two steps were made. First,
+to collect the data and conduct the analysis. This is followed                     a focus group of 5 experts in the field from a pioneer uni-
+by a presentation of results and main conclusions derived.                         versity in Lebanon was formed and asked to identify the
+This is anticipated to help in identifying possible areas for                      factors related to adoption of cloud computing in general.
+development, especially at the context levels.                                     This step was done to ensure the domain content of the
+                                                                                   study, and to identify the contextual factors relevant to this
+V. METHODOLOGY                                                                     country. After that, a pilot test was given to 30 randomly
+A. SAMPLING AND INSTRUMENT                                                         selected IT professionals working in universities and SMEs
+For this study, a questionnaire was deployed in order to collect                   to assess the clarity of the questionnaire items. The responses
+data, and a sample was selected from SMEs belonging to                             from the pilot study that met the sample selection criteria
+
+VOLUME 8, 2020                                                                                                                              79175
+                                         M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+TABLE 2. Scale measurement sources.                                      Varimax rotation, was utilized in order to assess the construct
+                                                                         validity of the various factors. The fit between the items and
+                                                                         their factors/constructs is determined when factor loadings
+                                                                         exceed the threshold value of 0.5, and have no cross-loadings
+                                                                         with other constructs Hair et al. [23]. Due to cross-loading,
+                                                                         few items were eliminated. The confirmatory factor analysis
+                                                                         was performed again, leading to nine factors being identified
+                                                                         as explaining the cloud computing adoption in SMEs (eigen-
+                                                                         values greater than 1). The results explained 77.9 (∼80) per
+                                                                         cent of the independent variables, signifying a satisfactory
+                                                                         level of construct validity. Moreover, the Kaiser-Meyer-Olkin
+                                                                         (KMO) measures the sample adequacy, and in this analysis,
+                                                                         the KMO was 0.831 (whereby KMO >= 0.8 is excellent
+                                                                         Kaiser [80]), revealing the adequacy of the matrix of corre-
+                                                                         lation for the confirmatory factor analysis. The adequacy of
+                                                                         individual variables was also shown through the KMO values.
+                                                                         The nine factors are as follows: relative advantage (RA), cost
+                                                                         effectiveness (CE), security and privacy (SP), compatibility
+                                                                         (CM), complexity (CX), top management support (TMS),
+(SMEs, adopted/intention to adopt cloud computing, prior                 technology experience (TE), competitive pressure (CP), and
+IT experience) were included in the study. During the inter-             supplier support (SS). The results of reliability analysis and
+views, IT managers were asked about the contextual fac-                  confirmatory factor analysis are shown in Table 3.
+tors relevant to Lebanon. Many of these items were added
+to the survey after coding the responses through the help                 C. DATA ANALYSIS
+of 2 university professors. The survey was sent online to                The logistic regression technique was run with all nine inde-
+SMEs in various zones in the Lebanese market, and were                   pendent variables in order to test the research model and
+distributed to IT managers, professionals, and employees.                stated hypotheses. Multicollinearity was assessed, and the
+The non-probability convenience sample was adopted in this               VIF values ranged between 1.151 and 6.627, which were
+study due to its several advantages, and although it is a                below the threshold of 10. Based on this, and in reference to
+non-random sampling technique, its use in this study deemed              Hair et al. [23], it is safe to say that there is no multicollinear-
+important since the study adopted IT professionals working               ity problem among the independent variables.
+in SMEs that either adopted or had some intention to adopt                  Coming to the logistic regression results, shown below,
+cloud computing Teo et al. [47]. Thus, the findings can be               the omnibus test, with a significance value less than 0.05,
+generalized to represent the population in Lebanon, as the               shows that the derived model outperforms the null model.
+respondents are from SMEs operating across all Lebanese                  Moreover, the likelihood ratio (94.941) indicates a strong
+Mohafazat (zones). The approach is also comparable with                  relationship between the predictor and dependent variables.
+Teo et al. [47] study on m-payment in Malaysia. Survey                   The Nagelkerke R2 showed that the logistic model explains
+was conducted online using Google Forms, generating 230                  about 63.6 per cent of the data variation.
+responses. 91 questionnaires were dropped out because of                 Omnibus tests of model coefficients.
+incorrect or inconsistent answers, thus yielding 139 complete
+questionnaires. The construct measures were adapted from
+existing validated instruments, and certain items were modi-
+fied to fit the cloud computing context. The research studies            Model summary.
+from which the aforementioned items were adapted are listed
+in Table 2. Moreover, in survey studies, non-response could
+be a source of bias Fowler [79]. To address this issue, we fol-
+lowed Armstrong and Overton [6], and conducted t-tests                      Using the Wald statistics, the importance of the regression
+for early and late respondents considering the size of the               coefficients of the hypothesized predictors was examined.
+SME (number of employees) and its annual revenues. Results               As shown in Table 4, the coefficients of Poor IT Infrastruc-
+showed that there were no significant differences, signifying            ture (P = 0.036), Lack of Government Initiatives (P =
+that the response bias was not significant.                              0.000), Security and Privacy (P = 0.043), Complexity
+                                                                         (i.e. ease of use) (P = 0.034), Top Management Support
+B. CONFIRMATORY FACTOR ANALYSIS                                          (P = 0.002), and Technology Experience (0.033) were all
+AND SCALE RELIABILITY                                                    significant at the 95% confidence level. This gave supporting
+Each item was measured using a five-point Likert scale,                  evidence for hypotheses H3, H5, H8, H10, H16, and H17. The
+and the principal-component analysis method, along with                  other variables lacked significance, and thus the hypotheses
+
+79176                                                                                                                                   VOLUME 8, 2020
+M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+TABLE 3. Scale measurement sources.                                                results, the logistic regression model has 86.3% classi-
+                                                                                   fication (or prediction) accuracy. With 89 adopters and
+                                                                                   50 non-adopters in the sample, the cloud adoption by SMEs’
+                                                                                   random choice would yield (89/139)2 + (50/139)2, i.e. 54%,
+                                                                                   which is far less than the prediction power of our regression
+                                                                                   model. Hence, in this study, the logistic regression has a
+                                                                                   higher discriminating power or classification than the random
+                                                                                   choice model.
+
+                                                                                   VI. DISCUSSIONS
+                                                                                   The purpose of this research study is to further our under-
+                                                                                   standing of the adoption of cloud computing by SMEs in a
+                                                                                   developing MENA country like Lebanon, by identifying the
+                                                                                   factors that influence these firms’ decision to adopt and by
+                                                                                   distinguishing adopters from non-adopters. Six drivers for
+                                                                                   this computing paradigm were identified. These are: Poor
+                                                                                   IT Infrastructure, Lack of Government Initiatives, Security
+                                                                                   and Privacy, Complexity (i.e. perceived ease of use), Top
+                                                                                   Management Support, and Technology Experience.
+                                                                                      Referring to the dimensions included in the model, and
+                                                                                   underpinned by the TOE framework and context-based fac-
+                                                                                   tors, the results of the analysis as pertinent to the Lebanese
+                                                                                   market supported 3 out 4 dimensions. To start with the
+                                                                                   technological dimension, expected benefits provide a solid
+                                                                                   reason for innovation technology adoption and expansion
+                                                                                   Low et al. [34]. According to our results, the benefits that
+TABLE 4. Logistic regression results.                                              the IT managers and professionals perceive as important for
+                                                                                   cloud computing adoption are perceived user-friendliness as
+                                                                                   well as the technology’s ability to provide the firm’s data
+                                                                                   with more security and privacy measures. The result related
+                                                                                   to complexity with a negative relation with cloud computing
+                                                                                   adoption is consistent with the literature (e.g., Sabi et al. [43]
+                                                                                   and Oliveira and Martins [39]). As for the security factor, it is
+                                                                                   well known that users, in general, report security and privacy
+                                                                                   concerns as a major barrier hindering the rapid adoption of the
+                                                                                   cloud technology. In fact, surveys on cloud technology stated
+                                                                                   that among users, the highest priority and highest concern
+                                                                                   goes to the security of data Chang and Ramachandran [13].
+                                                                                   This could be attributed to the fact that security incites trust
+                                                                                   Ghazali et al. [22], Wu [53] and trust matters in the decision to
+                                                                                   adopt an internet-based technology, such as cloud computing.
+                                                                                   Accordingly, as users’ perceived security of the technology
+corresponding to them were not supported. Worth noting is                          increases, their trust in its safety grows, thus promoting higher
+the fact that none of the factors pertinent to the environment                     adoption rates.
+dimension of the model showed significance, whereas two                               Surprisingly, in contrast to the results reported by previous
+of the three country-specific factors were significant and                         research, relative advantage, cost effectiveness, compatibility,
+thus included in the model. In reference to the sign of the                        and trialibility, these variables were not significantly related
+coefficient, we may say that perceived complexity, poor IT                         to cloud computing adoption. Relative advantage of cloud
+infrastructure, and lack of government initiatives are nega-                       computing could be derived from aspects like improving busi-
+tively related to SMEs likelihood of adopting cloud comput-                        ness communications speed, coordination efficiency among
+ing, whereas the perceived privacy and security of the cloud,                      firms, communication with customers, and effective access
+prior technology experience, and top management support are                        to market information Gangwar et al. [21], Low et al. [34].
+positively associated with the likelihood of cloud adoption                        As for cost effectiveness, it is a main driving factor for
+by SMEs.                                                                           cloud computing adoption Wu et al. [52], Changchit and
+   The results shown in Table 4 also depict the overall dis-                       Chuchuen [14]. The compatibility of the technology, or the
+criminating power of the model. According to the output                            extent to which it can be aligned with the existing processes
+
+VOLUME 8, 2020                                                                                                                                 79177
+                                          M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+and value systems of a company, is also an important driver                  In the environmental context, supplier computing power
+for the adoption of cloud technology Oliveira et al. [40].                as well as competitive showed unanticipated results, as their
+However, previous research reported mixed results regarding               relationship with cloud computing adoption turned out to
+the significance in the relation between compatibility and IT             be not significant. The finding related to supplier com-
+adoption (e.g., Lee and Kim [31]). Tralibility, the degree to             puting power conforms to the results reported by Alham-
+which a technology may be tried or experimented, is also an               madi et al. [3], but contrasts with the findings reported by
+important factor for adoption Molinillo and Japutra [37] since            Peng et al. [42]. This can be explained by the fact that unlike
+it increases the awareness about the technology and assessing             Peng et al’s study, this research work is conducted in a country
+its fit with the firm and its processes. The insignificance of            that is not technically developed. As for competitive pres-
+the relationship between these factors and cloud computing                sure, the insignificant relationship also conforms to Alham-
+adoption in this study could be attributed to the possibility             madi et al. study [3] as well as Oliviera et al. [40]. In contrast,
+that cloud computing is still an immature technology in this              Aboelmaged [1] discovered that competitive pressure has
+market, and firms still have a low level of cloud computing               a significant relationshiop to cloud computing. A possible
+know-how. Moreover, certain types of cloud computing ser-                 explanation could be the nature of the sample in this study,
+vices (e.g. private cloud) could be high, and the maintenance             where many respondents were chosen from different sec-
+and other service costs may also be very high Chou [17].                  tors. Probably, studies that reported a significant connection
+Further, regarding if a firm previous experience with informa-            between cloud computing and competitive pressure were con-
+tion technologies showed incompatibility with the business                fined to one industry sector (e.g., Low et al. [34]).
+core processes and value system, cloud computing could be                    Finally, in a turbulent context like the Lebanese one, it is
+perceived the same Low et al. [34]. Finally, the insignificance           important to consider context-specific factors that correspond
+of the compatibility factor could also be attributed to the               very strongly to the conditions and situations characteriz-
+nature of the sample used in this study. The fact that the                ing the Lebanese market. These challenging conditions may
+participants of the study are mainly IT professionals could               form hindrances in the process of adopting new systems
+be a possible reason for not thinking of the business part                and technologies, as most companies may be following sur-
+of the technology. With the above in mind, training and                   vival, rather than expansion or growth strategies. Lack of
+workshops to enhance awareness and knowledge about cloud                  government initiatives, poor IT infrastructure, and political
+computing and its functionality would most likely improve                 challenges are crucial factors that may negatively impact the
+users’ perception about it, allowing firms to use it in a better          adoption and implementation of cloud computing by SMEs
+way and reap its benefits.                                                operating in the Lebanese market. To start with, government
+    As for the organizational dimension, prior research                   initiatives are important to support SMEs and new start-ups
+reported that firm characteristics impact to a large degree               investments in technologies that may enhance performance
+the decision making process involved in adopting an IT                    and lower costs Julian et al. [26]. Initiatives are also pivotal
+innovation Hsu and Lin [25], Wu [53]. This research con-                  to enforce laws that would ensure data security, privacy,
+tends that, based on the positive effect top management and               and confidentiality. The importance of government initia-
+technology experience have, both are important factors in                 tives in supporting IT adoption and investments in SMEs
+the determination of cloud computing adoption and in dis-                 has been highlighted in previous research in Denmark and
+criminating between adopters and non-adopters of the cloud                Australia Dwivedi et al. [18], in Africa Awiagah et al. [8],
+computing technology. This concurs with previous research                 in KSA, and in developing countries in general Taylor [45].
+which reported a significant positive relationship between top            Moreover, poor IT infrastructure could be a big barrier
+management support and cloud technology adoption (e.g.,                   against adoption of technologies, especially internet-based
+Borgman [12] and Low et al. [34]). This is logical since                  technologies like the cloud Charbaji and Mikdashi [15]. The
+the successful implementation of any technology solution                  negative impact of poor infrastructure on IT adoption in
+necessitates top management support and high skill levels in              general, and e-commerce in particular has been emphasized
+technology integration to business Oliveira et al. [40]. Firm             in many research articles related to developing countries (e.g.,
+size and innovativeness did not demonstrate any significant               Hamad et al. [81] and Mzee et al. [38]). The results of
+relationship with cloud adoption. This contrasts with previous            this study conform very well to the just mentioned previous
+research suggesting that service-oriented architecture adop-              research. Finally, although political instability may have an
+tion is positively influenced by a larger firm size and innova-           adverse impact on SMEs’ investments, including IT invest-
+tiveness in firms MacLennan and Van Belle [35], Wang [50].                ments Bala and Feng [9], our results showed that political
+Again, the lack of significance could be attributed in this               issues are not significantly related to the decision of cloud
+study to the IT professionals’ (who are the main participants             computing adoption. This could be due to the possibility
+in this study) lack of knowledge of the business perspective              that SMEs and other companies in the country have been
+of the cloud computing adoption process. At the same time,                living this type of turbulence since a very long time, and thus
+they are highly aware of the level of top management support,             they are focusing more on direct factors, like infrastructure
+and can very easily give information about their own existing             and government support initiatives rather than the general
+IT experience.                                                            political issues prevailing in the country.
+
+79178                                                                                                                                    VOLUME 8, 2020
+M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+VII. CONCLUSION, IMPLICATIONS, LIMITATIONS,                                        customers of cloud services, and the complexity of the cloud
+AND RECOMMENDATIONS                                                                economic system. Then an effective cloud strategy (address-
+The increased rate of cloud computing adoption in developed                        ing areas, such as infrastructure, legal and regulatory issues,
+countries reflects the awareness of these organizations about                      the supply side of the cloud economy ecosystem, human
+the strategic benefits that this computing paradigm possesses,                     resources, government cloud use and financial implications)
+as well as their intention to fully exploit the benefits that                      should be designed for a successful implementation of cloud
+this technology offers to organizations. Despite this under-                       computing.
+standing, slow adoption rates are observed among SMEs in                              It is essential to determine the factors (such as data privacy
+developing countries, in general, and the MENA (Middle                             and security, reliability of services etc.) which help Lebanese
+East and North Africa) region, in particular. To foster cloud                      cloud service providers and technology policymakers develop
+computing adoption, it is mission critical to examine the                          solutions and strategies that meet the needs of Lebanese
+factors that determine this adoption in firms across different                     SMEs so as to empower and increase the rate of adoption.
+industries and sectors. This study examined the factors that                       It is important to mention, thus, that if SMEs have access to
+are associated to cloud computing adoption among SMEs                              scalable technologies, they could potentially deliver products
+in the Lebanese market. Drawing on two theoretical frame-                          and services that in the past only large enterprises could
+works, TOE and country-specific factors, the study proposed                        deliver, flattening the competitive arena.
+a conceptual model and examined the impact that techno-                               The Lebanese market was selected because of the lack
+logical, organizational, environmental, and country-specific                       in empirical studies and research in this field as well as
+factors may have on adopting and deploying cloud computing                         to help Lebanese SMEs in decision-making processes and
+technologies and services by SMEs working in the Lebanese                          subsequent use of this new technology to enable them to
+market. Using quantitative analysis, and deploying logistic                        compete with large firms, to keep up with western technology,
+regression, most of the TOE and the country-specific factors                       to rival foreign markets in order to develop, and to boost
+were verified and supported. The analysis also led to an exten-                    the Lebanese economy. The contribution of this research
+sion of the TOE-DOI factors by including context-specific                          draws on the fact that there is an urgent need to identify the
+factors pertinent to Lebanon, a country in the MENA region.                        facilitators, obstructions, and other influential factors relevant
+The study has a significant contribution at the theoretical and                    to this problem.
+practical levels.                                                                     Despite these positive contributions, the study also has cer-
+   At the theoretical level, this study offers a holistic model                    tain limitations. First, the respondents were all IT managers.
+that not only combined Roger [56] DOI and Tornatzky and                            Examining the perceptions of other managers and prospect
+Fleischer [67] TOE frameworks, but also added macro-level                          users in the organization could probably give more insights
+variables that could be of significance to research pertinent                      regarding how employees and managers in different depart-
+to IT adoption in general, and cloud computing in particular,                      ments view the cloud computing adoption and use. Never-
+in SMEs operating in Lebanon. This combination of relevant                         theless, the choice of IT managers was due to the need for
+theoretical perspectives is valuable if we are to understand                       respondents who have a good idea of what cloud computing
+how various environmental, technological, organizational as                        technology and services are. Another limitation is the sample
+well as specific context-based factors affect the adoption of                      size. 139 surveys won’t allow for certain methods, like SEM
+cloud-based by SMEs within different sectors in the Lebanese                       to be deployed. Finally, certain factors like employee training
+market. The main theoretical contribution is the introduction                      and behavioral aspects of users were not examined.
+of context-based macro factors pertinent to the Lebanese mar-                         Future research is needed in order to test the proposed
+ket and other countries in the region with similar conditions                      model and hypotheses in another context, in order to assess
+and prevailing situations.                                                         the dependability and cogency of the measures used to help
+   The study also has some practical implications. Managers                        organizations better understand the enablers and challenges
+and IT strategists in organizations should take into consider-                     facing cloud computing adoption in other developing or
+ation the technological characteristics, especially the security                   emerging economies. Future research is also recommended to
+and ease-of-use aspects, related to cloud computing. For                           upgrade the sample, both in size and in type of respondents.
+example, a strategy to mitigate or deal with the security                          For example, gathering data from respondents other than IT
+issues or risks of cloud computing would probably lead to                          managers and professionals can provide understanding of the
+increase the adoption of the cloud technology by SMEs in                           perceptions related to the adoption of this technology from
+the Lebanese market. Care should be given to enhancing the                         various perspectives and interests. Another recommendation
+know-how of users regarding this computing paradigm and                            is to expand the scope of work to cover further organizations
+its functionalities. Also, the technology-task fit should be                       in the Lebanese market in different sectors, both qualitatively
+considered to enhance compatibility and reduce errors and                          and quantitatively. Having more participants per sector could
+inefficiencies. Therefore, researchers should analyze the level                    allow for more reliable comparisons. Finally, additional fac-
+of cloud readiness and potential implications of cloud adop-                       tors, like employee training, corporate culture, and terms of
+tion. In addition, policies should recognize the diversity of                      agreement with the cloud service provider can provide bet-
+business models and services within the cloud, the diversity of                    ter insights regarding what really influences the technology
+
+VOLUME 8, 2020                                                                                                                                 79179
+                                                       M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+adoption. Cloud computing is embracing almost everything                               [22] O. Ghazali, A. M. Tom, H. M. Tahir, S. Hassan, S. A. Nor, and
+we do. It is thus crucial to understand its aspects in detail,                              A. H. M. Shabli, ‘‘Security measurement as a trust in cloud computing
+                                                                                            service selection and monitoring,’’ J. Adv. Inf. Technol., vol. 8, no. 2,
+enhance its fit with the business strategy and processes, and                               pp. 100–106, 2017.
+promote the technical readiness of firms. It is clear that                             [23] J. Hair, R. Tatham, R. Anderson, and W. Black, Multivariate Data Analysis,
+the next wave of digital transformation will fundamentally                                  vol. 6. Upper Saddle River, NJ, USA: Prentice-Hall, 2006.
+                                                                                       [24] W. Hong and K. Zhu, ‘‘Migrating to Internet-based e-commerce: Factors
+involve cloud computing. Getting well prepared and devel-                                   affecting e-commerce adoption and migration at the firm level,’’ Inf. Man-
+oping the required understanding of his technology will help                                age., vol. 43, no. 2, pp. 204–221, Mar. 2006.
+                                                                                       [25] C.-L. Hsu and J. C.-C. Lin, ‘‘Factors affecting the adoption of cloud ser-
+a lot in its successful implementation and in reaping its
+                                                                                            vices in enterprises,’’ Inf. Syst. e-Bus. Manage., vol. 14, no. 4, pp. 791–822,
+benefits.                                                                                   Nov. 2016.
+                                                                                       [26] C. C. Julian, O. Mohamad, Z. U. Ahmed, and S. Sefnedi, ‘‘The market
+REFERENCES
+                                                                                            orientation-performance relationship: The empirical link in export ven-
+ [1] M. G. Aboelmaged, ‘‘Predicting e-readiness at firm-level: An analysis                  tures,’’ Thunderbird Int. Bus. Rev., vol. 56, no. 1, pp. 97–110, 2014.
+     of technological, organizational and environmental (TOE) effects on e-            [27] S. Karkoulian, M. L. Canaan, and R. McCarthy, ‘‘The intriguing art
+     maintenance readiness in manufacturing firms,’’ Int. J. Inf. Manage.,                  of knowledge management and its relation to learning organizations,’’
+     vol. 34, no. 5, pp. 639–651, Oct. 2014.                                                J. Knowl. Manage., vol. 17, no. 4, pp. 511–526, 2013.
+ [2] R. Agnihotri, C. B. Gabler, O. S. Itani, F. Jaramillo, and M. T. Krush,           [28] S. Karkoulian, L. A. Halawi, and R. V. McCarthy, ‘‘Knowledge man-
+     ‘‘Salesperson ambidexterity and customer satisfaction: Examining the role              agement formal and informal mentoring: An empirical investigation in
+     of customer demandingness, adaptive selling, and role conflict,’’ J. Pers.             Lebanese banks,’’ Learn. Org., vol. 15, no. 5, pp. 409–420, 2008.
+     Selling Sales Manage., vol. 37, no. 1, pp. 27–41, 2017.                           [29] K. K. Y. Kuan and P. Y. K. Chau, ‘‘A perception-based model for EDI adop-
+ [3] A. Alhammadi, C. Stanier, and A. Eardley, ‘‘The determinants of cloud
+                                                                                            tion in small businesses using a technology–organization–environment
+     computing adoption in Saudi Arabia,’’ Comput. Sci. Inf. Technol., vol. 5,
+                                                                                            framework,’’ Inf. Manage., vol. 38, no. 8, pp. 507–521, Oct. 2001.
+     no. 14, pp. 55–67, Aug. 2015.
+                                                                                       [30] K.-Y. Kwahk and J.-N. Lee, ‘‘The role of readiness for change in ERP
+ [4] A. Aljabre, ‘‘Cloud computing for increased business value,’’ Int. J. Bus.
+                                                                                            implementation: Theoretical bases and empirical validation,’’ Inf. Man-
+     Social Sci., vol. 3, no. 1, pp. 234–239, 2012.
+ [5] Y. Alshamaila, S. Papagiannidis, and T. Stamati, ‘‘Cloud computing adop-               age., vol. 45, no. 7, pp. 474–481, Nov. 2008.
+     tion in Greece,’’ in Proc. UKAIS, 2013, p. 5.                                     [31] S. Lee and K.-J. Kim, ‘‘Factors affecting the implementation success of
+ [6] J. S. Armstrong and T. S. Overton, ‘‘Estimating nonresponse bias in mail               Internet-based information systems,’’ Comput. Hum. Behav., vol. 23, no. 4,
+     surveys,’’ J. Marketing Res., vol. 14, no. 3, pp. 396–402, Aug. 1977.                  pp. 1853–1880, Jul. 2007.
+ [7] G. Assaker, R. Hallak, V. E. Vinzi, and P. O’Connor, ‘‘An empirical               [32] C. Y. Lin and Y. H. Ho, ‘‘An empirical study on logistics service providers
+     operationalization of Countries’ destination competitiveness using partial             intention to adopt green innovations,’’ J. Technol. Manage. Innov., vol. 3,
+     least squares modeling,’’ J. Travel Res., vol. 53, no. 1, pp. 26–43, Jan. 2014.        no. 1, pp. 17–26, 2008.
+ [8] R. Awiagah, J. Kang, and J. I. Lim, ‘‘Factors affecting e-commerce adop-          [33] H.-F. Lin and S.-M. Lin, ‘‘Determinants of e-business diffusion: A test
+     tion among SMEs in ghana,’’ Inf. Develop., vol. 32, no. 4, pp. 815–836,                of the technology diffusion perspective,’’ Technovation, vol. 28, no. 3,
+     Sep. 2016.                                                                             pp. 135–145, Mar. 2008.
+ [9] H. Bala and X. Feng, ‘‘Success of small and medium enterprises in                 [34] C. Low, Y. Chen, and M. Wu, ‘‘Understanding the determinants of
+     Myanmar: Role of technological, organizational, and environmental fac-                 cloud computing adoption,’’ Ind. Manage. Data Syst., vol. 111, no. 7,
+     tors,’’ J. Global Inf. Technol. Manage., vol. 22, no. 2, pp. 100–119,                  pp. 1006–1023, Aug. 2011.
+     Apr. 2019.                                                                        [35] E. MacLennan and J.-P. Van Belle, ‘‘Factors affecting the organizational
+[10] D. Bandaly, A. Satir, and L. Shanker, ‘‘Impact of lead time variability in             adoption of service-oriented architecture (SOA),’’ Inf. Syst. e-Business
+     supply chain risk management,’’ Int. J. Prod. Econ., vol. 180, pp. 88–100,             Manage., vol. 12, no. 1, pp. 71–100, Feb. 2014.
+     2016.                                                                             [36] S. Marston, Z. Li, S. Bandyopadhyay, J. Zhang, and A. Ghalsasi, ‘‘Cloud
+[11] A. Bharadwaj, E. University, O. A. El Sawy, P. A. Pavlou, N. Venkatraman,              computing-the business perspective,’’ Decis. Support Syst., vol. 51, no. 1,
+     ‘‘Digital business strategy: Toward a next generation of insights,’’ MIS               pp. 176–189, 2011.
+     Quart., vol. 37, no. 2, pp. 471–482, Feb. 2013.                                   [37] S. Molinillo and A. Japutra, ‘‘Organizational adoption of digital informa-
+[12] H. P. Borgman, B. Bahli, H. Heier, and F. Schewski, ‘‘Cloudrise: Exploring             tion and technology: A theoretical review,’’ Bottom Line, vol. 30, no. 1,
+     cloud computing adoption and governance with the TOE framework,’’ in                   pp. 33–46, May 2017.
+     Proc. 46th Hawaii Int. Conf. Syst. Sci., Jan. 2013, pp. 4425–4435.                [38] R. M. Mzee, K. L. Ogweno, and N. Irene, ‘‘Factors influencing adoption
+[13] V. Chang and M. Ramachandran, ‘‘Towards achieving data security with                   of E marketing by small and medium enterprises (SMEs) in Kisumu
+     the cloud computing adoption framework,’’ IEEE Trans. Services Comput.,                municipality,’’ J. Bus. Manage., vol. 17, no. 5, pp. 78–83, 2015.
+     vol. 9, no. 1, pp. 138–151, Jan. 2016.                                            [39] T. Oliveira and M. F. Martins, ‘‘Understanding e-business adoption across
+[14] C. Changchit and C. Chuchuen, ‘‘Cloud computing: An examination of                     industries in European countries,’’ Ind. Manage. Data Syst., vol. 110, no. 9,
+     factors impacting users’ adoption,’’ J. Comput. Inf. Syst., vol. 58, no. 1,            pp. 1337–1354, Sep. 2010.
+     pp. 1–9, Jan. 2018.                                                               [40] T. Oliveira, M. Thomas, and M. Espadanal, ‘‘Assessing the determinants of
+[15] A. Charbaji and T. Mikdashi, ‘‘A path analytic study of the attitude toward
+                                                                                            cloud computing adoption: An analysis of the manufacturing and services
+     e-government in Lebanon,’’ Corp. Governance, Int. J. Business Soc., vol. 3,
+                                                                                            sectors,’’ Inf. Manage., vol. 51, no. 5, pp. 497–510, Jul. 2014.
+     no. 1, pp. 76–82, 2003.
+                                                                                       [41] M. J. Pan and W. Y. Jang, ‘‘Determinants of the adoption of enterprise
+[16] P. Y. K. Chau and P. J.-H. Hu, ‘‘Information technology acceptance by
+                                                                                            resource planning within the technology-organization-environment frame-
+     individual professionals: A model comparison approach,’’ Decis. Sci.,
+                                                                                            work: Taiwan’s communications industry,’’ J. Comput. Inf. Syst., vol. 48,
+     vol. 32, no. 4, pp. 699–719, Dec. 2001.
+[17] D. C. Chou, ‘‘Cloud computing: A value creation model,’’ Comput. Stan-                 no. 3, pp. 94–102, 2008.
+     dards Interfaces, vol. 38, pp. 72–77, Feb. 2015.                                  [42] G. C. A. Peng, A. Dutta, and A. Choudhary, ‘‘Exploring critical risks
+[18] A. Scupola, ‘‘SMEs’e-commerce adoption: Perspectives from Denmark                      associated with enterprise cloud computing,’’ in Proc. Int. Conf. Cloud
+     and Australia,’’ J. Enterprise Inf. Manage., vol. 22, nos. 1–2, pp. 152–166,           Comput. Cham, Switzerland: Springer, 2013, pp. 132–141.
+     Feb. 2009.                                                                        [43] H. M. Sabi, F.-M.-E. Uzoka, K. Langmia, F. N. Njeh, and C. K. Tsuma,
+[19] A.-N. El-Kassar and S. K. Singh, ‘‘Green innovation and organizational                 ‘‘A cross-country model of contextual factors impacting cloud computing
+     performance: The influence of big data and the moderating role of manage-              adoption at universities in sub-saharan Africa,’’ Inf. Syst. Frontiers, vol. 20,
+     ment commitment and HR practices,’’ Technol. Forecasting Social Change,                no. 6, pp. 1381–1404, Dec. 2018.
+     vol. 144, pp. 483–498, Jul. 2019.                                                 [44] K. Sin Tan, S. Choy Chong, B. Lin, and U. Cyril Eze, ‘‘Internet-based
+[20] J. F. Sreih, D. Pistrui, W. V. Huang, and H. P. Welsch, ‘‘Family and                   ICT adoption: Evidence from Malaysian SMEs,’’ Ind. Manage. Data Syst.,
+     cultural factors impacting entrepreneurship in war time lebanon,’’ Int. J.             vol. 109, no. 2, pp. 224–244, Mar. 2009.
+     Entrepreneurship Innov. Manage., vol. 12, no. 1, p. 35, 2010.                     [45] P. Taylor, ‘‘Information and communication technology (ICT) adoption
+[21] H. Gangwar, H. Date, and R. Ramaswamy, ‘‘Understanding determinants                    by small and medium enterprises in developing countries: The effects
+     of cloud computing adoption using an integrated TAM-TOE model,’’                       of leader, organizational and market environment factors,’’ Int. J. Econ.,
+     J. Enterprise Inf. Manage., vol. 28, no. 1, pp. 107–130, Feb. 2015.                    Commerce Manage. United Kingdom, vol. 7, no. 5, pp. 671–683, 2019.
+
+79180                                                                                                                                                      VOLUME 8, 2020
+M. Skafi et al.: Factors Influencing SMEs’ Adoption of Cloud Computing Services in Lebanon: Empirical Analysis
+
+
+
+
+[46] S. R. Tehrani and F. Shirazi, ‘‘Factors influencing the adoption of cloud          [74] M. G. Avram, ‘‘Advantages and challenges of adopting cloud computing
+     computing by small and medium size enterprises (SMEs),’’ in Proc. Int.                  from an enterprise perspective,’’ Procedia Technol., vol. 12, pp. 529–534,
+     Conf. Hum. Interface Manage. Inf. Cham, Switzerland: Springer, 2014,                    2013, doi: 10.1016/j.protcy.2013.12.525.
+     pp. 631–642.                                                                       [75] M. Stieninger, D. Nedbal, W. Wetzlinger, G. Wagner, and M. A. Erskine,
+[47] A.-C. Teo, G. W.-H. Tan, K.-B. Ooi, T.-S. Hew, and K.-T. Yew, ‘‘The                     ‘‘Impacts on the organizational adoption of cloud computing: A reconcep-
+     effects of convenience and speed in m-payment,’’ Ind. Manage. Data Syst.,               tualization of influencing factors,’’ Procedia Technol., vol. 16, pp. 85–93,
+     vol. 115, no. 2, pp. 311–331, Mar. 2015.                                                2014.
+[48] J. Y. L. Thong and C. S. Yap, ‘‘CEO characteristics, organizational char-          [76] J. N. Makena, ‘‘Factors that affect cloud computing adoption by small and
+     acteristics and information technology adoption in small businesses,’’                  medium enterprises in Kenya,’’ Int. J. Comput. Appl. Technol. Res., vol. 2,
+     Omega, vol. 23, no. 4, pp. 429–442, Aug. 1995.                                          no. 5, pp. 517–521, 2013.
+[49] C. Van Slyke, F. Belanger, and C. L. Comunale, ‘‘Factors influencing the           [77] M. G. Avram, ‘‘Advantages and challenges of adopting cloud computing
+     adoption of Web-based shopping: The impact of trust,’’ ACM SIGMIS                       from an enterprise perspective,’’ Procedia Technol., vol. 12, pp. 529–534,
+     Database, vol. 35, no. 2, pp. 32–49, Jun. 2004.                                         2014.
+[50] J. Wang, ‘‘Critical factors for personal cloud storage adoption in China,’’        [78] R. Khoury. (Jul. 12, 2017). Lebanese SMEs Lack Support, Fund-
+     J. Data Inf. Sci., vol. 1, no. 2, pp. 60–74, 2016.                                      ing. AN-NAHAR Magazine. [Online]. Available: https://en.annahar.com/
+[51] Y.-M. Wang, Y.-S. Wang, and Y.-F. Yang, ‘‘Understanding the determinants                article/617403-lebanese-smes-lack-support-funding
+     of RFID adoption in the manufacturing industry,’’ Technol. Forecasting             [79] F. J. Fowler, Survey Error in Perspective. Survey Research Methods. New-
+     Social Change, vol. 77, no. 5, pp. 803–815, Jun. 2010.                                  bury Park, CA, USA: Sage, 1993, pp. 142–148.
+                                                                                        [80] M. O. Kaiser, ‘‘Kaiser-Meyer-Olkin measure for identity correlation
+[52] J. Wu, F. Ding, M. Xu, Z. Mo, and A. Jin, ‘‘Investigating the determi-
+                                                                                             matrix,’’ J. Roy. Stat. Soc., vol. 52, pp. 296–298, 1974.
+     nants of decision-making on adoption of public cloud computing in e-               [81] H. Hamad, I. Elbeltagi, and H. El-Gohary, ‘‘An empirical investigation of
+     government,’’ J. Global Inf. Manage., vol. 24, no. 3, pp. 71–89, 2016.                  business-to-business e-commerce adoption and its impact on SMEs com-
+[53] W.-W. Wu, ‘‘Developing an explorative model for SaaS adoption,’’ Expert                 petitive advantage: The case of Egyptian manufacturing SMEs,’’ Strategic
+     Syst. Appl., vol. 38, no. 12, pp. 15057–15064, Nov. 2011.                               Change, vol. 27, no. 3, pp. 209–229, 2018.
+[54] M. Yunis, A.-N. El-Kassar, and A. Tarhini, ‘‘Impact of ICT-based innova-
+     tions on organizational performance: The role of corporate entrepreneur-                                    MAHMOUD SKAFI received the B.Sc. degree in
+     ship,’’ J. Enterprise Inf. Manage., vol. 30, no. 1, pp. 122–141, Feb. 2017.                                 computer science and the M.Sc. degree in man-
+[55] K. Zhu, K. L. Kraemer, and J. Dedrick, ‘‘Information technology payoff in
+                                                                                                                 agement information systems in predicting global
+     E-business environments: An international perspective on value creation of
+     E-Business in the financial services industry,’’ J. Manage. Inf. Syst., vol. 21,
+                                                                                                                 solar radiation using recurrent neural networks and
+     no. 1, pp. 17–54, Jan. 2004.                                                                                climatological parameters from the Department of
+[56] E. M. Rogers, Diffusion of Innovation, 4th ed. New York, NY, USA:                                           Mathematics and Computer Science, Beirut Arab
+     The Free Press, 1995.                                                                                       University (BAU), in 2012 and 2006, respectively,
+[57] K. So, F. Ibikunle, and O. Awodele, ‘‘Cloud computing security issues and                                   where he is currently pursuing the Ph.D. degree in
+     challenges,’’ Int. J. Comput. Netw., vol. 3, no. 5, pp. 55–247, 2011.                                       information technology. He is also preparing the
+[58] S. Abolfazli, Z. Sanaei, A. Tabassi, S. Rosen, A. Gani, and S. U. Khan,                                     Ph.D. degree thesis about adoption of cloud com-
+     ‘‘Cloud adoption in Malaysia: Trends, opportunities, and challenges,’’             puting with Lebanese SMEs. He attended several conferences and workshops
+     IEEE Cloud Comput., vol. 2, no. 1, pp. 60–68, Jan. 2015.                           related to cloud computing and neural networks. He has been the Executive
+[59] N. Sultan, ‘‘Cloud computing for education: A new dawn?’’ Int. J. Inf.             Administrator of the Faculty of Human Sciences, BAU, since 2006.
+     Manage., vol. 30, no. 2, pp. 109–116, 2010.
+[60] H. Sallehudin, R. C. Razak, and M. Ismail, ‘‘Factors influencing cloud                                        MANAL M. YUNIS received the Ph.D. degree
+     computing adoption in the public sector: An empirical analysis,’’ J.                                          in business administration with a concentration in
+     Entrepreneurship Bus., vol. 3, no. 1, pp. 30–45, 2015.                                                        computer information systems. She is an Assistant
+[61] J. B. Horrigan, ‘‘‘Cloud computing’ takes hold as 69% of all internet users                                   Professor of information technology management
+     have either stored data online or used a Web-based software application,’’                                    with the Department of Information Technology
+     Pew Internet Amer. Life Project, Pew Res. Center, Washington, DC, USA,                                        and Operations Management, Lebanese American
+     Tech. Rep., 2008, pp. 65–72.                                                                                  University, Beirut, Lebanon. Her research inter-
+[62] R. Gellman, ‘‘Privacy in the clouds: Risks to privacy and confidentiality
+                                                                                                                   ests include information and cyber security, global
+     from cloud computing,’’ World Privacy Forum, 2009.
+[63] M. Armbrust, A. Fox, R. Griffith, A. D. Joseph, R. Katz, A. Konwinski, G.                                     information technology management, cloud com-
+     Lee, D. Patterson, A. Rabkin, I. Stoica, and M. Zaharia, ‘‘Above the clouds:                                  puting, e-government, and the adoption and dif-
+     A Berkeley view of cloud computing,’’ UC Berkeley, Berkeley, CA, USA,              fusion of emerging technologies. She is a member of the Association of
+     Tech. Rep., 2009.                                                                  Information Systems (AIS), the Decision Sciences Institute, and AIS Special
+[64] C. Domat, ‘‘Bahrain: Back on the map,’’ Global Finance Mag., Jul. 2019.            Interest Groups. She has several peer-refereed journal and conference pub-
+[65] I. Musiienko. (2017). Top 7 Reasons Why Cloud Migration Strategies                 lications, and is the recipient of many best paper awards from conferences
+     Fail. [Online]. Available: http://www.infopulse.com/blog/7-reasons-why-            and publishing groups.
+     cloud-migration-strategies-fail/
+[66] F. D. Davis, ‘‘Perceived usefulness, perceived ease of use, and user accep-                                   AHMED ZEKRI received the B.Sc. degree in
+     tance of information technology,’’ MIS Quart., pp. 319–340, 1989.                                             computer science and mathematical statistics and
+[67] L. Tornatzky and M. Fleischer, The Process of Technology Innovation.                                          the M.Sc. degree in computer science from the
+     Lexington, MA, USA: Lexington Books, 1990, p. 165.                                                            Department of Mathematics and Computer Sci-
+[68] R. T. Frambach, ‘‘An integrated model of organizational adoption and                                          ence, Faculty of Science, Alexandria University,
+     diffusion of innovations,’’ Eur. J. Marketing, 1993.                                                          Egypt, in 1994 and 1999, respectively, and the
+[69] M. A. Hameed, S. Counsell, and S. Swift, ‘‘A conceptual model for the                                         Ph.D. degree in computer science and engineering
+     process of IT innovation adoption in organizations,’’ J. Eng. Technol.                                        from the University of Aizu, Japan, in 2008. Since
+     Manage., vol. 29, no. 3, pp. 358–390, 2012.                                                                   2008, he has been an Assistant Professor with the
+[70] K. H. Lee, R. Cram, and A. Mukundan, U.S. Patent No. 6,336,137, 2002.
+                                                                                                                   Department of Mathematics and Computer Sci-
+[71] J. Baker, ‘‘The technology-organization-environment framework,’’ in
+     Information Systems Theory. New York, NY, USA: Springer, 2012,
+                                                                                        ence, Beirut Arab University. Prior to that, he was an Assistant Professor at
+     pp. 231–245.                                                                       the Department of Mathematics and Computer Science, Faculty of Science,
+[72] L. G. Tornatzky and K. J. Klein, ‘‘Innovation characteristics and innovation       Alexandria University, from 2008 to 2012 (currently on a leave). He worked
+     adoption-implementation: A meta-analysis of findings,’’ IEEE Trans. Eng.           as a Visiting Professor at the University of Aizu, in 2009, and a Lecturer at
+     Manag., vol. EM-1, pp. 28–45, 1982.                                                AASTMT, Egypt, from 2010 to 2012. His research interests include parallel
+[73] K. Poulis, E. Poulis, and E. Plakoyiannaki, ‘‘The role of context in case          and distributed computing, performance analysis and evaluation of parallel
+     study selection: An international business perspective,’’ Int. Bus. Rev.,          applications, and energy-efficient cloud computing.
+     vol. 22, no. 1, pp. 304–314, 2013.
+
+VOLUME 8, 2020                                                                                                                                                    79181
+

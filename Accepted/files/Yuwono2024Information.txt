@@ -1,0 +1,1108 @@
+Yuwono et al.                                                                                                              Journal of Innovation and
+Journal of Innovation and Entrepreneurship (2024) 13:31
+https://doi.org/10.1186/s13731-024-00392-6                                                                                         Entrepreneurship
+
+
+ REVIEW                                                                                                                                            Open Access
+
+Information and communication technology
+in SMEs: a systematic literature review
+Tri Yuwono1* , Agus Suroso1 and Weni Novandari1
+
+
+*Correspondence:
+tri.yuwono@mhs.unsoed.ac.id         Abstract
+1
+  Faculty of Economics              The adoption of information and communication technology (ICT) in small-
+and Business, Jenderal              and medium-sized firms (SMEs) is steadily increasing. However, the implementation
+Soedirman University,               of ICT in SMEs is hindered by constraints, such as limited financial resources, lack of ICT
+Purwokerto, Indonesia
+                                    knowledge, and reluctance to change. The objective of this study is to identify and ana-
+                                    lyze prevalent patterns, obstacles and influences that impact the adoption of ICT
+                                    in SMEs in developing nations. In addition, this study aims to provide recommenda-
+                                    tions on the most effective methods to optimize the utilization of ICT in these contexts.
+                                    This review is conducted using a sample of 25 publications that have been published
+                                    and are available in the Scopus database. The selection process focuses on works
+                                    that have received significant citations and have been published between 2014
+                                    and 2023. The PRISMA statement form was utilized to elucidate the comprehensive
+                                    procedure of selecting and accepting pertinent publications. This research makes
+                                    two distinct contributions. The writers begin by doing a thorough literature analysis
+                                    to examine the progress of ICT in the past decade. They next emphasize noteworthy
+                                    research discoveries in this field. Furthermore, the authors give a comprehensive analy-
+                                    sis of the ICT literature by quantifying yearly publications and identifying SMEs that pri-
+                                    marily utilize ICT, academic journals that publish pertinent articles, and ICT-related
+                                    publications across various fields and areas in developing nations. The study also dis-
+                                    closes the papers, journals, and authors that have received the highest number of cita-
+                                    tions. The author’s final argument in the paper is that, despite the extensive research
+                                    conducted in the field of ICT, there is a necessity to customize strategies and policies
+                                    that can support SMEs in the ICT sector, particularly in developing countries.
+                                    Keywords: Information and communication technology, SMEs, Systematic literature
+                                    review
+
+                                  Introduction
+                                  Small businesses are beginning to realize the importance of computer systems in improv-
+                                  ing their operations and performance (Mishrif & Khan, 2023). Information and com-
+                                  munication technology (ICT) plays a crucial role in the corporate environment, serving
+                                  not only as a tool for automation and cost reduction but also as a strategic driver that
+                                  has the potential to radically alter the dynamics of competitiveness (Porter, 2001). ICT
+                                  is recognized as providing small businesses with the potential for rapid access to global
+                                  markets and customers, which can significantly increase their reach and competitiveness
+
+
+                                  © The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits
+                                  use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original
+                                  author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third
+                                  party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the mate-
+                                  rial. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or
+                                  exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://
+                                  creativecommons.org/licenses/by/4.0/.
+Yuwono et al. Journal of Innovation and Entrepreneurship   (2024) 13:31                                         Page 2 of 23
+
+
+
+
+                  (MacGregor & Vrazalic, 2005). ICTs used by SMEs include e-commerce (Braun, 2002),
+                  websites (Ritchie & Brindley, 2005), digital payment (Kaynak et al., 2005), enterprise
+                  resource planning (Olsen & Saetre, 2007b), mobile phone (Rabayah & Qalalwi, 2011),
+                  social media (Michaelidou et al., 2011), cloud computing (Sultan, 2011), blockchain and
+                  AI tools (Mishrif & Khan, 2023). The application of ICT, primarily e-commerce, pro-
+                  vides ease of purchase, reduced costs, and faster response, can expand market reach
+                  and increase the competitiveness of SMEs both locally and internationally (Indrayanto
+                  et al., 2024; Lane et al., 2004). Merging data between departments with ERP systems for
+                  SMEs can improve information accessibility, and better decision making and more effi-
+                  cient operations (Olsen & Sætre, 2007a). Websites for SMEs are useful for reaching new
+                  customers and increasing sales (Burke, 2009). Moreover, a more substantial online pres-
+                  ence is needed to compete in the digital marketplace (Tan et al., 2009). Customers gen-
+                  erally prefer online shopping to speed up shopping activities, assist in decision-making,
+                  save money, and simplify the shopping process (Novandari et al., 2021). Social media
+                  for SMEs are helpful in improving brand reputation, maintaining trust with customers,
+                  and reducing the cost of digital advertising and promotion (Durkin et al., 2013; Sulasih
+                  et al., 2023). The benefits of mobile phones for SMEs include more efficient data capture,
+                  better communication, increased staff engagement, and the potential for advanced data
+                  analysis and system integration (Bankosz & Kerins, 2014). Digital payments for SMEs
+                  can streamline the transaction process, making it easier for customers to complete pur-
+                  chases (Küster et al., 2016). Blockchain and AI optimize marketing operations and pro-
+                  mote a more agile and data-centric marketing strategy, eventually enhancing consumer
+                  pleasure and loyalty (Khan et al., 2023). Small- and medium-sized enterprises (SMEs)
+                  with proficient information and communication technology (ICT) skills and strong IT
+                  capabilities generally achieve better financial performance and cost efficiency compared
+                  to other companies, as indicated by Elbeltagi et al. (2013).
+                    Previous studies on Information and Communication Technology have primarily
+                  focused on large and multinational firms (Barua et al., 2004; Bharadwaj, 2000; Bryn-
+                  jolfsson & Hitt, 2020; Liang et al., 2007; Mithas et al., 2011) compared to SMEs (Chen
+                  et al., 2002; Cragg & King, 1993). Currently, the attention has turned towards small- and
+                  medium-sized enterprises (SMEs) as indicated by the works of (Arendt, 2008; Chege
+                  et al., 2020; Marcelino-Sádaba et al., 2014; Müller et al., 2018; Wielicki & Arendt, 2010).
+                  The development of skills and attitudes, including the ability of SMEs to recognize and
+                  respond to value-creation opportunities, is critical for SMEs to leverage technology bet-
+                  ter (Cunningham et al., 2023). Nevertheless, the existing body of evidence regarding the
+                  factors that promote or impede the adoption of information and communication tech-
+                  nology by small and medium enterprises (SMEs), particularly in developing nations,
+                  remains scarce (Kurnia et al., 2015).
+                    Empirical studies that mention how to implement information and communication
+                  technology in SMEs in developing countries are still few (Kurnia et al., 2015; Mapes-
+                  hoane & Pather, 2016). Prior systematic reviews and bibliometric analyses predomi-
+                  nantly utilized data sourced from the Web of Science (Dabi et al., 2020; D’Angelo &
+                  Belvedere, 2023; Tubis & Grzybowska, 2022; Yogarajan et al., 2023). This research is
+                  distinctive, because it utilizes data from the Scopus database, which is recognized as
+                  the largest peer-reviewed literature database encompassing a broad spectrum of global
+Yuwono et al. Journal of Innovation and Entrepreneurship   (2024) 13:31                                         Page 3 of 23
+
+
+
+
+                  and regional journals, conference proceedings, and books (Baas et al., 2020; Cordes &
+                  Marinova, 2023). It is argued that SMEs in developing countries face various technical
+                  capability constraints when applying information and communication technology (ICT)
+                  for business growth and competitiveness. SMEs in developing countries exhibit less
+                  enthusiasm for implementing ICT compared to large companies due to financial limita-
+                  tions and organizational and managerial preparedness (Shahadat et al., 2023). Therefore,
+                  it is necessary to examine the factors contributing to the disparity in the adoption of ICT
+                  practices in small firms, specifically in SMEs of developing countries. Hence, the objec-
+                  tive of this study is to examine the existing literature on information and communication
+                  technology (ICT) in small- and medium-sized enterprises (SMEs) and analyze the pat-
+                  terns and themes in ICT research by addressing the following research inquiries.
+                     RQ 1. How has ICT evolved over the years?
+                     RQ 2. What are the main research streams and focus areas in the ICT literature?
+                     RQ 3. What internal and external factors influence ICT adoption in SMEs of develop-
+                  ing countries?
+                     RQ 4. What are the barriers and outcomes of ICT implementation in developing coun-
+                  try SMEs?
+
+                  Definition and importance of SMEs
+                  SMEs in developing countries play a crucial role in economic development, employ-
+                  ment, and innovation. The precise parameters that define small- and medium-sized
+                  enterprises (SMEs), such as the number of employees, yearly turnover, and investment
+                  amount, can vary considerably across different countries. The various interpretations
+                  of this concept highlight the tailored strategies implemented by nations to assist small-
+                  and medium-sized enterprises (SMEs) based on their distinct economic environments
+                  and governmental goals. In India, small and medium enterprises (SMEs) are classified
+                  according to their capital expenditure on equipment and machinery. Micro-enterprises
+                  are businesses with a capital investment of up to INR 2.5 million (Kumar et al., 2017). In
+                  Bangladesh, SMEs are classified as firms with fewer than 100 employees (Azam, 2015).
+                  In Malaysia, small- and medium-sized enterprises (SMEs) are classified according to
+                  their staff count and yearly revenue. Small firms typically have a workforce of 5 to 75
+                  individuals and generate annual revenues ranging from RM300,000 to RM5 million. On
+                  the other hand, medium enterprises employ 75–200 people and have an annual turnover
+                  between RM5 million and RM50 million (Ibrahim et al., 2018).
+                    Small- and medium-sized enterprises (SMEs) are crucial for the economic progress
+                  of emerging nations, making substantial contributions to the gross domestic prod-
+                  uct (GDP), employment rates, and exports. SMEs in Bangladesh contribute approxi-
+                  mately 45% of the manufacturing value added, almost 80% of industrial employment,
+                  and between 75% and 80% of export earnings. In addition, the agricultural industry
+                  contributes approximately 44% of employment in the country, highlighting its signifi-
+                  cant importance in job generation and economic growth. SMEs in Bangladesh are esti-
+                  mated to account for approximately 20–25% of the country’s GDP (Azam, 2015). On a
+                  global scale, small- and medium-sized enterprises (SMEs) are acknowledged for their
+                  significant role in fostering economic growth and generating employment opportunities.
+                  SMEs in Singapore account for 46% of the country’s GDP and 63% of its employment.
+Yuwono et al. Journal of Innovation and Entrepreneurship   (2024) 13:31                                              Page 4 of 23
+
+
+
+
+                  In European countries, small- and medium-sized enterprises (SMEs) contribute approx-
+                  imately 60 to 70% of the total employment. In Japan, this percentage is much higher,
+                  surpassing 78%. SMEs in Pakistan make up around 40% of the annual GDP, 25% of
+                  industrial exports, and 78% of individual employment (Pathan et al., 2017). These con-
+                  tributions demonstrate the crucial significance of SMEs in stimulating economic expan-
+                  sion, enhancing job prospects, and elevating living standards, thereby establishing them
+                  as the fundamental pillar of the economy (Heim et al., 2019).
+
+                  ICT and its relevance to SMEs
+                  Information and communication technology (ICT) refers to various technologies that
+                  collect, manipulate, retain, and distribute information. It encompasses technologies
+                  such as the internet, telecommunications (mobile phones and landlines), wireless net-
+                  works, digital broadcasting, and other digital technologies that transmit and manipulate
+                  information in different formats. Information and communication technology (ICT) is
+                  fundamental to contemporary existence. It has become an essential element of company
+                  operations, facilitating organizations to function more efficiently, expand into new mar-
+                  kets, and enhance communication and information exchange (Kossaï & Piget, 2014).
+                     Regarding small- and medium-sized enterprises (SMEs), it is essential to consider the
+                  significance of information and communication technology (ICT). It provides excep-
+                  tional prospects for firms to raise operational efficiency, elevate customer service, and
+                  foster product and service delivery innovation. The adoption and utilization of ICT by
+                  SMEs play a crucial role in enhancing their performance and competitiveness, particu-
+                  larly in a globalized economy, where market success is often contingent upon techno-
+                  logical competence (Azam, 2015). Information and communication technology (ICT)
+                  allows small- and medium-sized enterprises (SMEs) to optimize their operations,
+                  decrease expenses, and enhance their ability to adapt to market fluctuations. In addition,
+                  it empowers them to engage in competition at a broader scope, accessing untapped mar-
+                  kets and clientele via e-commerce and online advertising.
+                     The utilization of information and communication technology (ICT) in small and
+                  medium enterprises (SMEs) is of utmost importance for advancing the economy in
+                  emerging nations. A study conducted on Tunisian SMEs in the electrical and electronics
+                  industry has demonstrated that effectively implementing ICT can substantially impact
+                  firm profitability. The study found a favorable correlation between the extent of ICT uti-
+                  lization and firm performance (Kossaï & Piget, 2014). Moreover, implementing infor-
+                  mation and communication technology (ICT) in small and medium enterprises (SMEs)
+                  can foster creativity, stimulate expansion, and empower small enterprises to compete
+                  with greater efficiency on both domestic and global scales. Nevertheless, despite the
+                  potential advantages, small- and medium-sized enterprises (SMEs) require assistance in
+                  embracing information and communication technology (ICT), which involves overcom-
+                  ing internal and external obstacles. It is crucial to tackle these difficulties to fully use the
+                  advantages of ICT for small- and medium-sized enterprises (SMEs), enhance their role
+                  in economic development, and guarantee their long-term growth and competitiveness
+                  in the global market (Vidhyalakshmi & Kumar, 2016).
+                     Small- and medium-sized enterprises (SMEs) require assistance in embracing infor-
+                  mation and communication technology (ICT) due to the rapid digitalization prompted
+Yuwono et al. Journal of Innovation and Entrepreneurship   (2024) 13:31                                            Page 5 of 23
+
+
+
+
+                  by the COVID-19 pandemic. This shift has exacerbated the disparity between large
+                  and small firms. However, large corporations have successfully utilized omnichannel
+                  strategies and captured a substantial share of consumer demand during limited social
+                  mobility. On average, small- and medium-sized enterprises (SMEs) have yet to tap into
+                  internet commerce’s complete benefits fully. This disparity highlights a digital econ-
+                  omy dichotomy wherein tiny enterprises face challenges in competing with their larger
+                  counterparts in the digital realm. Furthermore, the intrinsic constraints of small- and
+                  medium-sized enterprises (SMEs), such as their incapacity to benefit from economies of
+                  scale and to innovate with cutting-edge technologies, worsen their challenges in adopt-
+                  ing information and communication technology (ICT). These constraints impede their
+                  ability to compete globally and restrict them to catering to domestic consumers (Mer-
+                  amveliotakis & Manioudis, 2021).
+
+
+                  Methodology
+                  The primary aim of this study is to investigate the influence of information and com-
+                  munication technology on small- and medium-sized firms (SMEs) in developing nations
+                  (Paprotny, 2021). This study has undertaken a systematic literature review (SLR) of prior
+                  research on information and communication technology (ICT) in small- and medium-
+                  sized enterprises (SMEs). A systematic literature review (SLR) seeks to resolve concerns
+                  in the current body of research by finding, critically assessing, and incorporating all per-
+                  tinent studies conducted within a specific topic while also addressing one or more spe-
+                  cific studies. Systematic literature review (SLR) distinguishes itself from typical literature
+                  reviews by placing a strong emphasis on transparency, evidence, impact, validity, and
+                  causality.
+                    This approach ensures the robustness of the evidence gathered (Mohamed Shaffril
+                  et al., 2021). The PRISMA statement form is utilized to delineate the comprehensive
+                  procedure of selecting and excluding pertinent papers in systematic reviews and meta-
+                  analyses. The PRISMA statements aid researchers in enhancing the documentation of
+                  systematic literature review publications (Page et al., 2021). The review was conducted
+                  using research publications published in the SCOPUS database from 2014 to 2023 as the
+                  basis.
+                    Literature search. A search for relevant publications was conducted on February 26,
+                  2024, using the Scopus database. The search was performed using the search terms
+                  "ICT*" and "SME*." The search produced a total of 1081 articles from 2014 to 2023,
+                  covering 10 years. Given the significant increase in publications over the past dec-
+                  ade, we have chosen this time to perform a systematic review on the implementation
+                  of information and communication technology (ICT) in small and medium enterprises
+                  (SMEs), despite its initial introduction in 1999 by Premkumar and Roberts. Following
+                  the curation of papers published between 2014 and 2023 in the domain of business and
+                  management, a total of 380 articles were retained. Given the focus of our research on
+                  business and management, we have disregarded articles that were published in other
+                  subject areas. There were 251 documents left after choosing the document type "Arti-
+                  cles." Upon choosing the publication stage and picking articles written in the "English"
+                  language, a total of 239 articles were extracted. To enhance the reliability of the analysis
+                  while upholding quality criteria, this study specifically chose articles that had 20 or more
+Yuwono et al. Journal of Innovation and Entrepreneurship   (2024) 13:31                                            Page 6 of 23
+
+
+
+
+                  citations. Subsequently, a total of 73 papers were selected for the study based on their
+                  citation count of 20 or above. After eliminating unnecessary papers, the total number of
+                  surviving papers was 25. Figure 1 provides a concise overview of the process of including
+                  and excluding certain elements.
+                     Quality assessment The selected papers underwent a thorough and rigorous screening
+                  procedure to incorporate the most outstanding research in the study. Only papers with
+                  a high number of citations (more than 20) were chosen to uphold standards of research
+                  quality and enhance comprehension of topics. Paper duplication was rigorously man-
+                  aged during the selection process.
+                     Criteria for eligibility and inclusion This review paper is derived from the original pub-
+                  lished article. The study eliminated conference papers to uphold quality requirements.
+                  The researchers focused exclusively on examining ICT business and management view-
+                  points, excluding all other sectors from their study. The database Scopus was selected
+                  for article search because of its extensive collection of publications in the discipline, sur-
+                  passing other databases such as Web of Science (Cordes & Marinova, 2023). Due to the
+                  predominance of English in the field of ICT literature, only articles written in English
+                  were chosen. An additional rationale for exclusively choosing papers written in English
+                  is its global comprehensibility and widespread acceptance. This study included both
+
+
+
+
+                    Fig. 1 Flowchart of PRISMA methodology. Source: PRISMA Statement 2020
+Yuwono et al. Journal of Innovation and Entrepreneurship     (2024) 13:31                                                         Page 7 of 23
+
+
+
+
+                  articles that are freely accessible to the public (open-access) and papers that have limited
+                  access (restricted access).
+                     The study used a qualitative synthesis For this study, a total of 25 publications pub-
+                  lished in Scopus-indexed journals between 2014 and 2023 were chosen for examination.
+                  Following the selection of the papers, the procedure proceeded with two consecutive
+                  steps. The initial phase involved exporting relevant metadata from Scopus to Microsoft
+                  Excel to facilitate a descriptive study of the literature. This analysis focused on the distri-
+                  bution of publications by year and field and the application of ICT in developing nations
+                  to enhance competitiveness in SMEs.
+                     An analysis was undertaken to observe the number of publications and publication
+                  trends during the past decade, focusing on a year-by-year basis. A sector study was
+                  undertaken to identify industries within small- and medium-sized enterprises (SMEs)
+                  that are adopting information and communication technology (ICT). This systematic
+                  review also highlighted the internal and external elements of ICT adoption that can
+                  enhance the competitiveness of SMEs. These factors are illustrated in Fig. 2.
+
+                  Analytical framework
+                  In the growing area of information and communication technology (ICT) in small and
+                  medium enterprises (SMEs) in developing nations, it is crucial to identify and address
+                  internal and external obstacles to achieve sustainable growth and maintain competitive-
+                  ness. Based on a thorough analysis of 25 studies, a valuable analytical framework has
+                  evolved to guide future research efforts.
+
+
+
+
+                    Fig. 2 Internal and external factors of ICT implementation to improve SME competitiveness. Source: Author’s
+                    findings (observed from the literature review)
+Yuwono et al. Journal of Innovation and Entrepreneurship     (2024) 13:31                                                    Page 8 of 23
+
+
+
+
+                    The framework illuminates the intricate interrelationships among different obstacles
+                  and offers strategic avenues for successful resolution. As researchers delve into further
+                  investigations in the field of ICT in SMEs in developing countries, this fundamental
+                  framework acts as a guide, enabling a more profound comprehension of the obstacles
+                  and possibilities, ultimately leading to transformative advancements in theory and prac-
+                  tice. Figure 3 provides additional information on the analytical framework.
+
+                  Theoretical framework
+                  It is crucial to consider the prevailing theoretical and methodological approaches
+                  researchers employ to assess the progress of research on the utilization of information
+                  and communication technology in small- and medium-sized enterprises (SMEs). Of the
+
+
+
+
+                    Fig. 3 Analytical framework linking strategies to overcome SME barriers to ICT implementation. Source:
+                    Author’s findings (observed from the literature review)
+Yuwono et al. Journal of Innovation and Entrepreneurship   (2024) 13:31                                          Page 9 of 23
+
+
+
+
+                  25 examined publications, only 18 explicitly referred to a theoretical framework, while
+                  the remaining articles discussed notions based on previous research. The subsequent
+                  passage delineates the theoretical frameworks employed in the study conducted thus far.
+                    IT does not matter questions the conventional belief that technological innovation is
+                  the main factor for gaining a competitive edge. Instead, it promotes prioritizing resource
+                  optimization and strategic organizational value. According to this idea, small- and
+                  medium-sized enterprises (SMEs) should shift their approach from making significant
+                  investments in Information Technology infrastructure to maximizing the use of their
+                  current resources and adopting information and communication technology (ICT) ser-
+                  vices that fulfil particular and basic needs, without putting a considerable strain on capi-
+                  tal expenses (Soon et al., 2015).
+                    Mirkovski et al. (2016) employ a combination of Transaction Cost Economics (TCE)
+                  and Social Exchange Theory (SET) to analyze the impact of environmental uncertainty
+                  on contractual and relational governance in ICT-based supply chain practices, spe-
+                  cifically information sharing and collaboration. According to these ideas, small- and
+                  medium-sized enterprises (SMEs) should enhance their contractual and relational pro-
+                  cedures to understand better the intricacies of adopting information and communica-
+                  tion technology (ICT). This understanding would enable them to effectively incorporate
+                  ICT into their supply chains, particularly while dealing with uncertain environmental
+                  conditions.
+                    The intellectual capital view (ICV) posits that some elements of intellectual capital,
+                  mainly ICT capital generated on a global scale, play a crucial role in attaining more
+                  significant levels of product innovation through worldwide expansion. This viewpoint
+                  implies that small- and medium-sized enterprises (SMEs) must build and utilize infor-
+                  mation and communication technology (ICT) skills focused on global operations. This
+                  will enable them to create new and innovative goods and effectively enter new markets.
+                  The approach emphasizes the significance of ICT as a tool for improving operational
+                  efficiency and as a valuable asset that may aid in developing new goods and gaining a
+                  competitive edge in global marketplaces (Molodchik & Jardon, 2017).
+                    According to organisational improvisation theory, small- and medium-sized enter-
+                  prises (SMEs) can gain advantages by embracing an improvisational mindset. This mind-
+                  set involves being receptive to exploring new technologies, being flexible in changing,
+                  and making prompt decisions in response to unforeseen challenges or opportunities in
+                  information and communication technology (Valaei et al., 2017).
+                    The technology–organisation–environment (TOE) frameworks and diffusion of
+                  innovations (DOI) theories provide a thorough examination of the elements that
+                  impact the adoption of technology by small- and medium-sized enterprises (SMEs),
+                  taking into account both internal and external factors that influence this decision. The
+                  TOE theory offers a framework for analyzing the technological, organizational, and
+                  environmental environments in which small- and medium-sized enterprises (SMEs)
+                  function. According to the TOE framework, small- and medium-sized enterprises
+                  (SMEs) must carefully evaluate their technology requirements and capabilities, utilize
+                  their organizational strengths and adaptability, and stay informed about external fac-
+                  tors such as government policies and market demands. This will enable them to adopt
+Yuwono et al. Journal of Innovation and Entrepreneurship   (2024) 13:31                                    Page 10 of 23
+
+
+
+
+                  and gain advantages from information and communication technology (Gono et al.,
+                  2016; Pathan et al., 2017; Sivathanu, 2019).
+                    The DOI theory facilitates comprehension of the diffusion of new technologies
+                  within an organization. The theoretical framework promotes the adoption of infor-
+                  mation and communication technology (ICT) by small- and medium-sized enter-
+                  prises (SMEs) to enhance their success and competitiveness (Kossaï & Piget, 2014).
+                  SMEs should comprehensively evaluate their preparedness and possible advantages of
+                  adopting technology based on integrating TOE and DOI theories (Dincă et al., 2019;
+                  Kumar et al., 2017).
+                    Mirkovski et al. (2019) employed Transaction Cost Economics (TCE) and Social
+                  Exchange Theory (SET) to investigate the interactions of information and commu-
+                  nication technology (ICT) in small- and medium-sized enterprises (SMEs) within
+                  supply chains in developing nations. The field of Transaction Cost Economics (TCE)
+                  examines the expenses linked to transactions and their impact on the behaviour and
+                  structure of organizations. TCE suggests that enterprises should reduce these costs
+                  to enhance efficiency and competitiveness. SET underscores the significance of social
+                  connections and trust in facilitating transactions, indicating that small- and medium-
+                  sized enterprises (SMEs) should prioritize establishing and upkeep robust interper-
+                  sonal ties to improve information sharing and collaboration.
+                    Value co-creation is based on the assumption that information and communication
+                  technology (ICT) enables value production. This enables companies at various stages
+                  of ICT implementation to collaborate and enhance their business processes, ulti-
+                  mately leading to improved organizational performance. Small- and medium-sized
+                  enterprises (SMEs) are advised to embrace information and communication technol-
+                  ogy (ICT) to enhance their internal operations and collaborate with other companies
+                  to generate value. This includes partnering with firms with higher ICT utilization
+                  (Heim et al., 2019).
+                    Knowledge management (KM) is based on the belief that SMEs may improve their
+                  innovation skills and competitive advantage by successfully developing, sharing, and
+                  capitalizing on knowledge within and across organizational boundaries. According to
+                  this theory, small- and medium-sized enterprises (SMEs) should actively participate
+                  in knowledge management practices. This involves promoting a culture of sharing
+                  knowledge, investing in information and communication technology (ICT) to facili-
+                  tate knowledge sharing, and establishing strong connections with external partners to
+                  access and incorporate a wide range of knowledge into the SME’s innovation process
+                  (Ben Arfi & Hikkerova, 2021).
+                    Azam (2015) employed various theoretical frameworks, including the Diffusion of
+                  Innovations (DOI) Theory, Technology–Organization–Environment (TOE) Frame-
+                  work, Technology Acceptance Model (TAM), Theory of Reasoned Action (TRA), The-
+                  ory of Planned Behaviour (TPB), Institutional Theory, Unified Theory of Acceptance
+                  and Use of Technology (UTAUT), and Resource-based View (RBV), to investigate the
+                  factors that affect the adoption of information and communication technology (ICT)
+                  by small- and medium-sized enterprises (SMEs) and the impact of this adoption on
+                  SME performance. The Technology Acceptance Model (TAM) posits that the percep-
+                  tion of how easy and beneficial a technology is crucial in determining its acceptance
+Yuwono et al. Journal of Innovation and Entrepreneurship   (2024) 13:31                                                                Page 11 of 23
+
+
+
+
+                  and usage behaviour. This implies that if small- and medium-sized enterprises (SMEs)
+                  view information and communication technology (ICT) as valuable and user-friendly,
+                  they are more inclined to embrace and incorporate it into their business activities.
+                    The TRA (Theory of Reasoned Action) and TPB (Theory of Planned Behavior) posit
+                  that an individual’s inclination to engage in a particular behaviour, such as ICT adop-
+                  tion, is shaped by their attitude towards the behaviour and subjective norms. The TPB
+                  further includes perceived behavioural control as a determinant, indicating that inter-
+                  nal and external perceptions play a role in an SME’s decision to adopt ICT. Institu-
+                  tional Theory posits that the adoption of information and communication technology
+                  (ICT) by small and medium enterprises (SMEs) is impacted by external influences and
+                  the need to conform to industry and societal norms and expectations. This implies
+                  that factors beyond the immediate perceived benefits may drive the adoption of ICT.
+                    The UTAUT model proposes that the anticipation of good performance, the expec-
+                  tation of effort, social influence, and favourable conditions predict the adoption and
+                  utilization of technology. According to this theory, small- and medium-sized enter-
+                  prises (SMEs) should enhance these four characteristics to enhance the probability
+                  of successfully adopting information and communication technology (ICT) in their
+                  organizations (Ibrahim et al., 2018). The resource-based view (RBV) theory posits
+                  that organizations achieve long-term competitive advantage by holding resources and
+                  talents that are valued, scarce, difficult to imitate, and cannot be easily replaced. ICT
+                  resources and competencies can provide SMEs with a competitive edge in terms of
+                  innovation and competition (Amoako et al., 2022; Aslesen & Harirchi, 2015; Golonka,
+                  2015) (Table 1).
+
+
+
+                  Table 1 Theories being used
+                  Theory                                                  Author
+
+                  IT Does not Matter                                      Soon et al. (2015)
+                  Social Exchange Theory (SET)                            Mirkovski et al. (2016)
+                  Transaction Cost Economics (TCE)                        Mirkovski et al. (2016)
+                  Intellectual Capital View (ICV)                         Molodchik and Jardon (2017)
+                  Organisational improvisation                            Valaei et al. (2017)
+                  Technology–Organisation–Environment (TOE) frame-        Azam (2015); Gono et al. (2016); Pathan et al. (2017);
+                  works                                                   Kumar et al. (2017); Sivathanu (2019); Dincă et al. (2019)
+                  Diffusion of Innovations (DOI)                          Azam (2015); Kossaï and Piget (2014); Kumar et al.
+                                                                          (2017); Dincă et al. (2019)
+                  Social Exchange Theory (SET)                            Mirkovski et al. (2019)
+                  Transaction Cost Economics (TCE)                        Mirkovski et al. (2019)
+                  Value co-creation                                       Heim et al. (2019)
+                  Knowledge management (KM)                               Ben Arfi and Hikkerova (2021)
+                  Resource-Based View (RBV)                               Azam (2015); Aslesen and Harirchi (2015); Golonka
+                                                                          (2015); Amoako et al. (2022)
+                  Unified Theory of Acceptance and Use of Technology      Azam (2015); Ibrahimet al. (2018)
+                  (UTAUT)
+                  Institutional Theory                                    Azam (2015)
+                  Technology Acceptance Model (TAM)                       Azam (2015)
+                  Theory of Reasoned Action (TRA)                         Azam (2015)
+                  Theory of Planned Behaviour (TPB)                       Azam (2015)
+Yuwono et al. Journal of Innovation and Entrepreneurship       (2024) 13:31                                    Page 12 of 23
+
+
+
+
+                  Descriptive analysis
+                  This section will analyze the descriptive statistics of the papers chosen throughout the
+                  review process. It will examine factors such as the year of publication, industry focus,
+                  number of citations, journal of publication, and research methodology employed in
+                  the selected studies.
+                    By year, Fig. 4 illustrates the trajectory of ICT use among small- and medium-sized
+                  enterprises (SMEs) from 2014 to 2023. The data are derived from the annual publica-
+                  tion count but are restricted to research that has received significant citations. 2019
+                  and 2017 were the years with the highest number of papers that received high-cita-
+                  tion reports, defined as having more than 20 citations.
+                    Industry base. The results of industries that utilize ICT are depicted in Fig. 5. Indus-
+                  tries are primarily categorized into four sectors: agriculture, mining, manufacturing
+                  (including electrical industry, electronics, apparel, food, drinks, etc.), and services
+                  (such as marketing and software-based small and medium enterprises). Several arti-
+                  cles included small- and medium-sized enterprises (SMEs) in their analysis, whereas
+                  the remaining articles did not specify the industries that were included in the study.
+                  They have been classified inside the "other" classification. Out of the chosen research,
+                  5 studies either encompassed all small- and medium-sized enterprises (SMEs) or did
+                  not specify which SMEs were examined. The fraction of small- and medium-sized
+                  enterprises (SMEs) that implemented information and communication technology
+                  (ICT) was primarily focused on researching manufacturing. The total number of stud-
+                  ies discovered was 11, as determined from the selected papers. Based on the graph
+                  shown (Fig. 5), it can be deduced that the adoption of ICT is more prevalent among
+                  small and medium enterprises (SMEs) in the manufacturing and services sectors, as
+                  opposed to those in the agriculture and mining sectors.
+
+
+
+
+                    Fig. 4 ICT publications in SMEs per year
+Yuwono et al. Journal of Innovation and Entrepreneurship    (2024) 13:31                                      Page 13 of 23
+
+
+
+
+                    Fig. 5 ICT implementation in small- and medium-sized industries
+
+
+
+
+                     Journal base. The "International Journal of Business Information Systems" has had the
+                  highest number of publications in the past 10 years, with a total of three articles pub-
+                  lished between 2014 and 2023. Subsequently, additional magazines published a single
+                  article each. Table 2 displays the leading journals and the papers that were published
+                  during the specified time frame.
+                     Regional distribution. An intriguing discovery from this analysis is the dispersion of
+                  ICT studies among various locations in poor countries (Paprotny, 2021). Figure 6 dem-
+                  onstrates that the majority of studies were carried out in India and Malaysia. More
+                  research needs to be undertaken in other emerging nations. More studies and imple-
+                  mentation of ICT in small- and medium-sized enterprises (SMEs) in developing coun-
+                  tries worldwide need to be conducted. Our findings align with Aslesen and Harirchi
+                  (2015) assertion that India is the primary source of scholarly research on ICT in devel-
+                  oping nations, as depicted in Fig. 6.
+                     According to the citations. The minimum threshold for paper selection in this review
+                  was set at 20 citations per paper. The article authored by Puthusserry et al. (2020)
+                  received the highest number of citations among the articles in the selected column, with
+                  a total of 53 citations. Table 3 presents a concise overview of the 10 papers that have
+                  received the highest number of citations, including information about the authors and
+                  the year in which they were published.
+
+
+
+                  Classification
+                  To ascertain the specific areas of research concentration in the existing literature, we
+                  have established four distinct research streams. This section aims to categorize the lit-
+                  erature and provide an overview of the main areas of research in information and com-
+                  munication technology (ICT) in small- and medium-sized enterprises (SMEs).
+Yuwono et al. Journal of Innovation and Entrepreneurship         (2024) 13:31                              Page 14 of 23
+
+
+
+
+                  Table 2 Top cited journals and its publications
+                  Journal                                                                   No. of
+                                                                                            publications
+
+                  International Journal of Business Information Systems                     3
+                  European Management Journal                                               1
+                  Information Resources Management Journal                                  1
+                  Journal of High Technology Management Research                            1
+                  Advances in Business Marketing and Purchasing                             1
+                  Business Process Management Journal                                       1
+                  Economics and Sociology                                                   1
+                  Entrepreneurship and Regional Development                                 1
+                  Human Systems Management                                                  1
+                  IEEE Transactions on Engineering Management                               1
+                  International Journal of e-Business Research                              1
+                  International Journal of Logistics Management                             1
+                  International Journal of Productivity and Performance Management          1
+                  Journal of Business Economics and Management                              1
+                  Journal of Global Information Management                                  1
+                  Journal of Intellectual Capital                                           1
+                  Journal of Small Business and Enterprise Development                      1
+                  Journal of Vacation Marketing                                             1
+                  Management International Review                                           1
+                  Small Business Economics                                                  1
+                  Strategic Change                                                          1
+                  Supply Chain Management                                                   1
+                  Thunderbird International Business Review                                 1
+
+
+
+
+                    Fig. 6 Regional distribution of articles
+
+
+
+                    Topic 1: Tools and techniques. A total of 15 out of the 25 selected research, which
+                  accounts for approximately 60%, were determined to be quantitative. Approximately
+                  48% of the research employed survey methodologies or Structural Equation Mod-
+                  eling (SEM), while the remaining studies utilized various other tools such as SPSS,
+Yuwono et al. Journal of Innovation and Entrepreneurship       (2024) 13:31                                                        Page 15 of 23
+
+
+
+
+                  Table 3 Most often referenced publications
+                  No.       Authors                             Source title                                            Cited by
+
+                  1         Puthusserry et al. (2020)           Management International Review                         53
+                  2         Dincă et al. (2019)                 Journal of Business Economics and Management,           51
+                  3         Vidhyalakshmi and Kumar (2016)      International Journal of Business Information Systems   49
+                  4         Soon et al. (2015)                  International Journal of Business Information Systems   45
+                  5         Kossaï and Piget (2014)             Journal of High Technology Management Research          39
+                  6         Mirkovski et al. (2016)             Supply Chain Management                                 35
+                  7         Zaidan (2017)                       Journal of Vacation Marketing                           31
+                  8         Azam (2015)                         Advances in Business Marketing and Purchasing           29
+                  9         Domi et al. (2019)                  Economics and Sociology                                 29
+                  10        Rozak et al. (2023)                 IEEE Transactions on Engineering Management             28
+                  Source: Scopus
+
+
+
+
+                      Fig. 7 Articles categorized by research methodology distribution
+
+
+
+                  ADANCO, and NVIVO. Only 16% of the data was qualitative. Out of all the research,
+                  20% were carried out utilizing mixed methods, and 4% utilized case studies, as
+                  depicted in Fig. 7.
+                    Topic 2: Influence of internal and external factors on the use of information and com-
+                  munication technology in small- and medium-sized businesses. The internal factors
+                  that influence the adoption and effective use of ICT by SMEs are crucial, as they have a
+                  direct impact on the performance, competitiveness, and innovation capabilities of SMEs
+                  (Rozak et al., 2023). ICT adoption enables small- and medium-sized enterprises (SMEs)
+                  to enhance their competitiveness on a global level by improving efficiency and fostering
+                  stronger ties with customers and suppliers (Vidhyalakshmi & Kumar, 2016).
+                    The adoption of information and communication technology (ICT) in small- and
+                  medium-sized enterprises (SMEs) to enhance their competitiveness is greatly influenced
+                  by the managerial qualities of both the firms and the managers. Managers who have a
+                  forward-looking approach and are receptive to technological advances are more likely
+                  to realize the value of ICT investments in streamlining operations, increasing produc-
+                  tivity, and opening up new market opportunities (Kossaï & Piget, 2014). The owner’s
+                  receptiveness to technology and the firm’s preparedness to innovate determine its will-
+                  ingness to implement ICT. At the same time, the costs associated with installation and
+Yuwono et al. Journal of Innovation and Entrepreneurship   (2024) 13:31                                            Page 16 of 23
+
+
+
+
+                  implementation are essential barriers that depend on the financial health and operating
+                  budget of the SME. In addition, the anticipated return on investment from ICT deploy-
+                  ment is also essential, as SMEs need to ensure that the financial benefits justify the initial
+                  and ongoing investment (Vidhyalakshmi & Kumar, 2016).
+                    Kumar et al. (2017) contend that the support and commitment of senior management
+                  are crucial for the successful implementation and integration of information and com-
+                  munication technology (ICT) in organizational operations. Their leadership is vital in
+                  overcoming resistance to change, ensuring that the potential of ICT is fully utilized to
+                  achieve business objectives and drive growth, thus positioning SMEs to gain a competi-
+                  tive advantage in an increasingly digital business environment.
+                    Results Gono et al. (2016) support the notion that the size and age of a company, along
+                  with its experience in using information and communication technology (ICT), have a
+                  significant impact on the adoption of ICT to enhance the competitiveness of small- and
+                  medium-sized enterprises (SMEs). Firm age indicates stability, which is associated with
+                  market knowledge and resource advantages, thus facilitating ICT adoption. Large firms
+                  with more employees and multiple branches tend to have better financial and human
+                  resources, enabling them to invest in and implement ICT solutions more effectively. This
+                  organizational capacity not only facilitates technology but also positions SMEs to make
+                  better use of ICT. (Ibrahim et al., 2018).
+                    The implementation of organizational strategies, such as the formation of diverse
+                  partnerships, plays a vital role in leveraging ICT to improve SME competitiveness. Such
+                  strategies enable SMEs to access a broader range of resources, knowledge and technol-
+                  ogy (Golonka, 2015). Research Rozak et al. (2023) stated that the enhancement of digital
+                  skills among SME members, including staff, managers, leaders, and owners, significantly
+                  improved their experience with ICT, fostering a commitment to its increased use for
+                  continuous improvement, which is critical to improving the competitiveness of SMEs.
+                    Based on the research findings of Molodchik and Jardon (2017), SMEs that invest in
+                  research and development (R&D) are better positioned to utilize ICT to improve their
+                  competitiveness. The application of cloud computing in research (Soon et al., 2015)
+                  allows SMEs to focus on their core competencies by leveraging shared services, thus
+                  eliminating traditional resource limitations and underutilized data center issues. This
+                  shift optimizes the use of technology and simplifies business processes. The efficiencies
+                  gained through these technology linkages are critical for SMEs to maintain sustainability
+                  and competitiveness in an increasingly digitized and globalized business environment.
+                    Valaei et al. (2017) asserted that exploratory learning strategies lay the foundation for
+                  improvisational and compositional creativity, enabling organizations to strategize and
+                  react dynamically to unpredictable market changes through insights, rapid experimenta-
+                  tion, and evolutionary learning. This approach not only fosters an innovative culture but
+                  also ensures that SMEs can utilize ICT effectively to maintain a competitive advantage in
+                  a highly competitive market.
+                    Zaidan (2017) highlighted the need for SMEs to improve human resource compe-
+                  tencies by hiring and rewarding skilled and talented staff, thereby creating a pleasant
+                  workplace. This strategy maintains crucial human capital and fosters the adoption and
+                  innovative exploitation of information and communication technology. Moreover, as
+                  stated by Ben Arfi and Hikkerova (2021), it is crucial to prioritize the establishment of
+Yuwono et al. Journal of Innovation and Entrepreneurship   (2024) 13:31                                        Page 17 of 23
+
+
+
+
+                  a culture that promotes innovation and the sharing of knowledge. The combination of
+                  knowledge exchange and a culture that fosters innovation allows small- and medium-
+                  sized enterprises (SMEs) to effectively leverage information and communication tech-
+                  nology (ICT), resulting in enhanced competitiveness within their specific markets.
+                    External factors impact the implementation of information and communication tech-
+                  nology (ICT) in small- and medium-sized businesses. Due to global challenges arising
+                  from technological breakthroughs and globalisation, SMEs are compelled to incorporate
+                  information and communication technology (ICT) into their operations. In addition,
+                  suppliers and consumers frequently demand online communication and transactions
+                  from SMEs (Azam, 2015). This competitive pressure, according to Mirkovski et al.
+                  (2016), requires SMEs to implement and utilize ICT as a strategic response to the com-
+                  petitive dynamics in their industry. The application of ICT enables SMEs to improve
+                  their operational efficiency and compete more effectively in the digital marketplace.
+                    Research Soon et al. (2015) showed that economic turmoil and the evolution of digital
+                  markets present challenges and opportunities for SMEs in implementing ICT. In peri-
+                  ods of economic recession, small- and medium-sized firms (SMEs) may be more careful
+                  when choosing information and communication technology (ICT) infrastructure, such
+                  as cloud computing services. Although SMEs face several obstacles, the internet’s rapid
+                  expansion and the rise of cloud services offer them the chance to leverage shared ser-
+                  vices and concentrate on their core strengths. This, in turn, enhances their competitive-
+                  ness in the digital market.
+                    Amoako et al. (2022) suggested that SMEs utilize ICT tools such as electronic data
+                  interchange, the Internet, and supplier quality management software to improve opera-
+                  tions between external partners (customers and suppliers) to achieve cooperation among
+                  supply chain partners, which in turn has a positive impact on performance. Small- and
+                  medium-sized enterprises (SMEs) have the opportunity to engage in partnerships with
+                  industry associations to implement information and communication technology (ICT).
+                  This collaboration enables SMEs to effectively and promptly respond to market dynam-
+                  ics and meet the evolving demands of customers. Industry organizations provide small
+                  and emerging businesses with a platform to receive assistance and knowledge through
+                  workshops. The workshops encompass a broad spectrum of subjects, including intro-
+                  ducing novel technology and products and providing market-specific knowledge. Indus-
+                  try associations also offer informal mentoring opportunities where senior professionals
+                  share their experiences, successes and failures (Puthusserry et al., 2020).
+                    Technology collaboration and innovation strategies also play an essential role in
+                  improving the competitiveness of SMEs through the application of ICT (Aslesen &
+                  Harirchi, 2015). This strategy involves SMEs engaging in partnerships and networks with
+                  external entities, such as other companies, universities, research institutes, non-govern-
+                  mental organizations, and government agencies, to access diverse sources of knowledge
+                  and innovative technologies (Aryanto et al., 2018).
+                    According to JosephNg (2019), ICT consulting services are crucial for the successful
+                  implementation and maintenance of ICT solutions. External consultancy can assist
+                  small- and medium-sized firms (SMEs) in effectively managing the complexity of ICT
+                  deployment. This ensures that their technology infrastructure is not only current but
+                  also in line with their business goals, enabling them to grow and compete effectively
+Yuwono et al. Journal of Innovation and Entrepreneurship   (2024) 13:31                                         Page 18 of 23
+
+
+
+
+                  in the market. In line with this opinion, Sivathanu (2019) also mentioned that sup-
+                  port from technology vendors is critical. This support can range from providing ICT
+                  solutions tailored to the specific needs of SMEs to offering training and maintenance
+                  services to ensure effective implementation and use of technology.
+                    A crucial factor, according to Heim et al. (2019), is the presence of a clear legal and
+                  regulatory framework that can address intellectual property rights, data protection,
+                  and online transactions, ensure fair competition, and facilitate access to digital infra-
+                  structure and services. Pathan et al. (2017); Dincă et al. (2019) also agree that gov-
+                  ernment or regulatory support has a positive impact on ICT adoption among SMEs.
+                  Especially in developing countries, where external environmental factors and govern-
+                  ment support play an essential role in shaping the rules of ICT implementation for
+                  SMEs operating in the region (Mirkovski et al., 2019).
+                    Topic 3: Outcomes of ICT implementation. While ICT implementation is seen as
+                  an essential factor for improving the competitiveness and operational efficiency of
+                  SMEs, its actual contribution to enterprise performance depends on how well the
+                  technology is integrated and leveraged in organizational processes. For SMEs to truly
+                  benefit from ICT, there needs to be a focus not only on ICT deployment but also on
+                  the strategic alignment of ICT with SME business processes and objectives (Azam,
+                  2015).
+                    ICT adoption in manufacturing SMEs improves operational efficiency and expan-
+                  sion into new markets through strategic partnerships with large firms (Gono et al.,
+                  2016). The utilization of ICT enables SMEs to achieve significant cost savings, main-
+                  tain and enhance collaboration with business partners, manage external communi-
+                  cation with stakeholders more effectively, and streamline transactions (Rozak et al.,
+                  2023).
+                    ICT, especially cloud computing, provides significant benefits to SMEs by offering
+                  cost-effective ICT services that are highly favorable to new entrepreneurs. (Pathan
+                  et al., 2017). The application of ICT to SMEs, particularly in the agricultural sector,
+                  has been shown to significantly increase their productivity and contribute to a coun-
+                  try’s Gross Domestic Product (Ibrahim et al., 2018).
+                    SMEs categorized as using ICT moderately or intensively show a net profit margin
+                  of more than 2% compared to companies that do not use ICT (Kossaï & Piget, 2014).
+                  In line with that, Vidhyalakshmi and Kumar (2016) also concluded that the applica-
+                  tion of ICT in SMEs has shown significant positive results, including increased global
+                  market presence, increased agility, and increased profitability.
+                    Topic 4. Barriers to ICT adoption. SMEs in developing countries that are already
+                  large, with many branches and employees, are successfully applying ICT to improve
+                  their competitiveness by increasing sales and marketing, streamlining operations,
+                  efficiently managing remote branches and engaging in strategic collaboration. Never-
+                  theless, this is a significant difficulty for small-scale SMEs, particularly those in their
+                  nascent stages, since they encounter numerous constraints when it comes to utilizing
+                  their resources. Researchers have found several significant obstacles to the use of ICT
+                  in SMEs, which are outlined in Table 4.
+                    The primary obstacles to the adoption of ICT are budgetary limitations, deficien-
+                  cies in skills, inadequate utilization of ICT, characteristics of the organization and
+Yuwono et al. Journal of Innovation and Entrepreneurship    (2024) 13:31                                              Page 19 of 23
+
+
+
+
+                  Table 4 Barriers to ICT adoption
+                  Authors              Financial     Skills gaps Lack of ICT Company           Government Lack of
+                                       constraints               utilization and owner         support    awareness
+                                                                             characteristics              and trust
+
+                  Kossaï and Piget     √             √           √            √
+                  (2014)
+                  Vidhyalakshmi and    √             √           √            √                √          √
+                  Kumar (2016)
+                  Sivathanu (2019)     √             √           √            √                √          √
+
+
+
+
+                  its owner, government assistance, and insufficient awareness and trust. Small- and
+                  medium-sized enterprises (SMEs) must comprehend these obstacles to devise effec-
+                  tive ways to overcome them when employing ICT (Kossaï & Piget, 2014).
+                    The need for more skilled personnel to implement and manage ICT solutions is a
+                  significant obstacle for SMEs in developing countries. SMEs often need more financial
+                  resources compared to large enterprises, making it difficult to invest in ICT (Vidhyalak-
+                  shmi & Kumar, 2016).
+                    The characteristics and attitudes of firms and their owners towards technology adop-
+                  tion can significantly influence the extent of ICT implementation. SMEs led by owners
+                  who do not prioritize ICT tend to underutilize ICT (Kossaï & Piget, 2014).
+                    SMEs need to fully realize the benefits and potential of ICT in improving their busi-
+                  ness operations and competitiveness. In addition, concerns over security and privacy
+                  lead to a need for more trust in ICT solutions. Sivathanu (2019) suggested that the gov-
+                  ernment should help in terms of incentives, subsidies, and policies that encourage ICT
+                  adoption, as a lack of government support can be a significant obstacle to ICT adoption
+                  by SMEs.
+
+
+                  Conclusions and future directions
+                  This study’s main objective is to thoroughly assess the current body of literature on
+                  information and communication technology (ICT) and offer responses to the research
+                  questions. This study focuses on the first research topic by providing a concise overview
+                  of the current research on the pivotal role of Information and Communication Technol-
+                  ogies (ICTs) in improving the competitiveness of small and medium companies (SMEs)
+                  in developing economies. This is accomplished by employing descriptive statistics. The
+                  current material was classified into four main categories to address the second research
+                  question. The study has collated the 25 most cited publications on Information and
+                  Communication Technology (ICT) in small and medium companies (SMEs) in develop-
+                  ing countries published during the last decade. The researchers have compiled and con-
+                  densed the essential findings they have produced. Overall, there is a need to enhance the
+                  amount of ICT research conducted on small and medium enterprises (SMEs) in devel-
+                  oping nations that obtain more than 20 citations.
+                     According to the descriptive statistics, India represents 20% of the highly referenced
+                  ICT research on small and medium enterprises (SMEs) in developing countries. While
+                  scholars from other developing countries also made contributions, it was primar-
+                  ily Indian researchers who played a prominent role, highlighting a noticeable disparity
+Yuwono et al. Journal of Innovation and Entrepreneurship          (2024) 13:31                                                                Page 20 of 23
+
+
+
+
+                  in ICT studies in other developing nations. Since ICT research is primarily conducted
+                  in established SMEs, future studies must investigate using various ICT tools and plat-
+                  forms to enhance diverse aspects of SME performance in developing nations. This study
+                  should also focus on identifying the obstacles that arise and finding strategies to over-
+                  come them.
+                     The current research on information and communication technology (ICT) in small-
+                  and medium-sized firms (SMEs) primarily focuses on SMEs in the manufacturing and
+                  services sectors. Other related industries have gotten less attention in these studies.
+                  Moreover, a cross-sectional design is predominantly employed in most research stud-
+                  ies. Future longitudinal research has the potential to offer fresh insights into the unre-
+                  solved process. Implementing policies for ICT operations in small- and medium-sized
+                  firms (SMEs), especially in developing nations, is of utmost importance. Investigations
+                  should highlight the impact of government intervention in promoting the adoption of
+                  information and communication technology (ICT) to strengthen the competitiveness of
+                  small- and medium-sized firms (SMEs). The study has identified intrinsic and extrinsic
+                  factors that need to be addressed to promote the implementation of Information and
+                  Communication Technology (ICT) in Small and Medium Enterprises (SMEs) in devel-
+                  oping countries. The fourth study examines the limitations and outcomes of introduc-
+                  ing information and communication technology (ICT) in small and medium enterprises
+                  (SMEs) in developing nations.
+                  Acknowledgements
+                  We want to acknowledge and thank the (1) Center for Higher Education Funding (Balai Pembiayaan Pendidikan Tinggi—
+                  BPPT), Ministry of Education, Culture, Research, and Technology Republic of Indonesia, and (2) Indonesia Endowment
+                  Fund for Education (Lembaga Pengelola Dana Pendidikan—LPDP), Ministry of Finance Republic of Indonesia for granting
+                  a scholarship to the first author to complete his studies (Registration Number: B3172023011028195727 and BPI Number:
+                  202329113409). In addition, we would like to thank Huma Sikandar for sharing his research article on systematic litera-
+                  ture insights.
+
+                  Author contributions
+                  All authors have read and approved the final manuscript.
+
+                  Funding
+                  This research was funded by The Center for Higher Education Funding (Balai Pembiayaan Pendidikan Tinggi—BPPT),
+                  Ministry of Education, Culture, Research, and Technology, Republic of Indonesia, and the Indonesia Endowment Funds
+                  for Education (Lembaga Pengelola Dana Pendidikan—LPDP), Ministry of Finance, Republic of Indonesia.
+
+                  Availability of data and materials
+                  The data sets used and described during this study are available from the corresponding author.
+
+
+                  Declarations
+                  Competing interests
+                  The authors declare that they have no competing interests.
+
+                  Received: 23 March 2024 Accepted: 12 May 2024
+
+
+
+
+                  References
+                  Amoako, T., et al. (2022). Effect of internal integration on SMEs’ performance: The role of external integration and
+                      ICT. International Journal of Productivity and Performance Management, 71(2), 643–665. https://​doi.​org/​10.​1108/​
+                      IJPPM-​03-​2020-​0120
+                  Arendt, L. (2008). Barriers to ICT adoption in SMEs: How to bridge the digital divide? Journal of Systems and Information
+                      Technology, 10(2), 93–108. https://​doi.​org/​10.​1108/​13287​26081​08977​38
+                  Aryanto, V. D. W., Wismantoro, Y., & Widyatmoko, K. (2018). Implementing eco-innovation by utilizing the internet to
+                      enhance firm’s marketing performance: Study of green batik small and medium enterprises in Indonesia. Interna-
+                      tional Journal of e-Business Research, 14(1), 21–36. https://​doi.​org/​10.​4018/​IJEBR.​20180​10102
+Yuwono et al. Journal of Innovation and Entrepreneurship           (2024) 13:31                                                                     Page 21 of 23
+
+
+
+
+                  Aslesen, H. W., & Harirchi, G. (2015). The effect of local and global linkages on the innovativeness in ICT SMEs: Does
+                       location-specific context matter? Entrepreneurship and Regional Development, 27(9–10), 644–669. https://​doi.​org/​10.​
+                       1080/​08985​626.​2015.​10598​97
+                  Azam, M. S. (2015). Diffusion of ICT and SME performance. Advances in Business Marketing and Purchasing, 23A, 7–290.
+                       https://​doi.​org/​10.​1108/​S1069-​09642​01500​00023​005
+                  Baas, J., et al. (2020). Scopus as a curated, high-quality bibliometric data source for academic research in quantitative sci-
+                       ence studies. Quantitative Science Studies, 1(1), 377–386. https://​doi.​org/​10.​1162/​qss_a_​00019
+                  Bankosz, G. S., & Kerins, J. (2014). Mobile technology-enhanced asset maintenance in an SME. Journal of Quality in Mainte-
+                       nance Engineering, 20(2), 163–181. https://​doi.​org/​10.​1108/​JQME-​06-​2013-​0037
+                  Barua, A., et al. (2004). An empirical investigation of net-enabled business value1. MIS Quarterly, 28(4), 585–620. https://​
+                       doi.​org/​10.​2307/​25148​656
+                  Ben Arfi, W., & Hikkerova, L. (2021). Corporate entrepreneurship, product innovation, and knowledge conversion: The role
+                       of digital platforms. Small Business Economics, 56(3), 1191–1204. https://​doi.​org/​10.​1007/​s11187-​019-​00262-6
+                  Bharadwaj, A. S. (2000). A resource-based perspective on information technology capability and firm performance: An
+                       empirical investigation. MIS Quarterly, 24(1), 169–196. https://​doi.​org/​10.​2307/​32509​83
+                  Braun, P. (2002). Networking tourism SMEs: e-commerce and e-marketing issues in regional Australia. Information Tech-
+                       nology & Tourism, 5(1), 13–23. https://​doi.​org/​10.​3727/​10983​05021​08751​028
+                  Brynjolfsson, E., & Hitt, L. M. (2020). Beyond computation: information technology, organizational transformation and
+                       business performance. Journal of Economic Perspectives, 14(4), 23–48. https://​doi.​org/​10.​1257/​jep.​14.4.​23
+                  Burke, K. (2009). Internet ICT use in agriculture: Micro-enterprises and SMEs. Journal of Developmental Entrepreneurship,
+                       14(3), 233–254. https://​doi.​org/​10.​1142/​S1084​94670​90012​60
+                  Chege, S. M., Wang, D., & Suntu, S. L. (2020). Impact of information technology innovation on firm performance in Kenya.
+                       Information Technology for Development, 26(2), 316–345. https://​doi.​org/​10.​1080/​02681​102.​2019.​15737​17
+                  Cordes, D. L., & Marinova, D. (2023). Systematic literature review of the role of e-commerce in providing pathways
+                       to sustainability for poverty alleviation in Sub-Saharan Africa. Discover Sustainability. https://​doi.​org/​10.​1007/​
+                       s43621-​022-​00109-3
+                  Cragg, P. B., & King, M. (1993). Small-firm small-firm computing: computing: Motivators and motivators and inhibitors. MIS
+                       Quarterly, 17(1), 47–60. https://​doi.​org/​10.​2307/​249509
+                  Cunningham, J. A., et al. (2023). MSME technology adoption, entrepreneurial mindset and value creation: A configura-
+                       tional approach. Journal of Technology Transfer, 48(5), 1574–1598. https://​doi.​org/​10.​1007/​s10961-​023-​10022-0
+                  da Chen, L., Gillenson, M. L., & Sherrell, D. L. (2002). Enticing online consumers: An extended technology acceptance
+                       perspective. Information and Management, 39(8), 705–719. https://​doi.​org/​10.​1016/​S0378-​7206(01)​00127-6
+                  Dabi, M., et al. (2020). Pathways of SME internationalization: A bibliometric and systematic review. Small Bus Economics.
+                       https://​doi.​org/​10.​1007/​s11187-​019-​00181-6
+                  D’Angelo, V., & Belvedere, V. (2023). Green supply chains and digital supply chains: Identifying overlapping areas. Sustain-
+                       ability, 15(12), 9828. https://​doi.​org/​10.​3390/​su151​29828
+                  Dincă, V. M., Dima, A. M., & Rozsa, Z. (2019). Determinants of cloud computing adoption by romanian smes in the digital
+                       economy. Journal of Business Economics and Management, 20(4), 798–820. https://​doi.​org/​10.​3846/​jbem.​2019.​9856
+                  Durkin, M., McGowan, P., & McKeown, N. (2013). Exploring social media adoption in small to medium-sized enter-
+                       prises in Ireland. Journal of Small Business and Enterprise Development, 20(4), 716–734. https://​doi.​org/​10.​1108/​
+                       JSBED-​08-​2012-​0094
+                  Elbeltagi, I., et al. (2013). The role of the owner-manager in SMEs’ adoption of information and communication technol-
+                       ogy in the United Arab Emirates. Journal of Global Information Management, 21(2), 23–50. https://​doi.​org/​10.​4018/​
+                       jgim.​20130​40102
+                  Golonka, M. (2015). Proactive cooperation with strangers: Enhancing complexity of the ICT firms’ alliance portfolio and
+                       their innovativeness. European Management Journal, 33(3), 168–178. https://​doi.​org/​10.​1016/j.​emj.​2014.​10.​004
+                  Gono, S., Harindranath, G., & Berna Özcan, G. (2016). The adoption and impact of ICT in South African SMEs. Strategic
+                       Change, 25(6), 717–734. https://​doi.​org/​10.​1002/​jsc.​2103
+                  Heim, I., et al. (2019). Value co-creation between foreign firms and indigenous small- and medium-sized enterprises
+                       (SMEs) in Kazakhstan’s oil and gas industry: The role of information technology spillovers. Thunderbird International
+                       Business Review, 61(6), 911–927. https://​doi.​org/​10.​1002/​tie.​22067
+                  Ibrahim, A. M., Hassan, M. S., & Gusau, A. L. (2018). Factors influencing acceptance and use of ICT innovations by agribusi-
+                       nesses. Journal of Global Information Management, 26(4), 113–134. https://​doi.​org/​10.​4018/​JGIM.​20181​00107
+                  Indrayanto, A., et al. (2024). Evaluation of E-commerce organic coconut sugar: Technology acceptance model (TAM)
+                       and end-user computing satisfaction (EUCS) model. Quality Access to Success, 25(199), 128–138. https://​doi.​org/​10.​
+                       47750/​QAS/​25.​199.​14
+                  JosephNg, P. S. (2019). EaaS infrastructure disruptor for MSE. International Journal of Business Information Systems, 30(3),
+                       373–385. https://​doi.​org/​10.​1504/​IJBIS.​2019.​098248
+                  Kaynak, E., Tatoglu, E., & Kula, V. (2005). An analysis of the factors affecting the adoption of electronic commerce by SMEs:
+                       Evidence from an emerging market. International Marketing Review, 22(6), 623–640. https://​doi.​org/​10.​1108/​02651​
+                       33051​06302​58
+                  Khan, A. A., et al. (2023). The collaborative role of blockchain, artificial intelligence, and industrial internet of things in
+                       digitalization of small and medium-size enterprises. Scientific Reports. https://​doi.​org/​10.​1038/​s41598-​023-​28707-9
+                  Kossaï, M., & Piget, P. (2014). Adoption of information and communication technology and firm profitability: Empirical
+                       evidence from Tunisian SMEs. Journal of High Technology Management Research, 25(1), 9–20. https://​doi.​org/​10.​
+                       1016/j.​hitech.​2013.​12.​003
+                  Kumar, D., Samalia, H. V., & Verma, P. (2017). Exploring suitability of cloud computing for small and medium-sized
+                       enterprises in India. Journal of Small Business and Enterprise Development, 24(4), 814–832. https://​doi.​org/​10.​1108/​
+                       JSBED-​01-​2017-​0002
+                  Kurnia, S., et al. (2015). E-commerce technology adoption: A Malaysian grocery SME retail sector study. Journal of Business
+                       Research, 68(9), 1906–1918. https://​doi.​org/​10.​1016/j.​jbusr​es.​2014.​12.​010
+Yuwono et al. Journal of Innovation and Entrepreneurship             (2024) 13:31                                                                         Page 22 of 23
+
+
+
+
+                  Küster, I., Vila, N., & Canales, P. (2016). How does the online service level influence consumers’ purchase intentions before a
+                       transaction? A formative approach. European Journal of Management and Business Economics, 25(3), 111–120. https://​
+                       doi.​org/​10.​1016/j.​redeen.​2016.​04.​001
+                  Lane, M. S., et al. (2004). An electronic commerce initiative in regional Sri Lanka: The vision for the central province elec-
+                       tronic commerce portal. Electronic Journal of Information Systems in Developing Countries, 16(1), 1–18. https://​doi.​org/​
+                       10.​1002/j.​1681-​4835.​2004.​tb001​02.x
+                  Liang, H., et al. (2007). Assimilation of enterprise of institutional pressures role of top management. MIS Quarterly, 31(1),
+                       59–87. https://​doi.​org/​10.​2307/​25148​781
+                  MacGregor, R. C., & Vrazalic, L. (2005). A basic model of electronic commerce adoption barriers: A study of regional small
+                       businesses in Sweden and Australia. Journal of Small Business and Enterprise Development, 12(4), 510–527. https://​doi.​
+                       org/​10.​1108/​14626​00051​06281​99
+                  Mapeshoane, T. J., & Pather, S. (2016). The adoption of E-commerce in the Lesotho Tourism Industr. Electronic Journal of
+                       Information Systems in Developing Countries, 75(8), 1–24. https://​doi.​org/​10.​1002/j.​1681-​4835.​2016.​tb005​50.x
+                  Marcelino-Sádaba, S., et al. (2014). Project risk management methodology for small firms. International Journal of Project
+                       Management, 32(2), 327–340. https://​doi.​org/​10.​1016/j.​ijpro​man.​2013.​05.​009
+                  Meramveliotakis, G., & Manioudis, M. (2021). Sustainable development, covid-19 and small business in Greecep: Small is
+                       not beautiful. Administrative Sciences, 11(3), 90. https://​doi.​org/​10.​3390/​ADMSC​I1103​0090
+                  Michaelidou, N., Siamagka, N. T., & Christodoulides, G. (2011). Usage, barriers and measurement of social media mar-
+                       keting: An exploratory investigation of small and medium B2B brands. Industrial Marketing Management, 40(7),
+                       1153–1159. https://​doi.​org/​10.​1016/j.​indma​rman.​2011.​09.​009
+                  Mirkovski, K., Davison, R. M., & Martinsons, M. G. (2019). The effects of trust and distrust on ICT-enabled information
+                       sharing in supply chains: Evidence from small- and medium-sized enterprises in two developing economies. Inter-
+                       national Journal of Logistics Management, 30(3), 892–926. https://​doi.​org/​10.​1108/​IJLM-​06-​2017-​0155
+                  Mirkovski, K., Lowry, P. B., & Feng, B. (2016). Factors that influence interorganizational use of information and commu-
+                       nications technology in relationship-based supply chains: Evidence from the Macedonian and American wine
+                       industries. Supply Chain Management, 21(3), 334–351. https://​doi.​org/​10.​1108/​SCM-​08-​2015-​0343
+                  Mishrif, A., & Khan, A. (2023). Technology adoption as survival strategy for small and medium enterprises during COVID-
+                       19. Journal of Innovation and Entrepreneurship. https://​doi.​org/​10.​1186/​s13731-​023-​00317-9
+                  Mithas, S., Ramasubbu, N., & Sambamurthy, V. (2011). How information management capability influences firm perfor-
+                       mance. MIS Quarterly: Management Information Systems, 35(1), 237–256. https://​doi.​org/​10.​2307/​23043​496
+                  Mohamed Shaffril, H. A., Samsuddin, S. F., & Abu Samah, A. (2021). The ABC of systematic literature review: The
+                       basic methodological guidance for beginners. Quality & Quantity, 55(4), 1319–1346. https://​doi.​org/​10.​1007/​
+                       s11135-​020-​01059-6
+                  Molodchik, M., & Jardon, C. M. (2017). Intellectual capital as enhancer of product novelty: An empirical study of Russian
+                       manufacturing SMEs. Journal of Intellectual Capital, 18(2), 419–436. https://​doi.​org/​10.​1108/​JIC-​06-​2016-​0059
+                  Müller, J. M., Buliga, O., & Voigt, K. I. (2018). Fortune favors the prepared: How SMEs approach business model innovations
+                       in Industry 4.0. Technological Forecasting and Social Change, 132, 2–17. https://​doi.​org/​10.​1016/j.​techf​ore.​2017.​12.​019
+                  Novandari, W., Suliyanto, & Puspasari, N. (2021) ‘Antecedents and consequences of user satisfaction in startup application
+                       as digital entrepreneurship in indonesia’, Quality Access to Success, 22(185), pp. 38–45. https://​doi.​org/​10.​47750/​QAS/​
+                       22.​185.​06.
+                  Olsen, K. A., & Sætre, P. (2007a). IT for niche companies: Is an ERP system the solution? Information Systems Journal, 17(1),
+                       37–58. https://​doi.​org/​10.​1111/j.​1365-​2575.​2006.​00229.x
+                  Olsen, K. A., & Saetre, P. (2007b). ERP for SMEs—Is proprietary software an alternative? Business Process Management
+                       Journal, 13(3), 379–389. https://​doi.​org/​10.​1108/​14637​15071​07522​90
+                  Page, M. J., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. PLoS Medi-
+                       cine, 18(3), 1–15. https://​doi.​org/​10.​1371/​JOURN​AL.​PMED.​10035​83
+                  Paprotny, D. (2021). Convergence between developed and developing countries: A centennial perspective. Social Indica-
+                       tors Research, 153(1), 193–225. https://​doi.​org/​10.​1007/​s11205-​020-​02488-4
+                  Pathan, Z. H., et al. (2017). Essential factors in cloud-computing adoption by smes. Human Systems Management, 36(4),
+                       261–275. https://​doi.​org/​10.​3233/​HSM-​17133
+                  Porter, M. E. (2001). Strategy and the Internet. Harvard Business Review. https://​doi.​org/​10.​2469/​dig.​v31.​n4.​960
+                  Premkumar, G., & Roberts, M. (1999). Adoption of new information technologies in rural small businesses. Omega, 27(4),
+                       467–484. https://​doi.​org/​10.​1016/​S0305-​0483(98)​00071-1
+                  Puthusserry, P., et al. (2020). How do rapidly internationalizing SMEs learn? Exploring the link between network relation-
+                       ships, learning approaches and post-entry growth of rapidly internationalizing SMEs from emerging markets.
+                       Management International Review, 60(4), 515–542. https://​doi.​org/​10.​1007/​s11575-​020-​00424-9
+                  Rabayah, K. S., & Qalalwi, K. (2011). The impact of mobile telephony on developing country enterprises: A Palestinian case
+                       study. Electronic Journal of Information Systems in Developing Countries, 46(1), 1–20. https://​doi.​org/​10.​1002/j.​1681-​
+                       4835.​2011.​tb003​26.x
+                  Ritchie, B., & Brindley, C. (2005). ICT adoption by SMEs: Implications for relationships and management. New Technology,
+                       Work and Employment, 20(3), 205–217. https://​doi.​org/​10.​1111/j.​1468-​005X.​2005.​00154.x
+                  Rozak, H. A., et al. (2023). Social media engagement, organizational agility and digitalization strategic plan to improve
+                       SMEs’ performance. IEEE Transactions on Engineering Management, 70(11), 3766–3775. https://​doi.​org/​10.​1109/​TEM.​
+                       2021.​30859​77
+                  Shahadat, M. M. H., et al. (2023). Digital technology adoption in SMEs: What technological, environmental and organiza-
+                       tional factors influence SMEs’ ICT adoption in emerging countries? Global Business Review. https://​doi.​org/​10.​1177/​
+                       09721​50922​11371​99
+                  Sivathanu, B. (2019). Adoption of industrial IoT (IIoT) in auto-component manufacturing SMEs in India. Information
+                       Resources Management Journal, 32(2), 52–75. https://​doi.​org/​10.​4018/​IRMJ.​20190​40103
+                  Soon, J. N. P., et al. (2015). Barebone cloud IaaS: Revitalisation disruptive technology. International Journal of Business
+                       Information Systems, 18(1), 107–126. https://​doi.​org/​10.​1504/​IJBIS.​2015.​066130
+Yuwono et al. Journal of Innovation and Entrepreneurship          (2024) 13:31                                                                    Page 23 of 23
+
+
+
+
+                  Sulasih, Novandari, W., & Suroso, A. (2023). ‘Integration uses and gratifications theory and entrepreneurship theory to
+                       boost the MSMEs marketing performance using social media’, Quality Access to Success, 24(194), pp. 60–68. https://​
+                       doi.​org/​10.​47750/​QAS/​24.​194.​07.
+                  Sultan, N. A. (2011). Reaching for the “cloud”: How SMEs can manage. International Journal of Information Management,
+                       31(3), 272–278. https://​doi.​org/​10.​1016/j.​ijinf​omgt.​2010.​08.​001
+                  Tan, K. S., et al. (2009). Internet-based ICT adoption: Evidence from Malaysian SMEs. Industrial Management and Data
+                       Systems, 109(2), 224–244. https://​doi.​org/​10.​1108/​02635​57091​09301​18
+                  Tubis, A. A., & Grzybowska, K. (2022). In search of industry 4.0 and logistics 4.0 in small-medium enterprises—A state of
+                       the art review. Energies, 15(22), 8595. https://​doi.​org/​10.​3390/​en152​28595
+                  Valaei, N., Rezaei, S., & Emami, M. (2017). Explorative learning strategy and its impact on creativity and innovation: An
+                       empirical investigation among ICT-SMEs. Business Process Management Journal, 23(5), 957–983. https://​doi.​org/​10.​
+                       1108/​BPMJ-​12-​2015-​0179
+                  Vidhyalakshmi, R., & Kumar, V. (2016). Determinants of cloud computing adoption by SMEs. International Journal of Busi-
+                       ness Information Systems, 22(3), 375–395. https://​doi.​org/​10.​1504/​IJBIS.​2016.​076878
+                  Wielicki, T., & Arendt, L. (2010). A knowledge-driven shift in perception of ICT implementation barriers: Comparative
+                       study of US and European SMEs. Journal of Information Science, 36(2), 162–174. https://​doi.​org/​10.​1177/​01655​51509​
+                       354417
+                  Yogarajan, L., et al. (2023). Exploring the hype of blockchain adoption in agri-food supply chain: A systematic literature
+                       review. Agriculture, 13(6), 1173. https://​doi.​org/​10.​3390/​agric​ultur​e1306​1173
+                  Zaidan, E. (2017). Analysis of ICT usage patterns, benefits and barriers in tourism SMEs in the Middle Eastern countries:
+                       The case of Dubai in UAE. Journal of Vacation Marketing, 23(3), 248–263. https://​doi.​org/​10.​1177/​13567​66716​654515
+
+
+                  Publisher’s Note
+                  Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+

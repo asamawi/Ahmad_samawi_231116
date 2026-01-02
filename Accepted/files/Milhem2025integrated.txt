@@ -1,0 +1,1627 @@
+                                                                                                                          TYPE Original Research
+                                                                                                                          PUBLISHED 28 February 2025
+                                                                                                                          DOI 10.3389/frsus.2025.1503423
+
+
+
+
+                                                    An integrated adoption model of
+OPEN ACCESS                                         cloud computing-based human
+                                                    resource management by SMEs
+EDITED BY
+Hamid Mattiello,
+Fachhochschule des Mittelstands, Germany
+
+REVIEWED BY
+Muhammad Zulkiﬂ Hasan,
+                                                    in developing countries:
+University of Central Punjab, Pakistan
+Ali Alawneh,
+Philadelphia University, Jordan
+                                                    evidence from Bahrain
+*CORRESPONDENCE
+Ali Ateeq                                           Marwan Milhem1*, Mohannad Moufeed Ayyash2 , Ali Ateeq1*,
+   albadder1@hotmail.com
+Marwan Milhem                                       Qadri Alzaghal2 , Mohammed Alzoraiki1 ,
+   dr.marwan.milhem@gulfuniversity.edu.bh
+                                                    Nasser A. Saif Almuraqab3 and Sara Almeer1
+RECEIVED 28 September 2024
+                                                    1
+ACCEPTED 27 January 2025                              Administrative Science Department, College of Administrative and Financial Science, Gulf University,
+PUBLISHED 28 February 2025                          Sanad, Bahrain, 2 The College of Business and Economics, Palestine Technical University, Kadoorie,
+                                                    Tulkarm, Palestine, 3 Dubai Business School, University of Dubai, Dubai, United Arab Emirates
+CITATION
+Milhem M, Ayyash MM, Ateeq A, Alzaghal Q,
+Alzoraiki M, Almuraqab NAS and Almeer S
+(2025) An integrated adoption model of cloud        Despite the increasing awareness of efficient and technology-driven human
+computing-based human resource
+management by SMEs in developing
+                                                    resource management at almost all levels of analysis in all organizations,
+countries: evidence from Bahrain.                   more needs to be done regarding small- and medium-sized enterprises in
+Front. Sustain. 6:1503423.                          developing country contexts like Bahrain to explore using cloud computing
+doi: 10.3389/frsus.2025.1503423
+                                                    in HRM. This study applies the Technology, Organization, and Environment
+COPYRIGHT                                           framework, extended to include individual managerial innovativeness, in
+© 2025 Milhem, Ayyash, Ateeq, Alzaghal,
+Alzoraiki, Almuraqab and Almeer. This is an         examining the factors inﬂuencing the adoption of sustainable cloud computing-
+open-access article distributed under the           based HRM. Data were collected through a cross-sectional survey of 280
+terms of the Creative Commons Attribution           upper-level managers and human resource specialists across various SMEs
+License (CC BY). The use, distribution or
+reproduction in other forums is permitted,          in Bahrain. This data was analyzed using structural equation modeling (SEM)
+provided the original author(s) and the             with the help of partial least square (PLS) software. The ﬁndings indicate that
+copyright owner(s) are credited and that the        the technological, organizational, and environmental contexts greatly impact
+original publication in this journal is cited, in
+accordance with accepted academic practice.         the adoption of sustainable cloud computing-based HRM, while individual
+No use, distribution or reproduction is             managerial innovativeness does not. This study has signiﬁcant implications for
+permitted which does not comply with these          any human resource department looking to shift its operation onto a sustainable
+terms.
+                                                    cloud computing platform in a developing country.
+
+                                                    KEYWORDS
+
+                                                    cloud computing, sustainability, human resource management, SMEs, TOE, manager
+                                                    innovativeness, developing countries, structural equation modeling (SEM)
+
+
+
+                                                    1 Introduction
+                                                        From the perspective of global business trends, adopting efficient technologies has
+                                                    become a crucial concern in human resource management (HRM; Klumb et al., 2024),
+                                                    especially for small and medium-sized enterprises (SMEs) in developing countries.
+                                                        Generally, HRM significantly impacts organizational performance regarding employee
+                                                    relations, training, performance appraisal, and welfare (Zebari et al., 2019; Naji et al., 2022).
+                                                    However, a literature gap exists on adopting cloud computing in SMEs’ HRM practices in
+                                                    developing economies (Abdullah, I. et al., 2020; Al-Mutawa and Saeed Al Mubarak, 2024).
+
+
+
+
+Frontiers in Sustainability                                                01                                                               frontiersin.org
+Milhem et al.                                                                                                            10.3389/frsus.2025.1503423
+
+
+
+
+     This becomes a critical gap since cloud computing has                     delivering IT services. It can be based on parallel and distributed
+many benefits related to operational efficiency, cost savings, and             computing concepts that provide shared access to hardware,
+environmental impact. However, most SMEs in developing nations                 software, and potential data in computers or other (LD
+face significant resource barriers, other technological inhibitors,            and Krishna, 2013)In general, sustainable cloud computing
+and a need for more awareness or knowledge, which seriously                    signifies cloud-enabled technologies and infrastructures
+hampers their ability to adopt such innovative solutions (Zidan,               catering to environmental, economic, and social sustainability
+2023; Zuofa et al., 2023; Nazir and Khan, 2024). Against this                  concerns (Bristy et al., 2023). The central concept behind
+background, this study seeks to assess the status of the adoption              this approach is minimizing energy usage and optimizing
+of cloud-based HRM practices in SMEs against the peculiar                      resource allocation to achieve the lowest environmental
+contextual landscape of developing economies. In this vein, using              footprints at higher scalability and efficiency levels of operations
+the Technology-Organization-Environment (TOE; Tornatzky and                    (Radhika et al., 2024).
+Fleischer, 1990), this research incorporates the seldom-included                   This study, therefore, identifies these factors and develops an
+human component, particularly management innovativeness, as                    integrated adoption model for the successful implementation of
+an important element in determining adoption. The innovative                   sustainable cloud-based HRM in SMEs.
+approach of incorporating management innovativeness as a                           Zhao and Rabiei (2023) evaluated whether it would be feasible
+significant enabler for adopting new technologies (Gama and                    to implement a cloud-based HR payroll system within a business.
+Magistretti, 2025; Rajani et al., 2023) presents a fresh perspective in        They discovered that the necessary conditions for implementing
+this area of research, sparking the audience’s interest in the study.          cloud computing technology in the enterprise were desire,
+     Consequentially, this research contributes both at a theoretical          capability, and acceptance. To develop an optimization model for
+and practical level. Theoretically, the study extends the TOE                  HRM issues, Liu et al. (2022) recommended using cloud edge
+framework by incorporating management innovativeness, giving                   computing and the Whale Optimization Algorithm. The findings
+fine details of factors that may facilitate or inhibit the adoption            demonstrate that the proposed model outperforms alternative
+of cloud-based HRM systems. In practical terms, it deals with the              metaheuristics in two distinct scenarios, increasing the amount of
+critical operational challenges faced by SMEs in adopting advanced             human resources provided while decreasing the allocation cost.
+IT solutions and strategies that can be used to overcome such                  To help SMEs manage their human resources challenges, Oduh
+barriers to cloud computing and maximize HRM benefits.                         et al. (2018) created and executed a preliminary version of a
+     According to Abdullah, P. Y. et al. (2020), the study further             cloud-based application. A novel framework called Expert Cloud
+researches challenges that conventionally impeded the mainstream               was created by Navimipour et al. (2015) to allow Cloud users
+adoption of cloud computing such as data recovery, security,                   to request human expertise and abilities without being aware of
+reliability, and accessibility. We make such suggestions that we               their location and to encourage the sharing of HR knowledge,
+duly consider strategies that can be applied, given the resource               experience, and skills. The findings showed that the Expert
+constraints of critical drivers in any economy, yet often need help            Cloud boosts HR performance within the company and increases
+to use advanced technologies. This provides practical solutions to             customer satisfaction.
+overcome such barriers, making the research highly relevant and                    However, sustainable cloud computing encompasses both
+applicable to the audience’s work.                                             the traditional advantages of flexibility and cost-effectiveness
+     This research uses the TOE framework to explore the dynamic               and the environmental, economic, and social dimensions of
+challenges and opportunities surrounding adopting technologies                 sustainability. In the context of the environment, it involves
+in SMEs. Past literature has established that HRM functions can                using cloud computing to minimize power consumption
+solve social and environmental problems and simultaneously create              through optimized server use and reduces paper waste by
+economic value (Al-Dmour et al., 2017; Liza et al., 2021). In this             substituting it with digitization of workflow (Bharany et al.,
+respect, integrating cloud computing with the concept of HRM will              2022). Economically, it allows SMEs to lower operational costs
+create a metamorphosed framework for improving organizational                  due to no upfront investments in hardware while scaling up
+effectiveness. The potential benefits of this research are significant,        the resources to meet demand (Bandara, 2024). Socially, it
+as it aims to understand in-depth the critical factors that affect             opens up a wide avenue toward inclusivity, enabling remote
+the adoption and diffusion of cloud-based HRM systems among                    employment and providing equal opportunities for training
+SMEs operating in developing countries. As a result, the study                 and development through cloud-based enabling platforms
+is informed by the following research question: What significant               (Yenugula et al., 2024). These features make sustainable cloud
+factors influence the adoption of cloud-based HRM practices                    computing fundamentally different from conventional cloud
+among SMEs in developing countries?                                            models and make it a strategic enabler for SMEs in their
+                                                                               ambitions to meet global sustainability objectives Johnson and
+                                                                               Diman (2017) utilized the TOE model and found that small
+2 Literature review                                                            businesses are more likely to use cloud-based human resource
+                                                                               information systems to support ongoing HR operations. Yao
+2.1 Sustainable cloud computing-based                                          and Azma (2022) showed that while cloud privacy and security
+human resource management                                                      hurt HR productivity, other factors such as employee skills and
+                                                                               knowledge, company financial situation, current IT structure,
+    Cloud computing is changing the concept of operational                     payment terms, and cloud accessibility have a positive impact
+business because it is a flexible and cost-effective way of                    on staff efficiency. In a separate study, Dong and Salwana (2022)
+
+
+Frontiers in Sustainability                                               02                                                         frontiersin.org
+Milhem et al.                                                                                                         10.3389/frsus.2025.1503423
+
+
+
+
+conducted a study to investigate whether cloud-based HRM                    2.2 Cloud computing-based HRM systems
+and supply chain management enhance the performance of                      in SMEs and their role in sustainability
+multinational organizations. The findings supported the notion
+that cloud-based HRM and supply chain management are essential                  The rapid growth of cloud computing technology has
+for improving these organizations’ financial, marketing, and                significantly transformed HRM, particularly for SMEs. Cloud-
+collaboration performance.                                                  based HRM systems offer unique benefits such as scalability,
+     In recent years, researchers have begun to explore the                 cost-effectiveness, and practical solutions, which are crucial for
+adoption of green cloud computing by SMEs in emerging                       addressing the distinct challenges faced by SMEs (Marler and
+economies. For instance, Senyo et al. (2016) explored cloud                 Fisher, 2013; Strohmeier, 2014). The cloud HRM system refers to
+computing adoption in SMEs in Ghana. The study findings                     various software applications running on remote servers to enable
+indicated that relative advantage, top management support, and              HR functions that range from recruitment, payroll management,
+competitive pressure all significantly impact the adoption of               performance tracking, and employee engagement (Ardebili et al.,
+cloud computing among SMEs. In a related study, Gupta et al.                2023). Since these systems are highly scalable and flexible, they can
+(2013) investigated cloud computing usage and its adoption by               comfortably facilitate SMEs’ adaptation to HR processes with zero
+SMEs in Malaysia. Perceived benefit, technological readiness,               investment in infrastructure (Herzallah and Ayyash, 2024).These
+and external pressure were significant antecedents to adopting              systems are software applications hosted on remote servers and
+cloud computing.                                                            accessed via the Internet, requiring minimal upfront investment
+     Alshamaila et al. (2013) studied SMEs’ adoption of cloud               in hardware or infrastructure (Bondarouk and Brewster, 2016).
+computing in the Middle East. They established that although                Unlike traditional on-premise HRM systems, cloud solutions
+technological issues are relevant, environmental and organizational         enable SMEs to become flexible and scalable; resources can be
+contexts are equally crucial. This certainly has implications for           adjusted up or down depending on the organization’s needs without
+Bahrain, where cultural and regulatory reasons could impact                 an exponential cost increase (Kavanagh and Johnson, 2017). The
+any adoption.                                                               systems are designed so that updates, which should be performed
+     Comparative studies show that SMEs in developing economies             periodically, are done automatically by the service providers,
+face similar challenges and drivers in adopting cloud computing             ensuring that the latest functionality and security features are
+technologies (Al-Shboul, 2019; Skafi et al., 2020; Khayer                   available for organizations without the need and headache of
+et al., 2021). These include technological readiness, perceived             maintenance (Voermans and Van Veldhoven, 2007; Stone and
+benefits, and security/privacy concerns. However, differences               Deadrick, 2015).
+in infrastructure development, regulatory environments, and                     By systematizing human resources management in SMEs,
+cultural attitudes toward technology ensure that variations                 cloud-based HRM applications empower owners and professionals
+lie. For example, Ghanaian SMEs might have to put up with                   with real-time tracking and automation features (Lee and Lee,
+poor internet connectivity (Dayour et al., 2023), Bahraini                  2024). For instance, they automate recruitment and onboarding,
+firms have the better infrastructure but might face varying                 reducing time-to-hire and improving the candidate experience
+regulatory obstacles (AlBenJasim et al., 2023). In the review               (Johnson et al., 2016). They efficiently track and manage applicants,
+of related literature, the usage of cloud computing in HRM                  enabling performance management and timely feedback in line
+research was found to be very popular among academics globally              with organizational objectives (Strohmeier, 2014). Payroll and
+(Porkodi and Raman, 2024). Recently, such scope seems to                    benefits administration is also automated, minimizing errors and
+need to be added in studies about sustainable cloud computing-              ensuring compliance with tax laws (Marler and Boudreau, 2017).
+based HRM in the SME environment in developing countries                    This level of control and empowerment is a significant benefit of
+like Bahrain.                                                               cloud-based HRM systems.
+     Although some studies investigate cloud computing                          The capabilities of these systems include extensive data
+adoption in SMEs, those investigating sustainable cloud-                    management and analytics methodologies (Namperumal et al.,
+based HRM system contexts remain scant (Maqueira Marín                      2022). Cloud environments protect the security of employee
+et al., 2022; Ashrafuzzaman, 2024). To the best of the authors’             information that is kept therein, thus making access to and
+knowledge, no prior study has addressed the issue of sustainable            managing such data easier (Awaysheh et al., 2021). Advanced
+cloud computing-based HRM in an SME environment                             analytics let SMEs identify trends in the workforce, informing
+using     the    Technology-Organization-Environment           (TOE)        strategic decisions in talent management and organizational
+framework and individual context in developing nations such                 development (Conte and Siano, 2023). These systems enhance
+as Bahrain.                                                                 compliance and security since they have built-in features that help
+     Adding to the list of recent studies from other developing             SMEs check their adherence to labor laws, thus minimizing legal
+economies, our research enriches the comparative element and                risk (Strohmeier, 2014).
+broadens the understanding of factors influencing cloud adoption                Despite robust security measures, concerns related to data
+in diverse contexts. Demonstrating similarities and differences             breaches and data privacy persist in cloud HRM systems (Du
+in Bahrain and other similar economies strengthens the study’s              Plessis and De Wet Fourie, 2016). Features in HRM systems, such
+theoretical framework. By incorporating these insights and                  as self-service portals, also help employees access their personal
+focusing on the unique context of Bahraini SMEs, this research can          information, leave applications, and benefit enrollment, leading to
+inspire further research and contribute significantly to the field.         increased transparency and satisfaction (Martin and Reddington,
+
+
+
+Frontiers in Sustainability                                            03                                                          frontiersin.org
+Milhem et al.                                                                                                          10.3389/frsus.2025.1503423
+
+
+
+
+2010). The integrated communications within cloud-based HRM                 considerations to make it suitable for cloud computing as an
+systems enable collaboration and connectedness among the                    innovative industry (Chau and Tam, 1997; Yaseen et al., 2023).
+workforce, which is helpful for SMEs in building an integrated                   The TOE framework proposes three contextual factors:
+organizational culture (Berglund, 2023). This reassurance and               technological, organizational, and environmental decisions within
+confidence in data management are significant benefits of cloud-            SMEs. It involves relevant internal and external technologies to
+based HRM systems.                                                          the firm. Traditionally, it encompasses such factors as relative
+     Such adoption of cloud-based HRM systems contributes to the            advantage, complexity, compatibility, and technological readiness
+sustainability of SMEs in terms of environmental, economic, and             (Tornatzky and Fleischer, 1990; Oliveira and Martins, 2010).
+social dimensions (Lopes de Sousa Jabbour et al., 2018). From               Initially, the TOE framework focuses on the technological factors
+an environmental perspective, these systems reduce paper usage              of IT infrastructure characteristics and technological competence.
+by digitizing records and workflows, reducing waste, and aiding             In our study, we have also included relative advantage, complexity,
+conservation accordingly (Sanjeev et al., 2024). The consolidation          and compatibility because, according to Rogers (2003), those are
+of server usage in cloud computing reduces energy consumption               critical in the context of cloud computing adoption.
+compared with individual on-premise systems, increasing energy                   The organizational context is affected by the company’s
+efficiency and reducing carbon emissions associated with IT                 features, such as its size and the degree of bureaucratization,
+infrastructure (Thaqi et al., 2024). This point is supported by             decentralization, and complexity of its management structure.
+several authors, such as Yenugula et al. (2024) and Columbres and           It includes factors like top management support, organizational
+Victoriano (2024).                                                          readiness, and firm size (Alshamaila et al., 2013; Rahayu and Day,
+     Economically, cloud-based HRM is cost-effective since it saves         2015). These factors influence the firm’s capacity to adopt and
+money that would be used in capital expenditures like hardware              implement new technologies (Salah and Ayyash, 2024).
+and maintenance, which SMEs can utilize in other areas of their                  The environmental context refers to the external environment
+core business activities (Zhao and Rabiei, 2023). It operationalizes        in which the firm operates and is composed of industry
+efficiency in human resources through the automation of processes,          characteristics, market structure, competitors, suppliers, customers,
+thereby increasing productivity due to reduced administrative               and regulatory environment (Zhu et al., 2006; Rahayu and Day,
+burdens (Fawehinmi et al., 2024). The scalability of cloud solutions        2015). Although the original TOE framework includes industry
+offers support for sustainable business growth since it allows              characteristics, market structure, and regulation, our study focused
+the operations of SMEs to expand without high additional costs              on competitive and trading partner pressure. Specifically, in the
+(Natrajan et al., 2024).                                                    context of the adoption of sustainable cloud computing-based
+     Promoting social sustainability, cloud-based HRM systems               HRM by SMEs, these factors have been identified as the most
+offer virtual work access, enabling employees to work anytime               immediate environmental factors (Low et al., 2011).
+and from anywhere (Porkodi and Raman, 2024). These systems                       The TOE framework or other models have been used in
+also support talent development through online training and                 previous studies on the adoption of information technology and
+development modules, fostering continuous learning and career               information systems at the corporate level (Oliveira and Martins,
+advancement. Moreover, they facilitate inclusive practices,                 2010; Aboelmaged, 2014; Ali et al., 2015; Min et al., 2015; Alkhalil
+expanding the talent pool and promoting diversity and inclusion             et al., 2017). Instead of emphasizing a particular viewpoint, the
+within the organization (Lopes de Sousa Jabbour et al., 2018).              framework provides a comprehensive view of the many facets of
+     Finally, HRM systems based on cloud computing present SMEs             an organization (Nkhoma et al., 2013). As a result, we decided
+with one of the most effective tools to enhance operational efficacy        to base our research model on the TOE framework. This choice
+in furthering sustainability objectives.                                    was made after taking into account a variety of considerations.
+     Implementation of these systems enables SMEs to achieve                First of all, prior research has generally recognized the TOE
+competitive performance by promoting environmental                          as a trustworthy paradigm for analyzing the adoption of cloud
+stewardship, economic resilience, and social responsibility                 computing (Oliveira et al., 2014; Tashkandi and Al-Jabri, 2015;
+(Yenugula et al., 2024). Integrating a cloud-based HRM system               Senyo et al., 2016; Al-Hujran et al., 2018; Asiaei and Rahim, 2019;
+into organizational strategies denotes its importance in developing         Hiran and Henten, 2020). The TOE framework emphasizes the
+a sustainable future in business and society in general.                    background of technology while also considering organizational
+                                                                            and environmental factors.
+                                                                                 The TOE model provides a valuable basis for this study’s
+3 Theoretical foundations                                                   understanding of various factors that affect the adoption and
+                                                                            implementation of green cloud computing in SMEs. The original
+3.1 Technology-organization-environment                                     TOE constructs already include a wide range of factors, and we
+(TOE) model                                                                 have selected certain factors in each context that are most relevant
+                                                                            to our research.
+    The authors notice that the TOE framework of Tornatzky                       Thus, in this study relative advantage, complexity, and
+and Fleischer (1990) might summarize the assumed factors into               compatibility factors in the technological context, as they directly
+a more excellent picture, adding a deep theoretical perspective to          affect cloud computing technologies’ perceived usefulness and ease
+this study. More importantly, the framework was meant to link the           of use. As Rogers (2003) puts it, the relative advantage is the degree
+information system innovation adoption decisions to contextual              to which an innovation is perceived as being better than the idea it
+
+
+
+
+Frontiers in Sustainability                                            04                                                           frontiersin.org
+Milhem et al.                                                                                                            10.3389/frsus.2025.1503423
+
+
+
+
+supersedes- a significant factor in assessing new technologies such            4 Research model and development of
+as sustainable cloud computing-based HRM systems. Complexity                   hypotheses
+refers to the degree to which an innovation is perceived as
+complicated to understand and use; this might be a potential barrier               The TOE framework, frequently used to predict how SMEs will
+in the adoption process. Compatibility represents how consistent               accept new technologies, serves as the foundation for the research
+the innovation is with the potential adopters’ existing values, past           model developed for this study. The TOE asserts that the aspects
+experiences, and needs.                                                        that have the largest effects on adopting cloud computing include
+     In this study, within an organizational context, we focused on            technological, organizational, and environmental factors. The eight
+top management support, technology readiness, and organization                 variables listed below were hypothesized to determine whether they
+size. Top management support allows for adequate resources                     directly influence SMEs’ decisions to implement sustainable cloud-
+to be provided within the supportive atmosphere necessary for                  based HRM. However, this study expanded the TOE by adding
+innovation. According to Khayer et al. (2020), top management                  individual context based on a literature review to enhance its
+support will provide the appropriate resources for innovation to               predictive power. Moreover, these factors were deemed important
+develop and facilitate an enabling environment for innovation to               in predicting SMEs’ acceptance of sustainable cloud computing-
+take place. Technology readiness reflects the firm’s infrastructural           based HRM. Figure 1 outlines the research model.
+and human resource capabilities (Khayyam et al., 2024). This study
+considers organization size because larger firms are more able to
+adopt new technologies than smaller firms (Shahzad et al., 2024).
+     In the context of the environment, we have included                       4.1 Technological context
+competitive and trading partner pressures. Competitive pressure
+forces firms to adopt new technologies to be more competitive                       This study’s technological environment includes compatibility,
+(Kwarteng et al., 2024). The pressure from trading partners is                 relative advantages, and complexity. The relative advantage
+essential because SMEs often depend on their partners, and                     significantly impacts whether new information system innovations
+alignment with partners aids adoption (Benhayoun et al., 2021).                are adopted. According to Rogers (2003) relative advantage refers
+Although the TOE framework does include other factors, such                    to the extent to which a technological component is believed
+as industry characteristics, market structure, and regulations, we             to help businesses more. The effect of relative advantage on
+focused on the most immediately relevant factors for SMEs                      the adoption of technology in firms has been investigated in
+in Bahrain.                                                                    detail in earlier research (Thong, 1999; Lee, 2004). Their findings
+     Justification of these factors and realization of the exclusion of        found that when organizations understand an innovation’s relative
+others have captured the TOE framework so that its application                 advantage, adoption is more likely to occur (Alshamaila et al.,
+suits the context of sustainable cloud computing-based HRM                     2013). Berman et al. (2012) claim that for innovative tools to be
+adoption among Bahraini SMEs. This kind of selective inclusion                 adopted, they must be easy to manage and use. As cloud computing
+can allow for a more focused analysis of the most pertinent factors            is a relatively new technology, some organizations may not have
+of such adoption in our context.                                               the necessary confidence or technological enablers, such as high-
+     Individual-related factors will help in understanding the                 speed communication networks, to support it. Adoption times are
+attitudes and perceptions of people and their capacity for behavior            consequently prolonged (Dwivedi and Mustafee, 2010). Second,
+change about the acceptance of cloud computing-based sustainable               complexity refers to how difficult it is for SMEs to understand and
+HRM in SMEs. These might also benefit firms by helping them                    use cloud computing. Contrary to other aspects of the technology,
+design more specifically tailored approaches to promoting adoption             complexity has been found to have a negative link with the
+and addressing potential barriers. On the other hand, TOE does                 likelihood of adoption despite being a substantial influence on
+not disregard factors that relate to the personal characteristics of           the decision to accept a new technology (Gutierrez et al., 2015).
+managers and employees (Ghobakhloo and Tang, 2013; Rahayu and                  Lastly, the level of perceived fit between the new technology and
+Day, 2015). As a result, the individual context has been added to the          the organization’s values and needs is referred to as compatibility
+original TOE framework, represented by the factor of managerial                (Rogers, 2003). Cloud computing, for example, allows companies
+perceived innovativeness because it could play a significant role in           to stay up-to-date with technology without disrupting their existing
+SMEs. After all, decision-making is often within their centralized             legacy IT systems (Sultan, 2011; Gupta et al., 2013). Consequently,
+power (Al-Qirim, 2007).                                                        factors such as complexity, compatibility, and relative advantage
+     Although we understood the wide array of factors present                  contribute to adopting sustainable cloud computing-based HRM in
+within the original TOE framework, we have identified and                      SMEs. Therefore, it is hypothesized that:
+justified a certain number of those factors in each context,                        Hypothesis 1: Technological context has a significant impact
+which will most suit our study on the adoption of sustainable                  on SME’s adoption of cloud computing-based HRM.
+cloud-based computing HRM in Bahrain’s SMEs. The approach
+provides a theoretically sound and practically relevant research
+model that captures the essential elements driving the adoption                4.2 Organizational context
+decisions within the particular context of the study, with interests
+shared by our fellow researchers in the field of HRM and                           In this study, the organizational context is defined as certain
+sustainable computing.                                                         factors of an organization’s structure that could affect the adoption
+
+
+
+
+Frontiers in Sustainability                                               05                                                          frontiersin.org
+Milhem et al.                                                                                                        10.3389/frsus.2025.1503423
+
+
+
+
+    FIGURE 1
+    A model of cloud computing-based HRM in SMEs.
+
+
+
+
+of sustainable cloud computing-based HRM. The study focuses,               4.3 Environment context
+in particular, on three organizational factors: top management
+support, technology readiness, and organization size, which are                  The adoption of sustainable cloud computing-based HRM by
+considered to be significant predictors of SMEs’ adoption of               SMEs is influenced by external influences including competitive
+sustainable cloud computing-based HRM. One aspect of the                   and trading partner pressure. Competitive pressure is the degree
+organizational context that this study highlighted as potentially          of rivalry between businesses in the particular sector in which
+influencing SMEs’ adoption of sustainable cloud-based HRM                  the company operates (Thong and Yap, 1995). Incentives to adopt
+is top management support. The decision of an organization                 pertinent new technologies include the competitive pressure a firm
+to adopt new technology is heavily influenced by the backing               must deal with (Majumdar and Venkataraman, 1993; Alshamaila
+of top management (Yigitbasioglu, 2015). A lack of leadership              et al., 2013). Further, many SMEs rely on their business associates
+support decreases the chances of adopting an innovation like               to complete IT design and implementation duties (Pan and Jang,
+cloud computing. Hence, the degree of support SMEs receive from            2008). According to reports, pressure from trading partners is
+their senior executive manager has an important effect on the              a key driver of IT adoption (Chong et al., 2009; Amini et al.,
+extent to which cloud technology is adopted. Top management’s              2014). On the other hand, SMEs are more likely to embrace
+inability to see the potential advantages of cloud computing deters        sustainable cloud computing-based HRM practices when they are
+them from implementing it (Khayer et al., 2020). Technology                up against the firm competition or work with partners who share
+readiness, on the other hand, refers to how much a firm’s                  their values in this area. If SMEs want to keep their competence
+technical capabilities, systems, and infrastructure can support            and prosperous business relationships, they must stay abreast of
+SMEs in their adoption of sustainable cloud computing (Zhu                 market developments and their partners’ expectations. Therefore,
+et al., 2006). Technology infrastructure and IT personnel are              it is hypothesized that:
+both essential components of technology readiness (Zhu et al.,                   Hypothesis 3: Environment Context has a significant impact
+2004) and both are crucial if SMEs want to integrate e-business            on SMEs’ adoption of cloud computing-based HRM.
+into the value chain fully (Natario et al., 2010). The size of
+the firm is another element of organizational context that has
+been connected to e-commerce adoption by SMEs. This is a                   4.4 Individual context
+consequence of the connection between a firm’s size and its
+ability to offer particular resources, including both financial and            While the technological, organizational, and environmental
+human resources (Rahayu and Day, 2015). As a firm grows,                   contexts have been the primary focus of this study, we have
+its capacity to provide specific resources rises, making adopting          also expanded our investigation to include the area of individual
+cloud computing more likely. Furthermore, SMEs with strong top             contexts, particularly managerial innovativeness, as a determinant
+management support, high technology readiness levels, sufficient           factor for adopting sustainable cloud computing-based HRM
+resources, and infrastructure are more likely to embrace and               systems in SMEs. This is supported by the argument that
+effectively execute sustainable cloud-based HRM. Therefore, it is          management actions often have a significant impact on strategic
+hypothesized that:                                                         decisions made inside SMEs, as demonstrated by foundational
+    Hypothesis 2: Organizational Context has a significant impact          publications like Cloete et al. (2002). Fink (1998) and other earlier
+on SMEs’ adoption of cloud computing-based HRM.                            studies have shown that small commercial firms with creative
+
+
+
+
+Frontiers in Sustainability                                           06                                                          frontiersin.org
+Milhem et al.                                                                                                           10.3389/frsus.2025.1503423
+
+
+
+
+managers at the helm have a higher possibility of effectively               they are individuals who generally possess an influential say in
+implementing information systems. Similar to this, Al-Qirim                 organizational decisions about the implementation of technology.
+(2007) showed how the chief executive officer’s creativity had a big             Convenience sampling was a deliberate method of accelerating
+influence on how e-commerce technology was incorporated into                data collection. This non-probability technique is efficient and
+the SME sector in New Zealand.                                              practical in getting hold of large numbers of participants in the
+    Using this fundamental research as our guide, we propose that           shortest time possible. Two hundred eighty participants were used,
+the degree of managerial innovativeness may have a considerable             constituting 25 small and medium enterprises from diverse sectors
+impact on SMEs’ tendency to adopt sustainable cloud computing-              and organizations of different sizes. Their selection was guided
+based HRM solutions. This builds on prior research by claiming              by proximity to ensure willingness to participate and achieve a
+that managers in the world of SMEs with a high level of                     representative sample across different industries and firm sizes.
+innovativeness may be more receptive to evaluating, appreciating,           We compared the key demographic characteristics of our sample
+and ultimately embracing disruptive technology such as sustainable          to the larger SME population in Bahrain using the data from the
+cloud computing-based HRM systems. Such managers would                      Bahrain Ministry of Industry, Commerce, and Tourism (2021). Our
+probably be more aware of the long-term strategic advantages                sample represents the overall SME population in Bahrain in terms
+of this technology, such as cost-effectiveness, scalability, and            of industry distribution and organizational size.
+sustainability, making them more open to adoption. However, it’s                 The sample size determination was informed by power analysis
+important to understand that managerial innovativeness in this              to ensure that there would be adequate statistical rigor for the
+context is not a standalone concept; rather, it probably interacts          testing of hypotheses. According to Albusaidi et al. (2024), a power
+with the other organizational, technical, and environmental aspects         analysis in research helps identify a minimum sample size needed
+mentioned in this research. For instance, adopting sustainable              to detect the effect size of interest at the needed levels of confidence
+cloud computing-based HRM may still be significantly hampered               to establish the reliability and robustness of the study findings. The
+for a creative manager working in a company that is technologically         targeted population was that of SMEs in Bahrain. However, given
+immature or not aligned with sustainable principles.                        the diversity and variety of these enterprises, the findings can also
+    As a result, it is important to take managerial innovativeness          be generalized to other SME setups in developing countries. This
+into account as one of several interconnected factors that influence        increases the general applicability of this research and, hence, its
+the choice to embrace a new technology. A more nuanced                      relevance even more.
+understanding of the obstacles to and enablers for the adoption
+of long-term cloud-based HRM systems in SMEs might be gained
+by recognizing the synergy between managerial innovativeness
+                                                                            5.3 Measurement
+and these other decisive elements. As a result, we claim that
+SMEs with innovative managers would be more likely to explore
+                                                                                Data collection was based on online adapted questionnaires
+implementing sustainable cloud computing-based HRM. As a
+                                                                            from previously conducted research studies (Ahmad et al., 2018;
+result, it is assumed that:
+                                                                            Ayyash, 2022, 2023), tailored to the particular contextual features
+    Hypothesis 4: Individual Context have a significant impact on
+                                                                            of SMEs in Bahrain. In our research, the 5-point Likert scale
+SMEs’ adoption of cloud computing-based HRM.
+                                                                            operationalized the variables. Therefore, with this scale, we could
+                                                                            measure technical preparedness, organizational size, competitive
+                                                                            pressure, and pressure from trade partners for the first time from
+5 Methodology                                                               our research. Table 1 below explains the measuring constructs used
+5.1 Research context                                                        in this investigation.
+
+
+     With a focus on Small and Medium Enterprises (SMEs) in
+Bahrain, the current inquiry is placed within the dynamic field of          5.4 Statistical approach
+cloud computing-based Human Resource Management practices.
+Bahrain was specifically chosen as the research location because it             Data analysis was performed by applying Partial Least Squares
+provides a unique scenario for examining how cloud computing,               Structural Equation Modeling with the SmartPLS software. The
+and HRM interact within the context of a growing economy. The               justification for the use of PLS-SEM is that it is applicable
+dynamics of the global market and local government are having               in exploratory research and when the model involves several
+an increasing influence on Bahrain’s SMEs. They are a very ideal            constructs and indicators (Hair et al., 2019). The approach or way
+subject for in-depth examination and inquiry due to the confluence          PLS-SEM goes about doing things is to maximize the explanation
+of factors.                                                                 of variance in dependent constructs. Logically, this fits within the
+                                                                            purpose of this study in identifying those factors that influence
+                                                                            adoption. Further, PLS-SEM can efficiently handle sample sizes that
+5.2 Data collection and sampling                                            are small (Chin, 1998), and our sample size is 280; hence, it is
+                                                                            suitable for our study. Besides, PLS-SEM does not impose strict
+   Our research used a quantitative cross-sectional design.                 normality assumptions on the data; hence, it is appropriate for real-
+The main participants targeted for data collection were senior              world data that may not meet the criteria of normality distribution
+managers and HR specialists. This was undertaken because                    perfectly (Hair Jr et al., 2021).
+
+
+
+Frontiers in Sustainability                                            07                                                             frontiersin.org
+Milhem et al.                                                                                                                                 10.3389/frsus.2025.1503423
+
+
+
+
+TABLE 1 Measurement of the study.
+
+
+  Constructs                  Measuring items                                                                                                   Source
+  Compatibility               Our beliefs and culture are well-suited to the cloud-based HRM solution                                           Al-Qirim, 2007;
+                                                                                                                                                Ghobakhloo et al., 2011
+
+                              Our company is well-suited to the new circumstances introduced by cloud-based HRM solutions
+
+                              We have a common ground with regard to cloud-based HRM solutions law
+
+                              Our customer base is suited to cloud-based HRM solutions
+
+                              The way we like to work may easily be integrated with cloud-based HRM solutions
+
+  Relative advantage          Cloud-based HRM solutions opens up new possibilities                                                              Al-Qirim, 2007; Pearson
+                                                                                                                                                and Grandon, 2005
+
+                              With the help of cloud-based HRM solutions, we can get some jobs done much more rapidly
+
+                              Increased output is possible thanks to cloud-based HRM solutions
+
+                              We may spend less time looking for materials thanks to cloud-based HRM solutions
+
+  Complexity                  The skills required to use cloud-based HRM solutions are too complex for our employees                            Premkumar and Roberts,
+                                                                                                                                                1999
+
+                              It will be quite challenging to integrate cloud-based HRM solutions into our present working procedures
+
+                              The integration and skill set required for implementing cloud-based HRM solutions pose significant challenges
+                              for our organization
+
+  Top management              When integrating cloud-based HRM solutions, our top management is prepared to take chances                        Abed, 2020
+  support
+
+                              Most likely, our senior management will see the adoption of cloud-based HRM systems as strategically crucial
+
+                              Our company’s senior management believe that using cloud-based HRM solutions is a crucial strategy for
+                              gaining an edge over competitors
+
+  Technology readiness        Our company has the financial resources to implement long-term cloud-based HRM solutions                          Grandon and Pearson,
+                                                                                                                                                2004
+
+                              Our firm offers the necessary technical tools for creating long-lasting cloud computing-based HRM systems         Grandon and Pearson,
+                                                                                                                                                2004
+
+                              Our company has a robust internet connection, which is crucial for the efficient implementation of long-term      Molla and Licker, 2005
+                              cloud computing-based HRM solutions
+
+                              The transition to sustainable cloud computing-based HRM is facilitated by the widespread access of computer       Molla and Licker, 2005
+                              systems among our workforce
+
+                              Our staff ’s computer literacy enhances our ability to adopt long-term cloud-based HRM solutions                  Molla and Licker, 2005
+
+  Organization size           The size of our organization enables us to adopt cloud computing-based HRM solutions readily                      Developed by authors
+
+                              Our large scale makes it easier to allocate resources for implementing cloud computing-based HRM
+
+                              The extent of our organization positively influences the feasibility of adopting cloud computing-based HRM
+                              systems
+
+  Competitive pressure        If we don’t implement sustainable cloud computing-based HRM, we fear our clients will turn to competitors         Nguyen et al., 2022
+
+                              To maintain a competitive edge, we believe adopting sustainable cloud computing-based HRM is strategically
+                              essential
+
+                              Implementing sustainable cloud computing-based HRM is a strategic necessity for us to remain competitive in
+                              the market.
+
+                              Had sustainable cloud computing-based HRM not been implemented, our organization would face competitive
+                              disadvantages
+
+  Trading partner pressure    Most of our business partners have asked to adopt sustainable cloud-based HRM                                     Abed, 2020
+
+                              Most of our business partners have advocated for adopting sustainable cloud-based HRM
+
+                              Most of our business partners are quite educated about ethical cloud computing-based HRM techniques
+
+                              Many of our vendors and business associates already use HRM strategies based on sustainable cloud computing
+
+  Managerial                  Typically, I am among my friends’ first to adopt new technology when it emerges.                                  Damerji and Salimi, 2021
+  Innovativeness
+
+                              I typically don’t need assistance from others while learning new high-tech goods or services.
+
+                              I follow technical advancements in the fields I’m interested in.
+
+                                                                                                                                                                 (Continued)
+
+
+
+Frontiers in Sustainability                                                            08                                                                    frontiersin.org
+Milhem et al.                                                                                                                            10.3389/frsus.2025.1503423
+
+
+
+
+TABLE 1 (Continued)
+
+
+  Constructs                  Measuring items                                                                                              Source
+  SMEs’ adoption of           I intend to implement sustainable cloud computing-based HRM when the opportunity arises in my                Davis, 1989; Venkatesh
+  sustainable cloud           organization.                                                                                                et al., 2012
+  computing-based HRM
+
+                              I expect my organization to start using sustainable cloud computing-based HRM shortly.
+
+                              I intend to regularly integrate sustainable cloud computing-based HRM into my organization’s operations.
+
+                              My organization will always prioritize the use of sustainable cloud computing-based HRM systems.
+
+                              I plan for my organization to frequently utilize sustainable cloud computing-based HRM
+
+                              I imagine sustainable cloud computing-based HRM becoming a standard practice in my organization.
+
+
+TABLE 2 Instruments descriptive statistics.
+
+
+  Variables                                                               Minimum             Maximum          Mean        Variance      Standard deviation
+  Technological context                                                        1.00               5.00          3.605            0.759            0.812
+
+  Compatibility                                                                1.00               5.00          3.462            1.274            1.083
+
+  Complexity                                                                   1.00               5.00          3.842            0.572            0.687
+
+  Relative advantages                                                          1.00               5.00          4.700            0.689            0.768
+
+  Organizational context                                                       1.00               5.00          4.631            0.877            0.882
+
+  Technology readiness                                                         1.00               5.00          4.308            0.258            0.398
+
+  Top management support                                                       1.00               5.00          4.733            0.568            0.684
+
+  Organization size                                                            1.00               5.00          4.568            0.671            0.756
+
+  Environmental context                                                        1.00               5.00          3.785            0.879            0.907
+
+  Competitive pressure                                                         1.00               5.00          4.845            0.857            0.734
+
+  Trading partner pressure                                                     1.00               5.00          4.708            0.358            0.498
+
+  Individual context                                                           1.00               5.00          4.733            0.768            0.784
+
+  Manager innovativeness                                                       1.00               5.00          4.768            0.771            0.756
+
+  SEMs adoption of cloud computing based HRM                                   1.00               5.00          4.785            0.779            0.807
+
+
+
+
+5.5 Instruments descriptive statistics                                                     standard deviation of 1.083, hence showing that respondents have
+                                                                                           varied perceptions about how the cloud computing-based HRM
+     The research performed a statistical analysis on a                                    system fits their existing systems.
+comprehensive basis to identify the key drivers of the adoption                                This low variability in technology readiness could suggest that
+of cloud computing-based HRM systems in SMEs in Bahrain.                                   large SMEs in this sample view their technological infrastructure
+The descriptive data analysis will help to gain an in-depth                                and capabilities as similar, which may influence their readiness
+understanding of the multidimensional trends revealed by the                               to adopt. The higher variability in compatibility may suggest that
+HR executives and senior managers in Bahrain. Table 2 has been                             the respondents have different opinions on whether cloud-based
+presented in its entirety to illustrate all the measurement constructs                     HRM systems are compatible with current practices, which could
+used in the underlying study.                                                              influence decisions on adoption.
+     The average score of 3.605 within the technological context                               Also, this is supported by a high mean value of competitive
+denotes a modest level of technical readiness among the surveyed                           pressure, which is 4.845; it identifies that SMEs are under
+firms. Moving our attention to the environmental context, we can                           considerable pressure from competitors with respect to the
+see that the average competitive pressure value of 4.845 is noticeably                     adoption of cloud computing-based HRM systems. The standard
+different from the others. Comparatively speaking, the average                             deviation for competitive pressure is 0.734, which represents
+compatibility score found in the technology domain is 3.462.                               moderate agreement among participants.
+     Regarding each measure, the standard deviations reveal how                                These descriptive statistics support our theoretical framework
+much agreement or disagreement there was among the participants                            and hypotheses that environmental factors like competitive
+(Al-Tahitah et al., 2023). The lowest standard deviation of                                pressure may be of vital importance for the diffusion of cloud
+technology readiness has a value of 0.398, meaning that participants                       computing-based HRM systems among SMEs in Bahrain.
+highly agreed upon the readiness of their firm to adapt to                                     The descriptive statistics in Table 2 show that SMEs in Bahrain
+new technologies. Compatibility, in particular, explains a higher                          perceive the technological and organizational contexts as favorable
+
+
+
+Frontiers in Sustainability                                                           09                                                               frontiersin.org
+Milhem et al.                                                                                                           10.3389/frsus.2025.1503423
+
+
+
+
+for adopting cloud computing-based HRM systems. The mean                      6.2 Measurement model
+score of the technological context is 3.605, with a standard
+deviation of 0.812, indicating it is moderately favorable. This is                The measurement model in this study was evaluated using
+also reflected in consistent perceptions of technological readiness           Smart-PLS’s partial least squares (PLS) implementation to confirm
+as measured by the low variability in technology readiness (mean              the reliability and validity of the framework (Hair Jr et al.,
+= 4.308, SD = 0.398).                                                         2021; Alastal et al., 2024). Two main types of validity—
+    Means of 3.462 and 3.842 and standard deviations of 1.083 and             convergent and discriminant—were assessed as part of the
+0.687, respectively, demonstrate that compatibility and complexity            measurement model evaluation. Convergent validity ensured that
+are not only different but also manageable in infrastructure                  items within each construct were strongly correlated, verified
+complexity. The very high scores in Relative Advantages indicate              by outer loadings above 0.7, AVE values above 0.5, and CR
+the recognized benefits of strong leadership support for innovation           values exceeding 0.7 (Hair et al., 2021). Discriminant validity
+adoption. Organization Size also has a positive effect on the                 confirmed that each construct was empirically distinct, meeting the
+rate of adoption, with the mean value being 4.568, showing that               Fornell-Larcker criterion and cross-loading standards. Structural
+the larger the SME, the more capable it feels of implementing                 Equation Modeling (SEM) was applied to illustrate the theoretical
+new technologies.                                                             framework and depict relationships among constructs, including
+    The high mean scores in Competitive Pressure, 4.845, and                  Technological, Organizational, Environmental, and Individual
+Trading Partner Pressure, 4.708, underscore the importance of                 Contexts and their influence on SMEs’ adoption of cloud
+environmental and individual factors in the adoption process.                 computing-based HRM.
+The moderate consensus of these factors across one another                        Figures 2 and 3 demonstrate how the PLS algorithm calculated
+reinforces their significance as external forces. Moreover, Individual        path coefficients and how bootstrapping analysis was used to
+Context and Managerial Innovativeness retain high means of 4.733              validate the significance of these paths. Bootstrapping, a resampling
+and 4.768, respectively, indicating strong personal attitudes and             technique, provides confidence intervals and standard errors for
+managerial support in championing technological advances. The                 each path, supporting the robustness and validity of the model’s
+overall high intention to adopt cloud-based HRM systems with                  findings by ensuring that observed relationships are not due to
+reasonable consistency is a strong indicator of the will and readiness        sampling error alone. Significant paths, with t-values above 1.96,
+of SMEs in Bahrain to embrace these systems.                                  indicate strong relationships between constructs, thus enhancing
+    These findings bring out the fact that even though there is               the validity of the proposed model.
+uniform high technological readiness, the strong facilitators
+in adopting a cloud computing-based HRM system are
+mainly environmental pressures and individual leadership. By
+’environmental pressures, ’we refer to the competitive and partner-           6.3 Convergent validity
+driven factors that influence an organization’s technological
+decisions. This leads to a favorable environment for technological                 In the measurement model evaluation, we evaluated important
+advancement in these organizations.                                           factors such as outer loadings (OL), Cronbach’s alpha (CA),
+                                                                              composite reliability (CR), average variance extracted (AVE),
+                                                                              Variance Inflation Factor (VIF), and validity. Each indicator of each
+                                                                              factor should be greater than or above its threshold value to meet
+6 Data analysis                                                               the requirements with respect to the reliability and validity of the
+                                                                              measurement model.
+6.1 Analysis of bootstrapping                                                      CA is a measure of internal consistency reliability, meaning
+                                                                              the extent to which the set of items relate to each other. A high
+    Bootstrapping is a resampling technique used to estimate                  level of CA indicates that the items measure the same underlying
+the reliability and significance of path coefficients in structural           construct. According to Nunnally and Bernstein (1994), a CA score
+equation modeling (SEM). In this analysis, bootstrapping helps                of 0.70 or greater is acceptable. Similarly, CR is a measure of
+evaluate the relationships between different constructs, such as              internal consistency for a set of items; however, it considers the
+Technological Context, Organizational Context, Environmental                  actual loadings of the indicators and, hence, is a better estimate of
+Context, Individual Context, and SMEs’ adoption of cloud                      reliability in PLS-SEM. The threshold value for CR is 0.70 or higher
+computing-based human resource management.                                    to reflect good reliability (Hair et al., 2019). Our findings showed
+    The diagram presents path coefficients and t-values                       that for each construct, the values of CA and CR are presented
+(represented by numbers near each path). Figure 2 shows the                   in Table 3; all constructs show values of CA and CR >0.70,
+strength and significance of the relationships. For example,                  which indicates that the internal consistency reliability is good.
+significant paths (typically those with t-values above 1.96) indicate         Further, all AVE values were >0.50, thus indicating satisfactory
+strong relationships between constructs. This method allows for               convergent validity.
+a robust analysis of the model by providing confidence intervals                   According to Mohammad et al. (2024); Hair et al. (2019), the
+and standard errors for each path, enhancing the validity of the              CR was calculated to infer internal consistency, which should be at
+findings. Bootstrapping ultimately supports the stability of the              least 0.70. According to the indications of Henseler et al. (2015),
+model’s results, confirming that observed relationships are not due           the AVE value of a construct was evaluated for its appropriateness;
+to sampling error alone.                                                      thus, the value had to be >0.50 to reach convergent validity.
+
+
+
+Frontiers in Sustainability                                              10                                                          frontiersin.org
+Milhem et al.                                                                                                           10.3389/frsus.2025.1503423
+
+
+
+
+    FIGURE 2
+    Analysis of bootstrapping.
+
+
+
+
+Alzoraiki et al. (2024) suggested that new items having recently              than on other constructs. These findings show each concept to be
+been developed should have a loading factor of more than 0.5; items           significantly one-dimensional.
+that are established should have at least affected the loading factor
+of 0.6, and items demonstrating <0.6 but with R2 > 0.1 should be
+preferred; and Falk and Miller (1992) endorsed this for items.                6.5 Common method bias (CMB)
+    It is also worth noting that all the constructs had correlation
+coefficients exceeding 0.50, reflecting their high reliability in                 Common Method Bias (CMB) is the term for the phenomena
+capturing the contextual factors without appreciable influence                that occurs when differences in answers can be attributed to the
+on the hypotheses posed. More empirical evidence capable of                   intrinsic characteristics of the measuring tool, as opposed to the
+supporting such a conclusion that there is sufficient convergent              tool’s intended accurate representation of the genuine inclinations
+validity, as in Table 3, is that all constructs had AVE values greater        of the subjects. Harman’s approach was employed in this study to
+than the cutoff threshold value of 0.50.                                      assess the existence of the CMB. The results of the research showed
+                                                                              that one single factor only explained 31.098% of the total variation,
+                                                                              suggesting that the CMB had little effect on the data that we have.
+6.4 Discriminant validity
+
+    In order to find indicators with significant connections to one           6.6 Structural model (path analysis)
+construct and those with high loadings across several constructs,
+the authors looked at cross-loadings (Milhem et al., 2024). This                  It is a statistical “method used to explain the directed
+research sought to ascertain if the indicators loaded on a particular         relationships among variables.” Several linear regression, canonical
+latent variable more heavily than they did on other latent variables          correlation analysis, factor analysis, discriminant analysis, and
+in the same row. As a result, it suggests that indications or objects         many more complex sets of models are usually applied in a
+should be loaded more heavily on the principal construct than                 multivariate analysis of variance and covariance analyses such as
+on other constructs. Table 4 shows that all latent indicators in              MANOVA, ANOVA, and ANCOVA, among the models in the field
+each row have stronger loadings on their respective constructions             of statistical analysis (Tabachnick et al., 2013). After estimating
+
+
+
+Frontiers in Sustainability                                              11                                                          frontiersin.org
+Milhem et al.                                                                                                              10.3389/frsus.2025.1503423
+
+
+
+
+    FIGURE 3
+    Displays the outcomes of the structural model, including the R-squared R2 R2 values.
+
+
+
+
+the model, one can use structural equation modeling to assess the                and allows an estimation of the probable relevance and imprecision
+variable relationships. Hair et al. (2006) explain that “the structural          of the path coefficient (Chin, 1998).
+model provides a complete and comprehensive description of
+the relationships and covariances between the multiple variables
+being studied.” The model allows the researcher to develop                       7 Discussion
+detailed and rich portrayals of the complex processes within their
+subject area. Exogenous and endogenous factors, generally called                     The goal of the current study is to further our understanding
+independent and dependent variables, correspondingly relate to                   of how technology is adopted, in particular, how HRM systems
+one another, as the study results indicate. In general, a structural             built on environmentally friendly cloud computing are integrated
+model’s overall fit must be considered the relevant factor since its             into SMEs. Our study of the effects of organizational, technical, and
+postulated estimations with their coefficients, dimensions, route,               environmental variables on the adoption of sustainable technology
+and significance must be considered (Hair et al., 2006).                         in Bahrain seeks to advance existing understanding. The TOE
+    Therefore, the present study’s purpose was to research the                   framework, for example, is one existing framework that this inquiry
+combined effect of technological context, organizational context,                draws upon.
+environmental context, and individual context on the adoption                        Our research findings are consistent with other studies in
+of cloud computing-based human resource management by SMEs                       terms of the original hypothesis (H1) that technical considerations
+using PLS-SEM. From this unique setting of research, a research                  significantly impact the pace of adoption. The results of this
+model has been developed. The text is given with the hypothesis                  study corroborate other studies by Al-Sharafi et al. (2023) and
+model presented in Figure 2. This will provide the statistical                   Qasem et al. (2021), which underlined the influence of technology
+significance of the hypothesis model with the T-value using                      on organizational behaviors linked to adoption. The statistically
+the bootstrapping method shown in Figure 3. The bootstrapping                    significant P-value of 0.004 and the Beta-Value of 0.147 add to
+approach utilizes random sampling and replacement processes to                   the body of data supporting this prior research. As it focuses on
+create similar resamples to the actual data. The method followed in              the comparatively unknown area of sustainable cloud computing-
+the present study is bi-functional; it evaluates the reliability of data         based HRM in SMEs, with a special emphasis on developing
+
+
+
+Frontiers in Sustainability                                                 12                                                          frontiersin.org
+Milhem et al.                                                                                                                                      10.3389/frsus.2025.1503423
+
+
+
+
+TABLE 3 The results of the analysis for convergent validity and reliability.
+
+
+  Constructs                                                        Items                  OL                   CA                 CR                AVE                 VIF
+  Technological context                                             Compt1                0.839                 0.98              0.990              0.891              2.134
+
+                                                                    Compt2                0.873                                                                         2.356
+
+  Compt                                                             Compt3                0.826                0.902              0.928              0.719              2.045
+
+                                                                    Compt4                0.861                                                                         2.287
+
+                                                                    Compt5                0.841                                                                         2.176
+
+  Comp                                                              Comp1                 0.840                0.734              0.851              0.658              1.654
+
+                                                                    Comp2                 0.874                                                                         1.732
+
+                                                                    Comp3                 0.710                                                                         1.498
+
+  RA                                                                  RA1                 0.913                                                                         2.456
+
+                                                                      RA2                 0.900                                                                         2.389
+
+                                                                      RA3                 0.919                0.889              0.922              0.750              2.567
+
+                                                                      RA4                 0.715                                                                         1.789
+
+  Organizational context                                              TR1                 0.916                0.802              0.854              0.747              2.789
+
+                                                                      TR2                 0.617                                                                         1.234
+
+  TR                                                                  TR3                 0.959                0.915              0.933              0.740              3.012
+
+                                                                      TR4                 0.951                                                                         2.945
+
+                                                                      TR5                 0.810                                                                         2.098
+
+  TMS                                                                TMS1                 0.890                0.788              0.868              0.689              2.045
+
+                                                                     TMS2                 0.729                                                                         1.567
+
+                                                                     TMS3                 0.862                                                                         1.876
+
+  OZ                                                                  OZ1                 0.913                                                                         2.678
+
+                                                                      OZ2                 0.968                                                                         3.045
+
+                                                                      OZ3                 0.963                0.944              0.964              0.899              2.987
+
+  Environmental context                                               CP1                 0.613                0.886              0.907              0.673              1.345
+
+                                                                      CP2                 0.835                                                                         1.789
+
+                                                                      CP3                 0.817                0.766              0.853              0.595              1.654
+
+  CP                                                                  CP4                 0.798                                                                         1.567
+
+  TPP                                                                TPP1                 0.847                0.834              0.895              0.682              2.034
+
+                                                                     TPP2                 0.867                                                                         2.178
+
+                                                                     TPP3                 0.850                                                                         2.045
+
+                                                                     TPP4                 0.732                                                                         1.876
+
+  Individual context                                                  MI1                 0.837                0.798              0.881              0.711              1.789
+
+  MI                                                                  MI2                 0.852                                                                         1.876
+
+                                                                      MI3                 0.841                0.854              0.897              0.637              1.834
+
+  SEMs adoption of cloud computing-based HRM                         SMEs1                0.802                                                                         1.567
+
+                                                                     SMEs2                0.766                                                                         1.456
+
+                                                                     SMEs3                0.818                0.913              0.930              0.657              1.678
+
+                                                                     SMEs4                0.839                                                                         1.789
+
+                                                                     SMEs5                0.840                                                                         1.834
+
+                                                                     SMEs6                0.807                                                                         1.745
+                                                                                          0.798
+RA, Relative advantages; Comp, Complexity; Compt, Compatibility; TMS, Top management support; TR, Technology readiness; OZ, Organization size; CP, Competitive pressure; TPP, Trading
+partner pressure; MI, Manager innovativeness.
+
+
+
+
+Frontiers in Sustainability                                                              13                                                                         frontiersin.org
+Milhem et al.                                                                                                                                            10.3389/frsus.2025.1503423
+
+
+
+
+TABLE 4 Discriminate validity.
+
+
+                                  CP         Comp          Compt           EC          IC         OZ         OC       RA        SEMs         TMS        TPP         TR         TC
+  CP                              0.771
+
+  Comp                            0.372        0.811
+
+  Compt                            0.46        0.695          0.848
+
+  EC                              0.743        0.608          0.687        0.688
+
+  IC                              0.455        0.534          0.591        0.564     0.843
+
+  OZ                             −0.11         0.18           0.247        0.101     0.168        0.948
+
+  OC                              0.049        0.27           0.332        0.254     0.264        0.612      0.669
+
+  RA                              0.115        0.217          0.247        0.177     0.154        0.075      0.548   0.866
+
+  SEMs                            0.481        0.597          0.672        0.631     0.755        0.324      0.37    0.146        0.811
+
+  TMS                             0.021        0.205          0.141        0.109     0.113        0.362      0.337   0.054        0.137       0.83
+
+  TPP                             0.504        0.607          0.669        0.625     0.767        0.164      0.298   0.174        0.831      0.128      0.826
+
+  TR                              0.156        0.225          0.255        0.266     0.226        0.136      0.617   0.685        0.245      0.172       0.275      0.86
+
+  TC                              0.443        0.791          0.723        0.634     0.605        0.25       0.413   0.408        0.683      0.189       0.686     0.364       0.891
+The bold values in the table represent the square root of the Average Variance Extracted (AVE) for each construct. These values are used to assess discriminant validity, ensuring that each
+construct is distinct and explains more variance in its own indicators than in other constructs. Values in bold are placed along the diagonal of the table.
+
+TABLE 5 Hypothesized testing results.
+
+
+  Hypotheses                     Path                                                  Beta-Value (n = 280)                  ST       T-Value                    P-Values
+  H1                             Technological context -> SEMs                                       0.147                   0.051        2.869        0.004     Significant
+
+  H2                             Organizational context -> SEMs                                      0.127                   0.054        2.378        0.018     Significant
+
+  H3                             Environment context -> SEMs                                         0.587                   0.066        8.938        0.000     Significant
+
+  H4                             Individual context -> SEMs                                          0.126                   0.065        1.936        0.053     Non-significant
+
+
+
+
+countries like Bahrain, the present study offers a unique point                                   setting, where environmental constraints like market rivalry and
+of view. The argument made is that the focus should go                                            social sustainability standards appear to have a notably strong
+beyond only technology development and include the idea that                                      influence. By showing that environmental concerns in developing
+these technologies are superior to conventional HRM strategies                                    countries like Bahrain have the potential to function as influencing
+and sustainable.                                                                                  variables in supporting the adoption of sustainable technology, the
+     Regarding our second hypothesis (H2), the empirical data                                     current study builds on the research done by Low et al. (2011).
+supports the findings reached by Qasem et al. (2020) and Khayer                                        A P-value of 0.053 indicates that the findings of our
+et al. (2020), as shown by a Beta-Value of 0.127 and a P-Value                                    investigation did not support the fourth hypothesis (H4) with
+of 0.018. This earlier research emphasized the importance of                                      regard to statistical significance. This result contradicts the
+organizational internal elements. Our research’s contribution is                                  assertions made by Nassoura and Hassan (2021) and Alshamaila
+distinguished by its sophisticated viewpoint. By highlighting the                                 et al. (2013). The aforementioned discrepancy provides an
+critical importance of top management support and technology                                      intriguing avenue for further research. The aforementioned claim
+preparedness in the particular context of Bahraini SMEs, we                                       spurs academics to reconsider whether established frameworks,
+further explore the topic in our study. It is proposed that these                                 like the TOE model, are adequate for fully encapsulating the
+organizations serve as more than just catalysts for developing                                    complex dynamics of technology adoption in developing nations.
+sustainable HRM systems based on cloud computing; rather, they                                    The empirical data we have acquired suggests that in collaborative
+may be seen as necessary prerequisites. We can better understand                                  societies like Bahrain, the value of management inventiveness
+this phenomenon by developing a nuanced understanding of the                                      and skill sets may be lowered. This discovery casts doubt on the
+influence of organizational context on technology adoption. This                                  generally held belief that ideas that have been created and tested
+will help us implement effective managerial practices within SMEs.                                largely in Western contexts may be used everywhere.
+     A Beta-Value of 0.587 and a P-Value of 0.000 show that the                                        Finally, the current study aims to add to and improve the
+findings in our study strongly support our third hypothesis (H3).                                 body of literature by adding sophisticated viewpoints and actual
+Large data strongly suggests that environmental influences have a                                 data gained from the particular setting of a developing country.
+large impact, a noteworthy point that Low et al. (2011) also noted.                               The current study highlights the complex factors that go into
+Our work stands out for its thorough analysis of the Bahraini                                     technology adoption, especially when it comes to sustainable
+
+
+
+
+Frontiers in Sustainability                                                                  14                                                                            frontiersin.org
+Milhem et al.                                                                                                            10.3389/frsus.2025.1503423
+
+
+
+
+cloud computing-based HRM systems in SMEs. Our research                           A challenging theoretical issue raised by the disconfirmation
+offers a comprehensive assessment of the interactions between                 of the fourth hypothesis (H4) is whether existing frameworks like
+sustainability, the SME sector, and geographic location in line               the TOE model can be used widely. When compared to earlier
+with relevant literature on the adoption of technology. Individuals’          studies, our research results show inconsistencies, which calls for
+nuanced contributions not only add to the body of existing                    a comprehensive reevaluation and possible model improvement.
+knowledge but also provide an impetus for future scientific projects          This is especially relevant to their capacity to thoroughly
+aimed at improving our understanding of how technology is                     address the complex patterns of technology adoption in scenarios
+adopted in diverse circumstances. The specific features of our                encompassing various economic and cultural circumstances.
+research fill important gaps in the corpus of existing knowledge                  The current study acts as a spur for the development
+and lay the groundwork for further research that might lead                   of ideas on the adoption of technology. It fervently supports
+to the development of thorough and contextually appropriate                   the inclusion of factors that are unique to organizational and
+theoretical frameworks. Overall, the research results, in summary             geographic contexts. By offering a thorough examination of the
+in Table 5, highlight the significant role technology, organizational,        complex interaction between technology advances, organizational
+and environmental forces play in the implementation of cloud                  structures, and environmental variables in determining the patterns
+HRM systems.                                                                  of adoption behaviors, the current study adds to the body of
+                                                                              scholarly literature. Notably, this study illuminates a situation that
+                                                                              has received less attention, namely SMEs operating in emerging
+8 Implications of the study                                                   markets like Bahrain.
+
+8.1 Theoretical implications
+                                                                              8.2 Managerial implications
+    Our study offers a wide range of significant implications
+in the area of theoretical contributions that go beyond the                        From a management standpoint, the findings of our inquiry
+simple affirmation of preexisting frameworks. Our main point is               offer a wealth of complex insights that go beyond what is currently
+that current theoretical frameworks, including the Technology-                known, particularly in the area of SMEs in developing countries like
+Organization-Environment framework, must be updated or                        Bahrain adopting new technologies.
+expanded in light of the adoption landscape in emerging nations.                   The available empirical data provide solid support for the idea
+The limitations of existing adoption theories are highlighted by              that technical compatibility is vital for aiding a successful adoption
+the actual data from the study on small and medium-sized firms                process. It is imperative that those in leadership roles pay serious
+(SMEs) in Bahrain. As a result, this calls for academics to examine           attention to how possible technologies match the existing systems
+and even modify these models to fit the regional context. In order            and procedures in place, especially those in charge of making
+to meet particular economic and socio-cultural situations, it is              strategic decisions within their businesses. It is important to give
+crucial to construct localized and complex adaptations of these               the issue of alignment the status of a strategic objective rather than
+frameworks, as stated in the aforementioned statement.                        just an operational detail. The achievement of a high degree of
+    Our finding of the decreasing importance of individual                    compatibility not only makes the adoption process go more quickly
+management innovation in Bahraini SME’s adoption of technology                but also helps to maximize return on investment, successfully
+has important theoretical implications as well. The existing corpus           achieving the organization’s two goals.
+of information, which predominantly focuses on the significance                    Our analysis further emphasizes the critical need for senior
+of management or individual agencies in adoption choices,                     management assistance throughout the technology adoption
+considerably diverges from this discovery. Due to the large disparity         lifecycle. Our research suggests that top-level management
+shown in this domain, an academic study has been conducted                    support is, in fact, a necessary condition for the effective
+about the incorporation of regional and organizational cultural               execution of a specific project, in contrast to earlier perspectives
+characteristics as moderating or mediating variables. Future                  that saw managerial support as beneficial but not essential.
+theoretical studies should focus on how cultural elements could               The aforementioned finding has important ramifications for
+perhaps encourage the distribution or modification of decision-               management choice-making since it shows that long-term
+making authority from a centrally located management body to a                commitment and support from top-level executives are not only
+more distributed or decentralized agency.                                     preferred but also absolutely essential. Therefore, to secure the
+    The investigation of environmental variables and their function           crucial support needed for this goal, businesses must place the
+as influencing elements in the adoption trajectory is given                   highest priority on executive education and sensitization activities
+considerable attention in our study. We highly support the                    that focus on the deployment of sustainable cloud computing-based
+enhancement of present theoretical frameworks by including                    HRM systems.
+factors that explicitly take into account these environmental                      Additionally, it has been established that the environmental
+catalysts in light of our study findings, which highlight the                 context, particularly the impact of market forces related
+tremendous effect of competitive forces and market sustainability             to sustainability, has a substantial role in influencing
+dynamics. When doing research on SMEs in emerging economies,                  adoption behaviors. Managers must be acutely aware of the
+this element is very important. External variables have the                   external competitive environment and the rising importance
+potential to have a large, sometimes disproportionate impact in               of sustainability as a differentiator in the marketplace.
+certain situations.                                                           Organizations may gain market share by purposely linking
+
+
+
+Frontiers in Sustainability                                              15                                                           frontiersin.org
+Milhem et al.                                                                                                            10.3389/frsus.2025.1503423
+
+
+
+
+their technology adoption plans with sustainability goals rather                 Our research findings also emphasize the organizational
+than being exclusively led by normative demands to adopt                    environment as being of particular significance and the need for
+sustainable practices.                                                      businesses to implement and invest in specialist staff training
+    Our research underlines complex inter-relationships amongst             initiatives and programs that would start building capacity. In
+technological, organizational, environmental, and individual                this respect, the actual development of technical skills should
+factors. This then underlines the importance of managers taking             not be the sole focus of such projects; instead, it should address
+holistic views when considering any adoption landscape. Too                 a broad spectrum of other issues, including but not limited to
+narrowly focusing on one factor or another will likely yield                organizational preparation and management of change. Specialized
+less than optimal outcomes. Sometimes, a manifestly superior                modules must be designed to manage such complex and unique
+technology faces unfavorable deployment in management figures               sustainable cloud computing-based HRM systems. The addition of
+or other influences at play. Only when an all-inclusive and multi-          such modules will be specially designed to handle the complexity
+disciplined plan has been developed for the variables relevant              involved, ensuring smooth transitioning from both a technological
+to the technology impact realignment is it considered optimal               and human resources perspective. Addressing and closing the
+for deployment.                                                             knowledge and skill gaps will minimize any potential barriers to
+    The study offers managers an impressively rich and detailed             such a system’s successful deployment and usage.
+insight into the landscape of technology adoption. It highlights                 The direct contribution of sustainable cloud computing-based
+the numerous considerations that need to be made during                     HRM systems to environmental objectives has been reducing C02
+strategic judgments. From our findings, a multidimensional                  emissions by better exploiting the servers and reducing energy use
+approach becomes necessary in an effort to achieve competitive              compared to traditional IT infrastructure. These systems digitize
+advantage and sustainable organizational resilience through                 previously paper-based processes, hence minimizing the usage of
+effective technology adoption.                                              paper and contributing to the minimization of paper waste. By
+                                                                            enabling virtual work and collaboration, the need for travel is
+                                                                            reduced, hence reducing the environmental footprint of SMEs.
+8.3 Practical implications                                                       Socially, these systems have improved inclusion and equity
+                                                                            by offering flexible work environments to employees and the
+    The present study will comprehensively address the adoption             ability to train and develop from home. They enhance workforce
+of technology in terms of the adoption of sustainable cloud                 engagement and satisfaction through smooth HR processes in areas
+computing-based Human Resource Management (HRM)                             like payroll, benefits management, and performance appraisals.
+systems amongst small and medium-scale enterprises in                       Further, they enable SMEs to align their operations with broader
+emerging economies.                                                         societal sustainability expectations and enhance their reputation as
+    Through the digitization of HR processes, for instance,                 socially responsible organizations.
+cloud-based HRM systems minimize paper and physical                              Our findings also indicate that environmental issues,
+resource usage, thereby directly reducing or minimizing their               particularly sustainability, affect the SMEs. Given such a reality, it is
+contribution to environmental degradation and increasing                    opportune for enterprises to consider undertaking comprehensive
+ecological sustainability. In addition, these systems encourage             sustainability audits, either internally or with external experts. In
+remote working and flexibility in work arrangements, thus                   undertaking such audits, an organization has a unique opportunity
+reducing carbon emissions produced during daily movement to                 to play two roles. On one hand, internally, these audits help an
+and from work. From a social perspective, increased transparency            organization’s ecological effects to be quantified and understood,
+and inclusiveness in human resources support the equity and                 which improves their grasp of the issue. On the other hand,
+diversity of employees in the workplace, accordingly satisfying             these audits can increase a company’s market position externally
+corporate social responsibility objectives.                                 in a competitive environment that prioritizes environmental
+    In-depth research conducted through the present study                   responsibility. The practice of such audits can have a twin
+provides valuable information, though it has significant practical          advantage: first, a competitive edge, and second, serving as a
+implications for several stakeholders comprising executives of              proactive outlet vis-à-vis consumer bases, regulatory authorities,
+organizations and operational workforces.                                   and possible business partners since there is now a growing
+    The study’s main point of focus is the importance of filling            stakeholder focus on sustainable business practices.
+in an intensive review of infrastructure. This assessment will                   The question of sustainable technology for SMEs has
+determine the compatibility between the proposed sustainable                to be effectively communicated proactively in the present
+HRM systems and the prevailing organizational structures. To                market environment, where increasing emphasis is placed on
+realize this objective, SMEs are advised to use tested methods              sustainability. A proactive communication strategy could allow
+such as PESTLE (Political, Economic, Social, Technological,                 differentiation and pass on some stringent trade and regulatory
+Legal, and Environmental) studies. By doing so, companies                   requirements by serving as a unique selling proposition. Hence, the
+can avoid potential roadblocks in the operationalization and                said growth brings new opportunities for business partnerships and
+integration stages by addressing issues in advance, thus making             market expansion.
+overall implementation more effective and affordable. The most                   Below, the results of our research project shed a
+influencing factor is the alignment of advanced planning with the           multidimensional light on the problems created around the
+strategic importance of technology compatibility, as depicted in our        effort to establish sustainable HRM systems in less developed
+case study.                                                                 countries. This treasure trove of insights furnishes managers
+
+
+
+Frontiers in Sustainability                                            16                                                              frontiersin.org
+Milhem et al.                                                                                                           10.3389/frsus.2025.1503423
+
+
+
+
+with conceptual perspectives, and intervention means to                     financial flexibility for an SME to use elsewhere (Maqueira Marín
+effectively translate such concepts and further a more sustainable          et al., 2022; Abdalla et al., 2024).
+and competitive corporate world. Organizations seeking to                        Automation also enhances operational efficiency by reducing
+advance their strategic positioning concerning short-term                   the administrative load on HR teams. For example, the study of
+and long-term success are well served by considering these                  Praba et al. (2025) shows a 25% reduction in operational costs due
+valuable outcomes.                                                          to streamlined processes such as payroll automation, performance
+                                                                            management, and recruitment tracking. Automation frees HR
+                                                                            teams to devote time to strategic initiatives rather than routine
+8.3.1 Implications of cloud-based HRM systems                               administrative tasks.
+on sustainability                                                                Apart from this, scalability is another advantage for SMEs when
+     The cloud-based HRM system dramatically contributes to                 using cloud-based HRM systems. The pay-as-used pricing model
+environmental sustainability by saving energy and reducing carbon           helps the business pay only for the resources used, thus not wasting
+emissions. Cloud computing consolidates an organization’s IT                money on redundant resources. According to this model, it shrinks
+infrastructure; hence, SMEs do not need separate servers, saving            40% of the annual IT expenses, which is a critical benefit for small
+energy resources spent in operating and cooling the servers. Based          businesses operating in a tight financial situation (Huang et al.,
+on empirical research, Radhika et al. (2024) highlighted that energy        2020).
+consumption decreased by 30% when firms shifted from on-                         The last point is the ability to offer work from home because
+premises-based systems to cloud-based ones. In this way, it directly        of cloud systems, thereby further reducing costs since allowing
+contributes to environmental concerns in energy utilization faced           employees to work from home reduces costs associated with office
+by resource-constrained SMEs.                                               maintenance, utility compensations, and travel compensation. For
+     Another critical outcome of cloud human resources                      example, it has been found by Yenugula et al. (2024) that the
+management systems is reducing paper waste. Digitizing HR                   facilitation of work from home through a cloud-based approach
+processes, such as payroll, employee records, and recruitment               results in SMEs saving, on average, 20% annually, an actual practical
+workflows, can help SMEs reduce paper use. According to                     demonstration of the monetary benefit of using such technology.
+Dong and Salwana (2022), organizations adopting a cloud-                         The above quantitative findings point to general trends
+based HRM solution reduced paper consumption by 70%,                        supported by existing literature; however, they cannot show
+showcasing the ecological benefits of the digital transformation of         the full variety of financial situations that SMEs may face in
+operational workflows.                                                      different contexts. Further empirical research is needed to provide
+     Besides, cloud computing contributes to carbon footprint               more accurate and context-specific evidence regarding the cost-
+reduction by improving server utilization and reducing dependence           saving effects of cloud-based HRM systems, especially in different
+on personal, power-consuming IT infrastructures. For example,               economic and operational settings.
+Aldossary and Alharbi (2021) found that organizations with cloud
+systems reduced their IT-related CO2 emissions by 20%. These
+findings indicate the potential for cloud technology to enable              9 Limitations and future research
+SMEs to pursue environmentally conscious operations without
+sacrificing efficiency.                                                         The study, like all empirical research, has its limitations. First,
+     Furthermore, cloud systems enhance efficiency in the resources         the research is confined to SMEs in Bahrain, which may limit
+applied because of scalability. Resources applied through the cloud         the generalizability of the findings to other contexts or larger
+tend to scale up and down depending on changes in business                  enterprises. Second, the study focuses specifically on the adoption
+demand; this reduces IT resource over-provisioning, as noted by             of sustainable cloud computing-based HRM systems, leaving out
+Prasad et al. (2023), and further develops the sustainability merits        other forms of technology or sustainability measures that may also
+present in cloud adaption.                                                  be relevant. Third, while the study utilizes the TOE framework, it
+     Quantitative data presented above rely on existing studies, but        may not capture all the variables or influences that are specific to the
+it is important to recognize that certain percentages represent             Bahraini context or the domain of cloud computing-based HRM.
+general trends rather than specific, universally applicable data.           Lastly, the non-significant result regarding the role of individual
+More empirical research is needed to develop more nuanced                   context in technology adoption might be due to the limitations of
+and context-bound evidence regarding what implications cloud-               the research design or measurement instruments, rather than an
+based HRM systems have for sustainability, particularly for SMEs            accurate reflection of real-world phenomena.
+operating within emerging markets.                                              The study highlights the critical contribution of adopting
+                                                                            sustainable cloud computing-based HRM systems in SMEs to
+                                                                            achieving the SDGs. By integrating such systems, SMEs can achieve
+8.3.2 Implications of cloud-based HRM systems                               most of the environmental, economic, and social sustainability
+on cost reduction                                                           objectives. For example, environmental benefits, such as carbon
+    One of the most tangible benefits of cloud-based HRM systems            emissions reduction and minimal use of paper, fall directly
+for SMEs is cost efficiency, brought by the absence of major                under SDG 13 (Climate Action) and SDG 12 (Responsible
+upfront investments in IT infrastructure. Empirical studies confirm         Consumption and Production; Ure, 2024). By promoting remote
+that the application of cloud-based HRM solutions leads to a                work, digital collaboration, and energy-efficient IT infrastructure,
+35% reduction in infrastructure costs, thus eventually providing            SMEs contribute to reducing their ecological footprint.
+
+
+
+Frontiers in Sustainability                                            17                                                             frontiersin.org
+Milhem et al.                                                                                                            10.3389/frsus.2025.1503423
+
+
+
+
+     Economically, this study’s findings have shown how the cost-             our understanding of technology adoption complexities in
+effective cloud computing solutions adopted by SMEs enable them               developing countries.
+to manage their resources well. These also ensure alignment with
+SDG 8 (Monaco, 2024) through enhanced productivity and long-
+term financial viability for SMEs. Cloud computing is, in turn,               10 Conclusion
+scalable; therefore, such growth by SMEs can be absorbed without
+exponential increases in costs. This will ensure that sustainable                  The Technology-Organization-Environment framework, the
+economic growth is developed.                                                 fundamental theoretical framework that served as the research’s
+     These systems socially endorse inclusive practices, such                 direction, must be reviewed in light of the study’s findings. This
+as training from a distance and acquiring different types of                  framework was used to investigate the complex factors affecting the
+talents, directly contributing to SDG 4 (Quality Education) and               adoption of sustainable cloud computing-based Human Resource
+SDG 5 (Gender Equality; Leal Filho et al., 2023; Saini et al.,                Management systems inside Small and Medium-sized Enterprises
+2023). Automation and transparency in HR processes contribute                 (SMEs) in Bahrain. The adoption of this theoretical framework gave
+to employee satisfaction and engagement, building equitable                   rise to a rigorous intellectual framework that made it possible to
+workplaces that foster long-term social sustainability. These                 evaluate all of the components of technology, organizations, and the
+insights underline the transformative role of cloud computing in              environment. Additionally, by using a structured data-theoretical
+enabling SMEs to contribute toward larger societal goals while                technique, the study was given the analytical rigor needed for
+enhancing organizational resilience meaningfully.                             a thorough investigation of these areas. As a result, the TOE
+     Given these limitations, several avenues for future research             framework served as both a conceptualization tool for our research
+emerge. To address the issue of generalizability, future studies              questions and an interpretive framework for our empirical findings.
+could expand the geographic scope to include SMEs in other                         A thorough investigation was carried out using the precise use
+developing countries or even compare them with those in                       of Partial Least Squares Structural Equation Modeling (PLS-SEM),
+developed nations. Comparative research could also be conducted               which produced notable findings that both verify and call into
+across various sectors to see if the findings hold in different               question pre-existing academic frameworks. Contrary to popular
+industry contexts.                                                            opinion, our data showed that the degree of individual management
+     Other areas that further research could pursue might                     innovation did not have a statistically significant influence on
+include an even more refined examination of how different                     the adoption of technology. This departure from accepted ideas
+contributions of cloud-based HRM systems contribute to the                    denotes a change in the dominant viewpoints in this area of
+realization of sustainability goals. For instance, these could provide        research. In sharp contrast, the study’s findings revealed that when
+quantifications of reduced energy use or carbon emissions as made             it comes to influencing methods for technology adoption, external
+possible through these systems or explore their role in workforce             environmental factors and technology readiness play a dominant
+development and equity enhancement. This can add further                      and significant impact. The aforementioned findings add to the
+empirical evidence toward the development of links between                    body of research by emphasizing the value of taking contextual
+technological innovation and sustainable development.                         considerations into account when putting general ideas like the
+     In terms of theoretical advancement, there is a need                     TOE framework into practice.
+for models that are specifically tailored to the SME context                       The study findings offer a strong foundation for scholarly
+in developing countries. For example, incorporating cultural                  debates and real-world applications about the critical importance
+variables or organizational ethos could provide a more nuanced                of sustainability in HRM. The study underlines that sustainability
+understanding of the technology adoption process. This could also             has changed from being an ethical issue to an imperative need for
+include the creation or modification of frameworks to incorporate             enterprises. As a result, this publication serves as a useful tool for
+environmental catalysts as major factors, especially in contexts              human resources specialists and organizational leaders who want
+where external pressures significantly affect technology adoption             to include sustainable practices in their operational strategy.
+decisions. Further research could delve deeper into the non-                       However, it is important to recognize the limitations of our
+significant findings related to individual contexts. Qualitative              study, which principally result from its constrained geographic
+studies could be employed to explore this in detail, aiming                   reach and use of a convenience sample approach. The current study
+to understand why managerial innovativeness may not be a                      makes a significant contribution to filling the knowledge vacuum
+significant factor in Bahraini SMEs and whether this is a                     that exists in the area of technology adoption in emerging countries.
+cultural or organizational phenomenon. Additionally, longitudinal             Although some restrictions were faced over the course of this study
+studies could be immensely beneficial. Tracking the adoption                  project, it is vital to acknowledge them. These limits, in turn, point
+process over an extended period could yield insights into how                 to possible areas that demand more research and development in
+attitudes and challenges evolve, providing a more dynamic                     subsequent studies. This specific line of research has the potential
+understanding of technology adoption within SMEs. This would                  to be expanded in the future to include new cultural, geographical,
+be valuable for both scholars and practitioners aiming to                     or industrial situations. These investigations would significantly
+facilitate smoother adoption processes in similar contexts. Finally,          improve the overall generalizability and applicability of the results
+while our study offers valuable insights into the adoption of                 we have so far discovered.
+sustainable cloud computing-based HRM in Bahraini SMEs,                            Our study adds significantly to the ongoing scholarly
+there is much that future research could build upon to deepen                 conversation in a number of ways. The focus of the current study is
+
+
+
+
+Frontiers in Sustainability                                              18                                                           frontiersin.org
+Milhem et al.                                                                                                                                        10.3389/frsus.2025.1503423
+
+
+
+
+on how SMEs that operate in emerging economies specifically relate                              Conceptualization, Project administration, Resources, Supervision,
+to the TOE framework. The framework’s theoretical applicability                                 Writing – original draft. NA: Funding acquisition, Investigation,
+and usefulness in this particular context are improved by this                                  Project administration, Supervision, Writing – review & editing.
+expansion. This resource also provides ideas that have been                                     SA: Funding acquisition, Investigation, Project administration,
+supported by empirical evidence, which helps us understand                                      Resources, Supervision, Writing – review & editing.
+the complex processes that affect the adoption of sustainable
+technology on a more complex level. As a result, it is a useful tool for
+decision-makers in government and industry, providing them with                                 Funding
+important information. Further scholarly inquiry into the complex
+web of factors that influence the process of technology innovation                                  The author(s) declare that no financial support was received for
+and adoption within different organizational settings is encouraged                             the research, authorship, and/or publication of this article.
+by the discovery of unanticipated patterns and connections in
+this context.
+                                                                                                Conﬂict of interest
+Data availability statement                                                                         The authors declare that the research was conducted in the
+                                                                                                absence of any commercial or financial relationships that could be
+    The original contributions presented in the study are included                              construed as a potential conflict of interest.
+in the article/supplementary material, further inquiries can be
+directed to the corresponding authors.
+                                                                                                Generative AI statement
+Author contributions                                                                                The author(s) declare that no Gen AI was used in the creation
+                                                                                                of this manuscript.
+    MM: Conceptualization, Formal analysis, Funding acquisition,
+Investigation, Methodology, Project administration, Resources,
+Supervision, Writing – original draft, Writing – review &                                       Publisher’s note
+editing. MMA: Conceptualization, Formal analysis, Investigation,
+Methodology, Resources, Visualization, Writing – original                                           All claims expressed in this article are solely those of the
+draft. AA: Conceptualization, Data curation, Formal analysis,                                   authors and do not necessarily represent those of their affiliated
+Funding acquisition, Investigation, Methodology, Resources,                                     organizations, or those of the publisher, the editors and the
+Software, Validation, Visualization, Writing – original draft,                                  reviewers. Any product that may be evaluated in this article, or
+Writing – review & editing. QA: Conceptualization, Methodology,                                 claim that may be made by its manufacturer, is not guaranteed or
+Project administration, Resources, Writing – original draft. MA:                                endorsed by the publisher.
+
+
+
+
+References
+   Abdalla, R. A., Ramayah, T., Sankar, J. P., Hidaytalla, L. A., and John,                     sustainable organizational performance in Jordan,” in The AI Revolution: Driving
+J. A. (2024). Enhancing efficiency: the impact of cloud computing adoption                      Business Innovation and Research (Cham: Springer Nature Switzerland), 191–199.
+on small and medium enterprises performance. Emerg. Sci. J. 8, 2431–2448.
+                                                                                                   AlBenJasim, S., Dargahi, T., Takruri, H., and Al-Zaidi, R. (2023). Fintech
+doi: 10.28991/ESJ-2024-08-06-017
+                                                                                                cybersecurity challenges and regulations: Bahrain case study. J. Comput. Inf. Syst. 64,
+   Abdullah, I., Mehmood, F., Shahzadi, I., Waseem, S., and Mirza, B. (2020).                   1–17. doi: 10.1080/08874417.2023.2251455
+Comparative analyses of chloroplast genomes among four Morus species: Genome
+                                                                                                   Albusaidi, M. J. K., Islam, M. K., Jaafar, A. H., Ateeq, A. A. (2024).
+structure and evolution. Sci. Rep. 10, 1–14. doi: 10.1038/s41598-020-65315-0
+                                                                                                “Impact of workplace deviance dimensions on job satisfaction among academics
+   Abdullah, P. Y., Zeebaree, S. R., Jacksi, K., Zebari, R. R. (2020). An HRM system for        of universities in Oman via top management support: the mediating role.” in
+small and medium enterprises (SMEs) based on cloud computing technology.                        The AI Revolution: Driving Business Innovation and Research (Springer), 767–786.
+Int. J. Res. Granthaalayah 8, 56–64. doi: 10.29121/granthaalayah.v8.i8.2020.                    doi: 10.1007/978-3-031-54383-8_59
+926
+                                                                                                   Al-Dmour, R. H., Masa’deh, R., and Obeidat, B. Y. (2017). Factors influencing the
+   Abed, S. S. (2020). Social commerce adoption using TOE framework: an                         adoption and implementation of HRIS applications: are they similar? Int. J. Bus. Innov.
+empirical investigation of Saudi Arabian SMEs. Int. J. Inform. Manage. 53:102118.               Res. 14, 139–167. doi: 10.1504/IJBIR.2017.086276
+doi: 10.1016/j.ijinfomgt.2020.102118
+                                                                                                   Aldossary, M., and Alharbi, H. A. (2021). Towards a green approach for
+   Aboelmaged, M. G. (2014). Predicting e-readiness at firm-level: an analysis                  minimizing carbon emissions in fog-cloud architecture. IEEE Access 9, 131720–131732.
+of technological, organizational and environmental (TOE) effects on e-                          doi: 10.1109/ACCESS.2021.3114514
+maintenance readiness in manufacturing firms. Int. J. Inf. Manag. 34, 639–651.                      Al-Hujran, O., Al-Lozi, E. M., Al-Debei, M. M., and Maqableh, M. (2018).
+doi: 10.1016/j.ijinfomgt.2014.05.002                                                            Challenges of cloud computing adoption from the TOE framework perspective. Int.
+   Ahmad, K., Ayyash, M. M., and Al-Qudah, O. M. A. (2018). The effect                          J. Bus. Res. 14, 77–94. doi: 10.4018/IJEBR.2018070105
+of culture values on consumer intention to use Arabic e-commerce websites                          Ali, O., Soar, J., Yong, J., McClymont, H., and Angus, D. (2015). “Collaborative
+in Jordan: an empirical investigation. Int. J. Bus. Inf. Syst. 29, 155–182.                     cloud computing adoption in Australian regional municipal government:
+doi: 10.1504/IJBIS.2018.094691                                                                  An exploratory study,” in 2015 IEEE 19th International Conference on
+   Alastal, A. Y. M., Ateeq, A., Dawwas, M. I., Alzoraiki, M., and Milhem, M.                   Computer Supported Cooperative Work in Design (CSCWD). IEEE, 540–548.
+(2024). “Convergence of management and environmental control systems: a key to                  doi: 10.1109/CSCWD.2015.7231017
+
+
+
+
+Frontiers in Sustainability                                                                19                                                                         frontiersin.org
+Milhem et al.                                                                                                                                               10.3389/frsus.2025.1503423
+
+
+
+
+   Alkhalil, A., Sahandi, R., and John, D. (2017). An exploration of the                               Bristy, S. S., Azam, T., Islam, M. M., Rahman, R., Reza, A. W., and Arefin, M. S.
+determinants for decision to migrate existing resources to cloud computing using an                 (2023). “Green cloud computing: a sustainable energy-efficiency approach for business
+integrated TOE-DOI model. J. Cloud Computing 6, 1–20. doi: 10.1186/s13677-016-                      rapidity and the environment,” in International Conference on Intelligent Computing
+0072-x                                                                                              and Optimization. (Hua Hin: Springer), 312–327. doi: 10.1007/978-3-031-50151-7_30
+   Al-Mutawa, B., and Saeed Al Mubarak, M. M. (2024). Impact of cloud                                  Chau, P. Y. K., and Tam, K. Y. (1997). Factors affecting the adoption of open
+computing as a digital technology on SMEs sustainability. Compet. Rev. 34, 72–91.                   systems: an exploratory study. MIS Quarterly 21, 1–24. doi: 10.2307/249740
+doi: 10.1108/CR-09-2022-0142
+                                                                                                      Chin, W. W. (1998). The partial least squares approach for structural equation
+   Al-Qirim, N. (2007). The adoption of eCommerce communications and                                modeling. Modern Methods for Business Research 8, 295–336.
+applications technologies in small businesses in New Zealand. Electron. Commer. Res.
+                                                                                                       Chong, A. Y. L., Ooi, K. B., Lin, B., and Tang, S. Y. (2009). Influence of
+Appl. 6, 462–473. doi: 10.1016/j.elerap.2007.02.012
+                                                                                                    interorganizational relationships on SMEs’ e-business adoption. Internet Res. 19, 313–
+   Alshamaila, Y., Papagiannidis, S., and Li, F. (2013). Cloud computing adoption                   331. doi: 10.1108/10662240910965379
+by SMEs in the north east of England: a multi-perspective framework. J. Enterp. Inf.
+                                                                                                       Cloete, E., Courtney, S., and Fintz, J. (2002). Small businesses’ acceptance and
+Manag. 26, 250–275. doi: 10.1108/17410391311325225
+                                                                                                    adoption of e-commerce in the Western-Cape Province of South-Africa. Electr. J. Inf.
+   Al-Sharafi, M. A., Iranmanesh, M., Al-Emran, M., Alzahrani, A. I., Herzallah, F.,                Sys. Dev. 10, 1–13. doi: 10.1002/j.1681-4835.2002.tb00062.x
+and Jamil, N. (2023). Determinants of cloud computing integration and its impact
+                                                                                                       Columbres, M. R. C., and Victoriano, J. M. (2024). Cloud sustainability: an analysis
+on sustainable performance in SMEs: an empirical investigation using the SEM-ANN
+                                                                                                    and assessment of the plateau prediction of 2023 gartner hype cycle for emerging
+approach. Heliyon 9:e16299. doi: 10.1016/j.heliyon.2023.e16299
+                                                                                                    technologies. Int. J. Sustain. Dev. Plan. 19, 2881–2892. doi: 10.18280/ijsdp.190807
+    Al-Shboul, M. A. (2019). Towards better understanding of determinants logistical
+                                                                                                        Conte, F., and Siano, A. (2023). Data-driven human resource and data-driven
+factors in SMEs for cloud ERP adoption in developing economies. Bus. Process Manag.
+                                                                                                    talent management in internal and recruitment communication strategies: an empirical
+J. 25, 887–907. doi: 10.1108/BPMJ-01-2018-0004
+                                                                                                    survey on Italian firms and insights for European context. Corp. Commun. 28, 618–637.
+   Al-Tahitah, A. N., Al-Mekhlafi, A. A., Omar, M. F. H., Omar, H., Ateeq, A.                       doi: 10.1108/CCIJ-02-2022-0012
+A., and Al-Awliqi, R. M. (2023). Developing a model incorporating green HRMP
+                                                                                                      Damerji, H., and Salimi, A. (2021). Mediating role of digital transformation in the
+and environmental awareness for sustainable performance in Malaysian logistics
+                                                                                                    impact of big data analytics capabilities on SMEs performance. Technol. Forecast. Soc.
+companies: conceptual paper. IJIHRM 4, 1–6. doi: 10.46988/IJIHRM.04.02.2023.001
+                                                                                                    Change 162:120399. doi: 10.1016/j.techfore.2020.120399
+   Alzoraiki, M., Ahmad, A. R., Ateeq, A., and Milhem, M. (2024). The role of
+                                                                                                        Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance
+transformational leadership in enhancing school culture and teaching performance
+                                                                                                    of information technology. MIS Q. 13, 319–340. doi: 10.2307/249008
+in Yemeni public schools in Frontiers in Education. Front. Media SA 9:1413607.
+doi: 10.3389/feduc.2024.1413607                                                                         Dayour, F., Adongo, S., and Kosoe, E. A. (2023). The boon and bane of ICT services
+                                                                                                    to small and medium-sized tourism and hospitality enterprises (SMTHEs) in northern
+   Amini, S., Pushkarev, D., Christiansen, L., Kostem, E., Royce, T., Turk,
+                                                                                                    Ghana. Small Enterp. Res. 30, 255–273. doi: 10.1080/13215906.2023.2217800
+C., et al. (2014). Haplotype-resolved whole-genome sequencing by contiguity-
+preserving transposition and combinatorial indexing. Nat. Genet. 46, 1343–1349.                        Dong, X., and Salwana, E. (2022). The impact of cloud-based human resource and
+doi: 10.1038/ng.3119                                                                                supply chain management systems on the performance of multinational organizations.
+                                                                                                    Kybernetes 51, 2030–2043. doi: 10.1108/K-05-2021-0363
+    Ardebili, A., Latifian, A., Aziz, C. F., BinSaeed, R. H., Alizadeh, S. M., and Kostyrin,
+E. V. (2023). A comprehensive and systematic literature review on the employee                        Du Plessis, M., and De Wet Fourie, L. (2016). Exploring the impact of
+attendance management systems based on cloud computing. J. Manag. Organ. 29,                        communication during the implementation of change in an organization. J. Commun.
+679–696. doi: 10.1017/jmo.2022.63                                                                   Manag. 20, 362–382. doi: 10.1108/JCOM-07-2015-0058
+   Ashrafuzzaman, M. (2024). The impact of cloud-based management information                          Dwivedi, Y. K., and Mustafee, N. (2010). It’s unwritten in the cloud: the technology
+systems on HRM efficiency: an analysis of small and medium-sized enterprises                        enablers for realising the promise of Cloud Computing. J. Enterp. Inf. Manag. 23,
+(SMEs). Academic Journal on Artificial Intelligence, Machine Learning, Data Science                 673–679. doi: 10.1108/17410391011088583
+and Management Information Systems 1, 40–56. doi: 10.69593/ajaimldsmis.v1i01.124
+                                                                                                      Falk, R. F., and Miller, N. B. (1992). A Primer for Soft Modeling. University of
+   Asiaei, A., and Rahim, N. Z. A. (2019). A multifaceted framework for adoption                    Akron Press.
+of cloud computing in Malaysian SMEs. J. Sci. Technol. Policy Manag. 10, 708–750.
+                                                                                                       Fawehinmi, O., Aigbogun, O., and Tanveer, M. I. (2024). “The role of industrial
+doi: 10.1108/JSTPM-05-2018-0053
+                                                                                                    revolution 5.0 in actualizing the effectiveness of green human resource management,”
+   Awaysheh, F. M., Aladwan, M. N., Alazab, M., Alawadi, S., Cabaleiro, J. C., and                  in Green Human Resource Management: A View from Global South Countries
+Pena, T. F. (2021). Security by design for big data frameworks over cloud computing.                (Springer), 291–312. doi: 10.1007/978-981-99-7104-6_17
+IEEE Trans. Eng. Manag. 69, 3676–3693. doi: 10.1109/TEM.2020.3045661
+                                                                                                       Fink, D. (1998). Guidelines for the successful adoption of information
+   Ayyash, M. M. (2022). “A thorough analysis of the perceived risk and                             technology in small and medium enterprises. Int. J. Inf. Manag. 18, 243–253.
+customer acceptance of mobile banking apps,” in Financial Technology                                doi: 10.1016/S0268-4012(98)00013-9
+(FinTech), Entrepreneurship, and Business Development: Proceedings of The
+                                                                                                        Gama, F., and Magistretti, S. (2025). Artificial intelligence in innovation
+International Conference on Business and Technology (ICBT 2021). Springer, 35–49.
+                                                                                                    management: a review of innovation capabilities and a taxonomy of AI applications.
+doi: 10.1007/978-3-031-08087-6_3
+                                                                                                    J. Prod. Innov. Manage. 42, 76–111. doi: 10.1111/jpim.12698
+   Ayyash, M. M. (2023). The effect of perceived control of information and
+                                                                                                       Ghobakhloo, M., Arias-Aranda, D., and Benitez-Amado, J. (2011). Adoption
+privacy risk on customers’ purchasing intention in social commerce platforms:
+                                                                                                    of e-commerce applications in SMEs. Indus. Manage. Data Syst. 111, 1238–1269.
+the moderating role of personal interest. Palest. Tech. Univ. Res. J. 11, 151–164.
+                                                                                                    doi: 10.1108/02635571111170785
+doi: 10.53671/pturj.v11i1.384
+                                                                                                       Ghobakhloo, M., and Tang, S. H. (2013). The role of owner/manager in adoption of
+  Bahrain Ministry of Industry, Commerce, and Tourism (2021). Annual Report 2021.
+                                                                                                    electronic commerce in small businesses: the case of developing countries. J. Small Bus.
+Bahrain Ministry Website.
+                                                                                                    Enterp. Dev. 20, 754–787. doi: 10.1108/JSBED-12-2011-0037
+   Bandara, R. (2024). Cost Optimization Strategies for Cloud Adoption in
+                                                                                                       Grandon, E. E., and Pearson, J. M. (2004). Electronic commerce adoption: an
+Small Businesses’. Haaga-Helia University of Applied Sciences, Business Information
+                                                                                                    empirical study of small and medium US businesses. Inform. Manage. 42, 197–216.
+Technology. Available at: https://urn.fi/URN:NBN:fi:amk-2024120332277
+                                                                                                    doi: 10.1016/j.im.2003.12.010
+   Benhayoun, L., Ayala, N. F., and Le Dain, M.-A. (2021). SMEs innovating
+in collaborative networks: how does absorptive capacity matter for innovation                          Gupta, P., Seetharaman, A., and Raj, J. R. (2013). The usage and adoption of
+performance in times of good partnership quality? J. Manuf. Technol. Manag. 32,                     cloud computing by small and medium businesses. Int. J. Inf. Manag. 33, 861–874.
+1578–1598. doi: 10.1108/JMTM-11-2020-0439                                                           doi: 10.1016/j.ijinfomgt.2013.07.001
+
+  Berglund, E. (2023). The Organizational Effects When Integrating a Cloud-based                        Gutierrez, A., Boukrami, E., and Lumsden, R. (2015). Technological, organisational
+ERP System’. National Library of Finland, National Library Network Services,                        and environmental factors influencing managers’ decision to adopt cloud computing
+University of Helsinki. Available at: https://urn.fi/URN:NBN:fi-fe20231123148582                    in the UK. J. Enterp. Inf. Manag. 28, 788–807. doi: 10.1108/JEIM-01-2015-0001
+
+   Berman, S. J., Kesterson-Townes, L., Marshall, A., and Srivathsa, R. (2012).                         Hair Jr, J. F., Hult, G. T. M., Ringle, C. M., Sarstedt, M., Danks, N. P., and Ray,
+How cloud computing enables process and business model innovation. Strategy and                     S. (2021). Partial Least Squares Structural Equation Modeling (PLS-SEM) Using R: A
+Leadership. 40, 27–35. doi: 10.1108/10878571211242920                                               Workbook. Cham: Springer Nature.
+
+   Bharany, S., Sharma, S., Khalaf, O. I., Abdulsahib, G. M., Al Humaimeedy, A. S.,                    Hair, J. F., Black, W. C., Babin, B. J., Anderson, R. E., and Tatham, R. L. (2006).
+Aldhyani, T. H., et al. (2022). A systematic survey on energy-efficient techniques in               Multivariate Data Analysis 6th Edition’. Pearson Prentice Hall. New Jersey. humans:
+sustainable cloud computing. Sustainability 14:6256. doi: 10.3390/su14106256                        Critique and reformulation.
+
+   Bondarouk, T., and Brewster, C. (2016). Conceptualising the future of                               Hair, J. F., Hult, G. T. M., Ringle, C. M., and Sarstedt, M. (2021). A Primer on Partial
+HRM and technology research. Int. J. Hum. Resour. Manag. 27, 2652–2671.                             Least Squares Structural Equation Modeling (PLS-SEM). Cham: Sage publications.
+doi: 10.1080/09585192.2016.1232296                                                                  doi: 10.1007/978-3-030-80519-7
+
+
+
+
+Frontiers in Sustainability                                                                    20                                                                            frontiersin.org
+Milhem et al.                                                                                                                                                 10.3389/frsus.2025.1503423
+
+
+
+
+   Hair, J. F., Risher, J. J., Sarstedt, M., and Ringle, C. M. (2019). When                             Marler, J. H., and Boudreau, J. W. (2017). An evidence-based review of HR
+to use and how to report the results of PLS-SEM. Eur. Bus. Rev. 31, 2–24.                             Analytics. Int. J. Hum. Resour. Manag. 28, 3–26. doi: 10.1080/09585192.2016.1244699
+doi: 10.1108/EBR-11-2018-0203
+                                                                                                         Marler, J. H., and Fisher, S. L. (2013). An evidence-based review of e-HRM
+    Henseler, J., Ringle, C. M., and Sarstedt, M. (2015). A new criterion for assessing               and strategic human resource management. Hum. Resour. Manag. Rev. 23, 18–36.
+discriminant validity in variance-based structural equation modeling. J. Acad. Mark.                  doi: 10.1016/j.hrmr.2012.06.002
+Sci. 43, 115–135. doi: 10.1007/s11747-014-0403-8                                                          Martin, G., and Reddington, M. (2010). Theorizing the links between e-HR and
+    Herzallah, F., and Ayyash, M. M. (2024). Beyond traditional HRM: e-HRM practices                  strategic HRM: a model, case illustration and reflections. Int. J. Hum. Resour. Manag.
+and their influence on organisational performance in higher education institutions. Int.              21, 1553–1574. doi: 10.1080/09585192.2010.500483
+J. Bus. Perform. Manag. 25, 806–825. doi: 10.1504/IJBPM.2024.10065975                                     Milhem, M., Tahayna, A. M. A., Ayyash, M. M., Ali, A. A. A., Al-Zoraiki,
+   Hiran, K. K., and Henten, A. (2020). An integrated TOE–DoI framework for cloud                     M., and Alkadash, T. (2024). “The mediating role of organizational culture in the
+computing adoption in the higher education sector: case study of Sub-Saharan Africa,                  relationship between workforce diversity and turnover intention among employees
+Ethiopia. Int. J. Syst. Assur. Eng. Manag. 11, 441–449. doi: 10.1007/s13198-019-00872-z               in palestine.” in Intelligent Systems, Business, and Innovation Research (Springer),
+                                                                                                      807–816. doi: 10.1007/978-3-031-36895-0_68
+   Huang, J., Susilo, W., Guo, F., Wu, G., Zhao, Z., and Huang, Q. (2020).
+An anonymous authentication system for pay-as-you-go cloud computing                                     Min, H., Zacharia, Z. G., and Smith, C. D. (2015). Defining supply chain
+$∧∗$. IEEE Transactions on Dependable and Secure Computing 19, 1280–1291.                             management: in the past, present, and future. J. Bus. Logist. 36, 44–55.
+doi: 10.1109/TDSC.2020.3007633                                                                        doi: 10.1111/jbl.12082
+
+    Johnson, R. D., and Diman, K. (2017). “An investigation of the factors driving the                   Mohammad, M., Alastal, A. Y. M., Milhem, M., and Ateeq, A. (2024). “Alignment
+adoption of cloud-based human resource information systems by small-and medium-                       imperative: integrating HRM and corporate governance for sustainable success,” in
+sized businesses,” in Electronic HRM in the Smart Era (Leeds: Emerald Publishing                      The AI Revolution: Driving Business Innovation and Research (Springer), 111–118.
+Limited), 1–31. doi: 10.1108/978-1-78714-315-920161001                                                doi: 10.1007/978-3-031-54379-1_9
+
+   Johnson, R. D., Lukaszewski, K. M., and Stone, D. L. (2016). The evolution of                        Molla, A., and Licker, P. S. (2005). eCommerce adoption in developing countries: a
+the field of human resource information systems: co-evolution of technology and HR                    model and instrument. Inform. Manage. 42, 877–899. doi: 10.1016/j.im.2004.09.002
+processes. CAIS 38:28. doi: 10.17705/1CAIS.03828                                                         Monaco, S. (2024). “SDG 8. Promote sustained, inclusive and sustainable
+   Kavanagh, M. J., and Johnson, R. D. (2017). Human Resource Information Systems:                    economic growth, full and productive employment, and decent work for all,” in
+Basics, Applications, and Future Directions. Sage Publications.                                       Identity, Territories, and Sustainability: Challenges and Opportunities for Achieving
+                                                                                                      the UN Sustainable Development Goals (Emerald Publishing Limited), 81–86.
+   Khayer, A., Jahan, N., Hossain, M. N., and Hossain, M. Y. (2021). The adoption of                  doi: 10.1108/978-1-83797-549-520241009
+cloud computing in small and medium enterprises: a developing country perspective.
+VINE J Inf Knowl Man, 51, 64–91. doi: 10.1108/VJIKMS-05-2019-0064                                         Naji, G. M. A., Isha, A. S. N., Alazzani, A., Brough, P., Saleem, M. S., Mohyaldinn, M.
+                                                                                                      E., et al. (2022). Do leadership, organizational communication, and work environment
+   Khayer, A., Talukder, M. S., Bao, Y., and Hossain, M. N. (2020). Cloud computing                   impact employees’ psychosocial hazards in the oil and gas industry? Int. J. Environ. Res.
+adoption and its impact on SMEs’ performance for cloud supported operations: a dual-                  Public Health 19:4432. doi: 10.3390/ijerph19084432
+stage analytical approach. Technol. Soc. 60:101225. doi: 10.1016/j.techsoc.2019.101225
+                                                                                                         Namperumal, S., Rajagopalan, S., and Kumar, S. (2022). Artificial
+   Khayyam, M., Yushi, J., Liu, Q., Idrees, H., Qin, S., and Nurlegul, A.                             intelligence in healthcare: past, present and future. J. Healthc. Eng. 2022, 1–10.
+(2024). Leveraging technological readiness and knowledge sources for green                            doi: 10.1155/2022/1234567
+innovation: a resource orchestration perspective. Bus. Process Manag. J.
+doi: 10.1108/BPMJ-03-2024-0198. [Epub ahead of print].                                                   Nassoura, A. B., and Hassan, M. K. (2021). The impact of corporate governance on
+                                                                                                      firm performance: evidence from the Middle East and North Africa (MENA) region.
+   Klumb, P. L., Gahrmann, C., and Piskernik, B. (2024). Same same or different? pay                  Res. Int. Business Fina. 55:101331. doi: 10.1016/j.ribaf.2020.101331
+referents and unfairness perceptions in two employment arrangements. Soc. Justice Res.
+37, 289–313. doi: 10.1007/s11211-024-00438-w                                                             Natario, M. M., Joao Pedro, C., Ascensao Maria, B., and Teresa Maria,
+                                                                                                      T. (2010). Evaluating the Determinants of National Innovative Capacity Among
+   Kwarteng, M. A., Ntsiful, A., Diego, L. F. P., and Novák, P. (2024). Extending                     European Countries’.
+UTAUT with competitive pressure for SMEs digitalization adoption in two
+European nations: a multi-group analysis. Aslib J. Inf. Manag. 76, 842–868.                              Natrajan, N. S., Sanjeev, R., and Jain, R. U. (2024). Sustainability in small and
+doi: 10.1108/AJ.I.M.-11-2022-0482                                                                     medium enterprises: a circular economy approach using cloud computing. Bus.
+                                                                                                      Strategy Dev. 7:e370. doi: 10.1002/bsd2.370
+   LD, D. B., and Krishna, P. V. (2013). Honey bee behavior inspired load balancing
+                                                                                                         Navimipour, N. J., Rahmani, A. M., Navin, A. H., and Hosseinzadeh, M. (2015).
+of tasks in cloud computing environments. Appl. Soft Comput. 13, 2292–2303.
+                                                                                                      Expert cloud: a cloud-based framework to share the knowledge and skills of human
+doi: 10.1016/j.asoc.2013.01.025
+                                                                                                      resources. Comput. Hum. Behav. 46, 57–74. doi: 10.1016/j.chb.2015.01.001
+   Leal Filho, W., Kovaleva, M., Tsani, S., T.îrcă, D. M., Shiel, C., Dinis, M. A. P., et al.            Nazir, M. A., and Khan, M. R. (2024). Identification of roles and factors
+(2023). Promoting gender equality across the sustainable development goals. Environ.                  influencing the adoption of ICTs in the SMEs of Pakistan by using an
+Dev. Sustain. 25, 14177–14198. doi: 10.1007/s10668-022-02656-1                                        extended technology acceptance model (TAM). Innov. Dev. 14, 189–215.
+   Lee, G. G. (2004). The role of leadership in the success of knowledge management                   doi: 10.1080/2157930X.2022.2116785
+practices. J. Knowl. Manag. 8, 6–17. doi: 10.1108/13673270410548444                                      Nguyen, T. H., Newby, M., and Macaulay, M. J. (2022). Information technology
+   Lee, J. Y., and Lee, Y. (2024). Integrative literature review on people analytics and              adoption in SMEs: a strategic management perspective. J. Strateg. Inform. Syst. 15, 1–24.
+implications from the perspective of human resource development. Hum. Resour. Dev.                       Nkhoma, M. Z., Dang, D. P., and De Souza-Daw, A. (2013). “Contributing
+Rev. 23, 58–87. doi: 10.1177/15344843231217181                                                        factors of cloud computing adoption: a technology-organisation-environment
+                                                                                                      framework approach,” in Proceedings of the European Conference on Information
+   Liu, Y., Zhang, W., Zhang, Q., and Norouzi, M. (2022). An optimized human
+                                                                                                      Management and Evaluation, 180–189. Available at: https://books.google.ps/books?
+resource management model for cloud-edge computing in the internet of things.
+                                                                                                      id=-ZkTBAAAQBAJ&printsec=frontcover&hl=ar&source=gbs_ge_summary_r&cad=
+Cluster Comput. 25, 2527–2539. doi: 10.1007/s10586-021-03319-y
+                                                                                                      0#v=onepage&q&f=false
+   Liza, U. H., Naji, G. M. A., Ghaleb, E. A., and Alzoraiki, M. (2021). “A study on                     Nunnally, J., and Bernstein, I. (1994). Psychometric Theory. 3rd edn. New York.
+customer loyalty, customer trust, and market orientation towards online business in
+Saudi Arabia,” in 2021 International Conference on Sustainable Islamic Business and                      Oduh, I. U., Misra, S., Damaševičius, R., and Maskeliunas, R. (2018). “Cloud based
+Finance (Sakheer: IEEE), 119–128.                                                                     simple employee management information system: a model for african small and
+                                                                                                      medium enterprises,” in Proceedings of the International Conference on Information
+   Lopes de Sousa Jabbour, A. B., Jabbour, C. J. C., Godinho Filho, M., and Roubaud,                  Technology and Systems (ICITS 2018). Springer, 115–128.
+D. (2018). Industry 4.0 and the circular economy: a proposed research agenda
+and original roadmap for sustainable operations. Ann. Oper. Res. 270, 273–286.                           Oliveira, T., and Martins, M. F. (2010). Understanding e-business adoption
+doi: 10.1007/s10479-018-2772-8                                                                        across industries in European countries. Ind. Manag. Data Syst. 110, 1337–1354.
+                                                                                                      doi: 10.1108/02635571011087428
+   Low, C., Chen, Y., and Wu, M. (2011). Understanding the determinants
+of cloud computing adoption. Ind. Manag. Data Syst. 111, 1006–1023.                                      Oliveira, T., Thomas, M., and Espadanal, M. (2014). Assessing the determinants of
+doi: 10.1108/02635571111161262                                                                        cloud computing adoption: an analysis of the manufacturing and services sectors. Inf.
+                                                                                                      Manag. 51, 497–510. doi: 10.1016/j.im.2014.03.006
+    Majumdar, S. K., and Venkataraman, S. (1993). New technology adoption in US
+telecommunications: the role of competitive pressures and firm-level inducements. Res.                   Pan, M.-J., and Jang, W.-Y. (2008). Determinants of the adoption of
+Policy 22, 521–536. doi: 10.1016/0048-7333(93)90016-B                                                 enterprise resource planning within the technology-organization-environment
+                                                                                                      framework: Taiwan’s communications industry. J. Comput. Inf. Syst. 48, 94–102.
+   Maqueira Marín, J. M., Oliveira-Dias, D. D., Jafari Navimipour, N., Gardas,                        doi: 10.1080/08874417.2008.11646029
+B., and Unal, M. (2022). Cloud computing and human resource management:
+systematic literature review and future research agenda. Kybernetes 51, 2172–2191.                       Pearson, J. M., and Grandon, E. E. (2005). An empirical study of
+doi: 10.1108/K-05-2021-0420                                                                           factors that influence e-commerce adoption/non-adoption in small and
+
+
+
+
+Frontiers in Sustainability                                                                      21                                                                            frontiersin.org
+Milhem et al.                                                                                                                                             10.3389/frsus.2025.1503423
+
+
+
+
+medium-sized businesses. J. Electron. Commerce Org. 3, 1–21. doi: 10.1300/J179v0                   Sultan, N. A. (2011). Reaching for the “cloud”: how SMEs can manage. Int. J. Inf.
+4n04_01                                                                                          Manag. 31, 272–278. doi: 10.1016/j.ijinfomgt.2010.08.001
+   Porkodi, S., and Raman, A. M. (2024). Success of cloud computing adoption over an                Tabachnick, B. G., Fidell, L. S., and Ullman, J. B. (2013). Using Multivariate Statistics.
+era in human resource management systems: a comprehensive meta-analytic literature               Pearson: Boston, MA.
+review. Manag. Rev. Q. 1–35. doi: 10.1007/s11301-023-00401-0
+                                                                                                    Tashkandi, A., and Al-Jabri, I. (2015). “Cloud computing adoption by
+   Praba, K., Vijay, B., Abuya, J. O. O., Poreddy, D., Mulakala, S., and Manoharan, S.           higher education institutions in Saudi Arabia: analysis based on TOE,” in 2015
+(2025). “Human resource management practices in the age of industrial automation:                International Conference on Cloud Computing (ICCC) (Riyadh: IEEE), 1–8.
+impact, adoption, and future workforce,” in Advancements in Intelligent Process                  doi: 10.1109/CLOUDCOMP.2015.7149634
+Automation (IGI Global), 79–102. doi: 10.4018/979-8-3693-5380-6.ch004
+                                                                                                    Thaqi, R., Kadriu, M., Krasniqi, B., and Rexha, B. (2024). “On-premises versus
+   Prasad, V. K., Dansana, D., Bhavsar, M. D., Acharya, B., Gerogiannis, V. C.,                  cloud computing: a comparative analysis of energy consumption,” in 2024 International
+and Kanavos, A. (2023). Efficient resource utilization in iot and cloud computing.               Conference on Renewable Energies and Smart Technologies (REST) (Prishtina: IEEE),
+Information 14:619. doi: 10.3390/info14110619                                                    1–5. doi: 10.1109/REST59987.2024.10645419
+
+    Premkumar, G., and Roberts, M. (1999). Adoption of new information technologies                 Thong, J. Y. L. (1999). An integrated model of information
+in rural small businesses. Omega 27, 467–484. doi: 10.1016/S0305-0483(98)00071-1                 systems adoption in small businesses. J. Manag. Inf. Syst. 15, 187–214.
+                                                                                                 doi: 10.1080/07421222.1999.11518227
+   Qasem, Y. A. M., Abdullah, R., Yah, Y., Atan, R., Al-Sharafi, M. A., and
+Al-Emran, M. (2021). “Towards the development of a comprehensive theoretical                        Thong, J. Y. L., and Yap, C.-S. (1995). CEO characteristics, organizational
+model for examining the cloud computing adoption at the organizational level,” in                characteristics and information technology adoption in small businesses. Omega 23,
+Recent Advances in Intelligent Systems and Smart Applications. Studies in Systems,               429–442. doi: 10.1016/0305-0483(95)00017-I
+Decision and Control, vol. 295 (Cham: Springer), 63–74. doi: 10.1007/978-3-030-474                  Tornatzky, L. G., and Fleischer, M. (1990). The Processing of Technological
+11-9_4                                                                                           Innovation. Lexington: Lexington Books.
+   Qasem, Y. A. M., Asadi, S., Abdullah, R., Yah, Y., Atan, R., Al-Sharafi, M. A., et al.           Ure, J. (2024). “Climate change and the environment (SDGs 13, 6, 7, 11, 14, 15),”
+(2020). A multi-analytical approach to predict the determinants of cloud computing               in Achieving the United Nations Sustainable Development Goals: Late or Too Late?
+adoption in higher education institutions. Appl. Sci. 10:4905. doi: 10.3390/app10144905          (Emerald Publishing Limited), 61–114. doi: 10.1108/978-1-83549-404-220241003
+   Radhika, S., Swain, S. K., and Adinarayana, S. (2024). “A systematic review on                   Venkatesh, V., Thong, J. Y. L., and Xu, X. (2012). Consumer acceptance and use
+energy-efficient techniques for sustainable cloud computing,” in Proceedings of Eighth           of information technology: extending the unified theory of acceptance and use of
+International Conference on Information System Design and Intelligent Applications               technology. MIS Q. 36, 157–178. doi: 10.2307/41410412
+(Springer), 345–357. doi: 10.1007/978-981-97-4895-2_28
+                                                                                                   Voermans, M., and Van Veldhoven, M. (2007). Attitude towards E-HRM: an
+   Rahayu, R., and Day, J. (2015). Determinant factors of e-commerce adoption by                 empirical study at Philips. Pers. Rev. 36, 887–902. doi: 10.1108/00483480710822418
+SMEs in developing country: evidence from Indonesia. Procedia Soc. Behav. Sci. 195,                  Yao, X., and Azma, M. (2022). Do cloud-based enterprise resource planning systems
+142–150. doi: 10.1016/j.sbspro.2015.06.423                                                       affect the productivity of human resources in the COVID-19 era? Kybernetes 51,
+   Rajani, S., Kumar, A., and Singh, R. (2023). Blockchain technology in supply                  1967–1990. doi: 10.1108/K-03-2021-0243
+chain management: a review of the literature. Int. J. Prod. Res. 61, 1457–1475.                      Yaseen, H., Al-Adwan, A. S., Nofal, M., Hmoud, H., and Abujassar, R. S. (2023).
+doi: 10.1080/00207543.2022.2123456                                                               Factors influencing cloud computing adoption among SMEs: the jordanian context.
+   Rogers, E. M. (2003). Diffusion of Innovations, 5th Edn. New York, NY: Free Press.            Inf. Dev. 39, 317–332. doi: 10.1177/02666669211047916
+   Saini, M., Sengupta, E., Singh, M., Singh, H., and Singh, J. (2023). Sustainable                 Yenugula, M., Sahoo, S., and Goswami, S. (2024). Cloud computing for sustainable
+development goal for quality education (SDG 4): a study on SDG 4 to extract the                  development: an analysis of environmental, economic and social benefits. J. Future
+pattern of association among the indicators of SDG 4 employing a genetic algorithm.              Sustain. 4, 59–66. doi: 10.5267/j.jfs.2024.1.005
+Educ. Inf. Technol. 28, 2031–2069. doi: 10.1007/s10639-022-11265-4                                  Yigitbasioglu, O. M. (2015). The role of institutional pressures and top management
+    Salah, O. H., and Ayyash, M. M. (2024). E-commerce adoption by SMEs and its                  support in the intention to adopt cloud computing solutions. J. Enterp. Inf. Manag. 28,
+effect on marketing performance: an extended of TOE framework with ai integration,               579–594. doi: 10.1108/JEIM-09-2014-0087
+innovation culture, and customer tech-savviness. J. Open Innov.: Technol. Mark.                     Zebari, S. H., Mohammed, A. M., and Salih, H. M. (2019). The role of
+Complex. 10:100183. doi: 10.1016/j.joitmc.2023.100183                                            information technology in enhancing supply chain performance: an empirical
+   Sanjeev, R., Natrajan, N. S., and Dash, S. (2024). Organisational sustainability              study in the Iraqi food industry. J. Bus. Retail Manag. Res. 13, 123–135.
+through human resource information system. Int. J. Knowl. Manag. Stud. 15, 70–92.                doi: 10.24052/JBRMR/V13IS04/ART-12
+doi: 10.1504/IJKMS.2024.138068                                                                      Zhao, M., and Rabiei, K. (2023). Feasibility of implementing the human resource
+   Senyo, P. K., Effah, J., and Addae, E. (2016). Preliminary insight into cloud                 payroll management system based on cloud computing. Kybernetes 52, 1245–1268.
+computing adoption in a developing country. J. Enterp. Inf. Manag. 29, 505–524.                  doi: 10.1108/K-07-2021-0554
+doi: 10.1108/JEIM-09-2014-0094                                                                      Zhu, K., Dong, S., Xu, S. X., and Kraemer, K. (2006). Innovation diffusion in
+   Shahzad, K., Zhang, Q., Ashfaq, M., Zafar, A. U., and Ahmad, B. (2024). Pre-                  global contexts: determinants of post-adoption digital transformation of European
+to post-adoption of blockchain technology in supply chain management: influencing                companies. Eur. J. Inform. Syst. 15, 601–616. doi: 10.1057/palgrave.ejis.3000650
+factors and the role of firm size. Technol. Forecast. Soc. Change 198:122989.                       Zhu, K., Kraemer, K. L., and Dedrick, J. (2004). Information technology payoff
+doi: 10.1016/j.techfore.2023.122989                                                              in e-business environments: an international perspective on value creation of e-
+   Skafi, M., Yunis, M. M., and Zekri, A. (2020). Factors influencing SMEs’ adoption of          business in the financial services industry. J. Manag. Inform. Syst. 21, 17–54.
+cloud computing services in Lebanon: an empirical analysis using TOE and contextual              doi: 10.1080/07421222.2004.11045797
+theory. IEEE Access 8, 79169–79181. doi: 10.1109/ACCESS.2020.2987331                                Zidan, S. S. A. (2023). Effects of strategic management on
+   Stone, D. L., and Deadrick, D. L. (2015). Challenges and opportunities affecting              organizational performance in banking industry. IJIHRM 4, 34–39.
+the future of human resource management. Hum. Resour. Manag. Rev. 25, 139–145.                   doi: 10.46988/IJIHRM.04.01.2023.005
+doi: 10.1016/j.hrmr.2015.01.003                                                                     Zuofa, T., Ochieng, E. G., and Ode-Ichakpa, I. (2023). An evaluation of
+    Strohmeier, D. E. P. S. (2014). HRM in the digital age–digital changes and challenges        determinants influencing the adoption of circular economy principles in Nigerian
+of the HR profession. Employ. Relat. 36. doi: 10.1108/ER-03-2014-0032                            construction SMEs. Build. Res. Inf. 51, 69–84. doi: 10.1080/09613218.2022.2142496
+
+
+
+
+Frontiers in Sustainability                                                                 22                                                                              frontiersin.org
+

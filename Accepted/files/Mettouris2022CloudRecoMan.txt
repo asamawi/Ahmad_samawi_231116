@@ -1,0 +1,549 @@
+                                                                                                                                    PDF Download
+                                                                                                                                    3524458.3547252.pdf
+                                                                                                                                    20 December 2025
+                                                                                                                                    Total Citations: 1
+                                                                                                                                    Total Downloads: 477
+    .
+    .
+        Latest updates: hps://dl.acm.org/doi/10.1145/3524458.3547252
+
+
+
+
+                                                                                                                                    .
+                                                                                                                                    .
+                                                                                                                          Published: 07 September 2022
+        .
+        .
+                                                                                                                          .
+    RESEARCH-ARTICLE
+
+
+
+
+                                                                                                                          .
+                                                                                                                          Citation in BibTeX format
+    CloudRecoMan: Cloud adoption made easy: A platform for assisting
+
+
+
+
+                                                                                                                          .
+                                                                                                                          .
+                                                                                                                          GoodIT 2022: ACM International
+    small and medium enterprises to adopt cloud solutions                                                                 Conference on Information Technology
+                                                                                                                          for Social Good
+    CHRISTOS METTOURIS, University of Cyprus, Nicosia, Cyprus                                                             September 7 - 9, 2022
+                                                                                                                          Limassol, Cyprus
+    .
+    EVANGELIA VANEZI, University of Cyprus, Nicosia, Cyprus
+
+
+
+
+                                                                                                                          .
+                                                                                                                          .
+                                                                                                                          Conference Sponsors:
+    .
+    GEORGE ZAMPAS, University of Cyprus, Nicosia, Cyprus                                                                  SIGCAS
+    .
+    STYLIANOS ARGYROU, University of Cyprus, Nicosia, Cyprus
+    .
+    ACHILLEAS P ACHILLEOS, Frederick University, Nicosia, Cyprus
+    .
+    AVGOUSTINOS CONSTANTINIDES
+    .
+    View all
+    .
+    .
+    Open Access Support provided by:
+    .
+    Frederick University
+    .
+    University of Cyprus
+    .
+                                                   GoodIT '22: Proceedings of the 2022 ACM Conference on Information Technology for Social Good (September 2022)
+                                                                                                                          hps://doi.org/10.1145/3524458.3547252
+                                                                                                                                             ISBN: 9781450392846
+.
+                             CloudRecoMan: Cloud adoption made easy
+                    A platform for assisting small and medium enterprises to adopt cloud solutions
+              Christos Mettouris*                                      Evangelia Vanezi                            George Zampas
+      Department of Computer Science,                        Department of Computer Science,              Department of Computer Science,
+      University of Cyprus, 2109 Nicosia,                    University of Cyprus, 2109 Nicosia,          University of Cyprus, 2109 Nicosia,
+                    Cyprus                                                 Cyprus                                       Cyprus
+       mettouris.g.christos@ucy.ac.cy                               evanez01@ucy.ac.cy                          gzampa01@ucy.ac.cy
+
+               Stylianos Argyrou                                     Achilleas Achilleos                  Avgoustinos Constantinides
+      Department of Computer Science,                           Department of Electrical and                IBSCY Ltd, Office 11, 1st Floor,
+      University of Cyprus, 2109 Nicosia,                        Computer Engineering and                 Harmony House, 4 Theklas Lisioti
+                    Cyprus                                   Informatics, Frederick University, 7         street, CY-3030, Limassol, Cyprus
+        argyrou.stylianos@ucy.ac.cy                            Yianni Frederickou Street, 1036,                avgoustinos@ibs.com.cy
+                                                                       Nicosia, Cyprus
+                                                                   com.aa@frederick.ac.cy
+
+                                                                George A. Papadopoulos
+                                                             Department of Computer Science,
+                                                             University of Cyprus, 2109 Nicosia,
+                                                                           Cyprus
+                                                                     george@ucy.ac.cy
+
+ABSTRACT                                                                          KEYWORDS
+Although the adoption and use of cloud computing in large, medium                 Cloud Recommender System, Cloud deployment platform, Cloud
+and small enterprises is increasing every year, statistics show that              computing
+medium and especially small enterprises have a much slower adop-
+                                                                                  ACM Reference Format:
+tion than large enterprises. This suggests that various types of
+                                                                                  Christos Mettouris*, Evangelia Vanezi, George Zampas, Stylianos Argy-
+issues may affect Small to Medium Enterprises (SMEs) in making                    rou, Achilleas Achilleos, Avgoustinos Constantinides, and George A. Pa-
+the choice to transit towards the public cloud. Based on experts and              padopoulos. 2022. CloudRecoMan: Cloud adoption made easy: A platform
+literature, SMEs’ adoption of cloud is impacted by lack of resources,             for assisting small and medium enterprises to adopt cloud solutions. In
+concerns on security and data control and uncontrolled increas-                   Conference on Information Technology for Social Good (GoodIT’22), Sep-
+ing cloud costs due to the lack of cloud experience. A platform is                tember 07–09, 2022, Limassol, Cyprus. ACM, New York, NY, USA, 8 pages.
+not yet available that would assist non-technical SME managers in                 https://doi.org/10.1145/3524458.3547252
+specifying non-technical business requirements in order to receive
+assistance in the form of recommendations of cloud resources, cloud               1   INTRODUCTION
+applications and deployment plans. The CloudRecoMan platform
+                                                                                  Cloud computing exploits the technological advancements in net-
+aims to enable this through the development of a web-based cloud
+                                                                                  work, virtualisation and web services in order to provide the ca-
+recommender and deployment platform.
+                                                                                  pability to deliver hardware and software services using a faster,
+                                                                                  simplified and more efficient business model. However, the process
+CCS CONCEPTS                                                                      of starting using and/or migrating to the cloud is difficult, espe-
+• Information systems; • Information systems applications;                        cially for Small to Medium Enterprises (SMEs) where generally little
+• Computing platforms;                                                            or no expertise exists in using the technical tools and platforms
+                                                                                  offered by cloud providers. Most importantly, business administra-
+                                                                                  tors and managers struggle to visualise the implications in terms of
+                                                                                  measurable threats and benefits from application transition and/or
+                                                                                  migration to the Cloud. Thus, while Clouds have been used for
+                                                                                  shared email environments, shared storage systems and similar
+                                                                                  purposes, there has been only a slow take-up of Cloud technology
+This work is licensed under a Creative Commons Attribution International
+4.0 License.                                                                      for real business applications.
+                                                                                     A recent analysis presented in [1] shows that there are significant
+GoodIT’22, September 07–09, 2022, Limassol, Cyprus                                differences across countries regarding cloud adoption: in Sweden
+© 2022 Copyright held by the owner/author(s).
+ACM ISBN 978-1-4503-9284-6/22/09.                                                 (75%), Finland (75%), the Netherlands (65%) and Denmark (65%) at
+https://doi.org/10.1145/3524458.3547252                                           least 65% of enterprises use cloud computing, while in Greece (22%),
+
+
+
+
+                                                                            110
+GoodIT’22, September 07–09, 2022, Limassol, Cyprus                                                                                                 Christos Mettouris et al.
+
+
+Romania (14%) and Bulgaria (13%) less than 25% of enterprises do                                 defined in the database. This enables overcoming the vendor “lock-
+so [1]. Cyprus lies in the middle (50%), while only a few years back,                            in” characteristic of public cloud providers. The platform aims at
+in 2018, the percentage was 27. Among the enterprises using cloud                                satisfying a plethora of diverse client requirements such as deploy-
+computing, about 79% relied on a cloud solution for their e-mail:                                ment infrastructure (private, public, or hybrid), cost, location, etc.,
+instead of setting up a server infrastructure for their e-mail system,                           while at the same time supporting, optimising and automating the
+these enterprises opted for a cloud solution [1].                                                deployment process. Our research strives to prove whether such a
+    According to [1], the use of cloud computing was particularly                                platform is realizable.
+high in large enterprises: 72% used cloud computing in 2021, which                                  The CloudRecoMan platform is consisted of 4 software compo-
+is a 7% increase compared with 2020. In terms of medium-sized                                    nents:
+enterprises, 53% used cloud computing in 2021 (compared to 46%                                       • The Recommender System (RS) enables the computation of
+in 2020), while in small enterprises, the use of cloud computing                                       recommendations of cloud resources, cloud applications and
+increased by 5% to 38% [1]. Although the adoption and use of                                           deployment plans to the user. The recommendations are pro-
+cloud computing is increasing every year in large, medium and                                          vided as concrete cloud requirements, e.g. hardware, busi-
+small enterprises, it is evident that medium and especially small                                      ness applications and networking. The recommendation al-
+enterprises have a much slower adoption than large enterprises.                                        gorithm relies on the company profile, as well as on explicit
+This strongly suggests that there are some issues that affect SMEs                                     user feedback data.
+in making the choice to transit towards the public cloud. Therefore,                                 • The Company Profile Management System (CPMS) enables
+it is particularly interesting to research and identify the reasons                                    the definition of the business requirements by the client
+why the percentage drops as the size of the enterprise decreases.                                      and the storage and management of a company profile and
+    Based on the experience and expertise of IBSCY Ltd1 and the                                        related usage history data.
+supporting literature [2], small to medium enterprises’ adoption of                                  • The Cloudifier supports querying cloud provider APIs, based
+cloud is impacted by lack of resources (due to shortage of expert or                                   on the concrete requirements generated by the recommender
+trained staff and time) [3], concerns on security and data control                                     component. It receives as input the cloud solution that was
+[4] and uncontrolled increasing cloud costs due to the lack of cloud                                   recommended and ultimately selected by the user and exe-
+experience [5]. The results of an online survey we have conducted                                      cutes the deployment plan.
+in Cyprus from December 2020 to April 2021 are similar: from the 9                                   • The Visualization component allows for two visualizations:
+representatives of small enterprises participating, only 3 stated that                                 i. a map graph depicting the geographical location of cloud
+they are experts or have adequate knowledge in cloud computing,                                        servers of public cloud providers and ii. a tree/dendrogram
+with the rest noting very little (3) or basic (3) knowledge. From                                      graph showing all available services of well-known public
+the latter group, 2 did not use cloud computing at all stating the                                     cloud providers, categorized by cloud provider name, the-
+“lack of resources” as the reason. The same 2 participants stated                                      matic areas applications (e.g. Machine Learning, AI, Analyt-
+that they would be willing to switch their operations to the cloud                                     ics etc.) and name of service.
+if they found that to be advantageous and easy to install/use. To
+the question “what issues did you have while adopting the cloud?”,                                   The paper is structured as follows: Section 2 discusses related
+participants mentioned security concerns, lack of knowledge, data                                work. In Section 3, the CloudRecoMan platform architecture is pre-
+control concerns, (difficult) use of the cloud and (problems with)                               sented and discussed. Sections 4 to 7 present the 4 CloudRecoMan
+internet access.                                                                                 software components: the RS in Section 4, the CPMS in Section
+    The motivation for this work stems from the fact that a platform                             5, the Cloudifier in Section 6 and the Visualization component in
+is not yet available that allows non-technical users (e.g. managers)                             Section 7. The paper completes with conclusions and future work
+to specify non-technical business requirements in the form of a com-                             in Section 8.
+pany profile in order to receive recommendations of cloud resources,
+cloud applications and deployment plans. The innovation of the                                   2   RELATED WORK
+CloudRecoMan project is to enable this through the development                                   In [6], a cloud service selection framework is presented that uses a
+of a web-based cloud recommender and deployment platform. The                                    RS that assists a user to select the optimal services from different
+CloudRecoMan platform aims to deliver a cloud provider agnostic                                  cloud providers that matches the requirements of the user. The RS
+approach that allows users to specify their business requirements                                creates ranks of different services with providers and presents them
+in an abstract form and transform them into concrete requirements                                to users so that they can select the most appropriate or optimal
+that can be processed and transformed into a cloud deployment                                    services [6].
+solution.                                                                                           The CloudCmp framework [7] assists potential cloud customers
+    CloudRecoMan aims to deliver a platform that allows identifying                              to estimate the performance and costs of running a legacy appli-
+and recommending the optimal cloud deployment solution based                                     cation on a cloud without actually deploying the application. The
+on a company profile, as well as based on similar company profiles                               framework first characterizes the services offered by various cloud
+                                                                                                 providers into a set of common service interfaces, and benchmarks
+1 A leading provider of total IT solutions and IT services, specializing in the areas of         the performance and costs of these services [7]. It then expresses
+cloud services and applications, systems integration, IT infrastructure, collaboration,          an application’s workload using the interfaces, and estimates the
+management and security solutions. Currently, IBSCY Ltd is one of the largest Mi-
+crosoft cloud providers in Cyprus and in the greater region. www.ibs.com.cy/en/cloud-            application’s performance and costs based on the benchmarking
+services/microsoft-azure, www.ibs.com.cy/en/blog.                                                results. Benchmarking results indicate that cloud providers differ
+
+
+
+
+                                                                                           111
+CloudRecoMan: Cloud adoption made easy                                                                         GoodIT’22, September 07–09, 2022, Limassol, Cyprus
+
+
+significantly in performance and costs of the services they provide,
+and one provider is unlikely to ace all services [7].
+    Research projects in data management domain have tended to
+focus on the improved presentation and categorisation of data in
+Clouds to aid integration with Cloud services. A good example
+of such work can be seen in the cloudTM project [8]. Here the
+project is focused on creating a data centric middleware in order to
+aid better identification of data and its requirements to aid better
+efficiency and fault tolerance in the Cloud.
+    Modelling projects are focusing on the use of models to support
+specific challenges such as the migration of legacy systems to the
+Cloud. In the Artist project, models are used to describe and wrap
+legacy systems to aid migration [9]. Other projects are looking to
+existing standards to aid the model-based management of Clouds,
+such as the Mosaic Cloud project that has embraced ontologies as
+central to their modelling solution [10]. PaaSage [11] takes a step
+back from providing a purely technical interface to the PaaSage ap-
+plication developer user and encourages the user to model his/her
+requirements before technical integration takes place. User defined
+application models expressed in CAMEL allow for a richer expres-
+sion of application and business application end-user requirements
+translating down to how the Cloud is managed in terms of resource
+usage. Advancing research in MODAClouds and projects such as
+MOSAIC [10] inform work in PaaSage which groups domain spe-
+cific standards in models at all stages of application use in the Cloud.                    Figure 1: CloudRecoMan platform architecture.
+The models are used from modelling through to execution in the
+Cloud; they will ensure that the user is presented with a consistent
+model of application activity based on his/her original requirements                deployment plan and send it to the Cloudifier for execution on the
+during design and deployment.                                                       respective cloud provider, using the corresponding cloud provider’s
+    Our work differs from previous works in that we target non-                     API.
+technical users, such as managers and business owners by enabling                      In terms of the CloudRecoMan platform frontend, it includes the
+them to specify non-technical business requirements in the form                     respective UIs for the CPMS and the RS as discussed above, as well
+of a company profile, a quick process not requiring technical skills                as the Visualization component. The latter provides visualizations
+or knowledge, and through this process, offer them access to cloud                  on cloud providers’ services and applications, as well as map graph
+resources and personalized recommendations of cloud resources,                      visualizations.
+cloud applications and deployment plans. Just by providing the                         The CloudRecoMan platform was developed on top of the well-
+company profile, the non-technical user is recommended optimal                      known, widely used, open source WordPress3 platform. WordPress
+cloud deployment solutions that he/she may then select to deploy                    was used as the basis for development, where all platform com-
+on real clouds. To prove that the proposed methodology is easy-to-                  ponents (the RS, the CPMS, the Cloudifier and the Visualization
+follow and effective for the target group users, the CloudRecoMan                   component) were developed as plugins. WordPress is nowadays
+platform will be evaluated with real users.                                         used for the development of millions of websites and web platforms
+                                                                                    and has an active supporting community. In terms of integration,
+3    CLOUDRECOMAN ARCHITECTURE                                                      the components being developed as plugins have the advantage
+Figure 1 depicts the architecture of the CloudRecoMan platform.                     of easy installation on the platform, portability and easier mainte-
+The platform backend is consisted of the Company Profile Manage-                    nance.
+ment System (CPMS), the Recommender System (RS) the Cloudifier
+and the database (DB). The CPMS manages the company profiles                        4 RECOMMENDER SYSTEM
+and interacts with the DB and the CloudRecoMan platform frontend                    4.1 Background on Recommender Systems
+which uses to receive users’ input and display data to them.
+   The RS retrieves company data, user-item2 interaction data and                   Recommender systems (RSs) use a variety of filtering techniques
+user preferences data from the DB and uses them to compute rec-                     and recommendation methods to provide personalised recommen-
+ommendations of cloud resources, applications and deployment                        dations to their users. RSs are important due to the information
+plans for the respective company of the user. The recommendations                   overload that modern life experiences in all fields, and their im-
+are presented to users through the platform’s frontend User Inter-                  portance will be further increased as this overload is expanding
+face (UI). At this point, the user is able to select a recommended                  exponentially.
+
+2 An item can be a cloud resource, a cloud application or a deployment plan         3 https://wordpress.com/
+
+
+
+
+                                                                              112
+GoodIT’22, September 07–09, 2022, Limassol, Cyprus                                                                             Christos Mettouris et al.
+
+
+    RSs use information retrieved from the user profile, from user’s         accurate recommendations, user interaction with items first needs
+usage history, as well as information related to the items to be             to take place. Knowledge-based RSs have functional knowledge
+recommended in order to compute recommendations. The user                    on how a particular item (e.g. cloud resource) meets a particular
+profile (in our work we use the company profile) includes valuable           company need, and can therefore reason about whether an item
+information regarding the user, his/her personality, preferences,            could indeed meet a company need and should therefore be rec-
+habits and more. Such information could be used by RSs to filter out         ommended [19]. The user profile can be any knowledge structure
+any recommendations not suitable for the user. User behavioural              that supports this process: from a simple query to a more detailed
+data are data produced from user actions (behaviour). User actions           representation of a user’s needs [19]. In our case, the user query is
+reflect user preferences and needs, thus analysing such actions              the company profile which defines aspects of the company such as
+during the recommendation computation process is valuable. For               sector, company size (number of employees), number of IT person-
+example, e-commerce RSs may use browser history information                  nel, years of operation, whether they are currently using the cloud,
+and logging data to opine about what the user likes. Finally, in-            current knowledge of cloud computing, etc. Based on the company
+formation related to the items to be recommended is used. Such               data, recommendations are computed. The reasoning approach of
+information depends on the type of items to be recommended. For              the Knowledge-based RS relies on using empirical rules provided by
+example, in movie recommendations where items under study are                one of the most respected cloud experts in Cyprus, IBSCY Ltd, that
+movies, such information may include the title of the movie, its             is derived from several years of experience in providing cloud ser-
+genre, its duration, the actors, etc. The most well-known recommen-          vices to their customers. Any data provided for the implementation
+dation approaches are Collaborative Filtering (CF), Content-based            of the knowledge-based RS were fully anonymized.
+filtering and Hybrid recommendation techniques. While traditional               After the user has received knowledge-based recommendations
+recommender systems use limited or none contextual information               based on the company profile, he/she is able to rate them from 1 to
+to produce recommendations, recently the term Context-Aware                  5 (1 being the least desirable and 5 the most desirable). The user is
+Recommender Systems (CARS) appeared in the literature that de-               also able to rate other cloud resources, applications and deployment
+notes systems that aim in using many contextual parameters to                plans not currently recommended to him/her. Using the ratings as
+improve recommendations [12].                                                explicit user feedback data, the CF RS is able to better refine the
+                                                                             recommendations.
+                                                                                Collaborative Filtering recommends items that similar users to
+4.2     Recommender System in CloudRecoMan                                   the active user have highly rated (hence like). There are two types
+        platform                                                             of methods followed in CF, the memory-based or neighbourhood
+In the context of the CloudRecoMan platform, users are non-                  methods that use similarity functions (Pearson Correlation or Co-
+technical persons (e.g. managers) and the user profile used in the           sine Distance) to compute the user’s neighbourhood, and the model-
+recommendation process is the company profile, as the recommen-              based methods that use user feedback on items (i.e. ratings) to learn
+dations need to best suit the company’s characteristics, needs and           a model for the user that is then used for computing recommenda-
+line of work. Users through the CPMS specify in the platform non-            tions [20]. The assumption made in CF is that those who agreed in
+technical business requirements and company information, thus                the past tend to agree also in the future. Thus, since the active user’s
+forming the company profile and defining the company data. In                neighbours tend to agree with him/her (they are similar users), the
+addition, users are enabled to rate recommended (or not) cloud               items these neighbours like the most might be included highly in
+resources, applications and deployment plans to show their interest          the list of preferences of the active user as well, and hence can
+in them. This is a form of explicit user feedback data. RSs use explicit     be recommended. The biggest advantage of CF is that it does not
+user feedback data on items by users, such as product ratings in             depend on any system representations of the items to be recom-
+e-commerce scenarios, to elicit and model user preferences and               mended and thus can function well with complex items such as
+offer personalised recommendations of products users would enjoy             music and movies [21].
+[13, 14]. In case explicit feedback is not available, RSs use implicit          In the context of CloudRecoMan, CF is used as a complemen-
+user feedback on items by tracking user behaviour, such as user              tary method to the knowledge-based method described above. The
+transaction data (purchase history), clickstream data, click-through         knowledge-based method recommends cloud resources, applica-
+rate (CTR) and browser history information [15–18]. Implicit tech-           tions and deployment plans based exclusively on the company
+niques have been used in RSs for products in online retail stores            profile. However, if there exist resources or deployment plans that
+(e-commerce websites), movies, music, journal articles, web docu-            would potentially work for a company whose profile though does
+ments and content, online news articles, books, television programs,         not suggest them, then using the knowledge-based approach solely,
+and other RSs applications.                                                  these resources and plans will never be recommended. On the con-
+   We propose a Hybrid RS that consists of: a knowledge-based RS             trary, CF may provide such recommendations in the case where
+deployed initially, followed by a CF RS that offers refined recom-           another company that happens to be a neighbouring company to
+mendations. Figure 2 shows the recommendation process workflow.              the active company has assigned high ratings to these resources
+Initially the user completes the company profile. At this point, due         and plans.
+to the cold start problem that CF RSs face, the knowledge-based RS              Model-based CF approaches - or latent factor models - use ma-
+is deployed. Recommendations at this point may not be of the de-             chine learning techniques such as Matrix Factorisation to decom-
+sired accuracy. The cold start problem is an inherent problem of RSs         pose a multidimensional user-item-context matrix to learn latent
+which dictates that, for RSs to be able to produce meaningful and
+
+
+
+
+                                                                       113
+CloudRecoMan: Cloud adoption made easy                                                                GoodIT’22, September 07–09, 2022, Limassol, Cyprus
+
+
+
+
+                                         Figure 2: CloudRecoMan recommendation process workflow.
+
+
+factors for each user and item in the data to compute recommen-             on its profile data, independently of whether it is handled by the
+dations [22, 23]. While model-based methods have been proven                same user or not. The same applies for the CF RS: the explicit
+more accurate and superior to neighbourhood methods as they                 user feedback data acquired by the platform is linked not only to
+allow the incorporation of additional information, such as implicit         the user generating the interaction data, but also to the respective
+feedback, to be utilised in the recommendation process [24], in             company profile. Users can view and manage all company profiles
+our work we are using memory-based (neighbourhood) methods                  created by them in the “Manage Companies” UI (Figure 3). For
+due to their simplicity and also the nature of our recommendation           each company profile, the following options are provided: select
+problem. Resource and deployment plan recommendations in cloud              the specific company to view its profile data (that includes past
+settings constitute a reduced recommendation problem, in com-               ratings of resources and plans), view the recommendations for cloud
+parison to a full product recommender system where users and                resources, applications and deployment plans for that company,
+products to recommend are millions, and the latent factors for the          view the already deployed plans, edit the company profile data, and
+users and items are too many. In our case, we estimate to have a            delete the company profile. The latter two functionalities, together
+few hundreds of different company profiles, while the number of             with the functionality of entirely deleting a user account with all its
+cloud resources, applications and deployment plans to recommend             data, contribute to the conformation of the CloudRecoMan platform
+are fewer too. As a first implementation of the CloudRecoMan RS,            with the GDPR. Figure 4 displays part of the company profile set-up
+the algorithm we have selected to implement is the memory-based             form, with both basic information and cloud related information
+(neighbourhood-based) CF by using the correlation-based approach            respectively.
+[20]. The correlation-based approach is one of the two most popu-
+lar approaches in CF that has traditionally been used to compute
+similarities between user profiles. In our work, we are using it to         6   CLOUDIFIER
+compute similarities between company profiles.                              The Cloudifier receives as input the selection of the user from the
+   The top 6 recommendations of cloud resources, applications and           recommended cloud resources, applications and deployment plans
+deployment plans are displayed to the user by our Hybrid RS as              and deploys the cloud infrastructure. At this stage, the Cloudifier
+follows: 3 from the knowledge-based RS and 3 from the CF RS. If             supports only Azure for creating and managing cloud infrastructure.
+one of the two recommenders has less recommendations to display,            It is in our future work plans that other cloud providers are added,
+then the overall recommendations shown to the user are also less            such as AWS, Google Cloud, etc. Regarding the Azure integration,
+than 6.                                                                     while other tools are also available such as the Azure API Man-
+                                                                            agement and Terraform, we have found the Azure Command-Line
+                                                                            Interface (Azure CLI) [25], along with the Azure Resource Manager
+5    COMPANY PROFILE MANAGEMENT                                             templates (ARM templates) [26] to be the easiest and cleanest to use.
+     SYSTEM                                                                 The Azure CLI is a command-line interface for creating and man-
+The CPMS’s aim is to manage the company profiles on the backend             aging Azure resources of users. The Azure Resource Manager is an
+by storing them and retrieving them from the DB, to display all the         “infrastructure as code” template that is composed using JavaScript
+information to users and to provide an easy way for users to set up         Object Notation (JSON) files that specify the project’s setup and
+company profiles in the respective frontend UI. The information             architecture. As the template employs declarative terminology, it is
+displayed includes the company profile data and the user rating             possible to deploy resources without having to specify the exact
+data.                                                                       series of programming commands needed to be used.
+   Users should first set-up a company profile in order for the                 When the user selects a recommendation, the Cloudifier initiates
+recommendation process to be initiated. The platform allows for             the deployment process of the cloud infrastructure. The first step
+multiple company profiles to be set-up by the same user. Each               of the execution is to connect to the selected cloud provider’s API
+company will receive its own customised recommendations based               through the user’s account using the appropriate CLI (for Azure
+
+
+
+
+                                                                      114
+GoodIT’22, September 07–09, 2022, Limassol, Cyprus                                                                                         Christos Mettouris et al.
+
+
+
+
+                                                     Figure 3: User interface to manage companies.
+
+
+
+
+                                                        Figure 4: Screens of the company profile.
+
+
+
+
+                                        Figure 5: Connecting to user’s account on Azure using Azure CLI.
+
+
+it is the Azure CLI) as shown in Figure 5 (user’s account info has                       7 VISUALIZATION COMPONENT
+been deleted).
+                                                                                         7.1 Map Graph
+    After a successful connection with the CLI, the Cloudifier creates
+a new resource group using the user’s company name so that the                           The Physical location of each server plays a significant role when
+resources to be built are grouped together. Next, the ARM tem-                           choosing a cloud provider. The closer the server to the user’s ma-
+plates are retrieved from the database so that the tool can build the                    chine the faster the data transfer speed is. This is due to the physical
+correct cloud infrastructure selected by the user. The final step is                     distance between the server and the user’s location. Therefore, for
+the execution of the main script that contains the command4 that                         business owners the best approach is to select a cloud provider
+builds the cloud infrastructure. Figure 6 shows a visualisation of                       that can offer servers in the geographic area of most customers so
+the resources built using Cloudifier in an Azure user account: a                         that they can have quick access to the company’s data. Servers’
+new Resource Group and a Virtual Machine was created with the                            physical location also plays a role in the regulations that needs
+same name.                                                                               to be followed. For instance, different locations provide different
+                                                                                         privacy measures since laws in some countries allow server access
+                                                                                         to authorities for monitoring purposes.
+4 az group deployment create –resource-group [resource group name] –template-uri
+[the ARM template Uniform Resource Identifier]
+
+
+
+
+                                                                                   115
+CloudRecoMan: Cloud adoption made easy                                                               GoodIT’22, September 07–09, 2022, Limassol, Cyprus
+
+
+
+
+                       Figure 6: Visualization of the resources built using Cloudifier in an Azure test account.
+
+
+
+
+                                           Figure 7: Left: Graph map, right: Tree/Dendrogram.
+
+
+    In the context of the visualization component, a map graph has          the D3JS library in Javascript. D3JS is a library dedicated to manip-
+been implemented showing all the available server locations based           ulating documents based on different kinds of data. Such data can
+on each cloud provider. The locations for each server have been ob-         be geographical data, time series data or even comma separated
+tained from the official website of five well-known cloud providers:        values. This specific visualisation has been obtained by adapting
+AWS, Alibaba, Azure, Firebase, Oracle. The graph shows in different         a pre-existing template to suit the needs of the application. The
+colours the locations of the servers for each specific cloud provider,      data have been obtained through the official websites of the cloud
+as shown in Figure 7, left part. The graph is interactive; the user can     service providers.
+hover on top of the legend and the map will update to show only the
+locations for the server selected. Moreover, by hovering over a spe-        8   CONCLUSIONS AND FUTURE WORK
+cific location on the map, the graph depicts the city represented by
+                                                                            This paper presents the CloudRecoMan platform and its compo-
+that location and the cloud provider who owns that specific server.
+                                                                            nents. The platform will next be evaluated in real settings. We aim
+The graph has been implemented using Datawrapper, an online
+                                                                            to invite company owners, managers and personnel from IBSCY
+tool for creating visualisations without coding required. Datawrap-
+                                                                            Ltd’s clientele to an evaluation process, where evaluation partici-
+per allows for free publication of the final chart and provides a
+                                                                            pants will be asked to freely use the CloudRecoMan platform for a
+link to embed the visualisation on a specific platform. Once the
+                                                                            period of 1 month and report their feedback. We aim to evaluate the
+visualisation has been tested, a WordPress plugin has been created
+                                                                            platform’s effectiveness in providing meaningful recommendations,
+for the inclusion of the graph on the CloudRecoMan platform.
+                                                                            its efficiency in terms of enabling the users complete their tasks
+                                                                            quickly, its usability and ease of use. In particular, the research
+7.2    Tree/Dendrogram Graph                                                questions we aim to answer are:
+The tree/dendrogram graph (Figure 7, right part) shows all the                 RQ1: Does the CloudRecoMan platform satisfy the needs of non-
+available services of each cloud provider. This graph is split into         technical users that are not experts in cloud computing in specify-
+the following categories: cloud provider name, thematic areas ap-           ing non-technical business requirements and receiving meaningful
+plications (e.g. Machine Learning, AI, Analytics etc.) and name of          recommendations of cloud resources, cloud applications and de-
+service. This graph is used as a tool for the user to observe whether       ployment plans?
+his/her selected choice of cloud provider has the services needed,             RQ2: Is the CloudRecoMan platform efficient in terms of enabling
+or to show the complexity of such systems and promote the use of            non-technical users that are not experts in cloud computing to
+the application provided. The graph has been implemented using              complete their tasks quickly?
+
+
+
+
+                                                                      116
+GoodIT’22, September 07–09, 2022, Limassol, Cyprus                                                                                                        Christos Mettouris et al.
+
+
+    RQ3: Is the CloudRecoMan platform usable and easy to use by                                  Computing Market. In: Ślęzak, D., Kim, Th., Yau, S.S., Gervasi, O., Kang, BH. (eds)
+non-technical users that are not experts in cloud computing?                                     Grid and Distributed Computing. GDC 2009. Communications in Computer and
+                                                                                                 Information Science, vol 63. Springer, Berlin, Heidelberg. https://doi.org/10.1007/
+    The results of the evaluation will drive the platform’s refine-                              978-3-642-10549-4_14
+ment, as well as functionality updates and improvements. Special                             [7] Ang Li, Xiaowei Yang, Srikanth Kandula, and Ming Zhang. 2010. CloudCmp:
+                                                                                                 shopping for a cloud made easy. In Proceedings of the 2nd USENIX conference
+attention will be given to the improvement of the RS based on the                                on Hot topics in cloud computing (HotCloud’10). USENIX Association, USA, 5.
+evaluation results. The algorithms used, especially the correlation-                         [8] cloudTM EU project homepage, Online: http://www.cloudtm.eu/. [Accessed June
+based approach in the CF RS is subject to improvements as it was                                 2022]
+                                                                                             [9] Artist EU project Homepage, Online: https://cordis.europa.eu/project/rcn/
+selected, not because of its efficiency in recommendations’ accuracy,                            105117_en.html. [Accessed April 2022]
+but in terms of its simplicity, problem complexity, as well as due                          [10] Mosaic EU project homepage, Online: http://www.mosaic-cloud.eu/. [Accessed
+to the limited data available at the current phase (model-based ap-                              March 2022]
+                                                                                            [11] PaaSage EU project homepage, Online: https://paasage.ercim.eu/. [Accessed
+proaches require more data to provide accurate results). We expect                               March 2022]
+that the CF RS will offer adequate results.                                                 [12] Gediminas Adomavicius and Alexander Tuzhilin. 2011. A.: Context-Aware Recom-
+                                                                                                 mender Systems. In: Ricci F., Rokach L., Shapira B., Kantor P. (eds) Recommender
+    As future work, we aim to investigate whether more advanced                                  Systems Handbook. Springer, Boston, MA, pp. 217-253.
+model-based CF recommendation techniques can be used in the                                 [13] Yifan Hu, Yehuda Koren, and Chris Volinsky. 2008. Collaborative Filtering for
+case where the recommendation problem at hand increases in com-                                  Implicit Feedback Datasets. In Proc. of the 8th IEEE International Conference on
+                                                                                                 Data Mining, pp. 263–272.
+plexity. This depends on the amount of companies registered in                              [14] Wai Tik So and Katsutoshi Yada. 2017. A Framework of Recommendation Sys-
+the platform and the amount of cloud resources, applications and                                 tem Based on In-store Behavior. in Proceedings of the 4th Multidisciplinary
+                                                                                                 International Social Networks Conference, New York, NY, USA, p. 33:1–33:4.
+deployment plans defined in the platform. In case these parame-                             [15] Edward Rolando Núñez-Valdéz, Juan Manuel Cueva Lovelle, Oscar Sanjuán
+ters greatly increase, then the recommendation problem will be                                   Martínez, Vicente García-Díaz, Patricia Ordoñez de Pablos, and Carlos Enrique
+increased in complexity, allowing us to utilize more complex rec-                                Montenegro Marín. 2012. Implicit feedback techniques on recommender systems
+                                                                                                 applied to electronic books. Computers in Human Behavior, Volume 28, Issue 4.
+ommendation techniques such as Matrix Factorization (see Section                            [16] Ladislav Peska. 2016. Using the Context of User Feedback in Recommender
+4).                                                                                              Systems. In Proceedings of the 11th Doctoral Workshop on Mathematical and
+    The Cloudifier can be extended to monitor and report the de-                                 Engineering Methods in Computer Science, MEMICS 2016, pp. 1-12.
+                                                                                            [17] Byoungju Yang, Sangkeun Lee, Sungchan Park, Sang-goo Lee. 2012. Exploiting
+ployment status based on sensors (e.g., CPU, RAM) provided by the                                Various Implicit Feedback for Collaborative Filtering. In Proceedings of the 21st
+platform, as well as perform scaling actions when the deployment                                 International Conference Companion on World Wide Web, WWW ’12 Compan-
+                                                                                                 ion, ACM, New York, NY, USA, pp. 639–640.
+rules are violated, e.g., high CPU load.                                                    [18] Xing Yi, Liangjie Hong, Erheng Zhong, Nathan Nan Liu, Suju Rajan. 2014. Be-
+                                                                                                 yond Clicks: Dwell Time for Personalization. In: Proceedings of the 8th ACM
+ACKNOWLEDGMENTS                                                                                  Conference on Recommender Systems, RecSys ’14, ACM, New York, NY, USA,
+                                                                                                 pp. 113–120.
+The CloudRecoMan project is funded by the University of Cyprus,                             [19] Pearl Pu, Li Chen, and Rong Hu. 2012. Evaluating recommender systems from
+under the “ONISILOS” funding scheme for postdoctoral researchers,                                the user’s perspective: survey of the state of the art. User Model User-Adap Inter
+                                                                                                 22, 317–355. https://doi.org/10.1007/s11257-011-9115-7
+1st call for proposals.                                                                     [20] Gediminas Adomavicius, Ramesh Sankaranarayanan, Shahana Sen, and Alexan-
+                                                                                                 der Tuzhilin. 2005. Incorporating contextual information in recommender systems
+REFERENCES                                                                                       using a multidimensional approach. ACM Transactions on Information Systems
+                                                                                                 (TOIS), vol. 23 103–145.
+ [1] Eurostat, “Cloud computing - statistics on the use by enterprises”, Online: https:     [21] Robin Burke. 2002. Hybrid Recommender Systems: Survey and Experiments, User
+     //ec.europa.eu/eurostat/statistics-explained/index.php/Cloud_computing_-                    Modeling and User-Adapted Interaction, vol. 12, no. 4, pp. 331–370.
+     _statistics_on_the_use_by_enterprises#Enterprises_using_cloud_computing                [22] Alexandros Karatzoglou, Xavier Amatriain, Linas Baltrunas, and Nuria Oliver.
+     [Accessed June 2022]                                                                        2010. Multiverse Recommendation: N-dimensional Tensor Factorization for
+ [2] RightScale, “State of the cloud report, 2017” Online: https://www.rightscale.               Context-aware Collaborative Filtering. In Proceedings of the Fourth ACM Con-
+     com/blog/cloud-industry-insights/cloud-computing-trends-2017-statecloud-                    ference on Recommender Systems, New York, NY, USA, pp. 79–86.
+     survey#cloud-workloads [Accessed June 2022]                                            [23] Trung V. Nguyen, Alexandros Karatzoglou, and Linas Baltrunas. 2014. Gauss-
+ [3] Tammi S. Feltham, Glenn Feltham, and James J. Barnett. 2005. The dependence                 ian Process Factorization Machines for Context-aware Recommendations. In
+     of family businesses on a single decision-maker. Journal of small business man-             Proceedings of the 37th International ACM SIGIR Conference on Research &
+     agement, 43(1), 1-15.                                                                       Development in Information Retrieval, New York, NY, USA, pp. 63–72.
+ [4] Nelson Gonzalez, Charles Miers, Fernando Redígolo, Marcos Simplício, Tereza            [24] Yehuda Koren, Robert Bell, and Chris Volinsky. 2009. Matrix Factorization
+     Carvalho, Mats Näslund, and Makan Pourzandi. 2012. A quantitative analysis of               Techniques for Recommender Systems. In Computer, vol. 42, pp. 30-37. DOI
+     current security concerns and solutions for cloud computing. Escola Politécnica             10.1109/MC.2009.263.
+     at the University of São Paulo (EPUSP), São Paulo, Brazil.                             [25] Azure CLI, Online: Available: https://docs.microsoft.com/en-us/cli/azure. [Ac-
+ [5] Tim Mazzarol. 2003. A model of small business HR growth management. Inter-                  cessed June 2022]
+     national Journal of Entrepreneurial Behavior & Research, 9(1), 27-49.                  [26] Azure Resource Manager Templates, Online: Available: https://docs.microsoft.
+ [6] Seung-Min Han, Mohammad Mehedi Hassan, Chang-Woo Yoon, Hyun-Woo Lee,                        com/en-us/azure/azure-resource-manager/templates/overview. [Accessed July
+     and Eui-Nam Huh. 2009. Efficient Service Recommendation System for Cloud                    2022]
+
+
+
+
+                                                                                      117
+

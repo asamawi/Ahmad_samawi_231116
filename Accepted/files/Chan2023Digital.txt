@@ -1,0 +1,491 @@
+E3S Web of Conferences 447, 03002 (2023)                                                         https://doi.org/10.1051/e3sconf/202344703002
+The 15th AIWEST-DR 2023
+
+
+
+
+  Digital Technology as a Resilience-Enhancing Tool for SMEs in
+  Earthquake-Prone Developing Countries
+  Syafruddin Chan*1, Jalaluddin2, Kurnia Asni3
+  1& 2
+       Faculty of Economics and Business, Syiah Kuala University
+  3
+      Magister Management Program, Abulyatama University
+
+
+                 Abstract. The objective of this study is to investigate the role of digital technologies in enhancing the
+                 resilience of small- and medium-sized enterprises (SMEs), particularly in developing countries, amidst
+                 natural disasters. Frequent earthquakes in Aceh, Indonesia, not only pose a medical emergency but also
+                 disrupt businesses, demanding adaptability and resilience. SMEs, constrained by limited resources, face
+                 heightened vulnerability. Drawing from a survey of 30 SME owners in Indonesia, this research reveals the
+                 pivotal role played by digital technology in enabling SMEs to withstand disasters, strengthen their
+                 operations, and ensure their continuity. The study uses a mixed-methods approach, which combines
+                 qualitative and quantitative research methods. This approach allows for a comprehensive understanding of
+                 the research problem by gathering different types of data. The qualitative data from interviews are analyzed
+                 using thematic analysis. This involves identifying recurring themes and patterns related to digital technology
+                 adoption and SME resilience.The findings of the study address a significant gap in existing literature,
+                 shedding light on the specific challenges faced by SMEs in developing countries and their strategies for
+                 digital transformation. From this preliminary study, two practical recommendations emerge. Firstly, SMEs
+                 are encouraged to invest in the adoption and integration of digital technology across various facets of their
+                 operations. This entails leveraging digital communication channels, harnessing cloud computing and e-
+                 commerce platforms, utilizing data analytics for informed decision-making, and exploring automation where
+                 applicable. These digital tools empower SMEs to enhance operational efficiency, elevate customer
+                 engagement, and adapt to evolving market dynamics. Secondly, the responsibility lies with tech developers
+                 and policymakers to support SMEs on their digital transformation journey. Tech developers can make
+                 significant contributions by designing user-friendly and cost-effective digital solutions tailored to the unique
+                 needs of SMEs in developing countries. Policymakers can foster an enabling environment by enacting
+                 supportive policies, providing essential financial incentives, and advocating partnerships between SMEs and
+                 technology providers. These concerted efforts pave the way for SMEs to thrive amidst challenges and
+                 contribute to heir sustained growth and prosperity.
+
+
+
+  Corresponding: *Syafruddin.chan@unsyiah.ac.id
+
+                                                                              nations, often overlooking the unique vulnerabilities and
+  1 Introduction                                                              opportunities that SMEs in disaster-prone regions
+                                                                              face(7).
+  Natural disasters have far-reaching consequences                                The state of the art in disaster management research
+  affecting not only public health but also disrupting                        reveals a growing recognition of the need to address the
+  economies and posing serious threats to businesses                          specific challenges faced by SMEs in disaster-prone
+  (1)(2). One such region, Aceh, Indonesia, frequently                        regions (8). However, comprehensive insights into how
+  experiences earthquakes, leading to both medical and                        digital technologies can play a pivotal role in enhancing
+  business emergencies. The situation demands                                 the resilience of SMEs, especially in developing
+  exceptional adaptability and resilience from businesses                     countries, remain limited.
+  to mitigate operational impacts (3). Among the affected,                         To address this urgent issue and strengthen SME
+  Small and Medium-sized Enterprises (SMEs) face                              resilience during natural disasters, this research
+  heightened vulnerability due to their limited resources                     investigates the role of digital technologies (9),
+  (4).                                                                        especially in developing countries like Aceh, Indonesia
+       Despite the recognition of the significant challenges                  (10). The study aims to uncover the specific challenges
+  posed by natural disasters, a critical research gap                         faced by SMEs in the region and explore strategies for
+  persists in understanding how digital technologies can                      digital transformation that can enable their survival,
+  enhance SME resilience, particularly in developing                          fortify operations, and ensure continuity during crises.
+  countries like Aceh, Indonesia (5)(6). Existing literature                       This research is significant because it provides
+  has primarily focused on disaster management in                             valuable insights into how digital technologies can help
+  broader terms or on larger corporations in developed                        SMEs in developing countries become more resilient
+
+
+© The Authors, published by EDP Sciences. This is an open access article distributed under the terms of the Creative Commons Attribution
+License 4.0 (https://creativecommons.org/licenses/by/4.0/).
+E3S Web of Conferences 447, 03002 (2023)                                                https://doi.org/10.1051/e3sconf/202344703002
+The 15th AIWEST-DR 2023
+
+   and sustainable. SMEs are essential for economic                    factors influence SMEs' decision-making processes in
+   growth in developing countries (11), so understanding               adopting digital solutions during crises.
+   how they can thrive during crises is important. The
+   objective of this study is to investigate the role of digital
+   technologies in enhancing the resilience of small- and
+   medium-sized enterprises (SMEs), particularly in
+   developing countries, amidst natural disasters.
+
+   This study is novel because it focuses on SMEs in
+   developing countries, particularly in Aceh, Indonesia,
+   which is vulnerable to natural disasters(12). The
+   findings of this study can help policymakers, technology
+   developers, and SMEs themselves develop strategies to
+   improve resilience and sustainability.
+                                                                       Fig. 1. The TOE framework, proposed by Tornatzky and
+   2 Literature Review                                                 Fleischer (1990)
+   2.1 Overview      of    Relevant              Theoretical
+   Frameworks and Concepts.                                                Several studies have applied the TOE framework to
+   2.1.1 Resilience Theory                                             understand the factors influencing technology adoption by
+                                                                       SMEs in developing countries. For instance, (17) conducted a
+   Resilience theory is a framework for understanding how              study in Indonesia that employed the TOE framework to
+                                                                       investigate the factors affecting the adoption of digital
+   organizations respond to and recover from disruptions.
+                                                                       technologies among SMEs in a developing country context.
+   It emphasizes the importance of adaptability, flexibility,          This research identified specific barriers and enablers that
+   and resourcefulness in responding to crises. (13) define            influence SMEs' decisions to adopt digital solutions during
+   resilience in the context of businesses as the ability to           crises, aligning with the objectives of this study.
+   bounce back, adapt, and thrive after facing challenges.
+   In the context of SMEs, resilience theory helps to                  2.1.3 Resilience in Business Operations during
+   understand how these enterprises can withstand the                  Crises
+   impact of disasters and pandemics, making informed                      Previous studies have shown that resilience is
+   decisions to continue their operations amidst adversity.            important for businesses to survive crises (18) and found
+   Organizational resilience Theory is a multidisciplinary             that resilient organizations demonstrated agility, quick
+   concept that examines an organization's ability to adapt,           decision-making, and effective communication to cope
+   survive, and prosper in the face of unexpected                      with the challenges of the disaster. This study provides
+   challenges, disruptions, or crises. It is also commonly             valuable insights into the strategies that larger
+   referred to as organizational resilience or business                corporations employ to navigate through the
+   resilience. The theory draws insights from various                  uncertainties including because of the disasters. While
+   fields, including organizational studies, management,               resilience theory provides a broad perspective on
+   sociology, and psychology, to understand how                        organizational resilience, studies have explored how
+   organizations can effectively respond to and recover                resilience translates into practical strategies for
+   from adverse events (14).                                           businesses during crises. For instance, (17)(15)
+       While (5) provide a general definition of resilience,           conducted research on the strategies employed by
+   several studies have explored the application of                    businesses, including SMEs, to enhance resilience
+   resilience theory to SMEs in developing countries, such             during disasters in Indonesia. This study found that
+   as those in Indonesia. For example, a study by (15)                 resilient organizations demonstrated agility, quick
+   conducted in South East Asia examined how SMEs in a                 decision-making, and effective communication to cope
+   developing country context demonstrated resilience by               with disaster-related challenges, providing insights
+   implementing adaptive strategies during and after                   relevant to SMEs in disaster-prone regions.
+   natural disasters. This study highlighted the relevance of
+   resilience theory in understanding the specific
+   challenges and responses of SMEs in similar settings.               2.1.4 SMEs' Challenges in Developing Countries
+                                                                       During Crises
+   2.1.2     Technology-Organization-Environment
+   (TOE) Framework                                                     SMEs in developing countries face unique challenges
+                                                                       during crises. (8) identified some of these challenges,
+       The TOE framework, proposed by (16), is a model                 including financial constraints, supply chain
+   that explains how organizations adopt new technologies.             disruptions, limited access to information, and reduced
+   It looks at three factors: the characteristics of the               customer demand. This study underscores the
+   technology, the organization's readiness for change, and            vulnerability of SMEs in developing countries during
+   the external environment. In the context of SME                     crises, highlighting the need for tailored solutions to
+   resilience and digital technology adoption, the TOE                 support their resilience.
+   framework can help understand how the characteristics
+   of digital technologies, the organization's readiness for
+   technology integration, and the external environment's
+
+
+                                                                   2
+E3S Web of Conferences 447, 03002 (2023)                                            https://doi.org/10.1051/e3sconf/202344703002
+The 15th AIWEST-DR 2023
+
+  2.1.5 Digital Technology Adoption in Crisis                      section focuses on the Adoption and Integration of
+  Situations                                                       Digital Technology in SME Operations. Questions in
+                                                                   this part inquire about the utilization of digital
+  Digital technologies can play a role in supporting SME           communication channels to maintain customer
+  resilience during crises. For instance, (19) found that          connections during and after disasters. They also delve
+  cloud computing enabled remote work, data                        into the impact of cloud computing and e-commerce
+  accessibility, and cost efficiency during the crisis. This       platforms on reaching a broader customer base,
+  research highlights the potential of digital technologies        especially beyond the local region.The subsequent
+  to facilitate operational continuity during disruptions.         section, titled Supporting SMEs on their Digital
+                                                                   Transformation Journey, explores participants' views on
+                                                                   the primary challenges confronted by SMEs in their
+  2.2 Identification of Gaps in the Literature that
+                                                                   region regarding the adoption of digital technologies.
+  the Study Aims to Address
+                                                                   Additionally, it seeks their insights on the types of
+                                                                   support or assistance they believe tech developers can
+  Despite the existing literature acknowledging the                offer to help SMEs overcome these challenges.
+  importance of resilience and digital technology adoption
+  during crises, a significant gap persists in empirical           3.3 Data Analysis
+  research that specifically focuses on SMEs in                    The qualitative data from interviews are analyzed using
+  developing countries vulnerable to natural disasters.            thematic analysis. This involves identifying recurring
+  Most studies predominantly concentrate on larger                 themes and patterns related to digital technology
+  corporations, often based in developed countries, which          adoption and SME resilience. This analysis helps gain
+  may not fully represent the challenges and opportunities         in-depth insights into the challenges faced by SMEs and
+  faced by SMEs in disaster-prone regions like Aceh,               the strategies they employ to enhance their resilience
+  Indonesia. This research aims to address this gap by             (23). The quantitative data from the survey are analyzed
+  providing empirical evidence on the impact of digital            using statistical software to generate descriptive
+  technologies on SME resilience in developing countries,          statistics and correlations between variables. This
+  particularly during disasters. The findings are expected         analysis provides an overview of the extent of digital
+  to offer practical recommendations to guide SME                  technology adoption among SMEs in Aceh and its
+  owners, policymakers, and technology developers in               association with their resilience during the disaster.
+  navigating the complexities of disasters and crises
+  effectively.                                                     3.4 Ethical Considerations
+
+                                                                   The study adheres to ethical guidelines in conducting
+  3 Methodology                                                    research with human participants. Informed consent is
+                                                                   obtained from all participants before conducting
+  3.1 Research Design                                              interviews and distributing surveys. The confidentiality
+                                                                   of the participants' responses is ensured, and personal
+  The study uses a mixed-methods approach, which                   identifiers are removed during data analysis to maintain
+  combines qualitative and quantitative research methods.          anonymity. Participants are informed about the
+  This approach allows for a comprehensive                         voluntary nature of their participation, and they have the
+  understanding of the research problem by gathering               right to withdraw from the study at any time without
+  different types of data (20). Qualitative data is gathered       facing any consequences (24)
+  through semi-structured interviews with SME owners,
+  while quantitative data is collected through a survey.
+  The combination of qualitative and quantitative methods          4 Findings
+  helps to ensure the validity and reliability of the study
+  (21)                                                                 The survey of 30 SME owners in Aceh, Indonesia,
+                                                                   yielded valuable insights into the pivotal role of digital
+  3.2 Data Collection                                              technologies in bolstering SME resilience during
+                                                                   disasters. The participating SMEs represented a diverse
+      The primary data collection methods are semi-                array of sectors, including souvenirs, fashion, culinary,
+  structured interviews and surveys. The interviews are            agribusiness, education, automotive, tours & travels,
+  conducted with a purposive sampling of SME owners in             beauty, event organization, and cleaning services.
+  Aceh, Indonesia, who have experienced the impact of              The study surveyed the SME owners from diverse
+  the earthquake and pandemic. The semi-structured                 sectors such as souvenirs, fashion, culinary,
+  nature of the interviews allows for open-ended                   agribusiness, education, automotive, tours & travels,
+  discussions, enabling participants to share their                beauty, event organizer, and cleaning services. These
+  perspectives and experiences freely (22). The survey is          owners embraced technology, utilizing online
+  designed to assess the digital technology adoption               marketplaces, e-commerce platforms, virtual events,
+  among SMEs in the region and understand its impact on            and digital marketing to adapt to changing consumer
+  their resilience during the disaster.                            demands and sustain their businesses during the crisis.
+      The survey questionnaire is divided into two
+  sections, each comprising five questions. The initial
+
+
+                                                               3
+E3S Web of Conferences 447, 03002 (2023)                                           https://doi.org/10.1051/e3sconf/202344703002
+The 15th AIWEST-DR 2023
+
+   These SME owners harnessed various digital tools, such          operational efficiency. Automation reduced dependency
+   as online marketplaces, e-commerce platforms, virtual           on manual tasks, allowing SMEs to optimize their
+   events, and digital marketing, to adapt to evolving             resources and respond more effectively to market
+   consumer demands and sustain their businesses during            dynamics. "Automation in our production process not
+   crisis situations. These digital technologies facilitated       only saved time and costs but also improved consistency
+   broader customer outreach, virtual engagement, online           and quality," shared a survey participant.
+   consultations, and service optimization, ultimately
+   ensuring resilience and fostering growth amidst the             4.2 Supporting SMEs                on     their    Digital
+   adversities posed by disasters.                                 Transformation Journey
+
+       Figure 2. The respondents: SMEs’ Business                   The survey findings also underscored the importance of
+                                                                   support from tech developers and policymakers to
+                                                                   facilitate SMEs' digital transformation. Tech developers
+                                                                   can contribute by creating user-friendly and cost-
+                                                                   effective digital solutions tailored to the needs of SMEs
+                                                                   in developing countries. Several SME owners expressed
+                                                                   the need for more accessible and affordable technology
+                                                                   options. "Many digital solutions are designed for larger
+                                                                   corporations with high costs. We need options that cater
+                                                                   to the specific needs and budget constraints of SMEs,"
+                                                                   emphasized one participant.
+                                                                       Furthermore, tech developers can play a crucial role
+                                                                   in offering training and technical assistance to SMEs
+                                                                   during their digital transformation journey. Providing
+                                                                   adequate support and guidance can enable SMEs to
+                                                                   overcome potential challenges in adopting new
+   The findings are organized into two main themes that
+                                                                   technologies and effectively integrate them into their
+   emerged from the data analysis: (1) Adoption and
+                                                                   operations.
+   Integration of Digital Technology in SME Operations
+                                                                       On the other hand, policymakers can foster an
+   and (2) Supporting SMEs on their Digital
+                                                                   enabling environment for SMEs' digital transformation
+   Transformation Journey.
+                                                                   by enacting supportive policies. Financial incentives,
+                                                                   such as grants and subsidies for technology adoption,
+   4.1 Adoption and Integration of Digital Technology
+                                                                   were highlighted as critical incentives to encourage
+   in SME Operations
+                                                                   SMEs to invest in digital technologies. "Financial
+                                                                   support from the government would make it easier for
+   The survey findings indicate that SMEs in developing            us to invest in digital solutions, especially during times
+   countries can significantly benefit from adopting and           of financial uncertainty," commented one SME owner.
+   integrating digital technologies across various facets of
+                                                                       Additionally, promoting partnerships between
+   their    operations.     Firstly,   leveraging    digital
+                                                                   SMEs and technology providers was emphasized as a
+   communication channels emerged as a crucial factor in
+                                                                   means to facilitate access to relevant and localized
+   staying connected with customers post-disasters. As one
+                                                                   digital solutions. Such collaborations can bridge the gap
+   participant stated, "Using social media and online
+                                                                   between SMEs' specific needs and available technology
+   platforms allowed us to maintain communication with
+                                                                   options, creating a mutually beneficial ecosystem.
+   our customers, reassure them, and address their
+   concerns promptly."
+       Secondly, the adoption of cloud computing and e-
+   commerce platforms was identified as essential in               5 Discussion
+   expanding market reach. Several SME owners
+   highlighted how online sales channels helped them               The interpretation of the findings in light of the research
+   access a broader customer base beyond their local               questions and relevant theoretical frameworks reveals
+   regions. "Having an e-commerce platform enabled us to           significant insights into the role of digital technologies
+   reach customers from different cities, even during              in empowering SME resilience in developing countries
+   lockdowns because of the crisis," noted one participant.        during natural disasters as well as pandemics. The
+       Moreover, harnessing data analytics emerged as a            findings align closely with the research questions,
+   powerful tool for informed decision-making. SMEs                addressing the specific challenges faced by SMEs in
+   utilize data analytics to track customer preferences,           Aceh, Indonesia, and highlighting the strategies for
+   monitor market trends, and adapt their strategies               digital transformation that enhance their resilience.
+   accordingly. As one SME owner explained, "Data                  Moreover, the results are consistent with relevant
+   analytics allowed us to understand changing customer            theoretical frameworks, such as the processes of
+   demands and tailor our products and services                    technological innovation (16) and the concept of
+   accordingly."                                                   business resilience (25), which emphasize the
+       Finally, exploring automation to streamline                 importance of technological adoption and adaptability to
+   processes was highlighted as a means to enhance                 navigate through crises.
+
+
+
+                                                               4
+E3S Web of Conferences 447, 03002 (2023)                                              https://doi.org/10.1051/e3sconf/202344703002
+The 15th AIWEST-DR 2023
+
+      The findings of this study corroborate and extend                 Lastly, as with any qualitative study, there may be a
+  existing literature related to SME resilience, digital            potential for researcher bias in data interpretation (23).
+  technology adoption, and disaster management during               To mitigate this, the research employed multiple data
+  disasters and pandemics. While some studies have                  analysis techniques and involved multiple researchers in
+  explored the importance of resilience and adaptability in         the analysis process to ensure objectivity and reliability.
+  business operations during crises (26) few have                       This study explored the role of digital technologies
+  specifically investigated the impact of digital                   in empowering SME resilience in developing countries
+  technologies on SMEs in developing countries. This                during natural disasters and pandemics, with a specific
+  research bridges the gap by providing empirical                   focus on Aceh, Indonesia. The findings revealed that
+  evidence that digital technologies significantly enhance          digital technologies, such as communication channels,
+  operational efficiency, customer engagement, and                  cloud computing, e-commerce platforms, data analytics,
+  market responsiveness for SMEs in Aceh, Indonesia.                and automation, significantly enhance operational
+  The comparison with existing literature strengthens the           efficiency, customer engagement, and market
+  validity of the findings and contributes to building a            responsiveness for SMEs. Embracing these digital tools
+  more comprehensive understanding of SME resilience                and practices empowers SMEs to adapt effectively to
+  during disasters and pandemics.                                   evolving market dynamics and strengthen their capacity
+      The results contribute significantly to the                   to withstand adversities.
+  understanding of the research problem by offering                     The implications of these findings are profound for
+  practical recommendations for SMEs, technology                    SME owners, technology developers, policymakers, and
+  developers, and policymakers. The findings highlight              researchers. SMEs in developing countries, particularly
+  the key areas where digital technology adoption can               in disaster-prone regions, can utilize the actionable
+  fortify SME operations and enable them to adapt                   insights to adopt digital technologies strategically. By
+  effectively to evolving market dynamics during crises.            leveraging digital communication channels to stay
+  SME owners in developing countries, particularly in               connected with customers, utilizing cloud computing
+  disaster-prone regions like Aceh, Indonesia, can                  and e-commerce platforms to expand their market reach,
+  leverage these insights to make informed decisions                harnessing data analytics for informed decision-making,
+  regarding their digital transformation journey. By                and exploring automation to streamline processes,
+  adopting digital communication channels, cloud                    SMEs can enhance their resilience and ensure their
+  computing, e-commerce platforms, data analytics, and              survival during crises (27).
+  automation, SMEs can enhance their resilience and                     This research significantly contributes to the field in
+  ensure their survival even in the face of natural disasters       several ways. Firstly, it fills a critical gap in the existing
+  and pandemics.                                                    literature by providing empirical evidence on the impact
+      Additionally, the study sheds light on the crucial role       of digital technologies on SME resilience in developing
+  of tech developers and policymakers in supporting                 countries, particularly in regions vulnerable to frequent
+  SMEs' digital transformation. By creating user-friendly           natural disasters. The study's focus on Aceh, Indonesia,
+  and cost-effective digital solutions tailored to SMEs'            adds value by shedding light on the unique challenges
+  needs, tech developers can bridge the accessibility gap           faced by SMEs in disaster-prone areas.
+  and facilitate technology adoption. Policymakers can                  Secondly, the research contributes to the emerging
+  also play a pivotal role by enacting supportive policies          field of disaster resilience and digital technology
+  and fostering partnerships between SMEs and                       adoption among SMEs in developing countries. By
+  technology providers. These findings offer a roadmap              exploring how digital technologies contribute to SME
+  for creating an enabling environment that empowers                resilience during disasters and pandemics, the study
+  SMEs to thrive amidst challenges and contributes to               extends the theoretical understanding of how these
+  their sustained growth and prosperity.                            technologies play a crucial role in business continuity
+                                                                    during crises.
+      5.1 Limitations of the studies.                                   Lastly, the study offers practical recommendations
+       It is essential to acknowledge certain limitations and       to guide SME owners, technology developers, and
+  potential biases that may have influenced the research.           policymakers in navigating through crises and fostering
+  Firstly, the study's generalizability may be limited due          a more resilient and sustainable business landscape.
+  to its focus on Aceh, Indonesia, and SMEs in developing           Policymakers can create an enabling environment that
+  countries. While the findings provide valuable insights           fosters innovation, technology adoption, and supportive
+  for similar contexts, caution should be exercised when            policies, while SME owners can embrace digital
+  applying them to other regions with different socio-              transformation strategically to promote business
+  economic and cultural factors.                                    sustainability and growth.
+       Secondly, the data collection process may have been
+  subject to participant bias. SME owners who                          5.2 Suggestions for Future Research
+  participated in the survey may represent a subset of                  Despite its valuable insights, this study
+  SMEs more inclined towards digital technology                     acknowledges certain limitations that open avenues for
+  adoption or those who managed to survive the disasters            future research. Firstly, the research's generalizability is
+  and pandemic better than others. Additionally, the                limited due to its focus on Aceh, Indonesia, and SMEs
+  reliance on self-reported data may introduce response             in developing countries. Future research could explore
+  bias, as participants may provide socially desirable              similar contexts in different regions to provide a broader
+  answers.                                                          perspective on SME resilience during crises.
+
+
+                                                                5
+E3S Web of Conferences 447, 03002 (2023)                                         https://doi.org/10.1051/e3sconf/202344703002
+The 15th AIWEST-DR 2023
+
+       Secondly, to address potential participant bias,                  implications. World Dev. 2003;31(7):1087–
+   future research could employ a mixed-methods                          102.
+   approach, incorporating quantitative data to                    3.    Rose A, Krausmann E. An economic framework
+   complement the qualitative findings. This approach                    for the development of a resilience index for
+   would offer a more comprehensive understanding of the                 business recovery. Int J Disaster Risk Reduct.
+   relationship between digital technology adoption and                  2013;5:73–83.
+   SME resilience.                                                 4.    Skouloudis A, Leal Filho W, Deligiannakis G,
+       Lastly, considering the dynamic nature of                         Vouros P, Nikolaou I, Evangelinos K. Coping
+   technological advancements and evolving business                      with floods: impacts, preparedness and
+   environments, future studies could adopt longitudinal                 resilience capacity of Greek micro-, small-and
+   designs to assess the long-term impact of digital                     medium-sized enterprises in flood-affected
+   technology adoption on SME resilience.                                areas. Int J Clim Chang Strateg Manag.
+                                                                         2023;15(1):81–103.
+                                                                   5.    Sulastri S, Mulyadi H, Disman D, Hendrayati H,
+   6 Conclusion                                                          Purnomo H. Resilience acceleration model of
+   In conclusion, this research sheds light on the critical              small and medium enterprises through digital
+   role of digital technologies in empowering SME                        transformation. J East Eur Cent Asian Res.
+   resilience in developing countries during natural                     2023;10(4):609–19.
+   disasters and pandemics. The study's findings offer             6.    Chan S, Asni K. Revival approach to increase
+   valuable insights for SME owners, technology                          MSMEs resilience during COVID-19:
+   developers, and policymakers to navigate through crises               experience from Aceh, Indonesia. Proc AICS-
+   and foster a more resilient and sustainable business                  Social Sci. 2021;11:452–9.
+   landscape.                                                      7.    Sadeghi N. Continuity of small businesses when
+        By embracing the recommended digital tools and                   facing increased flood risk due to global climate
+   practices, SMEs in developing countries can enhance                   change impacts: A systematic literature review.
+   their capacity to withstand adversities and thrive amidst             Int J Disaster Risk Reduct. 2022;103316.
+   challenges. Policymakers' support and technology                8.    Eggers F. Masters of disasters? Challenges and
+   developers' contribution play a pivotal role in creating              opportunities for SMEs in times of crisis. J Bus
+   an enabling environment for SMEs' digital                             Res. 2020;116:199–208.
+   transformation journey.                                         9.    Khalil A, Abdelli MEA, Mogaji E. Do digital
+        This research contributes to building more resilient             technologies influence the relationship between
+   and sustainable economies in developing countries and                 the COVID-19 crisis and SMEs’ resilience in
+   supports the growth and prosperity of SMEs as crucial                 developing countries? J Open Innov Technol
+   drivers of economic development. As SMEs continue to                  Mark Complex. 2022;8(2):100.
+   face unprecedented challenges, the study's findings and         10.   Iqbal M, Yanuarni E, Mawardi MK, Astuti ES.
+   recommendations hold significant promise for fostering                Linking knowledge management to tourism
+   resilience and ensuring their continued contribution to               business of SMEs in aftermath of disaster:
+   economic stability and growth even during crises.                     Implications for open innovation. J Open Innov
+                                                                         Technol Mark Complex. 2023;9(2):100054.
+                                                                   11.   Chege SM, Wang D. Information technology
+        Declaration of competing interest                                innovation and its impact on job creation by
+       The authors declare that they have no known                       SMEs in developing countries: an analysis of
+   competing financial interests or personal relationships               the literature review. Technol Anal Strateg
+   that could have appeared to influence the work reported               Manag. 2020;32(3):256–71.
+   in this paper.                                                  12.   Alexander B, Chan‐Halbrendt C, Salim W.
+                                                                         Sustainable livelihood considerations for
+        Acknowledgments                                                  disaster risk management: implications for
+       Focus Group Discussion in exploring the concept of                implementation of the Government of Indonesia
+   disaster funded by LPDP Ministry of Finance of the                    tsunami recovery plan. Disaster Prev Manag An
+   Republic of Indonesia, with the title RISPRO                          Int J. 2006;15(1):31–50.
+   INVITATION Research Grant I "SupeRISKa: Decision                13.   Chen R, Xie Y, Liu Y. Defining,
+   Support System for Disaster Risk Financing and                        conceptualizing, and measuring organizational
+   Insurance Based on Hazard Characteristics 2021-2024"                  resilience: A multiple case study. Sustainability.
+   Contract No.PRJ-103/LPDP/2021.                                        2021;13(5):2517.
+                                                                   14.   Akpinar H, Ozer Caylan D. Modeling
+        References                                                       organizational resilience in maritime business:
+                                                                         an ISM and MICMAC approach. Bus Process
+   1.      Zhou F, Endendijk T, Wouter Botzen WJ. A                      Manag J. 2023;29(3):597–629.
+           review of the financial sector impacts of risks         15.   Sulastri S, Mulyadi H, Disman D, Hendrayati H,
+           associated with climate change. Annu Rev                      Purnomo H, Mavrodieva A V, et al.
+           Resour Econ. 2023;15.                                         Governmental incentivization for SMEs’
+   2.      Skoufias E. Economic crises and natural                       engagement in disaster resilience in Southeast
+           disasters: Coping strategies and policy                       Asia. Manaj dan Bisnis. 2023;22(1):609–19.
+
+
+                                                               6
+E3S Web of Conferences 447, 03002 (2023)                          https://doi.org/10.1051/e3sconf/202344703002
+The 15th AIWEST-DR 2023
+
+  16.     Tornatzky LG, Fleischer M, Chakrabarti AK.
+          The processes of technological innovation. (No
+          Title). 1990;
+  17.     Fatimah N, Wibisono MG, Fareed A. Post
+          global pandemic and national paradigm of
+          resilience of Indonesian SMEs. Manaj dan
+          Bisnis. 2023;22(1):35–53.
+  18.     Salvato C, Sargiacomo M, Amore MD,
+          Minichilli A. Natural disasters as a source of
+          entrepreneurial opportunity: Family business
+          resilience after an earthquake. Strateg Entrep J.
+          2020;14(4):594–615.
+  19.     Yap S, Xu Y, Tan L. Coping with crisis: The
+          paradox of technology and consumer
+          vulnerability.     Int    J   Consum       Stud.
+          2021;45(6):1239–57.
+  20.     Creswell JW, Creswell JD. Research design:
+          Qualitative, quantitative, and mixed methods
+          approaches. Sage publications; 2017.
+  21.     Tashakkori A, Teddlie C. Putting the human
+          back in ‘“human research methodology”’: The
+          researcher in mixed methods research. Vol. 4,
+          Journal of mixed methods research. Sage
+          Publications Sage CA: Los Angeles, CA; 2010.
+          p. 271–7.
+  22.     Hair JF, Black WC, Babin BJ, Anderson RE,
+          Tatham RL. Multivariate data analysis 6th
+          Edition. New Jersey: Prentice Hall; 2006.
+  23.     Braun V, Clarke V. Using thematic analysis in
+          psychology. Qual Res Psychol. 2006;3(2):77–
+          101.
+  24.     Association AP. Ethical Principles of
+          Psychologists and Code of Conduct
+          https://www. apa. org/ethics/code/ethics-code-
+          2017. pdf. Accessed; 2020.
+  25.     Close K, Grebe M, Andersen P, Khurana V,
+          Franke MR, Kalthof R. The digital path to
+          business resilience. Bost Consult Gr Report
+          Bost. 2020;
+  26.     Putritamara JA, Hartono B, Toiba H, Utami HN,
+          Rahman MS, Masyithoh D. Do Dynamic
+          Capabilities and Digital Transformation
+          Improve Business Resilience during the
+          COVID-19         Pandemic?      Insights    from
+          Beekeeping        MSMEs        in      Indonesia.
+          Sustainability. 2023;15(3):1760.
+  27.     Torres AP, Marshall MI, Sydnor S. Does social
+          capital pay off? The case of small business
+          resilience after Hurricane Katrina. J
+          Contingencies Cris Manag. 2019;27(2):168–81.
+
+
+
+
+                                                              7
+
