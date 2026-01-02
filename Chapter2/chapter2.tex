@@ -21,15 +21,14 @@ This chapter presents a critical review of the literature on cloud computing ado
 By critically examining adoption theories, security frameworks, practical tools, and evaluation approaches, this chapter establishes the conceptual and empirical foundations for the development of a Secure Cloud Deployment Framework (SCDF) tailored to SME contexts. The synthesis provided herein directly informs the research problem and motivates the methodological and design choices presented in subsequent chapters.
 
 % ----------------------------------------------------------
-\section{Literature Selection and Review Approach}
+\section{Methodology}
 \label{sec:sec22}
 
 This literature review follows a systematic, criteria-driven approach informed by established systematic literature review (SLR) principles. The objective of the review was to identify, analyze, and synthesize empirical and applied research on cloud computing adoption, cybersecurity challenges, and deployment frameworks relevant to small and medium-sized enterprises (SMEs) operating in developing regions.
 
-\subsection*{Source Identification}
+\subsection*{Review Protocol}
 
-An initial corpus of 75 studies was collected from multiple academic digital libraries to ensure broad coverage across information systems, computer science, and business research. The databases consulted included ACM Digital Library (14 studies), Google Scholar (10 studies), IEEE Xplore (2 studies), ScienceDirect (5 studies), Scopus (34 studies), and SpringerLink (10 studies). Following automated and manual de-duplication, 9 duplicate records were removed, resulting in 66 unique studies retained for screening.
-
+This review protocol was informed by the PRISMA framework for systematic reviews and meta-analyses. The review protocol was registered with PROSPERO (CRD42024285666) and is available at \url{https://www.crd.york.ac.uk/PROSPERO/display_record.php?RecordID=CRD42024285666}.
 \subsection*{Abstract Screening}
 
 The first screening stage was conducted at the abstract level to exclude studies that were clearly misaligned with the research objectives. Abstracts were assessed holistically against the following inclusion criteria:
@@ -79,7 +78,7 @@ Security concerns emerge as the most consistently reported barrier across the re
 
 Empirical evidence illustrates substantial variation in the salience of security concerns across regions. In Jordan, approximately 14.3\% of SME managers expressed reluctance to adopt cloud computing primarily due to security considerations \cite{Al2018Factors}, whereas in Lebanon, 56\% of SMEs cited security and compliance as major barriers \cite{Skafi2020Factors}. This disparity reflects differences in environmental stability and recovery capacity rather than purely technical awareness.
 
-Specific security threats identified in the literature include data breaches resulting from weak authentication mechanisms, insecure application programming interfaces, and shared cloud infrastructure \cite{JamesBalancing}. Network-based attacks such as phishing, botnet activity, session hijacking, eavesdropping, and denial-of-service attacks were reported in studies conducted in India \cite{Narwane2020Mediating}, Turkey \cite{Sayginer2021Multi}, and Saudi Arabia \cite{Gibreel2023Factors}. Insider threats, including risks posed by former employees, were also documented, particularly in environments with weak access governance.
+Specific security threats identified in the literature include data breaches resulting from weak authentication mechanisms \cite{Verma2024suggested}, insecure application programming interfaces, and shared cloud infrastructure \cite{JamesBalancing}. Network-based attacks such as phishing, botnet activity, session hijacking, eavesdropping, and denial-of-service attacks were reported in studies conducted in India \cite{Narwane2020Mediating, narwane2019factors}, Turkey \cite{Sayginer2021Multi}, and Saudi Arabia \cite{Gibreel2023Factors}. Insider threats, including risks posed by former employees, were also documented, particularly in environments with weak access governance.
 
 The literature further highlights that SMEs face heightened exposure due to limited resources for incident response and recovery. Security controls are often deprioritized in favor of system functionality and cost minimization, creating structural vulnerabilities. The complexity of available security solutions and the requirement for specialized expertise constitute additional barriers, particularly for resource-constrained SMEs lacking dedicated security personnel \cite{Pruzan2015Monitoring, Tselios2022Improving}.
 
@@ -89,7 +88,7 @@ Regulatory and legal constraints represent a second major category of adoption b
 
 In Lebanon, weak infrastructure and the absence of coordinated government initiatives were found to negatively influence cloud adoption decisions \cite{Skafi2020Factors}. In India, the lack of SME-specific data protection laws creates legal ambiguity regarding liability and compliance responsibilities \cite{Narwane2020Mediating}. Similarly, studies from Saudi Arabia emphasize the need for clearer regulatory frameworks aligned with international standards, alongside improved institutional support \cite{Alqahtani2024ACCM}.
 
-Cross-border regulatory issues further complicate adoption. The absence of safe-harbor agreements in Turkey restricts market entry by international cloud providers \cite{Sayginer2021Multi}, while strict data protection and localization requirements in Russia have discouraged investment in local cloud infrastructure \cite{Balashova2022Cloud}. At the same time, SMEs face compliance risks related to global standards such as GDPR, HIPAA, and PCI DSS, which are often designed with large enterprises in mind and impose disproportionate burdens on smaller organizations.
+Cross-border regulatory issues further complicate adoption. The absence of safe-harbor agreements in Turkey restricts market entry by international cloud providers \cite{Sayginer2021Multi}, while strict data protection and localization requirements in Russia have discouraged investment in local cloud infrastructure. At the same time, SMEs face compliance risks related to global standards such as GDPR, HIPAA, and PCI DSS, which are often designed with large enterprises in mind and impose disproportionate burdens on smaller organizations.
 
 These findings suggest that regulatory environments in developing regions frequently amplify uncertainty rather than mitigate risk, thereby discouraging cloud adoption or leading to informal and insecure deployment practices.
 
@@ -138,7 +137,7 @@ Budget constraints frequently force SMEs to prioritize cost minimization over se
 
 Regional cultural, economic, and political conditions further shape cloud adoption patterns. Political instability, regulatory uncertainty, and macroeconomic volatility pose significant challenges in Lebanon \cite{Skafi2020Factors}. In Saudi Arabia, limited community awareness, cultural adaptation challenges, and dependence on a small number of local cloud providers influence adoption dynamics \cite{Gibreel2023Factors}.
 
-Cultural dimensions such as power distance, uncertainty avoidance, and collectivism affect technology adoption behaviors across developing regions. In Vietnam, the pandemic highlighted how social factors, including family responsibilities and remote work dynamics, intersect with digital adoption \cite{Huy2023Big}. In Russia, economic sanctions introduce unique challenges related to supply chains and infrastructure availability \cite{Balashova2022Cloud}.
+Cultural dimensions such as power distance, uncertainty avoidance, and collectivism affect technology adoption behaviors across developing regions. In Vietnam, the pandemic highlighted how social factors, including family responsibilities and remote work dynamics, intersect with digital adoption \cite{Huy2023Big}. In Russia, economic sanctions introduce unique challenges related to supply chains and infrastructure availability.
 
 Together, these factors demonstrate that cloud adoption and security risk among SMEs cannot be fully understood without accounting for local contextual constraints that systematically amplify exposure.
 
@@ -168,9 +167,9 @@ While these tools demonstrate practical utility, they remain narrowly scoped. Mo
 
 \subsection{Security Frameworks and Guidelines}
 
-For security-specific guidance, the literature frequently references established frameworks such as the NIST Cybersecurity Framework, ISO/IEC 27001, Zero Trust Architecture, and CIS Benchmarks. These frameworks provide structured approaches to risk management, access control, and secure configuration, and are theoretically adaptable to SME contexts \cite{Diaz2024Navigating}.
+For security-specific guidance, the literature frequently references established frameworks such as the NIST Cybersecurity Framework, ISO/IEC 27001, Zero Trust Architecture, and CIS Benchmarks. These frameworks provide structured approaches to risk management, access control, and secure configuration, and are theoretically adaptable to SME contexts.
 
-However, their practical implementation poses challenges for resource-constrained SMEs. ISO/IEC 27001, for example, requires sustained organizational commitment and documentation overhead that many SMEs cannot support \cite{Diaz2024Navigating}. Zero Trust principles offer conceptual clarity but demand architectural maturity that is often absent in small organizations. CIS Benchmarks provide free and actionable guidance, yet require technical expertise to apply consistently.
+However, their practical implementation poses challenges for resource-constrained SMEs. ISO/IEC 27001, for example, requires sustained organizational commitment and documentation overhead that many SMEs cannot support. Zero Trust principles offer conceptual clarity but demand architectural maturity that is often absent in small organizations. CIS Benchmarks provide free and actionable guidance, yet require technical expertise to apply consistently.
 
 Several studies propose lightweight or modular security approaches tailored to SMEs. A security analytics service designed for Industrial IoT environments emphasizes minimal additional infrastructure by leveraging containerized deployments and digital twin models \cite{Empl2021Flexible}. Such approaches demonstrate that effective security improvements can be achieved without extensive capital investment, provided that solutions are aligned with SME capabilities.
 
@@ -225,7 +224,7 @@ Taken together, these converging findings indicate that effective SME cloud depl
 
 \subsection{Research Gap}
 
-The synthesis of the reviewed literature reveals a clear research gap. While numerous studies explain why SMEs adopt or resist cloud computing, few address how secure cloud deployment can be achieved and sustained under real-world constraints \cite{Holler2025Factors}. Existing frameworks are predominantly descriptive, perception-driven, and adoption-focused, with limited attention to post-adoption security outcomes, operational feasibility, and cost-sensitive implementation. There is a lack of modular, risk-driven deployment frameworks that integrate security controls, automation mechanisms, and contextual adaptation tailored to SME capabilities.
+The synthesis of the reviewed literature reveals a clear research gap. While numerous studies explain why SMEs adopt or resist cloud computing, few address how secure cloud deployment can be achieved and sustained under real-world constraints. Existing frameworks are predominantly descriptive, perception-driven, and adoption-focused, with limited attention to post-adoption security outcomes, operational feasibility, and cost-sensitive implementation. There is a lack of modular, risk-driven deployment frameworks that integrate security controls, automation mechanisms, and contextual adaptation tailored to SME capabilities.
 
 This gap motivates the development of a Secure Cloud Deployment Framework (SCDF) that moves beyond adoption intention and addresses secure, cost-effective, and maintainable cloud deployment for SMEs operating in developing regions, particularly within the Middle East and emerging Asian economies.
 
