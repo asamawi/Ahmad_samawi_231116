@@ -21,33 +21,124 @@ This chapter presents a critical review of the literature on cloud computing ado
 By critically examining adoption theories, security frameworks, practical tools, and evaluation approaches, this chapter establishes the conceptual and empirical foundations for the development of a Secure Cloud Deployment Framework (SCDF) tailored to SME contexts. The synthesis provided herein directly informs the research problem and motivates the methodological and design choices presented in subsequent chapters.
 
 % ----------------------------------------------------------
-\section{Methodology}
-\label{sec:sec22}
+\section{Research Methodology}
+\label{sec:methodology}
 
-This literature review follows a systematic, criteria-driven approach informed by established systematic literature review (SLR) principles. The objective of the review was to identify, analyze, and synthesize empirical and applied research on cloud computing adoption, cybersecurity challenges, and deployment frameworks relevant to small and medium-sized enterprises (SMEs) operating in developing regions.
+This thesis employs a systematic literature review methodology to ensure a transparent, unbiased, and replicable research process. The review protocol was defined prior to the execution of the study and includes the research questions, search strategy, inclusion and exclusion criteria, quality assessment criteria, and data extraction plan.
 
-\subsection*{Review Protocol}
+Relevant studies were identified through comprehensive searches of major scientific databases, including ACM Digital Library (\url{http://portal.acm.org}), Google Scholar (\url{https://scholar.google.com/}), IEEE Digital Library (\url{http://ieeexplore.ieee.org}), ScienceDirect (\url{http://www.sciencedirect.com}), Scopus (\url{http://www.scopus.com}), and Springer Link (\url{http://link.springer.com}).
 
-This review protocol was informed by the PRISMA framework for systematic reviews and meta-analyses. The review protocol was registered with PROSPERO (CRD42024285666) and is available at \url{https://www.crd.york.ac.uk/PROSPERO/display_record.php?RecordID=CRD42024285666}.
-\subsection*{Abstract Screening}
+\subsection{Search Strategy}
 
-The first screening stage was conducted at the abstract level to exclude studies that were clearly misaligned with the research objectives. Abstracts were assessed holistically against the following inclusion criteria:
+A comprehensive search strategy was developed to identify relevant literature related to cloud security frameworks, adoption models, and cybersecurity practices pertinent to small and medium-sized enterprises (SMEs) in developing regions. The strategy combined domain-specific keywords with methodological terms using Boolean operators. Search strings were adapted to the syntax of each selected database.
 
+The search focused on peer-reviewed journal articles and conference papers published from 2015 onwards. The generic search string structure is presented below:
+
+\begin{verbatim}
+TITLE-ABS-KEY(
+    ("cloud computing" OR "cloud adoption" OR "cloud migration") 
+    AND 
+    ("SME*" OR "small and medium enterprise*" OR "small business*") 
+    AND 
+    ("developing countr*" OR "emerging econom*" OR "Global South" 
+     OR "low-income countr*") 
+    AND 
+    (security OR privacy OR regulation OR compliance OR risk OR challenge 
+     OR barrier OR cost OR connectivity OR expertise OR automation OR framework)
+)
+AND PUBYEAR > 2014
+\end{verbatim}
+
+\subsubsection*{Search Adaptation}
+To ensure comprehensive coverage, the search strategy included the following adaptations:
 \begin{itemize}
-    \item \textbf{SME Focus:} The study explicitly examined small and medium-sized enterprises rather than large enterprises or multinational corporations.
-    \item \textbf{Geographic Scope:} The research focused on developing or emerging economies, rather than exclusively on developed regions with mature IT infrastructures.
-    \item \textbf{Cloud Adoption Relevance:} The study addressed cloud adoption challenges, barriers, security frameworks, or deployment considerations.
-    \item \textbf{Challenge Domain Coverage:} Security, regulatory, or operational aspects of cloud computing were substantively discussed.
-    \item \textbf{Empirical Evidence:} The study employed empirical methods, including surveys, interviews, case studies, pilot deployments, simulations, or systematic reviews, rather than being purely theoretical or opinion-based.
+    \item Keywords were adjusted based on specific database requirements and syntax.
+    \item Truncation and wildcard symbols were used where supported to capture variations in terminology.
+    \item Search fields included title, abstract, and keywords to maximize the retrieval of relevant studies.
 \end{itemize}
 
-All criteria were considered collectively rather than as independent exclusion rules, allowing for contextual judgment. Following this stage, 61 studies were retained and advanced to full-text screening.
+\subsection{Inclusion and Exclusion Criteria}
 
-\subsection*{Full-Text Screening}
+To ensure that the review focused on high-quality and relevant studies, specific inclusion and exclusion criteria were established. These criteria were applied during both the initial screening and the full-text review phases.
 
-The remaining studies underwent full-text screening using the same core criteria, applied more rigorously to assess substantive relevance and methodological adequacy. Papers that failed to meet any strict criterion—such as absence of SME focus, lack of empirical grounding, or insufficient relevance to cloud security or adoption—were excluded. For borderline cases, a holistic assessment was applied to determine alignment with the research objectives.
+\subsubsection*{Inclusion Criteria}
+Studies were included if they met the following methodological and thematic requirements:
+\begin{itemize}
+    \item Focus on SMEs or similar small organizations.
+    \item Related to cloud security, risk, adoption challenges, or frameworks.
+    \item Coverage of technical security mechanisms, frameworks, implementation guidelines, or regional adoption.
+    \item Empirical studies, systematic reviews, framework proposals, and case studies.
+    \item Propose or evaluate tools, frameworks, or methods.
+    \item Peer-reviewed journal or conference papers.
+    \item Studies published between 2015--2025.
+\end{itemize}
 
-At the conclusion of the full-text screening phase, 30 studies met all inclusion requirements and were selected for detailed analysis and data extraction. These studies form the empirical foundation for the thematic synthesis presented in the remainder of this chapter.
+\subsubsection*{Exclusion Criteria}
+Studies were excluded if they fell into any of the following categories:
+\begin{itemize}
+    \item Duplicate publications.
+    \item Focus only on large enterprises.
+    \item Unrelated to cloud computing or security.
+    \item Purely theoretical papers without practical implications.
+    \item Non-Empirical and Opinion-Based Publications.
+    \item Secondary and Tertiary Studies.
+    \item Student theses, posters, or editorials.
+    \item Papers without access to full text or sufficient abstracts.
+    \item Not available in English.
+\end{itemize}
+
+\subsection{Study Selection Process}
+
+The study selection process was conducted in accordance with the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines. The PRISMA flowchart illustrates the progression of studies through the different stages of the review.
+
+An initial search across the selected databases yielded 75 records. After the removal of duplicates, 66 unique studies remained. During the title and abstract screening phase, 3 studies were excluded due to irrelevance to the research scope. The full texts of 32 articles were then assessed for eligibility, resulting in 28 studies included in the final analysis.
+
+The PRISMA flowchart provides a clear and structured summary of this process, supporting the transparency and reproducibility of the review.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/PRISMA_flow.png}
+    \caption{PRISMA flowchart of the study selection process.}
+    \label{fig:prisma_flow}
+\end{figure}
+
+\subsection{Quality Assessment of Selected Studies}
+To ensure the reliability and scientific rigor of the selected literature, a quality assessment (QA) was conducted as part of the systematic literature review process. The purpose of this assessment was to evaluate the methodological soundness, relevance, and clarity of each study before its inclusion in the final analysis.
+
+Each selected study was assessed using a predefined set of quality criteria. The criteria were designed to reflect best practices in empirical research within computer science and engineering disciplines. For each criterion, a score was assigned based on the degree to which the study satisfied the requirement.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Quality Assessment Criteria}
+    \label{tab:qa_criteria}
+    \begin{tabular}{|l|p{4cm}|p{8cm}|}
+        \hline
+        \textbf{ID} & \textbf{Quality Criterion} & \textbf{Description} \\
+        \hline
+        QA1 & SME Focus & Does this study focus on small and medium enterprises (SMEs) rather than exclusively on large enterprises or multinational corporations? \\
+        \hline
+        QA2 & Challenge Domain Coverage & Does this study report on security, regulatory, or operational aspects of cloud computing? \\
+        \hline
+        QA3 & Cloud Adoption Relevance & Does this study examine cloud adoption challenges, barriers, or cloud security frameworks/solutions? \\
+        \hline
+        QA4 & Empirical Evidence & Is this an empirical study (including case studies, pilot deployments, simulations, surveys, interviews, or systematic reviews) rather than an opinion piece, editorial, or purely theoretical paper without practical applications? \\
+        \hline
+        QA5 & Geographic Scope & Is this study conducted in or focusing on developing regions/countries rather than exclusively in developed countries with mature IT infrastructure? \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Each criterion was scored as follows:
+\begin{itemize}
+    \item 1: Criterion fully satisfied (yes)
+    \item 0.5: Criterion partially satisfied (maybe)
+    \item 0: Criterion not satisfied (no)
+\end{itemize}
+The total quality score for each study was calculated by summing the individual scores. Studies scoring below 2.5 were excluded from the final synthesis. This process helped ensure that only high-quality and relevant studies contributed to the review findings.
+
+For each included study, data were systematically extracted and organized. The extracted data included information on: Study Context (geographic region/country studied, industry sector(s) of SMEs examined, SME size characteristics, development level of region, study methodology, time period of data collection); Cloud Adoption Barriers (security challenges, regulatory barriers, operational challenges, technical barriers, specific examples and percentages); Local Constraints (connectivity issues, limited expertise, budget constraints, other regional factors, how these constraints specifically increase risk exposure or adoption barriers); Frameworks and Solutions (name and type of framework, key features and capabilities, specifically designed for or adaptable to SMEs, automation capabilities mentioned, cost-effectiveness considerations, maintainability aspects, adaptations); Evaluation Methods (evaluation methodology, specific metrics used for assessment, validation approaches and their effectiveness, sample sizes and study duration when applicable); and Key Findings (main conclusions, effectiveness of proposed solutions or frameworks, quantitative results, qualitative insights about SME-specific needs, success factors and best practices identified, gaps, future research recommendations).
+
+A qualitative synthesis was then conducted to identify patterns, trends, and gaps across the literature.
 
 \section{Cloud Computing Adoption among SMEs}
 \label{sec:sec23}
