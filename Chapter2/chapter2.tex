@@ -296,7 +296,7 @@ Pilot deployments and usability-focused evaluations are rare. The CloudRecoMan p
 
 Overall, the literature reveals a significant evaluation gap. Most proposed frameworks and tools are validated through perception-based measures rather than objective indicators such as security incident frequency, configuration compliance, or operational cost evolution. Longitudinal studies examining post-adoption outcomes remain largely absent, limiting confidence in the practical effectiveness of existing approaches.
 % ----------------------------------------------------------
-\section{Critical Synthesis and Research Gap}
+\section{Critical Synthesis}
 \label{sec:sec26}
 
 The heterogeneity observed across the reviewed literature reflects genuine contextual variation rather than methodological inconsistency. Differences in reported barriers, adoption drivers, and proposed solutions are closely linked to variations in regional infrastructure maturity, organizational capacity, and environmental stability. Consequently, understanding cloud adoption among SMEs in developing regions requires careful interpretation of findings within their specific socio-technical contexts rather than aggregation into uniform conclusions.
@@ -327,11 +327,104 @@ Despite contextual variation, several factors emerge consistently as critical to
 
 Taken together, these converging findings indicate that effective SME cloud deployment frameworks must integrate organizational readiness, environmental constraints, and baseline technical capability rather than addressing these dimensions in isolation. Existing models and tools fall short in translating this integrated understanding into deployable, security-aware guidance.
 
-\subsection{Research Gap}
+\section{Benchmark of Existing Approaches for SME Cloud Adoption and Security}
+\label{sec:benchmark_sme}
 
-The synthesis of the reviewed literature reveals a clear research gap. While numerous studies explain why SMEs adopt or resist cloud computing, few address how secure cloud deployment can be achieved and sustained under real-world constraints. Existing frameworks are predominantly descriptive, perception-driven, and adoption-focused, with limited attention to post-adoption security outcomes, operational feasibility, and cost-sensitive implementation. There is a lack of modular, risk-driven deployment frameworks that integrate security controls, automation mechanisms, and contextual adaptation tailored to SME capabilities.
+To move beyond descriptive synthesis and address the research problem identified in Section \ref{sec:sec26}, a structured benchmark was conducted to comparatively evaluate existing approaches for cloud adoption and security among SMEs in developing regions. The benchmark is grounded in the systematic review of 32 peer-reviewed studies and evaluates representative theoretical frameworks, security standards, tools, and decision-support platforms against a common set of criteria derived directly from the constraints and gaps identified in the literature.
 
-This gap motivates the development of a Secure Cloud Deployment Framework (SCDF) that moves beyond adoption intention and addresses secure, cost-effective, and maintainable cloud deployment for SMEs operating in developing regions, particularly within the Middle East and emerging Asian economies.
+\subsection{Benchmark Criteria}
+
+Based on the findings of the systematic review, six criteria were defined to reflect the practical requirements of SMEs operating under resource, expertise, and infrastructure constraints:
+
+\begin{description}
+    \item[Deployment Guidance (Operational ``How'')] -- the extent to which an approach provides concrete, actionable steps for cloud deployment rather than conceptual or explanatory guidance.
+    \item[Security Control Coverage] -- the breadth and depth of security controls addressed, including identity, access, network, application, and monitoring mechanisms.
+    \item[Cost Awareness] -- explicit consideration of SME budget constraints, including cost minimization strategies, use of free tiers, or reliance on open-source tooling.
+    \item[Automation Support] -- the degree to which automation is leveraged to reduce reliance on scarce human expertise and improve consistency.
+    \item[SME Contextual Suitability] -- whether the approach is explicitly designed for SMEs or merely adaptable from enterprise-oriented models.
+    \item[Empirical Validation with Measurable Outcomes] -- evidence of real-world validation beyond perception-based surveys, including pilot deployments or quantified security or operational outcomes.
+\end{description}
+
+These criteria reflect not only adoption considerations but also post-adoption deployment feasibility and sustainability, which are largely underexplored in existing literature.
+
+Table \ref{tab:benchmark} provides a comparative summary of the discussed approaches against key criteria for secure SME cloud deployment.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Comparative benchmark of existing approaches}
+    \label{tab:benchmark}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|l|c|c|c|c|c|l|}
+        \hline
+        \textbf{Approach} & \textbf{Deployment} & \textbf{Security} & \textbf{Cost} & \textbf{Automation} & \textbf{SME Fit} & \textbf{Empirical Validation} \\
+        \hline
+        TOE / TAM / DOI & \ding{55} & \ding{55} & \ding{55} & \ding{55} & Partial & Survey-based \\
+        \hline
+        ACCM-SME & \ding{55} & Partial & \ding{55} & \ding{55} & \ding{51} & Survey-based \\
+        \hline
+        NIST / ISO 27001 & Partial & \ding{51}\ding{51} & \ding{55} & Partial & Adaptable & Compliance-based \\
+        \hline
+        CIS Benchmarks & Partial & \ding{51} & \ding{51} & \ding{55} & Adaptable & Configuration \\
+        \hline
+        CloudRecoMan & \ding{51} & \ding{55} & \ding{51} & Partial & \ding{51}\ding{51} & Pilot \\
+        \hline
+        CMDSS & \ding{51} & \ding{55} & Partial & \ding{55} & \ding{51} & Conceptual \\
+        \hline
+        MFA Framework & Partial & \ding{51} & \ding{51} & \ding{51} & \ding{51} & Limited pilot \\
+        \hline
+        SkyHigh & \ding{55} & \ding{51} & \ding{55} & \ding{51} & Partial & Quantified case \\
+        \hline
+    \end{tabular}%
+    }
+\end{table}
+
+\subsection{Benchmark Findings}
+
+\subsubsection*{Deployment Guidance}
+The benchmark reveals that most theoretical adoption frameworks, including TOE-, TAM-, and DOI-based models, provide valuable explanatory insight into adoption intentions but offer no operational guidance for secure cloud deployment. Similarly, SME-specific adoption models such as ACCM-SME focus on identifying influential factors rather than prescribing deployment steps.
+
+In contrast, practical platforms such as CloudRecoMan and CMDSS provide partial deployment guidance by translating business requirements into recommended cloud configurations or migration paths. Infrastructure-as-Code tools further strengthen deployment guidance by enabling reproducible and policy-driven provisioning; however, these tools are rarely integrated into a broader SME-oriented framework.
+
+\subsubsection*{Security Control Coverage}
+Security frameworks such as NIST and ISO/IEC 27001 offer comprehensive coverage of security domains and remain the most complete references for risk management. However, they are primarily control-oriented and assume organizational maturity that many SMEs lack.
+
+Other approaches, including Zero Trust principles, CIS Benchmarks, and standalone MFA frameworks, address specific security layers effectively but do so in isolation. Monitoring tools such as SkyHigh provide visibility and incident detection yet do not address preventive controls or deployment sequencing. Overall, security coverage in the literature is fragmented across tools and frameworks rather than integrated.
+
+\subsubsection*{Cost Awareness}
+Cost emerges as the most influential adoption factor across the reviewed studies, yet explicit cost modeling or optimization guidance is largely absent from most frameworks. While some tools and approaches implicitly address cost through the use of open-source platforms, free tiers, or avoidance of specialized hardware, these strategies are not systematized.
+
+CloudRecoMan and lightweight MFA frameworks demonstrate greater cost sensitivity by design, whereas decision-support systems and assessment tools acknowledge cost benefits without offering concrete optimization mechanisms. Enterprise-oriented security standards largely ignore cost considerations, reinforcing the cost--security trade-off faced by SMEs.
+
+\subsubsection*{Automation Support}
+Automation is consistently identified in the literature as a critical enabler for secure cloud deployment under limited expertise. Infrastructure automation tools, security scanning utilities, and automated assessment platforms demonstrate strong potential to reduce configuration errors and operational burden.
+
+Despite this, automation is typically treated as a technical option rather than a core design principle. Most adoption frameworks and lifecycle models do not explicitly incorporate automation into their structure, leaving SMEs without guidance on how automation should be systematically applied across deployment and security operations.
+
+\subsubsection*{SME Contextual Suitability}
+Several approaches explicitly target SMEs or specific regional contexts, improving relevance and applicability. However, even SME-focused models often emphasize adoption decision-making rather than operational execution. Widely used security frameworks are described as ``adaptable'' to SMEs but were not originally designed with SME constraints in mind, resulting in scalability and complexity challenges.
+
+The benchmark highlights a recurring mismatch between the theoretical adaptability of frameworks and their practical usability by SMEs lacking dedicated security personnel or mature governance structures.
+
+\subsubsection*{Empirical Validation}
+The most significant weakness identified through the benchmark is the lack of empirical validation with measurable outcomes. The majority of studies rely on survey-based methods and structural modeling to validate adoption factors rather than evaluating deployed systems.
+
+Only a small number of studies report pilot implementations or quantified outcomes, such as the documented reduction in security incidents achieved through monitoring solutions or usability evaluations of decision-support platforms. Longitudinal evaluations and cost--security performance measurements remain largely absent.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{"c:/Users/samaw/OneDrive - Arab Open University - AOU/Final Project/Ahmad_samawi_231116/Figures/SME cloud adoption research framework diagram".png}
+    \caption{SME Cloud Adoption Research Framework}
+    \label{fig:framework_diagram}
+\end{figure}
+
+\subsection{Synthesis and Implications}
+\label{sec:benchmark_synthesis}
+
+The benchmark demonstrates that while existing approaches address individual aspects of SME cloud adoption and security, none provide integrated coverage across all six criteria. Theoretical models explain adoption behavior but lack operational guidance. Security frameworks offer comprehensive controls but impose complexity and cost burdens. Practical tools and platforms address specific gaps yet remain fragmented and insufficiently validated.
+
+Most critically, the benchmark reveals the absence of a fully integrated, empirically validated framework that combines deployment guidance, security controls, cost awareness, automation, and SME contextualization into a coherent and practical roadmap. This absence is not due to a lack of tools or standards, but to the lack of integration and prioritization tailored to SME realities.
+
+These findings directly justify the need for the Secure Cloud Deployment Framework (SCDF) proposed in this study, which aims to bridge the gap between high-level security principles and deployable, cost-aware, and automated cloud security practices suitable for SMEs in developing regions.
 
 % ----------------------------------------------------------
 \section*{Summary}
