@@ -13,7 +13,7 @@
 
 This chapter presents the Secure Cloud Deployment Framework (SCDF)---a structured, evidence-driven approach tailored for Small and Medium Enterprises (SMEs) to deploy cloud infrastructure securely, with emphasis on operational feasibility under real-world constraints.
 
-Cloud adoption offers SMEs scalability, cost efficiency, and flexibility; however, security risks and skill gaps remain critical concerns that commonly hinder secure implementation and long-term operations. According to cybersecurity analyses focused on SMEs, fundamental challenges such as limited budgets, scarcity of specialized expertise, and low security awareness significantly increase vulnerability to threats and misconfigurations in cloud environments. This is affirmed by the European Union Agency for Cybersecurity (ENISA), which notes that SMEs frequently lack clear, tailored guidance suited to their unique operational context, and that such guidance is essential for safe cloud adoption and risk management.
+Cloud adoption offers SMEs scalability, cost efficiency, and flexibility; however, security risks and skill gaps remain critical concerns that commonly hinder secure implementation and long-term operations. According to cybersecurity analyses focused on SMEs, fundamental challenges such as limited budgets, scarcity of specialized expertise, and low security awareness significantly increase vulnerability to threats and misconfigurations in cloud environments. This is affirmed by the European Union Agency for Cybersecurity (ENISA), which notes that SMEs frequently lack clear, tailored guidance suited to their unique operational context, and that such guidance is essential for safe cloud adoption and risk management \citep{ENISA2015CloudSecurityGuideSMEs}.
 
 SCDF arises from a juxtaposition of two realities:
 
@@ -23,7 +23,7 @@ SCDF arises from a juxtaposition of two realities:
     \item \textbf{Security challenge:} SMEs often operate without formal cybersecurity governance, dedicated teams, or enterprise-grade tools, yet face the same spectrum of threats that larger organizations do---including misconfigurations, identity compromise, and ransomware exposure.
 \end{itemize}
 
-This chapter translates systematic insights from the literature into SCDF---a framework that operationalizes key security principles into actionable and verifiable actions suitable for SMEs on Infrastructure-as-a-Service (IaaS) platforms. Rather than aiming for comprehensive enterprise compliance (e.g., ISO/IEC 27001 certification), SCDF focuses on deployable minimum viable security mechanisms that measurably reduce risk while preserving accessibility and cost-effectiveness.
+This chapter translates systematic insights from the literature into SCDF---a framework that operationalizes key security principles into actionable and verifiable actions suitable for SMEs on Infrastructure-as-a-Service (IaaS) platforms. Rather than aiming for comprehensive enterprise compliance (e.g., ISO/IEC 27001 certification), SCDF focuses on deployable minimum viable security mechanisms that measurably reduce risk while preserving accessibility and cost-effectiveness. SCDF is informed by cloud-specific guidance (e.g., ISO/IEC 27017) to support pragmatic control selection and responsibility assignment without requiring formal certification \citep{WikipediaISOIEC27017}.
 
 % ----------------------------------------------------------
 \section{Scope Definition and Applicability Boundaries}
@@ -34,7 +34,7 @@ This section defines the scope of SCDF's applicability and delineates the bounda
 \subsection{Target SME Profile}
 \label{subsec:target_sme_profile}
 
-SCDF is intended primarily for SMEs that share a set of organizational, technical, and economic characteristics common in developing and resource-constrained environments. SME research highlights that such organizations often adopt cloud computing to overcome infrastructural limitations and cost barriers, but concurrently struggle with security and privacy concerns, limited technical experience, and minimal governance structures. These challenges contribute to hesitancy in cloud adoption despite strong perceived benefits such as scalability and cost efficiency.
+SCDF is intended primarily for SMEs that share a set of organizational, technical, and economic characteristics common in developing and resource-constrained environments. SME research highlights that such organizations often adopt cloud computing to overcome infrastructural limitations and cost barriers, but concurrently struggle with security and privacy concerns, limited technical experience, and minimal governance structures. These challenges contribute to hesitancy in cloud adoption despite strong perceived benefits such as scalability and cost efficiency \citep{ENISA2015CloudSecurityGuideSMEs,Erdogan2023CybersecurityAwareness}.
 
 An SME appropriate for SCDF typically exhibits the following features:
 
@@ -285,7 +285,7 @@ Implementation follows four sequential phases, each building on the previous:
     \item \textbf{Phase 4: Backup, Recovery, and Continuity} --- Ensure resilience through automated backups and documented recovery procedures.
 \end{enumerate}
 
-These phases are ordered by risk reduction per unit effort. Phase 1 controls (identity and network) address the highest-impact threat vectors and therefore take priority over Phase 4 controls (backup and recovery), despite the importance of both.
+These phases are ordered by risk reduction per unit effort. Phase 1 controls (identity and network) address the highest-impact threat vectors and therefore take priority over Phase 4 controls (backup and recovery), despite the importance of both \citep{Brandefense2025CloudSecuritySMEs,InterceptAzureSecurityEbook,Scrut2022CloudSecurityMonitoring}.
 
 \subsection{Phase Advancement Criteria}
 \label{subsec:phase_advancement_criteria}
@@ -487,9 +487,11 @@ These activities require contextual judgment, business understanding, or strateg
 
 Understanding the shared responsibility model is essential for operational clarity:
 
-\textbf{Cloud Service Provider (CSP) responsibilities:} Protecting infrastructure, physical facilities, hypervisors, and virtualization layers \citep{Chen2023Securing}.
+\textbf{Cloud Service Provider (CSP) responsibilities:} Protecting infrastructure, physical facilities, hypervisors, and virtualization layers \citep{Microsoft2026SharedResponsibility,AWS2026SharedResponsibilityModel,NCSC2022SharedResponsibilityModel}.
 
-\textbf{Customer responsibilities:} Securing cloud data, configuring IAM and network controls, patching guest OS and applications, and managing access controls \citep{Gibreel2023Factors,Trigueros2024Security}.
+\textbf{Customer responsibilities:} Securing cloud data, configuring IAM and network controls, patching guest OS and applications, and managing access controls \citep{Microsoft2026SharedResponsibility,AWS2026SharedResponsibilityModel,Wiz2026SharedResponsibilityModel,Gibreel2023Factors,Trigueros2024Security}.
+
+Complementary explanations and applied best-practice discussions of the shared responsibility model (including service-model differences across IaaS/PaaS/SaaS) are also available in practitioner guidance, which supports SCDF's positioning of governance versus technical operational tasks \citep{Splunk2026SharedResponsibilityModel,Aqua2023SharedResponsibilityModel,TrustCloud2026SharedResponsibilityModel}.
 
 This division implies that technical operators must explicitly manage controls ``in the cloud'' (e.g., IAM, logging, encryption), whereas strategic actors govern business risk that is not covered by provider protections. Understanding these boundaries prevents misattribution of responsibility --- a common cause of cloud misconfigurations and security lapses. A well-communicated responsibility model ensures that both management and technical operators have clear expectations about what they must oversee, and what is assumed by their provider, reducing ambiguity in operational workflows and enhancing accountability \citep{Al2023Security}.
 
@@ -783,7 +785,7 @@ While the responsibility for physical infrastructure and host virtualization sec
     \item \textbf{Customers secure:} identity and access, operating systems, application configurations, encryption, and logging.
 \end{itemize}
 
-SCDF assumes this shared model and focuses on the controls that fall within the customer's responsibility domain, ensuring that SMEs can apply standardized security best practices regardless of which IaaS provider they choose. This is consistent with cloud-security best practices that emphasize customer responsibility for OS and configuration level security when using IaaS \citep{Gibreel2023Factors,Trigueros2024Security}.
+SCDF assumes this shared model and focuses on the controls that fall within the customer's responsibility domain, ensuring that SMEs can apply standardized security best practices regardless of which IaaS provider they choose. This is consistent with cloud-security best practices that emphasize customer responsibility for OS and configuration level security when using IaaS \citep{AWS2026SharedResponsibilityModel,Microsoft2026SharedResponsibility,Wiz2026SharedResponsibilityModel,Gibreel2023Factors,Trigueros2024Security}.
 
 \subsection{Why These Providers Matter for SCDF}
 \label{subsec:provider_rationale}
@@ -800,7 +802,7 @@ Collectively, this coverage ensures that SCDF remains both scalable and relevant
 \section{Evaluation Strategy}
 \label{sec:evaluation_strategy}
 
-To assess the effectiveness, suitability, and operational impact of the Secure Cloud Deployment Framework (SCDF) in SME cloud environments, SCDF adopts an evaluation strategy built around measurable, outcome-focused metrics. Rather than relying on qualitative judgments alone, this strategy emphasizes meaningful indicators of security posture, operational overhead, and cost efficiency---particularly for resource-constrained environments.
+To assess the effectiveness, suitability, and operational impact of the Secure Cloud Deployment Framework (SCDF) in SME cloud environments, SCDF adopts an evaluation strategy built around measurable, outcome-focused metrics. Rather than relying on qualitative judgments alone, this strategy emphasizes meaningful indicators of security posture, operational overhead, and cost efficiency---particularly for resource-constrained environments \citep{Scrut2022CloudSecurityMonitoring,Olifer2015OntologyMetricsMapping}.
 
 A well-designed evaluation strategy serves several purposes: it provides evidence of security improvement over time, enables justified investment decisions, and supports continuous refinement of controls as threat landscapes evolve.
 
@@ -812,7 +814,7 @@ Security posture indicators are quantitative metrics that reflect an organizatio
 Key security posture indicators in SCDF include:
 
 \begin{itemize}
-    \item \textbf{Mean Time to Detect (MTTD):} The average time required to detect a security incident after its occurrence. A low MTTD suggests more effective monitoring and visibility.
+    \item \textbf{Mean Time to Detect (MTTD):} The average time required to detect a security incident after its occurrence. A low MTTD suggests more effective monitoring and visibility \citep{Scrut2022CloudSecurityMonitoring}.
     \item \textbf{Incident frequency:} The number of confirmed security incidents within a defined period (e.g., per quarter), categorized by severity. Consistent reductions over time indicate improved security control effectiveness.
     \item \textbf{Configuration drift percentage:} The proportion of system configurations that deviate from defined secure baselines. This metric helps quantify the effectiveness of automated posture management tools and policy enforcement.
     \item \textbf{Control coverage score:} The percentage of recommended controls implemented and validated versus the total SCDF control set. Progress here demonstrates advancing maturity across SCDF phases.
@@ -829,7 +831,7 @@ Core operational overhead metrics include:
 
 \begin{itemize}
     \item \textbf{Deployment time per phase:} Total elapsed time required to implement each SCDF phase (P1 through P4). These measurements help SMEs plan and allocate resources effectively.
-    \item \textbf{Human vs. automation effort ratio:} The proportion of manual operator time relative to automated tasks (e.g., scripted scans, backups). A higher automation share typically indicates increased operational efficiency.
+    \item \textbf{Human vs. automation effort ratio:} The proportion of manual operator time relative to automated tasks (e.g., scripted scans, backups). A higher automation share typically indicates increased operational efficiency \citep{Cheenepalli2025DevSecOpsSMEs}.
     \item \textbf{Maintenance time per tool:} Time spent updating and managing each security tool (e.g., CI/CD integration for vulnerability scanning or updating SIEM rules). Documenting this metric supports decisions about tool suitability and cost--benefit trade-offs over time.
 \end{itemize}
 
