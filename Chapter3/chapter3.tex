@@ -401,376 +401,467 @@ SMEs may remain in any given phase until criteria are met; no artificial time li
 \subsection{Actor Roles}
 \label{subsec:actor_roles}
 
-SCDF recognizes three primary actors in SME cloud security:
+SCDF recognizes three primary actors in SME cloud security --- each with distinct responsibilities. These roles are designed to reflect common operational patterns in SMEs, where dedicated cybersecurity personnel are often absent and roles may overlap.
 
+\subsubsection{SME Owner / Management}
+
+\textbf{Primary responsibility:} Strategic risk acceptance, investment prioritization, and authorization of residual risk.
+
+\textbf{Key duties:}
 \begin{itemize}
-    \item \textbf{SME Owner / Management:} Holds ultimate accountability for risk acceptance and business prioritization. Decides security investment levels and accepts residual risk where full mitigation is infeasible.
-    
-    \item \textbf{Technical Operator:} Implements and maintains controls. May be internal IT staff, external managed service provider, or part-time administrator. Responsible for execution, not strategic risk decisions.
-    
-    \item \textbf{Automated Systems:} Enforce configuration, conduct monitoring, generate alerts, and execute approved automated responses (e.g., IP blocking, backup initiation).
+    \item Define organizational risk tolerance.
+    \item Approve security policies, budgets, and escalation procedures.
+    \item Accept residual risk when controls cannot fully mitigate a threat.
 \end{itemize}
 
-This separation clarifies that while technical operators implement controls, risk decisions remain with accountable management.
+\textbf{Rationale:} Without clear accountability at the managerial level, operational security decisions can be fragmented, which is a known contributor to cloud misconfigurations and ineffective control enforcement \citep{Gibreel2023Factors}.
 
-\subsection{Decision versus Automation Boundary}
+\subsubsection{Technical Operator}
+
+\textbf{Primary responsibility:} Implementation and ongoing maintenance of controls.
+
+\textbf{Possible identities:} Internal IT staff, outsourced managed services provider, part-time administrator, or shared role across engineers.
+
+\textbf{Key duties:}
+\begin{itemize}
+    \item Configure and monitor security controls (IAM, network rules).
+    \item Execute routine security scans, harden configurations, and maintain backups.
+    \item Triage and escalate alerts per established procedures.
+\end{itemize}
+
+\textbf{Rationale:} In most SMEs, a generalist technical operator --- not a specialized security team --- carries out cloud security activities. Defining this role explicitly helps clarify responsibility in the absence of dedicated staff \citep{Skafi2020Factors,Chan2023Digital}.
+
+\subsubsection{Automated Systems}
+
+\textbf{Primary responsibility:} Routine enforcement, validation, monitoring, and first-stage responses.
+
+\textbf{Examples:}
+\begin{itemize}
+    \item Automated scanners (configuration assessment, vulnerability scans).
+    \item Scheduled backups and log aggregation processes.
+    \item Automated alerting mechanisms tied to SIEM platforms.
+\end{itemize}
+
+\textbf{Key duties:}
+\begin{itemize}
+    \item Perform configuration validation and drift detection.
+    \item Collect and correlate logs for visibility into security events.
+    \item Trigger alert conditions for human review.
+\end{itemize}
+
+\textbf{Rationale:} Automation relieves operational burden and enhances consistency, but does not replace human judgment for strategic decisions or incident escalation, which aligns with modern cloud operations best practices \citep{Tanimu2023Review,Gupta2023Deep}.
+
+\subsection{Decision vs Automation Boundary}
 \label{subsec:decision_boundary}
 
-SCDF distinguishes between activities suitable for automation and those requiring human judgment:
+A clear boundary between automated actions and human-driven decisions is crucial in scalable cloud operations. SCDF makes this distinction explicit:
+
+\subsubsection{Automated Activities}
+
+These are tasks that do not require human latency and can be safely codified into repeatable logic:
 
 \begin{itemize}
-    \item \textbf{Automated (no human latency):} Configuration validation, scheduled backups, routine log aggregation, basic pattern-based alerting.
-    
-    \item \textbf{Human-driven (requires judgment):} Access approval for privileged accounts, incident escalation after initial detection, recovery decision-making during outages, policy exceptions.
+    \item \textbf{Configuration validation:} Running automated checks via posture assessment tools (e.g., Prowler, ScoutSuite).
+    \item \textbf{Scheduled backups:} Regular snapshots and encrypted backups with lifecycle policies.
+    \item \textbf{Log aggregation and alert triggering:} Streaming logs into SIEM or centralized analysis for pattern detection.
+    \item \textbf{Initial alert scoring:} Automated baseline alerting that identifies possible anomalies.
 \end{itemize}
 
-This boundary ensures that automation reduces routine burden without displacing essential human oversight where judgment is required.
+\textbf{Why automate:} Automation compensates for human resource constraints while delivering consistent adherence to secure configurations and visibility. It is also a core component of modern cloud operations and security frameworks that encourage infrastructure automation for repeatability and reduced drift \citep{Rashid2024Analysis,Abdulsalam2023Security}.
+
+\subsubsection{Human-Driven Decisions}
+
+These activities require contextual judgment, business understanding, or strategic choices:
+
+\begin{itemize}
+    \item \textbf{Risk acceptance:} Deciding to accept residual risk after controls are applied, particularly when impacts are within tolerance.
+    \item \textbf{Access approvals:} Granting elevated privileges or exception workflows for business-critical operations.
+    \item \textbf{Incident escalation:} Determining when an alert, once validated, should trigger broader response actions or engagement of external responders.
+    \item \textbf{Recovery direction:} Making decisions about restoration procedures after major outages or data loss incidents.
+\end{itemize}
+
+\textbf{Why human decisions matter:} Cloud security involves nuanced trade-offs --- for example, a false positive alert may not warrant immediate containment if it disrupts operations unjustifiably; such scenarios require human judgment. This dual model of automation plus human oversight aligns with real-world cloud security operations, where tools execute routine tasks but strategic decisions remain human-driven \citep{Milhem2025integrated,Sabah2024Cloud}.
+
+\subsubsection{Integration with Shared Responsibility Model}
+\label{subsubsec:shared_responsibility}
+
+Understanding the shared responsibility model is essential for operational clarity:
+
+\textbf{Cloud Service Provider (CSP) responsibilities:} Protecting infrastructure, physical facilities, hypervisors, and virtualization layers \citep{Chen2023Securing}.
+
+\textbf{Customer responsibilities:} Securing cloud data, configuring IAM and network controls, patching guest OS and applications, and managing access controls \citep{Gibreel2023Factors,Trigueros2024Security}.
+
+This division implies that technical operators must explicitly manage controls ``in the cloud'' (e.g., IAM, logging, encryption), whereas strategic actors govern business risk that is not covered by provider protections. Understanding these boundaries prevents misattribution of responsibility --- a common cause of cloud misconfigurations and security lapses. A well-communicated responsibility model ensures that both management and technical operators have clear expectations about what they must oversee, and what is assumed by their provider, reducing ambiguity in operational workflows and enhancing accountability \citep{Al2023Security}.
 
 % ----------------------------------------------------------
 \section{Tooling and Control Mapping}
 \label{sec:tooling_mapping}
 
+To operationalize the Secure Cloud Deployment Framework (SCDF), this section presents a structured mapping of security tools and controls aligned with SME priorities and cloud security best practices. Cloud environments are layered and dynamic; tooling must therefore be purpose-built to address configuration risks, identity and access management, network controls, monitoring, and recovery support --- all while remaining accessible to resource-constrained small and medium enterprises \citep{Chen2023Securing,Al2023Security}.
+
+Modern cloud security guidance advocates a multi-layered strategy that incorporates preventive, detective, analytic, and mitigation tools across key security domains \citep{Gibreel2023Factors,Tanimu2023Review}. The tool mapping in SCDF is grounded in continuous security posture management, vulnerability assessment, and scalable monitoring approaches suitable for incremental deployment.
+
 \subsection{Tool Selection Criteria}
 \label{subsec:tool_selection_criteria}
 
-All tool recommendations in SCDF satisfy the following criteria, as illustrated in Figure~\ref{fig:tool_taxonomy}:
+Security tooling in SCDF must satisfy the following criteria:
 
-\begin{figure}[htbp]
-    \centering
-    \begin{tikzpicture}[
-        box/.style={rectangle, rounded corners, minimum width=2.5cm, minimum height=0.8cm, text centered, font=\scriptsize, draw, thick},
-        criterion/.style={ellipse, minimum width=3cm, minimum height=1cm, text centered, align=center, font=\small\bfseries, fill=blue!10, draw},
-        arrow/.style={->, >=stealth}
-    ]
-        % Central SME node
-        \node[criterion, fill=blue!20] (sme) at (0,0) {SME\\Constraints};
+\begin{itemize}
+    \item \textbf{Cost Accessibility:} Open-source, freemium, or usage-included services with little to no upfront licensing cost.
+    \item \textbf{Complexity Appropriateness:} Deployable and maintainable by generalist IT operators without specialized security expertise.
+    \item \textbf{Maintenance Sustainability:} Actively maintained tools with strong community support or vendor reliability.
+    \item \textbf{Provider Compatibility:} Functional across major IaaS platforms or available via cloud-native APIs that work with provider-agnostic workflows.
+\end{itemize}
 
-        % Four criteria
-        \node[criterion] (cost) at (-4,2) {Cost Access};
-        \node[criterion] (complex) at (4,2) {Complexity};
-        \node[criterion] (maint) at (-4,-2) {Maintenance};
-        \node[criterion] (compat) at (4,-2) {Compatibility};
-
-        % Tool examples
-        \node[box, fill=green!10] at (-4,3.2) {Free/OSS/Freemium};
-        \node[box, fill=green!10] at (4,3.2) {No Security Expertise};
-        \node[box, fill=green!10] at (-4,-3.2) {Active Community};
-        \node[box, fill=green!10] at (4,-3.2) {Multi-Cloud};
-
-        % Arrows
-        \draw[arrow] (sme) -- (cost);
-        \draw[arrow] (sme) -- (complex);
-        \draw[arrow] (sme) -- (maint);
-        \draw[arrow] (sme) -- (compat);
-    \end{tikzpicture}
-    \caption{SCDF Tool Selection Criteria}
-    \label{fig:tool_taxonomy}
-\end{figure}
-
-\begin{enumerate}
-    \item \textbf{Cost accessibility:} Free, open-source, or freemium with sufficient capability for SME-scale deployments.
-    \item \textbf{Complexity appropriateness:} Deployable by generalist IT staff without specialized security expertise.
-    \item \textbf{Maintenance sustainability:} Active project with community or vendor support; not deprecated or abandonware.
-    \item \textbf{Provider compatibility:} Functional across multiple IaaS platforms or clearly scoped to specific compatible platforms.
-\end{enumerate}
+These criteria align with practical SME guidance emphasizing that tools must be lightweight yet effective --- striking a balance between security needs and operational constraints \citep{Skafi2020Factors,Wilson2015Enablers}.
 
 \subsection{Identity and Access Management (IAM)}
 \label{subsec:iam_tools}
 
-Table~\ref{tab:iam_tools} lists IAM tooling options categorized by deployment phase and implementation effort.
+Identity and Access Management (IAM) forms the foundation of secure cloud operations. Concentric layers of identity controls help prevent unauthorized access, one of the most common vectors in cloud breaches.
+
+\textbf{Core IAM tool categories:}
 
 \begin{table}[htbp]
     \centering
-    \caption{SCDF IAM Tooling Options by Phase}
+    \caption{SCDF IAM Tooling by Phase}
     \label{tab:iam_tools}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|l|p{5cm}|l|l|l|}
+    \begin{tabular}{|l|l|l|l|l|}
         \hline
         \textbf{Tool/Service} & \textbf{Purpose} & \textbf{Phase} & \textbf{Effort} & \textbf{Cost} \\
         \hline
-        Native Cloud IAM & Provider-managed identity (AWS IAM, Azure AD, GCP IAM, OCI IAM, etc.) & P1 & Low & Included \\
+        Native Cloud IAM & Provider-managed identity and roles & P1 & Low & Included \\
         \hline
-        MFA (Native/TOTP) & Multi-factor authentication using authenticator apps & P1 & Low & Free \\
+        MFA (Native/TOTP) & Multi-factor authentication enforcement & P1 & Low & Free \\
         \hline
-        Keycloak & Self-hosted SSO and identity federation & P2 & Medium & OSS \\
+        Open-Source IAM (Keycloak) & Centralized authentication and federation & P2 & Medium & OSS \\
         \hline
-        Auth0 & SaaS authentication and authorization platform & P2 & Low & Freemium \\
-        \hline
-        Authelia & Lightweight SSO for self-hosted apps & P3 & Medium & OSS \\
+        ITDR* & Detect \u0026 respond to identity compromise patterns & P3 & Medium & OSS/Freemium \\
         \hline
     \end{tabular}%
     }
 \end{table}
 
-\textbf{Critical Control:} Phase 1 must implement MFA for all privileged accounts before any additional hardening.
+*Identity Threat Detection and Response extends basic IAM with behavioral alerting for compromised credentials.
+
+\textbf{Critical Control:} Phase 1 deployment must enforce least privilege and MFA on all privileged access before further controls are introduced to reduce the likelihood of account abuse \citep{Trigueros2024Security}.
 
 \subsection{Network and Edge Protection}
 \label{subsec:network_tools}
 
-Table~\ref{tab:network_tools} presents network protection tooling organized by deployment phase.
+Network protections restrict exposure to external threats and internal lateral movement.
 
 \begin{table}[htbp]
     \centering
     \caption{SCDF Network Protection Tooling by Phase}
     \label{tab:network_tools}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|l|p{5cm}|l|l|l|}
+    \begin{tabular}{|l|l|l|l|l|}
         \hline
         \textbf{Tool/Service} & \textbf{Purpose} & \textbf{Phase} & \textbf{Effort} & \textbf{Cost} \\
         \hline
-        Security Groups & Instance-level and subnet-level network access control & P1 & Low & Included \\
+        Security Groups / Firewall Rules & Default-deny network boundaries & P1 & Low & Included \\
         \hline
-        Network ACLs & Subnet-level stateless traffic filtering & P1 & Low & Included \\
+        Network ACLs & Subnet-level traffic filtering & P1 & Low & Included \\
         \hline
-        Cloudflare (Free) & Edge WAF, DDoS protection, DNS security & P2 & Low & Freemium \\
+        Freemium WAF (Cloudflare) & Application-layer attack prevention & P2 & Low & Freemium \\
         \hline
-        Native Provider WAF & Application-layer attack filtering & P2 & Medium & Usage-based \\
+        VPN / Secure Access (WireGuard) & Secured administrative access & P2 & Low & OSS \\
         \hline
-        OpenSnitch/Portmaster & Host-level application firewall & P3 & Medium & OSS \\
-        \hline
-        WireGuard/Tailscale & Modern VPN for secure access & P2 & Low & OSS \\
+        CASB* & Policy enforcement \u0026 usage visibility & P3 & Medium & OSS/Freemium \\
         \hline
     \end{tabular}%
     }
 \end{table}
 
-\textbf{Critical Control:} Default-deny security groups must be established in Phase 1, with explicit allow rules only for required services.
+*A Cloud Access Security Broker (CASB) offers intermediate policy enforcement between users and cloud services, helping enforce identity and data security policies across diverse applications and users \citep{Rashid2024Analysis}.
+
+\textbf{Critical Control:} Phase 1 must implement default-deny security groups for all inbound access, limiting services to minimal necessary ports and protocols.
 
 \subsection{Configuration Hardening and Audit}
 \label{subsec:hardening_tools}
 
-Table~\ref{tab:hardening_tools} lists configuration assessment tools mapped to deployment phases. These tools address the misconfiguration risk identified as the dominant cause of cloud security incidents in the SLR.
+Misconfigurations are among the most pervasive cloud security risks; therefore, SCDF prioritizes continuous posture assessment and remediation.
 
 \begin{table}[htbp]
     \centering
     \caption{SCDF Configuration Hardening Tooling by Phase}
     \label{tab:hardening_tools}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|l|p{4.5cm}|l|l|p{3cm}|}
+    \begin{tabular}{|l|l|l|l|l|}
         \hline
         \textbf{Tool/Service} & \textbf{Purpose} & \textbf{Phase} & \textbf{Effort} & \textbf{Coverage} \\
         \hline
-        Prowler & Multi-cloud security posture assessment & P2 & Medium & AWS, Azure, GCP \\
+        CSPM* & Continuous configuration checks & P2 & Medium & Multi-cloud \\
         \hline
-        ScoutSuite & Multi-cloud security auditing & P2 & Medium & AWS, Azure, GCP, Alibaba \\
+        CloudSploit & Misconfiguration discovery \u0026 monitoring & P3 & Low & Multi-cloud \\
         \hline
-        CloudSploit & Continuous cloud security monitoring & P3 & Low & Multi-cloud \\
+        Trivy & Container and infrastructure vulnerability scanning & P2 & Low & CI/CD \\
         \hline
-        CIS Benchmarks & Industry-standard configuration guidance & P2 & High & All major IaaS \\
+        CIS Benchmarks & Hardening standards & P2/P3 & Medium & All IaaS \\
         \hline
-        CIS-CAT Lite & Automated configuration assessment & P3 & Medium & Standardized \\
-        \hline
-        Lynis & Host-level security auditing & P2 & Low & Linux/Unix systems \\
-        \hline
-        OpenSCAP & Automated compliance checking & P3 & Medium & SCAP-compliant systems \\
+        OpenVAS & Vulnerability scanner & P2 & Medium & Multi-scope \\
         \hline
     \end{tabular}%
     }
 \end{table}
 
-\textbf{Automation Priority:} Weekly automated Prowler/ScoutSuite scans should be scheduled in Phase 3, with findings routed to designated response personnel.
+*CSPM tools continuously scan cloud environments for misconfigurations and compliance risks, addressing latent issues before they lead to exploitation \citep{Gibreel2023Factors}. Regular cloud posture monitoring is a recommended security practice to maintain consistent security baselines and accelerate detection of configuration drift \citep{Al2023Security}.
+
+\textbf{Automation Priority:} Weekly posture scans and drift detection provide early warning and remediation opportunities before incidents occur.
 
 \subsection{Monitoring and Logging}
 \label{subsec:monitoring_tools}
 
-Table~\ref{tab:monitoring_tools} presents monitoring and logging tooling critical for detecting the anomalous activity and misconfigurations that SLR findings identified as common initial attack vectors.
+Ongoing visibility into events and trends is essential for detecting anomalies and operational issues.
 
 \begin{table}[htbp]
     \centering
     \caption{SCDF Monitoring and Logging Tooling by Phase}
     \label{tab:monitoring_tools}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|l|p{4.5cm}|l|l|p{3cm}|}
+    \begin{tabular}{|l|l|l|l|l|}
         \hline
         \textbf{Tool/Service} & \textbf{Purpose} & \textbf{Phase} & \textbf{Effort} & \textbf{Notes} \\
         \hline
-        Cloud-native logging & Provider-managed log collection & P1 & Low & Basic P1 requirement \\
+        Cloud-native logging & Provider-managed log collection & P1 & Low & Basic logging \\
         \hline
-        Wazuh & Open-source SIEM and HIDS & P3 & High & Single-node deployment \\
+        SIEM / Log Aggregation & Centralized analysis and alerting & P3 & Medium & OSS/Freemium \\
         \hline
-        Graylog & Log aggregation and analysis & P3 & Medium & Simpler than ELK \\
+        CloudSploit & Supplementary config alerts & P3 & Low & CSPM \\
         \hline
-        OpenSearch & Search and analytics suite & P3 & High & ELK alternative \\
+        Graylog / Loki / OpenSearch & Aggregation \u0026 searchable logs & P3 & Medium & OSS \\
         \hline
-        Loki & Lightweight log aggregation & P3 & Low & Grafana ecosystem \\
-        \hline
-        Prometheus & Monitoring and alerting & P3 & Medium & Metrics collection \\
-        \hline
-        Grafana & Visualization and dashboards & P3 & Low & OSS, widely used \\
-        \hline
-        Uptime Kuma & Simple uptime monitoring & P2 & Low & Quick deployment \\
+        Metrics Monitoring & Trend visualization & P3 & Low & OSS \\
         \hline
     \end{tabular}%
     }
 \end{table}
 
-\textbf{SLR-Based Rationale:} Wazuh addresses the monitoring gaps identified in Lebanese and Jordanian SME studies by providing centralized visibility without requiring specialized SOC personnel \citep{Skafi2020Factors,Al2018Factors}.
+A blend of provider-native logging and centralized alerting supports correlation, investigation, and dashboarding. Cloud security monitoring tools significantly enhance situational awareness by collecting logs, correlating alerts, and aiding in incident detection and forensics \citep{Gupta2023Deep}.
+
+\textbf{Monitoring Best Practice:} Configure automated alerts for high-risk events (e.g., failed logins, unexplained privilege escalations) to enable prompt human validation and response.
 
 \subsection{Backup and Recovery}
 \label{subsec:backup_tools}
 
-Table~\ref{tab:backup_tools} lists backup and recovery tooling essential for business continuity---addressing the connectivity instability and disaster exposure identified in Philippines and Indonesia SLR contexts \citep{Matias2019Cloud,Chan2023Digital}.
+Backup and recovery tools ensure business continuity and resilience.
 
 \begin{table}[htbp]
     \centering
     \caption{SCDF Backup and Recovery Tooling by Phase}
     \label{tab:backup_tools}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|l|p{4.5cm}|l|l|p{3cm}|}
+    \begin{tabular}{|l|l|l|l|l|}
         \hline
         \textbf{Tool/Service} & \textbf{Purpose} & \textbf{Phase} & \textbf{Effort} & \textbf{Encryption} \\
         \hline
-        Cloud snapshots & VM and volume-level backups & P1 & Low & Provider-managed \\
+        Cloud snapshots & VM \u0026 storage backups & P1 & Low & Provider-managed \\
         \hline
-        Restic & Encrypted, deduplicated backups & P4 & Medium & AES-256 \\
+        Restic / BorgBackup & Deduplicated, encrypted backups & P4 & Medium & AES-256 \\
         \hline
-        Duplicati & Encrypted file-level backup & P4 & Low & AES-256 \\
+        Duplicati / Kopia & File-level encrypted backups & P4 & Low & AES-256 \\
         \hline
-        BorgBackup & Deduplicating archiver & P4 & Medium & AES-256 \\
-        \hline
-        Kopia & Fast encrypted backups & P4 & Low & AES-256 \\
-        \hline
-        rclone & Cloud sync and backup & P4 & Low & Optional \\
-        \hline
-        Object Storage & Off-site backup destination & P4 & Low & Client-side \\
+        Rclone & Sync backups to object storage & P4 & Low & Optional \\
         \hline
     \end{tabular}%
     }
 \end{table}
 
-\textbf{Resilience Requirement:} Phase 4 must implement automated daily backups with 30-day retention, tested monthly via restoration exercises.
+Daily backups with defined retention policies and periodic recovery tests protect against data loss due to misconfigurations, incidents, or outages --- a foundational resilience measure emphasized in cloud risk management practices \citep{Matias2019Cloud,Chan2023Digital}.
 
-\subsection{Vulnerability Management}
+\textbf{Resilience Requirement:} Automated backups should occur daily with monthly restoration tests to verify integrity and restore procedures.
+
+\subsection{Vulnerability Assessment and Remediation}
 \label{subsec:vulnerability_tools}
-
-Table~\ref{tab:vulnerability_tools} presents vulnerability management tooling addressing the patching and exposure management challenges identified across multiple regional SLR studies.
 
 \begin{table}[htbp]
     \centering
     \caption{SCDF Vulnerability Management Tooling by Phase}
     \label{tab:vulnerability_tools}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|l|p{4.5cm}|l|l|p{3cm}|}
+    \begin{tabular}{|l|l|l|l|l|}
         \hline
         \textbf{Tool/Service} & \textbf{Purpose} & \textbf{Phase} & \textbf{Effort} & \textbf{Coverage} \\
         \hline
-        Nessus Essentials & Vulnerability scanning (up to 16 IPs) & P2 & Low & Network, host \\
+        Nessus Essentials / OpenVAS & Vulnerability scanning & P2 & Medium & Host \u0026 network \\
         \hline
-        OpenVAS/Greenbone & Comprehensive VA solution & P2 & High & Network, web apps \\
+        Trivy / Cyera* & Container / IaC scanning & P2 & Low & CI/CD \\
         \hline
-        Trivy & Container and IaC scanning & P2 & Low & Containers, OS \\
-        \hline
-        Grype & Container vulnerability scanner & P2 & Low & Container images \\
-        \hline
-        Snyk (Free) & OSS dependency scanning & P2 & Low & Code libraries \\
-        \hline
-        Clair & Container static analysis & P2 & Medium & Container registries \\
-        \hline
-        Unattended-upgrades & Automatic OS patching & P2 & Low & Debian/Ubuntu \\
-        \hline
-        dnf-automatic & Automatic OS patching & P2 & Low & RHEL/CentOS/Fedora \\
+        Snyk (Free) & OSS dependency scanning & P2 & Low & Libraries \\
         \hline
     \end{tabular}%
     }
 \end{table}
 
-\textbf{SLR-Based Requirement:} Weekly automated scanning (Trivy for containers, Nessus for hosts) addresses the systematic patching gaps identified in Lebanese and Turkish SME contexts \citep{Skafi2020Factors,Sayginer2021Multi}.
+*Container and infrastructure vulnerability scanning.
 
-\subsection{Master Tool-to-Phase Mapping Summary}
+Continuous vulnerability scanning that prioritizes by exploitability and asset criticality helps SMEs to remediate known exposures before attackers can leverage them \citep{Abdulsalam2023Security}.
+
+\textbf{SLR-Informed Requirement:} Weekly scans of production instances and registries help detect emerging weaknesses that result from software, infrastructure, or configuration changes.
+
+\subsection{Master Tool-to-Phase Mapping}
 \label{subsec:tool_mapping_summary}
-
-Table~\ref{tab:master_tool_mapping} provides a consolidated summary of all SCDF-recommended tools organized by deployment phase. This mapping enables SMEs to plan phased implementation according to immediate risk reduction priorities.
 
 \begin{table}[htbp]
     \centering
     \caption{SCDF Master Tool-to-Phase Mapping}
     \label{tab:master_tool_mapping}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|l|p{6cm}|l|l|}
+    \begin{tabular}{|l|l|l|l|}
         \hline
         \textbf{Phase} & \textbf{Tools/Controls} & \textbf{Core Risk Addressed} & \textbf{Cumulative Effort} \\
         \hline
-        \textbf{P1: Baseline} & Security Groups, Cloud IAM, MFA, Basic Logging, Snapshots & Initial access via identity or network & Low (1-2 days) \\
+        \textbf{P1: Baseline} & IAM, MFA, Security groups, basic logging, snapshots & Identity \u0026 network access & Low \\
         \hline
-        \textbf{P2: Hardening} & WAF, VPN, Prowler, Lynis, Nessus, Trivy, Auth0/Keycloak & Misconfiguration and lateral movement & Medium (+3-5 days) \\
+        \textbf{P2: Hardening} & CSPM, CIS Benchmarks, vuln scanners, VPN/WAF & Misconfiguration \u0026 vulnerability exposure & Medium \\
         \hline
-        \textbf{P3: Monitoring} & Wazuh, Graylog, Grafana, CloudSploit, CIS-CAT Lite & Unmonitored breaches & High (+5-10 days) \\
+        \textbf{P3: Monitoring} & SIEM \u0026 log aggregation, metrics, automated alerts & Anomalous activity \u0026 incident detection & High \\
         \hline
-        \textbf{P4: Recovery} & Restic, Duplicati, Kopia, DR procedures & Data loss and service continuity & Medium (+2-3 days) \\
+        \textbf{P4: Recovery} & Backups \u0026 recovery tools, continuity testing & Data loss \u0026 continuity risk & Moderate \\
         \hline
     \end{tabular}%
     }
 \end{table}
 
-\textbf{Implementation Guidance:} The cumulative effort estimates assume a single part-time technical operator with generalist IT skills. Organizations with external managed service providers may achieve faster deployment by outsourcing Phase 3 implementation while maintaining internal responsibility for governance decisions.
+This master mapping enables SMEs to plan and resource SCDF implementation in a structured way, aligning tools with common threat vectors and documented cloud security best practices \citep{Milhem2025integrated,Sabah2024Cloud}.
 
 % ----------------------------------------------------------
 \section{IaaS Provider Coverage}
 \label{sec:provider_coverage}
 
-\subsection{Dominant Cloud Infrastructure Providers}
+This section defines which Infrastructure-as-a-Service (IaaS) providers SCDF is intended to support and why they were selected from both global market and SME usability perspectives. IaaS delivers foundational cloud resources (compute, storage, networking) under a subscription model, allowing organizations to run virtual machines, manage storage, and host applications without owning physical infrastructure. Customers retain control of virtual machine configuration, access policies, and the security of hosted workloads --- which makes strong deployment practices essential \citep{Chen2023Securing}.
+
+\subsection{Dominant Global IaaS Providers}
 \label{subsec:dominant_providers}
 
-SCDF targets the following dominant IaaS providers that collectively represent approximately 80\% of global cloud infrastructure spending:
+SCDF prioritizes support for the largest and most widely adopted IaaS providers globally, because these platforms collectively host the majority of SME cloud deployments and offer mature security tool chains that dovetail with the framework's controls:
 
 \begin{itemize}
-    \item Amazon Web Services (AWS)
-    \item Microsoft Azure
-    \item Google Cloud Platform (GCP)
-    \item Alibaba Cloud
-    \item Oracle Cloud Infrastructure (OCI)
-    \item IBM Cloud
-    \item Tencent Cloud
+    \item \textbf{Amazon Web Services (AWS)} --- Recognized widely as a market leader in IaaS with a broad global reach, comprehensive service portfolio, and robust native security controls.
+    
+    \item \textbf{Microsoft Azure} --- Strong enterprise and SMB adoption, especially where integration with Microsoft ecosystems (e.g., Active Directory, Office 365) is beneficial.
+    
+    \item \textbf{Google Cloud Platform (GCP)} --- Known for advanced networking, analytics, and security tooling.
+    
+    \item \textbf{IBM Cloud} --- Used by organizations seeking hybrid cloud architectures or specialized enterprise features.
+    
+    \item \textbf{Oracle Cloud Infrastructure (OCI)} --- Appeals to SMEs requiring integrated database and application services.
+    
+    \item \textbf{Alibaba Cloud} --- Competitive in Asia and Middle Eastern markets with strong cost-performance profiles.
+
+    \item \textbf{Additional providers (e.g., Kamatera)} --- Emerging IaaS options that offer flexible VPS and scalable infrastructure, sometimes at lower costs, which can be suitable for SMEs prioritizing simplicity over ecosystem breadth.
 \end{itemize}
 
-This coverage ensures applicability to organizations using major hyperscale providers. The framework's provider-agnostic core controls are portable across these platforms, with provider-specific implementation notes where necessary.
+These providers collectively capture the majority of the public cloud IaaS market and represent platforms where SCDF's risk-based controls and tooling patterns (IAM hardening, posture management, logging) can be directly applied \citep{Al2023Security,Rashid2024Analysis}.
 
-\subsection{SME-Focused and Cost-Efficient IaaS Providers}
+\subsection{SME-Focused and Cost-Efficient Providers}
 \label{subsec:sme_providers}
 
-While representing a smaller share of global infrastructure spend, the following providers are operationally significant for SMEs due to pricing simplicity, predictable costs, and regional availability:
+Beyond the major hyperscale cloud vendors, there is a class of cloud providers that are operationally attractive for SMEs due to predictable pricing, simplicity, and ease of onboarding. SCDF is designed to be portable to these environments as well:
 
 \begin{itemize}
-    \item Hetzner Cloud
-    \item DigitalOcean
-    \item OVHcloud
-    \item Linode (Akamai)
-    \item Vultr
-    \item Scaleway
+    \item \textbf{DigitalOcean} --- Popular with startups and developers for straightforward VPS hosting and predictable pricing.
+    
+    \item \textbf{OVHcloud} --- Offers flexible infrastructure options and European data-sovereignty advantages.
+    
+    \item \textbf{Hetzner Cloud} --- Known for cost-effective compute and storage options.
+    
+    \item \textbf{Linode, Vultr, Scaleway} --- Alternative IaaS options that provide simple cloud servers and networking, often appealing to micro-SMEs or early-stage deployments.
 \end{itemize}
 
-SCDF is designed to function effectively across both hyperscale and SME-focused providers, recognizing that cost-sensitive organizations may prioritize these alternatives while still requiring robust security controls.
+These providers may lack some advanced native security services compared to hyperscale vendors, but SCDF's tooling catalog and deployment phases are designed to accommodate environments where provider-native controls may be supplemented by open-source or 3rd-party tools \citep{Skafi2020Factors,Chan2023Digital}.
+
+\subsection{Security Considerations Across Providers}
+\label{subsec:cross_provider_security}
+
+While the responsibility for physical infrastructure and host virtualization security lies with the cloud provider, SMEs must secure their own configurations, access controls, and workload protections. The shared responsibility model under IaaS means that:
+
+\begin{itemize}
+    \item \textbf{Providers secure:} underlying hardware, network fabric, and virtualization layer.
+    \item \textbf{Customers secure:} identity and access, operating systems, application configurations, encryption, and logging.
+\end{itemize}
+
+SCDF assumes this shared model and focuses on the controls that fall within the customer's responsibility domain, ensuring that SMEs can apply standardized security best practices regardless of which IaaS provider they choose. This is consistent with cloud-security best practices that emphasize customer responsibility for OS and configuration level security when using IaaS \citep{Gibreel2023Factors,Trigueros2024Security}.
+
+\subsection{Why These Providers Matter for SCDF}
+\label{subsec:provider_rationale}
+
+\textbf{Market Prevalence and Tool Ecosystems:} AWS, Azure, and GCP offer the richest set of security-centric APIs, identity controls, and monitoring services --- enabling more seamless integration with SCDF controls and tooling \citep{Milhem2025integrated}.
+
+\textbf{Operational Flexibility:} SME-oriented providers (DigitalOcean, OVHcloud, etc.) provide simple environments where SCDF's lightweight controls and automation can be deployed without enterprise-grade overhead.
+
+\textbf{Geographic Diversity:} Many SMEs adopt cloud based on regional provider presence and cost considerations. SCDF can adapt to local availability and pricing structures while maintaining core security principles \citep{Sayginer2021Multi,Abdulsalam2023Security}.
+
+Collectively, this coverage ensures that SCDF remains both scalable and relevant across a wide spectrum of SME cloud deployments.
 
 % ----------------------------------------------------------
 \section{Evaluation Strategy}
 \label{sec:evaluation_strategy}
 
-SCDF effectiveness is evaluated through three objective dimensions:
+To assess the effectiveness, suitability, and operational impact of the Secure Cloud Deployment Framework (SCDF) in SME cloud environments, SCDF adopts an evaluation strategy built around measurable, outcome-focused metrics. Rather than relying on qualitative judgments alone, this strategy emphasizes meaningful indicators of security posture, operational overhead, and cost efficiency---particularly for resource-constrained environments.
 
-\begin{enumerate}
-    \item \textbf{Security Posture Indicators:}
-    \begin{itemize}
-        \item Reduction in critical misconfigurations vs. default deployments
-        \item Control coverage percentage (controls implemented vs. recommended)
-        \item Time-to-detection for simulated incidents
-    \end{itemize}
-    
-    \item \textbf{Operational Overhead:}
-    \begin{itemize}
-        \item Total deployment time for each phase
-        \item Number of manual steps versus automated steps
-        \item Staff time required for ongoing maintenance
-    \end{itemize}
-    
-    \item \textbf{Cost Efficiency:}
-    \begin{itemize}
-        \item Direct costs (tooling, infrastructure)
-        \item Indirect cost proxies (automation reducing manual effort)
-        \item Cost comparison vs. equivalent commercial solutions
-    \end{itemize}
-\end{enumerate}
+A well-designed evaluation strategy serves several purposes: it provides evidence of security improvement over time, enables justified investment decisions, and supports continuous refinement of controls as threat landscapes evolve.
 
-These metrics are assessed through simulation-based validation and expert evaluation to ensure that SCDF delivers measurable security improvement without prohibitive operational burden.
+\subsection{Security Posture Indicators}
+\label{subsec:security_posture_indicators}
+
+Security posture indicators are quantitative metrics that reflect an organization's exposure to risk and its ability to detect, prevent, or respond to threats. These metrics should be tracked consistently and compared against established baselines to demonstrate measurable improvement.
+
+Key security posture indicators in SCDF include:
+
+\begin{itemize}
+    \item \textbf{Mean Time to Detect (MTTD):} The average time required to detect a security incident after its occurrence. A low MTTD suggests more effective monitoring and visibility.
+    \item \textbf{Incident frequency:} The number of confirmed security incidents within a defined period (e.g., per quarter), categorized by severity. Consistent reductions over time indicate improved security control effectiveness.
+    \item \textbf{Configuration drift percentage:} The proportion of system configurations that deviate from defined secure baselines. This metric helps quantify the effectiveness of automated posture management tools and policy enforcement.
+    \item \textbf{Control coverage score:} The percentage of recommended controls implemented and validated versus the total SCDF control set. Progress here demonstrates advancing maturity across SCDF phases.
+\end{itemize}
+
+These indicators bridge technical outcomes (such as detection timeliness) with observable improvement patterns that SMEs can benchmark against their baseline.
+
+\subsection{Operational Overhead Metrics}
+\label{subsec:operational_overhead_metrics}
+
+Operational overhead metrics measure the cost in time and resources needed to maintain security practices, enabling SMEs to evaluate trade-offs between increased protection and ongoing operational demands. These metrics are essential for demonstrating efficiency---a critical concern for SMEs with limited staff and budget.
+
+Core operational overhead metrics include:
+
+\begin{itemize}
+    \item \textbf{Deployment time per phase:} Total elapsed time required to implement each SCDF phase (P1 through P4). These measurements help SMEs plan and allocate resources effectively.
+    \item \textbf{Human vs. automation effort ratio:} The proportion of manual operator time relative to automated tasks (e.g., scripted scans, backups). A higher automation share typically indicates increased operational efficiency.
+    \item \textbf{Maintenance time per tool:} Time spent updating and managing each security tool (e.g., CI/CD integration for vulnerability scanning or updating SIEM rules). Documenting this metric supports decisions about tool suitability and cost--benefit trade-offs over time.
+\end{itemize}
+
+Operational overhead metrics help SMEs validate that SCDF's phased approach reduces manual workload while improving security outcomes---a key requirement for sustainability in smaller organizations.
+
+\subsection{Cost Efficiency Metrics}
+\label{subsec:cost_efficiency_metrics}
+
+Cost efficiency reflects how well security investments (both direct and indirect) produce measurable improvement in security posture without exceeding SME resource capacities. This evaluation dimension ensures SCDF's recommendations remain practical and justifiable from a financial perspective.
+
+Important cost efficiency indicators are:
+
+\begin{itemize}
+    \item \textbf{Direct security costs:} Expenses associated with tooling, cloud service consumption (e.g., logging or SIEM usage fees), and any managed services.
+    \item \textbf{Indirect efficiency gains:} Indicators such as reductions in incident response time and decreases in manual rework due to automation, which contribute to indirect savings in staff time and lower disruption costs.
+    \item \textbf{ROI of security tools:} A ratio comparing security investment to risk reduction or impact avoidance (e.g., costs that would have arisen from typical cloud incidents prevented by SCDF implementation). Quantifying this ROI helps SMEs justify security investments to business leadership.
+\end{itemize}
+
+By measuring cost efficiency alongside security posture and operational overhead, SCDF provides a balanced view of security value, allowing SMEs to justify security measures not only technically but financially.
+
+\subsection{Longitudinal Trend Analysis}
+\label{subsec:longitudinal_trend_analysis}
+
+Tracking these metrics over time---rather than as one-off snapshots---is critical for demonstrating true improvement and sustainability. By comparing pre-implementation baselines against post-implementation performance at regular intervals (e.g., quarterly reviews), SMEs can:
+
+\begin{itemize}
+    \item Assess the impact of each SCDF phase on measurable outcomes.
+    \item Identify plateaus or regressions that require remedial planning.
+    \item Provide transparent evidence of improvement to stakeholders and decision makers.
+\end{itemize}
+
+Longitudinal analysis elevates security evaluation from intuition and checklist completion to data-driven evidence of progress. In this thesis, these metrics are assessed through simulation-based validation and expert evaluation to determine whether SCDF delivers measurable security improvement without prohibitive operational burden.
 
 % ----------------------------------------------------------
 \section{Chapter Summary}
