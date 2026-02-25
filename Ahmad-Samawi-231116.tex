@@ -33,10 +33,27 @@
 \usepackage{pdflscape}
 \usepackage[acronym,toc]{glossaries}
 %\usepackage[yyyymmdd]{datetime}
-\makeglossaries
+
+% -------------------------------
+% FAST MODE (Overleaf-friendly)
+% Set \fasttrue for faster incremental builds.
+% Set \fastfalse for final thesis build.
+% -------------------------------
+\newif\iffast
+\fasttrue
+
+\iffast\else
+  \makeglossaries
+\fi
+
 \usepackage{setspace}
 \usepackage{tikz}
-\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc, external}
+% Cache TikZ figures as standalone PDFs for faster subsequent builds
+\tikzexternalize[prefix=tikz-cache/]
+% Overleaf free-tier tip: externalize selectively (enable only around heavy figures)
+\tikzexternaldisable
+
 \setstretch{1.5}
 \emergencystretch=2em
 %\onehalfspacing
@@ -126,7 +143,9 @@
 \tableofcontents
 \listoffigures
 \listoftables
+\iffast\else
 \printglossary[type=\acronymtype,title={List of Abbreviations and Acronyms}]
+\fi
 %\printglossary[title=List of Acronyms,type=\acronymtype]
 %\printglossary  % Print the nomenclature (WAY TOO COMPLEX FOR ME NOW!)
 %\addcontentsline{toc}{chapter}{Nomenclature}

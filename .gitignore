@@ -1,27 +1,27 @@
-# LaTeX build files
+# build artifacts
 *.aux
+*.auxlock
 *.log
 *.out
 *.toc
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.bbl
-*.blg
-*.pdf
-*.dvi
 *.lof
 *.lot
-
-# Glossaries and Acronyms
-*.acr
-*.alg
+*.bbl
+*.blg
 *.brf
-*.glg
-*.gls
 *.acn
 *.glo
+*.gls
 *.ist
-
-# VS Code
-.vscode/
+*.nls
+*.nlo
+*.dpth
+*.md5
+*.acr
+*.alg
+*.glg
+*.fdb_latexmk
+*.fls
+output.pdf
+# tikz externalization cache
+tikz-cache/

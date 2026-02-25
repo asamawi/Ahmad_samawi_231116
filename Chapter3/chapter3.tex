@@ -184,7 +184,39 @@ A layered structure helps SMEs reason about who decides (governance), what is im
 \subsection{Framework Layers}
 \label{subsec:framework_layers}
 
-SCDF is structured into the following three core layers:
+SCDF is structured into the following three core layers, as illustrated in Figure~\ref{fig:scdf_layers_revised}.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[
+        layer/.style={rectangle, rounded corners, minimum width=11.5cm, minimum height=1.2cm, text centered, font=\small\bfseries, draw, thick},
+        item/.style={font=\scriptsize, align=center},
+        arrow/.style={->, >=stealth, thick}
+    ]
+        \node[layer, fill=blue!15] (gov) at (0,3.2) {Governance Layer};
+        \node[item] at (-4.1,2.8) {Policies};
+        \node[item] at (-1.4,2.8) {Roles};
+        \node[item] at (1.4,2.8) {Accountability};
+        \node[item] at (4.1,2.8) {Risk Decisions};
+
+        \node[layer, fill=green!15] (ctrl) at (0,1.6) {Control Layer};
+        \node[item] at (-4.1,1.2) {IAM};
+        \node[item] at (-1.4,1.2) {Network};
+        \node[item] at (1.4,1.2) {Data};
+        \node[item] at (4.1,1.2) {Monitoring};
+
+        \node[layer, fill=orange!15] (ops) at (0,0) {Operational Layer};
+        \node[item] at (-4.1,-0.4) {Workflows};
+        \node[item] at (-1.4,-0.4) {Automation};
+        \node[item] at (1.4,-0.4) {Response};
+        \node[item] at (4.1,-0.4) {Recovery};
+
+        \draw[arrow] (gov) -- (ctrl);
+        \draw[arrow] (ctrl) -- (ops);
+    \end{tikzpicture}
+    \caption{SCDF Three-Layer Architecture (Governance, Controls, Operations)}
+    \label{fig:scdf_layers_revised}
+\end{figure}
 
 \begin{enumerate}
     \item \textbf{Governance Layer}
@@ -234,6 +266,24 @@ The three layers interact through top-down direction and bottom-up feedback:
     \item \textbf{Controls shape Operations:} Controls define the operational activities required; operations execute and validate these controls.
     \item \textbf{Operations feed into Governance:} Operational outcomes (e.g., metrics, incident reports) inform governance reviews and policy updates, ensuring continuous improvement.
 \end{itemize}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[
+        node/.style={rectangle, rounded corners, minimum width=3.6cm, minimum height=1cm, draw, thick, text centered, font=\small\bfseries},
+        arrow/.style={->, >=stealth, thick}
+    ]
+        \node[node, fill=blue!15] (g) at (0,1.8) {Governance};
+        \node[node, fill=green!15] (c) at (-3,-1) {Controls};
+        \node[node, fill=orange!15] (o) at (3,-1) {Operations};
+
+        \draw[arrow] (g) -- node[left, font=\scriptsize]{direction} (c);
+        \draw[arrow] (c) -- node[below, font=\scriptsize]{execution} (o);
+        \draw[arrow] (o) -- node[right, font=\scriptsize]{feedback} (g);
+    \end{tikzpicture}
+    \caption{Layer Interaction Cycle: Direction, Execution, and Feedback}
+    \label{fig:layer_interaction_cycle}
+\end{figure}
 
 This feedback loop echoes iterative cybersecurity lifecycle recommendations found in frameworks like continuous threat exposure management (CTEM), where ongoing validation and adaptation are key to maintaining resilience \citep{Skafi2020Factors,Wilson2015Enablers}.
 
@@ -287,6 +337,33 @@ Implementation follows four sequential phases, each building on the previous:
 
 These phases are ordered by risk reduction per unit effort. Phase 1 controls (identity and network) address the highest-impact threat vectors and therefore take priority over Phase 4 controls (backup and recovery), despite the importance of both \citep{Brandefense2025CloudSecuritySMEs,InterceptAzureSecurityEbook,Scrut2022CloudSecurityMonitoring}.
 
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[
+        >=stealth,
+        axis/.style={->, thick},
+        phase/.style={circle, draw, fill=blue!15, minimum size=7mm, inner sep=0pt, font=\scriptsize\bfseries}
+    ]
+        % Axes
+        \draw[axis] (0,0) -- (8,0) node[below right, font=\scriptsize] {Implementation Effort};
+        \draw[axis] (0,0) -- (0,5) node[above left, font=\scriptsize] {Risk Reduction Gain};
+
+        % Curve
+        \draw[thick, red!70] (0.6,4.3) .. controls (2.2,3.5) and (4.4,2.2) .. (7.2,0.9);
+
+        % Phase points
+        \node[phase] (p1) at (1.0,4.1) {P1};
+        \node[phase] (p2) at (2.8,3.1) {P2};
+        \node[phase] (p3) at (4.8,2.0) {P3};
+        \node[phase] (p4) at (6.8,1.0) {P4};
+
+        \node[font=\scriptsize, align=left] at (1.3,4.7) {High-impact controls\\early in rollout};
+        \node[font=\scriptsize, align=left] at (6.9,0.35) {Lower marginal gain\\but essential resilience};
+    \end{tikzpicture}
+    \caption{Indicative Risk Reduction per Unit Effort Across SCDF Phases}
+    \label{fig:risk_effort_curve}
+\end{figure}
+
 \subsection{Phase Advancement Criteria}
 \label{subsec:phase_advancement_criteria}
 
@@ -299,6 +376,7 @@ Each advancement step requires:
     \item Completion of essential controls and tooling appropriate for that phase, and
     \item Achievement of quantitative risk reduction or maturity thresholds as measured by accepted security assessment tools and methodologies.
 \end{enumerate}
+
 
 \subsubsection{Phase 1 $\rightarrow$ Phase 2 Advancement Criteria}
 \label{subsubsec:p1_to_p2}
@@ -403,6 +481,7 @@ SMEs may remain in any given phase until criteria are met; no artificial time li
 
 SCDF recognizes three primary actors in SME cloud security --- each with distinct responsibilities. These roles are designed to reflect common operational patterns in SMEs, where dedicated cybersecurity personnel are often absent and roles may overlap.
 
+
 \subsubsection{SME Owner / Management}
 
 \textbf{Primary responsibility:} Strategic risk acceptance, investment prioritization, and authorization of residual risk.
@@ -493,6 +572,31 @@ Understanding the shared responsibility model is essential for operational clari
 
 Complementary explanations and applied best-practice discussions of the shared responsibility model (including service-model differences across IaaS/PaaS/SaaS) are also available in practitioner guidance, which supports SCDF's positioning of governance versus technical operational tasks \citep{Splunk2026SharedResponsibilityModel,Aqua2023SharedResponsibilityModel,TrustCloud2026SharedResponsibilityModel}.
 
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[
+        block/.style={rectangle, rounded corners, minimum width=5.8cm, minimum height=4.2cm, draw, thick, align=left, font=\scriptsize},
+        title/.style={font=\small\bfseries}
+    ]
+        \node[block, fill=blue!10] (csp) at (-3.2,0) {\textbf{CSP Secures}\\
+        -- Physical data centers\\
+        -- Core networking fabric\\
+        -- Hypervisor / host platform\\
+        -- Cloud availability backbone};
+
+        \node[block, fill=orange!10] (cust) at (3.2,0) {\textbf{Customer Secures}\\
+        -- IAM and account hygiene\\
+        -- Guest OS and patching\\
+        -- Workload configuration\\
+        -- Data encryption and logging};
+
+        \draw[thick, dashed] (0,-2.4) -- (0,2.4);
+        \node[title] at (0,2.85) {Shared Responsibility Boundary};
+    \end{tikzpicture}
+    \caption{IaaS Shared Responsibility Model in SCDF Context}
+    \label{fig:shared_responsibility_scdf}
+\end{figure}
+
 This division implies that technical operators must explicitly manage controls ``in the cloud'' (e.g., IAM, logging, encryption), whereas strategic actors govern business risk that is not covered by provider protections. Understanding these boundaries prevents misattribution of responsibility --- a common cause of cloud misconfigurations and security lapses. A well-communicated responsibility model ensures that both management and technical operators have clear expectations about what they must oversee, and what is assumed by their provider, reducing ambiguity in operational workflows and enhancing accountability \citep{Al2023Security}.
 
 % ----------------------------------------------------------
@@ -502,6 +606,7 @@ This division implies that technical operators must explicitly manage controls `
 To operationalize the Secure Cloud Deployment Framework (SCDF), this section presents a structured mapping of security tools and controls aligned with SME priorities and cloud security best practices. Cloud environments are layered and dynamic; tooling must therefore be purpose-built to address configuration risks, identity and access management, network controls, monitoring, and recovery support --- all while remaining accessible to resource-constrained small and medium enterprises \citep{Chen2023Securing,Al2023Security}.
 
 Modern cloud security guidance advocates a multi-layered strategy that incorporates preventive, detective, analytic, and mitigation tools across key security domains \citep{Gibreel2023Factors,Tanimu2023Review}. The tool mapping in SCDF is grounded in continuous security posture management, vulnerability assessment, and scalable monitoring approaches suitable for incremental deployment.
+
 
 \subsection{Tool Selection Criteria}
 \label{subsec:tool_selection_criteria}
@@ -516,6 +621,28 @@ Security tooling in SCDF must satisfy the following criteria:
 \end{itemize}
 
 These criteria align with practical SME guidance emphasizing that tools must be lightweight yet effective --- striking a balance between security needs and operational constraints \citep{Skafi2020Factors,Wilson2015Enablers}.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[
+        crit/.style={ellipse, draw, thick, minimum width=2.8cm, minimum height=1cm, align=center, font=\scriptsize\bfseries, fill=blue!10},
+        center/.style={rectangle, rounded corners, draw, thick, minimum width=3.2cm, minimum height=1cm, align=center, font=\small\bfseries, fill=green!15},
+        arrow/.style={->, >=stealth, thick}
+    ]
+        \node[center] (sme) at (0,0) {SME Tooling\\Decision};
+        \node[crit] (cost) at (-4,2) {Cost\\Accessibility};
+        \node[crit] (complex) at (4,2) {Complexity\\Fit};
+        \node[crit] (maint) at (-4,-2) {Maintenance\\Sustainability};
+        \node[crit] (compat) at (4,-2) {Provider\\Compatibility};
+
+        \draw[arrow] (sme) -- (cost);
+        \draw[arrow] (sme) -- (complex);
+        \draw[arrow] (sme) -- (maint);
+        \draw[arrow] (sme) -- (compat);
+    \end{tikzpicture}
+    \caption{SCDF Tool Selection Decision Criteria for SMEs}
+    \label{fig:tool_selection_criteria_sme}
+\end{figure}
 
 \subsection{Identity and Access Management (IAM)}
 \label{subsec:iam_tools}
@@ -784,6 +911,29 @@ While the responsibility for physical infrastructure and host virtualization sec
     \item \textbf{Providers secure:} underlying hardware, network fabric, and virtualization layer.
     \item \textbf{Customers secure:} identity and access, operating systems, application configurations, encryption, and logging.
 \end{itemize}
+
+\begin{figure}[htbp]
+    \centering
+    \resizebox{0.98\textwidth}{!}{%
+    \begin{tikzpicture}[
+        box/.style={rectangle, draw, rounded corners, minimum width=5.8cm, minimum height=4.8cm, font=\scriptsize, align=left},
+        tag/.style={rectangle, draw=none, fill=white, font=\scriptsize\bfseries, inner sep=2pt}
+    ]
+        \node[box, fill=blue!10] (csp) at (-3.6,0) {\textbf{CSP Domain}\\
+        Infrastructure, physical security,\\
+        host virtualization, core fabric};
+
+        \node[box, fill=orange!10] (cust) at (2.8,0) {\textbf{Customer Domain}\\
+        IAM, network config, OS patching,\\
+        logging, encryption, recovery};
+
+        \draw[thick,dashed] (-0.4,-2.6) -- (-0.4,2.6);
+        \node[tag] at (-0.4,2.9) {Responsibility Boundary};
+    \end{tikzpicture}%
+    }
+    \caption{Shared Responsibility Model in IaaS (Provider vs. Customer Domains)}
+    \label{fig:shared_responsibility_phase_overlay}
+\end{figure}
 
 SCDF assumes this shared model and focuses on the controls that fall within the customer's responsibility domain, ensuring that SMEs can apply standardized security best practices regardless of which IaaS provider they choose. This is consistent with cloud-security best practices that emphasize customer responsibility for OS and configuration level security when using IaaS \citep{AWS2026SharedResponsibilityModel,Microsoft2026SharedResponsibility,Wiz2026SharedResponsibilityModel,Gibreel2023Factors,Trigueros2024Security}.
 
