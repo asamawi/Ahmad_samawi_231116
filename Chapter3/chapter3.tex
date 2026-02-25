@@ -11,44 +11,63 @@
 \section{Chapter Overview and Positioning}
 \label{sec:chapter3_overview}
 
-This chapter translates the findings of the Systematic Literature Review (SLR) presented in Chapter~\ref{chap:second} into a practical, evidence-driven Secure Cloud Deployment Framework (SCDF). The framework is designed for Small and Medium Enterprises (SMEs) operating primarily on Infrastructure-as-a-Service (IaaS) platforms, particularly in developing or resource-constrained environments.
+This chapter presents the Secure Cloud Deployment Framework (SCDF)---a structured, evidence-driven approach tailored for Small and Medium Enterprises (SMEs) to deploy cloud infrastructure securely, with emphasis on operational feasibility under real-world constraints.
 
-The synthesis of empirical evidence from the literature revealed a persistent disconnect: SMEs recognize the necessity of cloud adoption but lack actionable guidance for deploying cloud infrastructure securely under constraint. Existing frameworks and standards---while comprehensive---were developed for enterprise contexts with mature governance structures, dedicated security teams, and substantial budgets. SCDF addresses this gap by providing a minimal, deployable, and risk-driven framework that targets the dominant failure modes identified in the literature: misconfiguration, skills shortages, and reactive security postures.
+Cloud adoption offers SMEs scalability, cost efficiency, and flexibility; however, security risks and skill gaps remain critical concerns that commonly hinder secure implementation and long-term operations. According to cybersecurity analyses focused on SMEs, fundamental challenges such as limited budgets, scarcity of specialized expertise, and low security awareness significantly increase vulnerability to threats and misconfigurations in cloud environments. This is affirmed by the European Union Agency for Cybersecurity (ENISA), which notes that SMEs frequently lack clear, tailored guidance suited to their unique operational context, and that such guidance is essential for safe cloud adoption and risk management.
 
-SCDF is not intended to replace established security standards such as ISO/IEC~27001 or NIST SP~800-53, nor does it claim to achieve formal compliance certification. Instead, it operationalizes security principles into concrete, sequenced actions that SMEs can implement with limited resources. The framework prioritizes foundational security controls that address the most common threat vectors---identity compromise, network exposure, and configuration drift---while remaining compatible with incremental maturity growth as organizational capacity improves.
+SCDF arises from a juxtaposition of two realities:
+
+\begin{itemize}
+    \item \textbf{Operational necessity:} Cloud platforms are increasingly essential for SME digital transformation, supporting everything from basic infrastructure to business continuity.
+    
+    \item \textbf{Security challenge:} SMEs often operate without formal cybersecurity governance, dedicated teams, or enterprise-grade tools, yet face the same spectrum of threats that larger organizations do---including misconfigurations, identity compromise, and ransomware exposure.
+\end{itemize}
+
+This chapter translates systematic insights from the literature into SCDF---a framework that operationalizes key security principles into actionable and verifiable actions suitable for SMEs on Infrastructure-as-a-Service (IaaS) platforms. Rather than aiming for comprehensive enterprise compliance (e.g., ISO/IEC 27001 certification), SCDF focuses on deployable minimum viable security mechanisms that measurably reduce risk while preserving accessibility and cost-effectiveness.
 
 % ----------------------------------------------------------
 \section{Scope Definition and Applicability Boundaries}
 \label{sec:scope_definition}
 
+This section defines the scope of SCDF's applicability and delineates the boundaries of what the framework does and does not address. These definitions ensure that SCDF's recommendations remain realistic, actionable, and relevant for the intended user group---Small and Medium Enterprises (SMEs) operating in cloud environments with distinct constraints.
+
 \subsection{Target SME Profile}
 \label{subsec:target_sme_profile}
 
-SCDF is designed for SMEs that exhibit most or all of the following characteristics:
+SCDF is intended primarily for SMEs that share a set of organizational, technical, and economic characteristics common in developing and resource-constrained environments. SME research highlights that such organizations often adopt cloud computing to overcome infrastructural limitations and cost barriers, but concurrently struggle with security and privacy concerns, limited technical experience, and minimal governance structures. These challenges contribute to hesitancy in cloud adoption despite strong perceived benefits such as scalability and cost efficiency.
+
+An SME appropriate for SCDF typically exhibits the following features:
 
 \begin{itemize}
-    \item \textbf{Organizational scale:} Typically fewer than 250 employees, with limited or non-existent dedicated cybersecurity personnel.
-    \item \textbf{Technical capacity:} Reliance on external IT support providers, part-time technical staff, or small internal IT teams without specialized security expertise.
-    \item \textbf{Cloud consumption model:} Primary use of Infrastructure-as-a-Service (IaaS) including virtual machines, block storage, object storage, and basic networking; minimal deployment of complex Platform-as-a-Service (PaaS) or container orchestration platforms.
-    \item \textbf{Economic constraints:} High cost sensitivity and preference for free, open-source, or freemium tooling over commercial enterprise security solutions.
-    \item \textbf{Operational reality:} Deployment in environments characterized by intermittent connectivity, limited management bandwidth, and competing business priorities that may defer security investment.
+    \item \textbf{Organizational scale:} Fewer than 250 employees with limited or no dedicated cybersecurity personnel, making specialized security teams impractical.
+    
+    \item \textbf{Technical capacity:} Reliance on generalist IT staff, outsourced IT support, or ad-hoc technical management without specialized cybersecurity training. This lack of in-house expertise is widely recognized as a critical barrier to secure cloud adoption in SMEs.
+    
+    \item \textbf{Cloud consumption model:} Primary use of Infrastructure-as-a-Service (IaaS) offerings, including virtual machines, storage, and basic networking, rather than complex platform or container ecosystems.
+    
+    \item \textbf{Economic constraints:} High cost sensitivity and preference for cost-effective or open-source tooling, as is common among SMEs evaluating cloud security tools.
+    
+    \item \textbf{Operational environment:} Unreliable connectivity and limited administrative bandwidth, common in developing regions where cloud adoption is essential yet operational challenges remain.
 \end{itemize}
 
-This profile represents the modal SME in developing regions---organizations for whom cloud adoption is structurally necessary but whose operational constraints render conventional enterprise frameworks inapplicable without significant adaptation.
+This SME profile reflects a modal class of organizations that significantly benefit from cloud computing but face constraints that make conventional enterprise-scale security frameworks impractical.
 
 \subsection{Explicit Exclusions}
 \label{subsec:explicit_exclusions}
 
-To maintain feasibility and realism, SCDF deliberately excludes the following capabilities and objectives:
+To maintain realism and utility, SCDF explicitly excludes the following objectives and control categories. These exclusions are not oversights but intentional boundaries grounded in normative research on SMEs' limited capacity for exhaustive security frameworks and compliance activities:
 
 \begin{itemize}
-    \item \textbf{Formal certification pursuit:} SCDF does not prescribe controls or documentation processes sufficient for formal ISO/IEC~27001, SOC~2, or other compliance certifications. While alignment with these standards is acknowledged, certification attainment exceeds the resource capacity of the target profile.
-    \item \textbf{Enterprise-scale Zero Trust:} Full Zero Trust architectures requiring pervasive micro-segmentation, dynamic authorization policies, and continuous device attestation are excluded. SCDF implements risk-appropriate identity and network controls that represent Zero Trust principles without architectural complexity.
-    \item \textbf{Security Operations Center (SOC):} 24/7 threat hunting, dedicated incident response teams, and continuous human monitoring are beyond scope. SCDF emphasizes automated detection with targeted human response.
-    \item \textbf{Cloud provider obligation substitution:} SCDF supplements but does not replace provider shared-responsibility obligations. Physical security, hypervisor integrity, and underlying infrastructure remain provider responsibilities.
+    \item \textbf{Formal certification pursuit:} SCDF does not provide the comprehensive control documentation or audit structures required to earn certifications such as ISO/IEC 27001, SOC 2, or equivalent compliance attestations. While such standards offer valuable guidance, they often require significant governance resources that exceed the operational capacity of target SMEs. SME guidance specifically emphasizes that organizations cannot always implement full enterprise-grade frameworks due to time, expertise, and financial constraints.
+    
+    \item \textbf{Enterprise-scale Zero Trust architectures:} Full Zero Trust implementations---involving pervasive identity attestation, micro-segmentation, and continuous contextual authorization---demand advanced tooling and governance structures typically outside SME capacity at initial phases. SCDF instead incorporates risk-appropriate identity and access principles that embody Zero Trust philosophies without architectural complexity.
+    
+    \item \textbf{Dedicated Security Operations Center (SOC) capabilities:} Round-the-clock threat hunting, specialist incident response teams, and continuous human monitoring exceed the operational budget and personnel availability of most SMEs. SCDF emphasizes automated detection with prioritized alerts to balance visibility with resource expense.
+    
+    \item \textbf{Provider obligation substitution:} SCDF recognizes but does not replace the cloud provider's responsibilities for physical infrastructure, hypervisor integrity, and connectivity backbone security. The framework operates strictly within the shared responsibility model and leaves provider-side assurances to established cloud contractual and architectural practices.
 \end{itemize}
 
-These exclusions are not limitations but intentional boundaries that ensure the framework remains deployable within real-world SME constraints.
+By clearly defining what SCDF does not aim to achieve, the framework maintains focus, feasibility, and applicability for its intended users without overpromising outcomes inconsistent with SME realities.
 
 % ----------------------------------------------------------
 \section{Derivation of Framework Requirements from SLR Findings}
@@ -228,6 +247,113 @@ Implementation follows four sequential phases, each building on the previous:
 \end{enumerate}
 
 These phases are ordered by risk reduction per unit effort. Phase 1 controls (identity and network) address the highest-impact threat vectors and therefore take priority over Phase 4 controls (backup and recovery), despite the importance of both.
+
+\subsection{Phase Advancement Criteria}
+\label{subsec:phase_advancement_criteria}
+
+To ensure objective and measurable progression through the SCDF deployment phases, SCDF adopts a \textbf{hybrid advancement model} (Option C) that combines minimum tool completion requirements with quantitative risk metric thresholds. This approach mitigates the limitations of checklist-only methods---which risk superficial compliance---and metric-only methods---which risk advancement without foundational controls present.
+
+This hybrid model reflects best practices in security assessment frameworks that utilize Goal-Question-Metrics (GQM) approaches and risk-based evaluation to quantitatively assess security posture and maturity levels tailored to SMEs. By requiring both control presence and demonstrated risk reduction, SCDF ensures that advancement represents genuine security improvement rather than administrative compliance.
+
+Each advancement step requires:
+\begin{enumerate}
+    \item Completion of essential controls and tooling appropriate for that phase, and
+    \item Achievement of quantitative risk reduction or maturity thresholds as measured by accepted security assessment tools and methodologies.
+\end{enumerate}
+
+\subsubsection{Phase 1 $\rightarrow$ Phase 2 Advancement Criteria}
+\label{subsubsec:p1_to_p2}
+
+An SME may advance to Phase 2 (Risk Hardening) only when:
+
+\begin{enumerate}
+    \item \textbf{Mandatory Controls Are Implemented}
+    \begin{itemize}
+        \item Identity and Access Management (IAM) policies configured per least-privilege principles.
+        \item Multi-Factor Authentication (MFA) enabled for all privileged accounts and administrative access.
+        \item Network security groups or equivalent (e.g., firewall rules) deployed and attached to all compute instances.
+    \end{itemize}
+    
+    \item \textbf{Quantitative Evidence of Configuration Risk Reduction}
+    \begin{itemize}
+        \item A cloud posture assessment (e.g., Prowler, ScoutSuite, or equivalent) shows \textbf{no critical findings} in identity and network configuration categories within the last 7 days.
+        \item This aligns with industry emphasis on strong access control and secure configuration as foundational cloud security controls in SME-targeted risk guidance.
+    \end{itemize}
+    
+    \item \textbf{Verification}
+    \begin{itemize}
+        \item A dated automated assessment report must be provided demonstrating the configuration posture.
+        \item SME management must formally acknowledge residual risk and its acceptance.
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Phase 2 $\rightarrow$ Phase 3 Advancement Criteria}
+\label{subsubsec:p2_to_p3}
+
+Advancement to Phase 3 (Monitoring and Detection) requires:
+
+\begin{enumerate}
+    \item \textbf{Tools Deployed}
+    \begin{itemize}
+        \item Vulnerability scanning tools operational (e.g., Nessus Essentials, OpenVAS).
+        \item Host-level hardening checks performed using industry benchmarks (e.g., CIS Benchmarks).
+        \item Automated patch management configured where supported.
+    \end{itemize}
+    
+    \item \textbf{Quantitative Thresholds}
+    \begin{itemize}
+        \item Weekly vulnerability scans must show \textbf{no high-severity unpatched vulnerabilities older than 30 days}.
+        \item Automated configuration drift detection shows \textbf{\textless 5\% deviation} from established secure baselines.
+        \item These thresholds operationalize cloud security maturity objectives using repeated measurements as indicators of ongoing risk management.
+    \end{itemize}
+    
+    \item \textbf{Verification}
+    \begin{itemize}
+        \item Two consecutive weekly scan reports meeting thresholds.
+        \item Documented exception handling for any residual high-severity findings with business justification.
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Phase 3 $\rightarrow$ Phase 4 Advancement Criteria}
+\label{subsubsec:p3_to_p4}
+
+Advancement to Phase 4 (Recovery and Continuity) requires:
+
+\begin{enumerate}
+    \item \textbf{Tools in Place}
+    \begin{itemize}
+        \item Security Information and Event Management (SIEM) or centralized log aggregation and alerting systems operational with documented alert rules for critical events.
+        \item Defined automated response playbooks for prioritized alert categories.
+    \end{itemize}
+    
+    \item \textbf{Quantitative Monitoring Metrics}
+    \begin{itemize}
+        \item Simulated test incidents executed: Mean Time to Detection (MTTD) \textbf{\textless 24 hours} for predefined critical events.
+        \item Measured alert signal-to-noise ratio \textbf{\textgreater 70\%} for critical event types (i.e., $\leq$ 30\% false alarms), indicating meaningful detection precision rather than overwhelming noise.
+        \item This emphasis on validated detection performance reflects emerging continuous threat exposure management principles that prioritize measurable detection capability rather than raw log volume.
+    \end{itemize}
+    
+    \item \textbf{Verification}
+    \begin{itemize}
+        \item Documented test report showing incident detection times and alert quality metrics.
+        \item Demonstrated SME operator proficiency in triage and escalation procedures.
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Rationale for the Hybrid Model}
+\label{subsubsec:hybrid_rationale}
+
+The hybrid advancement model addresses two key pitfalls:
+
+\begin{itemize}
+    \item \textbf{Binary-only advancement} risks ``checkbox security''---where controls exist but are ineffective due to misconfiguration or improper use (e.g., MFA enabled but with SMS-based factors vulnerable to SIM-swapping, or security groups present but allowing 0.0.0.0/0 access).
+    
+    \item \textbf{Quantitative-only advancement} risks progression based on fortunate scan results rather than the presence of foundational controls or secure baseline adherence (e.g., no vulnerabilities detected simply because the scanning tool is not configured to assess the actual attack surface).
+\end{itemize}
+
+By requiring both control presence and evidence of security improvement, SCDF bridges practical implementation with measurable security posture enhancement. This balanced approach is consistent with cloud security guidance tailored for resource-constrained environments, which emphasizes practical risk metrics over rigid compliance checklists.
+
+SMEs may remain in any given phase until criteria are met; no artificial time limits are imposed that could otherwise compromise real security gains.
 
 % ----------------------------------------------------------
 \section{Operational Workflow and Responsibility Model}
