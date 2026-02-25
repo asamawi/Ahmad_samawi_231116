@@ -71,7 +71,7 @@
 
 % Figure options
     \usepackage[ pdftex, plainpages = false, pdfpagelabels, 
-                 pdfpagelayout = useoutlines,
+                 pdfpagemode = UseOutlines,
                  bookmarks,
                  bookmarksopen = true,
                  bookmarksnumbered = true,
@@ -285,4 +285,3 @@
 {\setcounter{page}{1}
   \renewcommand{\thepage}{\roman{page}}}
 {\newpage\renewcommand{\thepage}{\arabic{page}}\setcounter{page}{1}}
-

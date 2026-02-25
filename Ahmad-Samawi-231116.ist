@@ -1,5 +1,5 @@
 % makeindex style file created by the glossaries package
-% for document 'Ahmad-Samawi-231116' on 2026-2-9
+% for document 'Ahmad-Samawi-231116' on 2026-2-25
 actual '?'
 encap '|'
 level '!'
@@ -27,3 +27,5 @@ heading_suffix "\}\\relax \\glsresetentrylist "
 symhead_positive "glssymbols"
 numhead_positive "glsnumbers"
 page_compositor "."
+suffix_2p ""
+suffix_3p ""
