@@ -73,7 +73,9 @@ By clearly defining what SCDF does not aim to achieve, the framework maintains f
 \section{Derivation of Framework Requirements from SLR Findings}
 \label{sec:derivation_requirements}
 
-The design of SCDF is systematically derived from the synthesized findings of the systematic literature review. Table~\ref{tab:slr_to_requirements} maps each major SLR finding to an identified constraint and the corresponding SCDF requirement.
+The design of the Secure Cloud Deployment Framework (SCDF) is systematically derived from evidence synthesized in the Systematic Literature Review (SLR) presented in Chapter 2. This derivation translates recurring themes in cloud security literature --- particularly those relating to SME constraints and practical threat landscapes --- into actionable framework requirements that address real-world risk vectors. Contemporary systematic reviews of cloud security identify a range of threats and mitigation strategies that are directly relevant to SMEs. These include identity and access vulnerabilities, misconfigurations, DDoS and malware threats, data breaches, and the need for security awareness and vulnerability management techniques such as IAM, SIEM, and encryption \citep{Milhem2025integrated,Al2023Security}. Importantly, multiple reviews also highlight that cloud misconfigurations --- incorrect permissions, weak IAM settings, overly permissive networks, and reduced monitoring --- are consistently among the top causes of cloud security incidents and exploited vulnerabilities \citep{Gibreel2023Factors,Sabah2024Cloud}.
+
+The SCDF requirements are mapped to these empirical findings through a structured goal-to-requirement transformation, as shown in Table~\ref{tab:slr_to_requirements}. Each requirement targets measurable improvement in areas identified repeatedly across SLR outputs.
 
 \begin{table}[htbp]
     \centering
@@ -84,17 +86,17 @@ The design of SCDF is systematically derived from the synthesized findings of th
         \hline
         \textbf{SLR Finding} & \textbf{Identified Constraint} & \textbf{SCDF Requirement} \\
         \hline
-        Misconfiguration is the dominant cause of cloud security incidents & Limited expertise and human error & Secure-by-default baselines and automated configuration validation \\
+        Misconfiguration is a prominent contributor to cloud security issues (permissions, network ACLs, APIs) \citep{Gibreel2023Factors,Chen2023Securing}. & Limited SME expertise and human errors & Secure-by-default baselines and automated configuration validation procedures \\
         \hline
-        Skills gap exceeds tooling availability & Lack of trained security personnel & Guided workflows with constrained decision spaces \\
+        Identity and access weaknesses (account hijacking, weak credentials, privilege misuse) \citep{Al2023Security,Trigueros2024Security}. & Lack of trained security personnel and complex IAM & Constrained guided workflows for IAM and enforced multi-factor identity controls \\
         \hline
-        Cost is a primary adoption barrier & Severe budget limitations & Preference for OSS, freemium, or native cloud controls; explicit trade-off documentation \\
+        High threat diversity --- from malware to data breaches to denial of service attacks \citep{Tanimu2023Review,Gupta2023Deep}. & Insufficient threat visibility and response capability & Incremental monitoring controls with verified alerting thresholds and prioritized response \\
         \hline
-        Connectivity instability affects availability and monitoring & Unreliable network infrastructure & Fail-safe and asynchronous security controls; local-first resilience \\
+        Cost and complexity inhibit adoption of enterprise-grade security tools \citep{Skafi2020Factors,Wilson2015Enablers,Sayginer2021Multi}. & Severe budget limitations and tooling barriers & Explicit preference for OSS, freemium tools, and cloud-native controls with trade-off documentation \\
         \hline
-        Existing frameworks are too abstract or complex & Low operational applicability for SMEs & Concrete control mapping and step-by-step workflows \\
+        High variability in cloud deployments (providers, architectures, workloads) \citep{Rashid2024Analysis,Abdulsalam2023Security}. & Low operational applicability of generic frameworks & Concrete control mapping with provider-agnostic and provider-specific implementation notes and step-by-step workflows \\
         \hline
-        Reactive rather than proactive security posture & Limited monitoring capability & Automated detection with prioritized alerting \\
+        SLA, governance, and formal risk management are often absent in SMEs \citep{Chan2023Digital,Matias2019Cloud}. & Absence of formal governance structures & Lightweight governance templates with accountability roles and risk acceptance logs \\
         \hline
     \end{tabular}%
     }
@@ -108,95 +110,132 @@ Each derived requirement addresses a documented failure mode from the literature
 \section{Design Principles and Trade-Off Rationale}
 \label{sec:design_principles}
 
+This section establishes the foundational design principles that govern the Secure Cloud Deployment Framework (SCDF) and explains the explicit trade-offs made to balance security effectiveness with deployability for Small and Medium Enterprises (SMEs). Each principle is grounded in current cloud security understanding and reflects patterns observed in cloud security literature and practical SME guidance.
+
+Cloud security frameworks universally emphasize the need for risk prioritization, control consistency, and measurable outcomes \citep{Chen2023Securing,Al2023Security}. For SMEs with limited security expertise and resources, SCDF's design principles adapt these general concepts into a pragmatic, incremental, and outcome-oriented approach that avoids over-prescription and unnecessary complexity. This aligns with guidance from SME-focused cloud security frameworks, which recommend simplified risk assessment and control implementation tailored to organizational capacity rather than enterprise-grade compliance mandates \citep{Skafi2020Factors,Wilson2015Enablers}.
+
 \subsection{Core Design Principles}
 \label{subsec:core_principles}
 
-SCDF is governed by five core design principles that prioritise deployability over comprehensiveness:
+Each SCDF principle reflects a design trade-off between ideal security constructs and the practical realities SMEs face. These principles are intended to guide both what SMEs should implement and how they should approach security progression in cloud environments.
 
 \begin{enumerate}
-    \item \textbf{Risk-driven prioritization:} Controls are sequenced by threat frequency and impact. Identity compromise, network exposure, and unpatched vulnerabilities---the three most common initial access vectors for SMEs---are addressed before less common vectors.
+    \item \textbf{Risk-Driven Prioritization}
     
-    \item \textbf{Minimal viable security:} The framework implements essential controls rather than exhaustive coverage. A partially implemented SCDF deployment covering identity and network security provides more risk reduction than a comprehensive framework that remains unimplemented due to complexity.
+    In cloud environments, certain controls offer disproportionately higher security impact relative to effort --- especially in SME contexts where attack vectors such as identity compromise or misconfigurations are common. For this reason, SCDF orders controls by risk frequency and impact, emphasizing identity, network, and configuration hardening before more advanced areas.
     
-    \item \textbf{Automation as compensation:} Automation compensates for limited human expertise by enforcing consistency and reducing configuration drift. However, automation does not eliminate governance requirements---human oversight remains essential for approval gates and incident decision-making.
+    This principle aligns with risk-focused guidance in cloud security research that highlights prioritized mitigation of identity and access threats and misconfiguration avoidance \citep{Gibreel2023Factors,Trigueros2024Security}. It also resonates with the Identify and Protect components of established cybersecurity models (e.g., NIST CSF), which prioritize risk assessment and protective measures early in a security lifecycle.
     
-    \item \textbf{Incremental maturity:} SCDF is structured as four progressive phases, allowing SMEs to achieve baseline security and then selectively mature controls as resources permit. There is no binary pass/fail; partial implementation is explicitly supported.
+    \item \textbf{Minimal Viable Security}
     
-    \item \textbf{Provider-agnostic with pragmatic exceptions:} Core controls are portable across major IaaS providers, but vendor-specific native tools are permitted where they reduce cost or complexity without compromising security.
+    SCDF aims for minimum viable security, defined as the smallest set of effective controls that reduce critical risks to an acceptable level. Rather than seeking exhaustive control coverage, this principle favors practical sufficiency --- implementing just enough security that significantly reduces risk without overwhelming limited operational capacity.
+    
+    SME cloud security literature consistently observes that over-complex frameworks discourage adoption, especially when SMEs lack security staff \citep{Chan2023Digital,Matias2019Cloud}. This principle echoes the Secure by Design approach, where security is built into system configurations early and in a targeted manner rather than patched in later reactively \citep{Rashid2024Analysis}.
+    
+    \item \textbf{Automation as Compensation, Not Replacement}
+    
+    Automated tooling (e.g., configuration scanners, cloud posture management) helps address skill gaps by enforcing consistency and reducing drift, but it does not eliminate the need for human oversight. SCDF leverages automation to enforce repeatable validation and routine tasks (e.g., baseline assessment), yet explicitly retains human judgment for strategic decisions and incident responses.
+    
+    Modern cloud monitoring paradigms and continuous threat exposure approaches emphasize that automation improves detection and response efficiency but must be paired with human risk decisions \citep{Tanimu2023Review,Gupta2023Deep}.
+    
+    \item \textbf{Incremental Maturity}
+    
+    Reflecting the incremental nature of security maturity, SCDF defines four deployment phases that build sequentially. This allows SMEs to achieve incremental risk reduction while learning and allocating resources gradually.
+    
+    Incremental maturity mirrors continuous monitoring and maturity models in cloud security best practices, proposing progressive improvements rather than all-at-once adoption \citep{Abdulsalam2023Security,Sabah2024Cloud}.
+    
+    \item \textbf{Provider Agnosticism with Pragmatic Exceptions}
+    
+    SCDF's controls are designed to be implementable across multiple IaaS platforms, but vendor-specific native controls are permitted when they reduce cost and complexity without compromising security outcomes. This reflects the practical reality that SMEs often prefer cloud-native services for integrated functionality and minimal operational overhead.
+    
+    SME guidance acknowledges that cloud provider native tools can be leveraged effectively to meet baseline security needs with lower cost and integration effort \citep{Sayginer2021Multi,Milhem2025integrated}.
 \end{enumerate}
 
 \subsection{Explicit Trade-Offs}
 \label{subsec:explicit_tradeoffs}
 
-The design of SCDF requires explicit acceptance of trade-offs that prioritize feasibility:
+Deploying security within resource-constrained organizations requires explicit acknowledgement of trade-offs. The following articulates the key tensions SCDF resolves:
 
-\begin{itemize}
-    \item \textbf{Breadth \textit{versus} deployability:} SCDF sacrifices comprehensive coverage of all potential threat vectors in favor of deployable, executable guidance for the most common vectors.
-    \item \textbf{Advanced \textit{versus} baseline protection:} Sophisticated controls (e.g., behavioral analytics, custom threat detection rules) are deferred in favor of foundational controls (e.g., MFA, least-privilege access, network segmentation).
-    \item \textbf{Vendor neutrality \textit{versus} pragmatic efficiency:} While the framework maintains provider-agnostic core principles, the use of platform-specific native controls is explicitly permitted where implementation effort is reduced.
-\end{itemize}
+\textbf{Breadth vs Deployability}
 
-These trade-offs are documented to inform security decisions rather than obscure them. SMEs adopting SCDF should understand what is included and, critically, what remains their responsibility beyond the framework scope.
+SCDF deliberately limits coverage to the most impactful controls initially, postponing niche or advanced capabilities to later phases. The rationale is that controls which remain unimplemented due to complexity offer no protection at all; partial implementation of priority controls enhances risk reduction meaningfully. This trade-off parallels cloud security best-practice guidance that promotes prioritization of high-impact controls (e.g., IAM, logging) before expanding to less impactful domains \citep{Chen2023Securing,Rashid2024Analysis}.
+
+\textbf{Advanced vs Baseline Protection}
+
+Sophisticated detection and analytics (e.g., behavior-based analytics, custom detection rules) are valuable, but are deferred until baseline security, monitoring, and hardening are stable. SCDF prioritizes foundational protections (MFA, least-privilege access, default-deny networking) before introducing complex monitoring that demands more expertise. Cloud monitoring best practices emphasize foundational logging and SIEM readiness before layering advanced analytics for threat hunting \citep{Tanimu2023Review,Gupta2023Deep}.
+
+\textbf{Vendor Neutrality vs Pragmatic Efficiency}
+
+While the framework promotes core principles that are conceptual and provider-agnostic, it endorses the use of vendor-native tools where they are demonstrably easier to implement and maintain. This reflects guidance advocating the pragmatic use of cloud-native security capabilities alongside open-source tooling for SMEs \citep{Sayginer2021Multi,Skafi2020Factors}.
+
+\subsection{Summary of Design Principles and Trade-Offs}
+\label{subsec:design_summary}
+
+The design of SCDF explicitly balances effectiveness and practicality. It embeds core best practices from cloud security literature into a framework that assumes limited resources, limited expertise, and the need for measurable outcomes. The principles are not theoretical ideals but a composition of documented patterns of risk and mitigation strategies validated in cloud security guidance and empirical studies \citep{Al2023Security,Gibreel2023Factors,Trigueros2024Security}.
 
 % ----------------------------------------------------------
 \section{Conceptual Structure of the SCDF}
 \label{sec:conceptual_structure}
 
+The Secure Cloud Deployment Framework (SCDF) organizes its guidance into a three-layer architecture that aligns with established information security principles --- separating governance, control implementation, and operations. This layered approach mirrors the defense-in-depth architecture common in cloud and IT security, where multiple, complementary layers of protection are applied to mitigate threats and reduce attack surface \citep{Chen2023Securing,Al2023Security}.
+
+A layered structure helps SMEs reason about who decides (governance), what is implemented (controls), and how it runs daily (operations), without conflating strategic oversight with tactical execution.
+
 \subsection{Framework Layers}
 \label{subsec:framework_layers}
 
-SCDF is organized into three conceptual layers that separate governance from technical implementation, as illustrated in Figure~\ref{fig:scdf_layers}.
-
-\begin{figure}[htbp]
-    \centering
-    \begin{tikzpicture}[
-        layer/.style={rectangle, rounded corners, minimum width=12cm, minimum height=1.5cm, text centered, font=\small\bfseries},
-        subelement/.style={rectangle, rounded corners, minimum width=3.5cm, minimum height=0.8cm, text centered, font=\scriptsize, fill=white},
-        arrow/.style={->, >=stealth, thick}
-    ]
-        % Governance Layer
-        \node[layer, fill=blue!20] (gov) at (0,4) {Governance Layer};
-        \node[subelement] at (-3,4) {Policies};
-        \node[subelement] at (0,4) {Roles};
-        \node[subelement] at (3,4) {Accountability};
-        
-        % Control Layer
-        \node[layer, fill=green!20] (ctrl) at (0,2) {Control Layer};
-        \node[subelement] at (-4,2) {Identity};
-        \node[subelement] at (-1.3,2) {Network};
-        \node[subelement] at (1.3,2) {Data};
-        \node[subelement] at (4,2) {Monitoring};
-        
-        % Operational Layer
-        \node[layer, fill=orange!20] (ops) at (0,0) {Operational Layer};
-        \node[subelement] at (-3,0) {Workflows};
-        \node[subelement] at (0,0) {Automation};
-        \node[subelement] at (3,0) {Response};
-        
-        % Arrows
-        \draw[arrow] (gov) -- (ctrl);
-        \draw[arrow] (ctrl) -- (ops);
-        
-        % Side labels
-        \node[right, font=\scriptsize\itshape] at (6,4) {Who decides and who is responsible};
-        \node[right, font=\scriptsize\itshape] at (6,2) {What technical controls are implemented};
-        \node[right, font=\scriptsize\itshape] at (6,0) {How controls are executed daily};
-    \end{tikzpicture}
-    \caption{SCDF Three-Layer Architecture}
-    \label{fig:scdf_layers}
-\end{figure}
-
-SCDF is organized into three conceptual layers that separate governance from technical implementation:
+SCDF is structured into the following three core layers:
 
 \begin{enumerate}
-    \item \textbf{Governance Layer:} Defines policies, assigns roles and accountability, and establishes decision authority. This layer addresses the ``who decides'' and ``who is responsible'' questions without prescribing specific technical implementations.
+    \item \textbf{Governance Layer}
     
-    \item \textbf{Control Layer:} Specifies technical and procedural security controls organized by security domain (identity, network, data, compute, monitoring). Each control includes purpose, implementation options, and verification methods.
+    The Governance Layer establishes policies, roles, and accountability mechanisms that guide all other security activities. It answers strategic questions such as:
+    \begin{itemize}
+        \item What security objectives align with the SME's business needs?
+        \item Who is responsible for approving risk decisions?
+        \item What policies govern acceptable use, exceptions, and escalation paths?
+    \end{itemize}
     
-    \item \textbf{Operational Layer:} Provides executable workflows, automation scripts, and response procedures that translate controls into day-to-day operations.
+    This layer is essential for clarifying decision authority, documenting risk acceptance, and ensuring that operational activities are anchored in organizational intent rather than ad-hoc technician decisions. In established cloud and cybersecurity frameworks, governance is recognized as foundational and prerequisite to effective control implementation --- guiding risk appraisal and policy enforcement \citep{Gibreel2023Factors,Trigueros2024Security}.
+    
+    \item \textbf{Control Layer}
+    
+    The Control Layer translates governance directives into technical and procedural controls that protect the SME's cloud environment. It includes:
+    \begin{itemize}
+        \item \textbf{Identity and Access Management (IAM):} Restricting access via secure authentication and least-privilege policies, a control repeatedly identified as foundational in cloud security literature \citep{Tanimu2023Review}.
+        \item \textbf{Network Security:} Firewalls, security groups, and segmentation concepts (including defense-in-depth patterns) to limit unauthorized access \citep{Rashid2024Analysis}.
+        \item \textbf{Data Security:} Use of encryption and access policies to protect sensitive assets.
+        \item \textbf{Monitoring and Logging:} Mechanisms for detecting anomalous behaviors, configuration changes, and potential compromise.
+    \end{itemize}
+    
+    According to cloud security control taxonomies, such layered controls are essential to protect data, compute, and network assets from evolving threats and maintain confidentiality, integrity, and availability \citep{Abdulsalam2023Security,Sabah2024Cloud}.
+    
+    The Control Layer embodies the what --- the set of safeguards that enforce governance policies in the cloud environment.
+    
+    \item \textbf{Operational Layer}
+    
+    The Operational Layer defines executable workflows, automation scripts, and response procedures that translate controls into daily practice. This includes:
+    \begin{itemize}
+        \item Routine security configuration validation
+        \item Scheduled automated scans
+        \item Alert triage and escalation playbooks
+        \item Backup execution and recovery rehearsals
+    \end{itemize}
+    
+    The Operational Layer represents how controls are executed on a recurring basis, enabling SMEs to operationalize security through repeatable and measurable actions. Cloud security best practices emphasize that controls without operational execution --- such as regular scans, alerts, or backups --- achieve little. Embedding detection and response in day-to-day practice is essential for actual risk reduction rather than theoretical compliance \citep{Gupta2023Deep,Milhem2025integrated}.
 \end{enumerate}
 
-This layered structure allows SMEs to implement governance and controls independently of operational capacity, recognizing that some organizations may have policy maturity without implementation capability, while others may implement controls without documented governance.
+\subsubsection{Layer Interaction Model}
+\label{subsubsec:layer_interaction}
+
+The three layers interact through top-down direction and bottom-up feedback:
+\begin{itemize}
+    \item \textbf{Governance informs Controls:} Governance policies and risk decisions define which controls must be implemented and enforced.
+    \item \textbf{Controls shape Operations:} Controls define the operational activities required; operations execute and validate these controls.
+    \item \textbf{Operations feed into Governance:} Operational outcomes (e.g., metrics, incident reports) inform governance reviews and policy updates, ensuring continuous improvement.
+\end{itemize}
+
+This feedback loop echoes iterative cybersecurity lifecycle recommendations found in frameworks like continuous threat exposure management (CTEM), where ongoing validation and adaptation are key to maintaining resilience \citep{Skafi2020Factors,Wilson2015Enablers}.
 
 \subsection{Deployment Phases}
 \label{subsec:deployment_phases}
