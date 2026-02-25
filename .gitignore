@@ -25,3 +25,6 @@
 output.pdf
 # tikz externalization cache
 tikz-cache/
+
+# local distribution artifacts
+/dist/
