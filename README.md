@@ -1,167 +1,103 @@
 # Secure Cloud Deployment Framework for SMEs in Developing Regions
 
-**MSc Thesis in Computing - Information Security and Forensics Track**
+MSc Thesis (Computing — Information Security and Forensics Track)
 
-**Author:** Ahmad Mohamad Al Samaoui  
-**Supervisor:** Dr. Ali El Attar  
-**Institution:** Arab Open University - Lebanon Branch  
-**Faculty:** Faculty of Computer Studies
-
----
+- Author: Ahmad Mohamad Al Samaoui
+- Supervisor: Dr. Ali El Attar
+- Institution: Arab Open University — Lebanon Branch (Faculty of Computer Studies)
 
 ## Overview
 
-This repository contains the complete LaTeX source code and supporting materials for the Master's thesis titled **"Secure Cloud Deployment Framework for SMEs in Developing Regions"**. The research addresses the critical challenges faced by Small and Medium Enterprises (SMEs) in developing regions when adopting cloud technologies, with a particular focus on security, cost-effectiveness, and practical deployment guidance.
+This repository contains the LaTeX source and supporting materials for the thesis **“Secure Cloud Deployment Framework for SMEs in Developing Regions”**. It proposes the **Secure Cloud Deployment Framework (SCDF)**: a pragmatic, risk-driven roadmap for secure IaaS adoption by resource-constrained SMEs.
 
-## Abstract
+## What This Thesis Covers
 
-Small and Medium Enterprises (SMEs) in developing regions face unique challenges when adopting cloud technologies, including limited resources, security concerns, and lack of technical expertise. This thesis proposes the **Secure Cloud Deployment Framework (SCDF)**, a comprehensive framework designed to guide SMEs through secure cloud adoption while addressing their specific contextual constraints.
-
-## Research Focus
-
-The thesis explores:
-- **Cloud Security Challenges** specific to SMEs in developing regions
-- **Cost-Aware Deployment Strategies** for resource-constrained organizations
-- **Practical Security Controls** tailored to SME environments
-- **Empirical Validation** of the proposed framework
-- **Benchmark Analysis** of existing cloud adoption approaches
+- Security barriers to cloud adoption for SMEs (skills, cost, governance, threat exposure)
+- A structured SCDF with phased, incremental implementation guidance
+- Benchmarking and evidence-driven control selection
+- Evaluation approach (simulation- and case study-informed)
 
 ## Repository Structure
 
 ```
-Ahmad_samawi_231116/
-├── Ahmad-Samawi-231116.tex     # Main LaTeX document
-├── README.md                    # This file
-├── glossary.tex                 # Glossary and acronym definitions
-│
-├── Abstract/                    # Thesis abstract
-├── Acknowledgement/             # Acknowledgements section
-├── Dedication/                  # Dedication page
-│
-├── Chapter1/                    # Introduction and background
-├── Chapter2/                    # Literature review and benchmark
-├── Chapter3/                    # Methodology (in development)
-├── Chapter4/                    # Results and analysis (in development)
-├── Conclusions/                 # Conclusions and future work
-│
-├── Appendix1/                   # Additional supporting materials
-├── Appendix2/                   # Additional supporting materials
-│
-├── Figures/                     # Thesis figures and diagrams
-├── References/                  # BibTeX references file
-│
-├── Classes/                     # LaTeX document class files
-├── StyleFiles/                  # Custom style files
-│
-├── Accepted/                    # Accepted/reviewed papers
-├── citation_report*.txt         # Citation tracking reports
-├── Chapter*_Citations_Map.md    # Citation mapping documents
-└── extraction_report.md         # Research extraction notes
+.
+├── Ahmad-Samawi-231116.tex        # Main thesis entrypoint
+├── output.tex                     # Wrapper used for TikZ externalization sub-compiles
+├── Makefile                       # Convenience targets (latexmk)
+├── README.md
+├── glossary.tex
+├── References/references.bib
+├── Figures/
+├── Abstract/  Acknowledgement/  Dedication/
+├── Chapter1/  Chapter2/  Chapter3/  Chapter4/
+├── Conclusions/  Appendix1/  Appendix2/
+├── Chapter*_Citations_Map.md      # Citation mapping
+├── extraction_report.md           # Literature review extraction notes
+└── citation_report*.txt           # Citation tracking reports
 ```
 
-## Building the Document
+## Build (Recommended)
 
-### Prerequisites
+Prerequisites:
 
-- **LaTeX Distribution:** TeX Live, MiKTeX, or MacTeX
-- **Required Packages:** All packages are listed in the main `.tex` file
-- **Bibliography Tool:** BibTeX or Biber
-- **PDF Viewer:** For viewing the compiled output
+- A LaTeX distribution (TeX Live / MacTeX / MiKTeX)
+- `latexmk` (used by the `Makefile`)
 
-### Compilation Instructions
-
-#### Standard Compilation (Command Line)
+Commands:
 
 ```bash
-# Navigate to the project directory
-cd "c:\Users\samaw\OneDrive - Arab Open University - AOU\Final Project\Ahmad_samawi_231116"
-
-# Compile the document (run multiple times for references)
-pdflatex Ahmad-Samawi-231116.tex
-bibtex Ahmad-Samawi-231116
-makeglossaries Ahmad-Samawi-231116
-pdflatex Ahmad-Samawi-231116.tex
-pdflatex Ahmad-Samawi-231116.tex
+make pdf      # build Ahmad-Samawi-231116.pdf
+make fast     # faster/less chatty build (nonstopmode)
+make clean    # remove intermediates (keep PDF)
+make distclean
 ```
 
-#### Using LaTeX Workshop (VS Code)
+Notes:
 
-1. Open `Ahmad-Samawi-231116.tex` in VS Code
-2. Use the LaTeX Workshop extension
-3. Build using the configured recipe (usually Ctrl+Alt+B or Cmd+Alt+B)
+- The build uses `-shell-escape` (needed for TikZ externalization workflows).
+- The thesis has a **FAST MODE** toggle in `Ahmad-Samawi-231116.tex` (`\fasttrue` / `\fastfalse`). In fast mode, glossary generation is skipped; switch to `\fastfalse` for a full/final build.
 
-#### Using Overleaf
+## Build Without `make`
 
-1. Upload the entire project folder to Overleaf
-2. Set `Ahmad-Samawi-231116.tex` as the main document
-3. Compile using the Overleaf interface
+```bash
+latexmk -pdf -shell-escape Ahmad-Samawi-231116.tex
+```
 
-### Output
+If you prefer manual compilation, ensure bibliography + glossary tools are installed and run the appropriate sequence for your setup.
 
-The compilation process generates `Ahmad-Samawi-231116.pdf` containing the complete thesis document.
+## Output PDFs
 
-## Key Features
+- Default output: `Ahmad-Samawi-231116.pdf` (building `Ahmad-Samawi-231116.tex`).
+- You may also see `output.pdf` if you compile `output.tex` (a wrapper used to make TikZ externalization sub-compiles more reliable). Content is the same thesis.
 
-### Research Contributions
+## Overleaf
 
-1. **Comprehensive Literature Review** - Systematic analysis of existing cloud adoption frameworks and security approaches
-2. **Benchmark Analysis** - Comparative evaluation of existing approaches using six key criteria:
-   - Deployment Guidance
-   - Security Control Coverage
-   - Cost Awareness
-   - Automation Support
-   - SME Contextual Suitability
-   - Empirical Validation with Measurable Outcomes
+- Upload the project (or use `dist/overleaf-update.zip` if provided).
+- Set `Ahmad-Samawi-231116.tex` as the main file.
+- If you enable `\fastfalse`, make sure your Overleaf configuration supports the required glossary/bibliography steps.
 
-3. **SCDF Framework** - A novel framework addressing the identified research gaps
+## Status / Included Chapters
 
-### Documentation Tools
+`Ahmad-Samawi-231116.tex` currently includes:
 
-- **Citation Mapping:** Detailed citation maps for each chapter (`Chapter*_Citations_Map.md`)
-- **Quality Reports:** Citation quality and extraction reports
-- **PRISMA Methodology:** Systematic literature review following PRISMA guidelines
+- Front matter (Acknowledgements, Dedication, Abstract)
+- Chapter 1, Chapter 2, Chapter 3
 
-## Research Methodology
+Chapter 4, Conclusions, and Appendices exist in the repository but are currently commented out in the main file and won’t appear in the compiled PDF unless you enable them.
 
-The research employs:
-- **Systematic Literature Review** using PRISMA methodology
-- **Benchmark Analysis** of existing approaches
-- **Framework Development** based on identified gaps
-- **Empirical Validation** (planned)
+## Version Control Notes
 
-## Keywords
-
-Cloud Security, SMEs, Developing Regions, SCDF, Cloud Adoption, Information Security, Security Framework, Cost-Aware Deployment, Small and Medium Enterprises
-
-## Version Control
-
-This project uses Git for version control. The `.gitignore` file is configured to exclude:
-- LaTeX auxiliary files (`.aux`, `.log`, `.toc`, etc.)
-- Compiled PDFs (optional, based on preference)
-- Temporary files
+The repository is set up to keep generated artifacts out of Git (LaTeX intermediates, `tikz-cache/`, `dist/`, and PDFs such as `output.pdf`).
 
 ## License
 
-This work is submitted in partial fulfillment of the requirements for the MSc in Computing - Information Security and Forensics Track at the Arab Open University.
+© 2026 Ahmad Mohamad Al Samaoui. All rights reserved.
 
-**© 2026 Ahmad Mohamad Al Samaoui. All rights reserved.**
+If you want to reuse figures/text or build on the framework, please contact the author.
 
 ## Contact
 
-For questions or collaboration inquiries, please contact:
-- **Author:** Ahmad Mohamad Al Samaoui
-- **Institution:** Arab Open University - Lebanon Branch
-- **Supervisor:** Dr. Ali El Attar
+- Ahmad Mohamad Al Samaoui
+- Arab Open University — Lebanon Branch
 
-## Acknowledgments
-
-Special thanks to:
-- Dr. Ali El Attar for supervision and guidance
-- The Faculty of Computer Studies at Arab Open University
-- All contributors and reviewers who provided valuable feedback
-
----
-
-**Last Updated:** February 2026  
-**Status:** Work in Progress  
-**Current Version:** Draft (Chapters 1-2 Complete)
+Last updated: February 26, 2026
